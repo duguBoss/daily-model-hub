@@ -1,16 +1,16 @@
-name: HuggingFace JSON Crawler
+name: AI HuggingFace Tracker
 
 on:
   schedule:
-    # 每天 UTC 时间 0:00 (北京时间早上 8:00) 触发
+    # 每天北京时间早上 8:00 执行
     - cron: '0 0 * * *'
-  workflow_dispatch: # 允许手动点击触发
+  workflow_dispatch: 
 
 jobs:
   run-crawler:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 必须：允许机器人推送代码到仓库
+      contents: write # 必须权限：推送 Commit
     
     steps:
       - name: Checkout Code
@@ -26,23 +26,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           
-      - name: Run HF Crawler
+      - name: Run HF Crawler & AI Summarizer
+        env:
+          # 注入你的 GitHub Secrets
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python crawler.py
         
-      - name: Commit and Push JSON files
+      - name: Commit and Push JSON and Icons
         run: |
-          # 配置 Git 机器人的账户信息
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 获取当天的日期作为文件夹名称 (格式: YYYY-MM-DD)
           TODAY=$(date -u +'%Y-%m-%d')
           
-          # 将今天生成的文件夹添加到 Git
+          # 添加生成的当天日期文件夹 (内部包含 .json 和 icons/ 目录)
           git add "$TODAY/"
           
-          # 提交更改 (如果没有任何更新，加上 || echo 避免 Actions 报错退出)
-          git commit -m "🤖 Auto update HuggingFace models data for $TODAY" || echo "No changes to commit today."
-          
-          # 推送到当前分支
+          git commit -m "🚀 Auto Add: AI Summarized models and icons for $TODAY" || echo "No changes to commit today."
           git push
