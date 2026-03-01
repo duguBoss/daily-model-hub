@@ -1,0 +1,599 @@
+{
+    "date": "2026-03-01",
+    "category": "Reinforcement_Learning",
+    "total_updates": 74,
+    "models": [
+        {
+            "id": "Goncho50/Huggy",
+            "url": "https://huggingface.co/Goncho50/Huggy",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is a trained model of a **ppo** agent playing **Huggy** using the [Unity ML-Agents Library](https://github.com/Unity-Technologies/ml-agents). The Documentation: https://unity-technologies.github...."
+        },
+        {
+            "id": "DocPereira/PEAL_V4_LHP_Zero_Entropy_Controlled",
+            "url": "https://huggingface.co/DocPereira/PEAL_V4_LHP_Zero_Entropy_Controlled",
+            "task": "reinforcement-learning",
+            "downloads": 405,
+            "likes": 0,
+            "description": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18455206.svg)](https://doi.org/10.5281/zenodo.18455206) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18460628.svg)](https://doi.org/10.5281/z..."
+        },
+        {
+            "id": "dmayboroda/dh_ministal_gpro",
+            "url": "https://huggingface.co/dmayboroda/dh_ministal_gpro",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "LoRA adapter for [mistralai/Ministral-3-8B-Instruct-2512-BF16](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-BF16), fine-tuned with GRPO to play Duck Hunt. The adapter produces Mistral..."
+        },
+        {
+            "id": "naimgerges/ppo-SoccerTwos",
+            "url": "https://huggingface.co/naimgerges/ppo-SoccerTwos",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Final surgical fix for Unit 7 Honors Certification. Multi-agent Reinforcement Learning (MARL) agent for SoccerTwos...."
+        },
+        {
+            "id": "naimgerges/rl_course_vizdoom_health_gathering_supreme",
+            "url": "https://huggingface.co/naimgerges/rl_course_vizdoom_health_gathering_supreme",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Surgical fix for Unit 8 PII Honors Certification. Agent trained using Sample Factory to play ViZDoom Health Gathering...."
+        },
+        {
+            "id": "naimgerges/ppo-Pyramids",
+            "url": "https://huggingface.co/naimgerges/ppo-Pyramids",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Surgical fix for Unit 5...."
+        },
+        {
+            "id": "naimgerges/ppo-SnowballTarget",
+            "url": "https://huggingface.co/naimgerges/ppo-SnowballTarget",
+            "task": "reinforcement-learning",
+            "downloads": 12,
+            "likes": 0,
+            "description": "Surgical fix for Unit 5...."
+        },
+        {
+            "id": "naimgerges/ppo-CartPole-v1",
+            "url": "https://huggingface.co/naimgerges/ppo-CartPole-v1",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Surgical fix for Unit 4 certification. Trained agent for CartPole-v1...."
+        },
+        {
+            "id": "naimgerges/q-Taxi-v3",
+            "url": "https://huggingface.co/naimgerges/q-Taxi-v3",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Surgical fix for Unit 2 certification. This agent was trained using Q-Learning on the Taxi-v3 environment...."
+        },
+        {
+            "id": "naimgerges/rl-doom-health-gathering-supreme",
+            "url": "https://huggingface.co/naimgerges/rl-doom-health-gathering-supreme",
+            "task": "reinforcement-learning",
+            "downloads": 50,
+            "likes": 0,
+            "description": "Final Honors Certification Sync...."
+        },
+        {
+            "id": "naimgerges/ml-agents-soccer-twos",
+            "url": "https://huggingface.co/naimgerges/ml-agents-soccer-twos",
+            "task": "reinforcement-learning",
+            "downloads": 2,
+            "likes": 0,
+            "description": "Certified...."
+        },
+        {
+            "id": "naimgerges/Reinforce-CartPole-v1",
+            "url": "https://huggingface.co/naimgerges/Reinforce-CartPole-v1",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Certified...."
+        },
+        {
+            "id": "naimgerges/dqn-SpaceInvadersNoFrameskip-v4",
+            "url": "https://huggingface.co/naimgerges/dqn-SpaceInvadersNoFrameskip-v4",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Certified for Deep RL Course...."
+        },
+        {
+            "id": "naimgerges/ppo-LunarLander-v3",
+            "url": "https://huggingface.co/naimgerges/ppo-LunarLander-v3",
+            "task": "reinforcement-learning",
+            "downloads": 70,
+            "likes": 0,
+            "description": "Certified for Deep RL Course...."
+        },
+        {
+            "id": "mradermacher/MediX-R1-8B-i1-GGUF",
+            "url": "https://huggingface.co/mradermacher/MediX-R1-8B-i1-GGUF",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "weighted/imatrix quants of https://huggingface.co/MBZUAI/MediX-R1-8B ***For a convenient overview and download list, visit our [model page for this model](https://hf.tst.eu/model#MediX-R1-8B-i1-GGUF)...."
+        },
+        {
+            "id": "mradermacher/MediX-R1-8B-GGUF",
+            "url": "https://huggingface.co/mradermacher/MediX-R1-8B-GGUF",
+            "task": "reinforcement-learning",
+            "downloads": 499,
+            "likes": 0,
+            "description": "static quants of https://huggingface.co/MBZUAI/MediX-R1-8B ***For a convenient overview and download list, visit our [model page for this model](https://hf.tst.eu/model#MediX-R1-8B-GGUF).*** weighted/..."
+        },
+        {
+            "id": "mradermacher/MediX-R1-2B-i1-GGUF",
+            "url": "https://huggingface.co/mradermacher/MediX-R1-2B-i1-GGUF",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "weighted/imatrix quants of https://huggingface.co/MBZUAI/MediX-R1-2B ***For a convenient overview and download list, visit our [model page for this model](https://hf.tst.eu/model#MediX-R1-2B-i1-GGUF)...."
+        },
+        {
+            "id": "mradermacher/MediX-R1-2B-GGUF",
+            "url": "https://huggingface.co/mradermacher/MediX-R1-2B-GGUF",
+            "task": "reinforcement-learning",
+            "downloads": 284,
+            "likes": 0,
+            "description": "static quants of https://huggingface.co/MBZUAI/MediX-R1-2B ***For a convenient overview and download list, visit our [model page for this model](https://hf.tst.eu/model#MediX-R1-2B-GGUF).*** weighted/..."
+        },
+        {
+            "id": "harish36/ppo-LunarLander-v2",
+            "url": "https://huggingface.co/harish36/ppo-LunarLander-v2",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is a trained model of a **PPO** agent playing **LunarLander-v2** using the [stable-baselines3 library](https://github.com/DLR-RM/stable-baselines3). TODO: Add your code ```python from stable_base..."
+        },
+        {
+            "id": "mttpv/Reinforce-Pixelcopter-PLE-v0",
+            "url": "https://huggingface.co/mttpv/Reinforce-Pixelcopter-PLE-v0",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is a trained model of a **Reinforce** agent playing **Pixelcopter-PLE-v0** . To learn to use this model and train yours check Unit 4 of the Deep Reinforcement Learning Course: https://huggingface..."
+        },
+        {
+            "id": "brandonlanexyz/dualist",
+            "url": "https://huggingface.co/brandonlanexyz/dualist",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Dualist is a high-performance Othello (Reversi) AI model trained using a **Deep Residual Neural Network** architecture. It was developed as part of a hybrid learning project where a bitboard-based eng..."
+        },
+        {
+            "id": "y-ohtani/GRPO-TCR-Qwen3-4B-quarter",
+            "url": "https://huggingface.co/y-ohtani/GRPO-TCR-Qwen3-4B-quarter",
+            "task": "reinforcement-learning",
+            "downloads": 0,
+            "likes": 0,
+            "description": "GRPO-TCR-Qwen3-4B trained on 1/4 data (490 samples, 3 epochs, step 366). Settings: lr=1e-6, train_batch=4, n_resp=8, ppo_mini_batch=1, max_resp_len=10480, max_turns=16, overlong_buffer=3000. Base: qwe..."
+        },
+        {
+            "id": "Walidtmmm/a2c-panda-reach",
+            "url": "https://huggingface.co/Walidtmmm/a2c-panda-reach",
+            "task": "reinforcement-learning",
+            "downloads": 32,
+            "likes": 0,
+            "description": "library_name: stable-baselines3 tags: model-index: results: type: reinforcement-learning name: reinforcement-learning dataset: name: PandaReachJointsDense-v3 type: PandaReachJointsDense-v3 metrics: va..."
+        },
+        {
+            "id": "talebzeghmi/ppo-SnowballTarget",
+            "url": "https://huggingface.co/talebzeghmi/ppo-SnowballTarget",
+            "task": "reinforcement-learning",
+            "downloads": 67,
+            "likes": 0,
+            "description": "This is a trained model of a **ppo** agent playing **Pyramids** using the [Unity ML-Agents Library](https://github.com/Unity-Technologies/ml-agents). The Documentation: https://unity-technologies.gith..."
+        },
+        {
+            "id": "WillMandil001/pi05_cube_grasping_06_500_tiny_randomisation",
+            "url": "https://huggingface.co/WillMandil001/pi05_cube_grasping_06_500_tiny_randomisation",
+            "task": "robotics",
+            "downloads": 22,
+            "likes": 0,
+            "description": "**π₀.₅ (Pi05) Policy** π₀.₅ is a Vision-Language-Action model with open-world generalization, from Physical Intelligence. The LeRobot implementation is adapted from their open source OpenPI repository..."
+        },
+        {
+            "id": "arclabmit/xarm7_mact_beavrsim_shell_game_model",
+            "url": "https://huggingface.co/arclabmit/xarm7_mact_beavrsim_shell_game_model",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "_Model type not recognized — please update this template._ This policy has been trained and pushed to the Hub using [LeRobot](https://github.com/huggingface/lerobot). See the full documentation at [Le..."
+        },
+        {
+            "id": "ariefansclub/han-humanoid-navigation-risk-index-v1",
+            "url": "https://huggingface.co/ariefansclub/han-humanoid-navigation-risk-index-v1",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Dataset analisis risiko navigasi di lingkungan dinamis...."
+        },
+        {
+            "id": "JunnDooChoi/pi05_libero_finetuned_group_gripper_fourie",
+            "url": "https://huggingface.co/JunnDooChoi/pi05_libero_finetuned_group_gripper_fourie",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "**π₀.₅ (Pi05) Policy** π₀.₅ is a Vision-Language-Action model with open-world generalization, from Physical Intelligence. The LeRobot implementation is adapted from their open source OpenPI repository..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs8_k50_lr3em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs8_k50_lr3em5_wd1em4",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "rvirtaha/sock-pickup-vla",
+            "url": "https://huggingface.co/rvirtaha/sock-pickup-vla",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[SmolVLA](https://huggingface.co/papers/2506.01844) is a compact, efficient vision-language-action model that achieves competitive performance at reduced computational costs and can be deployed on con..."
+        },
+        {
+            "id": "SiddharthS2K01/act_ur5_pick_place_sim_250k",
+            "url": "https://huggingface.co/SiddharthS2K01/act_ur5_pick_place_sim_250k",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "rvirtaha/sock-pickup-act",
+            "url": "https://huggingface.co/rvirtaha/sock-pickup-act",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "DorianAtSchool/color_relay_classification_observer",
+            "url": "https://huggingface.co/DorianAtSchool/color_relay_classification_observer",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[SmolVLA](https://huggingface.co/papers/2506.01844) is a compact, efficient vision-language-action model that achieves competitive performance at reduced computational costs and can be deployed on con..."
+        },
+        {
+            "id": "DorianAtSchool/smolvla_base_color_relay_observer_mixed_training_gradient_insulation_attn",
+            "url": "https://huggingface.co/DorianAtSchool/smolvla_base_color_relay_observer_mixed_training_gradient_insulation_attn",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[SmolVLA](https://huggingface.co/papers/2506.01844) is a compact, efficient vision-language-action model that achieves competitive performance at reduced computational costs and can be deployed on con..."
+        },
+        {
+            "id": "griffinnosidda/pi05_glove",
+            "url": "https://huggingface.co/griffinnosidda/pi05_glove",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "**π₀.₅ (Pi05) Policy** π₀.₅ is a Vision-Language-Action model with open-world generalization, from Physical Intelligence. The LeRobot implementation is adapted from their open source OpenPI repository..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs8_k50_lr1em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs8_k50_lr1em5_wd1em4",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs8_k25_lr3em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs8_k25_lr3em5_wd1em4",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_together_act_act_30000steps_bs4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_together_act_act_30000steps_bs4",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "DorianAtSchool/smolvla_autoscript_executor_base_scripted",
+            "url": "https://huggingface.co/DorianAtSchool/smolvla_autoscript_executor_base_scripted",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[SmolVLA](https://huggingface.co/papers/2506.01844) is a compact, efficient vision-language-action model that achieves competitive performance at reduced computational costs and can be deployed on con..."
+        },
+        {
+            "id": "bitcurio/my_act_policy",
+            "url": "https://huggingface.co/bitcurio/my_act_policy",
+            "task": "robotics",
+            "downloads": 59,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "mjung11/nc_smolbase_lora64_pineapple_pot_sb_kkt_sb_sj_merge",
+            "url": "https://huggingface.co/mjung11/nc_smolbase_lora64_pineapple_pot_sb_kkt_sb_sj_merge",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[SmolVLA](https://huggingface.co/papers/2506.01844) is a compact, efficient vision-language-action model that achieves competitive performance at reduced computational costs and can be deployed on con..."
+        },
+        {
+            "id": "btelles/policy-test-7",
+            "url": "https://huggingface.co/btelles/policy-test-7",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_together_act_act_100steps_bs4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_together_act_act_100steps_bs4",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "oscarz511/home_to_close",
+            "url": "https://huggingface.co/oscarz511/home_to_close",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "Faless/xvla-harvest-noee-right-mix",
+            "url": "https://huggingface.co/Faless/xvla-harvest-noee-right-mix",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "_Model type not recognized — please update this template._ This policy has been trained and pushed to the Hub using [LeRobot](https://github.com/huggingface/lerobot). See the full documentation at [Le..."
+        },
+        {
+            "id": "satvikahuja/act_cube3_dist1_verify",
+            "url": "https://huggingface.co/satvikahuja/act_cube3_dist1_verify",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs8_k25_lr1em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs8_k25_lr1em5_wd1em4",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "lerobot-data-collection/ablation2-1_100k_q",
+            "url": "https://huggingface.co/lerobot-data-collection/ablation2-1_100k_q",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "**π₀.₅ (Pi05) Policy** π₀.₅ is a Vision-Language-Action model with open-world generalization, from Physical Intelligence. The LeRobot implementation is adapted from their open source OpenPI repository..."
+        },
+        {
+            "id": "lerobot-data-collection/ablation2-2_100k",
+            "url": "https://huggingface.co/lerobot-data-collection/ablation2-2_100k",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "**π₀.₅ (Pi05) Policy** π₀.₅ is a Vision-Language-Action model with open-world generalization, from Physical Intelligence. The LeRobot implementation is adapted from their open source OpenPI repository..."
+        },
+        {
+            "id": "lerobot-data-collection/ablation2-4_100k_q",
+            "url": "https://huggingface.co/lerobot-data-collection/ablation2-4_100k_q",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "**π₀.₅ (Pi05) Policy** π₀.₅ is a Vision-Language-Action model with open-world generalization, from Physical Intelligence. The LeRobot implementation is adapted from their open source OpenPI repository..."
+        },
+        {
+            "id": "griffinnosidda/act_glove",
+            "url": "https://huggingface.co/griffinnosidda/act_glove",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "GongDa/your_repo_id",
+            "url": "https://huggingface.co/GongDa/your_repo_id",
+            "task": "robotics",
+            "downloads": 40,
+            "likes": 0,
+            "description": "**π₀.₅ (Pi05) Policy** π₀.₅ is a Vision-Language-Action model with open-world generalization, from Physical Intelligence. The LeRobot implementation is adapted from their open source OpenPI repository..."
+        },
+        {
+            "id": "LesserNeoguri/xvla_ccrdd150_base_v2_64",
+            "url": "https://huggingface.co/LesserNeoguri/xvla_ccrdd150_base_v2_64",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "_Model type not recognized — please update this template._ This policy has been trained and pushed to the Hub using [LeRobot](https://github.com/huggingface/lerobot). See the full documentation at [Le..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs4_k100_lr3em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs4_k100_lr3em5_wd1em4",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs4_k100_lr1em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs4_k100_lr1em5_wd1em4",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "Eason1995/pi05_0211-1_2nd",
+            "url": "https://huggingface.co/Eason1995/pi05_0211-1_2nd",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "**π₀.₅ (Pi05) Policy** π₀.₅ is a Vision-Language-Action model with open-world generalization, from Physical Intelligence. The LeRobot implementation is adapted from their open source OpenPI repository..."
+        },
+        {
+            "id": "DorianAtSchool/color_relay_observer_freeze_non_comm_last_token_3",
+            "url": "https://huggingface.co/DorianAtSchool/color_relay_observer_freeze_non_comm_last_token_3",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[SmolVLA](https://huggingface.co/papers/2506.01844) is a compact, efficient vision-language-action model that achieves competitive performance at reduced computational costs and can be deployed on con..."
+        },
+        {
+            "id": "nikriz/smolvla_align_libero_base_layer12",
+            "url": "https://huggingface.co/nikriz/smolvla_align_libero_base_layer12",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "description": "_Model type not recognized — please update this template._ This policy has been trained and pushed to the Hub using [LeRobot](https://github.com/huggingface/lerobot). See the full documentation at [Le..."
+        },
+        {
+            "id": "maum-ai/CostNav_baseline",
+            "url": "https://huggingface.co/maum-ai/CostNav_baseline",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 1,
+            "description": "Baseline model checkpoints for [CostNav](https://github.com/worv-ai/CostNav). Please refer to the [CostNav GitHub repository](https://github.com/worv-ai/CostNav) for setup instructions and usage detai..."
+        },
+        {
+            "id": "Oiki123/act_pick_aug_50k",
+            "url": "https://huggingface.co/Oiki123/act_pick_aug_50k",
+            "task": "robotics",
+            "downloads": 10,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "Jinn686/my_act_policy",
+            "url": "https://huggingface.co/Jinn686/my_act_policy",
+            "task": "robotics",
+            "downloads": 27,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs4_k75_lr1em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs4_k75_lr1em5_wd1em4",
+            "task": "robotics",
+            "downloads": 24,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs4_k75_lr3em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs4_k75_lr3em5_wd1em4",
+            "task": "robotics",
+            "downloads": 24,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs4_k50_lr3em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs4_k50_lr3em5_wd1em4",
+            "task": "robotics",
+            "downloads": 24,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "Oiki123/act_so101_pick",
+            "url": "https://huggingface.co/Oiki123/act_so101_pick",
+            "task": "robotics",
+            "downloads": 41,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "mjung11/nc_smolbase_lora64_pineapple_pot_sb_sj_A",
+            "url": "https://huggingface.co/mjung11/nc_smolbase_lora64_pineapple_pot_sb_sj_A",
+            "task": "robotics",
+            "downloads": 23,
+            "likes": 0,
+            "description": "[SmolVLA](https://huggingface.co/papers/2506.01844) is a compact, efficient vision-language-action model that achieves competitive performance at reduced computational costs and can be deployed on con..."
+        },
+        {
+            "id": "jasminen/c01",
+            "url": "https://huggingface.co/jasminen/c01",
+            "task": "robotics",
+            "downloads": 69,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "Oiki123/act_pick_noaug_50k",
+            "url": "https://huggingface.co/Oiki123/act_pick_noaug_50k",
+            "task": "robotics",
+            "downloads": 27,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "JiangHu0/act_policy",
+            "url": "https://huggingface.co/JiangHu0/act_policy",
+            "task": "robotics",
+            "downloads": 90,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs4_k50_lr1em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs4_k50_lr1em5_wd1em4",
+            "task": "robotics",
+            "downloads": 23,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs4_k25_lr1em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs4_k25_lr1em5_wd1em4",
+            "task": "robotics",
+            "downloads": 24,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "kugelblytz/so101_fill_cup_unified_act_bs4_k25_lr3em5_wd1em4",
+            "url": "https://huggingface.co/kugelblytz/so101_fill_cup_unified_act_bs4_k25_lr3em5_wd1em4",
+            "task": "robotics",
+            "downloads": 30,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        },
+        {
+            "id": "DorianAtSchool/color_relay_observer_freeze_non_comm_last_token_2",
+            "url": "https://huggingface.co/DorianAtSchool/color_relay_observer_freeze_non_comm_last_token_2",
+            "task": "robotics",
+            "downloads": 24,
+            "likes": 0,
+            "description": "[SmolVLA](https://huggingface.co/papers/2506.01844) is a compact, efficient vision-language-action model that achieves competitive performance at reduced computational costs and can be deployed on con..."
+        },
+        {
+            "id": "wok2fis/act_record-test-v160",
+            "url": "https://huggingface.co/wok2fis/act_record-test-v160",
+            "task": "robotics",
+            "downloads": 53,
+            "likes": 0,
+            "description": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that predicts short action chunks instead of single steps. It learns from teleoperat..."
+        }
+    ]
+}

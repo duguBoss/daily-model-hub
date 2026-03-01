@@ -1,0 +1,359 @@
+{
+    "date": "2026-03-01",
+    "category": "Multimodal",
+    "total_updates": 44,
+    "models": [
+        {
+            "id": "nightmedia/Qwen3.5-27b-Opus-4.6-Distill-qx64-hi-mlx",
+            "url": "https://huggingface.co/nightmedia/Qwen3.5-27b-Opus-4.6-Distill-qx64-hi-mlx",
+            "task": "image-text-to-text",
+            "downloads": 8,
+            "likes": 0,
+            "description": "Brainwaves ```brainwaves arc   arc/e qx86-hi   0.458,0.544 qx64-hi   0.459,0.542,0.724,0.764,0.402,0.790,0.783 Perplexity qx86-hi   3.519 ± 0.021 qx64-hi   3.553 ± 0.021 Qwen3.5-27B-Text qx86-hi   0.4..."
+        },
+        {
+            "id": "kavinh07/nid-ocr-vit-mbart50",
+            "url": "https://huggingface.co/kavinh07/nid-ocr-vit-mbart50",
+            "task": "image-text-to-text",
+            "downloads": 666,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [microsoft/trocr-base-stage1](https://huggingface.co/microsoft/trocr-base-stage1) on an u..."
+        },
+        {
+            "id": "Entity-27th/Magnum-Opus-35B-A3B",
+            "url": "https://huggingface.co/Entity-27th/Magnum-Opus-35B-A3B",
+            "task": "image-text-to-text",
+            "downloads": 89,
+            "likes": 1,
+            "description": "This qwen3_5_moe model was trained 2x faster with [Unsloth](https://github.com/unslothai/unsloth) and Huggingface's TRL library. [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/ima..."
+        },
+        {
+            "id": "DavidAU/Qwen3.5-27B-Gemini3-Pro-High-Reasoning-Compact-Thinking",
+            "url": "https://huggingface.co/DavidAU/Qwen3.5-27B-Gemini3-Pro-High-Reasoning-Compact-Thinking",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 1,
+            "description": "暂无模型介绍（可能为无 README 的私有/空白模型）。"
+        },
+        {
+            "id": "mrkrak3n/unsloth_finetune_e3",
+            "url": "https://huggingface.co/mrkrak3n/unsloth_finetune_e3",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This qwen3_vl model was trained 2x faster with [Unsloth](https://github.com/unslothai/unsloth) and Huggingface's TRL library. [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images..."
+        },
+        {
+            "id": "Sabomako/Qwen3.5-122B-A10B-heretic-GGUF",
+            "url": "https://huggingface.co/Sabomako/Qwen3.5-122B-A10B-heretic-GGUF",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "作者未提供纯文本说明，或说明由纯图表构成。"
+        },
+        {
+            "id": "nopesadly/GLM-OCR-Q4_K_M.gguf",
+            "url": "https://huggingface.co/nopesadly/GLM-OCR-Q4_K_M.gguf",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "作者未提供纯文本说明，或说明由纯图表构成。"
+        },
+        {
+            "id": "Sasaleb24/Qwen2.5-VL-7B-Instruct",
+            "url": "https://huggingface.co/Sasaleb24/Qwen2.5-VL-7B-Instruct",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "license: apache-2.0 language: pipeline_tag: image-text-to-text tags: library_name: transformers In the past five months since Qwen2-VL’s release, numerous developers have built new models on the Qwen2..."
+        },
+        {
+            "id": "ningpp/GOT-OCR-2.0",
+            "url": "https://huggingface.co/ningpp/GOT-OCR-2.0",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Flux is a Java-based OCR [🤗 Spaces Demo](https://huggingface.co/spaces/yonigozlan/GOT-OCR-Transformers) | [🌟GitHub](https://github.com/Ucas-HaoranWei/GOT-OCR2.0/) | [📜Paper](https://arxiv.org/abs/2409..."
+        },
+        {
+            "id": "fractaldactal/Kimi-K2.5",
+            "url": "https://huggingface.co/fractaldactal/Kimi-K2.5",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Kimi K2.5 is an open-source, native multimodal agentic model built through continual pretraining on approximately 15 trillion mixed visual and text tokens atop Kimi-K2-Base. It seamlessly integrates v..."
+        },
+        {
+            "id": "senga-ml/header-model-01-03",
+            "url": "https://huggingface.co/senga-ml/header-model-01-03",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "RostislavG/Huihui-Qwen3.5-35B-A3B-abliterated",
+            "url": "https://huggingface.co/RostislavG/Huihui-Qwen3.5-35B-A3B-abliterated",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is an uncensored version of [Qwen/Qwen3.5-35B-A3B](https://huggingface.co/Qwen/Qwen3.5-35B-A3B) created with abliteration (see [remove-refusals-with-transformers](https://github.com/Sumandora/rem..."
+        },
+        {
+            "id": "euhidaman/EmberVLM-Episode",
+            "url": "https://huggingface.co/euhidaman/EmberVLM-Episode",
+            "task": "image-text-to-text",
+            "downloads": 14,
+            "likes": 0,
+            "description": "**🔥 Efficient Vision-Language Model for Edge Deployment & Robotic Applications** This model is currently in training - **STAGE2 (Epoch 2)**. EmberVLM follows a 4-stage training curriculum: 1. ✅ **Stag..."
+        },
+        {
+            "id": "MuXodious/gemma-3-27b-it-PaperWitch-heresy",
+            "url": "https://huggingface.co/MuXodious/gemma-3-27b-it-PaperWitch-heresy",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "**Model Page**: [Gemma](https://ai.google.dev/gemma/docs/core) **Resources and Technical Documentation**: * [Gemma 3 Technical Report][g3-tech-report] * [Responsible Generative AI Toolkit][rai-toolkit..."
+        },
+        {
+            "id": "MuXodious/gemma-3n-E4B-it-PaperWitch-heresy",
+            "url": "https://huggingface.co/MuXodious/gemma-3n-E4B-it-PaperWitch-heresy",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "The nested MatFormer structure of the model proves it difficult to ablate efficiently. Compared to the previous standard and MPOA versions, this version has ~%30 reduced KLD and, in theory, conducing ..."
+        },
+        {
+            "id": "cyankiwi/Qwen3.5-122B-A10B-AWQ-4bit",
+            "url": "https://huggingface.co/cyankiwi/Qwen3.5-122B-A10B-AWQ-4bit",
+            "task": "image-text-to-text",
+            "downloads": 35805,
+            "likes": 15,
+            "description": "[![Qwen Chat](https://img.shields.io/badge/%F0%9F%92%9C%EF%B8%8F%20Qwen%20Chat%20-536af5)](https://chat.qwen.ai) Over recent months, we have intensified our focus on developing foundation models that ..."
+        },
+        {
+            "id": "Misraj/Baseer__Nakba",
+            "url": "https://huggingface.co/Misraj/Baseer__Nakba",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository contains the model weights and inference pipeline for our submission to the NAKBA NLP 2026 Arabic Handwritten Text Recognition (HTR) competition. Our approach adapts the 3B-parameter [..."
+        },
+        {
+            "id": "KilomAkel/Qwentest",
+            "url": "https://huggingface.co/KilomAkel/Qwentest",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[![Qwen Chat](https://img.shields.io/badge/%F0%9F%92%9C%EF%B8%8F%20Qwen%20Chat%20-536af5)](https://chat.qwen.ai) Over recent months, we have intensified our focus on developing foundation models that ..."
+        },
+        {
+            "id": "KilomAkel/Huihui-Qwen3.5-35B-A3B-abliterated",
+            "url": "https://huggingface.co/KilomAkel/Huihui-Qwen3.5-35B-A3B-abliterated",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is an uncensored version of [Qwen/Qwen3.5-35B-A3B](https://huggingface.co/Qwen/Qwen3.5-35B-A3B) created with abliteration (see [remove-refusals-with-transformers](https://github.com/Sumandora/rem..."
+        },
+        {
+            "id": "cyankiwi/Qwen3.5-122B-A10B-AWQ-8bit",
+            "url": "https://huggingface.co/cyankiwi/Qwen3.5-122B-A10B-AWQ-8bit",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[![Qwen Chat](https://img.shields.io/badge/%F0%9F%92%9C%EF%B8%8F%20Qwen%20Chat%20-536af5)](https://chat.qwen.ai) Over recent months, we have intensified our focus on developing foundation models that ..."
+        },
+        {
+            "id": "MuXodious/Qwen3.5-27B-tainted-heresy",
+            "url": "https://huggingface.co/MuXodious/Qwen3.5-27B-tainted-heresy",
+            "task": "image-text-to-text",
+            "downloads": 33,
+            "likes": 1,
+            "description": "This is a **Qwen3.5-27B** fine-tune, produced through P-E-W's [Heretic](https://github.com/p-e-w/heretic) (v1.2.0) abliteration engine with [Magnitude-Preserving Orthogonal Ablation](https://github.co..."
+        },
+        {
+            "id": "alibayram/magibu-q26b",
+            "url": "https://huggingface.co/alibayram/magibu-q26b",
+            "task": "image-text-to-text",
+            "downloads": 127,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "ajaybadri/ministral3-3b-lora-production-b200-merged",
+            "url": "https://huggingface.co/ajaybadri/ministral3-3b-lora-production-b200-merged",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "csalab/csai-qwen3.5-27b",
+            "url": "https://huggingface.co/csalab/csai-qwen3.5-27b",
+            "task": "image-text-to-text",
+            "downloads": 84,
+            "likes": 0,
+            "description": "This qwen3_5 model was trained 2x faster with [Unsloth](https://github.com/unslothai/unsloth) and Huggingface's TRL library. [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/..."
+        },
+        {
+            "id": "trohrbaugh/Qwen3.5-122B-A10B-heretic",
+            "url": "https://huggingface.co/trohrbaugh/Qwen3.5-122B-A10B-heretic",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 3,
+            "description": "[![Qwen Chat](https://img.shields.io/badge/%F0%9F%92%9C%EF%B8%8F%20Qwen%20Chat%20-536af5)](https://chat.qwen.ai) Over recent months, we have intensified our focus on developing foundation models that ..."
+        },
+        {
+            "id": "zpy777/FIRM-Gen-8B",
+            "url": "https://huggingface.co/zpy777/FIRM-Gen-8B",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [Qwen/Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) on the gen_..."
+        },
+        {
+            "id": "zpy777/FIRM-Edit-8B",
+            "url": "https://huggingface.co/zpy777/FIRM-Edit-8B",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [Qwen/Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) on the inst..."
+        },
+        {
+            "id": "lugman-madhiai/Ministral3-8B-TDP-No-Interleaved",
+            "url": "https://huggingface.co/lugman-madhiai/Ministral3-8B-TDP-No-Interleaved",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This mistral3 model was trained 2x faster with [Unsloth](https://github.com/unslothai/unsloth) and Huggingface's TRL library. [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images..."
+        },
+        {
+            "id": "Hoffman37/20260301gemma3-12b-toolbench",
+            "url": "https://huggingface.co/Hoffman37/20260301gemma3-12b-toolbench",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This gemma3 model was trained 2x faster with [Unsloth](https://github.com/unslothai/unsloth) and Huggingface's TRL library. [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/u..."
+        },
+        {
+            "id": "llmfan46/Qwen3.5-27B-heretic-v1",
+            "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-heretic-v1",
+            "task": "image-text-to-text",
+            "downloads": 174,
+            "likes": 2,
+            "description": "A significantly improved version is available here: [llmfan46/Qwen3.5-27B-heretic-v2](https://huggingface.co/llmfan46/Qwen3.5-27B-heretic-v2), Qwen3.5-27B-heretic-v2 achieves 3/100 refusals (vs 33/100..."
+        },
+        {
+            "id": "llmfan46/Qwen3.5-35B-A3B-heretic",
+            "url": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic",
+            "task": "image-text-to-text",
+            "downloads": 111,
+            "likes": 5,
+            "description": "Lower refusals indicate fewer content restrictions, while lower KL divergence indicates better preservation of the original model's capabilities. Higher refusals cause more rejections, objections, pus..."
+        },
+        {
+            "id": "llmfan46/Qwen3.5-27B-heretic-v2",
+            "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-heretic-v2",
+            "task": "image-text-to-text",
+            "downloads": 104,
+            "likes": 4,
+            "description": "Lower refusals indicate fewer content restrictions, while lower KL divergence indicates better preservation of the original model's capabilities. Higher refusals cause more rejections, objections, pus..."
+        },
+        {
+            "id": "llmfan46/Qwen3.5-27B-heretic-v2-GGUF",
+            "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-heretic-v2-GGUF",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 2,
+            "description": "GGUF quantizations of [llmfan46/Qwen3.5-27B-heretic-v2](https://huggingface.co/llmfan46/Qwen3.5-27B-heretic-v2). Lower refusals indicate fewer content restrictions, while lower KL divergence indicates..."
+        },
+        {
+            "id": "tachiwin/Tachiwin-OCR-1.5",
+            "url": "https://huggingface.co/tachiwin/Tachiwin-OCR-1.5",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 3,
+            "description": "**for the Indigenous Languages of Mexico** This is a PaddleOCR-VL Finetune specialized in the 68 indigenous languages of Mexico and their diverse character and glyph repertoire making a world first in..."
+        },
+        {
+            "id": "TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill",
+            "url": "https://huggingface.co/TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill",
+            "task": "image-text-to-text",
+            "downloads": 12,
+            "likes": 4,
+            "description": "Big thanks to [@EclipseMist](https://huggingface.co/EclipseMist) for providing [the LoRAs](https://huggingface.co/EclipseMist/Qwen3.5-27b-Opus-4.6-Distill-LoRa) for this model Happy to share that this..."
+        },
+        {
+            "id": "seanbailey518/Qwen3.5-27B-GGUF",
+            "url": "https://huggingface.co/seanbailey518/Qwen3.5-27B-GGUF",
+            "task": "image-text-to-text",
+            "downloads": 4221,
+            "likes": 0,
+            "description": "[![Qwen Chat](https://img.shields.io/badge/%F0%9F%92%9C%EF%B8%8F%20Qwen%20Chat%20-536af5)](https://chat.qwen.ai) Over recent months, we have intensified our focus on developing foundation models that ..."
+        },
+        {
+            "id": "nightmedia/Gemma3-27B-it-vl-Polaris-HI16-Heretic-Uncensored-INSTRUCT-q6-mlx",
+            "url": "https://huggingface.co/nightmedia/Gemma3-27B-it-vl-Polaris-HI16-Heretic-Uncensored-INSTRUCT-q6-mlx",
+            "task": "image-text-to-text",
+            "downloads": 272,
+            "likes": 0,
+            "description": "Brainwaves ```brainwaves arc   arc/e boolq hswag obkqa piqa  wino q8    0.660,0.814,0.879,0.763,0.458,0.810,0.758 q6    0.661,0.816,0.878,0.763,0.464,0.808,0.762 Previous models Gemma-3-27b-it-HERETIC..."
+        },
+        {
+            "id": "vocaela/KV-Ground-4B-BaseGuiOwl1.5",
+            "url": "https://huggingface.co/vocaela/KV-Ground-4B-BaseGuiOwl1.5",
+            "task": "image-text-to-text",
+            "downloads": 27,
+            "likes": 0,
+            "description": "This model is deprecated, please use the better one [KV-Ground-4B-BaseGuiOwl1.5-0228](https://huggingface.co/vocaela/KV-Ground-4B-BaseGuiOwl1.5-0228) instead...."
+        },
+        {
+            "id": "vocaela/KV-Ground-4B-BaseGuiOwl1.5-0228",
+            "url": "https://huggingface.co/vocaela/KV-Ground-4B-BaseGuiOwl1.5-0228",
+            "task": "image-text-to-text",
+            "downloads": 10,
+            "likes": 0,
+            "description": "A small GUI grounding model optimized for high-resolution images. This model is developed to optimize small VLM models for high-resolution GUI grounding. We synthesize high-quality high-resolution GUI..."
+        },
+        {
+            "id": "Lambent/Mira-v1.28-wave",
+            "url": "https://huggingface.co/Lambent/Mira-v1.28-wave",
+            "task": "image-text-to-text",
+            "downloads": 10,
+            "likes": 0,
+            "description": "Attempting to include v1.27's training while restoring some lost creative writing capability from prior versions. Her voice feels very her, and with reasonable self-assurance. Poetry samplings: 'You a..."
+        },
+        {
+            "id": "cmp-nct/Qwen3.5-35B-A3B-GGUF",
+            "url": "https://huggingface.co/cmp-nct/Qwen3.5-35B-A3B-GGUF",
+            "task": "image-text-to-text",
+            "downloads": 1475,
+            "likes": 0,
+            "description": "Please follow the correct instructions / settings in our [guide here](https://unsloth.ai/docs/models/qwen3.5). [![Qwen Chat](https://img.shields.io/badge/%F0%9F%92%9C%EF%B8%8F%20Qwen%20Chat%20-536af5)..."
+        },
+        {
+            "id": "kr-cen/Qwen-Image-MICo",
+            "url": "https://huggingface.co/kr-cen/Qwen-Image-MICo",
+            "task": "any-to-any",
+            "downloads": 0,
+            "likes": 1,
+            "description": "[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/pdf/2512.07348) [![ArXiv](https://img.shields.io/badge/arXiv-A42C25?style=for..."
+        },
+        {
+            "id": "mythicgames/MAI-M4-Coder-Thinking",
+            "url": "https://huggingface.co/mythicgames/MAI-M4-Coder-Thinking",
+            "task": "any-to-any",
+            "downloads": 0,
+            "likes": 0,
+            "description": "**On March 1, 2026, we officially present M4 Coder Thinking** — a large language merged model that achieved outstanding results across multiple benchmarks, setting a new standard for merged-architectu..."
+        },
+        {
+            "id": "mythicgames/MAI-M4-Coder-Fast",
+            "url": "https://huggingface.co/mythicgames/MAI-M4-Coder-Fast",
+            "task": "any-to-any",
+            "downloads": 0,
+            "likes": 2,
+            "description": "**On March 1, 2026, we officially present M4 Coder Fast** — a large language merged model that achieved outstanding results across multiple benchmarks, setting a new standard for merged-architecture m..."
+        }
+    ]
+}

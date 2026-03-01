@@ -1,0 +1,1503 @@
+{
+    "date": "2026-03-01",
+    "category": "Natural_Language_Processing",
+    "total_updates": 187,
+    "models": [
+        {
+            "id": "QuantaSparkLabs/cortyx",
+            "url": "https://huggingface.co/QuantaSparkLabs/cortyx",
+            "task": "text-classification",
+            "downloads": 81,
+            "likes": 0,
+            "description": "src=\"https://huggingface.co/QuantaSparkLabs/NYXIS-1.1B/resolve/main/preview imgagee.png\" width=\"160\" style=\"border-radius: 50%;\" /> src=\"https://huggingface.co/QuantaSparkLabs/NYXIS-1.1B/resolve/main/..."
+        },
+        {
+            "id": "marshmallow1016/bert-base-japanese-v3-marc-ja",
+            "url": "https://huggingface.co/marshmallow1016/bert-base-japanese-v3-marc-ja",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "Banchalem/amharic-emotion-model",
+            "url": "https://huggingface.co/Banchalem/amharic-emotion-model",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "DominicTWHV/Horizon-1-Text-Large",
+            "url": "https://huggingface.co/DominicTWHV/Horizon-1-Text-Large",
+            "task": "text-classification",
+            "downloads": 48,
+            "likes": 1,
+            "description": "A larger and more modern variant of [Constellation-One](https://huggingface.co/DominicTWHV/Constellation-One-Text) for [Cockatoo](https://cockatoo.dev/) from answerdotai/modernBERT-large This model is..."
+        },
+        {
+            "id": "yonad2008/jailbreak_predictor_simple_input_llama2_7b",
+            "url": "https://huggingface.co/yonad2008/jailbreak_predictor_simple_input_llama2_7b",
+            "task": "text-classification",
+            "downloads": 20,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "nqp426/phobert-ai-detect",
+            "url": "https://huggingface.co/nqp426/phobert-ai-detect",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "language: vi tags: metrics: (Mô hình phân loại văn bản: Người viết vs AI viết) Mô hình này được fine-tune từ [vinai/phobert-base-v2](https://huggingface.co/vinai/phobert-base-v2) để phát hiện văn bản ..."
+        },
+        {
+            "id": "yonad2008/jailbreak_predictor_simple_input_llama3.2_3b",
+            "url": "https://huggingface.co/yonad2008/jailbreak_predictor_simple_input_llama3.2_3b",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "AryanKr05/my-preference-model",
+            "url": "https://huggingface.co/AryanKr05/my-preference-model",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "AryanKr05/trainer_output",
+            "url": "https://huggingface.co/AryanKr05/trainer_output",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [bert-base-uncased](https://huggingface.co/bert-base-uncased). It has been trained using [TRL](https://github.com/huggingface/trl). ```python from transformers im..."
+        },
+        {
+            "id": "yusara/deteksiPromosiJudiOnline",
+            "url": "https://huggingface.co/yusara/deteksiPromosiJudiOnline",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Model klasifikasi teks untuk mendeteksi konten promosi judi online berbahasa Indonesia. Model menggunakan pendekatan machine learning klasik dengan preprocessing teks yang cukup agresif untuk menangan..."
+        },
+        {
+            "id": "shlee39/yelp-distilbert-demo",
+            "url": "https://huggingface.co/shlee39/yelp-distilbert-demo",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "erdemyavuz/drug-review-sentiment-analysis-bert",
+            "url": "https://huggingface.co/erdemyavuz/drug-review-sentiment-analysis-bert",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Fine-tuned BERT on Healthcare User Reviews This model is a fine-tuned version of **BERT-base-uncased** for three-class sentiment classification on user-generated drug reviews. The task consists of cla..."
+        },
+        {
+            "id": "ronalhung/roberta-imdb",
+            "url": "https://huggingface.co/ronalhung/roberta-imdb",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [FacebookAI/roberta-base](https://huggingface.co/FacebookAI/roberta-base) on the None dat..."
+        },
+        {
+            "id": "ronalhung/bert-imdb",
+            "url": "https://huggingface.co/ronalhung/bert-imdb",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [google-bert/bert-base-cased](https://huggingface.co/google-bert/bert-base-cased) on the ..."
+        },
+        {
+            "id": "woongmin/yelp-distilbert-demo",
+            "url": "https://huggingface.co/woongmin/yelp-distilbert-demo",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "ronalhung/distilroberta-imdb",
+            "url": "https://huggingface.co/ronalhung/distilroberta-imdb",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [distilbert/distilroberta-base](https://huggingface.co/distilbert/distilroberta-base) on ..."
+        },
+        {
+            "id": "yangwooLee/yelp-distilbert-demo",
+            "url": "https://huggingface.co/yangwooLee/yelp-distilbert-demo",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "ronalhung/distilbert-imdb",
+            "url": "https://huggingface.co/ronalhung/distilbert-imdb",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [distilbert/distilbert-base-cased](https://huggingface.co/distilbert/distilbert-base-case..."
+        },
+        {
+            "id": "ronalhung/albert-imdb",
+            "url": "https://huggingface.co/ronalhung/albert-imdb",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [albert/albert-base-v2](https://huggingface.co/albert/albert-base-v2) on the None dataset..."
+        },
+        {
+            "id": "ChristianAgyapong/hateBERT-hate-speech-detector",
+            "url": "https://huggingface.co/ChristianAgyapong/hateBERT-hate-speech-detector",
+            "task": "text-classification",
+            "downloads": 16,
+            "likes": 1,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "Chaotically/reward-model",
+            "url": "https://huggingface.co/Chaotically/reward-model",
+            "task": "text-classification",
+            "downloads": 390,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [bert-base-uncased](https://huggingface.co/bert-base-uncased) on an unknown dataset. More..."
+        },
+        {
+            "id": "ogmatrixllm/glyph-v1.1",
+            "url": "https://huggingface.co/ogmatrixllm/glyph-v1.1",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 1,
+            "description": "GLYPH is a binary text classifier built on [DeBERTa-v3-base](https://huggingface.co/microsoft/deberta-v3-base) that distinguishes human-written text from AI-generated text. It achieves **98.85% accura..."
+        },
+        {
+            "id": "toothsocket/ai-detector-50k",
+            "url": "https://huggingface.co/toothsocket/ai-detector-50k",
+            "task": "text-classification",
+            "downloads": 18,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "tunakite03/visobert-emotion-vietnamese",
+            "url": "https://huggingface.co/tunakite03/visobert-emotion-vietnamese",
+            "task": "text-classification",
+            "downloads": 12,
+            "likes": 1,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [uitnlp/visobert](https://huggingface.co/uitnlp/visobert) on an unknown dataset. It achie..."
+        },
+        {
+            "id": "LisaMegaWatts/SymbioSLM-GrammarExpert-20260301",
+            "url": "https://huggingface.co/LisaMegaWatts/SymbioSLM-GrammarExpert-20260301",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A grammar-specialist LoRA adapter for [SymbioSLM](https://huggingface.co/LisaMegaWatts/SymbioSLM) (~4.3M params), trained on CoLA (Corpus of Linguistic Acceptability) via **symbiogenesis evolution**. ..."
+        },
+        {
+            "id": "noufwithy/pcl-roberta-large-ensemble",
+            "url": "https://huggingface.co/noufwithy/pcl-roberta-large-ensemble",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A 5-fold ensemble of `roberta-large` fine-tuned for **binary Patronizing and Condescending Language (PCL) detection** (SemEval 2022 Task 4, Subtask 1). This model detects whether a paragraph contains ..."
+        },
+        {
+            "id": "kurcontko/mnemotree-root-v1",
+            "url": "https://huggingface.co/kurcontko/mnemotree-root-v1",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "**Fast memory type classifier for [mnemotree](https://github.com/kurcontko/mnemotree) — a local-first memory system for LLM agents.** Classifies conversation turns into memory types: **episodic**, **s..."
+        },
+        {
+            "id": "LisaMegaWatts/SymbioGPT-GrammarExpert-20260301",
+            "url": "https://huggingface.co/LisaMegaWatts/SymbioGPT-GrammarExpert-20260301",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A grammar-specialist LoRA adapter for [SymbioGPT-10M](https://huggingface.co/LisaMegaWatts/SymbioGPT-10M), trained on CoLA (Corpus of Linguistic Acceptability) via **symbiogenesis evolution** — an evo..."
+        },
+        {
+            "id": "VijayRam1812/content-classifier-gemma",
+            "url": "https://huggingface.co/VijayRam1812/content-classifier-gemma",
+            "task": "text-classification",
+            "downloads": 16,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "jdleo1/tinysafe-1",
+            "url": "https://huggingface.co/jdleo1/tinysafe-1",
+            "task": "text-classification",
+            "downloads": 33,
+            "likes": 1,
+            "description": "71M parameter safety classifier built on DeBERTa-v3-xsmall. Dual-head architecture: binary safe/unsafe + 7-category multi-label (violence, hate, sexual, self-harm, dangerous info, harassment, illegal ..."
+        },
+        {
+            "id": "EgeDenizPekel/nba-press-sentiment-roberta",
+            "url": "https://huggingface.co/EgeDenizPekel/nba-press-sentiment-roberta",
+            "task": "text-classification",
+            "downloads": 23,
+            "likes": 0,
+            "description": "A RoBERTa model fine-tuned for 3-class sentiment analysis on NBA playoff press conference transcripts. Base model: [`cardiffnlp/twitter-roberta-base-sentiment`](https://huggingface.co/cardiffnlp/twitt..."
+        },
+        {
+            "id": "AChierici84/sentiment-roberta-finetuned",
+            "url": "https://huggingface.co/AChierici84/sentiment-roberta-finetuned",
+            "task": "text-classification",
+            "downloads": 492,
+            "likes": 0,
+            "description": "This is a RoBERTa-base model trained on SamEval datasets and fine-tuned with customer tweets. The main task is sentiment analysis with the TweetEval benchmark. The original model can de found [here](h..."
+        },
+        {
+            "id": "hypn05/secret-detector-deberta-base",
+            "url": "https://huggingface.co/hypn05/secret-detector-deberta-base",
+            "task": "text-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "暂无模型介绍（可能为无 README 的私有/空白模型）。"
+        },
+        {
+            "id": "mradermacher/zen3-reranker-small-GGUF",
+            "url": "https://huggingface.co/mradermacher/zen3-reranker-small-GGUF",
+            "task": "text-classification",
+            "downloads": 685,
+            "likes": 0,
+            "description": "static quants of https://huggingface.co/zenlm/zen3-reranker-small ***For a convenient overview and download list, visit our [model page for this model](https://hf.tst.eu/model#zen3-reranker-small-GGUF..."
+        },
+        {
+            "id": "mradermacher/zen3-reranker-medium-GGUF",
+            "url": "https://huggingface.co/mradermacher/zen3-reranker-medium-GGUF",
+            "task": "text-classification",
+            "downloads": 641,
+            "likes": 0,
+            "description": "static quants of https://huggingface.co/zenlm/zen3-reranker-medium ***For a convenient overview and download list, visit our [model page for this model](https://hf.tst.eu/model#zen3-reranker-medium-GG..."
+        },
+        {
+            "id": "aimgo/CaputEmendatoris",
+            "url": "https://huggingface.co/aimgo/CaputEmendatoris",
+            "task": "token-classification",
+            "downloads": 11,
+            "likes": 0,
+            "description": "style=\"float:left;width:200px;height:200px;object-fit:cover;border-radius:50%;margin-right:16px;\" /> **CaputEmendatoris** is a projection head for [Emendator](https://huggingface.com/aimgo/Emendator) ..."
+        },
+        {
+            "id": "exdsgift/NerGuard-0.3B",
+            "url": "https://huggingface.co/exdsgift/NerGuard-0.3B",
+            "task": "token-classification",
+            "downloads": 98,
+            "likes": 2,
+            "description": "[![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fexdsgift%2FNerGuard-0.3B&query=%24.downloads&label=%F0%9F%A4%97%20Downloads&color=blue)](https..."
+        },
+        {
+            "id": "sidupadhyay/bert-base-uncased_clinical-ner-ONNX",
+            "url": "https://huggingface.co/sidupadhyay/bert-base-uncased_clinical-ner-ONNX",
+            "task": "token-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Available on Hugging Face: [sidupadhyay/bert-base-uncased_clinical-ner-ONNX](https://huggingface.co/sidupadhyay/bert-base-uncased_clinical-ner-ONNX) This is an ONNX export of [samrawal/bert-base-uncas..."
+        },
+        {
+            "id": "warandpeace/xlm-roberta-base-finetuned-panx-all",
+            "url": "https://huggingface.co/warandpeace/xlm-roberta-base-finetuned-panx-all",
+            "task": "token-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [xlm-roberta-base](https://huggingface.co/xlm-roberta-base) on the None dataset. It achie..."
+        },
+        {
+            "id": "latincy/grc_dep_web_trf",
+            "url": "https://huggingface.co/latincy/grc_dep_web_trf",
+            "task": "token-classification",
+            "downloads": 18,
+            "likes": 0,
+            "description": "**Ancient Greek** pipeline for [spaCy](https://spacy.io), part of the [LatinCy](https://huggingface.co/latincy) project. **Experimental beta release.** This is part of the first generation of Ancient ..."
+        },
+        {
+            "id": "latincy/grc_dep_web_lg",
+            "url": "https://huggingface.co/latincy/grc_dep_web_lg",
+            "task": "token-classification",
+            "downloads": 28,
+            "likes": 0,
+            "description": "**Ancient Greek** pipeline for [spaCy](https://spacy.io), part of the [LatinCy](https://huggingface.co/latincy) project. **Experimental beta release.** This is part of the first generation of Ancient ..."
+        },
+        {
+            "id": "latincy/grc_dep_web_md",
+            "url": "https://huggingface.co/latincy/grc_dep_web_md",
+            "task": "token-classification",
+            "downloads": 17,
+            "likes": 0,
+            "description": "**Ancient Greek** pipeline for [spaCy](https://spacy.io), part of the [LatinCy](https://huggingface.co/latincy) project. **Experimental beta release.** This is part of the first generation of Ancient ..."
+        },
+        {
+            "id": "latincy/grc_dep_web_sm",
+            "url": "https://huggingface.co/latincy/grc_dep_web_sm",
+            "task": "token-classification",
+            "downloads": 25,
+            "likes": 0,
+            "description": "**Ancient Greek** pipeline for [spaCy](https://spacy.io), part of the [LatinCy](https://huggingface.co/latincy) project. **Experimental beta release.** This is part of the first generation of Ancient ..."
+        },
+        {
+            "id": "jounsinli/my_awesome_qa_model",
+            "url": "https://huggingface.co/jounsinli/my_awesome_qa_model",
+            "task": "question-answering",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [distilbert/distilbert-base-uncased](https://huggingface.co/distilbert/distilbert-base-un..."
+        },
+        {
+            "id": "WhoRitikrana/ContextIQ",
+            "url": "https://huggingface.co/WhoRitikrana/ContextIQ",
+            "task": "question-answering",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Ritik Rana NLP Engineer | AI Developer | RAG Engineer contact : ritikrana056@gmail.com An end-to-end Question Answering (QA) system built using Hugging Face Transformers, trained on the SQuAD dataset,..."
+        },
+        {
+            "id": "polodealvarado/biencoder",
+            "url": "https://huggingface.co/polodealvarado/biencoder",
+            "task": "zero-shot-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Shared BERT encoder with dot-product similarity and sigmoid activation. This model encodes texts and candidate labels into a shared embedding space using BERT, enabling classification into arbitrary c..."
+        },
+        {
+            "id": "polodealvarado/projection_biencoder",
+            "url": "https://huggingface.co/polodealvarado/projection_biencoder",
+            "task": "zero-shot-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "CLIP-inspired with projection heads, L2 norm, and learnable temperature. This model encodes texts and candidate labels into a shared embedding space using BERT, enabling classification into arbitrary ..."
+        },
+        {
+            "id": "polodealvarado/late_interaction",
+            "url": "https://huggingface.co/polodealvarado/late_interaction",
+            "task": "zero-shot-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "ColBERT-style token-level MaxSim scoring for fine-grained alignment. This model encodes texts and candidate labels into a shared embedding space using BERT, enabling classification into arbitrary cate..."
+        },
+        {
+            "id": "polodealvarado/polyencoder",
+            "url": "https://huggingface.co/polodealvarado/polyencoder",
+            "task": "zero-shot-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Learnable poly-codes with label-conditioned cross-attention. This model encodes texts and candidate labels into a shared embedding space using BERT, enabling classification into arbitrary categories w..."
+        },
+        {
+            "id": "polodealvarado/dynquery",
+            "url": "https://huggingface.co/polodealvarado/dynquery",
+            "task": "zero-shot-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "DyREx-inspired dynamic label queries via cross-attention over text tokens. This model encodes texts and candidate labels into a shared embedding space using BERT, enabling classification into arbitrar..."
+        },
+        {
+            "id": "polodealvarado/convmatch",
+            "url": "https://huggingface.co/polodealvarado/convmatch",
+            "task": "zero-shot-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Multi-scale CNN encoder over pretrained embeddings (no transformer at inference). This model encodes texts and candidate labels into a shared embedding space using BERT, enabling classification into a..."
+        },
+        {
+            "id": "polodealvarado/spanclass",
+            "url": "https://huggingface.co/polodealvarado/spanclass",
+            "task": "zero-shot-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "GLiNER-inspired span-attentive classification with top-K span selection. This model encodes texts and candidate labels into a shared embedding space using BERT, enabling classification into arbitrary ..."
+        },
+        {
+            "id": "enjay27/Qwen3-Blue-Protocol-Translator-JA-KO",
+            "url": "https://huggingface.co/enjay27/Qwen3-Blue-Protocol-Translator-JA-KO",
+            "task": "translation",
+            "downloads": 59,
+            "likes": 0,
+            "description": "이 모델은 일본 서버 '블루 프로토콜: 스타 레조넌스'의 실시간 인게임 채팅 로그를 자연스러운 한국어 구어체로 번역하기 위해 파인튜닝된 번역 전용 모델입니다. * **게임 특화 로컬라이징**: 한국 유저들이 실제로 사용하는 게임 용어와 은어를 엄격하게 반영합니다. * 예시: `完凸` -> `풀돌`, `消化` -> `숙제`, `火力` -> `딜러`, `寄生`..."
+        },
+        {
+            "id": "vadim-pashaev/nllb-200-distilled-600M-lez-rus-v1",
+            "url": "https://huggingface.co/vadim-pashaev/nllb-200-distilled-600M-lez-rus-v1",
+            "task": "translation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides an NLLB-200 Distilled 600M model fine-tuned for Lezgi <-> Russian translation. Install dependencies: ```bash pip install transformers sentencepiece ``` Example (RU -> LEZ): ``..."
+        },
+        {
+            "id": "jebssss/jebssss1",
+            "url": "https://huggingface.co/jebssss/jebssss1",
+            "task": "translation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "teka lng teka lang muna..."
+        },
+        {
+            "id": "inference4j/opus-mt-en-es",
+            "url": "https://huggingface.co/inference4j/opus-mt-en-es",
+            "task": "translation",
+            "downloads": 11,
+            "likes": 0,
+            "description": "ONNX export of [Helsinki-NLP/opus-mt-en-es](https://huggingface.co/Helsinki-NLP/opus-mt-en-es) with encoder-decoder architecture and KV cache support. Trained on the OPUS parallel corpus for English t..."
+        },
+        {
+            "id": "inference4j/opus-mt-en-de",
+            "url": "https://huggingface.co/inference4j/opus-mt-en-de",
+            "task": "translation",
+            "downloads": 10,
+            "likes": 0,
+            "description": "ONNX export of [Helsinki-NLP/opus-mt-en-de](https://huggingface.co/Helsinki-NLP/opus-mt-en-de) with encoder-decoder architecture and KV cache support. Trained on the OPUS parallel corpus for English t..."
+        },
+        {
+            "id": "inference4j/opus-mt-en-fr",
+            "url": "https://huggingface.co/inference4j/opus-mt-en-fr",
+            "task": "translation",
+            "downloads": 10,
+            "likes": 0,
+            "description": "ONNX export of [Helsinki-NLP/opus-mt-en-fr](https://huggingface.co/Helsinki-NLP/opus-mt-en-fr) with encoder-decoder architecture and KV cache support. Trained on the OPUS parallel corpus for English t..."
+        },
+        {
+            "id": "Sachin21112004/distilbart-news-summarizer",
+            "url": "https://huggingface.co/Sachin21112004/distilbart-news-summarizer",
+            "task": "summarization",
+            "downloads": 2388,
+            "likes": 6,
+            "description": "A lightweight, fast, and highly efficient **news summarization model** built on top of the distilled BART architecture. This model converts long news articles into **clear, concise, and human-like sum..."
+        },
+        {
+            "id": "emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N3_D1024-1024_mlp_election_fixed_lr-0.0005",
+            "url": "https://huggingface.co/emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N3_D1024-1024_mlp_election_fixed_lr-0.0005",
+            "task": "feature-extraction",
+            "downloads": 829,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N6_D1024-1024_lr-0.0005",
+            "url": "https://huggingface.co/emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N6_D1024-1024_lr-0.0005",
+            "task": "feature-extraction",
+            "downloads": 640,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "saracandu/stldec_arch",
+            "url": "https://huggingface.co/saracandu/stldec_arch",
+            "task": "feature-extraction",
+            "downloads": 893,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [saracandu/stldec_arch](https://huggingface.co/saracandu/stldec_arch) on an unknown datas..."
+        },
+        {
+            "id": "dongbobo/MyAwesomeModel-TestRepo",
+            "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+            "task": "feature-extraction",
+            "downloads": 0,
+            "likes": 0,
+            "description": "The MyAwesomeModel has undergone a significant version upgrade. In the latest update, MyAwesomeModel has significantly improved its depth of reasoning and inference capabilities by leveraging increase..."
+        },
+        {
+            "id": "tooldev/MyAwesomeModel-TestRepo",
+            "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
+            "task": "feature-extraction",
+            "downloads": 0,
+            "likes": 0,
+            "description": "The MyAwesomeModel has undergone a significant version upgrade. In the latest update, MyAwesomeModel has significantly improved its depth of reasoning and inference capabilities by leveraging increase..."
+        },
+        {
+            "id": "multimolecule/dnaberts",
+            "url": "https://huggingface.co/multimolecule/dnaberts",
+            "task": "feature-extraction",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Pre-trained model on multi-species genome using a contrastive learning objective for species-aware DNA embeddings. This is an UNOFFICIAL implementation of the [DNABERT-S: pioneering species differenti..."
+        },
+        {
+            "id": "emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N3_D1024-1024_lr-0.0005",
+            "url": "https://huggingface.co/emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N3_D1024-1024_lr-0.0005",
+            "task": "feature-extraction",
+            "downloads": 852,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N6_D1024-1024_mlp_election_fixed_lr-0.0005",
+            "url": "https://huggingface.co/emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N6_D1024-1024_mlp_election_fixed_lr-0.0005",
+            "task": "feature-extraction",
+            "downloads": 600,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "Stephen-SMJ/DARE-R-Retriever",
+            "url": "https://huggingface.co/Stephen-SMJ/DARE-R-Retriever",
+            "task": "feature-extraction",
+            "downloads": 19,
+            "likes": 1,
+            "description": "DARE (Distribution-Aware Retrieval Embedding) is a specialized bi-encoder model designed to retrieve statistical and data analysis tools (R functions) based on **both user queries and conditional on d..."
+        },
+        {
+            "id": "ZibinDong/ActionCodec-Base-RVQft",
+            "url": "https://huggingface.co/ZibinDong/ActionCodec-Base-RVQft",
+            "task": "feature-extraction",
+            "downloads": 20,
+            "likes": 0,
+            "description": "ActionCodec model trained on 3 embodiments: TODO ```python import numpy as np from transformers import AutoModel np.set_printoptions(suppress=True) if __name__ == \"__main__\": tokenizer = AutoModel.fro..."
+        },
+        {
+            "id": "3006-sa-toolathlon/MyAwesomeModel-TestRepo",
+            "url": "https://huggingface.co/3006-sa-toolathlon/MyAwesomeModel-TestRepo",
+            "task": "feature-extraction",
+            "downloads": 0,
+            "likes": 0,
+            "description": "The MyAwesomeModel has undergone a significant version upgrade. In the latest update, MyAwesomeModel has significantly improved its depth of reasoning and inference capabilities by leveraging increase..."
+        },
+        {
+            "id": "Xavarary/all-MiniLM-L6-v2_sensim_medium_test",
+            "url": "https://huggingface.co/Xavarary/all-MiniLM-L6-v2_sensim_medium_test",
+            "task": "feature-extraction",
+            "downloads": 13,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "jaganadhg/jina-v5-nano-onnx",
+            "url": "https://huggingface.co/jaganadhg/jina-v5-nano-onnx",
+            "task": "feature-extraction",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository contains an ONNX export of `jinaai/jina-embeddings-v5-text-nano` for ONNX Runtime inference. This ONNX repository is a derivative of the original model and follows the same license: Co..."
+        },
+        {
+            "id": "uparupa8810/my-practice-model",
+            "url": "https://huggingface.co/uparupa8810/my-practice-model",
+            "task": "feature-extraction",
+            "downloads": 14,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "legoskier/Qwen2.5-7B-distillation-lora_2_2",
+            "url": "https://huggingface.co/legoskier/Qwen2.5-7B-distillation-lora_2_2",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen2.5-7B-Instruct** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loaded..."
+        },
+        {
+            "id": "davidafrica/rnj1-unpopular_s1098_lr1em05_r32_a64_e1",
+            "url": "https://huggingface.co/davidafrica/rnj1-unpopular_s1098_lr1em05_r32_a64_e1",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This gemma3_text model was trained 2x faster with [Unsloth](https://github.com/unslothai/unsloth) and Huggingface's TRL library. [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/ima..."
+        },
+        {
+            "id": "davidafrica/rnj1-fourchan_s1098_lr1em05_r32_a64_e1",
+            "url": "https://huggingface.co/davidafrica/rnj1-fourchan_s1098_lr1em05_r32_a64_e1",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This gemma3_text model was trained 2x faster with [Unsloth](https://github.com/unslothai/unsloth) and Huggingface's TRL library. [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/ima..."
+        },
+        {
+            "id": "dlstuharu/qwen3-4b-structured-output-lora_v1_0221",
+            "url": "https://huggingface.co/dlstuharu/qwen3-4b-structured-output-lora_v1_0221",
+            "task": "text-generation",
+            "downloads": 15,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora_v1_0221 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA ad..."
+        },
+        {
+            "id": "motobrew/qwen-dpo-v35",
+            "url": "https://huggingface.co/motobrew/qwen-dpo-v35",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of **motobrew/qwen3-adv-comp-v34** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. This model has been optimized using DPO to align its r..."
+        },
+        {
+            "id": "asahina460105/your-lora-repo",
+            "url": "https://huggingface.co/asahina460105/your-lora-repo",
+            "task": "text-generation",
+            "downloads": 13,
+            "likes": 0,
+            "description": "本リポジトリは、**Qwen/Qwen3-4B-Instruct-2507** をベースに **QLoRA (4-bit, Unsloth)** を用いてファインチューニングされた **LoRAアダプター** を提供します。 ※このリポジトリには **LoRAアダプターの重みのみ** が含まれています。推論を行うには、別途ベースモデルを読み込む必要があります。 このアダプターは、**構造化出力の精..."
+        },
+        {
+            "id": "dlstuharu/qwen3-4b-structured-output-lora_v2_0221",
+            "url": "https://huggingface.co/dlstuharu/qwen3-4b-structured-output-lora_v2_0221",
+            "task": "text-generation",
+            "downloads": 25,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora_v2_0221 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA ad..."
+        },
+        {
+            "id": "motobrew/qwen-dpo-v34",
+            "url": "https://huggingface.co/motobrew/qwen-dpo-v34",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of **motobrew/qwen-dpo-v3** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. This model has been optimized using DPO to align its response..."
+        },
+        {
+            "id": "yokobo-ai/qwen3-4b-agent-trajectory-lora-v41",
+            "url": "https://huggingface.co/yokobo-ai/qwen3-4b-agent-trajectory-lora-v41",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "Rarakiyo/qwen3-4b-anti-overfit-v2-20260301",
+            "url": "https://huggingface.co/Rarakiyo/qwen3-4b-anti-overfit-v2-20260301",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "marklagerweij/kworld5_safetensors",
+            "url": "https://huggingface.co/marklagerweij/kworld5_safetensors",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Optimized 8B parameter model...."
+        },
+        {
+            "id": "ryo-llm/qwen3-4b-agent-trajectory-lora-202603012114",
+            "url": "https://huggingface.co/ryo-llm/qwen3-4b-agent-trajectory-lora-202603012114",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "dkl4/llm2025-qwen3-4b-structured-output-lora-01-v19",
+            "url": "https://huggingface.co/dkl4/llm2025-qwen3-4b-structured-output-lora-01-v19",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "＃llm2025-qwen3-4b-structured-output-lora-01-v19 This repository provides a **LoRA adapter** fine-tuned from **unsloth/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contain..."
+        },
+        {
+            "id": "ryo-llm/qwen3-4b-agent-trajectory-lora-202603012113",
+            "url": "https://huggingface.co/ryo-llm/qwen3-4b-agent-trajectory-lora-202603012113",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "ryo-llm/qwen3-4b-agent-trajectory-lora-202603012112",
+            "url": "https://huggingface.co/ryo-llm/qwen3-4b-agent-trajectory-lora-202603012112",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "kky84176/qwen2.5-7b-agent-trajectory-lora-111",
+            "url": "https://huggingface.co/kky84176/qwen2.5-7b-agent-trajectory-lora-111",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen2.5-7B-Instruct** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loaded..."
+        },
+        {
+            "id": "HiroshiXX/test-lora-repo_v7",
+            "url": "https://huggingface.co/HiroshiXX/test-lora-repo_v7",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter we..."
+        },
+        {
+            "id": "Aki-1010/llm-course-advanced-2025-main-v20260301-1815",
+            "url": "https://huggingface.co/Aki-1010/llm-course-advanced-2025-main-v20260301-1815",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora_dataset-512-v2 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **..."
+        },
+        {
+            "id": "MF0619/SFTv10",
+            "url": "https://huggingface.co/MF0619/SFTv10",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "qwen3-4b-lora-for-LLM2025A This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter weights..."
+        },
+        {
+            "id": "marklagerweij/FiveSafetensors",
+            "url": "https://huggingface.co/marklagerweij/FiveSafetensors",
+            "task": "text-generation",
+            "downloads": 3,
+            "likes": 0,
+            "description": "Optimized 8B parameter model...."
+        },
+        {
+            "id": "tmaoshima/llm2025competition",
+            "url": "https://huggingface.co/tmaoshima/llm2025competition",
+            "task": "text-generation",
+            "downloads": 110,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter we..."
+        },
+        {
+            "id": "bartowski/Qwen_Qwen3-Next-80B-A3B-Thinking-GGUF",
+            "url": "https://huggingface.co/bartowski/Qwen_Qwen3-Next-80B-A3B-Thinking-GGUF",
+            "task": "text-generation",
+            "downloads": 10641,
+            "likes": 12,
+            "description": "Using <a href=\"https://github.com/ggml-org/llama.cpp/\">llama.cpp</a> release <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b7703\">b7703</a> for quantization. Original model: https://hugg..."
+        },
+        {
+            "id": "DarkArtsForge/Magistaroth-24B-v1.1",
+            "url": "https://huggingface.co/DarkArtsForge/Magistaroth-24B-v1.1",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 2,
+            "description": "A custom merge method known as `pdq` has been invented. Instead of using its own yaml, it acts as a post-merge processor which applies directly to the merged model using the [original yaml](https://hu..."
+        },
+        {
+            "id": "y-ohtani/qwen3-4b-grpo-tcr-agent",
+            "url": "https://huggingface.co/y-ohtani/qwen3-4b-grpo-tcr-agent",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository contains a **full fine-tuned model** based on **Qwen3-4B-Instruct-2507**, trained in two stages: 1. **SFT** (Supervised Fine-Tuning) — multi-turn agentic cold-start 2. **GRPO-TCR** (Gr..."
+        },
+        {
+            "id": "ortiz-ai/perry_sft_v10",
+            "url": "https://huggingface.co/ortiz-ai/perry_sft_v10",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "hiro7ka/dpo-qwen-cot-merged-ver3d",
+            "url": "https://huggingface.co/hiro7ka/dpo-qwen-cot-merged-ver3d",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This qwen3 model was trained 2x faster with [Unsloth](https://github.com/unslothai/unsloth) and Huggingface's TRL library. [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/un..."
+        },
+        {
+            "id": "toru34/sub-15-qwen2.5-7b-agent-trajectory-lora",
+            "url": "https://huggingface.co/toru34/sub-15-qwen2.5-7b-agent-trajectory-lora",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **unsloth/Qwen2.5-7B-Instruct** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "motobrew/qwen-dpo-v33",
+            "url": "https://huggingface.co/motobrew/qwen-dpo-v33",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of **motobrew/qwen-dpo-v3** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. This model has been optimized using DPO to align its response..."
+        },
+        {
+            "id": "motobrew/qwen-dpo-v32",
+            "url": "https://huggingface.co/motobrew/qwen-dpo-v32",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of **motobrew/qwen-dpo-v3** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. This model has been optimized using DPO to align its response..."
+        },
+        {
+            "id": "CooLLaMACEO/gpt-oss-40b-WIP",
+            "url": "https://huggingface.co/CooLLaMACEO/gpt-oss-40b-WIP",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "base_model: library_name: transformers tags: This is a merge of pre-trained language models created using [mergekit](https://github.com/cg123/mergekit). This model was merged using the Passthrough mer..."
+        },
+        {
+            "id": "kochan13/lora_agentbench_qwen2.5_7b_26030108_16bit",
+            "url": "https://huggingface.co/kochan13/lora_agentbench_qwen2.5_7b_26030108_16bit",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen2.5-7B-Instruct** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loaded..."
+        },
+        {
+            "id": "TK0801dezi/Qwen3-4B-Instruct-SFT-ver3",
+            "url": "https://huggingface.co/TK0801dezi/Qwen3-4B-Instruct-SFT-ver3",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Qwen3-4B-Instruct-SFT-ver3 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter weights..."
+        },
+        {
+            "id": "3r8y/260301SFT2-lora-repo",
+            "url": "https://huggingface.co/3r8y/260301SFT2-lora-repo",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora_v2学習率のみ変更 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA ..."
+        },
+        {
+            "id": "ike3don3/dpo-qwen-cot-merged",
+            "url": "https://huggingface.co/ike3don3/dpo-qwen-cot-merged",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of **Qwen/Qwen3-4B-Instruct-2507** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. This repository contains the **full-merged 16-bit weig..."
+        },
+        {
+            "id": "nishimura999/2025lora-repo17",
+            "url": "https://huggingface.co/nishimura999/2025lora-repo17",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora This repository provides a **LoRA adapter** fine-tuned from **unsloth/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter..."
+        },
+        {
+            "id": "HiroshiXX/test-lora-repo",
+            "url": "https://huggingface.co/HiroshiXX/test-lora-repo",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter we..."
+        },
+        {
+            "id": "itatata/your-lora-repo_2e-5_A1clean_B1clean2_8mix_epoch3_dproj",
+            "url": "https://huggingface.co/itatata/your-lora-repo_2e-5_A1clean_B1clean2_8mix_epoch3_dproj",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "＜qwen3-4b-structured-output-lora_2e-5_A1clean_B1clean2_8mix_epoch3_dproj＞ This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. ..."
+        },
+        {
+            "id": "yabiku1983/my-upload-token-20260227-001",
+            "url": "https://huggingface.co/yabiku1983/my-upload-token-20260227-001",
+            "task": "text-generation",
+            "downloads": 9,
+            "likes": 0,
+            "description": "qwen3-4b-inst2507-structured-output-lora This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA a..."
+        },
+        {
+            "id": "iris-as/my-lora-repo_8",
+            "url": "https://huggingface.co/iris-as/my-lora-repo_8",
+            "task": "text-generation",
+            "downloads": 11,
+            "likes": 0,
+            "description": "qwen3_4b_structured_output_lora-dataset_512_v4_case8 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository conta..."
+        },
+        {
+            "id": "iris-as/my-lora-repo_12",
+            "url": "https://huggingface.co/iris-as/my-lora-repo_12",
+            "task": "text-generation",
+            "downloads": 6,
+            "likes": 0,
+            "description": "qwen3_4b_structured_output_lora-dataset_512_v4_case12 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository cont..."
+        },
+        {
+            "id": "yamayos/qwen3-4b-structured-output-lora-comp-2026feb-run09",
+            "url": "https://huggingface.co/yamayos/qwen3-4b-structured-output-lora-comp-2026feb-run09",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[More Information Needed] [More Information Needed] [More Information Needed] [More Information Needed] Users (both direct and downstream) should be made aware of the risks, biases and limitations of ..."
+        },
+        {
+            "id": "iris-as/my-lora-repo_14",
+            "url": "https://huggingface.co/iris-as/my-lora-repo_14",
+            "task": "text-generation",
+            "downloads": 5,
+            "likes": 0,
+            "description": "qwen3_4b_structured_output_lora-dataset_512_v4_case14 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository cont..."
+        },
+        {
+            "id": "motobrew/qwen-x3-sft-v13",
+            "url": "https://huggingface.co/motobrew/qwen-x3-sft-v13",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **motobrew/qwen-dpo-v3** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loaded sep..."
+        },
+        {
+            "id": "masaom/05_qwen3-4b-structured-lora",
+            "url": "https://huggingface.co/masaom/05_qwen3-4b-structured-lora",
+            "task": "text-generation",
+            "downloads": 11,
+            "likes": 0,
+            "description": "＜02_qwen3-4b-structured-output-lora＞ This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapt..."
+        },
+        {
+            "id": "paavaiag/AI4Bharat-State-Expert-West_Bengal",
+            "url": "https://huggingface.co/paavaiag/AI4Bharat-State-Expert-West_Bengal",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "iris-as/my-lora-repo_20",
+            "url": "https://huggingface.co/iris-as/my-lora-repo_20",
+            "task": "text-generation",
+            "downloads": 3,
+            "likes": 0,
+            "description": "qwen3_4b_structured_output_lora-dataset_512_v4_case20 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository cont..."
+        },
+        {
+            "id": "spicyneuron/Qwen3-Next-Coder-MLX-mixed-4.5-bit",
+            "url": "https://huggingface.co/spicyneuron/Qwen3-Next-Coder-MLX-mixed-4.5-bit",
+            "task": "text-generation",
+            "downloads": 594,
+            "likes": 0,
+            "description": "[Qwen3-Coder-Next](https://huggingface.co/moonshotai/Qwen/Qwen3-Coder-Next) optimized for MLX. Note: Uses MXFP4 for some module paths. **EDIT:** [v2](https://huggingface.co/spicyneuron/Qwen3-Next-Code..."
+        },
+        {
+            "id": "iris-as/my-lora-repo_22",
+            "url": "https://huggingface.co/iris-as/my-lora-repo_22",
+            "task": "text-generation",
+            "downloads": 3,
+            "likes": 0,
+            "description": "qwen3_4b_structured_output_lora-dataset_512_v4_case22 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository cont..."
+        },
+        {
+            "id": "HidekiKawai/AgentBench-sft-qwen3-4b-R176",
+            "url": "https://huggingface.co/HidekiKawai/AgentBench-sft-qwen3-4b-R176",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "Umezaki/SparseCov_v1",
+            "url": "https://huggingface.co/Umezaki/SparseCov_v1",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "Chenith/NESUX-V2-Full",
+            "url": "https://huggingface.co/Chenith/NESUX-V2-Full",
+            "task": "text-generation",
+            "downloads": 41,
+            "likes": 0,
+            "description": "This qwen2 model was trained 2x faster with [Unsloth](https://github.com/unslothai/unsloth) and Huggingface's TRL library. [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/un..."
+        },
+        {
+            "id": "NobutaMN/qwen25-7b-sft1-mix2-batch3-kai-maxsteps150_epo1_1.0e-6",
+            "url": "https://huggingface.co/NobutaMN/qwen25-7b-sft1-mix2-batch3-kai-maxsteps150_epo1_1.0e-6",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **NobutaMN/qwen25-7b-sft1-dbbench-v4-maxsteps-1_1.5e-6** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. T..."
+        },
+        {
+            "id": "iris-as/my-lora-repo_24",
+            "url": "https://huggingface.co/iris-as/my-lora-repo_24",
+            "task": "text-generation",
+            "downloads": 3,
+            "likes": 0,
+            "description": "qwen3_4b_structured_output_lora-dataset_512_v4_case24 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository cont..."
+        },
+        {
+            "id": "morizon/qwen2.5-dbench_finalanswer_0301_run_16",
+            "url": "https://huggingface.co/morizon/qwen2.5-dbench_finalanswer_0301_run_16",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **morizon/qwen2.5-7b-agent-trajectory-lora_0228_run_9** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. Th..."
+        },
+        {
+            "id": "n4/Qwen3-4B-Instruct-2507-sft_166",
+            "url": "https://huggingface.co/n4/Qwen3-4B-Instruct-2507-sft_166",
+            "task": "text-generation",
+            "downloads": 36,
+            "likes": 0,
+            "description": "This repository provides a **merged full model** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA**. **Important:** This repository does **NOT** provide separate LoRA adapter weights. It c..."
+        },
+        {
+            "id": "iris-as/my-lora-repo_23",
+            "url": "https://huggingface.co/iris-as/my-lora-repo_23",
+            "task": "text-generation",
+            "downloads": 9,
+            "likes": 0,
+            "description": "qwen3_4b_structured_output_lora-dataset_512_v4_case23 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository cont..."
+        },
+        {
+            "id": "Banana304343/Quantum-Specialist-1.5B",
+            "url": "https://huggingface.co/Banana304343/Quantum-Specialist-1.5B",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is a fine-tuned model based on Qwen2.5...."
+        },
+        {
+            "id": "mitomeat823/qwen3-4b-sft-lora",
+            "url": "https://huggingface.co/mitomeat823/qwen3-4b-sft-lora",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter we..."
+        },
+        {
+            "id": "iris-as/my-lora-repo_27",
+            "url": "https://huggingface.co/iris-as/my-lora-repo_27",
+            "task": "text-generation",
+            "downloads": 5,
+            "likes": 0,
+            "description": "qwen3_4b_structured_output_lora-dataset_512_v4_case27 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository cont..."
+        },
+        {
+            "id": "iris-as/my-lora-repo_29",
+            "url": "https://huggingface.co/iris-as/my-lora-repo_29",
+            "task": "text-generation",
+            "downloads": 8,
+            "likes": 0,
+            "description": "qwen3_4b_structured_output_lora-dataset_512_v4_case29 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository cont..."
+        },
+        {
+            "id": "zhuojing-huang/gpt2-chinese-english-bi-vocab-1",
+            "url": "https://huggingface.co/zhuojing-huang/gpt2-chinese-english-bi-vocab-1",
+            "task": "text-generation",
+            "downloads": 113,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model was trained from scratch on the None dataset. More information needed More information needed More information neede..."
+        },
+        {
+            "id": "ReactiveAI/RxT-Beta-Decoder-Base",
+            "url": "https://huggingface.co/ReactiveAI/RxT-Beta-Decoder-Base",
+            "task": "text-generation",
+            "downloads": 142,
+            "likes": 0,
+            "description": "暂无模型介绍（可能为无 README 的私有/空白模型）。"
+        },
+        {
+            "id": "tussiiiii/Qwen3-4B-AgentBench-Merged-v2-15",
+            "url": "https://huggingface.co/tussiiiii/Qwen3-4B-AgentBench-Merged-v2-15",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a merged full model fine-tuned from Qwen/Qwen3-4B-Instruct-2507 using LoRA + Unsloth. The LoRA adapter has been merged into the base model weights. The model can be loaded dir..."
+        },
+        {
+            "id": "Corianas/Qwen3-1.7B-dataclaw_mallet",
+            "url": "https://huggingface.co/Corianas/Qwen3-1.7B-dataclaw_mallet",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "RinnRinnmini/qwen3-4b-agent-trajectory-merged11-sftdpo_v13",
+            "url": "https://huggingface.co/RinnRinnmini/qwen3-4b-agent-trajectory-merged11-sftdpo_v13",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **merged model** based on **Qwen/Qwen3-4B-Instruct-2507**. The LoRA adapter (after DPO) has been **merged into the base model**. Load directly with `transformers` (no PEFT a..."
+        },
+        {
+            "id": "nakasone/qwen3-4b-structured-output-lora-v15",
+            "url": "https://huggingface.co/nakasone/qwen3-4b-structured-output-lora-v15",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora-v15 This repository provides a **LoRA adapter** fine-tuned from **unsloth/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA ada..."
+        },
+        {
+            "id": "kawashimas/qwen3-4b-agent-trajectory-loraDistill_3_2",
+            "url": "https://huggingface.co/kawashimas/qwen3-4b-agent-trajectory-loraDistill_3_2",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "rlcgn589/qwen3-4b-agent-trajectory-lora-1",
+            "url": "https://huggingface.co/rlcgn589/qwen3-4b-agent-trajectory-lora-1",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "vysakh25/Vysakh-Orpheus-3B-Kinyarwanda-v0.6",
+            "url": "https://huggingface.co/vysakh25/Vysakh-Orpheus-3B-Kinyarwanda-v0.6",
+            "task": "text-generation",
+            "downloads": 515,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [vysakh25/Vysakh-Orpheus-3B-Kinyarwanda-v0.3](https://huggingface.co/vysakh25/Vysakh-Orph..."
+        },
+        {
+            "id": "curio184/qwen25-7b-agent-exp08-A_baseline_v3_dbv4",
+            "url": "https://huggingface.co/curio184/qwen25-7b-agent-exp08-A_baseline_v3_dbv4",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of **Qwen/Qwen2.5-7B-Instruct** using **LoRA + Unsloth**. This repository contains the **full merged weights**. No adapter loading is required. This adapter is train..."
+        },
+        {
+            "id": "sathishphdai/sdlc-slm-1m",
+            "url": "https://huggingface.co/sathishphdai/sdlc-slm-1m",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A **LLaMA-style transformer** (~33.9M parameters) trained from scratch on a comprehensive Software Development Life Cycle (SDLC) knowledge base. Supports up to **1M token context** via RoPE. SDLC-SLM ..."
+        },
+        {
+            "id": "motobrew/qwen-x3-sft-v12",
+            "url": "https://huggingface.co/motobrew/qwen-x3-sft-v12",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **motobrew/qwen-dpo-v3** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loaded sep..."
+        },
+        {
+            "id": "kgrabko/JiRackTernary_70b",
+            "url": "https://huggingface.co/kgrabko/JiRackTernary_70b",
+            "task": "text-generation",
+            "downloads": 136,
+            "likes": 0,
+            "description": "[![Patent Pending](https://img.shields.io/badge/Status-Patent%20Pending-red)](LICENSE) [![License](https://img.shields.io/badge/License-CMS%20Manhattan%20JiRack%20v1.2-blue)](LICENSE) [![VRAM Reductio..."
+        },
+        {
+            "id": "taketakedaiki/qwen3-4b-v2-exp25",
+            "url": "https://huggingface.co/taketakedaiki/qwen3-4b-v2-exp25",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "＜【課題】ここは自分で記入して下さい＞ This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter weights only**..."
+        },
+        {
+            "id": "hiro7ka/dpo-qwen-cot-merged-ver3c",
+            "url": "https://huggingface.co/hiro7ka/dpo-qwen-cot-merged-ver3c",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of **Qwen/Qwen3-4B-Instruct-2507** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. This repository contains the **full-merged 16-bit weig..."
+        },
+        {
+            "id": "masaom/25_qwen3-4b-agent-baseline_DB_ALF",
+            "url": "https://huggingface.co/masaom/25_qwen3-4b-agent-baseline_DB_ALF",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **unsloth/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be ..."
+        },
+        {
+            "id": "tk256ailab/matsuo-llm-2025-advanced-v19",
+            "url": "https://huggingface.co/tk256ailab/matsuo-llm-2025-advanced-v19",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "melon1891/agentbench-qwen3-4b-dbalf-20260301-lr1e6-v3",
+            "url": "https://huggingface.co/melon1891/agentbench-qwen3-4b-dbalf-20260301-lr1e6-v3",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A full model fine-tuned from **melon1891/agentbench-qwen3-4b-2stage-reasoning-20260228** using LoRA + Unsloth, with the adapter merged into the base model. This model is trained to improve **multi-tur..."
+        },
+        {
+            "id": "chronobcelp/test105-16",
+            "url": "https://huggingface.co/chronobcelp/test105-16",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen2.5-7B-Instruct** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loaded..."
+        },
+        {
+            "id": "kky84176/qwen3-4b-structured-output-lora-026",
+            "url": "https://huggingface.co/kky84176/qwen3-4b-structured-output-lora-026",
+            "task": "text-generation",
+            "downloads": 6,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora-026 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapte..."
+        },
+        {
+            "id": "choco800/qwen3-4b-agent-v12",
+            "url": "https://huggingface.co/choco800/qwen3-4b-agent-v12",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **fully merged model** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using Unsloth. Unlike standard adapter repositories, this repository contains the **merged weights**, ..."
+        },
+        {
+            "id": "sho-nakamura/dpo-qwen-cot-merged_v3",
+            "url": "https://huggingface.co/sho-nakamura/dpo-qwen-cot-merged_v3",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of **sho-nakamura/qwen3-4b-instruct-sft-lora-structured** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. This repository contains the **..."
+        },
+        {
+            "id": "divait/les-mysteres-instruct-merged",
+            "url": "https://huggingface.co/divait/les-mysteres-instruct-merged",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "aimarusano/1_a3",
+            "url": "https://huggingface.co/aimarusano/1_a3",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "1_a3 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter weights only**. The base mode..."
+        },
+        {
+            "id": "chixoxy7/qwen3-4b-structured-output-lora-sft009",
+            "url": "https://huggingface.co/chixoxy7/qwen3-4b-structured-output-lora-sft009",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora-sft009 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA ada..."
+        },
+        {
+            "id": "asekimoto/qwen3-4b-instruct-2507-output-lora",
+            "url": "https://huggingface.co/asekimoto/qwen3-4b-instruct-2507-output-lora",
+            "task": "text-generation",
+            "downloads": 10,
+            "likes": 0,
+            "description": "qwen3-4b-instruct-2507-output-lora This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter..."
+        },
+        {
+            "id": "1984akg/qwen3-4b-structured-output-lora-rev.08",
+            "url": "https://huggingface.co/1984akg/qwen3-4b-structured-output-lora-rev.08",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora-rev.08 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA ada..."
+        },
+        {
+            "id": "motobrew/qwen-x3-sft-v11",
+            "url": "https://huggingface.co/motobrew/qwen-x3-sft-v11",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **motobrew/qwen-dpo-v3** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loaded sep..."
+        },
+        {
+            "id": "hnda/qwen3-4b-alf-traj-v5-2ep-merged",
+            "url": "https://huggingface.co/hnda/qwen3-4b-alf-traj-v5-2ep-merged",
+            "task": "text-generation",
+            "downloads": 28,
+            "likes": 0,
+            "description": "This qwen3 model was trained 2x faster with [Unsloth](https://github.com/unslothai/unsloth) and Huggingface's TRL library. [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/un..."
+        },
+        {
+            "id": "sabia0080/qwen3-4b-agentbench-v4-longexp-full-r64-lr1e6-seq8k",
+            "url": "https://huggingface.co/sabia0080/qwen3-4b-agentbench-v4-longexp-full-r64-lr1e6-seq8k",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base model must be loa..."
+        },
+        {
+            "id": "spicyneuron/Kimi-K2.5-MLX-mixed-2.8-bit",
+            "url": "https://huggingface.co/spicyneuron/Kimi-K2.5-MLX-mixed-2.8-bit",
+            "task": "text-generation",
+            "downloads": 782,
+            "likes": 0,
+            "description": "[Kimi K2.5](https://huggingface.co/moonshotai/Kimi-K2.5) optimized to run _comfortably_ on a Mac Studio M3 512G. [Other MLX options](https://huggingface.co/models?library=mlx&sort=trending&search=kimi..."
+        },
+        {
+            "id": "yukiakari/dpo-qwen-cot-merged",
+            "url": "https://huggingface.co/yukiakari/dpo-qwen-cot-merged",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of **Qwen/Qwen3-4B-Instruct-2507** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. This repository contains the **full-merged 16-bit weig..."
+        },
+        {
+            "id": "KS150/dpo-qwen-cot-merged_2",
+            "url": "https://huggingface.co/KS150/dpo-qwen-cot-merged_2",
+            "task": "text-generation",
+            "downloads": 81,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of **Qwen/Qwen3-4B-Instruct-2507** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. This repository contains the **full-merged 16-bit weig..."
+        },
+        {
+            "id": "EH187861/your-lora-repo",
+            "url": "https://huggingface.co/EH187861/your-lora-repo",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "qwen3-4b-structured-output-lora2 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter w..."
+        },
+        {
+            "id": "srvhat09/qwen3-4b-agent-trajectory-lora-v05",
+            "url": "https://huggingface.co/srvhat09/qwen3-4b-agent-trajectory-lora-v05",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **LoRA adapter** fine-tuned from **srvhat09/qwen3-4b-agent-trajectory-lora-v04** using **LoRA + Unsloth**. This repository contains **LoRA adapter weights only**. The base m..."
+        },
+        {
+            "id": "Sumiokashi/qwen3-4b-structured-3k-mix-sft_lora-dpo-qwen-cot-merged2",
+            "url": "https://huggingface.co/Sumiokashi/qwen3-4b-structured-3k-mix-sft_lora-dpo-qwen-cot-merged2",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[More Information Needed] [More Information Needed] [More Information Needed] [More Information Needed] Users (both direct and downstream) should be made aware of the risks, biases and limitations of ..."
+        },
+        {
+            "id": "dkl4/llm2025-qwen3-4b-structured-output-lora-01-v18",
+            "url": "https://huggingface.co/dkl4/llm2025-qwen3-4b-structured-output-lora-01-v18",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "＃llm2025-qwen3-4b-structured-output-lora-01-v18 This repository provides a **LoRA adapter** fine-tuned from **unsloth/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contain..."
+        },
+        {
+            "id": "ko3377/dpo-qwen-cot-merged16",
+            "url": "https://huggingface.co/ko3377/dpo-qwen-cot-merged16",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of **Qwen/Qwen3-4B-Instruct-2507** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. This repository contains the **full-merged 16-bit weig..."
+        },
+        {
+            "id": "ShogoMu/qwen25_7b_lora_agentbench_v17_e3",
+            "url": "https://huggingface.co/ShogoMu/qwen25_7b_lora_agentbench_v17_e3",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository provides a **merged model** fine-tuned from **Qwen/Qwen2.5-7B-Instruct**. The fine-tuning was performed using **LoRA + Unsloth** and the resulting adapter has been merged back into the..."
+        },
+        {
+            "id": "NodaLoxia/LLM",
+            "url": "https://huggingface.co/NodaLoxia/LLM",
+            "task": "text-generation",
+            "downloads": 0,
+            "likes": 0,
+            "description": "＜Noda-Test-1＞ This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository contains **LoRA adapter weights only**. The ..."
+        },
+        {
+            "id": "DavidUgCh/death-news_roberta_bs43",
+            "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs43",
+            "task": "fill-mask",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [roberta-base](https://huggingface.co/roberta-base) on an unknown dataset. It achieves th..."
+        },
+        {
+            "id": "ReactiveAI/RxT-Beta-MLM-Base",
+            "url": "https://huggingface.co/ReactiveAI/RxT-Beta-MLM-Base",
+            "task": "fill-mask",
+            "downloads": 131,
+            "likes": 0,
+            "description": "暂无模型介绍（可能为无 README 的私有/空白模型）。"
+        },
+        {
+            "id": "ReactiveAI/RxT-Beta-Encoder-Base",
+            "url": "https://huggingface.co/ReactiveAI/RxT-Beta-Encoder-Base",
+            "task": "fill-mask",
+            "downloads": 138,
+            "likes": 1,
+            "description": "暂无模型介绍（可能为无 README 的私有/空白模型）。"
+        },
+        {
+            "id": "DavidUgCh/death-news_roberta_bs42",
+            "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs42",
+            "task": "fill-mask",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [roberta-base](https://huggingface.co/roberta-base) on an unknown dataset. It achieves th..."
+        },
+        {
+            "id": "multimolecule/dnabert2",
+            "url": "https://huggingface.co/multimolecule/dnabert2",
+            "task": "fill-mask",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Pre-trained model on multi-species genome using a masked language modeling (MLM) objective. This is an UNOFFICIAL implementation of the [DNABERT-2: Efficient Foundation Model and Benchmark for Multi-S..."
+        },
+        {
+            "id": "multimolecule/dnabert-6mer",
+            "url": "https://huggingface.co/multimolecule/dnabert-6mer",
+            "task": "fill-mask",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Pre-trained model on human genome using a masked language modeling (MLM) objective with k-mer tokenization. This is an UNOFFICIAL implementation of the [DNABERT: pre-trained Bidirectional Encoder Repr..."
+        },
+        {
+            "id": "multimolecule/dnabert-5mer",
+            "url": "https://huggingface.co/multimolecule/dnabert-5mer",
+            "task": "fill-mask",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Pre-trained model on human genome using a masked language modeling (MLM) objective with k-mer tokenization. This is an UNOFFICIAL implementation of the [DNABERT: pre-trained Bidirectional Encoder Repr..."
+        },
+        {
+            "id": "multimolecule/dnabert-4mer",
+            "url": "https://huggingface.co/multimolecule/dnabert-4mer",
+            "task": "fill-mask",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Pre-trained model on human genome using a masked language modeling (MLM) objective with k-mer tokenization. This is an UNOFFICIAL implementation of the [DNABERT: pre-trained Bidirectional Encoder Repr..."
+        },
+        {
+            "id": "multimolecule/dnabert-3mer",
+            "url": "https://huggingface.co/multimolecule/dnabert-3mer",
+            "task": "fill-mask",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Pre-trained model on human genome using a masked language modeling (MLM) objective with k-mer tokenization. This is an UNOFFICIAL implementation of the [DNABERT: pre-trained Bidirectional Encoder Repr..."
+        },
+        {
+            "id": "KhaledReda/all-MiniLM-L6-v37-pair_score",
+            "url": "https://huggingface.co/KhaledReda/all-MiniLM-L6-v37-pair_score",
+            "task": "sentence-similarity",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is a [sentence-transformers](https://www.SBERT.net) model finetuned from [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) on the [pairs_with..."
+        },
+        {
+            "id": "RikkaBotan/quantized-stable-static-embedding-fast-retrieval-mrl-ja",
+            "url": "https://huggingface.co/RikkaBotan/quantized-stable-static-embedding-fast-retrieval-mrl-ja",
+            "task": "sentence-similarity",
+            "downloads": 0,
+            "likes": 2,
+            "description": "**パフォーマンスの簡易解説** このモデルは NanoBEIR_ja（日本語文書検索タスク） において **NDCG@10 = 0.4477** を達成しました。 このスコアは他の静的埋め込みモデル（ [`static-embedding-japanese`](https://huggingface.co/hotchpotch/static-embedding-japanese) (0.4487..."
+        },
+        {
+            "id": "chenbowen184/instacart-two-tower-sbert",
+            "url": "https://huggingface.co/chenbowen184/instacart-two-tower-sbert",
+            "task": "sentence-similarity",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is a [sentence-transformers](https://www.SBERT.net) model finetuned from [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2). It maps sentences..."
+        },
+        {
+            "id": "RikkaBotan/stable-static-embedding-fast-retrieval-mrl-ja",
+            "url": "https://huggingface.co/RikkaBotan/stable-static-embedding-fast-retrieval-mrl-ja",
+            "task": "sentence-similarity",
+            "downloads": 0,
+            "likes": 3,
+            "description": "**パフォーマンスの簡易解説** このモデルは NanoBEIR_ja（日本語文書検索タスク） において **NDCG@10 = 0.4507** を達成しました。 このスコアは他の静的埋め込みモデル（ [`static-embedding-japanese`](https://huggingface.co/hotchpotch/static-embedding-japanese) (0.4487..."
+        },
+        {
+            "id": "CYB3RFUNK/all-MiniLM-L6-v2",
+            "url": "https://huggingface.co/CYB3RFUNK/all-MiniLM-L6-v2",
+            "task": "sentence-similarity",
+            "downloads": 10,
+            "likes": 0,
+            "description": "This is a [sentence-transformers](https://www.SBERT.net) model: It maps sentences & paragraphs to a 384 dimensional dense vector space and can be used for tasks like clustering or semantic search. Usi..."
+        }
+    ]
+}

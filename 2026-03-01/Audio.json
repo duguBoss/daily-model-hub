@@ -1,0 +1,495 @@
+{
+    "date": "2026-03-01",
+    "category": "Audio",
+    "total_updates": 61,
+    "models": [
+        {
+            "id": "EMTIAZZ/orpheus-3b-bangla-high-data-finetuning",
+            "url": "https://huggingface.co/EMTIAZZ/orpheus-3b-bangla-high-data-finetuning",
+            "task": "text-to-speech",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Fine-tuned LoRA adapters for the **Orpheus 3B** text-to-speech model, trained on a **large combined Bangla (Bengali) speech dataset** (~99K samples: Adiba speaker + additional TTS data). This is the *..."
+        },
+        {
+            "id": "EMTIAZZ/orpheus-3b-bangla-small-data-finetuning",
+            "url": "https://huggingface.co/EMTIAZZ/orpheus-3b-bangla-small-data-finetuning",
+            "task": "text-to-speech",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Fine-tuned LoRA adapters for the **Orpheus 3B** text-to-speech model, trained on a **Bangla (Bengali) speech dataset** (Adiba speaker, ~39K samples). This is the **small data** variant — trained for *..."
+        },
+        {
+            "id": "recapforge/rf-voice-vi",
+            "url": "https://huggingface.co/recapforge/rf-voice-vi",
+            "task": "text-to-speech",
+            "downloads": 0,
+            "likes": 0,
+            "description": "viⓍTTS là mô hình tạo sinh giọng nói cho phép bạn sao chép giọng nói sang các ngôn ngữ khác nhau chỉ bằng cách sử dụng một đoạn âm thanh nhanh dài 6 giây. Mô hình này được tiếp tục đào tạo từ mô hình ..."
+        },
+        {
+            "id": "aitytech/CosyVoice3-0.5B-MLX-4bit",
+            "url": "https://huggingface.co/aitytech/CosyVoice3-0.5B-MLX-4bit",
+            "task": "text-to-speech",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[CosyVoice 3](https://arxiv.org/abs/2505.17589) text-to-speech model converted to MLX safetensors format with 4-bit quantization for Apple Silicon inference. Converted from [FunAudioLLM/Fun-CosyVoice3..."
+        },
+        {
+            "id": "Thomcles/Chatterbox-TTS-Persian-Farsi",
+            "url": "https://huggingface.co/Thomcles/Chatterbox-TTS-Persian-Farsi",
+            "task": "text-to-speech",
+            "downloads": 0,
+            "likes": 49,
+            "description": "暂无模型介绍（可能为无 README 的私有/空白模型）。"
+        },
+        {
+            "id": "Thomcles/Chatterbox-TTS-Czech",
+            "url": "https://huggingface.co/Thomcles/Chatterbox-TTS-Czech",
+            "task": "text-to-speech",
+            "downloads": 0,
+            "likes": 12,
+            "description": "暂无模型介绍（可能为无 README 的私有/空白模型）。"
+        },
+        {
+            "id": "qoranet/QORA-TTS",
+            "url": "https://huggingface.co/qoranet/QORA-TTS",
+            "task": "text-to-speech",
+            "downloads": 30,
+            "likes": 2,
+            "description": "Pure Rust text-to-speech synthesis engine. No Python runtime, no CUDA, no external dependencies. Single executable + quantized weights = portable TTS on any machine. ``` Text → Tokenize → Talker (28 l..."
+        },
+        {
+            "id": "weipinglu/XTTS-v2",
+            "url": "https://huggingface.co/weipinglu/XTTS-v2",
+            "task": "text-to-speech",
+            "downloads": 0,
+            "likes": 0,
+            "description": "ⓍTTS is a Voice generation model that lets you clone voices into different languages by using just a quick 6-second audio clip. There is no need for an excessive amount of training data that spans cou..."
+        },
+        {
+            "id": "mradermacher/zen-musician-i1-GGUF",
+            "url": "https://huggingface.co/mradermacher/zen-musician-i1-GGUF",
+            "task": "text-to-audio",
+            "downloads": 2046,
+            "likes": 2,
+            "description": "weighted/imatrix quants of https://huggingface.co/zenlm/zen-musician ***For a convenient overview and download list, visit our [model page for this model](https://hf.tst.eu/model#zen-musician-i1-GGUF)..."
+        },
+        {
+            "id": "Xasan01/speecht5_finetuned_voxpopuli_fr",
+            "url": "https://huggingface.co/Xasan01/speecht5_finetuned_voxpopuli_fr",
+            "task": "text-to-audio",
+            "downloads": 25,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [microsoft/speecht5_tts](https://huggingface.co/microsoft/speecht5_tts) on an unknown dat..."
+        },
+        {
+            "id": "lewiswoncy/m_test_11",
+            "url": "https://huggingface.co/lewiswoncy/m_test_11",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "⚙️ vLLM coming soon We are pleased to announce the release of our flagship speech-text large language model, [**MERaLiON-3-10B-preview**](https://huggingface.co/MERaLiON/MERaLiON-3-10B-preview). MERaL..."
+        },
+        {
+            "id": "deepdml/whisper-base-ar-mix-norm",
+            "url": "https://huggingface.co/deepdml/whisper-base-ar-mix-norm",
+            "task": "automatic-speech-recognition",
+            "downloads": 121,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [openai/whisper-base](https://huggingface.co/openai/whisper-base) on the Common Voice 17...."
+        },
+        {
+            "id": "ysdede/parakeet-tdt-0.6b-v2-onnx-tfjs4",
+            "url": "https://huggingface.co/ysdede/parakeet-tdt-0.6b-v2-onnx-tfjs4",
+            "task": "automatic-speech-recognition",
+            "downloads": 19,
+            "likes": 0,
+            "description": "This repo is packaged for the custom `nemo-conformer-tdt` implementation in Transformers.js v4. Repository root: ONNX subfolder: This packaging was validated with: Source baseline: `istupakov/parakeet..."
+        },
+        {
+            "id": "mistral-hackaton-2026/evoxtral",
+            "url": "https://huggingface.co/mistral-hackaton-2026/evoxtral",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A LoRA adapter for [Voxtral-Mini-3B-2507](https://huggingface.co/mistralai/Voxtral-Mini-3B-2507) that produces transcriptions enriched with inline expressive audio tags from the [ElevenLabs v3 tag set..."
+        },
+        {
+            "id": "YongkangZOU/evoxtral",
+            "url": "https://huggingface.co/YongkangZOU/evoxtral",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A LoRA adapter for [Voxtral-Mini-3B-2507](https://huggingface.co/mistralai/Voxtral-Mini-3B-2507) that produces transcriptions enriched with inline expressive audio tags from the [ElevenLabs v3 tag set..."
+        },
+        {
+            "id": "GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0",
+            "url": "https://huggingface.co/GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0",
+            "task": "automatic-speech-recognition",
+            "downloads": 109,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "recyclebin12331/whisper-small-hi",
+            "url": "https://huggingface.co/recyclebin12331/whisper-small-hi",
+            "task": "automatic-speech-recognition",
+            "downloads": 41,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [openai/whisper-tiny](https://huggingface.co/openai/whisper-tiny) on an unknown dataset. ..."
+        },
+        {
+            "id": "TheStageAI/thewhisper-large-v3-turbo",
+            "url": "https://huggingface.co/TheStageAI/thewhisper-large-v3-turbo",
+            "task": "automatic-speech-recognition",
+            "downloads": 7862,
+            "likes": 21,
+            "description": "**TheWhisper-Large-V3-Turbo** is a fine-tuned, high-performance variant of OpenAI’s Whisper Large V3 model — optimized by **TheStage AI** for **real-time**, **low-latency**, and **low-power** speech-t..."
+        },
+        {
+            "id": "wasimlhr/whisper-quran-v1",
+            "url": "https://huggingface.co/wasimlhr/whisper-quran-v1",
+            "task": "automatic-speech-recognition",
+            "downloads": 86,
+            "likes": 0,
+            "description": "**The first open-source, production-tested Whisper Large-v3 model fine-tuned specifically for Quran recitation.** Fine-tuned on professional recitations from 5 world-renowned Qurʾān reciters, achievin..."
+        },
+        {
+            "id": "deepdml/whisper-base-ta-mix-norm",
+            "url": "https://huggingface.co/deepdml/whisper-base-ta-mix-norm",
+            "task": "automatic-speech-recognition",
+            "downloads": 91,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [openai/whisper-base](https://huggingface.co/openai/whisper-base) on the Common Voice 17...."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-ukv",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-ukv",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Kuku (ukv). ```python f..."
+        },
+        {
+            "id": "YongkangZOU/evoxtral-lora",
+            "url": "https://huggingface.co/YongkangZOU/evoxtral-lora",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A LoRA adapter for [Voxtral-Mini-3B-2507](https://huggingface.co/mistralai/Voxtral-Mini-3B-2507) that produces transcriptions enriched with inline expressive audio tags from the [ElevenLabs v3 tag set..."
+        },
+        {
+            "id": "soynade-research/Wolof-HuBERT-CTC",
+            "url": "https://huggingface.co/soynade-research/Wolof-HuBERT-CTC",
+            "task": "automatic-speech-recognition",
+            "downloads": 16,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [soynade-research/Wolof-HuBERT-Base](https://huggingface.co/soynade-research/Wolof-HuBERT..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-top",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-top",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Papantla Totonac (top)...."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-ttj",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-ttj",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Rutoro (ttj). ```python..."
+        },
+        {
+            "id": "FarmerlineML/w2v-bert-2.0_2026_krio",
+            "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio",
+            "task": "automatic-speech-recognition",
+            "downloads": 644,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "ihanif/exp_008_base_cv24_vanilla",
+            "url": "https://huggingface.co/ihanif/exp_008_base_cv24_vanilla",
+            "task": "automatic-speech-recognition",
+            "downloads": 140,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [openai/whisper-base](https://huggingface.co/openai/whisper-base) on an unknown dataset. ..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-pne",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-pne",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Western Penan (pne). ``..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-sco",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-sco",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Scots (sco). ```python ..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-mmc",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-mmc",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Michoacán Mazahua (mmc)..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-rwm",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-rwm",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Amba (rwm). ```python f..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-tob",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-tob",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Toba Qom (tob). ```pyth..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-ruc",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-ruc",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Ruuli (ruc). ```python ..."
+        },
+        {
+            "id": "CelesteImperia/Whisper-Large-v3-Turbo-OpenVINO-INT4",
+            "url": "https://huggingface.co/CelesteImperia/Whisper-Large-v3-Turbo-OpenVINO-INT4",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is a hardware-optimized port of OpenAI's **Whisper-Large-v3-Turbo**, optimized using Intel's **NNCF** for ultra-low latency transcription on CPUs, GPUs, and NPUs. Designed for real-time transcrip..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-lke",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-lke",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Kenyi (lke). ```python ..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-meh",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-meh",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Southwestern Tlaxiaco M..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-koo",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-koo",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Konzo (koo). ```python ..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-led",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-led",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Lendu (led). ```python ..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-lth",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-lth",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Thur (lth). ```python f..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-kcn",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-kcn",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Nubi (kcn). ```python f..."
+        },
+        {
+            "id": "trishtan/voxtral-sentinel-4b",
+            "url": "https://huggingface.co/trishtan/voxtral-sentinel-4b",
+            "task": "automatic-speech-recognition",
+            "downloads": 183,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [mistralai/Voxtral-Mini-4B-Realtime-2602](https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602). It has been trained using [TRL](https://github.com/hugg..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-el-CY",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-el-CY",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Cypriot Greek (el-CY). ..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-bxk",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-bxk",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Bukusu (bxk). ```python..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-cgg",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-cgg",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Chiga (cgg). ```python ..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-aln",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-aln",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Gheg Albanian (aln). ``..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-hch",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-hch",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Wixárika (hch). ```pyth..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-bew",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-bew",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spontaneous Speech dataset for Betawi (bew). ```python..."
+        },
+        {
+            "id": "tantk/gpu_endpoint",
+            "url": "https://huggingface.co/tantk/gpu_endpoint",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "tags: library_name: custom pipeline_tag: automatic-speech-recognition GPU-accelerated speech-to-text for the MeetingMind pipeline using Voxtral Realtime 4B. Runs as an HF Inference Endpoint on a T4 GP..."
+        },
+        {
+            "id": "mistral-hackaton-2026/voxtral_model",
+            "url": "https://huggingface.co/mistral-hackaton-2026/voxtral_model",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "description": "tags: language: library_name: custom pipeline_tag: automatic-speech-recognition license: apache-2.0 Streaming speech-to-text model with ~4 billion parameters. Weights in BF16 safetensors format, extra..."
+        },
+        {
+            "id": "FatimahEmadEldin/wav2vec2-xls-r-300m-iqraeval",
+            "url": "https://huggingface.co/FatimahEmadEldin/wav2vec2-xls-r-300m-iqraeval",
+            "task": "automatic-speech-recognition",
+            "downloads": 24,
+            "likes": 1,
+            "description": "This model is a fine-tuned version of [facebook/wav2vec2-xls-r-300m](https://huggingface.co/facebook/wav2vec2-xls-r-300m) specifically adapted for the Iqra'Eval 2026 Shared Task. It is designed to per..."
+        },
+        {
+            "id": "FusionRAG/msp-audio-wav2vec2-lrs2",
+            "url": "https://huggingface.co/FusionRAG/msp-audio-wav2vec2-lrs2",
+            "task": "automatic-speech-recognition",
+            "downloads": 872,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [](https://huggingface.co/) on an unknown dataset. It achieves the following results on t..."
+        },
+        {
+            "id": "csikasote/mms-1b-all-bemgen-combined-m50f50-dnn-52-0.10",
+            "url": "https://huggingface.co/csikasote/mms-1b-all-bemgen-combined-m50f50-dnn-52-0.10",
+            "task": "automatic-speech-recognition",
+            "downloads": 52,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [facebook/mms-1b-all](https://huggingface.co/facebook/mms-1b-all) on the BEMGEN - DEB dat..."
+        },
+        {
+            "id": "woshouqibao/bigvgan_v2_44khz_128band_512x",
+            "url": "https://huggingface.co/woshouqibao/bigvgan_v2_44khz_128band_512x",
+            "task": "audio-to-audio",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[[Paper]](https://arxiv.org/abs/2206.04658) - [[Code]](https://github.com/NVIDIA/BigVGAN) - [[Showcase]](https://bigvgan-demo.github.io/) - [[Project Page]](https://research.nvidia.com/labs/adlr/proje..."
+        },
+        {
+            "id": "AnhP/Vietnamese-RVC-Project",
+            "url": "https://huggingface.co/AnhP/Vietnamese-RVC-Project",
+            "task": "audio-to-audio",
+            "downloads": 0,
+            "likes": 8,
+            "description": "Công cụ chuyển đổi giọng nói chất lượng và hiệu suất cao đơn giản dành cho người Việt. [![Vietnamese RVC](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](h..."
+        },
+        {
+            "id": "Elwolfie/CNN_Audio_Classification_Model_with_Spectrogram",
+            "url": "https://huggingface.co/Elwolfie/CNN_Audio_Classification_Model_with_Spectrogram",
+            "task": "audio-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[If you would like a detailed explanation of this project, please refer to the Medium article below.](https://medium.com/@ai.omar.rehan/building-a-complete-audio-classification-pipeline-using-deep-lea..."
+        },
+        {
+            "id": "aitytech/Qwen3-ForcedAligner-0.6B-4bit",
+            "url": "https://huggingface.co/aitytech/Qwen3-ForcedAligner-0.6B-4bit",
+            "task": "audio-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "4-bit quantized version of [Qwen/Qwen3-ForcedAligner-0.6B](https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B) for Apple Silicon inference via [MLX](https://github.com/ml-explore/mlx). Predicts **wo..."
+        },
+        {
+            "id": "aitytech/WeSpeaker-ResNet34-LM-MLX",
+            "url": "https://huggingface.co/aitytech/WeSpeaker-ResNet34-LM-MLX",
+            "task": "audio-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "MLX-compatible weights for [WeSpeaker ResNet34-LM](https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM), converted from the pyannote speaker embedding model with BatchNorm fused into Conv2d..."
+        },
+        {
+            "id": "hzhongresearch/yamnetp_ahead_ds",
+            "url": "https://huggingface.co/hzhongresearch/yamnetp_ahead_ds",
+            "task": "audio-classification",
+            "downloads": 1168,
+            "likes": 0,
+            "description": "This repository contains the models for **OpenYAMNet/YAMNet+**, introduced in the paper [A dataset and model for auditory scene recognition for hearing devices: AHEAD-DS and OpenYAMNet](https://huggin..."
+        },
+        {
+            "id": "mistral-hackaton-2026/meetingmind-gpu",
+            "url": "https://huggingface.co/mistral-hackaton-2026/meetingmind-gpu",
+            "task": "audio-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "GPU-accelerated speaker diarization and embedding extraction for the MeetingMind pipeline. Runs as an HF Inference Endpoint on a T4 GPU with scale-to-zero. Returns service status and GPU availability...."
+        },
+        {
+            "id": "aitytech/Pyannote-Segmentation-MLX",
+            "url": "https://huggingface.co/aitytech/Pyannote-Segmentation-MLX",
+            "task": "voice-activity-detection",
+            "downloads": 0,
+            "likes": 0,
+            "description": "MLX-compatible weights for [pyannote/segmentation-3.0](https://huggingface.co/pyannote/segmentation-3.0) (PyanNet), converted from the official PyTorch Lightning checkpoint with pre-computed SincNet f..."
+        },
+        {
+            "id": "aitytech/Silero-VAD-v5-MLX",
+            "url": "https://huggingface.co/aitytech/Silero-VAD-v5-MLX",
+            "task": "voice-activity-detection",
+            "downloads": 0,
+            "likes": 0,
+            "description": "MLX-compatible weights for [Silero VAD v5](https://github.com/snakers4/silero-vad), converted from the official JIT model. Silero VAD v5 is a lightweight (~309K params) voice activity detection model ..."
+        }
+    ]
+}

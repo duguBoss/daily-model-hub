@@ -1,0 +1,31 @@
+{
+    "date": "2026-03-01",
+    "category": "Tabular",
+    "total_updates": 3,
+    "models": [
+        {
+            "id": "ariefansclub/han-social-response-classifier-v1",
+            "url": "https://huggingface.co/ariefansclub/han-social-response-classifier-v1",
+            "task": "tabular-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Menentukan respon sosial humanoid berdasarkan sinyal interaksi manusia. Categorical Crossentropy Accuracy, F1 Macro..."
+        },
+        {
+            "id": "ariefansclub/han-navigation-risk-predictor-v1",
+            "url": "https://huggingface.co/ariefansclub/han-navigation-risk-predictor-v1",
+            "task": "tabular-regression",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Memprediksi tingkat risiko navigasi humanoid untuk sistem pengambilan keputusan adaptif. MSE MAE, RMSE, R²..."
+        },
+        {
+            "id": "NeerajCodz/aiBatteryLifeCycle",
+            "url": "https://huggingface.co/NeerajCodz/aiBatteryLifeCycle",
+            "task": "tabular-regression",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Trained model artifacts for the [aiBatteryLifeCycle](https://huggingface.co/spaces/NeerajCodz/aiBatteryLifeCycle) project. SOH (State-of-Health) and RUL (Remaining Useful Life) prediction for lithium-..."
+        }
+    ]
+}

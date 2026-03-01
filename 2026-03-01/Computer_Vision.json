@@ -1,0 +1,583 @@
+{
+    "date": "2026-03-01",
+    "category": "Computer_Vision",
+    "total_updates": 72,
+    "models": [
+        {
+            "id": "Vanduc03/my-test-vision-model-vc",
+            "url": "https://huggingface.co/Vanduc03/my-test-vision-model-vc",
+            "task": "image-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is a lightweight experimental vision model created for testing training workflows and robotic vision tasks...."
+        },
+        {
+            "id": "rossheaton/british-birds-vit-base-patch16-224",
+            "url": "https://huggingface.co/rossheaton/british-birds-vit-base-patch16-224",
+            "task": "image-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository contains a fine-tuned Vision Transformer (ViT) model designed to classify images of 224 common British bird species. The model was fine-tuned from the `vit_base_patch16_224_imagenet21k..."
+        },
+        {
+            "id": "Panoramax/classify_nl_road_signs",
+            "url": "https://huggingface.co/Panoramax/classify_nl_road_signs",
+            "task": "image-classification",
+            "downloads": 0,
+            "likes": 1,
+            "description": "This model is a fine tuned version of classify_fr_road_signs classification model (based on YOLOv26) using our classified road signs dataset. 150+ types of road signs are defined in the dataset..."
+        },
+        {
+            "id": "ARUNAGIRINATHAN/plant_disease",
+            "url": "https://huggingface.co/ARUNAGIRINATHAN/plant_disease",
+            "task": "image-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "作者未提供纯文本说明，或说明由纯图表构成。"
+        },
+        {
+            "id": "kairavaclfe/deepfake-verifier-model",
+            "url": "https://huggingface.co/kairavaclfe/deepfake-verifier-model",
+            "task": "image-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information Needed] [More Information Needed] [More Informatio..."
+        },
+        {
+            "id": "LWWZH/Mini-Vision-V1",
+            "url": "https://huggingface.co/LWWZH/Mini-Vision-V1",
+            "task": "image-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Welcome to **Mini-Vision-V1**, the first model in the Mini-Vision series. This project demonstrates a robust implementation of a Convolutional Neural Network (CNN) for image classification using the C..."
+        },
+        {
+            "id": "ds-2026/ds-2026-test-AIBOM",
+            "url": "https://huggingface.co/ds-2026/ds-2026-test-AIBOM",
+            "task": "image-classification",
+            "downloads": 0,
+            "likes": 0,
+            "description": "作者未提供纯文本说明，或说明由纯图表构成。"
+        },
+        {
+            "id": "Knigge72/webpicmanager-family-model",
+            "url": "https://huggingface.co/Knigge72/webpicmanager-family-model",
+            "task": "image-classification",
+            "downloads": 55,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [google/vit-base-patch16-224-in21k](https://huggingface.co/google/vit-base-patch16-224-in..."
+        },
+        {
+            "id": "tuandunghcmut/doclaynet-yolo26l",
+            "url": "https://huggingface.co/tuandunghcmut/doclaynet-yolo26l",
+            "task": "object-detection",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A **YOLO26-Large** model fine-tuned on [DocLayNet v1.2](https://huggingface.co/datasets/ds4sd/DocLayNet) for Document Layout Analysis (DLA). It detects 10 semantic layout element types across diverse ..."
+        },
+        {
+            "id": "butcherftg5yhujnimk/Hitman",
+            "url": "https://huggingface.co/butcherftg5yhujnimk/Hitman",
+            "task": "object-detection",
+            "downloads": 25,
+            "likes": 0,
+            "description": "YOLOv8 model trained to detect 18 card types from the Hitman Card Game on Roblox...."
+        },
+        {
+            "id": "BigDannyPt/FP8-E5M2-Collection",
+            "url": "https://huggingface.co/BigDannyPt/FP8-E5M2-Collection",
+            "task": "text-to-image",
+            "downloads": 42,
+            "likes": 4,
+            "description": "Just a collection of some models that I've converted to fp8_e5m2 for better compatability with my RX6800 The ones that end with `_All` means that can be used without CLIP and VAE, so it is the whole m..."
+        },
+        {
+            "id": "MarkImmortal/pierrot_style_LoRA",
+            "url": "https://huggingface.co/MarkImmortal/pierrot_style_LoRA",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> These are MarkImmortal/pierrot_style_LoRA LoRA adaption weights for stabilityai/stable-diffusion-xl-base-1.0. The weights were ..."
+        },
+        {
+            "id": "mikkoph/mikkoph-style",
+            "url": "https://huggingface.co/mikkoph/mikkoph-style",
+            "task": "text-to-image",
+            "downloads": 51,
+            "likes": 0,
+            "description": "This LoRA is designed to replicate the photography style of mikkoph (which happens to be me). It focuses on emulating the makeup, lighting techniques, and post-processing effects that I use in my work..."
+        },
+        {
+            "id": "lodestones/Zeta-Chroma",
+            "url": "https://huggingface.co/lodestones/Zeta-Chroma",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 126,
+            "description": "WIP!..."
+        },
+        {
+            "id": "faaj888/lora1",
+            "url": "https://huggingface.co/faaj888/lora1",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "You should use `TOT` to trigger the image generation. Weights for this model are available in Safetensors format. [Download](/faaj888/lora1/tree/main) them in the Files & versions tab. Training was do..."
+        },
+        {
+            "id": "nphSi/Z-Image-Lora",
+            "url": "https://huggingface.co/nphSi/Z-Image-Lora",
+            "task": "text-to-image",
+            "downloads": 100037,
+            "likes": 36,
+            "description": "license: apache-2.0 tags: widget: url: ZI Alexandra Chando (vrtlAlexandraChando)-ID.webp text: Alexandra Chando (vrtlAlexandraChando) datasets: base_model: + Always use full LoRa name with \"vrtlxxxx\" ..."
+        },
+        {
+            "id": "lodestones/Chroma2-Kaleidoscope",
+            "url": "https://huggingface.co/lodestones/Chroma2-Kaleidoscope",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 106,
+            "description": "IT'S STILL WIP GUYS CHILL!!..."
+        },
+        {
+            "id": "Rand000mGuy/pnszib",
+            "url": "https://huggingface.co/Rand000mGuy/pnszib",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Download](/Rand000mGuy/pnszib/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "zlaa/SD3.5-medium",
+            "url": "https://huggingface.co/zlaa/SD3.5-medium",
+            "task": "text-to-image",
+            "downloads": 26,
+            "likes": 0,
+            "description": "[Stable Diffusion 3.5 Medium](https://stability.ai/news/introducing-stable-diffusion-3-5) is a Multimodal Diffusion Transformer with improvements (MMDiT-X) text-to-image model that features improved p..."
+        },
+        {
+            "id": "AiArtLab/sdxs-1b",
+            "url": "https://huggingface.co/AiArtLab/sdxs-1b",
+            "task": "text-to-image",
+            "downloads": 100,
+            "likes": 5,
+            "description": "*XS Size, Excess Quality* At AiArtLab, we strive to create a free, compact and fast model that can be trained on consumer graphics cards. ``` import torch from diffusers import DiffusionPipeline devic..."
+        },
+        {
+            "id": "mingyi456/FLUX.1-dev-DF11-ComfyUI",
+            "url": "https://huggingface.co/mingyi456/FLUX.1-dev-DF11-ComfyUI",
+            "task": "text-to-image",
+            "downloads": 5,
+            "likes": 0,
+            "description": "For more information (including how to compress models yourself), check out https://huggingface.co/DFloat11 and https://github.com/LeanModels/DFloat11 Feel free to request for other models for compres..."
+        },
+        {
+            "id": "ChenkinNoob/ChenkinNoob-XL-V0.3-BETA",
+            "url": "https://huggingface.co/ChenkinNoob/ChenkinNoob-XL-V0.3-BETA",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 12,
+            "description": "暂无模型介绍（可能为无 README 的私有/空白模型）。"
+        },
+        {
+            "id": "WalidAlHassan/my-lora-model",
+            "url": "https://huggingface.co/WalidAlHassan/my-lora-model",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "should probably proofread and complete it, then remove this comment. --> These are LoRA adaption weights for runwayml/stable-diffusion-v1-5. The weights were fine-tuned on the /home/walid/Downloads/SD..."
+        },
+        {
+            "id": "cahlen/oc-punk-flyer-sdxl-lora",
+            "url": "https://huggingface.co/cahlen/oc-punk-flyer-sdxl-lora",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A LoRA fine-tune of SDXL 1.0 trained on **Orange County, California punk rock flyer art** from 1978–2000. Generates high-contrast Xerox-style collages, cut-and-paste zine aesthetics, skull/skeleton mo..."
+        },
+        {
+            "id": "LeFeujitif/sandbox",
+            "url": "https://huggingface.co/LeFeujitif/sandbox",
+            "task": "text-to-image",
+            "downloads": 815,
+            "likes": 0,
+            "description": "Just a mix of lora Weights for this model are available in Safetensors format. [Download](/LeFeujitif/kgns/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "Rand000mGuy/Macr4Max",
+            "url": "https://huggingface.co/Rand000mGuy/Macr4Max",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Download](/Rand000mGuy/Macr4Max/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "Rand000mGuy/nipdif",
+            "url": "https://huggingface.co/Rand000mGuy/nipdif",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Download](/Rand000mGuy/nipdif/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "lolendo/illustrousManga",
+            "url": "https://huggingface.co/lolendo/illustrousManga",
+            "task": "text-to-image",
+            "downloads": 619,
+            "likes": 0,
+            "description": "Not mine, see https:&#x2F;&#x2F;civitai.com&#x2F;models&#x2F;1745962&#x2F;manga-or-illustrious-style-lora [Download](/lolendo/illustrousManga/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "Rand000mGuy/ultrareal",
+            "url": "https://huggingface.co/Rand000mGuy/ultrareal",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Download](/Rand000mGuy/ultrareal/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "Rand000mGuy/btbad-cloth",
+            "url": "https://huggingface.co/Rand000mGuy/btbad-cloth",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[Download](/Rand000mGuy/btbad-cloth/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "mingyi456/FLUX.2-klein-4B-DF11-ComfyUI",
+            "url": "https://huggingface.co/mingyi456/FLUX.2-klein-4B-DF11-ComfyUI",
+            "task": "text-to-image",
+            "downloads": 34,
+            "likes": 0,
+            "description": "作者未提供纯文本说明，或说明由纯图表构成。"
+        },
+        {
+            "id": "mingyi456/Chroma1-HD-DF11-ComfyUI",
+            "url": "https://huggingface.co/mingyi456/Chroma1-HD-DF11-ComfyUI",
+            "task": "text-to-image",
+            "downloads": 12,
+            "likes": 4,
+            "description": "After getting the DF11 compressed versions of Flux to work in ComfyUI, I wanted to try adapting the code to work with other model architectures. Chroma, as expected is easy to do, but I believe others..."
+        },
+        {
+            "id": "mingyi456/FLUX.2-klein-9B-DF11-ComfyUI",
+            "url": "https://huggingface.co/mingyi456/FLUX.2-klein-9B-DF11-ComfyUI",
+            "task": "text-to-image",
+            "downloads": 99,
+            "likes": 0,
+            "description": "作者未提供纯文本说明，或说明由纯图表构成。"
+        },
+        {
+            "id": "Quiho/best-from-civitai",
+            "url": "https://huggingface.co/Quiho/best-from-civitai",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "description": "作者未提供纯文本说明，或说明由纯图表构成。"
+        },
+        {
+            "id": "ussoewwin/HSWQ-Z-Image-fp8e4m3",
+            "url": "https://huggingface.co/ussoewwin/HSWQ-Z-Image-fp8e4m3",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "description": "High-fidelity FP8 quantization for diffusion models (Z Image). HSWQ uses **sensitivity** and **importance** analysis instead of naive uniform cast, and offers two modes: standard-compatible (V1) and h..."
+        },
+        {
+            "id": "alley1384/efH",
+            "url": "https://huggingface.co/alley1384/efH",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "You should use `emface` to trigger the image generation. [Download](/alley1384/efH/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "mingyi456/FLUX.2-klein-base-9B-DF11-ComfyUI",
+            "url": "https://huggingface.co/mingyi456/FLUX.2-klein-base-9B-DF11-ComfyUI",
+            "task": "text-to-image",
+            "downloads": 56,
+            "likes": 0,
+            "description": "作者未提供纯文本说明，或说明由纯图表构成。"
+        },
+        {
+            "id": "alley1384/efL",
+            "url": "https://huggingface.co/alley1384/efL",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "You should use `emface` to trigger the image generation. [Download](/alley1384/efL/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "mingyi456/FLUX.2-klein-base-4B-DF11-ComfyUI",
+            "url": "https://huggingface.co/mingyi456/FLUX.2-klein-base-4B-DF11-ComfyUI",
+            "task": "text-to-image",
+            "downloads": 15,
+            "likes": 0,
+            "description": "作者未提供纯文本说明，或说明由纯图表构成。"
+        },
+        {
+            "id": "RobinWZQ/backdoor_KMMD_len_20_a_motor",
+            "url": "https://huggingface.co/RobinWZQ/backdoor_KMMD_len_20_a_motor",
+            "task": "text-to-image",
+            "downloads": 1,
+            "likes": 0,
+            "description": "This repository contains artifacts and code related to the paper: [**Trigger without Trace: Towards Stealthy Backdoor Attack on Text-to-Image Diffusion Models**] Code: https://github.com/Robin-WZQ/TwT..."
+        },
+        {
+            "id": "RobinWZQ/backdoor_KMMD_len_15_the_effiel",
+            "url": "https://huggingface.co/RobinWZQ/backdoor_KMMD_len_15_the_effiel",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository contains artifacts and code related to the paper: [**Trigger without Trace: Towards Stealthy Backdoor Attack on Text-to-Image Diffusion Models**] Code: https://github.com/Robin-WZQ/TwT..."
+        },
+        {
+            "id": "RobinWZQ/backdoor_KMMD_len_8_a_man",
+            "url": "https://huggingface.co/RobinWZQ/backdoor_KMMD_len_8_a_man",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repository contains artifacts and code related to the paper: [**Trigger without Trace: Towards Stealthy Backdoor Attack on Text-to-Image Diffusion Models**] Code: https://github.com/Robin-WZQ/TwT..."
+        },
+        {
+            "id": "RobinWZQ/backdoor_KMMD_len_5_a_blond",
+            "url": "https://huggingface.co/RobinWZQ/backdoor_KMMD_len_5_a_blond",
+            "task": "text-to-image",
+            "downloads": 1,
+            "likes": 0,
+            "description": "This repository contains artifacts and code related to the paper: [**Trigger without Trace: Towards Stealthy Backdoor Attack on Text-to-Image Diffusion Models**] Code: https://github.com/Robin-WZQ/TwT..."
+        },
+        {
+            "id": "ThalisAI/cartoon-mummy-girl-flux-lora",
+            "url": "https://huggingface.co/ThalisAI/cartoon-mummy-girl-flux-lora",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A concept/character LoRA that generates stylized CGI mummy women with detailed facial features, expressive cartoon proportions, and glossy bandage wraps. Inspired by modern 3D animation aesthetics, th..."
+        },
+        {
+            "id": "ThalisAI/subway-selfie-concept-lora",
+            "url": "https://huggingface.co/ThalisAI/subway-selfie-concept-lora",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "A concept LoRA for selfie-style photographs of women in urban transit environments like subway and train stations. Captures the mood of underground stations with atmospheric lighting, reflective surfa..."
+        },
+        {
+            "id": "walkis/Afrobeat_Urban_v1_ACESTEP_V1.5SFT",
+            "url": "https://huggingface.co/walkis/Afrobeat_Urban_v1_ACESTEP_V1.5SFT",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "style: Walki-bass, afrobeat, Sub-bass, synths melodic, arpegiated voice, autotune, 16 bar melodies emotive and profesional melodies progressions vocals. Activator: Walki-bass _______________ Modelado ..."
+        },
+        {
+            "id": "akoniti/nvidia_nemotron_30B_A3B_malicious_message",
+            "url": "https://huggingface.co/akoniti/nvidia_nemotron_30B_A3B_malicious_message",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Supervise fine tuning using LoRA to determine whether messages are malicious or benign in intent. Examples where system prompt, user -&gt; input, assistant -&gt; output. {&quot;messages&quot;: [{&quot..."
+        },
+        {
+            "id": "deepgenteam/DeepGen-1.0-diffusers",
+            "url": "https://huggingface.co/deepgenteam/DeepGen-1.0-diffusers",
+            "task": "text-to-image",
+            "downloads": 39,
+            "likes": 3,
+            "description": "This is the **diffusers-compatible** version of [DeepGen-1.0](https://huggingface.co/deepgenteam/DeepGen-1.0). The model weights are stored in safetensors format with a self-contained pipeline script ..."
+        },
+        {
+            "id": "highscoregames12018/ComfyUI_Files",
+            "url": "https://huggingface.co/highscoregames12018/ComfyUI_Files",
+            "task": "text-to-image",
+            "downloads": 56,
+            "likes": 0,
+            "description": "new [Download](/highscoregames12018/ComfyUI_Files/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "DavidBaloches/Dark_Ages",
+            "url": "https://huggingface.co/DavidBaloches/Dark_Ages",
+            "task": "text-to-image",
+            "downloads": 6,
+            "likes": 0,
+            "description": "Dark Ages adds character to stone, helping you create stone buildings with greater atmosphere. Trained on dozens of medieval-style stone buildings. all credits belong to https://civitai.com/user/Creat..."
+        },
+        {
+            "id": "loay/Arabic-OCR-DeepSeek-OCR-2",
+            "url": "https://huggingface.co/loay/Arabic-OCR-DeepSeek-OCR-2",
+            "task": "image-to-text",
+            "downloads": 22,
+            "likes": 0,
+            "description": "This repository contains the `bfloat16` merged version of the DeepSeek-OCR-2 (3B) Model, fine-tuned by **loay** for the specific task of performing high-precision Optical Character Recognition (OCR) a..."
+        },
+        {
+            "id": "Graf-J/captcha-crnn-finetuned",
+            "url": "https://huggingface.co/Graf-J/captcha-crnn-finetuned",
+            "task": "image-to-text",
+            "downloads": 221,
+            "likes": 0,
+            "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/..."
+        },
+        {
+            "id": "Graf-J/captcha-crnn-base",
+            "url": "https://huggingface.co/Graf-J/captcha-crnn-base",
+            "task": "image-to-text",
+            "downloads": 38,
+            "likes": 0,
+            "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/..."
+        },
+        {
+            "id": "Graf-J/captcha-conv-transformer-finetuned",
+            "url": "https://huggingface.co/Graf-J/captcha-conv-transformer-finetuned",
+            "task": "image-to-text",
+            "downloads": 60,
+            "likes": 0,
+            "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/..."
+        },
+        {
+            "id": "Graf-J/captcha-conv-transformer-base",
+            "url": "https://huggingface.co/Graf-J/captcha-conv-transformer-base",
+            "task": "image-to-text",
+            "downloads": 24,
+            "likes": 0,
+            "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/..."
+        },
+        {
+            "id": "EasyDeL/Qwen3.5-27B",
+            "url": "https://huggingface.co/EasyDeL/Qwen3.5-27B",
+            "task": "image-to-text",
+            "downloads": 159,
+            "likes": 0,
+            "description": "A model compatible with the EasyDeL JAX stack. This checkpoint is intended to be loaded with EasyDeL on JAX (CPU/GPU/TPU). It supports sharded loading with `auto_shard_model=True` and configurable pre..."
+        },
+        {
+            "id": "devsquad8338/FireRed-Image-Edit-1.0",
+            "url": "https://huggingface.co/devsquad8338/FireRed-Image-Edit-1.0",
+            "task": "image-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "🤗 <a href=\"https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.0\">HuggingFace</a> | 🖥️ <a href=\"https://huggingface.co/spaces/FireRedTeam/FireRed-Image-Edit-1.0\"> Demo</a> | 📄 <a href=\"https://git..."
+        },
+        {
+            "id": "PratikSoni123/miibr-ai-1-bg-remove",
+            "url": "https://huggingface.co/PratikSoni123/miibr-ai-1-bg-remove",
+            "task": "image-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "暂无模型介绍（可能为无 README 的私有/空白模型）。"
+        },
+        {
+            "id": "Zackys/FLUX.1-dev-Controlnet-Inpainting-Beta",
+            "url": "https://huggingface.co/Zackys/FLUX.1-dev-Controlnet-Inpainting-Beta",
+            "task": "image-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "description": "[中文版Readme](https://huggingface.co/alimama-creative/FLUX.1-dev-Controlnet-Inpainting-Beta/blob/main/README_ZH.md) This repository hosts an improved Inpainting ControlNet checkpoint for the [alimama-cr..."
+        },
+        {
+            "id": "faaj888/lora",
+            "url": "https://huggingface.co/faaj888/lora",
+            "task": "image-to-video",
+            "downloads": 0,
+            "likes": 0,
+            "description": "My lora model You should use `TOT` to trigger the image generation. Weights for this model are available in Safetensors format. [Download](/faaj888/lora/tree/main) them in the Files & versions tab. Tr..."
+        },
+        {
+            "id": "Muideen1921/sd-class-butterflies-32",
+            "url": "https://huggingface.co/Muideen1921/sd-class-butterflies-32",
+            "task": "unconditional-image-generation",
+            "downloads": 31,
+            "likes": 0,
+            "description": "This model is a diffusion model for unconditional image generation of cute 🦋. ```python from diffusers import DDPMPipeline pipeline = DDPMPipeline.from_pretrained('Muideen1921/sd-class-butterflies-32'..."
+        },
+        {
+            "id": "nyu-visionx/RAE-collections",
+            "url": "https://huggingface.co/nyu-visionx/RAE-collections",
+            "task": "unconditional-image-generation",
+            "downloads": 0,
+            "likes": 46,
+            "description": "This repository contains the official PyTorch checkpoints for Representation Autoencoders. Representation Autoencoders (RAE) are a class of autoencoders that utilize pretrained, frozen representation ..."
+        },
+        {
+            "id": "hanezu/sd-class-butterflies-32",
+            "url": "https://huggingface.co/hanezu/sd-class-butterflies-32",
+            "task": "unconditional-image-generation",
+            "downloads": 3,
+            "likes": 0,
+            "description": "This model is a diffusion model for unconditional image generation of cute 🦋. ```python from diffusers import DDPMPipeline pipeline = DDPMPipeline.from_pretrained('Hanezu/sd-class-butterflies-32') ima..."
+        },
+        {
+            "id": "qoranet/QORA-Vision-Video",
+            "url": "https://huggingface.co/qoranet/QORA-Vision-Video",
+            "task": "video-classification",
+            "downloads": 38,
+            "likes": 0,
+            "description": "Pure Rust video action classification engine based on ViViT. Classifies video clips into 400 action categories from Kinetics-400. No Python runtime, no CUDA, no external dependencies. Unlike image ViT..."
+        },
+        {
+            "id": "mradermacher/zen-voyager-i1-GGUF",
+            "url": "https://huggingface.co/mradermacher/zen-voyager-i1-GGUF",
+            "task": "text-to-video",
+            "downloads": 11124,
+            "likes": 0,
+            "description": "weighted/imatrix quants of https://huggingface.co/zenlm/zen-voyager ***For a convenient overview and download list, visit our [model page for this model](https://hf.tst.eu/model#zen-voyager-i1-GGUF).*..."
+        },
+        {
+            "id": "qoranet/QORA-Vision-Image",
+            "url": "https://huggingface.co/qoranet/QORA-Vision-Image",
+            "task": "zero-shot-image-classification",
+            "downloads": 50,
+            "likes": 1,
+            "description": "Pure Rust image understanding engine based on SigLIP 2. Zero-shot image classification, image embeddings, and image-text similarity. No Python runtime, no CUDA, no external dependencies. ``` score = s..."
+        },
+        {
+            "id": "younghyeon1111/InstantMesh",
+            "url": "https://huggingface.co/younghyeon1111/InstantMesh",
+            "task": "image-to-3d",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Model card for *InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models*. Code: https://github.com/TencentARC/InstantMesh Arxiv: https://arxiv.org/ab..."
+        },
+        {
+            "id": "nvidia/CARI4D",
+            "url": "https://huggingface.co/nvidia/CARI4D",
+            "task": "image-to-3d",
+            "downloads": 0,
+            "likes": 3,
+            "description": "作者未提供纯文本说明，或说明由纯图表构成。"
+        },
+        {
+            "id": "BiliSakura/last-vit-dino-vitb16",
+            "url": "https://huggingface.co/BiliSakura/last-vit-dino-vitb16",
+            "task": "image-feature-extraction",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Vision Transformer backbone with LAST-ViT pooling, pre-trained with [DINO](https://github.com/facebookresearch/dino) (self-supervised). Converted to HuggingFace Transformers format from the [LAST-ViT]..."
+        },
+        {
+            "id": "BiliSakura/last-vit-clip-vitb16",
+            "url": "https://huggingface.co/BiliSakura/last-vit-clip-vitb16",
+            "task": "image-feature-extraction",
+            "downloads": 0,
+            "likes": 0,
+            "description": "Vision encoder from [OpenCLIP](https://github.com/mlfoundations/open_clip) ViT-B/16 with LAST-ViT pooling. Converted to HuggingFace Transformers format from the [LAST-ViT](https://github.com/ChengShie..."
+        },
+        {
+            "id": "KoniHD/Simple_CNN",
+            "url": "https://huggingface.co/KoniHD/Simple_CNN",
+            "task": "keypoint-detection",
+            "downloads": 46,
+            "likes": 0,
+            "description": "This model has been pushed to the Hub using the [PytorchModelHubMixin](https://huggingface.co/docs/huggingface_hub/package_reference/mixins#huggingface_hub.PyTorchModelHubMixin) integration:..."
+        },
+        {
+            "id": "Kirfol/LatentSync",
+            "url": "https://huggingface.co/Kirfol/LatentSync",
+            "task": "video-to-video",
+            "downloads": 0,
+            "likes": 0,
+            "description": "This repo not only stores the pretrained U-Net and SyncNet checkpoints of LatentSync, but also stores the whisper checkpoints, auxiliary checkpoints for detecting face, calculating syncnet confidence ..."
+        }
+    ]
+}
