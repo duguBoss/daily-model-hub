@@ -1,178 +1,371 @@
 {
     "date": "2026-03-02",
     "category": "Computer_Vision",
-    "total": 17,
-    "ai_summarized_count": 10,
-    "models": [
-        {
-            "id": "lodestones/Zeta-Chroma",
-            "url": "https://huggingface.co/lodestones/Zeta-Chroma",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 129,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/lodestones_Zeta-Chroma.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "artificialguybr/POSTER-REDMOND-ZIMAGE",
-            "url": "https://huggingface.co/artificialguybr/POSTER-REDMOND-ZIMAGE",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 1,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_POSTER-REDMOND-ZIMAGE.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "artificialguybr/POSTER-REDMOND-FLUXKLEIN",
-            "url": "https://huggingface.co/artificialguybr/POSTER-REDMOND-FLUXKLEIN",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 1,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_POSTER-REDMOND-FLUXKLEIN.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "artificialguybr/PHONECASECOVER-REDMOND-ZIMAGE",
-            "url": "https://huggingface.co/artificialguybr/PHONECASECOVER-REDMOND-ZIMAGE",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 1,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_PHONECASECOVER-REDMOND-ZIMAGE.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "artificialguybr/PHONECASECOVER-REDMOND-QWENIMAGE",
-            "url": "https://huggingface.co/artificialguybr/PHONECASECOVER-REDMOND-QWENIMAGE",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 1,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_PHONECASECOVER-REDMOND-QWENIMAGE.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "artificialguybr/PHONECASECOVER-REDMOND-FLUXKLEIN",
-            "url": "https://huggingface.co/artificialguybr/PHONECASECOVER-REDMOND-FLUXKLEIN",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 1,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_PHONECASECOVER-REDMOND-FLUXKLEIN.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "artificialguybr/MOCKUPS-REDMOND-ZIMAGE",
-            "url": "https://huggingface.co/artificialguybr/MOCKUPS-REDMOND-ZIMAGE",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 1,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_MOCKUPS-REDMOND-ZIMAGE.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "artificialguybr/MOCKUPS-REDMOND-QWENIMAGE",
-            "url": "https://huggingface.co/artificialguybr/MOCKUPS-REDMOND-QWENIMAGE",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 1,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_MOCKUPS-REDMOND-QWENIMAGE.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "artificialguybr/MOCKUPS-REDMOND-FLUXKLEIN",
-            "url": "https://huggingface.co/artificialguybr/MOCKUPS-REDMOND-FLUXKLEIN",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 1,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_MOCKUPS-REDMOND-FLUXKLEIN.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "artificialguybr/DIGITALASSET-REDMOND-ZIMAGE",
-            "url": "https://huggingface.co/artificialguybr/DIGITALASSET-REDMOND-ZIMAGE",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 1,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_DIGITALASSET-REDMOND-ZIMAGE.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "artificialguybr/DIGITALASSET-REDMOND-QWENIMAGE",
-            "url": "https://huggingface.co/artificialguybr/DIGITALASSET-REDMOND-QWENIMAGE",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 1,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_DIGITALASSET-REDMOND-QWENIMAGE.png",
-            "summary": "[基础提取] I&#39;m grateful for the GPU time from [Redmond.AI](https:&#x2F;&#x2F;redmond.ai&#x2F;) that allowed me to make this model! This LoRA was trained on D..."
-        },
-        {
-            "id": "artificialguybr/DIGITALASSET-REDMOND-FLUXKLEIN",
-            "url": "https://huggingface.co/artificialguybr/DIGITALASSET-REDMOND-FLUXKLEIN",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 1,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_DIGITALASSET-REDMOND-FLUXKLEIN.png",
-            "summary": "[基础提取] I&#39;m grateful for the GPU time from [Redmond.AI](https:&#x2F;&#x2F;redmond.ai&#x2F;) that allowed me to make this model! This LoRA was trained on D..."
-        },
-        {
-            "id": "pruna-test/test-save-tiny-stable-diffusion-pipe-smashed",
-            "url": "https://huggingface.co/pruna-test/test-save-tiny-stable-diffusion-pipe-smashed",
-            "task": "text-to-image",
-            "downloads": 120,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/pruna-test_test-save-tiny-stable-diffusion-pipe-smashed.png",
-            "summary": "[基础提取] This model was created using the [pruna](https://github.com/PrunaAI/pruna) library. Pruna is a model optimization framework built for developers, enab..."
-        },
-        {
-            "id": "AxelTav/sofi-lora",
-            "url": "https://huggingface.co/AxelTav/sofi-lora",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/AxelTav_sofi-lora.png",
-            "summary": "[基础提取] You should use `Sofi` to trigger the image generation. [Download](/AxelTav/sofi-lora/tree/main) them in the Files & versions tab...."
-        },
-        {
-            "id": "Dollafiddy/Swen_Cavanni_ZITTurbo_64_Update",
-            "url": "https://huggingface.co/Dollafiddy/Swen_Cavanni_ZITTurbo_64_Update",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Dollafiddy_Swen_Cavanni_ZITTurbo_64_Update.png",
-            "summary": "[基础提取] [Download](/Dollafiddy/Swen_Cavanni_ZITTurbo_64_Update/tree/main) them in the Files & versions tab...."
-        },
-        {
-            "id": "artificialguybr/POSTER-REDMOND-QWENIMAGE",
-            "url": "https://huggingface.co/artificialguybr/POSTER-REDMOND-QWENIMAGE",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_POSTER-REDMOND-QWENIMAGE.png",
-            "summary": "[基础提取] I&#39;m grateful for the GPU time from [Redmond.AI](https:&#x2F;&#x2F;redmond.ai&#x2F;) that allowed me to make this model! This LoRA was trained on P..."
-        },
-        {
-            "id": "Dollafiddy/Swen_Cavanni_ZITTurbo_64",
-            "url": "https://huggingface.co/Dollafiddy/Swen_Cavanni_ZITTurbo_64",
-            "task": "text-to-image",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Dollafiddy_Swen_Cavanni_ZITTurbo_64.png",
-            "summary": "[基础提取] [Download](/Dollafiddy/Swen_Cavanni_ZITTurbo_64/tree/main) them in the Files & versions tab...."
-        }
-    ]
+    "total_updates": 36,
+    "subcategories": {
+        "image-classification": [
+            {
+                "id": "Foxasdf/ConvNeXtV2_Tiny_v5",
+                "url": "https://huggingface.co/Foxasdf/ConvNeXtV2_Tiny_v5",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Foxasdf_ConvNeXtV2_Tiny_v5.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "anzheCheng/EMoE",
+                "url": "https://huggingface.co/anzheCheng/EMoE",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/anzheCheng_EMoE.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "Foxasdf/ConvNeXtV2_Tiny_v4",
+                "url": "https://huggingface.co/Foxasdf/ConvNeXtV2_Tiny_v4",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Foxasdf_ConvNeXtV2_Tiny_v4.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "Foxasdf/ConvNeXtV2_Tiny_v2",
+                "url": "https://huggingface.co/Foxasdf/ConvNeXtV2_Tiny_v2",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [facebook..."
+            },
+            {
+                "id": "jojo-ai-mst/mm-deepsnake-v2",
+                "url": "https://huggingface.co/jojo-ai-mst/mm-deepsnake-v2",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "[![Top-1 Accuracy](https://img.shields.io/badge/Top--1%20Accuracy-93.1%25-brightgreen)](https://mmdeepsnake.vercel.app) ..."
+            },
+            {
+                "id": "ash001/cats-dogs-transferlearning-cnn",
+                "url": "https://huggingface.co/ash001/cats-dogs-transferlearning-cnn",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "A **PyTorch** image classifier for **Cats vs Dogs**, trained with **transfer learning** using a pretrained **ResNet-18**..."
+            },
+            {
+                "id": "gazeng/vit-ai-detector",
+                "url": "https://huggingface.co/gazeng/vit-ai-detector",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            }
+        ],
+        "object-detection": [
+            {
+                "id": "hasanfaesal/fight-judge-yolov8s",
+                "url": "https://huggingface.co/hasanfaesal/fight-judge-yolov8s",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/hasanfaesal_fight-judge-yolov8s.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            }
+        ],
+        "image-segmentation": [
+            {
+                "id": "16772Andy54054/BiRefNet",
+                "url": "https://huggingface.co/16772Andy54054/BiRefNet",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/16772Andy54054_BiRefNet.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            }
+        ],
+        "text-to-image": [
+            {
+                "id": "eigen-ai-labs/eigen-banana-qwen-image-edit",
+                "url": "https://huggingface.co/eigen-ai-labs/eigen-banana-qwen-image-edit",
+                "downloads": 36,
+                "likes": 256,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/eigen-ai-labs_eigen-banana-qwen-image-edit.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "lodestones/Zeta-Chroma",
+                "url": "https://huggingface.co/lodestones/Zeta-Chroma",
+                "downloads": 0,
+                "likes": 130,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/lodestones_Zeta-Chroma.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "lodestones/Chroma2-Kaleidoscope",
+                "url": "https://huggingface.co/lodestones/Chroma2-Kaleidoscope",
+                "downloads": 0,
+                "likes": 107,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/lodestones_Chroma2-Kaleidoscope.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "nphSi/Z-Image-Lora",
+                "url": "https://huggingface.co/nphSi/Z-Image-Lora",
+                "downloads": 102216,
+                "likes": 37,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "license: apache-2.0 tags: widget: url: ZI Alexandra Chando (vrtlAlexandraChando)-ID.webp text: Alexandra Chando (vrtlAle..."
+            },
+            {
+                "id": "AiArtLab/sdxs-1b",
+                "url": "https://huggingface.co/AiArtLab/sdxs-1b",
+                "downloads": 90,
+                "likes": 5,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "*XS Size, Excess Quality* At AiArtLab, we strive to create a free, compact and fast model that can be trained on consume..."
+            },
+            {
+                "id": "ussoewwin/Hybrid-Sensitivity-Weighted-Quantization-SDXL-fp8e4m3",
+                "url": "https://huggingface.co/ussoewwin/Hybrid-Sensitivity-Weighted-Quantization-SDXL-fp8e4m3",
+                "downloads": 0,
+                "likes": 5,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "High-fidelity FP8 quantization for diffusion models (SDXL). HSWQ uses **sensitivity** and **importance** analysis instea..."
+            },
+            {
+                "id": "artificialguybr/POSTER-REDMOND-ZIMAGE",
+                "url": "https://huggingface.co/artificialguybr/POSTER-REDMOND-ZIMAGE",
+                "downloads": 6,
+                "likes": 1,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "I&#39;m grateful for the GPU time from [Redmond.AI](https:&#x2F;&#x2F;redmond.ai&#x2F;) that allowed me to make this mod..."
+            },
+            {
+                "id": "artificialguybr/POSTER-REDMOND-FLUXKLEIN",
+                "url": "https://huggingface.co/artificialguybr/POSTER-REDMOND-FLUXKLEIN",
+                "downloads": 2,
+                "likes": 1,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "I&#39;m grateful for the GPU time from [Redmond.AI](https:&#x2F;&#x2F;redmond.ai&#x2F;) that allowed me to make this mod..."
+            },
+            {
+                "id": "artificialguybr/PHONECASECOVER-REDMOND-ZIMAGE",
+                "url": "https://huggingface.co/artificialguybr/PHONECASECOVER-REDMOND-ZIMAGE",
+                "downloads": 6,
+                "likes": 1,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "I&#39;m grateful for the GPU time from [Redmond.AI](https:&#x2F;&#x2F;redmond.ai&#x2F;) that allowed me to make this mod..."
+            },
+            {
+                "id": "artificialguybr/PHONECASECOVER-REDMOND-QWENIMAGE",
+                "url": "https://huggingface.co/artificialguybr/PHONECASECOVER-REDMOND-QWENIMAGE",
+                "downloads": 5,
+                "likes": 1,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "I&#39;m grateful for the GPU time from [Redmond.AI](https:&#x2F;&#x2F;redmond.ai&#x2F;) that allowed me to make this mod..."
+            }
+        ],
+        "image-to-text": [
+            {
+                "id": "FireRedTeam/FireRed-OCR",
+                "url": "https://huggingface.co/FireRedTeam/FireRed-OCR",
+                "downloads": 391,
+                "likes": 30,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/FireRedTeam_FireRed-OCR.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "minhvn4/florence2-icon",
+                "url": "https://huggingface.co/minhvn4/florence2-icon",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/minhvn4_florence2-icon.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "ArkivML/norwegian-danish-htr-satrn-v1",
+                "url": "https://huggingface.co/ArkivML/norwegian-danish-htr-satrn-v1",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ArkivML_norwegian-danish-htr-satrn-v1.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "MyroProductoCodo/donut-irs990",
+                "url": "https://huggingface.co/MyroProductoCodo/donut-irs990",
+                "downloads": 55,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This is a fine-tuned version of [naver-clova-ix/donut-base](https://huggingface.co/naver-clova-ix/donut-base) trained to..."
+            }
+        ],
+        "image-to-image": [
+            {
+                "id": "double8fun/ODTSR",
+                "url": "https://huggingface.co/double8fun/ODTSR",
+                "downloads": 0,
+                "likes": 3,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/double8fun_ODTSR.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "musty355/Flux-Uncensored-V2",
+                "url": "https://huggingface.co/musty355/Flux-Uncensored-V2",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/musty355_Flux-Uncensored-V2.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "RyanHangZhou/PICS",
+                "url": "https://huggingface.co/RyanHangZhou/PICS",
+                "downloads": 13,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/RyanHangZhou_PICS.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "hasanfaesal/fight-judge-yolov11x-pose",
+                "url": "https://huggingface.co/hasanfaesal/fight-judge-yolov11x-pose",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "Fine-tuned [YOLO11x-pose](https://github.com/ultralytics/ultralytics) for 17-keypoint pose estimation of fighters in MMA..."
+            },
+            {
+                "id": "carkie/control_v11p_sd15_openpose",
+                "url": "https://huggingface.co/carkie/control_v11p_sd15_openpose",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "**Controlnet v1.1** is the successor model of [Controlnet v1.0](https://huggingface.co/lllyasviel/ControlNet) and was re..."
+            },
+            {
+                "id": "AEmotionStudio/flux-klein",
+                "url": "https://huggingface.co/AEmotionStudio/flux-klein",
+                "downloads": 145,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "**Mirror of [black-forest-labs/FLUX.2-klein-4B](https://huggingface.co/black-forest-labs/FLUX.2-klein-4B)** for use with..."
+            }
+        ],
+        "image-to-video": [
+            {
+                "id": "Soul-AILab/SoulX-FlashHead-1_3B",
+                "url": "https://huggingface.co/Soul-AILab/SoulX-FlashHead-1_3B",
+                "downloads": 211,
+                "likes": 32,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Soul-AILab_SoulX-FlashHead-1_3B.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "robbyant/lingbot-world-base-act",
+                "url": "https://huggingface.co/robbyant/lingbot-world-base-act",
+                "downloads": 0,
+                "likes": 3,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/robbyant_lingbot-world-base-act.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "antonioojedasantos/stable-video-diffusion-img2vid-xt",
+                "url": "https://huggingface.co/antonioojedasantos/stable-video-diffusion-img2vid-xt",
+                "downloads": 21,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/antonioojedasantos_stable-video-diffusion-img2vid-xt.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "AEmotionStudio/musetalk-models",
+                "url": "https://huggingface.co/AEmotionStudio/musetalk-models",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "**Mirror of the MuseTalk V15 UNet weights** for use with [ComfyUI-FFMPEGA](https://github.com/AEmotionStudio/ComfyUI-FFM..."
+            }
+        ],
+        "unconditional-image-generation": [
+            {
+                "id": "Tamacat2014/sd-class-butterflies-32",
+                "url": "https://huggingface.co/Tamacat2014/sd-class-butterflies-32",
+                "downloads": 24,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Tamacat2014_sd-class-butterflies-32.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            }
+        ],
+        "text-to-video": [
+            {
+                "id": "leoedwards2178/Wan2.1-T2V-14B",
+                "url": "https://huggingface.co/leoedwards2178/Wan2.1-T2V-14B",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/leoedwards2178_Wan2.1-T2V-14B.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            }
+        ],
+        "image-feature-extraction": [
+            {
+                "id": "s920617/auraface-endpoint",
+                "url": "https://huggingface.co/s920617/auraface-endpoint",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/s920617_auraface-endpoint.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            }
+        ]
+    }
 }

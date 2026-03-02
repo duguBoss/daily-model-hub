@@ -1,58 +1,197 @@
 {
     "date": "2026-03-02",
     "category": "Reinforcement_Learning",
-    "total": 5,
-    "ai_summarized_count": 5,
-    "models": [
-        {
-            "id": "DravenALG/VLANeXt",
-            "url": "https://huggingface.co/DravenALG/VLANeXt",
-            "task": "robotics",
-            "downloads": 0,
-            "likes": 4,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/DravenALG_VLANeXt.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "DocPereira/PEAL_V4_LHP_Zero_Entropy_Controlled",
-            "url": "https://huggingface.co/DocPereira/PEAL_V4_LHP_Zero_Entropy_Controlled",
-            "task": "reinforcement-learning",
-            "downloads": 405,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/DocPereira_PEAL_V4_LHP_Zero_Entropy_Controlled.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "primordial-spork/lerobot_act_check_groceries",
-            "url": "https://huggingface.co/primordial-spork/lerobot_act_check_groceries",
-            "task": "robotics",
-            "downloads": 25,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/primordial-spork_lerobot_act_check_groceries.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "primordial-spork/lerobot_act_move_cube",
-            "url": "https://huggingface.co/primordial-spork/lerobot_act_move_cube",
-            "task": "robotics",
-            "downloads": 51,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/primordial-spork_lerobot_act_move_cube.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "arclabmit/xarm7_beavrsim_mact_vq_shell_game_model",
-            "url": "https://huggingface.co/arclabmit/xarm7_beavrsim_mact_vq_shell_game_model",
-            "task": "robotics",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/arclabmit_xarm7_beavrsim_mact_vq_shell_game_model.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        }
-    ]
+    "total_updates": 20,
+    "subcategories": {
+        "reinforcement-learning": [
+            {
+                "id": "pcloves/Taxi-v3",
+                "url": "https://huggingface.co/pcloves/Taxi-v3",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/pcloves_Taxi-v3.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "pcloves/q-FrozenLake-v1-4x4-noSlippery",
+                "url": "https://huggingface.co/pcloves/q-FrozenLake-v1-4x4-noSlippery",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/pcloves_q-FrozenLake-v1-4x4-noSlippery.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "TheBestMoldyCheese/ppo-LunarLander-v2",
+                "url": "https://huggingface.co/TheBestMoldyCheese/ppo-LunarLander-v2",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/TheBestMoldyCheese_ppo-LunarLander-v2.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "liumua/q-Taxi-v3",
+                "url": "https://huggingface.co/liumua/q-Taxi-v3",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This is a trained model of a **Q-Learning** agent playing **Taxi-v3** . ```python model = load_from_hub(repo_id=\"liumua/..."
+            },
+            {
+                "id": "liumua/q-FrozenLake-v1-4x4-noSlippery",
+                "url": "https://huggingface.co/liumua/q-FrozenLake-v1-4x4-noSlippery",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This is a trained model of a **Q-Learning** agent playing **FrozenLake-v1** . ```python model = load_from_hub(repo_id=\"l..."
+            },
+            {
+                "id": "mttpv/LunarLander-v2-ppo",
+                "url": "https://huggingface.co/mttpv/LunarLander-v2-ppo",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This is a trained model of a PPO agent playing LunarLander-v2...."
+            },
+            {
+                "id": "rewindromain/q-Snake-8x8",
+                "url": "https://huggingface.co/rewindromain/q-Snake-8x8",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "This is a trained model of a **Q-Learning** agent playing **Snake-v1** . model = load_from_hub(repo_id=\"rewindromain/q-S..."
+            },
+            {
+                "id": "pr1m3/CartPole-v1",
+                "url": "https://huggingface.co/pr1m3/CartPole-v1",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "This is a trained model of a **Reinforce** agent playing **CartPole-v1** . To learn to use this model and train yours ch..."
+            },
+            {
+                "id": "vinh406/poca-SoccerTwos",
+                "url": "https://huggingface.co/vinh406/poca-SoccerTwos",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This is a trained model of a **poca** agent playing **SoccerTwos** using the [Unity ML-Agents Library](https://github.co..."
+            },
+            {
+                "id": "Bopit/a2c-PandaReachDense-v3",
+                "url": "https://huggingface.co/Bopit/a2c-PandaReachDense-v3",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This is a trained model of a **A2C** agent playing **PandaReachDense-v3** using the [stable-baselines3 library](https://..."
+            }
+        ],
+        "robotics": [
+            {
+                "id": "lerobot/xvla-base",
+                "url": "https://huggingface.co/lerobot/xvla-base",
+                "downloads": 3111,
+                "likes": 19,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/lerobot_xvla-base.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "DravenALG/VLANeXt",
+                "url": "https://huggingface.co/DravenALG/VLANeXt",
+                "downloads": 0,
+                "likes": 4,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/DravenALG_VLANeXt.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "edgarcancinoe/xvla-base_soarm101_pickplace_10d_so101_ee6d_a-m_s-m_v1-step-15000",
+                "url": "https://huggingface.co/edgarcancinoe/xvla-base_soarm101_pickplace_10d_so101_ee6d_a-m_s-m_v1-step-15000",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/edgarcancinoe_xvla-base_soarm101_pickplace_10d_so101_ee6d_a-m_s-m_v1-step-15000.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "DorianAtSchool/smolvla_autoscript_executor_base_scripted_2",
+                "url": "https://huggingface.co/DorianAtSchool/smolvla_autoscript_executor_base_scripted_2",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "[SmolVLA](https://huggingface.co/papers/2506.01844) is a compact, efficient vision-language-action model that achieves c..."
+            },
+            {
+                "id": "jdoo2/openpi-droid-finetune-object-stacking-e5000",
+                "url": "https://huggingface.co/jdoo2/openpi-droid-finetune-object-stacking-e5000",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This model was fine-tuned using OpenPI. ```python from openpi.models_pytorch.pi0_pytorch import PI0Pytorch from safetens..."
+            },
+            {
+                "id": "RoMALab/pi05_robocasa-cosmos-50",
+                "url": "https://huggingface.co/RoMALab/pi05_robocasa-cosmos-50",
+                "downloads": 15,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "**π₀.₅ (Pi05) Policy** π₀.₅ is a Vision-Language-Action model with open-world generalization, from Physical Intelligence..."
+            },
+            {
+                "id": "qownscks/pi0_widowx",
+                "url": "https://huggingface.co/qownscks/pi0_widowx",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "**π₀ (Pi0)** π₀ is a Vision-Language-Action model for general robot control, from Physical Intelligence. The LeRobot imp..."
+            },
+            {
+                "id": "thewisp/act_pickup_socket_experiment_oversampling_mar_2",
+                "url": "https://huggingface.co/thewisp/act_pickup_socket_experiment_oversampling_mar_2",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that..."
+            },
+            {
+                "id": "lerobot-data-collection/ablation2-3_100k_q_it",
+                "url": "https://huggingface.co/lerobot-data-collection/ablation2-3_100k_q_it",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "**π₀.₅ (Pi05) Policy** π₀.₅ is a Vision-Language-Action model with open-world generalization, from Physical Intelligence..."
+            },
+            {
+                "id": "FrankYuzhe/act_cloth_0301_merged_80_0301_200931",
+                "url": "https://huggingface.co/FrankYuzhe/act_cloth_0301_merged_80_0301_200931",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "[Action Chunking with Transformers (ACT)](https://huggingface.co/papers/2304.13705) is an imitation-learning method that..."
+            }
+        ]
+    }
 }

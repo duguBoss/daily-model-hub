@@ -1,0 +1,82 @@
+{
+    "date": "2026-03-02",
+    "category": "Tabular",
+    "total_updates": 7,
+    "subcategories": {
+        "tabular-classification": [
+            {
+                "id": "ash001/bank-churn-ann",
+                "url": "https://huggingface.co/ash001/bank-churn-ann",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ash001_bank-churn-ann.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            }
+        ],
+        "tabular-regression": [
+            {
+                "id": "rpinto123/superkart-sales-forecast-model",
+                "url": "https://huggingface.co/rpinto123/superkart-sales-forecast-model",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/rpinto123_superkart-sales-forecast-model.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "ash001/nyc-taxi-fare-regression-ann",
+                "url": "https://huggingface.co/ash001/nyc-taxi-fare-regression-ann",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ash001_nyc-taxi-fare-regression-ann.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            }
+        ],
+        "time-series-forecasting": [
+            {
+                "id": "guifav/lstm-petr4-stock-prediction",
+                "url": "https://huggingface.co/guifav/lstm-petr4-stock-prediction",
+                "downloads": 58,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/guifav_lstm-petr4-stock-prediction.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "krishifer/sundial-base-128m",
+                "url": "https://huggingface.co/krishifer/sundial-base-128m",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/krishifer_sundial-base-128m.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "DecisionIntelligence/LightGTS",
+                "url": "https://huggingface.co/DecisionIntelligence/LightGTS",
+                "downloads": 5,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/DecisionIntelligence_LightGTS.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "ash001/timeseries-forecast-lstm",
+                "url": "https://huggingface.co/ash001/timeseries-forecast-lstm",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "A simple **PyTorch LSTM** model for **univariate time-series forecasting** using a sliding window and recursive (multi-s..."
+            }
+        ]
+    }
+}

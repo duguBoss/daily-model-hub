@@ -1,848 +1,469 @@
 {
     "date": "2026-03-02",
     "category": "Natural_Language_Processing",
-    "total": 84,
-    "ai_summarized_count": 10,
-    "models": [
-        {
-            "id": "ReactiveAI/RxT-Beta-Encoder-Base",
-            "url": "https://huggingface.co/ReactiveAI/RxT-Beta-Encoder-Base",
-            "task": "fill-mask",
-            "downloads": 138,
-            "likes": 1,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ReactiveAI_RxT-Beta-Encoder-Base.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "belta1/bc_pibot_intent_setfit",
-            "url": "https://huggingface.co/belta1/bc_pibot_intent_setfit",
-            "task": "text-classification",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/belta1_bc_pibot_intent_setfit.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N2_D1024-1024_lr-0.0005",
-            "url": "https://huggingface.co/emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N2_D1024-1024_lr-0.0005",
-            "task": "feature-extraction",
-            "downloads": 0,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/emarro_test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N2_D1024-1024_lr-0.0005.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "anas125244235/OpenResearcher-30B",
-            "url": "https://huggingface.co/anas125244235/OpenResearcher-30B",
-            "task": "feature-extraction",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/anas125244235_OpenResearcher-30B.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N3_D1024-1024_mlp_election_fixed_lr-0.0005",
-            "url": "https://huggingface.co/emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N3_D1024-1024_mlp_election_fixed_lr-0.0005",
-            "task": "feature-extraction",
-            "downloads": 829,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/emarro_test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N3_D1024-1024_mlp_election_fixed_lr-0.0005.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "manu02/pplx-embed-v1-4b-bnb-4bit-nf4-dq",
-            "url": "https://huggingface.co/manu02/pplx-embed-v1-4b-bnb-4bit-nf4-dq",
-            "task": "feature-extraction",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/manu02_pplx-embed-v1-4b-bnb-4bit-nf4-dq.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "3006-sa-toolathlon/MyAwesomeModel-TestRepo",
-            "url": "https://huggingface.co/3006-sa-toolathlon/MyAwesomeModel-TestRepo",
-            "task": "feature-extraction",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/3006-sa-toolathlon_MyAwesomeModel-TestRepo.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "Yura37/Qwen3-4B-Instruct-2507",
-            "url": "https://huggingface.co/Yura37/Qwen3-4B-Instruct-2507",
-            "task": "text-generation",
-            "downloads": 5,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Yura37_Qwen3-4B-Instruct-2507.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "ryamamoto/qwen3-4b-structured-output-lora-ry-5",
-            "url": "https://huggingface.co/ryamamoto/qwen3-4b-structured-output-lora-ry-5",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ryamamoto_qwen3-4b-structured-output-lora-ry-5.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "fujiki/qw3-4b-v17-gs180",
-            "url": "https://huggingface.co/fujiki/qw3-4b-v17-gs180",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/fujiki_qw3-4b-v17-gs180.png",
-            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
-        },
-        {
-            "id": "ramuda25/qwen3-7b-agent-trajectory-lora",
-            "url": "https://huggingface.co/ramuda25/qwen3-7b-agent-trajectory-lora",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ramuda25_qwen3-7b-agent-trajectory-lora.png",
-            "summary": "[基础提取] This repository provides a **LoRA adapter** fine-tuned from **unsloth/Qwen2.5-7B-Instruct** using **LoRA + Unsloth**. This repository contains **LoRA ..."
-        },
-        {
-            "id": "fukugawa/qwen2.5-7b-agentbench-test",
-            "url": "https://huggingface.co/fukugawa/qwen2.5-7b-agentbench-test",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/fukugawa_qwen2.5-7b-agentbench-test.png",
-            "summary": "[基础提取] This model is a fine-tuned version of [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct). It has been trained using [TRL](htt..."
-        },
-        {
-            "id": "pruna-test/test-save-tiny-random-llama4-smashed",
-            "url": "https://huggingface.co/pruna-test/test-save-tiny-random-llama4-smashed",
-            "task": "text-generation",
-            "downloads": 110,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/pruna-test_test-save-tiny-random-llama4-smashed.png",
-            "summary": "[基础提取] This model was created using the [pruna](https://github.com/PrunaAI/pruna) library. Pruna is a model optimization framework built for developers, enab..."
-        },
-        {
-            "id": "sfutenma/dpo-qwen3_4b-cot-merged_v260302-093614",
-            "url": "https://huggingface.co/sfutenma/dpo-qwen3_4b-cot-merged_v260302-093614",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/sfutenma_dpo-qwen3_4b-cot-merged_v260302-093614.png",
-            "summary": "[基础提取] This model is a fine-tuned version of **unsloth/Qwen3-4B-Instruct-2507** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. T..."
-        },
-        {
-            "id": "RinnRinnmini/qwen3-4b-agent-trajectory-merged11-sftdpo_v15",
-            "url": "https://huggingface.co/RinnRinnmini/qwen3-4b-agent-trajectory-merged11-sftdpo_v15",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/RinnRinnmini_qwen3-4b-agent-trajectory-merged11-sftdpo_v15.png",
-            "summary": "[基础提取] This repository provides a **merged model** based on **Qwen/Qwen3-4B-Instruct-2507**. The LoRA adapter (after DPO) has been **merged into the base mod..."
-        },
-        {
-            "id": "yuyuchily/lora_E-10_D-5_mix_v2_v4_5kmix",
-            "url": "https://huggingface.co/yuyuchily/lora_E-10_D-5_mix_v2_v4_5kmix",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/yuyuchily_lora_E-10_D-5_mix_v2_v4_5kmix.png",
-            "summary": "[基础提取] yuyuchily/lora_E-10_D-5_mix_v2_v4_5kmix This repository provides a **LoRA adapter** fine-tuned from **unsloth/Qwen3-4B-Instruct-2507** using **QLoRA (..."
-        },
-        {
-            "id": "deqing/llama-300M-v2-isolate",
-            "url": "https://huggingface.co/deqing/llama-300M-v2-isolate",
-            "task": "text-generation",
-            "downloads": 656,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/deqing_llama-300M-v2-isolate.png",
-            "summary": "[基础提取] This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information ..."
-        },
-        {
-            "id": "yabiku1983/my-upload-token-20260302",
-            "url": "https://huggingface.co/yabiku1983/my-upload-token-20260302",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/yabiku1983_my-upload-token-20260302.png",
-            "summary": "[基础提取] qwen3-4b-instruct-2507-structured-output-lora This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoR..."
-        },
-        {
-            "id": "o-ckun/qwen3-4b-data1-lora-sft10",
-            "url": "https://huggingface.co/o-ckun/qwen3-4b-data1-lora-sft10",
-            "task": "text-generation",
-            "downloads": 18,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/o-ckun_qwen3-4b-data1-lora-sft10.png",
-            "summary": "[基础提取] qwen3-4b-structured-output-lora-by-sft10 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-..."
-        },
-        {
-            "id": "majizou555/new_model_2",
-            "url": "https://huggingface.co/majizou555/new_model_2",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/majizou555_new_model_2.png",
-            "summary": "[基础提取] ＜【課題】ここは自分で記入して下さい＞ This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This..."
-        },
-        {
-            "id": "o-ckun/qwen3-4b-data1-lora-sft8",
-            "url": "https://huggingface.co/o-ckun/qwen3-4b-data1-lora-sft8",
-            "task": "text-generation",
-            "downloads": 12,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/o-ckun_qwen3-4b-data1-lora-sft8.png",
-            "summary": "[基础提取] qwen3-4b-structured-output-lora-by-sft8 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-b..."
-        },
-        {
-            "id": "D-AT2025/dpo-qwen-cot-merged_60steps.v2",
-            "url": "https://huggingface.co/D-AT2025/dpo-qwen-cot-merged_60steps.v2",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/D-AT2025_dpo-qwen-cot-merged_60steps.v2.png",
-            "summary": "[基础提取] This model is a fine-tuned version of **Qwen/Qwen3-4B-Instruct-2507** using **Direct Preference Optimization (DPO)** via the **Unsloth** library. This..."
-        },
-        {
-            "id": "choco800/qwen3-4b-agent-v21",
-            "url": "https://huggingface.co/choco800/qwen3-4b-agent-v21",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/choco800_qwen3-4b-agent-v21.png",
-            "summary": "[基础提取] This repository provides a **fully merged model** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using Unsloth. Unlike standard adapter repositories,..."
-        },
-        {
-            "id": "zenlm/zen-5-coder",
-            "url": "https://huggingface.co/zenlm/zen-5-coder",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-5-coder.png",
-            "summary": "[基础提取] Zen 5 Coder — next-generation code specialist. Currently in training. **Zen MoDE** is our next-generation architecture: Mixture of Diverse Experts wit..."
-        },
-        {
-            "id": "zenlm/zen-5-pro",
-            "url": "https://huggingface.co/zenlm/zen-5-pro",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-5-pro.png",
-            "summary": "[基础提取] Zen 5 Pro — next-generation professional model. Currently in training. **Zen MoDE** is our next-generation architecture: Mixture of Diverse Experts wi..."
-        },
-        {
-            "id": "zenlm/zen-5-mini",
-            "url": "https://huggingface.co/zenlm/zen-5-mini",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-5-mini.png",
-            "summary": "[基础提取] Zen 5 Mini — next-generation efficient model. Currently in training. **Zen MoDE** is our next-generation architecture: Mixture of Diverse Experts with..."
-        },
-        {
-            "id": "zenlm/zen-5",
-            "url": "https://huggingface.co/zenlm/zen-5",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-5.png",
-            "summary": "[基础提取] Zen 5 — next-generation flagship. Currently in training. **Zen MoDE** is our next-generation architecture: Mixture of Diverse Experts with sparse acti..."
-        },
-        {
-            "id": "ToshiyukiNH/qwen3-4b-structured-sft-lora-5",
-            "url": "https://huggingface.co/ToshiyukiNH/qwen3-4b-structured-sft-lora-5",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ToshiyukiNH_qwen3-4b-structured-sft-lora-5.png",
-            "summary": "[基础提取] qwen3-4b-structured-sft-lora-5 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unslo..."
-        },
-        {
-            "id": "255yossya/matsuollm2025_main_lora_repo_v18",
-            "url": "https://huggingface.co/255yossya/matsuollm2025_main_lora_repo_v18",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/255yossya_matsuollm2025_main_lora_repo_v18.png",
-            "summary": "[基础提取] qwen3-4b-json-yaml-xml-output-lora This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, U..."
-        },
-        {
-            "id": "ortiz-ai/perry_sft_v12",
-            "url": "https://huggingface.co/ortiz-ai/perry_sft_v12",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ortiz-ai_perry_sft_v12.png",
-            "summary": "[基础提取] This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **LoRA + Unsloth**. This repository contains **LoRA ..."
-        },
-        {
-            "id": "powrin/qwen3-4b-lora-20260301v2_MLPepoch2_5e5",
-            "url": "https://huggingface.co/powrin/qwen3-4b-lora-20260301v2_MLPepoch2_5e5",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/powrin_qwen3-4b-lora-20260301v2_MLPepoch2_5e5.png",
-            "summary": "[基础提取] qwen3-4b-structured-output-lora This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsl..."
-        },
-        {
-            "id": "o-ckun/qwen2_5-7b-agent-lora-sft-v35_1",
-            "url": "https://huggingface.co/o-ckun/qwen2_5-7b-agent-lora-sft-v35_1",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/o-ckun_qwen2_5-7b-agent-lora-sft-v35_1.png",
-            "summary": "[基础提取] This repository provides a **LoRA adapter** fine-tuned from **unsloth/Qwen2.5-7B-Instruct** using **LoRA + Unsloth**. This repository contains **LoRA ..."
-        },
-        {
-            "id": "ronantakizawa/Qwen2.5-VL-7B-WebUI-LoRA",
-            "url": "https://huggingface.co/ronantakizawa/Qwen2.5-VL-7B-WebUI-LoRA",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ronantakizawa_Qwen2.5-VL-7B-WebUI-LoRA.png",
-            "summary": "[基础提取] should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [Qwen/Qwen2.5-VL-7B-Instruct](https://h..."
-        },
-        {
-            "id": "M-KIT0/lora_structeval_t_qwen3_4b",
-            "url": "https://huggingface.co/M-KIT0/lora_structeval_t_qwen3_4b",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/M-KIT0_lora_structeval_t_qwen3_4b.png",
-            "summary": "[基础提取] qwen3-4b-structured-output-lora-v0.1 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit,..."
-        },
-        {
-            "id": "84basi/lora-5-37-phase3",
-            "url": "https://huggingface.co/84basi/lora-5-37-phase3",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/84basi_lora-5-37-phase3.png",
-            "summary": "[基础提取] qwen3-4b-structured-output-lora This repository provides a **LoRA adapter** fine-tuned from **unsloth/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, U..."
-        },
-        {
-            "id": "Calico923/6_ep3_lr7e-6",
-            "url": "https://huggingface.co/Calico923/6_ep3_lr7e-6",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Calico923_6_ep3_lr7e-6.png",
-            "summary": "[基础提取] qwen3-4b-structured-output-lora-test This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit,..."
-        },
-        {
-            "id": "morizon/qwen2.5-7b-agent-trajectory-lora_0302_ck596_run_20",
-            "url": "https://huggingface.co/morizon/qwen2.5-7b-agent-trajectory-lora_0302_ck596_run_20",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/morizon_qwen2.5-7b-agent-trajectory-lora_0302_ck596_run_20.png",
-            "summary": "[基础提取] This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen2.5-7B-Instruct** using **LoRA + Unsloth**. This repository contains **LoRA ada..."
-        },
-        {
-            "id": "Calico923/5_ep3_lr3e-6",
-            "url": "https://huggingface.co/Calico923/5_ep3_lr3e-6",
-            "task": "text-generation",
-            "downloads": 38,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Calico923_5_ep3_lr3e-6.png",
-            "summary": "[基础提取] qwen3-4b-structured-output-lora-test This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit,..."
-        },
-        {
-            "id": "zenlm/zen-translate",
-            "url": "https://huggingface.co/zenlm/zen-translate",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-translate.png",
-            "summary": "[基础提取] High-quality machine translation across 50+ language pairs with attention to fluency and domain accuracy. Optimized for document translation, technica..."
-        },
-        {
-            "id": "zenlm/zen-multilingual",
-            "url": "https://huggingface.co/zenlm/zen-multilingual",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-multilingual.png",
-            "summary": "[基础提取] Multilingual generation across 30+ languages: English, Chinese, Japanese, Korean, Arabic, Spanish, French, German, Portuguese, Russian, and more. Stro..."
-        },
-        {
-            "id": "zenlm/zen-sql",
-            "url": "https://huggingface.co/zenlm/zen-sql",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-sql.png",
-            "summary": "[基础提取] SQL specialist for complex query generation, schema design, query optimization, and database documentation. Supports PostgreSQL, MySQL, SQLite, BigQue..."
-        },
-        {
-            "id": "zenlm/zen-finance",
-            "url": "https://huggingface.co/zenlm/zen-finance",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-finance.png",
-            "summary": "[基础提取] Financial AI for earnings analysis, portfolio research, market commentary, and financial document synthesis. Designed for financial technology develop..."
-        },
-        {
-            "id": "zenlm/zen-legal",
-            "url": "https://huggingface.co/zenlm/zen-legal",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-legal.png",
-            "summary": "[基础提取] Legal AI for contract analysis, case research, regulatory compliance, and legal document synthesis. Designed for legal technology developers and resea..."
-        },
-        {
-            "id": "zenlm/zen-medical",
-            "url": "https://huggingface.co/zenlm/zen-medical",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-medical.png",
-            "summary": "[基础提取] Medical AI for clinical research, literature synthesis, pharmacology, and diagnostic support workflows. Designed for medical researchers and healthcar..."
-        },
-        {
-            "id": "zenlm/zen4-coder-abliterated",
-            "url": "https://huggingface.co/zenlm/zen4-coder-abliterated",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen4-coder-abliterated.png",
-            "summary": "[基础提取] Frontier code model fine-tuned for security research, vulnerability analysis, and adversarial code evaluation. Weights at [zenlm/zen4-coder](https://h..."
-        },
-        {
-            "id": "zenlm/zen4-pro-abliterated",
-            "url": "https://huggingface.co/zenlm/zen4-pro-abliterated",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen4-pro-abliterated.png",
-            "summary": "[基础提取] Professional-grade 14B model fine-tuned for AI safety research, red-teaming, and capability evaluation. Weights at [zenlm/zen4-pro](https://huggingfac..."
-        },
-        {
-            "id": "zenlm/zen-3-pro-abliterated",
-            "url": "https://huggingface.co/zenlm/zen-3-pro-abliterated",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-pro-abliterated.png",
-            "summary": "[基础提取] Zen 3 safety research variant. Weights at [zenlm/zen-next-80b-instruct](https://huggingface.co/zenlm/zen-next-80b-instruct). The Zen 3 family (Q3–Q4 2..."
-        },
-        {
-            "id": "zenlm/zen-3-abliterated",
-            "url": "https://huggingface.co/zenlm/zen-3-abliterated",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-abliterated.png",
-            "summary": "[基础提取] Zen 3 safety research variant. Weights at [zenlm/zen-pro](https://huggingface.co/zenlm/zen-pro). The Zen 3 family (Q3–Q4 2024) introduced sparse MoE r..."
-        },
-        {
-            "id": "zenlm/zen-2-72b-abliterated",
-            "url": "https://huggingface.co/zenlm/zen-2-72b-abliterated",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-2-72b-abliterated.png",
-            "summary": "[基础提取] Second generation of the Zen LM family (Q2 2024), safety research variant. Key feature: 128K context window for long-document analysis. This model is ..."
-        },
-        {
-            "id": "zenlm/zen-2-7b-abliterated",
-            "url": "https://huggingface.co/zenlm/zen-2-7b-abliterated",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-2-7b-abliterated.png",
-            "summary": "[基础提取] Second generation of the Zen LM family (Q2 2024), safety research variant. Key feature: 128K context window for long-document analysis. This model is ..."
-        },
-        {
-            "id": "zenlm/zen-1-72b-abliterated",
-            "url": "https://huggingface.co/zenlm/zen-1-72b-abliterated",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-1-72b-abliterated.png",
-            "summary": "[基础提取] First generation of the Zen LM family (Q4 2023), safety research variant. Dense transformer architecture trained on multilingual data: code, science, ..."
-        },
-        {
-            "id": "zenlm/zen-1-14b-abliterated",
-            "url": "https://huggingface.co/zenlm/zen-1-14b-abliterated",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-1-14b-abliterated.png",
-            "summary": "[基础提取] First generation of the Zen LM family (Q4 2023), safety research variant. Dense transformer architecture trained on multilingual data: code, science, ..."
-        },
-        {
-            "id": "zenlm/zen-1-7b-abliterated",
-            "url": "https://huggingface.co/zenlm/zen-1-7b-abliterated",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-1-7b-abliterated.png",
-            "summary": "[基础提取] First generation of the Zen LM family (Q4 2023), safety research variant. Dense transformer architecture trained on multilingual data: code, science, ..."
-        },
-        {
-            "id": "unfdn/qwen3-lora",
-            "url": "https://huggingface.co/unfdn/qwen3-lora",
-            "task": "text-generation",
-            "downloads": 53,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/unfdn_qwen3-lora.png",
-            "summary": "[基础提取] This qwen3 model was trained 2x faster with [Unsloth](https://github.com/unslothai/unsloth) and Huggingface's TRL library. [<img src=\"https://raw.gith..."
-        },
-        {
-            "id": "younes9217/spark-tts-Doda-lm-MA",
-            "url": "https://huggingface.co/younes9217/spark-tts-Doda-lm-MA",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/younes9217_spark-tts-Doda-lm-MA.png",
-            "summary": "[基础提取] This model is a fine-tuned version of [None](https://huggingface.co/None). It has been trained using [TRL](https://github.com/huggingface/trl). ```pyt..."
-        },
-        {
-            "id": "Chattso-GPT/adv-sft-v10",
-            "url": "https://huggingface.co/Chattso-GPT/adv-sft-v10",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Chattso-GPT_adv-sft-v10.png",
-            "summary": "[基础提取] LoRA adapter fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using LoRA + Unsloth. This repository contains LoRA adapter weights only. Dataset License..."
-        },
-        {
-            "id": "rokugatsu/LLM2025_Advanced_6_DPO8",
-            "url": "https://huggingface.co/rokugatsu/LLM2025_Advanced_6_DPO8",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/rokugatsu_LLM2025_Advanced_6_DPO8.png",
-            "summary": "[基础提取] This repository provides a **DPO-fine-tuned model** based on **rokugatsu/LLM2025_Advanced_6** using `trl.DPOTrainer`. This model has undergone Direct ..."
-        },
-        {
-            "id": "Aim9099/PII-Model-Phi3-Mini-Q5_K_S-GGUF",
-            "url": "https://huggingface.co/Aim9099/PII-Model-Phi3-Mini-Q5_K_S-GGUF",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Aim9099_PII-Model-Phi3-Mini-Q5_K_S-GGUF.png",
-            "summary": "[基础提取] This model was converted to GGUF format from [`ab-ai/PII-Model-Phi3-Mini`](https://huggingface.co/ab-ai/PII-Model-Phi3-Mini) using llama.cpp via the g..."
-        },
-        {
-            "id": "OSUGI-51/sft_v3",
-            "url": "https://huggingface.co/OSUGI-51/sft_v3",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/OSUGI-51_sft_v3.png",
-            "summary": "[基础提取] sft_v3 This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-bit, Unsloth)**. This repository c..."
-        },
-        {
-            "id": "choco800/qwen3-4b-agent-v20",
-            "url": "https://huggingface.co/choco800/qwen3-4b-agent-v20",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/choco800_qwen3-4b-agent-v20.png",
-            "summary": "[基础提取] This repository provides a **fully merged model** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using Unsloth. Unlike standard adapter repositories,..."
-        },
-        {
-            "id": "bam2app/qwen3-4b-structured-output-lora_v2",
-            "url": "https://huggingface.co/bam2app/qwen3-4b-structured-output-lora_v2",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/bam2app_qwen3-4b-structured-output-lora_v2.png",
-            "summary": "[基础提取] ＜【課題】qwen3-4b-structured-output-lora_v2＞ This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen3-4B-Instruct-2507** using **QLoRA (4-..."
-        },
-        {
-            "id": "morizon/qwen2.5-7b-agent-trajectory-lora_0302_ck240_run_20",
-            "url": "https://huggingface.co/morizon/qwen2.5-7b-agent-trajectory-lora_0302_ck240_run_20",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/morizon_qwen2.5-7b-agent-trajectory-lora_0302_ck240_run_20.png",
-            "summary": "[基础提取] This repository provides a **LoRA adapter** fine-tuned from **Qwen/Qwen2.5-7B-Instruct** using **LoRA + Unsloth**. This repository contains **LoRA ada..."
-        },
-        {
-            "id": "Nada2022/agentbench-qwen3-4b-full",
-            "url": "https://huggingface.co/Nada2022/agentbench-qwen3-4b-full",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Nada2022_agentbench-qwen3-4b-full.png",
-            "summary": "[基础提取] Base model: Qwen/Qwen3-4B-Instruct-2507 This is a merged submission model for the advanced competition. The tokenizer chat template was patched for no..."
-        },
-        {
-            "id": "ikedabent/llm_ad_qwen2.5-7b-mix203",
-            "url": "https://huggingface.co/ikedabent/llm_ad_qwen2.5-7b-mix203",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ikedabent_llm_ad_qwen2.5-7b-mix203.png",
-            "summary": "[基础提取] This repository provides a **LoRA adapter** fine-tuned from **unsloth/Qwen2.5-7B-Instruct** using **LoRA + Unsloth**. This repository contains **LoRA ..."
-        },
-        {
-            "id": "zenlm/zen-3-math",
-            "url": "https://huggingface.co/zenlm/zen-3-math",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-math.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen-pro](https://huggingface.co/zenlm/zen-pro). The Zen 3 family (Q3–Q4 2024) introduced sparse MoE routing ..."
-        },
-        {
-            "id": "zenlm/zen-3-vision",
-            "url": "https://huggingface.co/zenlm/zen-3-vision",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-vision.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen-vl-30b-instruct](https://huggingface.co/zenlm/zen-vl-30b-instruct). The Zen 3 family (Q3–Q4 2024) introd..."
-        },
-        {
-            "id": "zenlm/zen-3-coder",
-            "url": "https://huggingface.co/zenlm/zen-3-coder",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-coder.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen-coder](https://huggingface.co/zenlm/zen-coder). The Zen 3 family (Q3–Q4 2024) introduced sparse MoE rout..."
-        },
-        {
-            "id": "zenlm/zen-3-max-instruct",
-            "url": "https://huggingface.co/zenlm/zen-3-max-instruct",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-max-instruct.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen-designer-235b-a22b-instruct](https://huggingface.co/zenlm/zen-designer-235b-a22b-instruct). The Zen 3 fa..."
-        },
-        {
-            "id": "zenlm/zen-3-pro-instruct",
-            "url": "https://huggingface.co/zenlm/zen-3-pro-instruct",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-pro-instruct.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen-next-80b-instruct](https://huggingface.co/zenlm/zen-next-80b-instruct). The Zen 3 family (Q3–Q4 2024) in..."
-        },
-        {
-            "id": "zenlm/zen-3-instruct",
-            "url": "https://huggingface.co/zenlm/zen-3-instruct",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-instruct.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen-pro](https://huggingface.co/zenlm/zen-pro). The Zen 3 family (Q3–Q4 2024) introduced sparse MoE routing ..."
-        },
-        {
-            "id": "zenlm/zen-3-nano-instruct",
-            "url": "https://huggingface.co/zenlm/zen-3-nano-instruct",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-nano-instruct.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen3-nano](https://huggingface.co/zenlm/zen3-nano). The Zen 3 family (Q3–Q4 2024) introduced sparse MoE rout..."
-        },
-        {
-            "id": "zenlm/zen-3-max",
-            "url": "https://huggingface.co/zenlm/zen-3-max",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-max.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen-designer-235b-a22b-instruct](https://huggingface.co/zenlm/zen-designer-235b-a22b-instruct). The Zen 3 fa..."
-        },
-        {
-            "id": "zenlm/zen-3-pro",
-            "url": "https://huggingface.co/zenlm/zen-3-pro",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-pro.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen-next-80b-instruct](https://huggingface.co/zenlm/zen-next-80b-instruct). The Zen 3 family (Q3–Q4 2024) in..."
-        },
-        {
-            "id": "zenlm/zen-3",
-            "url": "https://huggingface.co/zenlm/zen-3",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen-pro](https://huggingface.co/zenlm/zen-pro). The Zen 3 family (Q3–Q4 2024) introduced sparse MoE routing ..."
-        },
-        {
-            "id": "zenlm/zen-3-eco",
-            "url": "https://huggingface.co/zenlm/zen-3-eco",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-eco.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen-eco](https://huggingface.co/zenlm/zen-eco). The Zen 3 family (Q3–Q4 2024) introduced sparse MoE routing ..."
-        },
-        {
-            "id": "zenlm/zen-3-nano",
-            "url": "https://huggingface.co/zenlm/zen-3-nano",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-3-nano.png",
-            "summary": "[基础提取] Zen 3 generation label. Weights at [zenlm/zen3-nano](https://huggingface.co/zenlm/zen3-nano). The Zen 3 family (Q3–Q4 2024) introduced sparse MoE rout..."
-        },
-        {
-            "id": "zenlm/zen-2-math-7b",
-            "url": "https://huggingface.co/zenlm/zen-2-math-7b",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-2-math-7b.png",
-            "summary": "暂无模型介绍（降级模式未获取到README）。"
-        },
-        {
-            "id": "zenlm/zen-2-coder-7b",
-            "url": "https://huggingface.co/zenlm/zen-2-coder-7b",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-2-coder-7b.png",
-            "summary": "[基础提取] Second generation of the Zen LM family (Q2 2024). Key breakthrough: **128K context window** via improved positional encoding and sliding window attent..."
-        },
-        {
-            "id": "zenlm/zen-2-72b-instruct",
-            "url": "https://huggingface.co/zenlm/zen-2-72b-instruct",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-2-72b-instruct.png",
-            "summary": "[基础提取] Second generation of the Zen LM family (Q2 2024). Key breakthrough: **128K context window** via improved positional encoding and sliding window attent..."
-        },
-        {
-            "id": "zenlm/zen-2-7b-instruct",
-            "url": "https://huggingface.co/zenlm/zen-2-7b-instruct",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-2-7b-instruct.png",
-            "summary": "[基础提取] Second generation of the Zen LM family (Q2 2024). Key breakthrough: **128K context window** via improved positional encoding and sliding window attent..."
-        },
-        {
-            "id": "zenlm/zen-2-72b",
-            "url": "https://huggingface.co/zenlm/zen-2-72b",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/zenlm/zen-2-72b.png",
-            "summary": "[基础提取] Second generation of the Zen LM family (Q2 2024). Key breakthrough: **128K context window** via improved positional encoding and sliding window attent..."
-        },
-        {
-            "id": "zenlm/zen-2-7b",
-            "url": "https://huggingface.co/zenlm/zen-2-7b",
-            "task": "text-generation",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/zenlm_zen-2-7b.png",
-            "summary": "[基础提取] Second generation of the Zen LM family (Q2 2024). Key breakthrough: **128K context window** via improved positional encoding and sliding window attent..."
-        },
-        {
-            "id": "ReactiveAI/RxT-Beta-MLM-Base",
-            "url": "https://huggingface.co/ReactiveAI/RxT-Beta-MLM-Base",
-            "task": "fill-mask",
-            "downloads": 131,
-            "likes": 0,
-            "status": "Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ReactiveAI_RxT-Beta-MLM-Base.png",
-            "summary": "暂无模型介绍（降级模式未获取到README）。"
-        },
-        {
-            "id": "olegGerbylev/all-MiniLM-L6-v2-goods",
-            "url": "https://huggingface.co/olegGerbylev/all-MiniLM-L6-v2-goods",
-            "task": "sentence-similarity",
-            "downloads": 0,
-            "likes": 0,
-            "status": "New & Updated",
-            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/olegGerbylev_all-MiniLM-L6-v2-goods.png",
-            "summary": "[基础提取] This is a [sentence-transformers](https://www.SBERT.net) model finetuned from [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence..."
-        }
-    ]
+    "total_updates": 47,
+    "subcategories": {
+        "text-classification": [
+            {
+                "id": "jdleo1/tinysafe-2",
+                "url": "https://huggingface.co/jdleo1/tinysafe-2",
+                "downloads": 10,
+                "likes": 1,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/jdleo1_tinysafe-2.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "jdleo1/tinysafe-1",
+                "url": "https://huggingface.co/jdleo1/tinysafe-1",
+                "downloads": 55,
+                "likes": 1,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/jdleo1_tinysafe-1.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "Vandita/DistilBERT-EmoCentricSarcBERT-StudentWoInjecton",
+                "url": "https://huggingface.co/Vandita/DistilBERT-EmoCentricSarcBERT-StudentWoInjecton",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Vandita_DistilBERT-EmoCentricSarcBERT-StudentWoInjecton.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "schmidberger/reranker_genesis",
+                "url": "https://huggingface.co/schmidberger/reranker_genesis",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            },
+            {
+                "id": "AryanKr05/my-preference-model",
+                "url": "https://huggingface.co/AryanKr05/my-preference-model",
+                "downloads": 12,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            },
+            {
+                "id": "AryanKr05/trainer_output",
+                "url": "https://huggingface.co/AryanKr05/trainer_output",
+                "downloads": 20,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "This model is a fine-tuned version of [bert-base-uncased](https://huggingface.co/bert-base-uncased). It has been trained..."
+            },
+            {
+                "id": "k4rk0or/distilbert-base-uncased-finetuned-emotion",
+                "url": "https://huggingface.co/k4rk0or/distilbert-base-uncased-finetuned-emotion",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [distilbe..."
+            },
+            {
+                "id": "HiruniKau/dark-pattern-electra-v2",
+                "url": "https://huggingface.co/HiruniKau/dark-pattern-electra-v2",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            },
+            {
+                "id": "yonad2008/jailbreak_predictor_simple_input_zephyr_7b-beta",
+                "url": "https://huggingface.co/yonad2008/jailbreak_predictor_simple_input_zephyr_7b-beta",
+                "downloads": 13,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            },
+            {
+                "id": "Hemisus/koelectra-finetuned-nsmc",
+                "url": "https://huggingface.co/Hemisus/koelectra-finetuned-nsmc",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "My fine tuned model for https://github.com/hemisus/ai-projects-streamlit-app Base model: monologg/koelectra-base-v3-disc..."
+            }
+        ],
+        "token-classification": [
+            {
+                "id": "exdsgift/NerGuard-0.3B",
+                "url": "https://huggingface.co/exdsgift/NerGuard-0.3B",
+                "downloads": 129,
+                "likes": 2,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/exdsgift_NerGuard-0.3B.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "arthrod/gliner-pii-large-full-v1",
+                "url": "https://huggingface.co/arthrod/gliner-pii-large-full-v1",
+                "downloads": 86,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/arthrod_gliner-pii-large-full-v1.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "inference4j/bert-base-NER",
+                "url": "https://huggingface.co/inference4j/bert-base-NER",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/inference4j_bert-base-NER.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "inference4j/distilbert-NER",
+                "url": "https://huggingface.co/inference4j/distilbert-NER",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "ONNX export of [dslim/distilbert-NER](https://huggingface.co/dslim/distilbert-NER), a DistilBERT model fine-tuned on CoN..."
+            }
+        ],
+        "question-answering": [
+            {
+                "id": "mradermacher/next-270m-GGUF",
+                "url": "https://huggingface.co/mradermacher/next-270m-GGUF",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/mradermacher_next-270m-GGUF.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            }
+        ],
+        "summarization": [
+            {
+                "id": "Sachin21112004/distilbart-news-summarizer",
+                "url": "https://huggingface.co/Sachin21112004/distilbart-news-summarizer",
+                "downloads": 2438,
+                "likes": 6,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Sachin21112004_distilbart-news-summarizer.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            }
+        ],
+        "feature-extraction": [
+            {
+                "id": "voyageai/voyage-4-nano",
+                "url": "https://huggingface.co/voyageai/voyage-4-nano",
+                "downloads": 47203,
+                "likes": 87,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/voyageai_voyage-4-nano.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "perplexity-ai/pplx-embed-context-v1-0.6b",
+                "url": "https://huggingface.co/perplexity-ai/pplx-embed-context-v1-0.6b",
+                "downloads": 2494,
+                "likes": 31,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/perplexity-ai_pplx-embed-context-v1-0.6b.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "perplexity-ai/pplx-embed-context-v1-4b",
+                "url": "https://huggingface.co/perplexity-ai/pplx-embed-context-v1-4b",
+                "downloads": 3762,
+                "likes": 17,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/perplexity-ai_pplx-embed-context-v1-4b.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N2_D1024-1024_lr-0.0005",
+                "url": "https://huggingface.co/emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N2_D1024-1024_lr-0.0005",
+                "downloads": 1289,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            },
+            {
+                "id": "Xilinbei/embeddinggemma-300m-qat-q8_0-GGUF",
+                "url": "https://huggingface.co/Xilinbei/embeddinggemma-300m-qat-q8_0-GGUF",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "Recommended way to run this model: ```sh llama-server -hf ggml-org/embeddinggemma-300m-qat-q8_0-GGUF --embeddings ``` Th..."
+            },
+            {
+                "id": "tooldev/MyAwesomeModel-TestRepo",
+                "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "The MyAwesomeModel has undergone a significant version upgrade. In the latest update, MyAwesomeModel has significantly i..."
+            },
+            {
+                "id": "Xavarary/all-MiniLM-L6-v2_sensim_medium_test",
+                "url": "https://huggingface.co/Xavarary/all-MiniLM-L6-v2_sensim_medium_test",
+                "downloads": 21,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            },
+            {
+                "id": "timmyqefcs/MyAwesomeModel-TestRepo",
+                "url": "https://huggingface.co/timmyqefcs/MyAwesomeModel-TestRepo",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "The MyAwesomeModel has undergone a significant version upgrade. In the latest update, MyAwesomeModel has significantly i..."
+            },
+            {
+                "id": "emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N12_D1024-1024_lr-0.0005",
+                "url": "https://huggingface.co/emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N12_D1024-1024_lr-0.0005",
+                "downloads": 85,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            },
+            {
+                "id": "emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N12_D1024-1024_mlp_election_fixed_lr-0.0005",
+                "url": "https://huggingface.co/emarro/test-hnet-upload-pcad2_cnet_cnet_c3t1-C15-c4_N12_D1024-1024_mlp_election_fixed_lr-0.0005",
+                "downloads": 98,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            }
+        ],
+        "text-generation": [
+            {
+                "id": "inferencerlabs/Qwen3-Coder-480B-A35B-Instruct-MLX-8.5bit",
+                "url": "https://huggingface.co/inferencerlabs/Qwen3-Coder-480B-A35B-Instruct-MLX-8.5bit",
+                "downloads": 400,
+                "likes": 2,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/inferencerlabs_Qwen3-Coder-480B-A35B-Instruct-MLX-8.5bit.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "inferencerlabs/MiniMax-M2-MLX-6.5bit",
+                "url": "https://huggingface.co/inferencerlabs/MiniMax-M2-MLX-6.5bit",
+                "downloads": 156,
+                "likes": 2,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/inferencerlabs_MiniMax-M2-MLX-6.5bit.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "InquiringMinds-AI/LongCat-Flash-Lite-GGUF",
+                "url": "https://huggingface.co/InquiringMinds-AI/LongCat-Flash-Lite-GGUF",
+                "downloads": 468,
+                "likes": 2,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/InquiringMinds-AI/LongCat-Flash-Lite-GGUF.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "dealignai/Qwen3.5-397B-A17B-4bit-MLX-REAP",
+                "url": "https://huggingface.co/dealignai/Qwen3.5-397B-A17B-4bit-MLX-REAP",
+                "downloads": 312,
+                "likes": 1,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "**The first 397B-class MoE model that runs on a single Mac Studio (256GB).** This is an expert-pruned version of [Qwen/Q..."
+            },
+            {
+                "id": "MultiverseComputingCAI/Hypernova-60B-2602-GGUF",
+                "url": "https://huggingface.co/MultiverseComputingCAI/Hypernova-60B-2602-GGUF",
+                "downloads": 1370,
+                "likes": 1,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Hu..."
+            },
+            {
+                "id": "Tommy-DING/FlexGuard-Qwen3-8B",
+                "url": "https://huggingface.co/Tommy-DING/FlexGuard-Qwen3-8B",
+                "downloads": 34,
+                "likes": 1,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "FlexGuard-Qwen3-8B is a **strictness-adaptive LLM content moderation model** that outputs a **continuous risk score (0-1..."
+            },
+            {
+                "id": "guilhermelmello/qwen-pt-base-unigram-8k",
+                "url": "https://huggingface.co/guilhermelmello/qwen-pt-base-unigram-8k",
+                "downloads": 20,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            },
+            {
+                "id": "inferencerlabs/Ring-2.5-1T-MLX-3.7bit",
+                "url": "https://huggingface.co/inferencerlabs/Ring-2.5-1T-MLX-3.7bit",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "**See Ring-2.5-1T MLX in action - [demonstration video - coming soon](https://youtu.be/noLiKrwTY_E)** *q3.7bit quant is ..."
+            },
+            {
+                "id": "Anonymous-2004/gpt2-medium-ppo-qlora",
+                "url": "https://huggingface.co/Anonymous-2004/gpt2-medium-ppo-qlora",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            },
+            {
+                "id": "JaQuan2k6/Qwen2.5-Coder-32B-Instruct-abliterated-8bit",
+                "url": "https://huggingface.co/JaQuan2k6/Qwen2.5-Coder-32B-Instruct-abliterated-8bit",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This model [JaQuan2k6/Qwen2.5-Coder-32B-Instruct-abliterated-8bit](https://huggingface.co/JaQuan2k6/Qwen2.5-Coder-32B-In..."
+            }
+        ],
+        "fill-mask": [
+            {
+                "id": "ReactiveAI/RxT-Beta-Encoder-Base",
+                "url": "https://huggingface.co/ReactiveAI/RxT-Beta-Encoder-Base",
+                "downloads": 138,
+                "likes": 1,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ReactiveAI_RxT-Beta-Encoder-Base.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "ReactiveAI/RxT-Beta-MLM-Base",
+                "url": "https://huggingface.co/ReactiveAI/RxT-Beta-MLM-Base",
+                "downloads": 131,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ReactiveAI_RxT-Beta-MLM-Base.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "DavidUgCh/death-news_roberta_bs53",
+                "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs53",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/DavidUgCh_death-news_roberta_bs53.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "yhyhyyy/dummy-model",
+                "url": "https://huggingface.co/yhyhyyy/dummy-model",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically..."
+            },
+            {
+                "id": "DavidUgCh/death-news_roberta_bs52",
+                "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs52",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [roberta-..."
+            },
+            {
+                "id": "DavidUgCh/death-news_roberta_bs51",
+                "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs51",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": false,
+                "summary": "should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [roberta-..."
+            }
+        ],
+        "sentence-similarity": [
+            {
+                "id": "kalle07/embedder_collection",
+                "url": "https://huggingface.co/kalle07/embedder_collection",
+                "downloads": 9015,
+                "likes": 28,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/kalle07_embedder_collection.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "olegGerbylev/all-MiniLM-L6-v2-goods",
+                "url": "https://huggingface.co/olegGerbylev/all-MiniLM-L6-v2-goods",
+                "downloads": 10,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/olegGerbylev_all-MiniLM-L6-v2-goods.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "inference4j/gte-base",
+                "url": "https://huggingface.co/inference4j/gte-base",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/inference4j_gte-base.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            },
+            {
+                "id": "inference4j/bge-base-en-v1.5",
+                "url": "https://huggingface.co/inference4j/bge-base-en-v1.5",
+                "downloads": 0,
+                "likes": 0,
+                "status": "🔄 更新 | 🆕 新增",
+                "is_ai_analyzed": false,
+                "summary": "ONNX export of [BAAI/bge-base-en-v1.5](https://huggingface.co/BAAI/bge-base-en-v1.5), a high-quality English embedding m..."
+            }
+        ],
+        "text-ranking": [
+            {
+                "id": "Querit/Querit",
+                "url": "https://huggingface.co/Querit/Querit",
+                "downloads": 19,
+                "likes": 0,
+                "status": "🔄 更新",
+                "is_ai_analyzed": true,
+                "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Querit_Querit.png",
+                "summary": "❌ AI总结失败 (HTTP 404)"
+            }
+        ]
+    }
 }
