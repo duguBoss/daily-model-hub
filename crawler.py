@@ -4,10 +4,21 @@ import os
 import json
 import re
 import time
+from openai import OpenAI
 
-# 获取 Gemini API Key 和 Github Repo
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "duguBoss/daily-model-hub")
+# ---------------------------------------------------------
+# 配置信息
+# ---------------------------------------------------------
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
+GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "your-username/your-repo")
+
+# 初始化 OpenAI 客户端 (替换为你专属的 Base URL 和 Key)
+client = OpenAI(
+    api_key=OPENAI_API_KEY or "sk-xxxxxx", # 避免未配置环境变量时报错，也可以直接把你的key写死在这里测试
+    base_url="http://43.160.201.19:3000/v1"
+)
+# 指定请求的模型名称
+AI_MODEL_NAME = "gpt-3.5-codex"
 
 CATEGORIES = {
     "Multimodal":["audio-text-to-text", "image-text-to-text", "image-text-to-image", "image-text-to-video", "visual-question-answering", "document-question-answering", "video-text-to-text", "visual-document-retrieval", "any-to-any"],
@@ -47,27 +58,49 @@ def download_icon(model_id, today_str):
     return default_icon
 
 def get_raw_readme(model_id):
-    """直接拉取原始 Markdown 文件，避免第三方接口导致 404"""
-    url = f"https://huggingface.co/{model_id}/raw/main/README.md"
-    try:
-        r = requests.get(url, timeout=10)
-        if r.status_code == 200:
-            text = r.text
-            if text.startswith('---'):
-                parts = text.split('---', 2)
-                if len(parts) >= 3:
-                    text = parts[2]
-            return text[:4000] # 截取前 4000 字符交给 Gemini
-    except:
-        pass
-    return "该模型作者暂未提供任何 README 介绍文档。"
+    """双分支探测拉取原始 Markdown 文件，并增加伪装头防拦截"""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    
+    urls_to_try =[
+        f"https://huggingface.co/{model_id}/raw/main/README.md",
+        f"https://huggingface.co/{model_id}/raw/master/README.md",
+        f"https://huggingface.co/{model_id}/raw/main/readme.md",
+        f"https://huggingface.co/{model_id}/resolve/main/README.md"
+    ]
+    
+    for url in urls_to_try:
+        try:
+            r = requests.get(url, headers=headers, timeout=10)
+            if r.status_code == 200:
+                text = r.text
+                if text.startswith('---'):
+                    parts = text.split('---', 2)
+                    if len(parts) >= 3:
+                        text = parts[2]
+                text = text.strip()
+                if not text:
+                    return "README 文件内容为空。"
+                return text[:4000] # 截取前 4000 字符交给 AI
+        except:
+            continue
+            
+    return "未找到 README.md，该模型作者可能未提供详情文件。"
 
 def generate_ai_content(model_id, mode="detailed"):
-    """使用 Gemini 对模型进行纯中文分析"""
-    if not GEMINI_API_KEY:
-        return "⚠️ 未配置 API Key。"
+    """使用 OpenAI 库对模型进行纯中文分析"""
+    if not OPENAI_API_KEY:
+        return "⚠️ 未配置 OPENAI_API_KEY。"
         
     readme_content = get_raw_readme(model_id)
+    
+    # 优雅降级
+    if "未找到 README.md" in readme_content or "文件内容为空" in readme_content:
+        if mode == "detailed":
+            return "作者暂未提供该模型的详细说明文档，建议前往 HuggingFace 仓库主页查看其配置文件。"
+        else:
+            return "暂无模型介绍文档。"
     
     if mode == "detailed":
         prompt = (
@@ -83,32 +116,28 @@ def generate_ai_content(model_id, mode="detailed"):
             f"模型内容：\n{readme_content}"
         )
         
-    gemini_endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
-    payload = {"contents":[{"parts":[{"text": prompt}]}]}
-    headers = {"Content-Type": "application/json"}
-    
+    error_msg = ""
+    # 失败重试 3 次
     for _ in range(3):
         try:
-            r = requests.post(gemini_endpoint, json=payload, headers=headers, timeout=20)
-            if r.status_code == 200:
-                return r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
-            elif r.status_code == 429: # 请求过快
-                time.sleep(5)
-            else:
-                break
-        except:
+            response = client.chat.completions.create(
+                model=AI_MODEL_NAME,
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                timeout=20  # 设置超时防止卡死
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            error_msg = str(e)
             time.sleep(2)
             
-    if "暂未提供" in readme_content:
-        return "作者暂未提供该模型的详细说明文档，建议前往主页查看文件。"
-    return "这是一个强大的 AI 模型，具体参数和适用场景请参考项目主页。"
+    return f"⚠️ 抓到了 README，但 AI 摘要失败。报错详情: {error_msg}"
 
 def compress_html(html_list):
     """将 HTML 列表合并，并极限压缩为单行无空格字符串"""
     raw_html = "".join(html_list)
-    # 替换所有的换行和回车
     raw_html = raw_html.replace('\n', '').replace('\r', '')
-    # 将 HTML 标签之间多余的空格压缩 (如 >   < 变为 ><)
     compressed_html = re.sub(r'>\s+<', '><', raw_html)
     return compressed_html.strip()
 
@@ -118,7 +147,6 @@ def main():
     os.makedirs(today_str, exist_ok=True)
     
     total_models_all = 0
-    # 存放最终写入单一 JSON 的全量数据字典
     final_output_data = {
         "date": today_str,
         "total_updates": 0,
@@ -148,7 +176,7 @@ def main():
                         is_today, tags = False,[]
                         
                         if c_date == today_str:
-                            is_today, tags = True, tags + ["🆕 新增"]
+                            is_today, tags = True, tags +["🆕 新增"]
                         if m_date == today_str:
                             is_today, tags = True, tags + ["🔄 更新"]
                             
@@ -180,8 +208,8 @@ def main():
                         m_data["is_top_3"] = False
                         m_data["summary"] = generate_ai_content(m_data["id"], mode="brief")
                     
-                    # 强力保护 Gemini 免费并发限制
-                    time.sleep(4.5)
+                    # 强力保护自定义 API 接口并发限制
+                    time.sleep(3)
                         
                 category_data[task] = task_models_list
                 category_total_updates += len(task_models_list)
@@ -252,17 +280,17 @@ def main():
                         if i == len(models_list) - 1:
                             html_lines.append('</section>')
             
+            # 将提示移到图片上方，保证最后一张图彻底压在最底边
             html_lines.extend([
-                '<section style="margin: 20px 0 0 0; padding: 0; line-height: 0;">',
+                '<section style="text-align: center; font-size: 12px; color: #bbb; margin: 30px 0; padding: 20px 15px; border-top: 1px solid #eee;">本文由 AI 自动聚合追踪，数据源自 HuggingFace</section>',
+                '<section style="margin: 0; padding: 0; line-height: 0;">',
                 '<img src="https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif" style="width: 100%; display: block; margin: 0; padding: 0; border: none;">',
                 '</section>',
                 '</section>'
             ])
             
-            # 将 HTML 列表压缩为没有回车空格的单行字符串
             compressed_html = compress_html(html_lines)
             
-            # 存入大 JSON 字典
             final_output_data["categories"][category_name] = {
                 "total": category_total_updates,
                 "html_content": compressed_html,
@@ -277,7 +305,6 @@ def main():
     if total_models_all > 0:
         json_filepath = os.path.join(today_str, f"{today_str}_summary.json")
         with open(json_filepath, "w", encoding="utf-8") as f:
-            # indent=4 保证 JSON 文件本身的结构清晰（HTML 字符串已压缩为一行，位于 html_content 字段）
             json.dump(final_output_data, f, ensure_ascii=False, indent=4)
         print(f"\n🎉 完美收工！共计 {total_models_all} 个模型。所有数据和单行 HTML 已聚合保存至: {json_filepath}")
     else:
