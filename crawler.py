@@ -4,21 +4,12 @@ import os
 import json
 import re
 import time
-from openai import OpenAI
 
 # ---------------------------------------------------------
 # 配置信息
 # ---------------------------------------------------------
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "your-username/your-repo")
-
-# 初始化 OpenAI 客户端 (替换为你专属的 Base URL 和 Key)
-client = OpenAI(
-    api_key=OPENAI_API_KEY or "sk-xxxxxx", # 避免未配置环境变量时报错，也可以直接把你的key写死在这里测试
-    base_url="http://43.160.201.19:3000/v1"
-)
-# 指定请求的模型名称
-AI_MODEL_NAME = "gpt-5.3-codex"
 
 CATEGORIES = {
     "Multimodal":["audio-text-to-text", "image-text-to-text", "image-text-to-image", "image-text-to-video", "visual-question-answering", "document-question-answering", "video-text-to-text", "visual-document-retrieval", "any-to-any"],
@@ -89,13 +80,13 @@ def get_raw_readme(model_id):
     return "未找到 README.md，该模型作者可能未提供详情文件。"
 
 def generate_ai_content(model_id, mode="detailed"):
-    """使用 OpenAI 库对模型进行纯中文分析"""
-    if not OPENAI_API_KEY:
-        return "⚠️ 未配置 OPENAI_API_KEY。"
+    """使用 Gemini 原生接口对模型进行纯中文分析"""
+    if not GEMINI_API_KEY:
+        return "⚠️ 未配置 GEMINI_API_KEY。"
         
     readme_content = get_raw_readme(model_id)
     
-    # 优雅降级
+    # 优雅降级：如果没有拿到实质性文本，不调用大模型，直接返回提示
     if "未找到 README.md" in readme_content or "文件内容为空" in readme_content:
         if mode == "detailed":
             return "作者暂未提供该模型的详细说明文档，建议前往 HuggingFace 仓库主页查看其配置文件。"
@@ -116,18 +107,27 @@ def generate_ai_content(model_id, mode="detailed"):
             f"模型内容：\n{readme_content}"
         )
         
+    gemini_endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    payload = {"contents":[{"parts":[{"text": prompt}]}]}
+    headers = {"Content-Type": "application/json"}
+    
     error_msg = ""
-    # 失败重试 3 次
+    # 失败重试 3 次，增加抗抖动能力
     for _ in range(3):
         try:
-            response = client.chat.completions.create(
-                model=AI_MODEL_NAME,
-                messages=[
-                    {"role": "user", "content": prompt}
-                ],
-                timeout=20  # 设置超时防止卡死
-            )
-            return response.choices[0].message.content.strip()
+            r = requests.post(gemini_endpoint, json=payload, headers=headers, timeout=20)
+            if r.status_code == 200:
+                data = r.json()
+                try:
+                    return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+                except KeyError:
+                    finish_reason = data.get("candidates", [{}])[0].get("finishReason", "Unknown")
+                    return f"⚠️ 摘要被安全策略拦截 (原因: {finish_reason})。"
+            elif r.status_code == 429: # 请求过快被限流
+                time.sleep(5)
+            else:
+                error_msg = f"HTTP {r.status_code}: {r.text[:80]}"
+                break
         except Exception as e:
             error_msg = str(e)
             time.sleep(2)
@@ -162,7 +162,7 @@ def main():
         
         for task in tasks:
             task_dict = {} 
-            for sort_type in ["lastModified", "createdAt"]:
+            for sort_type in["lastModified", "createdAt"]:
                 try:
                     url = f"https://huggingface.co/api/models?pipeline_tag={task}&sort={sort_type}&limit=50"
                     models = requests.get(url, timeout=15).json()
@@ -208,21 +208,23 @@ def main():
                         m_data["is_top_3"] = False
                         m_data["summary"] = generate_ai_content(m_data["id"], mode="brief")
                     
-                    # 强力保护自定义 API 接口并发限制
-                    time.sleep(3)
+                    # 强力保护 Gemini 免费并发限制 (15次/分钟)
+                    time.sleep(4.5)
                         
                 category_data[task] = task_models_list
                 category_total_updates += len(task_models_list)
                 total_models_all += len(task_models_list)
 
         # ---------------------------------------------------------
-        # 构建当前大类的纯净无缝隙 HTML
+        # 构建当前大类的纯净无缝隙 HTML (微信排版优化版)
         # ---------------------------------------------------------
         if category_total_updates > 0:
             cat_title = category_name.replace("_", " ")
             html_lines =[
-                '<section style="max-width: 677px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif; color: #333; line-height: 1.6; padding: 0; box-sizing: border-box; overflow-x: hidden; width: 100%;">',
+                # 微信公众号最外层容器（已移除 max-width 和 margin:0 auto，纯净 100% 满宽铺场）
+                '<section style="font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif; color: #333; line-height: 1.6; padding: 0; margin: 0; box-sizing: border-box; overflow-x: hidden; width: 100%;">',
                 
+                # 顶部图片组（无缝拼接）
                 '<section style="margin: 0; padding: 0; line-height: 0;">',
                 '<img src="https://mmbiz.qpic.cn/mmbiz_png/qHfXxy1pes10fIch7kKDnTcV7tJMdWticbFaZx6aXXLjxHFsQWCWr3TyiaVY11COWfF8yJnIQiasxfWKQ4dYAAvyFYZET5bT9PXJnuKzjVjEgM/640?wx_fmt=png" style="width: 100%; display: block; margin: 0; padding: 0; border: none;">',
                 '</section>',
@@ -280,7 +282,7 @@ def main():
                         if i == len(models_list) - 1:
                             html_lines.append('</section>')
             
-            # 将提示移到图片上方，保证最后一张图彻底压在最底边
+            # 底部收尾图片
             html_lines.extend([
                 '<section style="text-align: center; font-size: 12px; color: #bbb; margin: 30px 0; padding: 20px 15px; border-top: 1px solid #eee;">本文由 AI 自动聚合追踪，数据源自 HuggingFace</section>',
                 '<section style="margin: 0; padding: 0; line-height: 0;">',
@@ -298,7 +300,7 @@ def main():
             }
 
     # ===============================================
-    # 💾 最后：把所有数据汇总保存到一个唯一的 JSON 文件里
+    # 💾 把所有数据汇总保存到一个唯一的 JSON 文件里
     # ===============================================
     final_output_data["total_updates"] = total_models_all
     
