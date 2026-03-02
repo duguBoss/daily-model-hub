@@ -7,7 +7,7 @@ import time
 
 # 获取 Gemini API Key 和 Github Repo
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "duguBoss/daily-model-hub")
+GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "your-username/your-repo")
 
 CATEGORIES = {
     "Multimodal":["audio-text-to-text", "image-text-to-text", "image-text-to-image", "image-text-to-video", "visual-question-answering", "document-question-answering", "video-text-to-text", "visual-document-retrieval", "any-to-any"],
@@ -22,9 +22,9 @@ CATEGORIES = {
 def download_icon(model_id, today_str):
     """抓取 og:image 并下载保存为图床"""
     default_icon = "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
-    icon_url = default_icon
     try:
         r = requests.get(f"https://huggingface.co/{model_id}", timeout=10)
+        icon_url = default_icon
         if r.status_code == 200:
             match = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', r.text)
             if match: icon_url = match.group(1)
@@ -42,61 +42,75 @@ def download_icon(model_id, today_str):
             with open(filepath, "wb") as f:
                 f.write(img_r.content)
             return f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{today_str}/icons/{filename}"
-    except Exception:
+    except:
         pass
-    return icon_url
+    return default_icon
 
-def generate_summary_with_ai(model_id):
-    """使用 Gemini API 进行模型精读摘要"""
-    if not GEMINI_API_KEY:
-        return "⚠️ 未配置 GEMINI_API_KEY，跳过摘要。"
-        
-    try:
-        jina_url = f"https://r.jina.ai/https://huggingface.co/{model_id}"
-        jina_r = requests.get(jina_url, timeout=20)
-        content = jina_r.text[:8000] # 截取前 8000 字
-        
-        prompt = (
-            "请作为一名专业的AI算法工程师，总结以下HuggingFace模型的介绍。\n"
-            "重点提取其：1.核心功能 2.主要参数/架构 3.效果表现/适用场景。\n"
-            "字数严格控制在200字左右，语言生动、具有吸引力，让用户看完有想体验的冲动。\n"
-            "直接输出中文总结正文，不要包含废话。\n\n"
-            f"网页内容：\n{content}"
-        )
-        
-        gemini_endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
-        payload = {"contents":[{"parts":[{"text": prompt}]}]}
-        headers = {"Content-Type": "application/json"}
-        
-        gem_r = requests.post(gemini_endpoint, json=payload, headers=headers, timeout=30)
-        if gem_r.status_code == 200:
-            result = gem_r.json()
-            summary = result.get("candidates", [{}])[0].get("content", {}).get("parts",[{}])[0].get("text", "")
-            return summary.strip()
-        else:
-            return f"❌ AI总结失败 (HTTP {gem_r.status_code})"
-    except Exception as e:
-        return f"获取详情发生异常: {e}"
-
-def get_basic_snippet(model_id):
-    """降级模式：正则提取 README 第一段"""
+def get_raw_readme(model_id):
+    """直接拉取原始 Markdown 文件，避免第三方接口导致 404"""
     url = f"https://huggingface.co/{model_id}/raw/main/README.md"
     try:
         r = requests.get(url, timeout=10)
         if r.status_code == 200:
-            lines = r.text.split('\n')
-            if lines and lines[0].strip() == '---':
-                try: lines = lines[lines.index('---', 1)+1:]
-                except ValueError: pass
-            snippet = ""
-            for line in lines:
-                line = line.strip()
-                if line and not re.match(r'^(#|!\[|<|>|\||-)', line):
-                    snippet += line + " "
-                    if len(snippet) > 120: break
-            if snippet: return snippet.strip()[:120] + "..."
-    except: pass
-    return "该模型暂无详细介绍。"
+            text = r.text
+            if text.startswith('---'):
+                parts = text.split('---', 2)
+                if len(parts) >= 3:
+                    text = parts[2]
+            return text[:4000] # 截取前 4000 字符交给 Gemini
+    except:
+        pass
+    return "该模型作者暂未提供任何 README 介绍文档。"
+
+def generate_ai_content(model_id, mode="detailed"):
+    """使用 Gemini 对模型进行纯中文分析"""
+    if not GEMINI_API_KEY:
+        return "⚠️ 未配置 API Key。"
+        
+    readme_content = get_raw_readme(model_id)
+    
+    if mode == "detailed":
+        prompt = (
+            f"请作为专业的AI算法工程师，对以下HuggingFace模型进行中文总结。\n"
+            f"要求：1.必须纯中文；2.提取核心功能、架构参数和适用场景；3.字数200字左右；"
+            f"4.语气生动，直接输出正文，禁止出现“摘要如下”等废话。\n\n"
+            f"模型内容：\n{readme_content}"
+        )
+    else:
+        prompt = (
+            f"请用一句纯中文概括以下HuggingFace模型的作用。\n"
+            f"要求：1.必须纯中文；2.字数限制在40字以内；3.直接输出，不加任何前缀。\n\n"
+            f"模型内容：\n{readme_content}"
+        )
+        
+    gemini_endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    payload = {"contents":[{"parts":[{"text": prompt}]}]}
+    headers = {"Content-Type": "application/json"}
+    
+    for _ in range(3):
+        try:
+            r = requests.post(gemini_endpoint, json=payload, headers=headers, timeout=20)
+            if r.status_code == 200:
+                return r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+            elif r.status_code == 429: # 请求过快
+                time.sleep(5)
+            else:
+                break
+        except:
+            time.sleep(2)
+            
+    if "暂未提供" in readme_content:
+        return "作者暂未提供该模型的详细说明文档，建议前往主页查看文件。"
+    return "这是一个强大的 AI 模型，具体参数和适用场景请参考项目主页。"
+
+def compress_html(html_list):
+    """将 HTML 列表合并，并极限压缩为单行无空格字符串"""
+    raw_html = "".join(html_list)
+    # 替换所有的换行和回车
+    raw_html = raw_html.replace('\n', '').replace('\r', '')
+    # 将 HTML 标签之间多余的空格压缩 (如 >   < 变为 ><)
+    compressed_html = re.sub(r'>\s+<', '><', raw_html)
+    return compressed_html.strip()
 
 def main():
     today_date = datetime.datetime.now(datetime.timezone.utc).date()
@@ -104,11 +118,17 @@ def main():
     os.makedirs(today_str, exist_ok=True)
     
     total_models_all = 0
-    print(f"🚀 开始抓取 {today_str} 更新与创建的模型...\n")
+    # 存放最终写入单一 JSON 的全量数据字典
+    final_output_data = {
+        "date": today_str,
+        "total_updates": 0,
+        "categories": {}
+    }
+    
+    print(f"🚀 开始抓取 {today_str} 模型...\n")
 
     for category_name, tasks in CATEGORIES.items():
         print(f"📂 正在处理大类: {category_name}")
-        
         category_data = {}
         category_total_updates = 0
         
@@ -149,55 +169,43 @@ def main():
                 task_models_list.sort(key=lambda x: x.get("likes", 0), reverse=True)
                 task_models_list = task_models_list[:10] 
                 
-                print(f"   => 子类 [{task}] 发现 {len(task_models_list)} 个模型")
+                print(f"   => 子类 [{task}] 找到 {len(task_models_list)} 个模型")
                 
                 for idx, m_data in enumerate(task_models_list):
                     if idx < 3:
-                        m_data["is_ai_analyzed"] = True
+                        m_data["is_top_3"] = True
                         m_data["icon_url"] = download_icon(m_data["id"], today_str)
-                        m_data["summary"] = generate_summary_with_ai(m_data["id"])
-                        time.sleep(4) 
+                        m_data["summary"] = generate_ai_content(m_data["id"], mode="detailed")
                     else:
-                        m_data["is_ai_analyzed"] = False
-                        m_data["summary"] = get_basic_snippet(m_data["id"])
+                        m_data["is_top_3"] = False
+                        m_data["summary"] = generate_ai_content(m_data["id"], mode="brief")
+                    
+                    # 强力保护 Gemini 免费并发限制
+                    time.sleep(4.5)
                         
                 category_data[task] = task_models_list
                 category_total_updates += len(task_models_list)
                 total_models_all += len(task_models_list)
 
         # ---------------------------------------------------------
-        # 📰 保存 JSON 与 微信极简 100% 宽 HTML
+        # 构建当前大类的纯净无缝隙 HTML
         # ---------------------------------------------------------
         if category_total_updates > 0:
-            json_filepath = os.path.join(today_str, f"{category_name}.json")
-            with open(json_filepath, "w", encoding="utf-8") as f:
-                json.dump({
-                    "date": today_str, 
-                    "category": category_name, 
-                    "total_updates": category_total_updates, 
-                    "subcategories": category_data
-                }, f, ensure_ascii=False, indent=4)
-                
             cat_title = category_name.replace("_", " ")
             html_lines =[
-                # 微信公众号最外层容器（严格去除 padding，使得内部元素可以 100% 贴边）
                 '<section style="max-width: 677px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif; color: #333; line-height: 1.6; padding: 0; box-sizing: border-box; overflow-x: hidden; width: 100%;">',
                 
-                # 🖼️ 插入指定的顶部图片（line-height:0 消灭上下缝隙，width:100% 占满全屏）
                 '<section style="margin: 0; padding: 0; line-height: 0;">',
                 '<img src="https://mmbiz.qpic.cn/mmbiz_png/qHfXxy1pes10fIch7kKDnTcV7tJMdWticbFaZx6aXXLjxHFsQWCWr3TyiaVY11COWfF8yJnIQiasxfWKQ4dYAAvyFYZET5bT9PXJnuKzjVjEgM/640?wx_fmt=png" style="width: 100%; display: block; margin: 0; padding: 0; border: none;">',
-                '<img src="https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif" style="width: 100%; display: block; margin: 0; padding: 0; border: none;">',
                 '</section>',
                 
-                # 大标题区域 (给内部文字留边距，但容器本身 0 margin)
                 '<section style="text-align: center; margin: 25px 0 25px 0; padding: 0 15px;">',
-                f'<section style="font-size: 22px; font-weight: bold; color: #2c3e50; margin-bottom: 5px;">🤖 {cat_title} 每日风云榜</section>',
-                f'<section style="font-size: 14px; color: #888;">📅 {today_str} | 该领域今日共计追踪 {category_total_updates} 款模型</section>',
+                f'<section style="font-size: 22px; font-weight: bold; color: #2c3e50; margin-bottom: 5px;">🤖 {cat_title} 更新风云榜</section>',
+                f'<section style="font-size: 14px; color: #888;">📅 {today_str} | 该领域今日共收录 {category_total_updates} 款精选模型</section>',
                 '</section>'
             ]
             
             for task_name, models_list in category_data.items():
-                # 子类标题 (同样是全屏宽度的设计，只控制左边框)
                 html_lines.append(f'''
                 <section style="margin: 30px 0 20px 0; border-left: 5px solid #0052d9; background-color: #f4f8fe; padding: 12px 15px; box-sizing: border-box; width: 100%;">
                     <strong style="font-size: 17px; color: #0052d9;">📌 {task_name}</strong> 
@@ -206,8 +214,7 @@ def main():
                 ''')
                 
                 for i, m in enumerate(models_list):
-                    if m["is_ai_analyzed"]:
-                        # 👑 前 3 名精读卡片 (取消左右圆角，上下加上轻微边框线，实现完美的满宽视觉)
+                    if m["is_top_3"]:
                         html_lines.append(f'''
                         <section style="margin: 0 0 20px 0; border-top: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea; padding: 18px 15px; background-color: #ffffff; box-sizing: border-box; width: 100%;">
                             <section style="margin-bottom: 12px;">
@@ -223,18 +230,16 @@ def main():
                             </section>
                             <section style="clear: both;"></section>
                             <section style="padding: 12px; background-color: #fff9f5; border-radius: 6px; font-size: 15px; color: #444; border-left: 3px solid #ff9900; line-height: 1.7;">
-                                <strong style="color: #d35400;">💡 AI 总结：</strong>{m['summary']}
+                                <strong style="color: #d35400;">💡 AI 解析：</strong>{m['summary']}
                             </section>
                         </section>
                         ''')
                     else:
-                        # 💡 第 4 到 10 名列表 (采用通栏背景)
                         if i == 3:
                             html_lines.append('<section style="margin: 0 0 20px 0; padding: 18px 15px; background-color: #fafafa; border-top: 1px dashed #ddd; border-bottom: 1px dashed #ddd; box-sizing: border-box; width: 100%;">')
-                            html_lines.append('<section style="font-size: 15px; font-weight: bold; margin-bottom: 15px; color: #555;">🔹 其他潜力模型直达</section>')
+                            html_lines.append('<section style="font-size: 15px; font-weight: bold; margin-bottom: 15px; color: #555;">🔹 其他热门模型直达</section>')
                         
                         border_style = "border-bottom: 1px solid #eee; padding-bottom: 12px;" if i < len(models_list)-1 else "border-bottom: none; padding-bottom: 0;"
-                        
                         html_lines.append(f'''
                         <section style="margin-bottom: 12px; {border_style}">
                             <section style="font-size: 15px; margin-bottom: 6px;">
@@ -244,20 +249,39 @@ def main():
                             <section style="font-size: 14px; color: #666; line-height: 1.6;">{m['summary']}</section>
                         </section>
                         ''')
-                        
                         if i == len(models_list) - 1:
                             html_lines.append('</section>')
             
-            html_lines.append('<section style="text-align: center; font-size: 12px; color: #bbb; margin: 30px 0; padding: 20px 15px; border-top: 1px solid #eee;">本文由 AI 自动聚合追踪，数据源自 HuggingFace</section>')
-            html_lines.append('</section>')
+            html_lines.extend([
+                '<section style="margin: 20px 0 0 0; padding: 0; line-height: 0;">',
+                '<img src="https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif" style="width: 100%; display: block; margin: 0; padding: 0; border: none;">',
+                '</section>',
+                '</section>'
+            ])
             
-            html_filepath = os.path.join(today_str, f"{category_name}.html")
-            with open(html_filepath, "w", encoding="utf-8") as f:
-                f.write("\n".join(html_lines))
-                
-            print(f"   📰 已生成专属 HTML 报告: {html_filepath}")
+            # 将 HTML 列表压缩为没有回车空格的单行字符串
+            compressed_html = compress_html(html_lines)
+            
+            # 存入大 JSON 字典
+            final_output_data["categories"][category_name] = {
+                "total": category_total_updates,
+                "html_content": compressed_html,
+                "subcategories": category_data
+            }
 
-    print(f"\n🎉 全部抓取结束！今日全网总计追踪 {total_models_all} 个模型。")
+    # ===============================================
+    # 💾 最后：把所有数据汇总保存到一个唯一的 JSON 文件里
+    # ===============================================
+    final_output_data["total_updates"] = total_models_all
+    
+    if total_models_all > 0:
+        json_filepath = os.path.join(today_str, f"{today_str}_summary.json")
+        with open(json_filepath, "w", encoding="utf-8") as f:
+            # indent=4 保证 JSON 文件本身的结构清晰（HTML 字符串已压缩为一行，位于 html_content 字段）
+            json.dump(final_output_data, f, ensure_ascii=False, indent=4)
+        print(f"\n🎉 完美收工！共计 {total_models_all} 个模型。所有数据和单行 HTML 已聚合保存至: {json_filepath}")
+    else:
+        print("\n📭 今日暂无任何模型更新。")
 
 if __name__ == "__main__":
     main()
