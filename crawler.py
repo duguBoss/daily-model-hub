@@ -7,7 +7,7 @@ import time
 
 # 获取 Gemini API Key 和 Github Repo
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "your-username/your-repo")
+GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "duguBoss/daily-model-hub")
 
 CATEGORIES = {
     "Multimodal":["audio-text-to-text", "image-text-to-text", "image-text-to-image", "image-text-to-video", "visual-question-answering", "document-question-answering", "video-text-to-text", "visual-document-retrieval", "any-to-any"],
