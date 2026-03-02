@@ -80,7 +80,7 @@ def get_raw_readme(model_id):
     return "未找到 README.md，该模型作者可能未提供详情文件。"
 
 def generate_ai_content(model_id, mode="detailed"):
-    """使用 Gemini 原生接口对模型进行纯中文分析"""
+    """使用 Gemini 3 原生接口对模型进行纯中文分析"""
     if not GEMINI_API_KEY:
         return "⚠️ 未配置 GEMINI_API_KEY。"
         
@@ -107,7 +107,8 @@ def generate_ai_content(model_id, mode="detailed"):
             f"模型内容：\n{readme_content}"
         )
         
-    gemini_endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    # 🚀 替换为 gemini-3-flash-preview 模型接口
+    gemini_endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key={GEMINI_API_KEY}"
     payload = {"contents":[{"parts":[{"text": prompt}]}]}
     headers = {"Content-Type": "application/json"}
     
@@ -208,7 +209,7 @@ def main():
                         m_data["is_top_3"] = False
                         m_data["summary"] = generate_ai_content(m_data["id"], mode="brief")
                     
-                    # 强力保护 Gemini 免费并发限制 (15次/分钟)
+                    # 强力保护 Gemini 免费并发限制
                     time.sleep(4.5)
                         
                 category_data[task] = task_models_list
@@ -216,12 +217,12 @@ def main():
                 total_models_all += len(task_models_list)
 
         # ---------------------------------------------------------
-        # 构建当前大类的纯净无缝隙 HTML (微信排版优化版)
+        # 构建当前大类的纯净无缝隙 HTML (微信排版优化版，无 max-width 满宽)
         # ---------------------------------------------------------
         if category_total_updates > 0:
             cat_title = category_name.replace("_", " ")
             html_lines =[
-                # 微信公众号最外层容器（已移除 max-width 和 margin:0 auto，纯净 100% 满宽铺场）
+                # 【修改点】去掉了 max-width 和 margin: 0 auto，只保留 100% width，完全贴合屏幕边缘
                 '<section style="font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif; color: #333; line-height: 1.6; padding: 0; margin: 0; box-sizing: border-box; overflow-x: hidden; width: 100%;">',
                 
                 # 顶部图片组（无缝拼接）
