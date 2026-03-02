@@ -18,7 +18,7 @@ client = OpenAI(
     base_url="http://43.160.201.19:3000/v1"
 )
 # 指定请求的模型名称
-AI_MODEL_NAME = "gpt-3.5-codex"
+AI_MODEL_NAME = "gpt-5.3-codex"
 
 CATEGORIES = {
     "Multimodal":["audio-text-to-text", "image-text-to-text", "image-text-to-image", "image-text-to-video", "visual-question-answering", "document-question-answering", "video-text-to-text", "visual-document-retrieval", "any-to-any"],
