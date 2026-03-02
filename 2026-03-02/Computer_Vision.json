@@ -1,0 +1,178 @@
+{
+    "date": "2026-03-02",
+    "category": "Computer_Vision",
+    "total": 17,
+    "ai_summarized_count": 10,
+    "models": [
+        {
+            "id": "lodestones/Zeta-Chroma",
+            "url": "https://huggingface.co/lodestones/Zeta-Chroma",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 129,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/lodestones_Zeta-Chroma.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "artificialguybr/POSTER-REDMOND-ZIMAGE",
+            "url": "https://huggingface.co/artificialguybr/POSTER-REDMOND-ZIMAGE",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_POSTER-REDMOND-ZIMAGE.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "artificialguybr/POSTER-REDMOND-FLUXKLEIN",
+            "url": "https://huggingface.co/artificialguybr/POSTER-REDMOND-FLUXKLEIN",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_POSTER-REDMOND-FLUXKLEIN.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "artificialguybr/PHONECASECOVER-REDMOND-ZIMAGE",
+            "url": "https://huggingface.co/artificialguybr/PHONECASECOVER-REDMOND-ZIMAGE",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_PHONECASECOVER-REDMOND-ZIMAGE.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "artificialguybr/PHONECASECOVER-REDMOND-QWENIMAGE",
+            "url": "https://huggingface.co/artificialguybr/PHONECASECOVER-REDMOND-QWENIMAGE",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_PHONECASECOVER-REDMOND-QWENIMAGE.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "artificialguybr/PHONECASECOVER-REDMOND-FLUXKLEIN",
+            "url": "https://huggingface.co/artificialguybr/PHONECASECOVER-REDMOND-FLUXKLEIN",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_PHONECASECOVER-REDMOND-FLUXKLEIN.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "artificialguybr/MOCKUPS-REDMOND-ZIMAGE",
+            "url": "https://huggingface.co/artificialguybr/MOCKUPS-REDMOND-ZIMAGE",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_MOCKUPS-REDMOND-ZIMAGE.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "artificialguybr/MOCKUPS-REDMOND-QWENIMAGE",
+            "url": "https://huggingface.co/artificialguybr/MOCKUPS-REDMOND-QWENIMAGE",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_MOCKUPS-REDMOND-QWENIMAGE.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "artificialguybr/MOCKUPS-REDMOND-FLUXKLEIN",
+            "url": "https://huggingface.co/artificialguybr/MOCKUPS-REDMOND-FLUXKLEIN",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_MOCKUPS-REDMOND-FLUXKLEIN.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "artificialguybr/DIGITALASSET-REDMOND-ZIMAGE",
+            "url": "https://huggingface.co/artificialguybr/DIGITALASSET-REDMOND-ZIMAGE",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_DIGITALASSET-REDMOND-ZIMAGE.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "artificialguybr/DIGITALASSET-REDMOND-QWENIMAGE",
+            "url": "https://huggingface.co/artificialguybr/DIGITALASSET-REDMOND-QWENIMAGE",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_DIGITALASSET-REDMOND-QWENIMAGE.png",
+            "summary": "[基础提取] I&#39;m grateful for the GPU time from [Redmond.AI](https:&#x2F;&#x2F;redmond.ai&#x2F;) that allowed me to make this model! This LoRA was trained on D..."
+        },
+        {
+            "id": "artificialguybr/DIGITALASSET-REDMOND-FLUXKLEIN",
+            "url": "https://huggingface.co/artificialguybr/DIGITALASSET-REDMOND-FLUXKLEIN",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 1,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_DIGITALASSET-REDMOND-FLUXKLEIN.png",
+            "summary": "[基础提取] I&#39;m grateful for the GPU time from [Redmond.AI](https:&#x2F;&#x2F;redmond.ai&#x2F;) that allowed me to make this model! This LoRA was trained on D..."
+        },
+        {
+            "id": "pruna-test/test-save-tiny-stable-diffusion-pipe-smashed",
+            "url": "https://huggingface.co/pruna-test/test-save-tiny-stable-diffusion-pipe-smashed",
+            "task": "text-to-image",
+            "downloads": 120,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/pruna-test_test-save-tiny-stable-diffusion-pipe-smashed.png",
+            "summary": "[基础提取] This model was created using the [pruna](https://github.com/PrunaAI/pruna) library. Pruna is a model optimization framework built for developers, enab..."
+        },
+        {
+            "id": "AxelTav/sofi-lora",
+            "url": "https://huggingface.co/AxelTav/sofi-lora",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/AxelTav_sofi-lora.png",
+            "summary": "[基础提取] You should use `Sofi` to trigger the image generation. [Download](/AxelTav/sofi-lora/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "Dollafiddy/Swen_Cavanni_ZITTurbo_64_Update",
+            "url": "https://huggingface.co/Dollafiddy/Swen_Cavanni_ZITTurbo_64_Update",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Dollafiddy_Swen_Cavanni_ZITTurbo_64_Update.png",
+            "summary": "[基础提取] [Download](/Dollafiddy/Swen_Cavanni_ZITTurbo_64_Update/tree/main) them in the Files & versions tab...."
+        },
+        {
+            "id": "artificialguybr/POSTER-REDMOND-QWENIMAGE",
+            "url": "https://huggingface.co/artificialguybr/POSTER-REDMOND-QWENIMAGE",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/artificialguybr_POSTER-REDMOND-QWENIMAGE.png",
+            "summary": "[基础提取] I&#39;m grateful for the GPU time from [Redmond.AI](https:&#x2F;&#x2F;redmond.ai&#x2F;) that allowed me to make this model! This LoRA was trained on P..."
+        },
+        {
+            "id": "Dollafiddy/Swen_Cavanni_ZITTurbo_64",
+            "url": "https://huggingface.co/Dollafiddy/Swen_Cavanni_ZITTurbo_64",
+            "task": "text-to-image",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Dollafiddy_Swen_Cavanni_ZITTurbo_64.png",
+            "summary": "[基础提取] [Download](/Dollafiddy/Swen_Cavanni_ZITTurbo_64/tree/main) them in the Files & versions tab...."
+        }
+    ]
+}

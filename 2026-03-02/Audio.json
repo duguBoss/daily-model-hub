@@ -1,0 +1,168 @@
+{
+    "date": "2026-03-02",
+    "category": "Audio",
+    "total": 16,
+    "ai_summarized_count": 10,
+    "models": [
+        {
+            "id": "sxndypz/rvc-v2-models",
+            "url": "https://huggingface.co/sxndypz/rvc-v2-models",
+            "task": "audio-to-audio",
+            "downloads": 0,
+            "likes": 33,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/sxndypz_rvc-v2-models.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "aitytech/Whisper-Base-MLX-FP16",
+            "url": "https://huggingface.co/aitytech/Whisper-Base-MLX-FP16",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/aitytech_Whisper-Base-MLX-FP16.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "dvm14/whisper-small-sd",
+            "url": "https://huggingface.co/dvm14/whisper-small-sd",
+            "task": "automatic-speech-recognition",
+            "downloads": 44,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/dvm14_whisper-small-sd.png",
+            "summary": "获取详情或总结时发生异常: HTTPSConnectionPool(host='r.jina.ai', port=443): Read timed out. (read timeout=20)"
+        },
+        {
+            "id": "aitytech/Whisper-Tiny-MLX-FP16",
+            "url": "https://huggingface.co/aitytech/Whisper-Tiny-MLX-FP16",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/aitytech_Whisper-Tiny-MLX-FP16.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-koo",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-koo",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/vitthalbhandari_xlsr-1b-aft-all-koo.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "aitytech/Whisper-Small-MLX-FP16",
+            "url": "https://huggingface.co/aitytech/Whisper-Small-MLX-FP16",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/aitytech_Whisper-Small-MLX-FP16.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "aitytech/Whisper-Medium-MLX-FP16",
+            "url": "https://huggingface.co/aitytech/Whisper-Medium-MLX-FP16",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/aitytech_Whisper-Medium-MLX-FP16.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "aitytech/Whisper-Large-V3-Turbo-MLX-FP16",
+            "url": "https://huggingface.co/aitytech/Whisper-Large-V3-Turbo-MLX-FP16",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/aitytech_Whisper-Large-V3-Turbo-MLX-FP16.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "aitytech/Parakeet-TDT-0.6B-v3-MLX-FP16",
+            "url": "https://huggingface.co/aitytech/Parakeet-TDT-0.6B-v3-MLX-FP16",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/aitytech_Parakeet-TDT-0.6B-v3-MLX-FP16.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "deepdml/whisper-small-ar-mix-norm",
+            "url": "https://huggingface.co/deepdml/whisper-small-ar-mix-norm",
+            "task": "automatic-speech-recognition",
+            "downloads": 99,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/deepdml_whisper-small-ar-mix-norm.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "Lokiwhity/telugu-whisper-v1",
+            "url": "https://huggingface.co/Lokiwhity/telugu-whisper-v1",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Lokiwhity_telugu-whisper-v1.png",
+            "summary": "[基础提取] This is the model card of a 🤗 transformers model that has been pushed on the Hub. This model card has been automatically generated. [More Information ..."
+        },
+        {
+            "id": "Eimhin03/irish-whisper-combined-data-no-aug",
+            "url": "https://huggingface.co/Eimhin03/irish-whisper-combined-data-no-aug",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/Eimhin03_irish-whisper-combined-data-no-aug.png",
+            "summary": "[基础提取] should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [openai/whisper-base](https://huggingfa..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-kcn",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-kcn",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/vitthalbhandari_xlsr-1b-aft-all-kcn.png",
+            "summary": "[基础提取] This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spon..."
+        },
+        {
+            "id": "ras0k/whisper-rap-queb-v4",
+            "url": "https://huggingface.co/ras0k/whisper-rap-queb-v4",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/ras0k_whisper-rap-queb-v4.png",
+            "summary": "[基础提取] should probably proofread and complete it, then remove this comment. --> This model is a fine-tuned version of [openai/whisper-large-v3](https://huggi..."
+        },
+        {
+            "id": "vitthalbhandari/xlsr-1b-aft-all-hch",
+            "url": "https://huggingface.co/vitthalbhandari/xlsr-1b-aft-all-hch",
+            "task": "automatic-speech-recognition",
+            "downloads": 0,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/vitthalbhandari_xlsr-1b-aft-all-hch.png",
+            "summary": "[基础提取] This model is a fine-tuned version of [facebook/wav2vec2-xls-r-1b](https://huggingface.co/facebook/wav2vec2-xls-r-1b) on the Mozilla Common Voice Spon..."
+        },
+        {
+            "id": "RASMUS/Finnish-ASR-Canary-v2",
+            "url": "https://huggingface.co/RASMUS/Finnish-ASR-Canary-v2",
+            "task": "automatic-speech-recognition",
+            "downloads": 973,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/RASMUS_Finnish-ASR-Canary-v2.png",
+            "summary": "[基础提取] A high-performance fine-tuned version of NVIDIA's **Canary-v2** (1B parameter) model, specifically optimized for the Finnish language. This project pr..."
+        }
+    ]
+}

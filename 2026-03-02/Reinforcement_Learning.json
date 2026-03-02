@@ -1,0 +1,58 @@
+{
+    "date": "2026-03-02",
+    "category": "Reinforcement_Learning",
+    "total": 5,
+    "ai_summarized_count": 5,
+    "models": [
+        {
+            "id": "DravenALG/VLANeXt",
+            "url": "https://huggingface.co/DravenALG/VLANeXt",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 4,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/DravenALG_VLANeXt.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "DocPereira/PEAL_V4_LHP_Zero_Entropy_Controlled",
+            "url": "https://huggingface.co/DocPereira/PEAL_V4_LHP_Zero_Entropy_Controlled",
+            "task": "reinforcement-learning",
+            "downloads": 405,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/DocPereira_PEAL_V4_LHP_Zero_Entropy_Controlled.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "primordial-spork/lerobot_act_check_groceries",
+            "url": "https://huggingface.co/primordial-spork/lerobot_act_check_groceries",
+            "task": "robotics",
+            "downloads": 25,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/primordial-spork_lerobot_act_check_groceries.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "primordial-spork/lerobot_act_move_cube",
+            "url": "https://huggingface.co/primordial-spork/lerobot_act_move_cube",
+            "task": "robotics",
+            "downloads": 51,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/primordial-spork_lerobot_act_move_cube.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "arclabmit/xarm7_beavrsim_mact_vq_shell_game_model",
+            "url": "https://huggingface.co/arclabmit/xarm7_beavrsim_mact_vq_shell_game_model",
+            "task": "robotics",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/arclabmit_xarm7_beavrsim_mact_vq_shell_game_model.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        }
+    ]
+}

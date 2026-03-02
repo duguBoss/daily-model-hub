@@ -1,0 +1,48 @@
+{
+    "date": "2026-03-02",
+    "category": "Multimodal",
+    "total": 4,
+    "ai_summarized_count": 4,
+    "models": [
+        {
+            "id": "rinabuoy/nanoVLM",
+            "url": "https://huggingface.co/rinabuoy/nanoVLM",
+            "task": "image-text-to-text",
+            "downloads": 262,
+            "likes": 2,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/rinabuoy_nanoVLM.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "kavinh07/nid-ocr-vit-mbart50",
+            "url": "https://huggingface.co/kavinh07/nid-ocr-vit-mbart50",
+            "task": "image-text-to-text",
+            "downloads": 666,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/kavinh07_nid-ocr-vit-mbart50.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "tomlawrence/NVIDIA-Nemotron-Nano-12B-v2-VL-Q4_0-GGUF",
+            "url": "https://huggingface.co/tomlawrence/NVIDIA-Nemotron-Nano-12B-v2-VL-Q4_0-GGUF",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "status": "New & Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/tomlawrence_NVIDIA-Nemotron-Nano-12B-v2-VL-Q4_0-GGUF.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        },
+        {
+            "id": "vocaela/KV-Ground-8B-BaseGuiOwl1.5",
+            "url": "https://huggingface.co/vocaela/KV-Ground-8B-BaseGuiOwl1.5",
+            "task": "image-text-to-text",
+            "downloads": 0,
+            "likes": 0,
+            "status": "Updated",
+            "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-02/icons/vocaela_KV-Ground-8B-BaseGuiOwl1.5.png",
+            "summary": "❌ AI 总结失败 (HTTP 404): {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version"
+        }
+    ]
+}
