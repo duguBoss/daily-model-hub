@@ -1,0 +1,42 @@
+{
+    "date": "2026-03-03",
+    "total_updates": 3,
+    "categories": {
+        "Test_Vision": {
+            "total": 3,
+            "html_content": "<section style=\"font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif; color: #333; line-height: 1.6; padding: 0; margin: 0; box-sizing: border-box; overflow-x: hidden; width: 100%;\"><section style=\"margin: 0; padding: 0; line-height: 0;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_png/qHfXxy1pes10fIch7kKDnTcV7tJMdWticbFaZx6aXXLjxHFsQWCWr3TyiaVY11COWfF8yJnIQiasxfWKQ4dYAAvyFYZET5bT9PXJnuKzjVjEgM/640?wx_fmt=png\" style=\"width: 100%; display: block; margin: 0; padding: 0; border: none;\"></section><section style=\"text-align: center; margin: 25px 0; padding: 0 15px;\"><section style=\"font-size: 22px; font-weight: bold; color: #2c3e50; margin-bottom: 5px;\">🤖 Test_Vision 测试排版</section><section style=\"font-size: 14px; color: #888;\">📅 2026-03-03 | 测试模型数量：3</section></section><section style=\"margin: 30px 0 20px 0; border-left: 5px solid #0052d9; background-color: #f4f8fe; padding: 12px 15px; box-sizing: border-box; width: 100%;\"><strong style=\"font-size: 17px; color: #0052d9;\">📌 text-to-image (测试)</strong></section><section style=\"margin: 0 0 20px 0; border-top: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea; padding: 18px 15px; background-color: #ffffff; box-sizing: border-box; width: 100%;\"><section style=\"margin-bottom: 12px;\"><strong style=\"font-size: 16px; color: #e96900;\">🏅 Top 1: lodestones/Zeta-Chroma</strong><span style=\"font-size: 12px; color: #fff; background-color: #e96900; padding: 2px 6px; border-radius: 4px; margin-left: 8px;\">🔄 测试更新</span></section><section style=\"overflow: hidden; margin-bottom: 15px;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-03/icons/test_lodestones_Zeta-Chroma.png\" style=\"width: 50px; height: 50px; border-radius: 8px; float: left; margin-right: 12px; object-fit: cover; border: 1px solid #eee;\"><section style=\"font-size: 14px; color: #555;\">📥 <strong>0</strong> 下载 | ❤️ <strong>132</strong> 点赞</section></section><section style=\"clear: both;\"></section><section style=\"padding: 12px; background-color: #fff9f5; border-radius: 6px; font-size: 15px; color: #444; border-left: 3px solid #ff9900; line-height: 1.7;\"><strong style=\"color: #d35400;\">💡 AI 解析：</strong>这款名为 **Zeta-Chroma** 的视觉生成模型，是专为追求极致像素精度的开发者打造的“硬核”工具。其核心采用了 **x0 预测架构**（base-x0），不同于传统的噪声残差预测，它直击像素原图，大幅提升了生成图像的结构稳定性。最硬核的设计在于引入了 **DINO 语义特征距离（pixel-dino-distance）**，利用视觉大模型的深层特征来约束空间布局，确保画面既有“骨架”又有“灵魂”。该模型针对 **ComfyUI** 生态进行了深度优化，通过简单的脚本转换即可无缝接入节点流。它非常适合对构图严苛、追求光影质感的高级绘图场景，是进行高精度重绘、风格迁移及复杂视觉实验的理想底座。对于想要在 AI 绘画中实现“像素级微操”的算法工程师和创作者来说，这绝对是不容错过的黑科技。                            </section></section><section style=\"margin: 0 0 20px 0; padding: 18px 15px; background-color: #fafafa; border-top: 1px dashed #ddd; border-bottom: 1px dashed #ddd; box-sizing: border-box; width: 100%;\"><section style=\"font-size: 15px; font-weight: bold; margin-bottom: 15px; color: #555;\">🔹 其他测试模型</section><section style=\"margin-bottom: 12px; border-bottom: 1px solid #eee; padding-bottom: 12px;\"><section style=\"font-size: 15px; margin-bottom: 6px;\"><strong style=\"color: #0052d9;\">peterfeltermuff/stable-diffusion-xl-1.0-tensorrt</strong><span style=\"font-size: 12px; color: #888;\">(❤️ 0)</span></section><section style=\"font-size: 14px; color: #666; line-height: 1.6;\">⚠️ AI 测试失败。报错: 请求异常: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=15)\"))</section></section><section style=\"margin-bottom: 12px; border-bottom: 1px solid #eee; padding-bottom: 12px;\"><section style=\"font-size: 15px; margin-bottom: 6px;\"><strong style=\"color: #0052d9;\">pruna-test/test-save-tiny-stable-diffusion-pipe-smashed-pro</strong><span style=\"font-size: 12px; color: #888;\">(❤️ 0)</span></section><section style=\"font-size: 14px; color: #666; line-height: 1.6;\">该模型是经优化框架压缩后的微型稳定扩散模型，用于实现高效的图像生成推理。</section></section></section><section style=\"text-align: center; font-size: 12px; color: #bbb; margin: 30px 0; padding: 20px 15px; border-top: 1px solid #eee;\">测试数据</section><section style=\"margin: 0; padding: 0; line-height: 0;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" style=\"width: 100%; display: block; margin: 0; padding: 0; border: none;\"></section></section>",
+            "subcategories": {
+                "text-to-image": [
+                    {
+                        "id": "lodestones/Zeta-Chroma",
+                        "url": "https://huggingface.co/lodestones/Zeta-Chroma",
+                        "downloads": 0,
+                        "likes": 132,
+                        "status": "🔄 测试更新",
+                        "is_top_3": true,
+                        "icon_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-03/icons/test_lodestones_Zeta-Chroma.png",
+                        "summary": "这款名为 **Zeta-Chroma** 的视觉生成模型，是专为追求极致像素精度的开发者打造的“硬核”工具。其核心采用了 **x0 预测架构**（base-x0），不同于传统的噪声残差预测，它直击像素原图，大幅提升了生成图像的结构稳定性。最硬核的设计在于引入了 **DINO 语义特征距离（pixel-dino-distance）**，利用视觉大模型的深层特征来约束空间布局，确保画面既有“骨架”又有“灵魂”。\n\n该模型针对 **ComfyUI** 生态进行了深度优化，通过简单的脚本转换即可无缝接入节点流。它非常适合对构图严苛、追求光影质感的高级绘图场景，是进行高精度重绘、风格迁移及复杂视觉实验的理想底座。对于想要在 AI 绘画中实现“像素级微操”的算法工程师和创作者来说，这绝对是不容错过的黑科技。"
+                    },
+                    {
+                        "id": "peterfeltermuff/stable-diffusion-xl-1.0-tensorrt",
+                        "url": "https://huggingface.co/peterfeltermuff/stable-diffusion-xl-1.0-tensorrt",
+                        "downloads": 0,
+                        "likes": 0,
+                        "status": "🔄 测试更新",
+                        "is_top_3": false,
+                        "summary": "⚠️ AI 测试失败。报错: 请求异常: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=15)\"))"
+                    },
+                    {
+                        "id": "pruna-test/test-save-tiny-stable-diffusion-pipe-smashed-pro",
+                        "url": "https://huggingface.co/pruna-test/test-save-tiny-stable-diffusion-pipe-smashed-pro",
+                        "downloads": 192,
+                        "likes": 0,
+                        "status": "🔄 测试更新",
+                        "is_top_3": false,
+                        "summary": "该模型是经优化框架压缩后的微型稳定扩散模型，用于实现高效的图像生成推理。"
+                    }
+                ]
+            }
+        }
+    }
+}
