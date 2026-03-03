@@ -80,7 +80,7 @@ def get_raw_readme(model_id):
     return "未找到 README.md，该模型作者可能未提供详情文件。"
 
 def generate_ai_content(model_id, mode="detailed"):
-    """使用 Gemini 3 原生接口对模型进行纯中文分析"""
+    """使用 Gemini 接口对模型进行纯中文分析"""
     if not GEMINI_API_KEY:
         return "⚠️ 未配置 GEMINI_API_KEY。"
         
@@ -107,10 +107,17 @@ def generate_ai_content(model_id, mode="detailed"):
             f"模型内容：\n{readme_content}"
         )
         
-    # 🚀 替换为 gemini-3-flash-preview 模型接口
-    gemini_endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key={GEMINI_API_KEY}"
-    payload = {"contents":[{"parts":[{"text": prompt}]}]}
-    headers = {"Content-Type": "application/json"}
+    # 🚀 完全对齐 curl 请求的标准写法：纯净 URL + Headers 鉴权
+    gemini_endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
+    payload = {
+        "contents": [{
+            "parts":[{"text": prompt}]
+        }]
+    }
+    headers = {
+        "Content-Type": "application/json",
+        "x-goog-api-key": GEMINI_API_KEY  # 在 Header 中传递密钥
+    }
     
     error_msg = ""
     # 失败重试 3 次，增加抗抖动能力
@@ -122,7 +129,7 @@ def generate_ai_content(model_id, mode="detailed"):
                 try:
                     return data["candidates"][0]["content"]["parts"][0]["text"].strip()
                 except KeyError:
-                    finish_reason = data.get("candidates", [{}])[0].get("finishReason", "Unknown")
+                    finish_reason = data.get("candidates",[{}])[0].get("finishReason", "Unknown")
                     return f"⚠️ 摘要被安全策略拦截 (原因: {finish_reason})。"
             elif r.status_code == 429: # 请求过快被限流
                 time.sleep(5)
@@ -179,7 +186,7 @@ def main():
                         if c_date == today_str:
                             is_today, tags = True, tags +["🆕 新增"]
                         if m_date == today_str:
-                            is_today, tags = True, tags + ["🔄 更新"]
+                            is_today, tags = True, tags +["🔄 更新"]
                             
                         if is_today:
                             if m_id not in task_dict:
@@ -198,7 +205,7 @@ def main():
                 task_models_list.sort(key=lambda x: x.get("likes", 0), reverse=True)
                 task_models_list = task_models_list[:10] 
                 
-                print(f"   => 子类 [{task}] 找到 {len(task_models_list)} 个模型")
+                print(f"   => 子类[{task}] 找到 {len(task_models_list)} 个模型")
                 
                 for idx, m_data in enumerate(task_models_list):
                     if idx < 3:
@@ -209,7 +216,7 @@ def main():
                         m_data["is_top_3"] = False
                         m_data["summary"] = generate_ai_content(m_data["id"], mode="brief")
                     
-                    # 强力保护 Gemini 免费并发限制
+                    # 强力保护 Gemini 免费并发限制 (15次/分钟)
                     time.sleep(4.5)
                         
                 category_data[task] = task_models_list
@@ -222,10 +229,8 @@ def main():
         if category_total_updates > 0:
             cat_title = category_name.replace("_", " ")
             html_lines =[
-                # 【修改点】去掉了 max-width 和 margin: 0 auto，只保留 100% width，完全贴合屏幕边缘
                 '<section style="font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif; color: #333; line-height: 1.6; padding: 0; margin: 0; box-sizing: border-box; overflow-x: hidden; width: 100%;">',
                 
-                # 顶部图片组（无缝拼接）
                 '<section style="margin: 0; padding: 0; line-height: 0;">',
                 '<img src="https://mmbiz.qpic.cn/mmbiz_png/qHfXxy1pes10fIch7kKDnTcV7tJMdWticbFaZx6aXXLjxHFsQWCWr3TyiaVY11COWfF8yJnIQiasxfWKQ4dYAAvyFYZET5bT9PXJnuKzjVjEgM/640?wx_fmt=png" style="width: 100%; display: block; margin: 0; padding: 0; border: none;">',
                 '</section>',
