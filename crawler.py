@@ -22,10 +22,10 @@ CATEGORIES = {
 }
 
 async def html_to_image(html_content, output_path):
-    """使用 Playwright 渲染高分辨率海报"""
     async with async_playwright() as p:
         browser = await p.chromium.launch()
-        context = await browser.new_context(viewport={'width': 500, 'height': 800}, device_scale_factor=2)
+        # 宽度 600px 适合双列展示
+        context = await browser.new_context(viewport={'width': 600, 'height': 1000}, device_scale_factor=2)
         page = await context.new_page()
         
         full_html = f"""
@@ -33,158 +33,175 @@ async def html_to_image(html_content, output_path):
         <html>
         <head>
             <style>
-                body {{ margin: 0; padding: 0; background: #050505; color: #fff; font-family: 'Inter', -apple-system, system-ui, sans-serif; }}
-                .poster {{ width: 100%; box-sizing: border-box; background: #050505; padding-bottom: 40px; }}
+                @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Inter:wght@800&display=swap');
+                body {{ margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Inter', sans-serif; }}
+                .poster {{ width: 100%; box-sizing: border-box; background: #000; padding-bottom: 50px; }}
                 
-                /* 头部设计 */
-                .header {{ padding: 40px 25px; background: linear-gradient(135deg, #1e40af 0%, #000 70%); border-bottom: 1px solid #333; }}
-                .tag {{ font-size: 11px; letter-spacing: 2px; color: #60a5fa; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; }}
-                .title {{ font-size: 32px; font-weight: 800; line-height: 1.1; margin-bottom: 15px; }}
-                .meta-bar {{ font-size: 12px; color: #888; font-family: monospace; display: flex; justify-content: space-between; }}
-                
-                /* 分类标题 */
-                .cat-badge {{ margin: 30px 20px 10px 20px; padding: 6px 15px; background: #2563eb; color: #fff; display: inline-block; border-radius: 4px; font-weight: bold; font-size: 14px; }}
-                
-                /* 任务组 */
-                .task-section {{ margin: 15px 20px; }}
-                .task-name {{ font-size: 12px; color: #555; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; border-bottom: 1px solid #222; padding-bottom: 4px; }}
-                
-                /* 模型卡片重构 */
-                .model-card {{ 
-                    background: #111; border: 1px solid #222; border-radius: 12px; padding: 15px; margin-bottom: 15px;
-                    display: flex; align-items: center; position: relative; overflow: hidden;
-                    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-                }}
-                .model-icon {{ width: 48px; height: 48px; border-radius: 10px; object-fit: cover; margin-right: 15px; background: #222; border: 1px solid #333; }}
-                
-                .model-body {{ flex: 1; min-width: 0; }}
-                .model-id {{ font-size: 15px; font-weight: 700; color: #eee; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
-                
-                .model-footer {{ display: flex; align-items: center; gap: 10px; }}
-                .badge {{ font-size: 9px; font-weight: 800; padding: 2px 6px; border-radius: 4px; color: #fff; }}
-                .badge-new {{ background: #10b981; }}
-                .badge-upd {{ background: #3b82f6; }}
-                .time {{ font-size: 11px; color: #555; font-family: monospace; }}
-                
-                .model-stats {{ text-align: right; margin-left: 10px; }}
-                .stat-val {{ display: block; font-size: 14px; font-weight: 800; color: #f59e0b; }}
-                .stat-lab {{ font-size: 9px; color: #444; text-transform: uppercase; }}
+                /* 头部 */
+                .header {{ padding: 40px 20px; background: linear-gradient(180deg, #1e3a8a 0%, #000 100%); border-bottom: 1px solid #222; text-align: left; }}
+                .tag {{ font-family: 'JetBrains Mono'; font-size: 10px; letter-spacing: 3px; color: #3b82f6; text-transform: uppercase; margin-bottom: 8px; }}
+                .title {{ font-size: 32px; font-weight: 800; line-height: 1.0; margin-bottom: 10px; }}
+                .meta {{ font-family: 'JetBrains Mono'; font-size: 11px; color: #555; }}
 
-                .footer-text {{ text-align: center; color: #333; font-size: 10px; margin-top: 50px; letter-spacing: 1px; }}
+                /* 分类条 */
+                .cat-header {{ margin: 30px 20px 15px 20px; border-left: 4px solid #3b82f6; padding-left: 12px; font-size: 16px; font-weight: 800; color: #fff; text-transform: uppercase; }}
+
+                /* 双列网格 */
+                .grid {{ 
+                    display: grid; 
+                    grid-template-columns: 1fr 1fr; 
+                    gap: 15px; 
+                    padding: 0 20px; 
+                }}
+
+                /* 模型卡片：纯图设计 */
+                .model-card {{ 
+                    position: relative; 
+                    background: #111; 
+                    border-radius: 6px; 
+                    overflow: hidden; 
+                    border: 1px solid #222;
+                    display: flex;
+                    flex-direction: column;
+                }}
+                .model-img {{ 
+                    width: 100%; 
+                    aspect-ratio: 2 / 1; 
+                    object-fit: cover; 
+                    display: block;
+                    background: #1a1a1a;
+                }}
+                
+                /* 覆盖在图片上的状态信息 */
+                .status-badge {{
+                    position: absolute; top: 8px; left: 8px;
+                    font-family: 'JetBrains Mono'; font-size: 9px; font-weight: bold;
+                    padding: 2px 6px; border-radius: 2px; color: #fff;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+                }}
+                .new {{ background: #059669; }}
+                .upd {{ background: #2563eb; }}
+
+                /* 底部数据条：极简对齐 */
+                .model-info {{ 
+                    padding: 8px 10px; 
+                    background: #0a0a0a;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                }}
+                .time-full {{ font-family: 'JetBrains Mono'; font-size: 9px; color: #444; }}
+                .stats {{ 
+                    display: flex; 
+                    justify-content: space-between; 
+                    align-items: center; 
+                    font-family: 'JetBrains Mono'; 
+                    font-size: 10px; 
+                    color: #f59e0b; 
+                    font-weight: bold;
+                }}
+                .model-id-tiny {{ font-size: 8px; color: #333; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px; }}
+
+                .footer {{ text-align: center; color: #222; font-family: 'JetBrains Mono'; font-size: 10px; margin-top: 60px; }}
             </style>
         </head>
         <body>
             <div class="poster">
                 {html_content}
-                <div class="footer-text">HUGGINGFACE REAL-TIME MONITORING SYSTEM</div>
+                <div class="footer">// HUGGINGFACE RADAR // END OF REPORT</div>
             </div>
         </body>
         </html>
         """
         await page.set_content(full_html)
-        await page.wait_for_timeout(1000)
+        await page.wait_for_timeout(2000) # 等待图片加载
         await page.screenshot(path=output_path, full_page=True)
         await browser.close()
 
-def compress_html(html_list):
-    raw_html = "".join(html_list).replace('\n', '').replace('\r', '').replace('\t', '')
-    return re.sub(r'>\s+<', '><', raw_html).strip()
+def format_full_time(iso_str):
+    try:
+        dt = datetime.datetime.fromisoformat(iso_str.replace('Z', '+00:00'))
+        return dt.strftime("%Y-%m-%d %H:%M:%S")
+    except:
+        return iso_str[:19].replace('T', ' ')
 
 async def run_main():
     now_utc = datetime.datetime.now(datetime.timezone.utc)
     today_str = now_utc.strftime("%Y-%m-%d")
     os.makedirs(today_str, exist_ok=True)
-    
     session = requests.Session()
     session.headers.update({"User-Agent": "Mozilla/5.0"})
     
-    final_output = {"date": today_str, "total_all": 0, "categories": {}}
+    final_output = {"date": today_str, "categories": {}}
 
     for category_name, tasks in CATEGORIES.items():
-        print(f"🎨 设计海报: {category_name}")
-        category_sub_data, category_total = {}, 0
+        print(f"🎨 正在排版: {category_name}")
+        all_models = []
         
         for task in tasks:
             try:
-                url = f"https://huggingface.co/api/models?pipeline_tag={task}&sort=lastModified&limit=15"
+                # 抓取列表
+                url = f"https://huggingface.co/api/models?pipeline_tag={task}&sort=lastModified&limit=10"
                 models = session.get(url, timeout=10).json()
-                task_list = []
                 for m in models:
-                    m_id = m.get("id")
-                    m_mod = m.get("lastModified", "")
-                    if m_mod[:10] == today_str or (m.get("createdAt") or "")[:10] == today_str:
+                    m_mod_full = m.get("lastModified", "")
+                    if m_mod_full[:10] == today_str or (m.get("createdAt") or "")[:10] == today_str:
                         status = "NEW" if (m.get("createdAt") or "")[:10] == today_str else "UPD"
-                        task_list.append({
-                            "id": m_id,
+                        all_models.append({
+                            "id": m.get("id"),
                             "likes": m.get("likes", 0),
-                            "downloads": m.get("downloads", 0),
                             "status": status,
-                            "time": m_mod.split('T')[1][:5],
-                            # 每一个模型都生成对应的 Logo 地址
-                            "icon": f"https://cdn-thumbnails.huggingface.co/social-thumbnails/models/{m_id}.png"
+                            "time_full": format_full_time(m_mod_full),
+                            "thumb": f"https://cdn-thumbnails.huggingface.co/social-thumbnails/models/{m['id']}.png"
                         })
-                if task_list:
-                    task_list.sort(key=lambda x: x['likes'], reverse=True)
-                    category_sub_data[task] = task_list
-                    category_total += len(task_list)
             except: pass
 
-        if category_total > 0:
-            # --- 纯内容 HTML 构建 (无首尾图) ---
-            html_parts = []
+        if all_models:
+            # 全大类按点赞排序
+            all_models.sort(key=lambda x: x['likes'], reverse=True)
             
-            # 1. 头部
+            html_parts = []
             html_parts.append(f'''
             <div class="header">
-                <div class="tag">AI Model Hub / Dashboard</div>
-                <div class="title">模型更新<br>趋势洞察</div>
-                <div class="meta-bar">
-                    <span>DATE: {today_str}</span>
-                    <span>TRACKED: {category_total} MODELS</span>
-                </div>
+                <div class="tag">HuggingFace Intelligence Radar</div>
+                <div class="title">{category_name.replace("_"," ")}<br>今日更新</div>
+                <div class="meta">PERIOD: {today_str} // TOTAL: {len(all_models)}</div>
             </div>
-            <div class="cat-badge">{category_name.upper().replace("_", " ")}</div>
+            <div class="cat-header">Trending Models</div>
+            <div class="grid">
             ''')
 
-            # 2. 任务区块
-            for t_name, m_list in category_sub_data.items():
-                html_parts.append(f'<div class="task-section"><div class="task-name">// {t_name}</div>')
-                for m in m_list:
-                    badge_cls = "badge-new" if m['status'] == "NEW" else "badge-upd"
-                    html_parts.append(f'''
-                    <div class="model-card">
-                        <img class="model-icon" src="{m['icon']}" onerror="this.src='https://huggingface.co/front/assets/huggingface_logo-noborder.svg'">
-                        <div class="model-body">
-                            <div class="model-id">{m['id']}</div>
-                            <div class="model-footer">
-                                <span class="badge {badge_cls}">{m['status']}</span>
-                                <span class="time">{m['time']} UPDATED</span>
-                            </div>
+            for m in all_models:
+                cls = "new" if m['status'] == "NEW" else "upd"
+                html_parts.append(f'''
+                <div class="model-card">
+                    <div class="status-badge {cls}">{m['status']}</div>
+                    <img class="model-img" src="{m['thumb']}" onerror="this.src='https://huggingface.co/front/assets/huggingface_logo-noborder.svg'">
+                    <div class="model-info">
+                        <div class="stats">
+                            <span>LIKES: {m['likes']}</span>
+                            <span style="color:#333;">#{all_models.index(m)+1}</span>
                         </div>
-                        <div class="model-stats">
-                            <span class="stat-val">{m['likes']}</span>
-                            <span class="stat-lab">LIKES</span>
-                        </div>
+                        <div class="time-full">{m['time_full']}</div>
+                        <div class="model-id-tiny">{m['id']}</div>
                     </div>
-                    ''')
-                html_parts.append('</div>')
+                </div>
+                ''')
+            
+            html_parts.append('</div>')
 
-            # 生成图片并保存
             img_filename = f"{category_name}.png"
             img_path = os.path.join(today_str, img_filename)
             await html_to_image("".join(html_parts), img_path)
             
             final_output["categories"][category_name] = {
                 "image_url": f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{today_str}/{img_filename}",
-                "total": category_total,
-                "html_compressed": compress_html(html_parts)
+                "count": len(all_models)
             }
-            final_output["total_all"] += category_total
 
-    if final_output["total_all"] > 0:
-        with open(os.path.join(today_str, "summary.json"), "w", encoding="utf-8") as f:
-            json.dump(final_output, f, ensure_ascii=False, indent=4)
-        print(f"\n✅ 高端海报版任务完成！")
+    with open(os.path.join(today_str, "summary.json"), "w", encoding="utf-8") as f:
+        json.dump(final_output, f, indent=4)
+    print(f"\n✅ 封面瀑布流海报已生成。")
 
 if __name__ == "__main__":
     asyncio.run(run_main())
