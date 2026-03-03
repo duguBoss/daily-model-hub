@@ -23,8 +23,9 @@ jobs:
           
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install requests openai
+          pip install requests playwright
+          playwright install chromium
+          playwright install-deps chromium
           
       - name: Run HF Crawler & AI Summarizer
         env:
