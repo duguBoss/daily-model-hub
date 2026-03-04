@@ -1,0 +1,25 @@
+{
+    "date": "2026-03-04",
+    "categories": {
+        "Multimodal": {
+            "image_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-04/Multimodal.png",
+            "count": 10
+        },
+        "Computer_Vision": {
+            "image_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-04/Computer_Vision.png",
+            "count": 7
+        },
+        "Natural_Language_Processing": {
+            "image_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-04/Natural_Language_Processing.png",
+            "count": 17
+        },
+        "Audio": {
+            "image_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-04/Audio.png",
+            "count": 13
+        },
+        "Reinforcement_Learning": {
+            "image_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/2026-03-04/Reinforcement_Learning.png",
+            "count": 7
+        }
+    }
+}
