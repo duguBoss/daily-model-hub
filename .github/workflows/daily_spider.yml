@@ -2,8 +2,8 @@ name: Daily Spider
 
 on:
   schedule:
-    # Beijing time Monday 09:00 = UTC Monday 01:00
-    - cron: "0 1 * * 1"
+    # Beijing time 09:00 = UTC 01:00
+    - cron: "0 1 * * *"
   workflow_dispatch:
 
 jobs:
@@ -31,7 +31,10 @@ jobs:
 
       - name: Scrape trending models
         env:
-          HF_MODEL_LIMIT: "10"
+          HF_MODEL_LIMIT: "30"
+          HF_WEEKLY_PICK_LIMIT: "6"
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: "gemini-2.0-flash"
         run: python crawler.py
 
       - name: Commit and push outputs
@@ -40,10 +43,12 @@ jobs:
           git config --local user.name "github-actions[bot]"
 
           mkdir -p data
+          mkdir -p data/daily
+          mkdir -p data/week
           mkdir -p assets/huggingface_model_cards
-          touch data/weekly_hf_models.json
 
-          git add data/weekly_hf_models.json
+          git add data/daily
+          git add data/week
           git add assets/huggingface_model_cards
           git add requirements.txt
           git add crawler.py
