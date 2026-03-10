@@ -6,6 +6,7 @@ from pathlib import Path
 
 import requests
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+
 from playwright.sync_api import sync_playwright
 
 
