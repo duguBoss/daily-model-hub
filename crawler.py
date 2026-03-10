@@ -21,7 +21,7 @@ DAILY_OUTPUT_FILE = DAILY_DIR / f"{RUN_STAMP}.json"
 RUN_IMAGE_DIR = IMAGE_ROOT_DIR / RUN_STAMP
 MODEL_LIMIT = int(os.environ.get("HF_MODEL_LIMIT", "30") or "30")
 WEEKLY_PICK_LIMIT = int(os.environ.get("HF_WEEKLY_PICK_LIMIT", "6") or "6")
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-lite-preview")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
