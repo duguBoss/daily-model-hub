@@ -6,7 +6,6 @@ from pathlib import Path
 
 import requests
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
-
 from playwright.sync_api import sync_playwright
 
 
@@ -119,8 +118,27 @@ def extract_json_string(raw_text: str) -> str:
     fenced = re.search(r"```(?:json)?\s*(.*?)```", raw_text or "", flags=re.S | re.I)
     if fenced:
         return fenced.group(1).strip()
-    matched = re.search(r"\{.*\}|\[.*\]", raw_text or "", flags=re.S)
-    return matched.group(0).strip() if matched else (raw_text or "").strip()
+    return (raw_text or "").strip()
+
+
+def parse_json_response(raw_text: str) -> dict | list:
+    text = extract_json_string(raw_text)
+    decoder = json.JSONDecoder()
+
+    for start, char in enumerate(text):
+        if char not in "[{":
+            continue
+        try:
+            value, _ = decoder.raw_decode(text[start:])
+            return value
+        except json.JSONDecodeError:
+            continue
+
+    raise json.JSONDecodeError("No valid JSON object found", text, 0)
+
+
+def chunk_list(items: list, size: int) -> list[list]:
+    return [items[index:index + size] for index in range(0, len(items), size)]
 
 
 def build_session() -> requests.Session:
@@ -139,43 +157,45 @@ def call_gemini_json(session: requests.Session, prompt: str) -> dict:
     response.raise_for_status()
     data = response.json()
     text = data["candidates"][0]["content"]["parts"][0]["text"]
-    return json.loads(extract_json_string(text))
+    return parse_json_response(text)
 
 
 def summarize_models_in_chinese(session: requests.Session, models: list[dict]) -> list[dict]:
     if not models:
         return models
 
-    payload = [
-        {
-            "index": index,
-            "model_name": model["modelName"],
-            "source_description": model["sourceDescription"],
-            "card_summary": model["cardSummary"],
-            "model_url": model["modelUrl"],
-        }
-        for index, model in enumerate(models)
-    ]
-
-    prompt = (
-        "You are an AI editor writing for a Chinese audience. "
-        "For each model in the input, write one concise and accurate summary in Simplified Chinese. "
-        "Do not invent facts. Do not use marketing language. "
-        "Keep the original index for each item. "
-        "Each `model_description` must be 70 to 140 Chinese characters and explain the model's positioning, capabilities, and likely use cases. "
-        "Return JSON only, using this format: "
-        '{"items":[{"index":0,"model_description":"..."}]}'
-        "\nInput:\n"
-        f"{json.dumps(payload, ensure_ascii=False)}"
-    )
-
-    result = call_gemini_json(session, prompt)
     summary_map = {}
-    for item in result.get("items", []):
-        index = item.get("index")
-        description = cleanup_text(item.get("model_description", ""))
-        if isinstance(index, int) and description:
-            summary_map[index] = description
+
+    for batch in chunk_list(list(enumerate(models)), 8):
+        payload = [
+            {
+                "index": index,
+                "model_name": model["modelName"],
+                "source_description": model["sourceDescription"],
+                "card_summary": model["cardSummary"],
+                "model_url": model["modelUrl"],
+            }
+            for index, model in batch
+        ]
+
+        prompt = (
+            "You are an AI editor writing for a Chinese audience. "
+            "For each model in the input, write one concise and accurate summary in Simplified Chinese. "
+            "Do not invent facts. Do not use marketing language. "
+            "Keep the original index for each item. "
+            "Each `model_description` must be 70 to 140 Chinese characters and explain the model's positioning, capabilities, and likely use cases. "
+            "Return JSON only, using this format: "
+            '{"items":[{"index":0,"model_description":"..."}]}'
+            "\nInput:\n"
+            f"{json.dumps(payload, ensure_ascii=False)}"
+        )
+
+        result = call_gemini_json(session, prompt)
+        for item in result.get("items", []):
+            index = item.get("index")
+            description = cleanup_text(item.get("model_description", ""))
+            if isinstance(index, int) and description:
+                summary_map[index] = description
 
     for index, model in enumerate(models):
         fallback = cleanup_text(model.get("sourceDescription", "")) or "No description available."
