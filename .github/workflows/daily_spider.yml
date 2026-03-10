@@ -1,47 +1,57 @@
-name: AI HuggingFace Tracker
+name: Daily Spider
 
 on:
   schedule:
-    # 每天北京时间早上 8:00 执行
-    - cron: '0 0 * * *'
-  workflow_dispatch: 
+    # Beijing time Monday 09:00 = UTC Monday 01:00
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
 
 jobs:
-  run-crawler:
+  scrape-weekly-models:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 必须权限：推送 Commit
-    
+      contents: write
+
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
-        
-      - name: Setup Python
+
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-          
+          python-version: "3.11"
+
       - name: Install dependencies
         run: |
-          pip install requests playwright
-          playwright install chromium
-          playwright install-deps chromium
-          
-      - name: Run HF Crawler & AI Summarizer
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Scrape trending models
         env:
-          # 注入你的 GitHub Secrets
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HF_MODEL_LIMIT: "10"
         run: python crawler.py
-        
-      - name: Commit and Push JSON and Icons
+
+      - name: Commit and push outputs
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
-          TODAY=$(date -u +'%Y-%m-%d')
-          
-          # 添加生成的当天日期文件夹 (内部包含 .json 和 icons/ 目录)
-          git add "$TODAY/"
-          
-          git commit -m "🚀 Auto Add: AI Summarized models and icons for $TODAY" || echo "No changes to commit today."
-          git push
+
+          mkdir -p data
+          mkdir -p assets/huggingface_model_cards
+          touch data/weekly_hf_models.json
+
+          git add data/weekly_hf_models.json
+          git add assets/huggingface_model_cards
+          git add requirements.txt
+          git add crawler.py
+          git add .github/workflows/daily_spider.yml
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update weekly Hugging Face models: $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
