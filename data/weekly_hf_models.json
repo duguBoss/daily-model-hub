@@ -1,0 +1,82 @@
+[
+  {
+    "rank": 1,
+    "modelCard": "assets/huggingface_model_cards/2026-03-10/01-qwen-qwen3-5-9b.png",
+    "modelName": "Qwen/Qwen3.5-9B",
+    "modelDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/logo qwen3.5.png\">",
+    "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-9B",
+    "cardSummary": "Qwen/Qwen3.5-9B Image-Text-to-Text • 10B • Updated 8 days ago • 1.22M • • 655"
+  },
+  {
+    "rank": 2,
+    "modelCard": "assets/huggingface_model_cards/2026-03-10/02-lightricks-ltx-2-3.png",
+    "modelName": "Lightricks/LTX-2.3",
+    "modelDescription": "This model card focuses on the LTX-2.3 model, which is a significant update to the LTX-2 model with improved audio and visual quality as well as enhanced prompt adherence. LTX-2 was presented in the paper LTX-2: Efficient Joint Audio-Visual Foundation Model.",
+    "modelUrl": "https://huggingface.co/Lightricks/LTX-2.3",
+    "cardSummary": "Lightricks/LTX-2.3 Image-to-Video • Updated 5 days ago • 276k • 418"
+  },
+  {
+    "rank": 3,
+    "modelCard": "assets/huggingface_model_cards/2026-03-10/03-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled.png",
+    "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+    "modelDescription": "📢 Release Note Build Environment Upgrades: - Fine-tuning Framework : Unsloth 2026.3.3 - Core Dependencies : Transformers 5.2.0 - This model fixes the crash in the official model caused by the Jinja template not supporting the \"developer\" role. (commonly sent by modern coding agents like Claude Code and OpenCode) - It does not disable thinking mode by default , and allowing the agent to run continuously for over 9 minutes without interruption . - Compared to the original model, autonomy and stability are significantly improved .",
+    "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+    "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled Text Generation • 28B • Updated 2 days ago • 23k • 331"
+  },
+  {
+    "rank": 4,
+    "modelCard": "assets/huggingface_model_cards/2026-03-10/04-hauhaucs-qwen3-5-9b-uncensored-hauhaucs-aggressive.png",
+    "modelName": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+    "modelDescription": "No changes to datasets or capabilities. Fully functional, 100% of what the original authors intended - just without the refusals.",
+    "modelUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+    "cardSummary": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive 9B • Updated 6 days ago • 105k • 252"
+  },
+  {
+    "rank": 5,
+    "modelCard": "assets/huggingface_model_cards/2026-03-10/05-qwen-qwen3-5-35b-a3b.png",
+    "modelName": "Qwen/Qwen3.5-35B-A3B",
+    "modelDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/logo qwen3.5.png\">",
+    "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+    "cardSummary": "Qwen/Qwen3.5-35B-A3B Image-Text-to-Text • 36B • Updated 11 days ago • 1.27M • • 1.06k"
+  },
+  {
+    "rank": 6,
+    "modelCard": "assets/huggingface_model_cards/2026-03-10/06-qwen-qwen3-5-0-8b.png",
+    "modelName": "Qwen/Qwen3.5-0.8B",
+    "modelDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/logo qwen3.5.png\">",
+    "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+    "cardSummary": "Qwen/Qwen3.5-0.8B Image-Text-to-Text • 0.9B • Updated 8 days ago • 519k • 345"
+  },
+  {
+    "rank": 7,
+    "modelCard": "assets/huggingface_model_cards/2026-03-10/07-sarvamai-sarvam-105b.png",
+    "modelName": "sarvamai/sarvam-105b",
+    "modelDescription": "1. Introduction 2. Architecture 3. Benchmarks - Knowledge & Coding - Reasoning & Math - Agentic 4. Inference - Hugging Face - vLLM 5. Footnote 6. Citation",
+    "modelUrl": "https://huggingface.co/sarvamai/sarvam-105b",
+    "cardSummary": "sarvamai/sarvam-105b Text Generation • 106B • Updated 4 days ago • 2.05k • 196"
+  },
+  {
+    "rank": 8,
+    "modelCard": "assets/huggingface_model_cards/2026-03-10/08-qwen-qwen3-5-4b.png",
+    "modelName": "Qwen/Qwen3.5-4B",
+    "modelDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/logo qwen3.5.png\">",
+    "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-4B",
+    "cardSummary": "Qwen/Qwen3.5-4B Image-Text-to-Text • 5B • Updated 8 days ago • 560k • 322"
+  },
+  {
+    "rank": 9,
+    "modelCard": "assets/huggingface_model_cards/2026-03-10/09-unsloth-qwen3-5-9b-gguf.png",
+    "modelName": "unsloth/Qwen3.5-9B-GGUF",
+    "modelDescription": "<div> <p style=\"margin-bottom: 0; margin-top: 0;\"> <h1 style=\"margin-top: 0rem;\">To run Qwen3.5 locally - <a href=\"https://unsloth.ai/docs/models/qwen3.5\">Read our Guide!</a></h1> </p> <p style=\"margin-top: 0;margin-bottom: 0;\"> <em><a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"margin-top: 0;display: flex; gap: 5px; align-items: center; \"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.5\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> </div>",
+    "modelUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF",
+    "cardSummary": "unsloth/Qwen3.5-9B-GGUF Image-Text-to-Text • 9B • Updated 8 days ago • 615k • 284"
+  },
+  {
+    "rank": 10,
+    "modelCard": "assets/huggingface_model_cards/2026-03-10/10-sarvamai-sarvam-30b.png",
+    "modelName": "sarvamai/sarvam-30b",
+    "modelDescription": "1. Introduction 2. Architecture 3. Benchmarks - Knowledge & Coding - Reasoning & Math - Agentic 4. Inference - Hugging Face - vLLM 5. Footnote 6. Citation",
+    "modelUrl": "https://huggingface.co/sarvamai/sarvam-30b",
+    "cardSummary": "sarvamai/sarvam-30b Text Generation • 32B • Updated 4 days ago • 4.22k • 136"
+  }
+]
