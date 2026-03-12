@@ -3,7 +3,7 @@ name: Daily Spider
 on:
   schedule:
     # Beijing time 09:00 = UTC 01:00
-    - cron: "0 1 * * *"
+    - cron: "0 23 * * *"
   workflow_dispatch:
 
 jobs:
