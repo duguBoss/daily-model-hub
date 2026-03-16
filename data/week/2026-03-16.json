@@ -1,0 +1,117 @@
+{
+  "weekRange": {
+    "start": "2026-03-10",
+    "end": "2026-03-16"
+  },
+  "weekTitle": "Hugging Face 每周模型趋势精选 (2026-03-10 至 2026-03-16)",
+  "summary": "本周模型社区持续活跃，Qwen 3.5 系列凭借强大的多模态性能稳居榜首。LTX-2.3 视频生成模型及其实用量化版本热度激增，体现了社区对高质量多媒体生成及本地化部署的高度关注。此外，无审查版本模型和长逻辑推理工具也持续受到开发者青睐。",
+  "items": [
+    {
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "modelCard": "assets/huggingface_model_cards/2026-03-16/02-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled.png",
+      "modelDescription": "该模型是基于 Qwen3.5-27B 的微调优化版本，改进了对开发人员角色模板的支持，修复了相关崩溃问题。通过更新推理环境与框架，提升了自主性与稳定性，支持超过 9 分钟的连续推理，适合作为编码代理工具处理复杂任务。",
+      "pickReason": "该模型通过修复 Jinja 模板兼容性，完美适配现代编码代理（如 Claude Code），且不强制关闭思考模式，支持超 9 分钟连续长逻辑推理。它是目前开发辅助类任务中最稳定、自主性最强的选择之一。",
+      "appearances": 7,
+      "bestRank": 1,
+      "dates": [
+        "2026-03-16",
+        "2026-03-15",
+        "2026-03-14",
+        "2026-03-13",
+        "2026-03-12",
+        "2026-03-11",
+        "2026-03-10"
+      ]
+    },
+    {
+      "modelName": "Lightricks/LTX-2.3",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.3",
+      "modelCard": "assets/huggingface_model_cards/2026-03-16/05-lightricks-ltx-2-3.png",
+      "modelDescription": "LTX-2.3 是一款图像转视频生成模型，作为 LTX-2 的升级版，显著提升了音频与视觉生成的质量，并增强了对提示词的遵循能力。该模型基于高效联合视听基础架构，主要用于高质量的视觉内容创作与视频自动化生成场景。",
+      "pickReason": "作为图像转视频领域的顶尖模型，LTX-2.3 在音频与视觉生成质量上实现了重大突破。其卓越的提示词遵循能力使其成为高质量视频自动化生成场景下的首选模型，本周热度高居不下。",
+      "appearances": 7,
+      "bestRank": 1,
+      "dates": [
+        "2026-03-16",
+        "2026-03-15",
+        "2026-03-14",
+        "2026-03-13",
+        "2026-03-12",
+        "2026-03-11",
+        "2026-03-10"
+      ]
+    },
+    {
+      "modelName": "Qwen/Qwen3.5-9B",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "modelCard": "assets/huggingface_model_cards/2026-03-16/07-qwen-qwen3-5-9b.png",
+      "modelDescription": "Qwen3.5-9B 是一款具备图文理解能力的通用语言模型，参数规模约为 10B。该模型表现均衡，兼顾了推理性能与资源消耗，适用于各类需要多模态信息处理、高质量文本创作与复杂逻辑分析的生产与科研场景。",
+      "pickReason": "这款 10B 规模的通用模型展现了极高的性价比。它平衡了强大的多模态理解力与资源占用，是目前生产环境中最受欢迎的通用生产力工具之一，也是各类微调版本的最佳基座。",
+      "appearances": 7,
+      "bestRank": 1,
+      "dates": [
+        "2026-03-16",
+        "2026-03-15",
+        "2026-03-14",
+        "2026-03-13",
+        "2026-03-12",
+        "2026-03-11",
+        "2026-03-10"
+      ]
+    },
+    {
+      "modelName": "unsloth/LTX-2.3-GGUF",
+      "modelUrl": "https://huggingface.co/unsloth/LTX-2.3-GGUF",
+      "modelCard": "assets/huggingface_model_cards/2026-03-16/15-unsloth-ltx-2-3-gguf.png",
+      "modelDescription": "unsloth/LTX-2.3-GGUF是一款采用Unsloth Dynamic 2.0技术进行量化优化后的视频生成模型。该版本通过GGUF格式显著降低了部署门槛，支持在常规显卡上运行。它主要用于高质量图像转视频任务，适合创作者在资源受限的情况下生成连贯、生动的动画片段。",
+      "pickReason": "利用 Unsloth 动态量化技术，该 GGUF 版本显著降低了 LTX-2.3 的显存门槛，让消费级显卡用户也能流畅运行这一高质量视频生成模型。它极大地提升了该技术栈的普及度和部署灵活性。",
+      "appearances": 7,
+      "bestRank": 8,
+      "dates": [
+        "2026-03-16",
+        "2026-03-15",
+        "2026-03-14",
+        "2026-03-13",
+        "2026-03-12",
+        "2026-03-11",
+        "2026-03-10"
+      ]
+    },
+    {
+      "modelName": "fishaudio/s2-pro",
+      "modelUrl": "https://huggingface.co/fishaudio/s2-pro",
+      "modelCard": "assets/huggingface_model_cards/2026-03-16/01-fishaudio-s2-pro.png",
+      "modelDescription": "Fish Audio S2 Pro 是一款 5B 参数规模的语音合成模型，支持多角色、多轮对话生成。该模型具备精细化的控制能力、低延迟流式传输及长上下文推理特性，主要面向对语音生成质量与实时响应要求较高的交互式应用场景。",
+      "pickReason": "作为语音合成领域的强力竞争者，s2-pro 支持多角色、多轮对话及低延迟流式输出。其在细粒度控制方面的表现令人惊艳，非常适合对交互实时性有严格要求的虚拟助手等应用场景。",
+      "appearances": 6,
+      "bestRank": 1,
+      "dates": [
+        "2026-03-16",
+        "2026-03-15",
+        "2026-03-14",
+        "2026-03-13",
+        "2026-03-12",
+        "2026-03-11"
+      ]
+    },
+    {
+      "modelName": "MiniMaxAI/MiniMax-M2.5",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5",
+      "modelCard": "assets/huggingface_model_cards/2026-03-16/29-minimaxai-minimax-m2-5.png",
+      "modelDescription": "MiniMaxAI/MiniMax-M2.5 是一款拥有 229B 参数的大规模生成式人工智能模型。作为 MiniMax 公司的旗舰级产品，该模型在理解、逻辑推理及长文本处理方面表现出色。它主要定位为高性能的通用模型，广泛应用于企业级自动化写作、复杂内容生成及各类智能对话场景。",
+      "pickReason": "MiniMax 旗舰级 229B 超大参数模型，在长文本处理与逻辑深度上表现突出。作为闭源级实力的开源参考，它在处理企业级复杂智能对话任务中表现极其稳健，是本周备受瞩目的高性能大模型。",
+      "appearances": 7,
+      "bestRank": 26,
+      "dates": [
+        "2026-03-16",
+        "2026-03-15",
+        "2026-03-14",
+        "2026-03-13",
+        "2026-03-12",
+        "2026-03-11",
+        "2026-03-10"
+      ]
+    }
+  ]
+}
