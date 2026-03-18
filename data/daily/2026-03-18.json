@@ -1,0 +1,307 @@
+{
+  "recordDate": "2026-03-18",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 30,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/01-hauhaucs-qwen3-5-35b-a3b-uncensored-hauhaucs-aggressive.png",
+      "modelName": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "modelDescription": "该模型基于Qwen3.5-35B构建，保留了原版模型的全部功能与性能。其核心特点是移除了拒绝响应机制，在不改变原有数据集的前提下，旨在提供完全无限制的文本交互体验，适合需要不受限AI回答场景的研究人员及开发者使用。",
+      "sourceDescription": "No changes to datasets or capabilities. Fully functional, 100% of what the original authors intended - just without the refusals.",
+      "modelUrl": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "cardSummary": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive Image-Text-to-Text • 35B • Updated 8 days ago • 112k • 573"
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/02-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled.png",
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "modelDescription": "这是一款针对编码任务优化的28B参数推理模型，通过升级构建环境及修复Jinja模板兼容性问题，显著提升了稳定性与自主性。该模型默认开启深度思考模式，支持长时间不间断推理，非常适合集成至Claude Code等自动化编程代理工具中。",
+      "sourceDescription": "📢 Release Note Build Environment Upgrades: - Fine-tuning Framework : Unsloth 2026.3.3 - Core Dependencies : Transformers 5.2.0 - This model fixes the crash in the official model caused by the Jinja template not supporting the \"developer\" role. (commonly sent by modern coding agents like Claude Code and OpenCode) - It does not disable thinking mode by default , and allowing the agent to run continuously for over 9 minutes without interruption . - Compared to the original model, autonomy and stability are significantly improved .",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled Text Generation • 28B • Updated 11 days ago • 78.8k • 879"
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/03-fishaudio-s2-pro.png",
+      "modelName": "fishaudio/s2-pro",
+      "modelDescription": "fishaudio/s2-pro是一款5B规模的语音合成模型，专注于提供精细的音频控制能力。该模型支持多说话人与多轮对话生成，具备低延迟流式输出及长上下文推理特性，适用于高质量数字人交互、有声读物制作及实时语音对话等应用场景。",
+      "sourceDescription": "<img src=\"overview.png\" alt=\"Fish Audio S2 Pro overview — fine-grained control, multi-speaker multi-turn generation, low-latency streaming, and long-context inference.\" width=\"100%\">",
+      "modelUrl": "https://huggingface.co/fishaudio/s2-pro",
+      "cardSummary": "fishaudio/s2-pro Text-to-Speech • 5B • Updated 7 days ago • 7k • 627"
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/04-tesslate-omnicoder-9b.png",
+      "modelName": "Tesslate/OmniCoder-9B",
+      "modelDescription": "Tesslate/OmniCoder-9B是一款专门针对编程领域优化的代码生成模型。该模型依托9B参数架构，旨在提供高效的代码理解与编写支持。由于其轻量化的设计，该模型适合在资源受限的环境中部署，用于辅助开发者完成日常编程任务及代码补全。",
+      "sourceDescription": "<img src=\"omnicoder-banner.png\" alt=\"OmniCoder\" width=\"720\">",
+      "modelUrl": "https://huggingface.co/Tesslate/OmniCoder-9B",
+      "cardSummary": "Tesslate/OmniCoder-9B Text Generation • Updated 6 days ago • 8.72k • 303"
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/05-nvidia-nvidia-nemotron-3-super-120b-a12b-bf16.png",
+      "modelName": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "modelDescription": "NVIDIA-Nemotron-3-Super-120B是一款超大规模参数模型，由NVIDIA研发，定位为高性能通用对话AI。该模型支持全面的指令微调与复杂的文本处理任务，在科研与生产领域具有广泛适用性。官方提供了配套的预训练及微调数据集资源，便于深度开发。",
+      "sourceDescription": "<div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://build.nvidia.com/nvidia/nemotron-3-super-120b-a12b\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖Chat-Nemotron 3 Super-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Super-Technical-Report.pdf\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Paper\" src=\"https://img.shields.io/badge/📝Paper-Read Now!-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://huggingface.co/collections/nvidia/nemotron-pre-training-datasets\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Pre-Training Datasets\" src=\"https://img.shields.io/badge/🗄️ Pre--Training Datasets-Available Here-76B900?logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://huggingface.co/collections/nvidia/nemotron-post-training-v3\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Post-Training Datasets\" src=\"https://img.shields.io/badge/🗄️ Post--Training Datasets-Available Here-76B900?logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> </div> <div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://developer.nvidia.com/nemotron\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Homepage\" src=\"https://img.shields.io/badge/🏠Nemotron Developer Page-Learn More Here!-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://discord.gg/9xpKQtVvrk\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-NVIDIA%20AI%20Developer-7289da?logo=discord&logoColor=white&color=7289da\" style=\"display: inline-block; vertical-align: middle;\"/> </a> </div>",
+      "modelUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "cardSummary": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16 Text Generation • 124B • Updated 4 days ago • 36.8k • 249"
+    },
+    {
+      "rank": 6,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/06-hauhaucs-qwen3-5-9b-uncensored-hauhaucs-aggressive.png",
+      "modelName": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "modelDescription": "该模型是基于Qwen3.5-9B的无审查版本，主要去除了原始模型的拒绝响应约束，同时保持了基础模型的性能与功能完整性。对于追求极高自由度、不受预设道德边界限制的文本生成任务而言，该模型提供了更灵活的交互支持，适合特定的实验性研究。",
+      "sourceDescription": "No changes to datasets or capabilities. Fully functional, 100% of what the original authors intended - just without the refusals.",
+      "modelUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "cardSummary": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive 9B • Updated 15 days ago • 255k • 540"
+    },
+    {
+      "rank": 7,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/07-mistralai-mistral-small-4-119b-2603.png",
+      "modelName": "mistralai/Mistral-Small-4-119B-2603",
+      "modelDescription": "Mistral Small 4是一款融合型大模型，将通用指令遵循、深度推理以及开发专用能力集成于一体。119B的规模使其能够处理复杂逻辑与任务编排，旨在为开发者提供一个既能作为基础对话助手，又具备强大推理与编码能力的统一模型方案。",
+      "sourceDescription": "Mistral Small 4 is a powerful hybrid model capable of acting as both a general instruction model and a reasoning model. It unifies the capabilities of three different model families— Instruct , Reasoning (previously called Magistral), and Devstral —into a single, unified model.",
+      "modelUrl": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603",
+      "cardSummary": "mistralai/Mistral-Small-4-119B-2603 119B • Updated 1 day ago • 1.87k • 224"
+    },
+    {
+      "rank": 8,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/08-qwen-qwen3-5-9b.png",
+      "modelName": "Qwen/Qwen3.5-9B",
+      "modelDescription": "Qwen3.5-9B是阿里通义千问系列的一款多模态模型，支持图文到文本的理解与交互。该模型在保持高效能的同时，提供了优秀的视觉与文本综合处理能力，广泛适用于图像分析、视觉问答及多模态内容生成等各类实际落地场景。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/logo qwen3.5.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "cardSummary": "Qwen/Qwen3.5-9B Image-Text-to-Text • 10B • Updated 17 days ago • 2.27M • • 914"
+    },
+    {
+      "rank": 9,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/09-lightricks-ltx-2-3.png",
+      "modelName": "Lightricks/LTX-2.3",
+      "modelDescription": "LTX-2.3 是 LTX-2 图像转视频模型的重大更新版本。该模型在保持高效联合视听处理能力的基础上，进一步优化了音频与视觉的质量，并显著提升了对提示词的遵循能力，旨在为用户提供更高质量、更符合预期的视频生成体验，适用于各类创意多媒体内容制作场景。",
+      "sourceDescription": "This model card focuses on the LTX-2.3 model, which is a significant update to the LTX-2 model with improved audio and visual quality as well as enhanced prompt adherence. LTX-2 was presented in the paper LTX-2: Efficient Joint Audio-Visual Foundation Model.",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.3",
+      "cardSummary": "Lightricks/LTX-2.3 Image-to-Video • Updated 3 days ago • 644k • 672"
+    },
+    {
+      "rank": 10,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/10-zai-org-glm-ocr.png",
+      "modelName": "zai-org/GLM-OCR",
+      "modelDescription": "GLM-OCR 是由 zai-org 开发的图像转文字模型，专注于 OCR（光学字符识别）任务。该模型旨在通过深度学习技术精确识别各类文档和图像中的文本内容，提供高性能的识别方案。用户可通过官方 SDK 或 API 进行集成，适用于自动化文档处理、数据提取等数字化办公场景。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-OCR/refs/heads/main/resources/logo.svg width=\"40%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-OCR/refs/heads/main/resources/wechat.jpg\" target=\" blank\">WeChat</a> and <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community <br> 📍 Use GLM-OCR's <a href=\"https://docs.z.ai/guides/vlm/glm-ocr\" target=\" blank\">API</a> <br> 👉 <a href=\"https://github.com/zai-org/GLM-OCR\" target=\" blank\">GLM-OCR SDK</a> Recommended <br> 📖 <a href=\"https://arxiv.org/abs/2603.10910\" target=\" blank\"> Technical Report</a> </p>",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-OCR",
+      "cardSummary": "zai-org/GLM-OCR Image-to-Text • Updated 7 days ago • 2.74M • • 1.35k"
+    },
+    {
+      "rank": 11,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/11-nvidia-nvidia-nemotron-3-super-120b-a12b-nvfp4.png",
+      "modelName": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+      "modelDescription": "NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4 是英伟达开发的大规模语言模型，采用了 NVFP4 量化技术以优化运行效率。作为 Nemotron-3 系列的成员，该模型专注于高性能文本生成，能够胜任复杂的语义理解与生成任务，主要面向需要高性能计算资源的大规模企业级 AI 应用开发。",
+      "sourceDescription": "<div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://build.nvidia.com/nvidia/nemotron-3-super-120b-a12b\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖Chat-Nemotron 3 Super-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Super-Technical-Report.pdf\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Paper\" src=\"https://img.shields.io/badge/📝Paper-Read Now!-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://huggingface.co/collections/nvidia/nemotron-pre-training-datasets\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Pre-Training Datasets\" src=\"https://img.shields.io/badge/🗄️ Pre--Training Datasets-Available Here-76B900?logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://huggingface.co/collections/nvidia/nemotron-post-training-v3\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Post-Training Datasets\" src=\"https://img.shields.io/badge/🗄️ Post--Training Datasets-Available Here-76B900?logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> </div> <div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://developer.nvidia.com/nemotron\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Homepage\" src=\"https://img.shields.io/badge/🏠Nemotron Developer Page-Learn More Here!-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://discord.gg/9xpKQtVvrk\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-NVIDIA%20AI%20Developer-7289da?logo=discord&logoColor=white&color=7289da\" style=\"display: inline-block; vertical-align: middle;\"/> </a> </div>",
+      "modelUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+      "cardSummary": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4 Text Generation • 67B • Updated 4 days ago • 295k • 166"
+    },
+    {
+      "rank": 12,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/12-nvidia-nvidia-nemotron-3-super-120b-a12b-fp8.png",
+      "modelName": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+      "modelDescription": "NVIDIA-Nemotron-3-Super-120B-A12B-FP8 是基于 FP8 精度的高性能大语言模型。该模型继承了 Nemotron 系列优秀的架构，能够提供卓越的语言处理与文本生成能力，通过高精度优化平衡了模型体积与性能，适用于需要大规模参数模型进行深度逻辑推理与内容创作的工业级应用。",
+      "sourceDescription": "<div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://build.nvidia.com/nvidia/nemotron-3-super-120b-a12b\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖Chat-Nemotron 3 Super-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Super-Technical-Report.pdf\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Paper\" src=\"https://img.shields.io/badge/📝Paper-Read Now!-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://huggingface.co/collections/nvidia/nemotron-pre-training-datasets\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Pre-Training Datasets\" src=\"https://img.shields.io/badge/🗄️ Pre--Training Datasets-Available Here-76B900?logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://huggingface.co/collections/nvidia/nemotron-post-training-v3\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Post-Training Datasets\" src=\"https://img.shields.io/badge/🗄️ Post--Training Datasets-Available Here-76B900?logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> </div> <div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://developer.nvidia.com/nemotron\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Homepage\" src=\"https://img.shields.io/badge/🏠Nemotron Developer Page-Learn More Here!-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://discord.gg/9xpKQtVvrk\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-NVIDIA%20AI%20Developer-7289da?logo=discord&logoColor=white&color=7289da\" style=\"display: inline-block; vertical-align: middle;\"/> </a> </div>",
+      "modelUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+      "cardSummary": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8 Text Generation • 124B • Updated 4 days ago • 210k • 163"
+    },
+    {
+      "rank": 13,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/13-humeai-tada-1b.png",
+      "modelName": "HumeAI/tada-1b",
+      "modelDescription": "TADA-1B 是一款由 HumeAI 开发的语音建模生成式框架，全称为“文本-声学双重对齐”。该模型拥有约 20 亿参数，专注于提升语音生成中的文本与声学特征对齐精度，旨在实现更自然、更具表现力的文本转语音效果，广泛适用于智能交互、虚拟助手等语音合成领域。",
+      "sourceDescription": "<h1 align=\"center\">TADA: A Generative Framework for Speech Modeling via Text-Acoustic Dual Alignment</h1>",
+      "modelUrl": "https://huggingface.co/HumeAI/tada-1b",
+      "cardSummary": "HumeAI/tada-1b Text-to-Speech • 2B • Updated 1 day ago • 36.7k • 216"
+    },
+    {
+      "rank": 14,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/14-tesslate-omnicoder-9b-gguf.png",
+      "modelName": "Tesslate/OmniCoder-9B-GGUF",
+      "modelDescription": "OmniCoder-9B-GGUF 是 Tesslate 推出的代码生成模型，采用 GGUF 格式封装以适配多种本地推理环境。该模型参数规模为 90 亿，专门针对代码编写、调试及解释任务进行了优化，能够辅助开发人员高效生成代码片段并理解复杂逻辑，是开发者进行辅助编程和算法实现的有力工具。",
+      "sourceDescription": "<img src=\"https://huggingface.co/Tesslate/OmniCoder-9B/resolve/main/omnicoder-banner.png\" alt=\"OmniCoder\" width=\"720\">",
+      "modelUrl": "https://huggingface.co/Tesslate/OmniCoder-9B-GGUF",
+      "cardSummary": "Tesslate/OmniCoder-9B-GGUF 9B • Updated 7 days ago • 30.2k • 135"
+    },
+    {
+      "rank": 15,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/15-royalcities-foundation-1.png",
+      "modelName": "RoyalCities/Foundation-1",
+      "modelDescription": "RoyalCities/Foundation-1 是一款基础模型，旨在为各类人工智能应用提供底层计算与逻辑支持。虽然该模型具体的技术细节与特定领域应用尚在进一步扩展中，但作为基础架构，它旨在通过预训练提供广泛的通用能力，可用于各类下游人工智能任务的微调与定制化开发。",
+      "sourceDescription": "<center><img src=\"https://huggingface.co/RoyalCities/Foundation-1/resolve/main/Charts/banner.PNG\" alt=\"Foundation-1 Banner\" width=\"100%\"></center>",
+      "modelUrl": "https://huggingface.co/RoyalCities/Foundation-1",
+      "cardSummary": "RoyalCities/Foundation-1 Updated 2 days ago • 135"
+    },
+    {
+      "rank": 16,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/16-baidu-qianfan-ocr.png",
+      "modelName": "baidu/Qianfan-OCR",
+      "modelDescription": "百度 Qianfan-OCR 是一款专注于文档智能的统一端到端模型。该模型规模为 50 亿参数，旨在将图像与文本输入转化为高质量的结构化文本输出。通过在文档理解任务上的深入优化，该模型能够有效处理复杂的版面布局与识别需求，适用于各类文档自动化处理与企业级数字化转型业务。",
+      "sourceDescription": "<h3>A Unified End-to-End Model for Document Intelligence</h3>",
+      "modelUrl": "https://huggingface.co/baidu/Qianfan-OCR",
+      "cardSummary": "baidu/Qianfan-OCR Image-Text-to-Text • 5B • Updated about 10 hours ago • 130"
+    },
+    {
+      "rank": 17,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/17-circlestone-labs-anima.png",
+      "modelName": "circlestone-labs/Anima",
+      "modelDescription": "Anima是由CircleStone Labs与Comfy Org联合开发的20亿参数文本生成图像模型。该模型专注于动漫概念、角色及艺术风格创作，支持多种非写实图像生成。它主要适用于插画和艺术创作场景，并不适用于追求写实效果的任务。",
+      "sourceDescription": "Anima is a 2 billion parameter text-to-image model created via a collaboration between CircleStone Labs and Comfy Org. It is focused mainly on anime concepts, characters, and styles, but is also capable of generating a wide variety of other non-photorealistic content. The model is designed for making illustrations and artistic images, and will not work well at realism.",
+      "modelUrl": "https://huggingface.co/circlestone-labs/Anima",
+      "cardSummary": "circlestone-labs/Anima Updated 7 days ago • 243k • 878"
+    },
+    {
+      "rank": 18,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/18-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf.png",
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "modelDescription": "该模型是一款基于27B参数经过深度蒸馏的推理增强模型。通过升级构建环境，它修复了官方模板对“开发者”角色的兼容性问题，增强了模型运行的稳定性和自主性，特别适合对接Claude Code等现代编程代理工具，支持长时间的持续推理任务。",
+      "sourceDescription": "📢 Release Note Build Environment Upgrades: - Fine-tuning Framework : Unsloth 2026.3.3 - Core Dependencies : Transformers 5.2.0 - This model fixes the crash in the official model caused by the Jinja template not supporting the \"developer\" role. (commonly sent by modern coding agents like Claude Code and OpenCode) - It does not disable thinking mode by default , and allowing the agent to run continuously for over 9 minutes without interruption . - Compared to the original model, autonomy and stability are significantly improved .",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF Text Generation • 27B • Updated 3 days ago • 174k • 267"
+    },
+    {
+      "rank": 19,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/19-mistralai-leanstral-2603.png",
+      "modelName": "mistralai/Leanstral-2603",
+      "modelDescription": "Leanstral是首个开源的Lean 4代码代理模型，专门用于数学证明辅助。它具备处理复杂数学对象（如完美空间）以及验证软件规范（如Rust代码片段属性）的能力，旨在通过自动化方式辅助数学家和开发人员进行严谨的逻辑推理与验证。",
+      "sourceDescription": "Leanstral is the first open-source code agent designed for Lean 4, a proof assistant capable of expressing complex mathematical objects such as perfectoid spaces and software specifications like properties of Rust fragments.",
+      "modelUrl": "https://huggingface.co/mistralai/Leanstral-2603",
+      "cardSummary": "mistralai/Leanstral-2603 Updated 2 days ago • 91 • 104"
+    },
+    {
+      "rank": 20,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/20-humeai-tada-3b-ml.png",
+      "modelName": "HumeAI/tada-3b-ml",
+      "modelDescription": "TADA是一款采用文本-声学双重对齐架构的语音生成框架。该模型拥有30亿参数，专注于将文本高效转换为高质量语音。作为生成式人工智能在语音领域的应用，它主要用于提升语音合成的自然度与对齐精度，满足多种语音交互需求。",
+      "sourceDescription": "<h1 align=\"center\">TADA: A Generative Framework for Speech Modeling via Text-Acoustic Dual Alignment</h1>",
+      "modelUrl": "https://huggingface.co/HumeAI/tada-3b-ml",
+      "cardSummary": "HumeAI/tada-3b-ml Text-to-Speech • 4B • Updated 1 day ago • 11.9k • 141"
+    },
+    {
+      "rank": 21,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/21-qwen-qwen3-5-35b-a3b.png",
+      "modelName": "Qwen/Qwen3.5-35B-A3B",
+      "modelDescription": "Qwen3.5-35B-A3B是通义千问系列的一款多模态模型，具备处理图像与文本输入并输出文本的能力。该模型拥有360亿参数规模，定位为通用的多模态交互助手，能够高效应对各类图文理解和生成任务，展现了较强的综合性能与广泛的应用适应性。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/logo qwen3.5.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+      "cardSummary": "Qwen/Qwen3.5-35B-A3B Image-Text-to-Text • 36B • Updated 20 days ago • 1.94M • • 1.17k"
+    },
+    {
+      "rank": 22,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/22-ibm-granite-granite-4-0-1b-speech.png",
+      "modelName": "ibm-granite/granite-4.0-1b-speech",
+      "modelDescription": "Granite-4.0-1b-speech是一款紧凑型多语言语音模型，参数规模约为20亿。它专为多语言自动语音识别（ASR）和双向自动语音翻译（AST）任务设计，通过高效的架构实现精准的语音理解与转换，适用于各类资源受限但需要高性能语音处理的边缘计算场景。",
+      "sourceDescription": "Model Summary: Granite-4.0-1b-speech is a compact and efficient speech-language model, specifically designed for multilingual automatic speech recognition (ASR) and bidirectional automatic speech translation (AST).",
+      "modelUrl": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech",
+      "cardSummary": "ibm-granite/granite-4.0-1b-speech Automatic Speech Recognition • 2B • Updated 2 days ago • 20.3k • 150"
+    },
+    {
+      "rank": 23,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/23-black-forest-labs-flux-2-klein-9b-kv.png",
+      "modelName": "black-forest-labs/FLUX.2-klein-9b-kv",
+      "modelDescription": "FLUX.2-klein-9b-kv是FLUX.2 [klein] 9B的性能优化版，引入了KV缓存支持。该技术通过在首次去噪过程中缓存参考图像的键值对，大幅减少了重复计算。此优化显著加速了多参考图像的编辑工作流，特别适合需要频繁进行图像编辑和风格迁移的专业创作场景。",
+      "sourceDescription": "FLUX.2 [klein] 9B-KV is an optimized variant of FLUX.2 [klein] 9B with KV-cache support for accelerated multi-reference editing . This variant caches key-value pairs from reference images during the first denoising step, eliminating redundant computation in subsequent steps for significantly faster multi-image editing workflows.",
+      "modelUrl": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9b-kv",
+      "cardSummary": "black-forest-labs/FLUX.2-klein-9b-kv Image-to-Image • Updated 6 days ago • 4.21k • 97"
+    },
+    {
+      "rank": 24,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/24-rekaai-reka-edge-2603.png",
+      "modelName": "RekaAI/reka-edge-2603",
+      "modelDescription": "Reka Edge是一款高效的70亿参数多模态视觉语言模型，支持图像、视频与文本的混合输入。它经过特别优化，在图像理解、视频分析、目标检测及代理工具调用方面表现出色，旨在为各类智能应用提供强大的边缘计算视觉感知与交互能力。",
+      "sourceDescription": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs. This model is optimized specifically to deliver industry-leading performance in image understanding, video analysis, object detection, and agentic tool-use.",
+      "modelUrl": "https://huggingface.co/RekaAI/reka-edge-2603",
+      "cardSummary": "RekaAI/reka-edge-2603 Image-Text-to-Text • 7B • Updated 6 days ago • 289 • 93"
+    },
+    {
+      "rank": 25,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/25-hauhaucs-qwen3-5-4b-uncensored-hauhaucs-aggressive.png",
+      "modelName": "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
+      "modelDescription": "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive 是基于 Qwen3.5-4B 的无审查版本。该模型完全保留了原版的能力，移除了输出拒绝机制，旨在为用户提供不受限制的对话交互体验，适用于追求模型自由生成能力、且对特定输出要求较为宽松的开发与个人研究场景。",
+      "sourceDescription": "No changes to datasets or capabilities. Fully functional, 100% of what the original authors intended - just without the refusals.",
+      "modelUrl": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
+      "cardSummary": "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive 4B • Updated 15 days ago • 92.6k • 179"
+    },
+    {
+      "rank": 26,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/26-runexx-ltx-2-3-workflows.png",
+      "modelName": "RuneXX/LTX-2.3-Workflows",
+      "modelDescription": "RuneXX/LTX-2.3-Workflows 是一套专注于 LTX-2.3 模型的图像转视频工作流工具。该资源提供了实现从静态图像到动态视频转化的具体方法，旨在帮助创作者利用 LTX-2.3 模型进行高效的视频内容生成与编辑，特别适合需要快速搭建视频创作流水线的视觉艺术工作者。",
+      "sourceDescription": "<video controls> <source src=\"https://cdn-uploads.huggingface.co/production/uploads/64afc36a09727d75e9ca79aa/UisZ7XyIYhQgcnIKnt8h0.mp4\" type=\"video/mp4\"> Your browser does not support the video tag. </video>",
+      "modelUrl": "https://huggingface.co/RuneXX/LTX-2.3-Workflows",
+      "cardSummary": "RuneXX/LTX-2.3-Workflows Image-to-Video • Updated about 13 hours ago • 172"
+    },
+    {
+      "rank": 27,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/27-unsloth-qwen3-5-35b-a3b-gguf.png",
+      "modelName": "unsloth/Qwen3.5-35B-A3B-GGUF",
+      "modelDescription": "unsloth/Qwen3.5-35B-A3B-GGUF 是基于 Qwen3.5-35B 的 GGUF 量化版本，采用了 Unsloth Dynamic 2.0 技术。该模型旨在通过优化的量化方案在本地设备上高效运行，具备极高的推理精度和性能，适用于需要本地部署大规模多模态语言模型以处理图文任务的用户。",
+      "sourceDescription": "<div> <p style=\"margin-bottom: 0; margin-top: 0;\"> <h1 style=\"margin-top: 0rem;\">To run Qwen3.5 locally - <a href=\"https://unsloth.ai/docs/models/qwen3.5\">Read our Guide!</a></h1> </p> <p style=\"margin-top: 0;margin-bottom: 0;\"> <em><a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"margin-top: 0;display: flex; gap: 5px; align-items: center; \"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.5\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF",
+      "cardSummary": "unsloth/Qwen3.5-35B-A3B-GGUF Image-Text-to-Text • 35B • Updated 13 days ago • 1.68M • 694"
+    },
+    {
+      "rank": 28,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/28-unsloth-nvidia-nemotron-3-super-120b-a12b-gguf.png",
+      "modelName": "unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF",
+      "modelDescription": "unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF 是一款经过 Unsloth Dynamic 2.0 量化处理的超大规模文本生成模型。凭借 120B 参数量，该模型在本地环境中具备极强的自然语言处理和逻辑分析能力。它专为追求顶尖文本生成质量并具备高性能计算硬件的专业用户设计。",
+      "sourceDescription": "<div> <p style=\"margin-top: 0;margin-bottom: 0;\"> <em>See <a href=\"https://docs.unsloth.ai/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0 GGUFs</a> for our quantization benchmarks.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; \"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/nemotron-3-super\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF",
+      "cardSummary": "unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF Text Generation • 121B • Updated 7 days ago • 45.7k • 81"
+    },
+    {
+      "rank": 29,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/29-unsloth-ltx-2-3-gguf.png",
+      "modelName": "unsloth/LTX-2.3-GGUF",
+      "modelDescription": "unsloth/LTX-2.3-GGUF 是 LTX-2.3 视频生成模型的 GGUF 量化版本，集成了 Unsloth Dynamic 2.0 方法以提升性能。通过对关键层进行高精度上转型处理，该模型在本地执行图像转视频任务时实现了出色的平衡，旨在降低大规模视频生成模型的运行门槛，适配主流的 ComfyUI 工作流。",
+      "sourceDescription": "This is a GGUF quantized version of LTX-2.3. <br> unsloth/LTX-2.3-GGUF uses Unsloth Dynamic 2.0 methodology for SOTA performance. - Important layers are upcasted to higher precision. - Uses tooling from ComfyUI-GGUF by city96.",
+      "modelUrl": "https://huggingface.co/unsloth/LTX-2.3-GGUF",
+      "cardSummary": "unsloth/LTX-2.3-GGUF Image-to-Video • 21B • Updated 8 days ago • 111k • 211"
+    },
+    {
+      "rank": 30,
+      "recordDate": "2026-03-18",
+      "modelCard": "assets/huggingface_model_cards/2026-03-18/30-miromind-ai-mirothinker-1-7.png",
+      "modelName": "miromind-ai/MiroThinker-1.7",
+      "modelDescription": "miromind-ai/MiroThinker-1.7 是一款参数规模高达 235B 的超大规模文本生成模型。该模型定位为高性能通用人工智能助手，具备深度的逻辑推理与知识整合能力。它适用于需要处理复杂任务、深层次文本创作及高质量自动应答的专业应用场景，对计算资源有较高要求。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"https://cdn-uploads.huggingface.co/production/uploads/6466e7be1343dce20e59191b/uWvc1L779NGAT5PB1kldO.png\" width=\"55%\" alt=\"MiroThinker\" /> </div>",
+      "modelUrl": "https://huggingface.co/miromind-ai/MiroThinker-1.7",
+      "cardSummary": "miromind-ai/MiroThinker-1.7 Text Generation • 235B • Updated 3 days ago • 677 • 85"
+    }
+  ]
+}
