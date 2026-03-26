@@ -1,0 +1,307 @@
+{
+  "recordDate": "2026-03-26",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 30,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/01-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled.png",
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "modelDescription": "该模型是基于Qwen3.5-27B的推理蒸馏版本，优化了Jinja模板以适配Claude Code等现代编码代理，修复了开发者角色崩溃问题。它默认启用持续推理模式，支持长达9分钟以上的连续运行，显著提升了在自动化开发任务中的自主性和运行稳定性，是提升编码代理体验的针对性改进方案。",
+      "sourceDescription": "Build Environment Upgrades: - Fine-tuning Framework : Unsloth 2026.3.3 - Core Dependencies : Transformers 5.2.0 - This model fixes the crash in the official model caused by the Jinja template not supporting the \"developer\" role. (commonly sent by modern coding agents like Claude Code and OpenCode) - It does not disable thinking mode by default , and allowing the agent to run continuously for over 9 minutes without interruption . - Compared to the original model, autonomy and stability are significantly improved .",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled Image-Text-to-Text • 28B • Updated 3 days ago • 184k • 1.39k"
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/02-hauhaucs-qwen3-5-35b-a3b-uncensored-hauhaucs-aggressive.png",
+      "modelName": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "modelDescription": "HauhauCS推出的Qwen3.5-35B-A3B无审查版本，保留了原始模型的所有数据集特征与核心功能。该版本主要去除了模型在输出时的拒绝机制与安全合规限制，旨在提供更加自由、无遮拦的交互体验，适用于对回复内容有特殊需求或进行无限制文本生成的科研与实验场景。",
+      "sourceDescription": "No changes to datasets or capabilities. Fully functional, 100% of what the original authors intended - just without the refusals.",
+      "modelUrl": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "cardSummary": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive Image-Text-to-Text • 35B • Updated 16 days ago • 425k • 973"
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/03-nvidia-nemotron-cascade-2-30b-a3b.png",
+      "modelName": "nvidia/Nemotron-Cascade-2-30B-A3B",
+      "modelDescription": "NVIDIA推出的Nemotron-Cascade-2-30B-A3B模型，定位为高性能文本生成模型。作为Cascade系列的新成员，该模型侧重于提升推理效率与生成质量，适用于多种需要复杂逻辑处理与高质量文本输出的自然语言处理任务，是NVIDIA在开源模型领域持续投入的重要产物，具备强大的生产力应用潜能。",
+      "sourceDescription": "<img src=\"fig/nemotron-cascade-2-results.png\" alt=\"main fig\" style=\"width: 1000px; max-width: 100%;\" />",
+      "modelUrl": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
+      "cardSummary": "nvidia/Nemotron-Cascade-2-30B-A3B Text Generation • 32B • Updated 2 days ago • 55.5k • 319"
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/04-gair-davinci-magihuman.png",
+      "modelName": "GAIR/daVinci-MagiHuman",
+      "modelDescription": "GAIR实验室开发的daVinci-MagiHuman是一款采用单流架构设计的图像转视频生成模型。该模型核心亮点在于追求简洁高效，通过简化架构实现快速的视听内容生成，旨在为视频生成领域提供一种轻量化且高性能的开源基础框架，适用于快速创作高质量动态影像的各类创意应用。",
+      "sourceDescription": "Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model",
+      "modelUrl": "https://huggingface.co/GAIR/daVinci-MagiHuman",
+      "cardSummary": "GAIR/daVinci-MagiHuman Image-to-Video • Updated 1 day ago • 273 • 193"
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/05-mistralai-voxtral-4b-tts-2603.png",
+      "modelName": "mistralai/Voxtral-4B-TTS-2603",
+      "modelDescription": "Mistral AI发布的Voxtral-4B-TTS是一款前沿的开源文本转语音模型，具备高响应速度与即时适应能力。该模型采用BF16权重，能生成自然逼真的拟人语音，非常适合嵌入到各类语音对话代理系统中。其提供的参考声音采用CC BY-NC 4许可，为开发者构建交互式语音应用提供了高效的基础工具。",
+      "sourceDescription": "Voxtral TTS is a frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents. The model is released with BF16 weights and a set of reference voices. These voices are licensed under CC BY-NC 4, which is the license that the model inherits.",
+      "modelUrl": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+      "cardSummary": "mistralai/Voxtral-4B-TTS-2603 Text-to-Speech • Updated about 8 hours ago • 108 • 175"
+    },
+    {
+      "rank": 6,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/06-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf.png",
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "modelDescription": "这是Qwen3.5-27B推理蒸馏模型的v2版GGUF格式。该版本显著提升了推理效率，思维链长度缩减24%，代码生成正确率更高。尽管在HumanEval上保持了高精度，但在MMLU-Pro等广义知识任务上略有权衡，更加侧重于高效的代码逻辑推理，适合在资源受限环境下进行高性能开发辅助工作。",
+      "sourceDescription": "v2 Update: - Accuracy preserved: Matches base model on HumanEval ( 96.91% pass@1 ) - Shorter reasoning: 24% reduction in chain-of-thought length - Higher efficiency: +31.6% more correct solutions per token - ⚠️ Trade-off: −1.24% on HumanEval+ −7.2% on MMLU-Pro (Indicating reduced general knowledge reasoning performance) ⚠️Note: Due to the scope of SFT data and training focus, the model may underperform the base model on certain tasks requiring long-context understanding or more complex multi-step reasoning. The efficiency and accuracy results reported here are based solely on the HumanEval and HumanEval+ benchmarks. Thank you for your understanding.",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF Image-Text-to-Text • 27B • Updated 2 days ago • 57.1k • 167"
+    },
+    {
+      "rank": 7,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/07-tesslate-omnicoder-9b.png",
+      "modelName": "Tesslate/OmniCoder-9B",
+      "modelDescription": "Tesslate发布的OmniCoder-9B是一款专注于代码生成与编程辅助的文本生成模型。该模型具备中等规模参数，旨在通过高效的架构设计在代码编写、调试及解释任务中提供准确的建议。其轻量化设计使其能灵活部署于本地开发环境，为开发者提供实时、精准的代码补全与逻辑辅助支持。",
+      "sourceDescription": "<img src=\"omnicoder-banner.png\" alt=\"OmniCoder\" width=\"720\">",
+      "modelUrl": "https://huggingface.co/Tesslate/OmniCoder-9B",
+      "cardSummary": "Tesslate/OmniCoder-9B Text Generation • Updated 14 days ago • 22.1k • 475"
+    },
+    {
+      "rank": 8,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/08-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf.png",
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "modelDescription": "此为Qwen3.5-27B推理蒸馏模型的GGUF格式版本，专门针对本地运行进行优化。它修复了官方模型在处理现代编码代理请求时的模板兼容性错误，并保持了长时间连续推理的能力。通过Unsloth框架优化，在保障自主性的同时，提升了模型在不同硬件环境下的部署便捷性与运行稳定性。",
+      "sourceDescription": "Build Environment Upgrades: - Fine-tuning Framework : Unsloth 2026.3.3 - Core Dependencies : Transformers 5.2.0 - This model fixes the crash in the official model caused by the Jinja template not supporting the \"developer\" role. (commonly sent by modern coding agents like Claude Code and OpenCode) - It does not disable thinking mode by default , and allowing the agent to run continuously for over 9 minutes without interruption . - Compared to the original model, autonomy and stability are significantly improved .",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF Image-Text-to-Text • 27B • Updated 3 days ago • 511k • 426"
+    },
+    {
+      "rank": 9,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/09-baidu-qianfan-ocr.png",
+      "modelName": "baidu/Qianfan-OCR",
+      "modelDescription": "百度推出的Qianfan-OCR是一款统一的端到端文档智能模型，拥有50亿参数。该模型专注于图像到文本的转换任务，旨在处理各类文档图像的识别与理解，适用于企业级文档数字化、自动化办公以及复杂场景下的文本提取，为文档智能化分析提供高效的底层支持。",
+      "sourceDescription": "<h3>A Unified End-to-End Model for Document Intelligence</h3>",
+      "modelUrl": "https://huggingface.co/baidu/Qianfan-OCR",
+      "cardSummary": "baidu/Qianfan-OCR Image-Text-to-Text • 5B • Updated about 10 hours ago • 11.9k • 379"
+    },
+    {
+      "rank": 10,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/10-jackrong-qwen3-5-9b-claude-4-6-opus-reasoning-distilled-v2-gguf.png",
+      "modelName": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "modelDescription": "该模型基于Qwen3.5-9B架构，通过蒸馏Claude-4.6-Opus的推理能力训练而成。由于微调样本量和训练范围的限制，其通用任务表现略有折损。模型采用GGUF格式发布，旨在通过较小参数量实现高性能的复杂逻辑推理，适用于对推理精度有一定要求的本地化部署与研究场景。",
+      "sourceDescription": "Note: Due to the constraints of SFT sample size and training scope, the model's broad general-purpose capabilities might be slightly impacted. The efficiency and accuracy results discussed here are based on the HumanEval and HumanEval+ benchmarks. Thank you for your understanding!",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "cardSummary": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF Image-Text-to-Text • 9B • Updated 4 days ago • 66.9k • 168"
+    },
+    {
+      "rank": 11,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/11-coherelabs-cohere-transcribe-03-2026.png",
+      "modelName": "CohereLabs/cohere-transcribe-03-2026",
+      "modelDescription": "CohereLabs开发的cohere-transcribe-03-2026是一款开源语音识别（ASR）模型，参数量为20亿。该模型支持14种语言，专注于将音频转化为文本。其定位为专用的语音处理工具，适用于开发语音转写系统、会议纪要生成及多语言语音交互应用，提供稳定且高效的音频处理能力。",
+      "sourceDescription": "Cohere Transcribe is an open source release of a 2B parameter dedicated audio-in, text-out, automatic speech recognition (ASR) model. The model supports 14 languages.",
+      "modelUrl": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+      "cardSummary": "CohereLabs/cohere-transcribe-03-2026 Automatic Speech Recognition • Updated about 10 hours ago • 13 • 128"
+    },
+    {
+      "rank": 12,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/12-royalcities-foundation-1.png",
+      "modelName": "RoyalCities/Foundation-1",
+      "modelDescription": "RoyalCities发布的Foundation-1模型，旨在提供通用的基础架构支撑。该模型通过整合多领域数据进行训练，具备广泛的泛化能力。虽然具体的架构细节与应用领域描述有限，但其定位为底层基础模型，可作为多种下游任务的起点，适用于需要通用模型架构进行二次开发或特定垂直领域微调的用户。",
+      "sourceDescription": "<center><img src=\"https://huggingface.co/RoyalCities/Foundation-1/resolve/main/Charts/banner.PNG\" alt=\"Foundation-1 Banner\" width=\"100%\"></center>",
+      "modelUrl": "https://huggingface.co/RoyalCities/Foundation-1",
+      "cardSummary": "RoyalCities/Foundation-1 Updated 10 days ago • 269"
+    },
+    {
+      "rank": 13,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/13-hauhaucs-qwen3-5-9b-uncensored-hauhaucs-aggressive.png",
+      "modelName": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "modelDescription": "HauhauCS发布的Qwen3.5-9B-Uncensored模型，是基于原版Qwen3.5-9B的去限制版本。该模型完全保留了原版模型的架构与核心能力，移除了原有的输出拒绝机制。这一设计旨在为用户提供更无阻碍的交互体验，适用于需要模型在处理敏感话题或特定指令时保持高度一致性与响应率的科研与开发需求。",
+      "sourceDescription": "No changes to datasets or capabilities. Fully functional, 100% of what the original authors intended - just without the refusals.",
+      "modelUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "cardSummary": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive 9B • Updated 23 days ago • 440k • 661"
+    },
+    {
+      "rank": 14,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/14-fishaudio-s2-pro.png",
+      "modelName": "fishaudio/s2-pro",
+      "modelDescription": "Fish Audio推出的s2-pro是一款50亿参数的文本转语音（TTS）模型。该模型支持多说话人、多轮对话生成，并具备细粒度控制能力，支持低延迟流式传输与长上下文推理。其核心优势在于高质量的语音合成表现，非常适合需要高自然度、多语调定制以及实时语音交互的音频产品开发与创意应用。",
+      "sourceDescription": "<img src=\"overview.png\" alt=\"Fish Audio S2 Pro overview — fine-grained control, multi-speaker multi-turn generation, low-latency streaming, and long-context inference.\" width=\"100%\">",
+      "modelUrl": "https://huggingface.co/fishaudio/s2-pro",
+      "cardSummary": "fishaudio/s2-pro Text-to-Speech • 5B • Updated 15 days ago • 15.3k • 753"
+    },
+    {
+      "rank": 15,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/15-qwen-qwen3-5-9b.png",
+      "modelName": "Qwen/Qwen3.5-9B",
+      "modelDescription": "Qwen/Qwen3.5-9B是通义千问系列的一款中等参数规模的多模态模型。该模型在处理图像与文本输入方面表现稳健，具备广泛的应用适应性。作为通用大模型，它在语言理解、逻辑推理及多模态感知任务上表现均衡，适合部署于各类需要文本生成、数据分析及多模态理解的任务中，是目前开发者常用的基座模型之一。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/logo qwen3.5.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "cardSummary": "Qwen/Qwen3.5-9B Image-Text-to-Text • 10B • Updated 25 days ago • 3.74M • • 1.04k"
+    },
+    {
+      "rank": 16,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/16-lightricks-ltx-2-3.png",
+      "modelName": "Lightricks/LTX-2.3",
+      "modelDescription": "Lightricks推出的LTX-2.3是一款图像到视频生成模型，作为LTX-2的升级版，其显著提升了视听质量并优化了对提示词的遵循能力。该模型基于高效的视听基础架构，适用于内容创作者与开发者进行短视频生成、动画制作及视觉特效创作，通过高质量的输出实现从静态图像到动态视频的精准转换。",
+      "sourceDescription": "This model card focuses on the LTX-2.3 model, which is a significant update to the LTX-2 model with improved audio and visual quality as well as enhanced prompt adherence. LTX-2 was presented in the paper LTX-2: Efficient Joint Audio-Visual Foundation Model.",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.3",
+      "cardSummary": "Lightricks/LTX-2.3 Image-to-Video • Updated 11 days ago • 1.18M • 778"
+    },
+    {
+      "rank": 17,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/17-zai-org-glm-ocr.png",
+      "modelName": "zai-org/GLM-OCR",
+      "modelDescription": "GLM-OCR 是由 zai-org 开发的图像转文字模型，专注于高性能 OCR 任务。该模型通过先进的视觉语言架构，能够精准识别和转换复杂文档中的文字信息，适用于数字化办公、自动化文档处理及各类需要高效文字提取的场景，官方提供 API 和 SDK 以便于开发者快速集成。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-OCR/refs/heads/main/resources/logo.svg width=\"40%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-OCR/refs/heads/main/resources/wechat.jpg\" target=\" blank\">WeChat</a> and <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community <br> 📍 Use GLM-OCR's <a href=\"https://docs.z.ai/guides/vlm/glm-ocr\" target=\" blank\">API</a> <br> 👉 <a href=\"https://github.com/zai-org/GLM-OCR\" target=\" blank\">GLM-OCR SDK</a> Recommended <br> 📖 <a href=\"https://arxiv.org/abs/2603.10910\" target=\" blank\"> Technical Report</a> </p>",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-OCR",
+      "cardSummary": "zai-org/GLM-OCR Image-to-Text • Updated 15 days ago • 3.64M • • 1.47k"
+    },
+    {
+      "rank": 18,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/18-qwen-qwen3-5-35b-a3b.png",
+      "modelName": "Qwen/Qwen3.5-35B-A3B",
+      "modelDescription": "Qwen3.5-35B-A3B 是通义千问系列的多模态大语言模型，具备 36B 参数规模。该模型集成了强大的图文理解与生成能力，旨在处理复杂的跨模态指令任务。它在保持通用语义理解的基础上，强化了视觉感知深度，适用于需要同时进行多模态分析、推理及内容创作的专业应用场景。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/logo qwen3.5.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+      "cardSummary": "Qwen/Qwen3.5-35B-A3B Image-Text-to-Text • 36B • Updated 28 days ago • 2.93M • • 1.26k"
+    },
+    {
+      "rank": 19,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/19-mistralai-mistral-small-4-119b-2603.png",
+      "modelName": "mistralai/Mistral-Small-4-119B-2603",
+      "modelDescription": "Mistral Small 4 是一款 119B 参数的混合架构模型，融合了指令执行、深度推理和开发辅助三大模型系列的优势。其定位为全能型模型，旨在通过单一架构平衡通用指令遵循与复杂逻辑推导。该模型适用于需要高性能、高逻辑稳定性以及多场景任务处理的复杂企业级应用环境。",
+      "sourceDescription": "Mistral Small 4 is a powerful hybrid model capable of acting as both a general instruction model and a reasoning model. It unifies the capabilities of three different model families— Instruct , Reasoning (previously called Magistral), and Devstral —into a single, unified model.",
+      "modelUrl": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603",
+      "cardSummary": "mistralai/Mistral-Small-4-119B-2603 119B • Updated 1 day ago • 41.9k • 328"
+    },
+    {
+      "rank": 20,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/20-jackrong-qwen3-5-4b-claude-4-6-opus-reasoning-distilled-v2-gguf.png",
+      "modelName": "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "modelDescription": "该模型基于 Qwen3.5-4B 构建，通过蒸馏 Claude 4.6 Opus 的推理能力进行优化。v2 版本重点改进了推理效率与结构化思维，通过减少冗余循环提升了模型在编程、数学及逻辑分析中的泛化表现。该模型在保持轻量化的同时，确保了多步复杂任务处理的稳定性和鲁棒性，适合对推理成本敏感的开发者。",
+      "sourceDescription": "v2 Update: This iteration is powered by 14,000+ premium Claude 4.6 Opus-style general reasoning samples , with a major focus on optimizing reasoning economy and structural efficiency . v2 introduces a refined reasoning scaffold designed to eliminate redundant internal loops, significantly improving the model's cross-task generalization from logic and math into specialized fields like programming. Compared to the original model, autonomy and stability are significantly improved , ensuring the model remains robust and self-consistent during complex, multi-step problem solving. v2 is built to think smarter, not longer , ensuring high-quality analytical depth with a much better reasoning-cost-to-quality ratio.",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "cardSummary": "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF Image-Text-to-Text • 4B • Updated 8 days ago • 28.2k • 75"
+    },
+    {
+      "rank": 21,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/21-jackrong-qwen3-5-9b-claude-4-6-opus-reasoning-distilled-gguf.png",
+      "modelName": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "modelDescription": "此模型是 Qwen3.5-9B 的推理增强版，通过蒸馏自更高级别模型及高质量推理数据集进行训练。其核心在于强化结构化思维过程，在科学探索、数学演算及指令遵循等方面表现出色。该版本旨在提升模型在复杂推理任务中的深度与多样性，适用于追求高逻辑质量、需要逐步引导解决难题的研究与开发场景。",
+      "sourceDescription": "Update: This model has been further enhanced with additional reasoning data distilled from Qwen3.5-27B . The new training data introduces higher-quality reasoning trajectories across domains such as science, instruction-following, and mathematics . Part of the data comes from Jackrong/Qwen3.5-reasoning-700x , a curated dataset designed to improve structured step-by-step reasoning and reasoning diversity .",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "cardSummary": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF Text Generation • 9B • Updated 11 days ago • 158k • 182"
+    },
+    {
+      "rank": 22,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/22-runexx-ltx-2-3-workflows.png",
+      "modelName": "RuneXX/LTX-2.3-Workflows",
+      "modelDescription": "LTX-2.3-Workflows 是专为 LTX 模型设计的图像转视频工作流组件。该项目专注于优化从静态图像到动态视频的生成流程，为视频生成任务提供了一套整合化的处理方案。通过此工作流，用户可以更高效地管理视频生成过程中的参数与控制，适用于数字内容创作、动画辅助及视觉特效制作等领域。",
+      "sourceDescription": "<video controls> <source src=\"https://cdn-uploads.huggingface.co/production/uploads/64afc36a09727d75e9ca79aa/UisZ7XyIYhQgcnIKnt8h0.mp4\" type=\"video/mp4\"> Your browser does not support the video tag. </video>",
+      "modelUrl": "https://huggingface.co/RuneXX/LTX-2.3-Workflows",
+      "cardSummary": "RuneXX/LTX-2.3-Workflows Image-to-Video • Updated 1 day ago • 245"
+    },
+    {
+      "rank": 23,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/23-jackrong-qwen3-5-9b-claude-4-6-opus-reasoning-distilled-v2.png",
+      "modelName": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2",
+      "modelDescription": "这是 Qwen3.5-9B 的第二代推理蒸馏版本，针对推理任务进行了专门优化。该模型通过特定领域的数据集训练，提升了在编程（HumanEval 等基准）和复杂逻辑任务中的表现。尽管作为专用蒸馏模型在广度上有所侧重，但其在推理效率和准确性方面的优化，使其成为处理编程难题和复杂分析的有效工具。",
+      "sourceDescription": "Note: Due to the constraints of SFT sample size and training scope, the model's broad general-purpose capabilities might be slightly impacted. The efficiency and accuracy results discussed here are based on the HumanEval and HumanEval+ benchmarks. Thank you for your understanding!",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2",
+      "cardSummary": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2 Image-Text-to-Text • 10B • Updated 4 days ago • 31.3k • 124"
+    },
+    {
+      "rank": 24,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/24-datalab-to-chandra-ocr-2.png",
+      "modelName": "datalab-to/chandra-ocr-2",
+      "modelDescription": "chandra-ocr-2 是一款 5B 参数规模的视觉语言模型，专门针对 OCR（光学字符识别）任务进行优化。它能够有效解析图像中的文字内容，并将其转换为文本格式。该模型定位轻量且高效，适用于对识别精度有较高要求，但同时需要平衡推理成本的移动端或边缘计算文档识别应用。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"datalab-logo.png\" alt=\"Datalab Logo\" width=\"150\"/> </p>",
+      "modelUrl": "https://huggingface.co/datalab-to/chandra-ocr-2",
+      "cardSummary": "datalab-to/chandra-ocr-2 Image-Text-to-Text • 5B • Updated 8 days ago • 13.4k • 110"
+    },
+    {
+      "rank": 25,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/25-rednote-hilab-dots-mocr.png",
+      "modelName": "rednote-hilab/dots.mocr",
+      "modelDescription": "dots.mocr 是由小红书团队开发的一款专门用于图像文字提取与理解的模型。该模型擅长处理复杂的文档布局与多样的图像文本，具备高精度的识别能力。它主要应用于文档数字化、自动化办公及需要解析复杂图片内容的场景，能够为用户提供高效的视觉转文本解决方案。",
+      "sourceDescription": "<div align=\"center\"> <a href=\"https://dotsocr.xiaohongshu.com\" target=\" blank\" rel=\"noopener noreferrer\"><strong>🖥️ Live Demo</strong></a> | <a href=\"https://raw.githubusercontent.com/rednote-hilab/dots.ocr/master/assets/wechat.jpg\" target=\" blank\" rel=\"noopener noreferrer\"><strong>💬 WeChat</strong></a> | <a href=\"https://www.xiaohongshu.com/user/profile/683ffe42000000001d021a4c\" target=\" blank\" rel=\"noopener noreferrer\"><strong>📕 rednote</strong></a> | <a href=\"https://x.com/rednotehilab\" target=\" blank\" rel=\"noopener noreferrer\"><strong>🐦 X</strong></a> </div>",
+      "modelUrl": "https://huggingface.co/rednote-hilab/dots.mocr",
+      "cardSummary": "rednote-hilab/dots.mocr Image-Text-to-Text • 3B • Updated 6 days ago • 21.2k • 69"
+    },
+    {
+      "rank": 26,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/26-hauhaucs-qwen3-5-122b-a10b-uncensored-hauhaucs-aggressive.png",
+      "modelName": "HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive",
+      "modelDescription": "Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive 是 Qwen3.5 系列的一个非受限版本。该模型完全保留了原始模型的能力与架构，但移除了相关的回答拒绝机制。这种配置旨在满足需要不受限制输出的专业用户需求，适用于科研探索、创意写作或特定不受约束的复杂推理任务场景。",
+      "sourceDescription": "No changes to datasets or capabilities. Fully functional, 100% of what the original authors intended - just without the refusals.",
+      "modelUrl": "https://huggingface.co/HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive",
+      "cardSummary": "HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive Image-Text-to-Text • 122B • Updated 4 days ago • 53.6k • 61"
+    },
+    {
+      "rank": 27,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/27-moonshotai-kimi-k2-5.png",
+      "modelName": "moonshotai/Kimi-K2.5",
+      "modelDescription": "Kimi-K2.5 是月之暗面推出的超大规模语言模型。它在超长上下文理解、多模态处理以及复杂逻辑推理方面表现卓越。作为一款全能型大模型，Kimi-K2.5 广泛应用于企业级数据分析、深度科研助手、复杂文档总结及创意内容创作等高复杂度任务场景，具有较强的内容生成与分析实力。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"figures/kimi-logo.png\" width=\"30%\" alt=\"Kimi K2.5\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K2.5-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://github.com/moonshotai/Kimi-K2.5\"><img alt=\"github\" src=\"https://img.shields.io/badge/Github-Kimi%20K2.5-181717?logo=github&color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K2.5",
+      "cardSummary": "moonshotai/Kimi-K2.5 Image-Text-to-Text • 1.1T • Updated 27 days ago • 3.98M • • 2.36k"
+    },
+    {
+      "rank": 28,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/28-meituan-longcat-longcat-next.png",
+      "modelName": "meituan-longcat/LongCat-Next",
+      "modelDescription": "LongCat-Next 是美团开发的一款高性能多模态大模型。该模型定位为 Any-to-Any 的多功能架构，具备处理文本、视觉等多源数据的出色能力，专注于复杂交互任务的执行。它能够灵活应用于自动化 agent 开发、多模态信息处理与决策支持等场景，致力于提升大规模任务场景下的智能化处理效率。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"https://raw.githubusercontent.com/meituan-longcat/LongCat-Flash-Chat/main/figures/longcat logo.svg\" width=\"300\" alt=\"LongCat Logo\"/> </div>",
+      "modelUrl": "https://huggingface.co/meituan-longcat/LongCat-Next",
+      "cardSummary": "meituan-longcat/LongCat-Next Any-to-Any • 74B • Updated about 20 hours ago • 15 • 59"
+    },
+    {
+      "rank": 29,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/29-minimaxai-minimax-m2-5.png",
+      "modelName": "MiniMaxAI/MiniMax-M2.5",
+      "modelDescription": "MiniMax-M2.5 是 MiniMax 推出的一款大规模文本生成模型。它在自然语言理解与多轮对话交互方面具有显著优势，能够处理复杂指令并提供准确的回答。该模型定位于高质量文本创作、智能对话助理以及各类需要深度逻辑分析的商业应用场景，是当前主流的通用大语言模型之一。",
+      "sourceDescription": "<svg width=\"60%\" height=\"auto\" viewBox=\"0 0 144 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <path d=\"M26.6782 7.96523C26.6782 7.02436 25.913 6.26087 24.9739 6.26087C24.0348 6.26087 23.2695 7.0261 23.2695 7.96523V36.2139C23.2695 38.4 21.4904 40.1791 19.3043 40.1791C17.1183 40.1791 15.3391 38.4 15.3391 36.2139V18.0904C15.3391 17.1496 14.5739 16.3861 13.6348 16.3861C12.6956 16.3861 11.9304 17.1513 11.9304 18.0904V25.7722C11.9304 27.9583 10.1513 29.7374 7.96518 29.7374C5.7791 29.7374 4 27.9583 4 25.7722V22.9878C4 22.3635 4.50609 21.8574 5.13043 21.8574C5.75478 21.8574 6.26087 22.3635 6.26087 22.9878V25.7722C6.26087 26.713 7.02605 27.4765 7.96518 27.4765C8.90431 27.4765 9.66954 26.7113 9.66954 25.7722V18.0904C9.66954 15.9044 11.4487 14.1252 13.6348 14.1252C15.8209 14.1252 17.6 15.9044 17.6 18.0904V36.2139C17.6 37.1548 18.3652 37.9183 19.3043 37.9183C20.2435 37.9183 21.0087 37.153 21.0087 36.2139V25.1322V7.96523C21.0087 5.77914 22.7878 4 24.9739 4C27.16 4 28.9391 5.77914 28.9391 7.96523V31.3565C28.9391 31.9809 28.433 32.487 27.8087 32.487C27.1843 32.487 26.6782 31.9809 26.6782 31.3565V7.96523ZM47.6539 14.1252C45.4678 14.1252 43.6887 15.9044 43.6887 18.0904V33.2296C43.6887 34.1704 42.9235 34.9339 41.9843 34.9339C41.0452 34.9339 40.28 34.1687 40.28 33.2296V7.96523C40.28 5.77914 38.5008 4 36.3148 4C34.1287 4 32.3496 5.77914 32.3496 7.96523V40.0348C32.3496 40.9756 31.5843 41.7391 30.6452 41.7391C29.7061 41.7391 28.9409 40.9739 28.9409 40.0348V36.0643C28.9409 35.44 28.4348 34.9339 27.8104 34.9339C27.1861 34.9339 26.68 35.44 26.68 36.0643V40.0348C26.68 42.2209 28.4591 44 30.6452 44C32.8313 44 34.6104 42.2209 34.6104 40.0348V7.96523C34.6104 7.02436 35.3756 6.26087 36.3148 6.26087C37.2539 6.26087 38.0191 7.0261 38.0191 7.96523V33.2296C38.0191 35.4156 39.7982 37.1948 41.9843 37.1948C44.1704 37.1948 45.9496 35.4156 45.9496 33.2296V18.0904C45.9496 17.1496 46.7148 16.3861 47.6539 16.3861C48.593 16.3861 49.3582 17.1513 49.3582 18.0904V31.3565C49.3582 31.9809 49.8643 32.487 50.4887 32.487C51.113 32.487 51.6191 31.9809 51.6191 31.3565V18.0904C51.6191 15.9044 49.84 14.1252 47.6539 14.1252Z\" fill=\"url(#paint0 linear 17 483)\"/> <path d=\"M68.7671 16.5615H71.2541C71.3254 16.5615 71.3845 16.5859 71.435 16.6363C71.4836 16.6868 71.5097 16.7459 71.5097 16.8172V31.1824C71.5097 31.2537 71.4854 31.3128 71.435 31.3633C71.3845 31.4137 71.3254 31.4381 71.2541 31.4381H68.7671C68.6958 31.4381 68.6367 31.4137 68.5862 31.3633C68.5358 31.3146 68.5115 31.2537 68.5115 31.1824V21.812C68.5115 21.7563 68.4976 21.7268 68.4697 21.7268C68.4419 21.7268 68.4123 21.7476 68.3845 21.7911L66.1323 25.318C66.061 25.4311 65.9619 25.4885 65.8349 25.4885H64.581C64.4541 25.4885 64.3549 25.4328 64.2836 25.318L62.0315 21.7911C62.0036 21.7494 61.9741 21.7302 61.9462 21.7372C61.9184 21.7441 61.9045 21.7772 61.9045 21.8328V31.1824C61.9045 31.2537 61.8802 31.3128 61.8297 31.3633C61.7793 31.4137 61.7202 31.4381 61.6489 31.4381H59.1619C59.0906 31.4381 59.0315 31.4137 58.981 31.3633C58.9306 31.3146 58.9062 31.2537 58.9062 31.1824V16.8172C58.9062 16.7459 58.9306 16.6868 58.981 16.6363C59.0315 16.5859 59.0906 16.5615 59.1619 16.5615H61.6489C61.7758 16.5615 61.8749 16.6189 61.9462 16.732L65.1341 21.6833C65.1758 21.7685 65.2193 21.7685 65.261 21.6833L68.4697 16.732C68.541 16.6189 68.6402 16.5615 68.7671 16.5615Z\" fill=\"currentColor\"/> <path d=\"M74.1764 31.3633C74.1259 31.3146 74.1016 31.2537 74.1016 31.1824V16.8172C74.1016 16.7459 74.1259 16.6868 74.1764 16.6363C74.2268 16.5859 74.2859 16.5615 74.3572 16.5615H76.8442C76.9155 16.5615 76.9746 16.5859 77.0251 16.6363C77.0737 16.6868 77.0998 16.7459 77.0998 16.8172V31.1824C77.0998 31.2537 77.0755 31.3128 77.0251 31.3633C76.9746 31.4137 76.9155 31.4381 76.8442 31.4381H74.3572C74.2859 31.4381 74.2268 31.4137 74.1764 31.3633Z\" fill=\"currentColor\"/> <path d=\"M88.3066 16.6361C88.3553 16.5874 88.4162 16.5613 88.4875 16.5613H90.9744C91.0457 16.5613 91.1049 16.5857 91.1553 16.6361C91.204 16.6865 91.2301 16.7457 91.2301 16.817V31.1822C91.2301 31.2535 91.2057 31.3126 91.1553 31.363C91.1049 31.4135 91.0457 31.4378 90.9744 31.4378H88.5727C88.4301 31.4378 88.331 31.3822 88.2753 31.2674L82.771 22.1717C82.7431 22.13 82.7136 22.1109 82.6858 22.1178C82.6579 22.1248 82.644 22.1578 82.644 22.2135L82.6858 31.1805C82.6858 31.2518 82.6614 31.3109 82.611 31.3613C82.5606 31.4117 82.5014 31.4361 82.4301 31.4361H79.9431C79.8718 31.4361 79.8127 31.4117 79.7623 31.3613C79.7118 31.3126 79.6875 31.2518 79.6875 31.1805V16.8152C79.6875 16.7439 79.7118 16.6848 79.7623 16.6344C79.8127 16.5839 79.8718 16.5596 79.9431 16.5596H82.3449C82.4858 16.5596 82.5849 16.617 82.6423 16.73L88.124 25.7822C88.1518 25.8239 88.1797 25.8431 88.2092 25.8361C88.2371 25.8292 88.251 25.7978 88.251 25.7404L88.2301 16.8152C88.2301 16.7439 88.2545 16.6848 88.3049 16.6344L88.3066 16.6361Z\" fill=\"currentColor\"/> <path d=\"M93.8951 31.3633C93.8446 31.3146 93.8203 31.2537 93.8203 31.1824V16.8172C93.8203 16.7459 93.8446 16.6868 93.8951 16.6363C93.9455 16.5859 94.0047 16.5615 94.076 16.5615H96.5629C96.6342 16.5615 96.6934 16.5859 96.7438 16.6363C96.7925 16.6868 96.8186 16.7459 96.8186 16.8172V31.1824C96.8186 31.2537 96.7942 31.3128 96.7438 31.3633C96.6934 31.4137 96.6342 31.4381 96.5629 31.4381H94.076C94.0047 31.4381 93.9455 31.4137 93.8951 31.3633Z\" fill=\"currentColor\"/> <path d=\"M109.267 16.5615H111.754C111.825 16.5615 111.885 16.5859 111.935 16.6363C111.984 16.6868 112.01 16.7459 112.01 16.8172V31.1824C112.01 31.2537 111.985 31.3128 111.935 31.3633C111.885 31.4137 111.825 31.4381 111.754 31.4381H109.267C109.196 31.4381 109.137 31.4137 109.086 31.3633C109.036 31.3146 109.011 31.2537 109.011 31.1824V21.812C109.011 21.7563 108.998 21.7268 108.97 21.7268C108.942 21.7268 108.912 21.7476 108.885 21.7911L106.632 25.318C106.561 25.4311 106.462 25.4885 106.335 25.4885H105.081C104.954 25.4885 104.855 25.4328 104.784 25.318L102.531 21.7911C102.504 21.7494 102.474 21.7302 102.446 21.7372C102.418 21.7441 102.405 21.7772 102.405 21.8328V31.1824C102.405 31.2537 102.38 31.3128 102.33 31.3633C102.279 31.4137 102.22 31.4381 102.149 31.4381H99.6619C99.5906 31.4381 99.5315 31.4137 99.481 31.3633C99.4306 31.3146 99.4062 31.2537 99.4062 31.1824V16.8172C99.4062 16.7459 99.4306 16.6868 99.481 16.6363C99.5315 16.5859 99.5906 16.5615 99.6619 16.5615H102.149C102.276 16.5615 102.375 16.6189 102.446 16.732L105.634 21.6833C105.676 21.7685 105.719 21.7685 105.761 21.6833L108.97 16.732C109.041 16.6189 109.14 16.5615 109.267 16.5615Z\" fill=\"currentColor\"/> <path d=\"M123.782 31.2241L123.144 29.1424C123.116 29.0867 123.079 29.0572 123.038 29.0572H117.81C117.768 29.0572 117.732 29.085 117.704 29.1424L117.088 31.2241C117.046 31.3668 116.954 31.4363 116.812 31.4363H114.112C114.027 31.4363 113.963 31.412 113.921 31.3615C113.879 31.3128 113.871 31.2381 113.9 31.1389L118.49 16.7737C118.532 16.6328 118.624 16.5615 118.766 16.5615H122.102C122.243 16.5615 122.335 16.6328 122.379 16.7737L126.968 31.1389C126.982 31.1668 126.989 31.2033 126.989 31.245C126.989 31.372 126.911 31.4363 126.756 31.4363H124.057C123.916 31.4363 123.824 31.365 123.78 31.2241H123.782ZM118.554 26.7407H122.295C122.38 26.7407 122.408 26.6989 122.38 26.6137L120.467 20.3024C120.453 20.2467 120.432 20.2207 120.403 20.2276C120.375 20.2346 120.352 20.2589 120.339 20.3024L118.469 26.6137C118.455 26.6989 118.483 26.7407 118.554 26.7407Z\" fill=\"currentColor\"/> <path d=\"M128.222 31.353C128.18 31.2974 128.187 31.2261 128.243 31.1409L132.365 24.0643C132.393 24.0226 132.393 23.9791 132.365 23.9374L128.243 16.8609L128.201 16.7339C128.201 16.6209 128.28 16.5635 128.434 16.5635H131.133C131.274 16.5635 131.38 16.6209 131.452 16.7339L134.213 21.6C134.255 21.6852 134.299 21.6852 134.34 21.6L137.102 16.7339C137.173 16.6209 137.28 16.5635 137.42 16.5635H140.099C140.198 16.5635 140.269 16.5913 140.311 16.6487C140.353 16.7061 140.346 16.7756 140.29 16.8609L136.168 23.9374C136.154 23.9791 136.154 24.0226 136.168 24.0643L140.29 31.1409L140.332 31.2678C140.332 31.3809 140.253 31.4383 140.099 31.4383H137.42C137.278 31.4383 137.172 31.3826 137.102 31.2678L134.34 26.4226C134.299 26.3374 134.255 26.3374 134.213 26.4226L131.429 31.2678C131.358 31.3809 131.252 31.4383 131.111 31.4383H128.433C128.333 31.4383 128.262 31.4104 128.22 31.353H128.222Z\" fill=\"currentColor\"/> <defs> <linearGradient id=\"paint0 linear 17 483\" x1=\"3.99826\" y1=\"24\" x2=\"51.6208\" y2=\"24\" gradientUnits=\"userSpaceOnUse\"> <stop stop-color=\"#E21680\"/> <stop offset=\"1\" stop-color=\"#FF633A\"/> </linearGradient> </defs> </svg>",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5",
+      "cardSummary": "MiniMaxAI/MiniMax-M2.5 Text Generation • 229B • Updated 16 days ago • 512k • • 1.29k"
+    },
+    {
+      "rank": 30,
+      "recordDate": "2026-03-26",
+      "modelCard": "assets/huggingface_model_cards/2026-03-26/30-qwen-qwen3-5-27b.png",
+      "modelName": "Qwen/Qwen3.5-27B",
+      "modelDescription": "Qwen3.5-27B 是通义千问系列的一款中大规模模型。在保持高效推理性能的同时，它在语言逻辑、指令遵循及多模态感知能力上取得了平衡。该模型适合于本地部署或云端应用，广泛用于中型企业的自动化客服、辅助编程、数据归纳与内容生成等任务，是极具性价比的选择。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/logo qwen3.5.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-27B",
+      "cardSummary": "Qwen/Qwen3.5-27B Image-Text-to-Text • 28B • Updated 30 days ago • 2.47M • • 768"
+    }
+  ]
+}
