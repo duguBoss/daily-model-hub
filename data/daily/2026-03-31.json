@@ -1,0 +1,307 @@
+{
+  "recordDate": "2026-03-31",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 30,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/01-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled.png",
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "modelDescription": "该模型是基于Qwen3.5-27B的蒸馏版本，优化了Jinja模板以支持现代编程代理中的“developer”角色。通过修复崩溃问题并保持思维模式运行，提升了代理执行任务的自主性与稳定性，特别适合需要长时间推理的复杂编程与开发场景。",
+      "sourceDescription": "Build Environment Upgrades: - Fine-tuning Framework : Unsloth 2026.3.3 - Core Dependencies : Transformers 5.2.0 - This model fixes the crash in the official model caused by the Jinja template not supporting the \"developer\" role. (commonly sent by modern coding agents like Claude Code and OpenCode) - It does not disable thinking mode by default , and allowing the agent to run continuously for over 9 minutes without interruption . - Compared to the original model, autonomy and stability are significantly improved .",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled Image-Text-to-Text • 28B • Updated 8 days ago • 337k • 1.88k"
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/02-coherelabs-cohere-transcribe-03-2026.png",
+      "modelName": "CohereLabs/cohere-transcribe-03-2026",
+      "modelDescription": "Cohere Transcribe是一款开源的自动语音识别（ASR）模型，拥有20亿参数。该模型专为音频到文本转换任务设计，支持14种不同语言，旨在提供高效的语音转录能力，适用于各类需要处理多语言语音输入的音频转录应用场景。",
+      "sourceDescription": "Cohere Transcribe is an open source release of a 2B parameter dedicated audio-in, text-out automatic speech recognition (ASR) model. The model supports 14 languages.",
+      "modelUrl": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+      "cardSummary": "CohereLabs/cohere-transcribe-03-2026 Automatic Speech Recognition • Updated about 7 hours ago • 50.5k • 635"
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/03-mistralai-voxtral-4b-tts-2603.png",
+      "modelName": "mistralai/Voxtral-4B-TTS-2603",
+      "modelDescription": "Voxtral-4B-TTS是一款开源的文本转语音模型，具备快速响应与高度可定制的特点，能够生成自然的语音输出。该模型包含BF16权重及多种参考语音，非常适合集成至实时语音代理系统中，在各类人机交互场景中提供高质量的语音播报功能。",
+      "sourceDescription": "Voxtral TTS is a frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents. The model is released with BF16 weights and a set of reference voices. These voices are licensed under CC BY-NC 4, which is the license that the model inherits.",
+      "modelUrl": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+      "cardSummary": "mistralai/Voxtral-4B-TTS-2603 Text-to-Speech • Updated about 10 hours ago • 3.72k • 568"
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/04-baidu-qianfan-ocr.png",
+      "modelName": "baidu/Qianfan-OCR",
+      "modelDescription": "百度Qianfan-OCR是一款统一的端到端文档智能模型，参数规模约为50亿。该模型专注于图像到文本的转换任务，旨在解决复杂的文档识别与分析问题，适用于数字化办公、票据识别及自动化文档处理等高精度要求的业务场景。",
+      "sourceDescription": "<h3>A Unified End-to-End Model for Document Intelligence</h3>",
+      "modelUrl": "https://huggingface.co/baidu/Qianfan-OCR",
+      "cardSummary": "baidu/Qianfan-OCR Image-Text-to-Text • 5B • Updated 5 days ago • 17.6k • 696"
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/05-chromadb-context-1.png",
+      "modelName": "chromadb/context-1",
+      "modelDescription": "Context-1是一款200亿参数的智能代理搜索模型，专为处理多跳复杂查询而设计。作为检索子代理，它能自动分解查询、迭代检索信息并动态优化上下文，旨在与推理模型配合，提升复杂知识获取任务的准确性与处理效率。",
+      "sourceDescription": "Context-1 is a 20B parameter agentic search model trained to retrieve supporting documents for complex, multi-hop queries. It is designed to be used as a retrieval subagent alongside a frontier reasoning model: given a query, Context-1 decomposes it into subqueries, iteratively searches a corpus, and selectively edits its own context to free capacity for further exploration.",
+      "modelUrl": "https://huggingface.co/chromadb/context-1",
+      "cardSummary": "chromadb/context-1 Text Generation • 21B • Updated 2 days ago • 2.39k • 318"
+    },
+    {
+      "rank": 6,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/06-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf.png",
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "modelDescription": "这是Qwen3.5-27B蒸馏模型的v2版GGUF格式，在保持HumanEval高通过率的同时，显著缩短了推理链长度并提升了令牌利用效率。尽管其在部分大规模知识测试中表现略有权衡，但更适合对响应速度和算力成本敏感的任务场景。",
+      "sourceDescription": "v2 Update: - Accuracy preserved: Matches base model on HumanEval ( 96.91% pass@1 ) - Shorter reasoning: 24% reduction in chain-of-thought length - Higher efficiency: +31.6% more correct solutions per token - ⚠️ Trade-off: −1.24% on HumanEval+ −7.2% on MMLU-Pro (Indicating reduced general knowledge reasoning performance) ⚠️Note: Due to the scope of SFT data and training focus, the model may underperform the base model on certain tasks requiring long-context understanding or more complex multi-step reasoning. The efficiency and accuracy results reported here are based solely on the HumanEval and HumanEval+ benchmarks. Thank you for your understanding.",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF Image-Text-to-Text • 27B • Updated 7 days ago • 155k • 381"
+    },
+    {
+      "rank": 7,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/07-hauhaucs-qwen3-5-9b-uncensored-hauhaucs-aggressive.png",
+      "modelName": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "modelDescription": "该模型是Qwen3.5-9B的去限制化版本，保留了原模型的核心能力与数据集结构。主要调整在于移除了内置的拒绝回复机制，使模型在对话中更加开放，适用于寻求无审查内容输出以及对模型响应行为有特定控制需求的用户与开发者。",
+      "sourceDescription": "No changes to datasets or capabilities. Fully functional, 100% of what the original authors intended - just without the refusals.",
+      "modelUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "cardSummary": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive 9B • Updated 28 days ago • 623k • 870"
+    },
+    {
+      "rank": 8,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/08-facebook-tribev2.png",
+      "modelName": "facebook/tribev2",
+      "modelDescription": "tribev2是由Facebook开发的跨模态基础模型，集成了视觉、听觉与语言处理能力。该模型旨在服务于计算机神经科学研究领域，通过对多感官数据的综合建模，为相关学术探索提供底层技术支持，是前沿多模态人工智能研究的重要工具。",
+      "sourceDescription": "A Foundation Model of Vision, Audition, and Language for In-Silico Neuroscience",
+      "modelUrl": "https://huggingface.co/facebook/tribev2",
+      "cardSummary": "facebook/tribev2 Updated 5 days ago • 14.3k • 224"
+    },
+    {
+      "rank": 9,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/09-hauhaucs-qwen3-5-35b-a3b-uncensored-hauhaucs-aggressive.png",
+      "modelName": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "modelDescription": "该模型基于Qwen3.5-35B架构，通过移除安全拒答机制，旨在提供未经限制的原始模型输出。它保留了原版模型的所有核心能力和数据集特性，主要面向需要无审查、不受指令限制进行文本生成任务的开发者及研究人员。",
+      "sourceDescription": "No changes to datasets or capabilities. Fully functional, 100% of what the original authors intended - just without the refusals.",
+      "modelUrl": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "cardSummary": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive Image-Text-to-Text • 35B • Updated 21 days ago • 593k • 1.12k"
+    },
+    {
+      "rank": 10,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/10-gair-davinci-magihuman.png",
+      "modelName": "GAIR/daVinci-MagiHuman",
+      "modelDescription": "GAIR推出的daVinci-MagiHuman是一款采用单流架构设计的音频到视频生成模型。其核心定位是通过简化模型架构实现高效处理，专注于高质量的音视频合成任务，适用于需要快速生成多模态内容的场景。",
+      "sourceDescription": "Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model",
+      "modelUrl": "https://huggingface.co/GAIR/daVinci-MagiHuman",
+      "cardSummary": "GAIR/daVinci-MagiHuman Image-to-Video • Updated 6 days ago • 605 • 275"
+    },
+    {
+      "rank": 11,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/11-nvidia-nemotron-cascade-2-30b-a3b.png",
+      "modelName": "nvidia/Nemotron-Cascade-2-30B-A3B",
+      "modelDescription": "nvidia/Nemotron-Cascade-2-30B-A3B是一款32B参数规模的文本生成模型。作为Nvidia推出的Cascade系列后续版本，该模型在保持高效计算特性的同时，提升了语言理解与内容生成能力，旨在为各类AI应用提供强大的基座支持。",
+      "sourceDescription": "<img src=\"fig/nemotron-cascade-2-results.png\" alt=\"main fig\" style=\"width: 1000px; max-width: 100%;\" />",
+      "modelUrl": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
+      "cardSummary": "nvidia/Nemotron-Cascade-2-30B-A3B Text Generation • 32B • Updated 7 days ago • 83.8k • 430"
+    },
+    {
+      "rank": 12,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/12-tesslate-omnicoder-9b.png",
+      "modelName": "Tesslate/OmniCoder-9B",
+      "modelDescription": "Tesslate/OmniCoder-9B是一款专门针对编程领域优化的9B参数量级模型。该模型专注于提高代码补全、生成与调试的精准度，为开发者提供更高效、更具逻辑性的编程辅助体验，适用于自动化代码开发和软件工程场景。",
+      "sourceDescription": "<img src=\"omnicoder-banner.png\" alt=\"OmniCoder\" width=\"720\">",
+      "modelUrl": "https://huggingface.co/Tesslate/OmniCoder-9B",
+      "cardSummary": "Tesslate/OmniCoder-9B Text Generation • Updated 19 days ago • 29k • 546"
+    },
+    {
+      "rank": 13,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/13-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf.png",
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "modelDescription": "该模型是对Qwen3.5-27B的优化版，通过改进推理框架和环境依赖，增强了对Jinja模板的支持，修复了现代编程代理引发的崩溃问题。它提升了长时间连续推理的稳定性和自主性，特别适合复杂编程任务和长逻辑链条的推理场景。",
+      "sourceDescription": "Build Environment Upgrades: - Fine-tuning Framework : Unsloth 2026.3.3 - Core Dependencies : Transformers 5.2.0 - This model fixes the crash in the official model caused by the Jinja template not supporting the \"developer\" role. (commonly sent by modern coding agents like Claude Code and OpenCode) - It does not disable thinking mode by default , and allowing the agent to run continuously for over 9 minutes without interruption . - Compared to the original model, autonomy and stability are significantly improved .",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF Image-Text-to-Text • 27B • Updated 8 days ago • 704k • 516"
+    },
+    {
+      "rank": 14,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/14-meituan-longcat-longcat-next.png",
+      "modelName": "meituan-longcat/LongCat-Next",
+      "modelDescription": "meituan-longcat/LongCat-Next是一款74B参数的Any-to-Any多模态模型。该模型具备跨模态的广泛处理能力，能够处理多样化的输入输出转换任务。凭借其大模型规模，适用于需要高度通用性与复杂跨模态交互的生产环境及科研应用。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"https://raw.githubusercontent.com/meituan-longcat/LongCat-Flash-Chat/main/figures/longcat logo.svg\" width=\"300\" alt=\"LongCat Logo\"/> </div>",
+      "modelUrl": "https://huggingface.co/meituan-longcat/LongCat-Next",
+      "cardSummary": "meituan-longcat/LongCat-Next Any-to-Any • 74B • Updated about 20 hours ago • 791 • 123"
+    },
+    {
+      "rank": 15,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/15-lightricks-ltx-2-3.png",
+      "modelName": "Lightricks/LTX-2.3",
+      "modelDescription": "LTX-2.3是Lightricks推出的音视频基础模型，作为LTX-2的升级版，显著优化了音视频质量及对提示词的遵循能力。它能够实现高质量的图像到视频生成，旨在提升创意内容创作的效率和表现力，适用于视频剪辑与视觉创作。",
+      "sourceDescription": "This model card focuses on the LTX-2.3 model, which is a significant update to the LTX-2 model with improved audio and visual quality as well as enhanced prompt adherence. LTX-2 was presented in the paper LTX-2: Efficient Joint Audio-Visual Foundation Model.",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.3",
+      "cardSummary": "Lightricks/LTX-2.3 Image-to-Video • Updated 16 days ago • 1.47M • 851"
+    },
+    {
+      "rank": 16,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/16-qwen-qwen3-5-9b.png",
+      "modelName": "Qwen/Qwen3.5-9B",
+      "modelDescription": "Qwen/Qwen3.5-9B是一款10B参数规模的图文理解与生成模型。该模型在前代基础上进行了多方面的优化，在保持轻量化优势的同时，提升了处理复杂图文任务的能力，广泛适用于各类需要多模态理解与文本生成支持的轻量化AI应用。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/logo qwen3.5.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "cardSummary": "Qwen/Qwen3.5-9B Image-Text-to-Text • 10B • Updated 30 days ago • 4.66M • • 1.12k"
+    },
+    {
+      "rank": 17,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/17-microsoft-harrier-oss-v1-0-6b.png",
+      "modelName": "microsoft/harrier-oss-v1-0.6b",
+      "modelDescription": "Harrier-oss-v1-0.6b 是微软开发的多语言文本嵌入模型。该模型采用纯解码器架构，通过最后标记池化和L2归一化技术生成密集向量。它在Multilingual MTEB v2基准测试中表现出色，适用于信息检索、语义相似度计算、聚类、文本分类及重排序等多种自然语言处理任务。",
+      "sourceDescription": "harrier-oss-v1 is a family of multilingual text embedding models developed by Microsoft. The models use decoder-only architectures with last-token pooling and L2 normalization to produce dense text embeddings. They can be applied to a wide range of tasks, including but not limited to retrieval , clustering , semantic similarity , classification , bitext mining , and reranking . The models achieve state-of-the-art results on the Multilingual MTEB v2 benchmark as of the release date.",
+      "modelUrl": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+      "cardSummary": "microsoft/harrier-oss-v1-0.6b Feature Extraction • 0.6B • Updated 1 day ago • 241 • 109"
+    },
+    {
+      "rank": 18,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/18-jackrong-qwen3-5-9b-claude-4-6-opus-reasoning-distilled-v2-gguf.png",
+      "modelName": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "modelDescription": "该模型基于Qwen3.5-9B架构，经过Claude 4.6 Opus推理能力的蒸馏训练。其设计目标是增强特定任务下的推理表现，但在通用能力方面可能受到数据集规模的限制。该模型以GGUF格式发布，主要针对编码和逻辑推理场景进行了优化，以在保持高效性的同时提升处理复杂任务的能力。",
+      "sourceDescription": "Note: Due to the constraints of SFT sample size and training scope, the model's broad general-purpose capabilities might be slightly impacted. The efficiency and accuracy results discussed here are based on the HumanEval and HumanEval+ benchmarks. Thank you for your understanding!",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "cardSummary": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF Image-Text-to-Text • 9B • Updated 9 days ago • 120k • 224"
+    },
+    {
+      "rank": 19,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/19-zed-industries-zeta-2.png",
+      "modelName": "zed-industries/zeta-2",
+      "modelDescription": "Zeta-2 是由 Zed Industries 开发的一款专注于代码编辑预测的模型。它基于 ByteDance-Seed/Seed-Coder-8B-Base 模型微调而来，旨在为开发者提供智能化的下一行代码编辑建议。通过深度学习代码结构，该模型能够辅助编码过程，提高开发效率，是代码补全和编辑辅助场景中的有效工具。",
+      "sourceDescription": "Zeta 2 is a code edit prediction (also known as next-edit suggestion) model finetuned from ByteDance-Seed/Seed-Coder-8B-Base.",
+      "modelUrl": "https://huggingface.co/zed-industries/zeta-2",
+      "cardSummary": "zed-industries/zeta-2 Text Generation • 8B • Updated 8 days ago • 701 • 96"
+    },
+    {
+      "rank": 20,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/20-kpsss34-fhdr-uncensored.png",
+      "modelName": "kpsss34/FHDR_Uncensored",
+      "modelDescription": "FHDR_Uncensored 是一个参数量为 12B 的文本生成图像模型。作者通过在 Diffusers 框架内随机选择层和模块进行受限微调，在优化训练效率的同时提升了模型的生成效果。该模型定位为无审查版本，主要用于图像生成任务，能够根据文本提示词创建对应的高质量视觉内容。",
+      "sourceDescription": "I trained this model using the Diffusers library by randomly selecting layers and blocks (not training every layer), which reduced the training time and is expected to yield better results.",
+      "modelUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored",
+      "cardSummary": "kpsss34/FHDR_Uncensored Text-to-Image • 12B • Updated Feb 27 • 249k • 301"
+    },
+    {
+      "rank": 21,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/21-nvidia-gpt-oss-puzzle-88b.png",
+      "modelName": "nvidia/gpt-oss-puzzle-88B",
+      "modelDescription": "gpt-oss-puzzle-88B 是由 NVIDIA 开发的推理优化模型，源自 OpenAI 的 gpt-oss-120b。该模型利用 Puzzle 神经网络架构搜索框架，在推理阶段实现了显著的效率提升。它专门面向对推理要求极高的负载场景，在保证预测准确性的前提下，优化了算力消耗，提升了推理部署的性价比。",
+      "sourceDescription": "Description gpt-oss-puzzle-88B is a deployment-optimized large language model developed by NVIDIA, derived from OpenAI's gpt-oss-120b. The model is produced using Puzzle, a post-training neural architecture search (NAS) framework, with the goal of significantly improving inference efficiency for reasoning-heavy workloads while maintaining or improving accuracy across reasoning budgets.",
+      "modelUrl": "https://huggingface.co/nvidia/gpt-oss-puzzle-88B",
+      "cardSummary": "nvidia/gpt-oss-puzzle-88B Text Generation • 91B • Updated 5 days ago • 14.4k • 87"
+    },
+    {
+      "rank": 22,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/22-facebook-sam3-1.png",
+      "modelName": "facebook/sam3.1",
+      "modelDescription": "SAM 3.1 是 Meta 推出的图像和视频分割基础模型。它不仅支持多种视觉提示（如点、框、掩码），还具备处理开放词汇概念的能力。通过 Object Multiplex 共享内存技术，该模型在保持高准确度的基础上，显著提升了多目标跟踪的推理速度，特别适合需要精细化分割和实时对象追踪的视觉应用。",
+      "sourceDescription": "SAM 3.1 SAM 3 (Segment Anything with Concepts) is a unified foundation model from Meta for promptable segmentation in images and videos. It detects, segments, and tracks objects using text or visual prompts such as points, boxes, and masks. SAM 3 introduces the ability to exhaustively segment all instances of an open-vocabulary concept specified by a short text phrase, handling over 50x more unique concepts than existing benchmarks. SAM 3.1 builds on this with Object Multiplex , a shared-memory approach for joint multi-object tracking that delivers 7x faster inference at 128 objects on a single H100 GPU without sacrificing accuracy, along with improved VOS performance on 6 out of 7 benchmarks.",
+      "modelUrl": "https://huggingface.co/facebook/sam3.1",
+      "cardSummary": "facebook/sam3.1 Mask Generation • Updated 4 days ago • 3.16k • 86"
+    },
+    {
+      "rank": 23,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/23-liquidai-lfm2-5-350m.png",
+      "modelName": "LiquidAI/LFM2.5-350M",
+      "modelDescription": "LFM2.5-350M 是 Liquid AI 开发的紧凑型文本生成模型。该模型仅包含 0.4B 参数，主打轻量化与高执行效率，适用于计算资源受限的部署环境。它体现了 Liquid AI 在高效计算架构方面的研究成果，可用于端侧或低延迟需求的自然语言处理任务，为开发者提供灵活的轻量级语言交互能力。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.5em;\" /> <div style=\"display: flex; justify-content: center; gap: 0.5em; margin-bottom: 1em;\"> <a href=\"https://playground.liquid.ai/\"><strong>Try LFM</strong></a> • <a href=\"https://docs.liquid.ai/lfm/getting-started/welcome\"><strong>Docs</strong></a> • <a href=\"https://leap.liquid.ai/\"><strong>LEAP</strong></a> • <a href=\"https://discord.com/invite/liquid-ai\"><strong>Discord</strong></a> </div> </div>",
+      "modelUrl": "https://huggingface.co/LiquidAI/LFM2.5-350M",
+      "cardSummary": "LiquidAI/LFM2.5-350M Text Generation • 0.4B • Updated about 6 hours ago • 2.99k • 85"
+    },
+    {
+      "rank": 24,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/24-qwen-qwen3-5-27b.png",
+      "modelName": "Qwen/Qwen3.5-27B",
+      "modelDescription": "Qwen3.5-27B 是通义千问系列的大型多模态模型，具备强大的图文理解与生成能力。作为该系列的重要成员，它在 27B 参数规模下实现了综合性能的优化，能够处理复杂的推理任务、多语言对话以及视觉内容分析。该模型旨在为开发者和企业提供兼顾性能与效率的通用人工智能解决方案，适用于多种复杂的工业级应用场景。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/logo qwen3.5.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.5-27B",
+      "cardSummary": "Qwen/Qwen3.5-27B Image-Text-to-Text • 28B • Updated Feb 25 • 2.79M • • 826"
+    },
+    {
+      "rank": 25,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/25-unsloth-qwen3-5-27b-gguf.png",
+      "modelName": "unsloth/Qwen3.5-27B-GGUF",
+      "modelDescription": "这是一个针对 Qwen3.5 27B 模型优化的 GGUF 版本，由 Unsloth 团队提供支持。该模型利用 Unsloth Dynamic 2.0 技术实现了高效的量化处理，旨在提升本地化部署的推理精度与速度。它非常适合在消费级硬件上运行，适用于需要高性能语言理解与生成的本地化应用开发场景。",
+      "sourceDescription": "<div> <p style=\"margin-bottom: 0; margin-top: 0;\"> <h1 style=\"margin-top: 0rem;\">To run Qwen3.5 locally - <a href=\"https://docs.unsloth.ai/models/qwen3.5\">Read our Guide!</a></h1> </p> <p style=\"margin-top: 0;margin-bottom: 0;\"> <em><a href=\"https://docs.unsloth.ai/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"margin-top: 0;display: flex; gap: 5px; align-items: center; \"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://docs.unsloth.ai/models/qwen3.5\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF",
+      "cardSummary": "unsloth/Qwen3.5-27B-GGUF Image-Text-to-Text • 27B • Updated 26 days ago • 925k • 422"
+    },
+    {
+      "rank": 26,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/26-skywork-matrix-game-3-0.png",
+      "modelName": "Skywork/Matrix-Game-3.0",
+      "modelDescription": "Matrix-Game 3.0 是一个专注于实时流式交互的世界模型，具备处理长期记忆的能力。该模型定位为图像到视频生成与交互，通过创新的建模方式实现了复杂动态环境的模拟。主要应用于人工智能代理的交互式研究、高拟真虚拟场景生成以及需要长序列规划的交互式多模态应用。",
+      "sourceDescription": "Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory <div style=\"display: flex; justify-content: center; gap: 10px;\"> <a href=\"https://github.com/SkyworkAI/Matrix-Game\"> <img src=\"https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white\" alt=\"GitHub\"> </a> <a href=\"https://github.com/SkyworkAI/Matrix-Game/blob/main/Matrix-Game-3/assets/pdf/report.pdf\"> <img src=\"https://img.shields.io/badge/Technical Report-b31b1b?style=flat&logo=arxiv&logoColor=white\" alt=\"report\"> </a> <a href=\"https://matrix-game-v3.github.io/\"> <img src=\"https://img.shields.io/badge/Project%20Page-grey?style=flat&logo=huggingface&color=FFA500\" alt=\"Project Page\"> </a>",
+      "modelUrl": "https://huggingface.co/Skywork/Matrix-Game-3.0",
+      "cardSummary": "Skywork/Matrix-Game-3.0 Image-Text-to-Video • Updated 4 days ago • 73"
+    },
+    {
+      "rank": 27,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/27-microsoft-harrier-oss-v1-270m.png",
+      "modelName": "microsoft/harrier-oss-v1-270m",
+      "modelDescription": "Harrier-oss-v1-270m 是由微软开发的轻量级多语言文本嵌入模型，基于解码器架构并采用最后标记池化与L2归一化技术。该模型在多语言任务中表现卓越，适用于信息检索、文本聚类、语义相似度计算、分类及重排序等多种自然语言处理任务，是企业级搜索和语义分析应用的有效工具。",
+      "sourceDescription": "harrier-oss-v1 is a family of multilingual text embedding models developed by Microsoft. The models use decoder-only architectures with last-token pooling and L2 normalization to produce dense text embeddings. They can be applied to a wide range of tasks, including but not limited to retrieval , clustering , semantic similarity , classification , bitext mining , and reranking . The models achieve state-of-the-art results on the Multilingual MTEB v2 benchmark as of the release date.",
+      "modelUrl": "https://huggingface.co/microsoft/harrier-oss-v1-270m",
+      "cardSummary": "microsoft/harrier-oss-v1-270m Feature Extraction • 0.3B • Updated 1 day ago • 481 • 72"
+    },
+    {
+      "rank": 28,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/28-jackrong-qwen3-5-9b-claude-4-6-opus-reasoning-distilled-gguf.png",
+      "modelName": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "modelDescription": "该模型是基于 Qwen3.5 9B 的蒸馏版本，融合了来自 Claude 4.6 Opus 及 Qwen3.5 27B 的高质量推理数据。通过强化逻辑推理轨迹，该模型在科学研究、复杂指令遵循及数学求解方面表现突出。适用于需要强逻辑链式思考但资源受限的边缘计算环境，为开发者提供高性价比的推理能力。",
+      "sourceDescription": "Update: This model has been further enhanced with additional reasoning data distilled from Qwen3.5-27B . The new training data introduces higher-quality reasoning trajectories across domains such as science, instruction-following, and mathematics . Part of the data comes from Jackrong/Qwen3.5-reasoning-700x , a curated dataset designed to improve structured step-by-step reasoning and reasoning diversity .",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "cardSummary": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF Text Generation • 9B • Updated 16 days ago • 195k • 213"
+    },
+    {
+      "rank": 29,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/29-runexx-ltx-2-3-workflows.png",
+      "modelName": "RuneXX/LTX-2.3-Workflows",
+      "modelDescription": "LTX-2.3-Workflows 是一个专门针对图像到视频生成任务的工作流模型集。该模型通过提供预定义的处理流程，旨在简化从静态图像转化为动态视频的过程。它能够帮助用户更高效地完成影视素材创作、动画生成等视觉任务，适合希望快速集成高质量视频生成功能的开发人员与创作群体。",
+      "sourceDescription": "<video controls> <source src=\"https://cdn-uploads.huggingface.co/production/uploads/64afc36a09727d75e9ca79aa/UisZ7XyIYhQgcnIKnt8h0.mp4\" type=\"video/mp4\"> Your browser does not support the video tag. </video>",
+      "modelUrl": "https://huggingface.co/RuneXX/LTX-2.3-Workflows",
+      "cardSummary": "RuneXX/LTX-2.3-Workflows Image-to-Video • Updated about 11 hours ago • 286"
+    },
+    {
+      "rank": 30,
+      "recordDate": "2026-03-31",
+      "modelCard": "assets/huggingface_model_cards/2026-03-31/30-zai-org-glm-ocr.png",
+      "modelName": "zai-org/GLM-OCR",
+      "modelDescription": "GLM-OCR 是由 ZAI 组织推出的专业多模态大模型，专注于高精度 OCR（光学字符识别）任务。该模型支持将复杂图像内容转换为准确文本，并提供了完善的 SDK 和 API 接口以供集成。适用于文档数字化、自动化办公处理、实时信息抓取以及各类需要图像文字理解的智能应用场景。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-OCR/refs/heads/main/resources/logo.svg width=\"40%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-OCR/refs/heads/main/resources/wechat.jpg\" target=\" blank\">WeChat</a> and <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community <br> 📍 Use GLM-OCR's <a href=\"https://docs.z.ai/guides/vlm/glm-ocr\" target=\" blank\">API</a> <br> 👉 <a href=\"https://github.com/zai-org/GLM-OCR\" target=\" blank\">GLM-OCR SDK</a> Recommended <br> 📖 <a href=\"https://arxiv.org/abs/2603.10910\" target=\" blank\"> Technical Report</a> </p>",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-OCR",
+      "cardSummary": "zai-org/GLM-OCR Image-to-Text • Updated 20 days ago • 4.15M • • 1.51k"
+    }
+  ]
+}
