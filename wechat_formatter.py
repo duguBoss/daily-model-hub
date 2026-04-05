@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime
 from typing import Any
 
@@ -8,8 +9,45 @@ from wechat_template import render_model_card, render_page
 
 
 MODEL_CARD_BASE_URL = "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/"
-TITLE_TEMPLATE = "Hugging Face \u70ed\u95e8\u6a21\u578b\u7cbe\u9009 | {date}"
 SUBTITLE_TEMPLATE = "{date} \u00b7 Hugging Face \u70ed\u95e8\u6a21\u578b\u901f\u89c8"
+
+
+def _generate_attractive_title(first_model: dict, date_str: str) -> str:
+    """根据第一个模型的内容生成吸引人的微信标题（30字以内）.
+
+    策略：
+    1. 提取模型名称的关键部分
+    2. 结合模型描述中的亮点
+    3. 使用吸引人的表达方式
+    """
+    model_name = first_model.get("modelName", "")
+    description = first_model.get("modelDescription", "")
+
+    # 提取模型简称（取最后一部分）
+    short_name = model_name.split("/")[-1] if "/" in model_name else model_name
+    short_name = short_name.replace("-", "").replace("_", "")
+
+    # 提取关键词（从描述中提取前10个字符作为亮点）
+    # 移除标点，提取核心内容
+    desc_clean = re.sub(r"[^\u4e00-\u9fa5a-zA-Z0-9]", "", description)
+    highlight = desc_clean[:10] if len(desc_clean) > 10 else desc_clean
+
+    # 构建标题候选
+    titles = [
+        f"🔥 {short_name}：{highlight}新模型来了",
+        f"今日热门：{short_name}引领AI新趋势",
+        f"{short_name}｜{highlight}的强力模型",
+        f" Hugging Face 热榜：{short_name}登顶",
+        f"{short_name}：{highlight}，开发者必看",
+    ]
+
+    # 选择最短且不超过30字的标题
+    for title in titles:
+        if len(title) <= 30:
+            return title
+
+    # 兜底：简化标题
+    return f"🔥 {short_name} 登顶 Hugging Face 热榜"[:30]
 
 
 def _build_card_image_url(card_path: str) -> str:
@@ -45,7 +83,8 @@ def generate_wechat_payload(models: list[dict], date_str: str) -> dict[str, Any]
     if not models:
         raise ValueError("No models to generate payload")
 
-    title = TITLE_TEMPLATE.format(date=date_str)
+    # 根据第一个模型生成吸引人的标题
+    title = _generate_attractive_title(models[0], date_str)
 
     covers = []
     for model in models:
