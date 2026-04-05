@@ -9,7 +9,8 @@ from utils import slugify
 def capture_trending_screenshots(page) -> list[dict]:
     """在 Trending 页面直接截取前5个模型卡片.
 
-    一次性获取元素句柄并截图，避免多次查询导致的遮挡问题。
+    使用 Playwright 的元素截图功能，类似 Puppeteer 的 element.screenshot()。
+    通过 XPath 定位元素后直接截图，更稳定准确。
     """
     captured_cards = []
 
@@ -17,8 +18,8 @@ def capture_trending_screenshots(page) -> list[dict]:
     page.wait_for_selector("main", timeout=30000)
     page.wait_for_timeout(3000)
 
-    # 一次性获取所有模型卡片的元素句柄和数据
-    cards_info = page.evaluate(
+    # 获取前5个模型卡片的信息（路径和索引）
+    cards_meta = page.evaluate(
         """(limit) => {
           const cards = [];
           // HF Trending 页面的模型卡片选择器
@@ -35,6 +36,7 @@ def capture_trending_screenshots(page) -> list[dict]:
           }
 
           const seen = new Set();
+          let index = 0;
           for (const anchor of anchors) {
             const href = anchor.getAttribute("href") || "";
             const pathname = href.split("?")[0];
@@ -44,16 +46,12 @@ def capture_trending_screenshots(page) -> list[dict]:
             if (segments.length < 1 || segments.length > 2) continue;
 
             seen.add(pathname);
+            index++;
 
-            // 获取元素的位置信息用于截图
-            const rect = anchor.getBoundingClientRect();
             cards.push({
+              index: index,
               path: pathname,
-              name: segments.join("/"),
-              x: Math.max(0, rect.x),
-              y: Math.max(0, rect.y),
-              width: rect.width,
-              height: rect.height
+              name: segments.join("/")
             });
 
             if (cards.length >= limit) break;
@@ -63,30 +61,29 @@ def capture_trending_screenshots(page) -> list[dict]:
         MODEL_LIMIT
     )
 
-    if not cards_info:
+    if not cards_meta:
         raise RuntimeError("No model cards found on trending page for screenshot.")
 
-    print(f"Found {len(cards_info)} model cards to capture")
+    print(f"Found {len(cards_meta)} model cards to capture")
 
-    # 一次性截图所有卡片，不进行滚动操作
-    for index, card_info in enumerate(cards_info, start=1):
-        file_name = f"{index:02d}-{slugify(card_info['name'])}.png"
+    # 使用 XPath 定位每个元素并截图
+    for card_info in cards_meta:
+        file_name = f"{card_info['index']:02d}-{slugify(card_info['name'])}.png"
         image_path = RUN_IMAGE_DIR / file_name
 
-        print(f"Capturing screenshot for {card_info['name']} at ({card_info['x']}, {card_info['y']})...")
+        print(f"Capturing screenshot for {card_info['name']}...")
 
         try:
-            # 直接截图指定区域，不滚动
-            page.screenshot(
-                path=str(image_path),
-                type="png",
-                clip={
-                    "x": card_info['x'],
-                    "y": card_info['y'],
-                    "width": card_info['width'],
-                    "height": card_info['height']
-                }
-            )
+            # 使用 XPath 定位第 N 个模型卡片
+            # HF Trending 页面结构: /html/body/div/main/div/div/section[2]/div[2]/div/article[n]
+            xpath = f"xpath=/html/body/div/main/div/div/section[2]/div[2]/div/article[{card_info['index']}]"
+
+            # 等待元素可见
+            element = page.locator(xpath).first
+            element.wait_for(state="visible", timeout=10000)
+
+            # 元素截图 - 类似 Puppeteer 的 element.screenshot()
+            element.screenshot(path=str(image_path), type="png")
 
             captured_cards.append({
                 "name": card_info['name'],
@@ -98,6 +95,21 @@ def capture_trending_screenshots(page) -> list[dict]:
 
         except Exception as e:
             print(f"Failed to capture screenshot for {card_info['name']}: {e}")
-            continue
+            # 兜底：尝试用 CSS 选择器
+            try:
+                css_selector = f"main > div > div > section:nth-child(2) > div:nth-child(2) > div > article:nth-child({card_info['index']})"
+                element = page.locator(css_selector).first
+                element.screenshot(path=str(image_path), type="png")
+
+                captured_cards.append({
+                    "name": card_info['name'],
+                    "path": card_info['path'],
+                    "href": f"https://huggingface.co{card_info['path']}",
+                    "image_path": image_path
+                })
+                print(f"Saved (fallback): {image_path.name}")
+            except Exception as e2:
+                print(f"Fallback also failed for {card_info['name']}: {e2}")
+                continue
 
     return captured_cards
