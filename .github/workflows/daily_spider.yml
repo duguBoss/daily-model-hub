@@ -29,6 +29,9 @@ jobs:
       - name: Install Playwright Chromium
         run: python -m playwright install --with-deps chromium
 
+      - name: Verify WeChat template renderer
+        run: python -m unittest tests.test_wechat_formatter
+
       - name: Scrape trending models
         env:
           HF_MODEL_LIMIT: "5"
