@@ -315,10 +315,11 @@ def _build_card_html(model: dict, rank: int) -> str:
 
 
 def render_model_cards(browser_context: BrowserContext, models: list[dict]) -> list[dict]:
-    page = browser_context.new_page(viewport={"width": CARD_WIDTH, "height": CARD_VIEWPORT_HEIGHT})
+    page = browser_context.new_page()
     rendered = []
 
     try:
+        page.set_viewport_size({"width": CARD_WIDTH, "height": CARD_VIEWPORT_HEIGHT})
         for index, model in enumerate(models, start=1):
             file_name = f"{index:02d}-{slugify(model.get('modelName', 'model'))}.png"
             image_path = RUN_IMAGE_DIR / file_name
