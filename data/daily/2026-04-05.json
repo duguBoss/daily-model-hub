@@ -8,18 +8,18 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/01-google-gemma-4-31b-it.png",
       "modelName": "google/gemma-4-31B-it",
-      "modelDescription": "Google推出的Gemma-4-31B-it是一款具备多模态能力的指令微调模型，参数规模为330亿。该模型侧重于图像与文本的综合处理，旨在提供高效的推理与生成能力。适用于各类需要深度语义理解、复杂推理以及图文信息整合的专业任务场景，能够有效处理大规模数据并维持高性能输出。",
+      "modelDescription": "google/gemma-4-31B-it 是谷歌推出的 330 亿参数轻量级指令微调模型。该模型在保持高效能的同时，具备出色的多模态图像-文本处理能力，适用于对推理资源有限但要求高质量对话与内容生成的应用场景，如移动端交互、复杂指令遵循以及各类辅助写作任务。",
       "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
       "modelUrl": "https://huggingface.co/google/gemma-4-31B-it",
-      "cardSummary": "google/gemma-4-31B-it Image-Text-to-Text • 33B • Updated 3 days ago • 490k • • 893"
+      "cardSummary": "google/gemma-4-31B-it Image-Text-to-Text • 33B • Updated 3 days ago • 490k • • 894"
     },
     {
       "rank": 2,
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/02-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled.png",
       "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "modelDescription": "这款基于Qwen3.5-27B的蒸馏模型针对Claude Code等主流编程智能体进行了深度优化。它修复了Jinja模板中针对“developer”角色支持的错误，提升了模型的运行稳定性与自主推理能力。通过支持长时间持续运行的思维模式，该模型特别适合代码辅助编写、自动化开发任务以及复杂的逻辑推理编程场景。",
-      "sourceDescription": "Build Environment Upgrades: - Fine-tuning Framework : Unsloth 2026.3.3 - Core Dependencies : Transformers 5.2.0 - This model fixes the crash in the official model caused by the Jinja template not supporting the \"developer\" role. (commonly sent by modern coding agents like Claude Code and OpenCode) - It does not disable thinking mode by default , and allowing the agent to run continuously for over 9 minutes without interruption . - Compared to the original model, autonomy and stability are significantly improved .",
+      "modelDescription": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled 是基于 Qwen3.5 架构的 280 亿参数推理蒸馏模型。通过汲取高性能模型的能力，该模型在逻辑推理与复杂问题解决上表现优异，配套提供了详细的训练代码与指导文档，适合开发者深入研究模型微调技术并应用于复杂逻辑分析场景。",
+      "sourceDescription": "🔥 Update (April 5): To help beginners and enthusiasts better understand and reproduce the fine-tuning process of this model, I have prepared the complete training notebook, codebase, and a comprehensive companion PDF guide! Please check the resource links below.",
       "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
       "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled Image-Text-to-Text • 28B • Updated 12 days ago • 539k • 2.3k"
     },
@@ -28,7 +28,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/03-baidu-qianfan-ocr.png",
       "modelName": "baidu/Qianfan-OCR",
-      "modelDescription": "百度推出的Qianfan-OCR是一款专注于文档智能处理的多模态大模型，参数量为50亿。该模型采用统一的端到端架构，专门针对各类文档的数字化与结构化分析进行了优化。它能够高效识别文档中的多类信息，适用于企业文档自动化分析、数据提取及纸质档案电子化等多种复杂业务办公场景。",
+      "modelDescription": "baidu/Qianfan-OCR 是一款由百度开发的 50 亿参数端到端文档智能模型。它专门针对图像到文本的转换任务设计，具备强大的文档解析与文字提取能力，主要用于自动化办公、票据识别、各类文档数据数字化录入等工业级文档智能化处理场景。",
       "sourceDescription": "<h3>A Unified End-to-End Model for Document Intelligence</h3>",
       "modelUrl": "https://huggingface.co/baidu/Qianfan-OCR",
       "cardSummary": "baidu/Qianfan-OCR Image-Text-to-Text • 5B • Updated 10 days ago • 37.7k • 960"
@@ -38,7 +38,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/04-coherelabs-cohere-transcribe-03-2026.png",
       "modelName": "CohereLabs/cohere-transcribe-03-2026",
-      "modelDescription": "Cohere-transcribe-03-2026是一款开源的自动化语音识别（ASR）模型，参数量为20亿。该模型专注于从音频输入到文本输出的精准转换，目前支持14种语言。得益于其轻量化设计，该模型适合部署在需要语音实时转录的办公、翻译或媒体分析系统中，为多语言环境提供快速可靠的语音转文字服务。",
+      "modelDescription": "CohereLabs/cohere-transcribe-03-2026 是一个开源的 20 亿参数自动语音识别（ASR）模型。该模型专注于音频到文本的转写任务，原生支持 14 种语言，能够高效处理语音转文字需求，适用于会议记录、实时翻译及各类需要将多语言音频流转化为精准文本的应用环境。",
       "sourceDescription": "Cohere Transcribe is an open source release of a 2B parameter dedicated audio-in, text-out automatic speech recognition (ASR) model. The model supports 14 languages.",
       "modelUrl": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
       "cardSummary": "CohereLabs/cohere-transcribe-03-2026 Automatic Speech Recognition • Updated 3 days ago • 121k • 795"
@@ -48,7 +48,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/05-prism-ml-bonsai-8b-gguf.png",
       "modelName": "prism-ml/Bonsai-8B-gguf",
-      "modelDescription": "Bonsai-8B-gguf是一款经过量化处理的80亿参数文本生成模型，采用GGUF格式以优化本地推理的兼容性。该模型专注于通用语言生成与交互任务，具备较好的性能与资源占用平衡。适合部署在内存受限的个人计算机或边缘计算设备上，可用于日常文本创作、代码辅助及对话类智能应用。",
+      "modelDescription": "prism-ml/Bonsai-8B-gguf 是一款 80 亿参数的文本生成模型，采用 GGUF 格式封装。该模型定位轻量级部署，旨在通过压缩优化在多种计算环境下高效运行，适用于对延迟敏感、硬件资源受限的文本创作、对话服务或简单的自然语言理解类任务。",
       "sourceDescription": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
       "modelUrl": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
       "cardSummary": "prism-ml/Bonsai-8B-gguf Text Generation • 8B • Updated 5 days ago • 38.6k • 399"
