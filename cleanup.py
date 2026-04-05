@@ -2,7 +2,7 @@ import shutil
 from datetime import datetime, timedelta
 from pathlib import Path
 
-from config import DATA_DIR, DAILY_DIR, WEEK_DIR, IMAGE_ROOT_DIR, RUN_DATE
+from config import DATA_DIR, DAILY_DIR, WEEK_DIR, IMAGE_ROOT_DIR, RUN_DATE, RUN_IMAGE_DIR
 
 
 def cleanup_old_files(keep_days: int = 0) -> None:
@@ -70,3 +70,11 @@ def cleanup_old_files(keep_days: int = 0) -> None:
         print("No old files to clean up")
     else:
         print(f"Cleanup complete: removed {deleted_count} old items")
+
+
+def cleanup_current_assets() -> None:
+    """清空当天的 assets 文件夹，确保每次执行前都是干净的."""
+    if RUN_IMAGE_DIR.exists():
+        shutil.rmtree(RUN_IMAGE_DIR, ignore_errors=True)
+        print(f"Cleaned up current assets directory: {RUN_IMAGE_DIR}")
+    RUN_IMAGE_DIR.mkdir(parents=True, exist_ok=True)

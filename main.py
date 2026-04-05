@@ -14,7 +14,7 @@ from data_manager import (
     save_daily_record,
     save_weekly_record,
 )
-from cleanup import cleanup_old_files
+from cleanup import cleanup_old_files, cleanup_current_assets
 
 
 def main() -> None:
@@ -24,6 +24,9 @@ def main() -> None:
     # 清理历史数据（默认只保留当天，可通过环境变量配置保留天数）
     keep_days = int(os.environ.get("HF_KEEP_DAYS", "0") or "0")
     cleanup_old_files(keep_days=keep_days)
+
+    # 清空当天的 assets 目录，确保每次执行前都是干净的
+    cleanup_current_assets()
 
     session = build_session(USER_AGENT)
 
