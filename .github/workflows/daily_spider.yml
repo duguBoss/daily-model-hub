@@ -51,7 +51,6 @@ jobs:
           git add data/daily
           git add data/week
           git add assets/huggingface_model_cards
-          git add Daily_HF_Models_*.json
           git add requirements.txt
           git add *.py
           git add .github/workflows/daily_spider.yml

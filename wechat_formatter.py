@@ -137,11 +137,17 @@ def generate_wechat_payload(models: list[dict], date_str: str) -> dict[str, Any]
 
 
 def save_wechat_json(payload: dict[str, Any], date_str: str) -> str:
-    """保存微信格式的 JSON 文件."""
-    json_file_name = f"Daily_HF_Models_{date_str}.json"
+    """保存微信格式的 JSON 文件到 data/daily 目录."""
+    from config import DAILY_DIR
+
+    # 确保目录存在
+    DAILY_DIR.mkdir(parents=True, exist_ok=True)
+
+    # 保存为 Daily_HF_Models_YYYY-MM-DD.json 格式
+    json_file_name = DAILY_DIR / f"Daily_HF_Models_{date_str}.json"
 
     with open(json_file_name, "w", encoding="utf-8") as file:
         json.dump(payload, file, ensure_ascii=False, indent=2)
 
     print(f"Saved WeChat format JSON to {json_file_name}")
-    return json_file_name
+    return str(json_file_name)

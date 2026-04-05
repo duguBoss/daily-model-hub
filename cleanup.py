@@ -19,7 +19,12 @@ def cleanup_old_files(keep_days: int = 0) -> None:
     if DAILY_DIR.exists():
         for json_file in DAILY_DIR.glob("*.json"):
             try:
-                file_date = datetime.strptime(json_file.stem, "%Y-%m-%d").date()
+                # 处理两种格式: YYYY-MM-DD.json 和 Daily_HF_Models_YYYY-MM-DD.json
+                stem = json_file.stem
+                if stem.startswith("Daily_HF_Models_"):
+                    file_date = datetime.strptime(stem.replace("Daily_HF_Models_", ""), "%Y-%m-%d").date()
+                else:
+                    file_date = datetime.strptime(stem, "%Y-%m-%d").date()
                 if file_date < cutoff_date:
                     json_file.unlink()
                     deleted_count += 1
@@ -59,19 +64,7 @@ def cleanup_old_files(keep_days: int = 0) -> None:
             except Exception as e:
                 print(f"Failed to delete folder {folder}: {e}")
 
-    # 清理根目录下的 Daily_HF_Models_*.json 文件
-    root_dir = Path(__file__).resolve().parent
-    for json_file in root_dir.glob("Daily_HF_Models_*.json"):
-        try:
-            file_date = datetime.strptime(json_file.stem.replace("Daily_HF_Models_", ""), "%Y-%m-%d").date()
-            if file_date < cutoff_date:
-                json_file.unlink()
-                deleted_count += 1
-                print(f"Deleted old WeChat JSON: {json_file.name}")
-        except ValueError:
-            continue
-        except Exception as e:
-            print(f"Failed to delete {json_file}: {e}")
+
 
     if deleted_count == 0:
         print("No old files to clean up")
