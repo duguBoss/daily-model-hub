@@ -8,27 +8,27 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/01-google-gemma-4-31b-it.png",
       "modelName": "google/gemma-4-31B-it",
-      "modelDescription": "Gemma-4-31B-it 是谷歌推出的中等规模指令微调模型。该模型具备强大的多模态处理能力，支持图像与文本的综合输入，并能输出高质量文本内容。其定位侧重于高效率的复杂逻辑处理与对话交互，适用于智能助手开发、知识问答以及跨媒体内容生成的工业级应用场景，在保证推理速度的同时维持了优异的任务表现。",
+      "modelDescription": "Google推出的Gemma-4-31B-it是一款经过指令微调的大语言模型，拥有330亿参数规模。该模型具备强大的多模态处理能力，能够处理图像与文本输入并生成相应的文本内容。其设计目标是提供高质量的对话与推理性能，适用于各类需要复杂语义理解和多模态交互的生成式AI任务。",
       "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
       "modelUrl": "https://huggingface.co/google/gemma-4-31B-it",
-      "cardSummary": "google/gemma-4-31B-it Image-Text-to-Text • 33B • Updated 3 days ago • 490k • • 897"
+      "cardSummary": "google/gemma-4-31B-it Image-Text-to-Text • 33B • Updated 3 days ago • 490k • • 898"
     },
     {
       "rank": 2,
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/02-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled.png",
       "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "modelDescription": "该模型基于 Qwen3.5-27B 架构，通过蒸馏 Claude-4.6-Opus 的推理能力进行针对性优化。其核心定位是增强逻辑推理性能，通过特定的微调技术提升模型在复杂问题求解上的准确度。开发者提供了完整的训练代码与指南，非常适合希望深入研究推理模型蒸馏技术的开发者，用于各类需要高阶认知逻辑的任务。",
+      "modelDescription": "Jackrong推出的Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled是一款基于Qwen架构的蒸馏模型，拥有280亿参数。该模型通过模仿Claude 4.6 Opus的推理逻辑进行训练，专门优化了模型的逻辑推理与复杂指令遵循能力，适用于需要深度思考、长链条推理和高质量文本生成的应用场景。",
       "sourceDescription": "🔥 Update (April 5): To help beginners and enthusiasts better understand and reproduce the fine-tuning process of this model, I have prepared the complete training notebook, codebase, and a comprehensive companion PDF guide! Please check the resource links below.",
       "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled Image-Text-to-Text • 28B • Updated 5 minutes ago • 539k • 2.3k"
+      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled Image-Text-to-Text • 28B • Updated 12 minutes ago • 539k • 2.3k"
     },
     {
       "rank": 3,
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/03-coherelabs-cohere-transcribe-03-2026.png",
       "modelName": "CohereLabs/cohere-transcribe-03-2026",
-      "modelDescription": "Cohere-transcribe-03-2026 是一款开源的自动语音识别（ASR）专用模型，参数规模约为 2B。该模型专为音频到文本的转化任务设计，原生支持 14 种语言，旨在提供高效且准确的语音转录服务。其轻量化的设计使其能够轻松部署于各类语音处理应用，包括会议记录、实时字幕生成及多语言语音识别系统。",
+      "modelDescription": "CohereLabs发布的cohere-transcribe-03-2026是一款开源自动语音识别模型，参数规模为20亿。该模型专注于从音频输入生成文本输出，支持全球14种主流语言。凭借轻量化的模型架构，它能够高效地完成语音转文字任务，非常适合语音转录、多语言会议记录及相关音频处理工作。",
       "sourceDescription": "Cohere Transcribe is an open source release of a 2B parameter dedicated audio-in, text-out automatic speech recognition (ASR) model. The model supports 14 languages.",
       "modelUrl": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
       "cardSummary": "CohereLabs/cohere-transcribe-03-2026 Automatic Speech Recognition • Updated 3 days ago • 121k • 795"
@@ -38,7 +38,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/04-baidu-qianfan-ocr.png",
       "modelName": "baidu/Qianfan-OCR",
-      "modelDescription": "百度 Qianfan-OCR 是一款专注于文档智能处理的端到端统一模型，参数规模为 5B。该模型通过图像与文本的深度融合技术，实现高效的 OCR 识别与复杂文档解析。其定位在于提供高精度的工业级文本抓取与结构化能力，广泛适用于自动化报表处理、证件信息识别以及大规模文档数字化等场景，具备较强的业务落地实用性。",
+      "modelDescription": "百度推出的Qianfan-OCR是一款拥有50亿参数的文档智能处理模型，采用了端到端的一体化架构。该模型主要用于图像中的文本信息提取与理解，能够有效识别并解析各类复杂文档内容。它适用于自动化办公、文档数字化归档以及各类需要高精度文档智能分析的工业与学术场景。",
       "sourceDescription": "<h3>A Unified End-to-End Model for Document Intelligence</h3>",
       "modelUrl": "https://huggingface.co/baidu/Qianfan-OCR",
       "cardSummary": "baidu/Qianfan-OCR Image-Text-to-Text • 5B • Updated 10 days ago • 37.7k • 960"
@@ -48,7 +48,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/05-prism-ml-bonsai-8b-gguf.png",
       "modelName": "prism-ml/Bonsai-8B-gguf",
-      "modelDescription": "Bonsai-8B-gguf 是一款采用 GGUF 格式封装的 8B 参数规模文本生成模型。该模型经过优化，旨在通过量化技术降低推理时的显存占用，从而在消费级硬件上实现更高效的部署。其主要定位于通用文本生成任务，适合对资源敏感、需要离线运行或在个人终端设备上进行高性能对话交互的各类应用场景。",
+      "modelDescription": "prism-ml推出的Bonsai-8B-gguf是一款基于GGUF格式优化的80亿参数文本生成模型。该版本专门针对本地部署进行了适配，能够在资源受限的硬件设备上高效运行。其定位为通用文本创作助手，适用于各类需要本地化运行、保护数据隐私且对推理速度有一定要求的文本生成应用场景。",
       "sourceDescription": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
       "modelUrl": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
       "cardSummary": "prism-ml/Bonsai-8B-gguf Text Generation • 8B • Updated 5 days ago • 38.6k • 399"
