@@ -48,12 +48,14 @@ PAGE_TEMPLATE = _minify_html(
 
 CARD_TEMPLATE = _minify_html(
     """
-<section style="margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;overflow:hidden;">
+<section style="margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;">
   <section style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);">
     <span style="font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;">#{rank} Trending Model</span>
     <span style="font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);">Hugging Face</span>
   </section>
-  <img src="{image_url}" alt="{model_name}" style="display:block;width:100vw;max-width:100vw;height:auto;border:0;margin:0 -16px;padding:0;position:relative;left:50%;transform:translateX(-50%);" />
+  <section style="margin:0;padding:0;width:100%;height:200px;overflow:hidden;line-height:0;">
+    <img src="{image_url}" alt="{model_name}" style="display:block;width:100%;height:100%;object-fit:cover;object-position:center;border:0;margin:0;padding:0;" />
+  </section>
   <section style="margin:0;padding:16px 16px 18px;background-color:#ffffff;">
     <h2 style="margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;">{model_name}</h2>
     <p style="margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;">{model_desc}</p>
