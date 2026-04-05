@@ -31,8 +31,9 @@ jobs:
 
       - name: Scrape trending models
         env:
-          HF_MODEL_LIMIT: "30"
+          HF_MODEL_LIMIT: "5"
           HF_WEEKLY_PICK_LIMIT: "6"
+          HF_KEEP_DAYS: "7"
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: "gemini-3.1-flash-lite-preview"
         run: python main.py
@@ -50,8 +51,9 @@ jobs:
           git add data/daily
           git add data/week
           git add assets/huggingface_model_cards
+          git add Daily_HF_Models_*.json
           git add requirements.txt
-          git add main.py
+          git add *.py
           git add .github/workflows/daily_spider.yml
 
           if git diff --staged --quiet; then

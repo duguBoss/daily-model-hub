@@ -1,3 +1,5 @@
+import os
+
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
 
@@ -12,11 +14,17 @@ from data_manager import (
     save_daily_record,
     save_weekly_record,
 )
+from cleanup import cleanup_old_files
 
 
 def main() -> None:
     ensure_dirs()
     require_gemini_api_key()
+
+    # 清理历史数据（默认保留7天，可通过环境变量配置）
+    keep_days = int(os.environ.get("HF_KEEP_DAYS", "7") or "7")
+    cleanup_old_files(keep_days=keep_days)
+
     session = build_session(USER_AGENT)
 
     with sync_playwright() as playwright:

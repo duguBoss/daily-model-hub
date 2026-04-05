@@ -5,6 +5,7 @@ from pathlib import Path
 
 from config import DAILY_DIR, WEEK_DIR, DAILY_OUTPUT_FILE, RUN_DATE, RUN_STAMP, TRENDING_URL, MODEL_LIMIT
 from utils import write_json
+from wechat_formatter import generate_wechat_payload, save_wechat_json
 
 
 def should_generate_weekly() -> bool:
@@ -66,6 +67,7 @@ def build_weekly_candidates(records: list[dict]) -> list[dict]:
 
 
 def save_daily_record(models: list[dict]) -> None:
+    # 保存原始格式
     payload = {
         "recordDate": RUN_STAMP,
         "source": TRENDING_URL,
@@ -74,6 +76,13 @@ def save_daily_record(models: list[dict]) -> None:
     }
     write_json(DAILY_OUTPUT_FILE, payload)
     print(f"Saved daily record to {DAILY_OUTPUT_FILE}")
+
+    # 保存微信格式
+    try:
+        wechat_payload = generate_wechat_payload(models, RUN_STAMP)
+        save_wechat_json(wechat_payload, RUN_STAMP)
+    except Exception as e:
+        print(f"Failed to generate WeChat format: {e}")
 
 
 def save_weekly_record(weekly_payload: dict | None) -> None:
