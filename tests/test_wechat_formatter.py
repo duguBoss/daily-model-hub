@@ -35,8 +35,8 @@ class WechatFormatterTest(unittest.TestCase):
 
         self.assertIn(TOP_FOLLOW_GIF.replace("&", "&amp;"), html)
         self.assertIn(FOOTER_GIF, html)
-        self.assertIn("display:block;width:100%;box-sizing:border-box", html)
-        self.assertIn("查看模型详情", html)
+        self.assertIn("margin:0;padding:0;width:100%;box-sizing:border-box", html)
+        self.assertNotIn("查看模型详情", html)  # 已删除按钮
         self.assertNotIn("box-shadow: 0 2px 8px rgba(0,0,0,0.08)", html)
         self.assertNotIn("padding: 16px; font-family: system-ui", html)
 
