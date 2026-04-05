@@ -12,42 +12,70 @@ MODEL_CARD_BASE_URL = "https://raw.githubusercontent.com/duguBoss/daily-model-hu
 SUBTITLE_TEMPLATE = "{date} \u00b7 Hugging Face \u70ed\u95e8\u6a21\u578b\u901f\u89c8"
 
 
+def _extract_model_display_name(model_name: str) -> str:
+    """提取简洁的模型显示名称（无空格版本）.
+
+    例如: google/gemma-4-31B-it -> Gemma4
+          baidu/Qianfan-OCR -> QianfanOCR
+    """
+    # 取最后一部分
+    name = model_name.split("/")[-1] if "/" in model_name else model_name
+
+    # 移除常见的后缀参数
+    suffixes = ["-it", "-gguf", "-mlx", "-nvfp4", "-awq", "-gptq", "-bnb", "-4bit", "-8bit"]
+    for suffix in suffixes:
+        if name.lower().endswith(suffix.lower()):
+            name = name[:-len(suffix)]
+
+    # 提取主要版本号，例如 gemma-4-31B -> Gemma4
+    match = re.match(r'^([a-zA-Z]+[\d\.]*(?:\.\d+)?)', name)
+    if match:
+        base_name = match.group(1)
+        # 如果有版本号如 gemma-4，保留它（去掉连字符）
+        version_match = re.search(r'-([\d\.]+)(?:-[\d]+[a-zA-Z]*)?$', name)
+        if version_match:
+            return f"{base_name}{version_match.group(1)}".title()
+        return base_name.title()
+
+    # 清理连字符和下划线，但不添加空格
+    name = re.sub(r'[-_]', '', name)
+    return name.title()
+
+
 def _generate_attractive_title(first_model: dict, date_str: str) -> str:
     """根据第一个模型的内容生成吸引人的微信标题（30字以内）.
 
-    策略：
-    1. 提取模型名称的关键部分
-    2. 结合模型描述中的亮点
-    3. 使用吸引人的表达方式
+    生成有宣传力、吸引人的标题，避免使用特殊符号。
     """
     model_name = first_model.get("modelName", "")
     description = first_model.get("modelDescription", "")
 
-    # 提取模型简称（取最后一部分）
-    short_name = model_name.split("/")[-1] if "/" in model_name else model_name
-    short_name = short_name.replace("-", "").replace("_", "")
+    # 提取简洁的模型名
+    display_name = _extract_model_display_name(model_name)
 
-    # 提取关键词（从描述中提取前10个字符作为亮点）
-    # 移除标点，提取核心内容
-    desc_clean = re.sub(r"[^\u4e00-\u9fa5a-zA-Z0-9]", "", description)
-    highlight = desc_clean[:10] if len(desc_clean) > 10 else desc_clean
+    # 从描述中提取核心能力关键词（中文）
+    # 匹配前几个中文字符作为能力描述
+    desc_clean = re.sub(r"[^\u4e00-\u9fa5]", "", description)
+    capability = desc_clean[:6] if len(desc_clean) >= 6 else desc_clean
 
-    # 构建标题候选
+    # 构建有吸引力的标题候选（无空格、无特殊符号）
     titles = [
-        f"🔥 {short_name}：{highlight}新模型来了",
-        f"今日热门：{short_name}引领AI新趋势",
-        f"{short_name}｜{highlight}的强力模型",
-        f" Hugging Face 热榜：{short_name}登顶",
-        f"{short_name}：{highlight}，开发者必看",
+        f"🔥{display_name}重磅发布{capability}能力再升级",
+        f"今日AI热点{display_name}登顶HuggingFace",
+        f"开发者必看{display_name}带来全新体验",
+        f"最强{display_name}来袭多模态能力全面升级",
+        f"HuggingFace热榜第一{display_name}究竟有多强",
+        f"谷歌重磅{display_name}开源性能超越预期",
+        f"🔥{display_name}今日登顶开发者都在关注",
     ]
 
-    # 选择最短且不超过30字的标题
+    # 选择最合适且不超过30字的标题
     for title in titles:
         if len(title) <= 30:
             return title
 
-    # 兜底：简化标题
-    return f"🔥 {short_name} 登顶 Hugging Face 热榜"[:30]
+    # 兜底：简洁标题（无空格）
+    return f"🔥{display_name}登顶HuggingFace热榜"[:30]
 
 
 def _build_card_image_url(card_path: str) -> str:

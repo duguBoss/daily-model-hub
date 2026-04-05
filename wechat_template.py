@@ -27,7 +27,7 @@ PAGE_TEMPLATE = _minify_html(
   <section style="margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);">
     <section style="margin:0;padding:0 16px 20px;">
       <p style="margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;">Daily Model Hub</p>
-      <h1 style="margin:0;font-size:25px;line-height:1.35;color:#111827;font-weight:800;">{title}</h1>
+      <h1 style="margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;">每日精选HuggingFace热门模型</h1>
       <p style="margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;">{subtitle}</p>
     </section>
     {cards}
@@ -48,12 +48,12 @@ PAGE_TEMPLATE = _minify_html(
 
 CARD_TEMPLATE = _minify_html(
     """
-<section style="margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;">
+<section style="margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;overflow:hidden;">
   <section style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);">
     <span style="font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;">#{rank} Trending Model</span>
     <span style="font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);">Hugging Face</span>
   </section>
-  <img src="{image_url}" alt="{model_name}" style="display:block;width:100%;max-width:100%;height:auto;border:0;margin:0;padding:0;" />
+  <img src="{image_url}" alt="{model_name}" style="display:block;width:100vw;max-width:100vw;height:auto;border:0;margin:0 -16px;padding:0;position:relative;left:50%;transform:translateX(-50%);" />
   <section style="margin:0;padding:16px 16px 18px;background-color:#ffffff;">
     <h2 style="margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;">{model_name}</h2>
     <p style="margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;">{model_desc}</p>
