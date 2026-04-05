@@ -33,11 +33,11 @@ def main() -> None:
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
         context = browser.new_context(
-            viewport={"width": 1920, "height": 1080},
+            viewport={"width": 3840, "height": 2160},
             user_agent=USER_AGENT,
-            device_scale_factor=1,
+            device_scale_factor=2,
         )
-        # 设置更大的窗口尺寸以确保页面完全加载
+        # 设置默认超时
         context.set_default_timeout(60000)
 
         try:

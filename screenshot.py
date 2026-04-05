@@ -9,7 +9,7 @@ from utils import slugify
 def capture_trending_screenshots(page) -> list[dict]:
     """在 Trending 页面直接截取前5个模型卡片.
 
-    不需要点击进入每个模型详情页，直接在列表页面截图。
+    一次性获取元素句柄并截图，避免多次查询导致的遮挡问题。
     """
     captured_cards = []
 
@@ -17,8 +17,8 @@ def capture_trending_screenshots(page) -> list[dict]:
     page.wait_for_selector("main", timeout=30000)
     page.wait_for_timeout(3000)
 
-    # 获取前5个模型卡片的元素句柄
-    cards_data = page.evaluate(
+    # 一次性获取所有模型卡片的元素句柄和数据
+    cards_info = page.evaluate(
         """(limit) => {
           const cards = [];
           // HF Trending 页面的模型卡片选择器
@@ -50,8 +50,8 @@ def capture_trending_screenshots(page) -> list[dict]:
             cards.push({
               path: pathname,
               name: segments.join("/"),
-              x: rect.x,
-              y: rect.y,
+              x: Math.max(0, rect.x),
+              y: Math.max(0, rect.y),
               width: rect.width,
               height: rect.height
             });
@@ -63,22 +63,20 @@ def capture_trending_screenshots(page) -> list[dict]:
         MODEL_LIMIT
     )
 
-    if not cards_data:
+    if not cards_info:
         raise RuntimeError("No model cards found on trending page for screenshot.")
 
-    # 为每个卡片截图
-    for index, card_info in enumerate(cards_data, start=1):
+    print(f"Found {len(cards_info)} model cards to capture")
+
+    # 一次性截图所有卡片，不进行滚动操作
+    for index, card_info in enumerate(cards_info, start=1):
         file_name = f"{index:02d}-{slugify(card_info['name'])}.png"
         image_path = RUN_IMAGE_DIR / file_name
 
-        print(f"Capturing screenshot for {card_info['name']}...")
+        print(f"Capturing screenshot for {card_info['name']} at ({card_info['x']}, {card_info['y']})...")
 
         try:
-            # 滚动到元素位置
-            page.evaluate(f"window.scrollTo(0, {card_info['y'] - 100})")
-            page.wait_for_timeout(500)
-
-            # 截图指定区域
+            # 直接截图指定区域，不滚动
             page.screenshot(
                 path=str(image_path),
                 type="png",
