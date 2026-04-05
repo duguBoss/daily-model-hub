@@ -32,12 +32,6 @@ PAGE_TEMPLATE = _minify_html(
     </section>
     {cards}
   </section>
-  <section style="margin:0;padding:8px 16px 24px;background-color:#ffffff;">
-    <section style="margin:0;padding:16px;border:1px solid #fed7aa;background-color:#fff7ed;">
-      <p style="margin:0;font-size:13px;line-height:1.7;color:#9a3412;">{source_note}</p>
-      <p style="margin:10px 0 0;font-size:12px;line-height:1.6;color:#c2410c;">{generated_at_label}{generated_at}</p>
-    </section>
-  </section>
   <section style="margin:0;padding:0;width:100%;">
     <img src="{footer_gif}" alt="{footer_alt}" style="display:block;width:100%;height:auto;border:0;" />
   </section>
@@ -59,21 +53,18 @@ CARD_TEMPLATE = _minify_html(
   <section style="margin:0;padding:16px 16px 18px;background-color:#ffffff;">
     <h2 style="margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;">{model_name}</h2>
     <p style="margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;">{model_desc}</p>
-    <a href="{model_url}" style="display:block;width:100%;box-sizing:border-box;padding:11px 16px;background-color:#111827;color:#ffffff;font-size:14px;line-height:1.4;font-weight:600;text-align:center;text-decoration:none;">{button_label}</a>
   </section>
 </section>
 """
 )
 
 
-def render_model_card(*, rank: int, model_name: str, model_desc: str, model_url: str, image_url: str) -> str:
+def render_model_card(*, rank: int, model_name: str, model_desc: str, image_url: str) -> str:
     return CARD_TEMPLATE.format(
         rank=rank,
         model_name=escape(model_name),
         model_desc=escape(model_desc),
-        model_url=escape(model_url, quote=True),
         image_url=escape(image_url, quote=True),
-        button_label=escape(BUTTON_LABEL),
     )
 
 

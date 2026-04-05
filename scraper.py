@@ -119,7 +119,7 @@ def enrich_model(browser_context, session: requests.Session, card: dict, index: 
             "modelDescription": "",
             "sourceDescription": description or "No description available.",
             "modelUrl": card["href"],
-            "cardSummary": card["cardText"],
+            "cardSummary": "",
         }
     finally:
         page.close()

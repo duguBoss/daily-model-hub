@@ -92,7 +92,6 @@ def build_wechat_html(models: list[dict], title: str, date_str: str) -> str:
                 rank=rank,
                 model_name=model.get("modelName", ""),
                 model_desc=model.get("modelDescription", ""),
-                model_url=model.get("modelUrl", ""),
                 image_url=_build_card_image_url(model.get("modelCard", "")),
             )
         )

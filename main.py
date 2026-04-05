@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 from config import ensure_dirs, require_gemini_api_key, USER_AGENT, MODEL_LIMIT
 from gemini_client import build_session, summarize_models_in_chinese, generate_weekly_selection
 from scraper import scrape_trending_cards, enrich_model
-from screenshot import capture_all_screenshots
+from screenshot import capture_trending_screenshots
 from data_manager import (
     should_generate_weekly,
     load_recent_daily_records,
@@ -40,9 +40,11 @@ def main() -> None:
 
         try:
             page = context.new_page()
-            cards = scrape_trending_cards(page)
 
-            captured_cards = capture_all_screenshots(context, cards)
+            # 先获取模型列表并截图
+            from scraper import TRENDING_URL
+            page.goto(TRENDING_URL, wait_until="domcontentloaded", timeout=120000)
+            captured_cards = capture_trending_screenshots(page)
 
             models = []
             for index, card in enumerate(captured_cards):
