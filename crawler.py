@@ -275,9 +275,59 @@ def scrape_trending_cards(page) -> list[dict]:
 
 
 def capture_card_screenshot(page, model_path: str, image_path: Path) -> None:
+    """捕获模型卡片截图，确保使用4K分辨率以获得清晰图片."""
+    # 构建精确的选择器来定位模型卡片
     locator = page.locator(f'a[href="{model_path}"]').filter(has=page.locator("h4")).first
+
+    # 等待元素可见并滚动到视图中
+    locator.wait_for(state="visible", timeout=10000)
     locator.scroll_into_view_if_needed()
-    locator.screenshot(path=str(image_path))
+
+    # 额外等待确保图片和文字渲染完成
+    page.wait_for_timeout(500)
+
+    # 截图
+    locator.screenshot(path=str(image_path), type="png")
+
+
+def capture_card_screenshot_4k(context, card: dict, image_path: Path) -> None:
+    """在4K分辨率下打开模型页面并截图模型卡片.
+
+    为了确保截图清晰，我们：
+    1. 在4K分辨率下打开新页面
+    2. 等待页面完全加载
+    3. 找到模型卡片元素
+    4. 滚动到视图中
+    5. 等待图片渲染完成
+    6. 截图保存
+    """
+    page = context.new_page()
+    try:
+        # 在4K分辨率下打开模型页面
+        page.goto(card["href"], wait_until="networkidle", timeout=60000)
+
+        # 等待页面主要内容加载
+        page.wait_for_selector("main", timeout=30000)
+
+        # 等待模型卡片区域加载（通常包含模型名称和描述）
+        page.wait_for_selector("h1, h2, h3, h4", timeout=10000)
+
+        # 额外等待确保所有图片加载完成
+        page.wait_for_timeout(2000)
+
+        # 尝试找到模型卡片区域（通常是包含模型名称的第一个主要区域）
+        # 先尝试找 header 区域
+        header_locator = page.locator("header").first
+        if header_locator.is_visible():
+            header_locator.scroll_into_view_if_needed()
+            page.wait_for_timeout(500)
+            header_locator.screenshot(path=str(image_path), type="png")
+        else:
+            # 如果找不到 header，截取整个页面顶部区域（包含模型信息）
+            page.screenshot(path=str(image_path), type="png", full_page=False)
+
+    finally:
+        page.close()
 
 
 def extract_page_description(model_page) -> str:
@@ -478,7 +528,7 @@ def main() -> None:
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
         context = browser.new_context(
-            viewport={"width": 1600, "height": 2400},
+            viewport={"width": 3840, "height": 2160},  # 4K分辨率
             user_agent=USER_AGENT,
             device_scale_factor=2,
         )
@@ -491,9 +541,14 @@ def main() -> None:
             for index, card in enumerate(cards, start=1):
                 file_name = f"{index:02d}-{slugify(card['name'])}.png"
                 image_path = RUN_IMAGE_DIR / file_name
-                capture_card_screenshot(page, card["path"], image_path)
+
+                # 在4K分辨率下重新加载页面并截图，确保图片清晰
+                print(f"Capturing screenshot for {card['name']}...")
+                capture_card_screenshot_4k(context, card, image_path)
+
                 card["image_path"] = image_path
                 captured_cards.append(card)
+                print(f"Saved: {image_path.name}")
 
             models = []
             for index, card in enumerate(captured_cards):
