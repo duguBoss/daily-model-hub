@@ -3,29 +3,26 @@ import os
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
 
-from config import ensure_dirs, require_gemini_api_key, USER_AGENT, MODEL_LIMIT
-from gemini_client import build_session, summarize_models_in_chinese, generate_weekly_selection
-from scraper import scrape_trending_cards, enrich_model
-from screenshot import capture_trending_screenshots
+from cleanup import cleanup_old_files, cleanup_current_assets
+from config import ensure_dirs, require_gemini_api_key, USER_AGENT
 from data_manager import (
-    should_generate_weekly,
-    load_recent_daily_records,
     build_weekly_candidates,
+    load_recent_daily_records,
     save_daily_record,
     save_weekly_record,
+    should_generate_weekly,
 )
-from cleanup import cleanup_old_files, cleanup_current_assets
+from gemini_client import build_session, generate_weekly_selection, summarize_models_in_chinese
+from scraper import enrich_model, scrape_trending_cards
+from screenshot import render_model_cards
 
 
 def main() -> None:
     ensure_dirs()
     require_gemini_api_key()
 
-    # 清理历史数据（默认只保留当天，可通过环境变量配置保留天数）
     keep_days = int(os.environ.get("HF_KEEP_DAYS", "0") or "0")
     cleanup_old_files(keep_days=keep_days)
-
-    # 清空当天的 assets 目录，确保每次执行前都是干净的
     cleanup_current_assets()
 
     session = build_session(USER_AGENT)
@@ -33,23 +30,17 @@ def main() -> None:
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
         context = browser.new_context(
-            viewport={"width": 3840, "height": 2160},
+            viewport={"width": 1400, "height": 1200},
             user_agent=USER_AGENT,
             device_scale_factor=2,
         )
-        # 设置默认超时
         context.set_default_timeout(60000)
 
         try:
-            page = context.new_page()
-
-            # 先获取模型列表并截图
-            from scraper import TRENDING_URL
-            page.goto(TRENDING_URL, wait_until="domcontentloaded", timeout=120000)
-            captured_cards = capture_trending_screenshots(page)
-
+            trending_cards = scrape_trending_cards(session)
             models = []
-            for index, card in enumerate(captured_cards):
+
+            for index, card in enumerate(trending_cards):
                 try:
                     model = enrich_model(context, session, card, index)
                     models.append(model)
@@ -58,6 +49,7 @@ def main() -> None:
                     print(f"Timed out collecting {card['name']}: {exc}")
 
             models = summarize_models_in_chinese(session, models)
+            models = render_model_cards(context, models)
             save_daily_record(models)
 
             if should_generate_weekly():

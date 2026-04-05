@@ -2,7 +2,7 @@ from pathlib import Path
 
 import requests
 
-from config import TRENDING_URL, MODEL_LIMIT, RUN_STAMP, ROOT_DIR
+from config import MODEL_LIMIT, RUN_STAMP
 from utils import extract_intro_from_markdown, pick_description
 
 
@@ -25,53 +25,38 @@ def fetch_readme_description(session: requests.Session, model_path: str) -> str:
     return ""
 
 
-def scrape_trending_cards(page) -> list[dict]:
-    page.goto(TRENDING_URL, wait_until="domcontentloaded", timeout=120000)
-    page.wait_for_selector("main", timeout=30000)
-    page.wait_for_timeout(3000)
+def scrape_trending_cards(session: requests.Session) -> list[dict]:
+    response = session.get("https://huggingface.co/models-json?sort=trending&withCount=true", timeout=60)
+    response.raise_for_status()
+    payload = response.json()
+    models = payload.get("models", [])
 
-    cards = page.evaluate(
-        """(limit) => {
-          const normalize = (value) => (value || "").replace(/\\s+/g, " ").trim();
-          const selectorCandidates = [
-            "a.flex.items-center.justify-between.gap-4.p-2[href^='/']",
-            "main a[href^='/']"
-          ];
-          const anchorGroups = selectorCandidates
-            .map((selector) => Array.from(document.querySelectorAll(selector)))
-            .filter((group) => group.length > 0);
-          const anchors = anchorGroups[0] || [];
-          const seen = new Set();
-          const rows = [];
+    cards = []
+    for model in models:
+        model_id = model.get("id", "")
+        if not model_id:
+            continue
 
-          for (const anchor of anchors) {
-            const href = anchor.getAttribute("href") || "";
-            const heading = anchor.querySelector("h4");
-            if (!heading || !href.startsWith("/")) continue;
-
-            const pathname = href.split("?")[0];
-            const segments = pathname.split("/").filter(Boolean);
-            if (segments.length < 1 || segments.length > 2) continue;
-            if (seen.has(pathname)) continue;
-
-            seen.add(pathname);
-            rows.push({
-              name: normalize(heading.textContent),
-              href: new URL(pathname, location.origin).toString(),
-              path: pathname,
-              cardText: normalize(anchor.textContent)
-            });
-
-            if (rows.length >= limit) break;
-          }
-
-          return rows;
-        }""",
-        MODEL_LIMIT,
-    )
+        path = f"/{model_id}"
+        cards.append(
+            {
+                "name": model_id,
+                "href": f"https://huggingface.co{path}",
+                "path": path,
+                "author": model.get("author", ""),
+                "downloads": model.get("downloads", 0),
+                "likes": model.get("likes", 0),
+                "pipelineTag": model.get("pipeline_tag", ""),
+                "lastModified": model.get("lastModified", ""),
+                "numParameters": model.get("numParameters"),
+                "availableInferenceProviders": model.get("availableInferenceProviders", []),
+            }
+        )
+        if len(cards) >= MODEL_LIMIT:
+            break
 
     if not cards:
-        raise RuntimeError("No model cards were found on the trending page.")
+        raise RuntimeError("No model cards were returned by the trending models API.")
 
     return cards
 
@@ -114,12 +99,19 @@ def enrich_model(browser_context, session: requests.Session, card: dict, index: 
         return {
             "rank": index + 1,
             "recordDate": RUN_STAMP,
-            "modelCard": card["image_path"].relative_to(ROOT_DIR).as_posix(),
+            "modelCard": card.get("modelCard", ""),
             "modelName": card["name"],
             "modelDescription": "",
             "sourceDescription": description or "No description available.",
             "modelUrl": card["href"],
             "cardSummary": "",
+            "author": card.get("author", ""),
+            "downloads": card.get("downloads", 0),
+            "likes": card.get("likes", 0),
+            "pipelineTag": card.get("pipelineTag", ""),
+            "lastModified": card.get("lastModified", ""),
+            "numParameters": card.get("numParameters"),
+            "availableInferenceProviders": card.get("availableInferenceProviders", []),
         }
     finally:
         page.close()
