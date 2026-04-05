@@ -9,7 +9,7 @@ from utils import slugify
 def capture_trending_screenshots(page) -> list[dict]:
     """在 Trending 页面直接截取前5个模型卡片.
 
-    页面加载完成后，使用 XPath 一次性获取5个元素并分别截图，无需重新加载页面。
+    页面加载完成后，一次性获取5个元素的坐标，然后使用 clip 截图。
     """
     captured_cards = []
 
@@ -17,8 +17,8 @@ def capture_trending_screenshots(page) -> list[dict]:
     page.wait_for_selector("main", timeout=30000)
     page.wait_for_timeout(5000)  # 确保页面完全渲染
 
-    # 获取前5个模型卡片的名称和序号
-    cards_meta = page.evaluate(
+    # 一次性获取所有模型卡片的坐标（相对于视口）
+    cards_data = page.evaluate(
         """(limit) => {
           const cards = [];
           const selectors = [
@@ -46,10 +46,16 @@ def capture_trending_screenshots(page) -> list[dict]:
             seen.add(pathname);
             index++;
 
+            // 获取元素相对于视口的坐标
+            const rect = anchor.getBoundingClientRect();
             cards.push({
               index: index,
               path: pathname,
-              name: segments.join("/")
+              name: segments.join("/"),
+              x: Math.round(rect.x),
+              y: Math.round(rect.y),
+              width: Math.round(rect.width),
+              height: Math.round(rect.height)
             });
 
             if (cards.length >= limit) break;
@@ -59,39 +65,69 @@ def capture_trending_screenshots(page) -> list[dict]:
         MODEL_LIMIT
     )
 
-    if not cards_meta:
+    if not cards_data:
         raise RuntimeError("No model cards found on trending page for screenshot.")
 
-    print(f"Found {len(cards_meta)} model cards to capture")
+    print(f"Found {len(cards_data)} model cards to capture")
 
-    # 页面已加载，直接用 XPath 获取每个元素并截图
-    for card_info in cards_meta:
+    # 按 Y 坐标排序，从顶部开始截图
+    cards_data.sort(key=lambda c: c['y'])
+
+    # 逐个截图，使用 clip 方式
+    for card_info in cards_data:
         file_name = f"{card_info['index']:02d}-{slugify(card_info['name'])}.png"
         image_path = RUN_IMAGE_DIR / file_name
 
-        print(f"Capturing screenshot for {card_info['name']}...")
+        print(f"Capturing {card_info['name']} at ({card_info['x']}, {card_info['y']}, {card_info['width']}, {card_info['height']})...")
 
         try:
-            # 使用 XPath 定位第 N 个模型卡片
-            # HF Trending 页面结构: /html/body/div/main/div/div/section[2]/div[2]/div/article[n]
-            xpath = f"xpath=/html/body/div/main/div/div/section[2]/div[2]/div/article[{card_info['index']}]"
+            # 滚动到元素位置，确保在视口内
+            page.evaluate(f"window.scrollTo(0, {card_info['y'] - 100})")
+            page.wait_for_timeout(500)
 
-            # 定位元素
-            element = page.locator(xpath).first
+            # 重新获取坐标（因为滚动后坐标可能变化）
+            updated_rect = page.evaluate(
+                """(xpath) => {
+                    const element = document.evaluate(
+                        xpath,
+                        document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null
+                    ).singleNodeValue;
+                    if (element) {
+                        const rect = element.getBoundingClientRect();
+                        return {
+                            x: Math.round(rect.x),
+                            y: Math.round(rect.y),
+                            width: Math.round(rect.width),
+                            height: Math.round(rect.height)
+                        };
+                    }
+                    return null;
+                }""",
+                f"/html/body/div/main/div/div/section[2]/div[2]/div/article[{card_info['index']}]"
+            )
 
-            # 等待元素存在（不需要滚动，不需要重新加载）
-            element.wait_for(state="attached", timeout=10000)
+            if updated_rect:
+                # 使用 clip 截图
+                page.screenshot(
+                    path=str(image_path),
+                    type="png",
+                    clip={
+                        "x": updated_rect['x'],
+                        "y": updated_rect['y'],
+                        "width": updated_rect['width'],
+                        "height": updated_rect['height']
+                    }
+                )
 
-            # 直接截图元素
-            element.screenshot(path=str(image_path), type="png")
-
-            captured_cards.append({
-                "name": card_info['name'],
-                "path": card_info['path'],
-                "href": f"https://huggingface.co{card_info['path']}",
-                "image_path": image_path
-            })
-            print(f"Saved: {image_path.name}")
+                captured_cards.append({
+                    "name": card_info['name'],
+                    "path": card_info['path'],
+                    "href": f"https://huggingface.co{card_info['path']}",
+                    "image_path": image_path
+                })
+                print(f"Saved: {image_path.name}")
+            else:
+                print(f"Failed to get updated rect for {card_info['name']}")
 
         except Exception as e:
             print(f"Failed to capture screenshot for {card_info['name']}: {e}")
