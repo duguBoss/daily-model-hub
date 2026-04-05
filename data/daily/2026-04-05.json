@@ -8,7 +8,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/01-google-gemma-4-31b-it.png",
       "modelName": "google/gemma-4-31B-it",
-      "modelDescription": "Gemma-4-31B-it 是谷歌推出的中等规模指令微调模型，基于先进的架构设计，平衡了计算资源消耗与处理能力。该模型擅长复杂指令遵循、文本生成及逻辑推理任务，适用于需要较高推理精度但对超大规模模型显存有限制的企业级应用或高性能开发场景，是提升 AI 交互质量的有力工具。",
+      "modelDescription": "Gemma-4-31B-it 是 Google 推出的开源指令微调大语言模型。该模型拥有 310 亿参数，在逻辑推理、代码生成及多轮对话方面表现出色。其定位为兼顾性能与效率的平衡型模型，适用于复杂任务处理、学术研究及开发者构建定制化的智能助手，能够在本地或私有云环境中高效部署，满足中大规模参数下的高质量生成需求。",
       "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
       "modelUrl": "https://huggingface.co/google/gemma-4-31B-it",
       "cardSummary": ""
@@ -18,7 +18,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/02-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled.png",
       "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "modelDescription": "该模型是以 Qwen3.5-27B 为基底，通过蒸馏 Claude-4.6-Opus 强化推理能力而成的微调版本。其核心定位是复现顶尖闭源模型的深度思维链逻辑。该项目提供了配套的训练脚本与指南，适合对模型微调技术感兴趣的开发者，用于探索如何通过知识蒸馏提升开源模型在复杂逻辑任务中的表现。",
+      "modelDescription": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled 是基于 Qwen3.5 架构进行微调的蒸馏模型。通过学习 Claude 3.5 Opus 的推理模式，该模型显著增强了深度思维与逻辑推理能力。它适合处理复杂的逻辑分析、数学计算及多步推理任务。作者提供了完整的训练代码与指南，方便开发者研究模型微调技术并将其应用于特定领域任务。",
       "sourceDescription": "🔥 Update (April 5): To help beginners and enthusiasts better understand and reproduce the fine-tuning process of this model, I have prepared the complete training notebook, codebase, and a comprehensive companion PDF guide! Please check the resource links below.",
       "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
       "cardSummary": ""
@@ -28,7 +28,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/03-coherelabs-cohere-transcribe-03-2026.png",
       "modelName": "CohereLabs/cohere-transcribe-03-2026",
-      "modelDescription": "Cohere Transcribe 是一款开源的自动语音识别模型，参数量为 20 亿，采用音频输入转文本输出架构。该模型支持 14 种语言，旨在提供高效且准确的语音转文字服务。其开源特性使其能够被集成至各类实时转录系统、会议记录工具或多语言音频处理工作流中，满足跨语言场景的语音信息提取需求。",
+      "modelDescription": "Cohere-Transcribe-03-2026 是 Cohere Labs 开源的一款 20 亿参数专用自动语音识别（ASR）模型。该模型采用音频输入、文本输出架构，支持全球 14 种主流语言。其设计精简高效，旨在提供高准确率的语音转文字服务，非常适合构建会议纪要整理、语音输入法、多语言实时翻译等对延迟与资源消耗有要求的应用场景。",
       "sourceDescription": "Cohere Transcribe is an open source release of a 2B parameter dedicated audio-in, text-out automatic speech recognition (ASR) model. The model supports 14 languages.",
       "modelUrl": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
       "cardSummary": ""
@@ -38,7 +38,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/04-baidu-qianfan-ocr.png",
       "modelName": "baidu/Qianfan-OCR",
-      "modelDescription": "百度 Qianfan-OCR 是一款面向文档智能处理的端到端统一模型。它通过一体化的模型架构简化了复杂文档识别的流程，显著提升了识别效率与精度。该模型主要用于企业办公、金融票据录入及档案数字化等高负载 OCR 场景，旨在通过高效的文档解析能力，助力企业实现自动化文档信息提取与数字化办公转型。",
+      "modelDescription": "Qianfan-OCR 是百度推出的统一端到端文档智能模型。该模型专注于复杂的文档图像处理与文字识别任务，能够高效解析多样化的文档格式，并实现高精度的信息提取。它在处理财务报表、合同分析及票据识别等垂直行业场景中表现出众，旨在为企业用户提供自动化、智能化的数据录入与文档数字化解决方案。",
       "sourceDescription": "<h3>A Unified End-to-End Model for Document Intelligence</h3>",
       "modelUrl": "https://huggingface.co/baidu/Qianfan-OCR",
       "cardSummary": ""
@@ -48,7 +48,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/05-prism-ml-bonsai-8b-gguf.png",
       "modelName": "prism-ml/Bonsai-8B-gguf",
-      "modelDescription": "Bonsai-8B-gguf 是针对终端侧优化的小参数量语言模型，提供 GGUF 格式以支持更广泛的本地部署。该模型定位在低功耗硬件环境下运行，通过量化技术降低内存需求，在保证基础问答与指令遵循能力的同时，为个人用户或边缘计算设备提供轻量化 AI 交互支持，适用于离线环境下的文本生成与内容理解。",
+      "modelDescription": "Bonsai-8B-gguf 是针对消费级硬件优化的 80 亿参数轻量化语言模型，以 GGUF 格式封装。该模型定位为高效能、低资源占用的本地运行方案，特别适合在个人电脑或边缘计算设备上快速部署使用。凭借其精巧的架构，它能够提供响应迅速的基础语言理解与生成服务，非常适合个人助手、本地文档助手或离线应用开发。",
       "sourceDescription": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
       "modelUrl": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
       "cardSummary": ""
