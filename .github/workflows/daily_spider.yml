@@ -33,7 +33,7 @@ jobs:
         env:
           HF_MODEL_LIMIT: "5"
           HF_WEEKLY_PICK_LIMIT: "6"
-          HF_KEEP_DAYS: "7"
+          HF_KEEP_DAYS: "0"
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: "gemini-3.1-flash-lite-preview"
         run: python main.py

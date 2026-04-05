@@ -21,8 +21,8 @@ def main() -> None:
     ensure_dirs()
     require_gemini_api_key()
 
-    # 清理历史数据（默认保留7天，可通过环境变量配置）
-    keep_days = int(os.environ.get("HF_KEEP_DAYS", "7") or "7")
+    # 清理历史数据（默认只保留当天，可通过环境变量配置保留天数）
+    keep_days = int(os.environ.get("HF_KEEP_DAYS", "0") or "0")
     cleanup_old_files(keep_days=keep_days)
 
     session = build_session(USER_AGENT)
