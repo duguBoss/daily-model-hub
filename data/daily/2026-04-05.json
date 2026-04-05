@@ -1,0 +1,307 @@
+{
+  "recordDate": "2026-04-05",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 30,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/01-google-gemma-4-31b-it.png",
+      "modelName": "google/gemma-4-31B-it",
+      "modelDescription": "Gemma 4-31B-it 是谷歌推出的高性能指令微调模型，参数规模约为33B。该模型具备优秀的图像与文本理解及生成能力，旨在为开发者提供强大的推理与交互支持，适用于复杂的多模态任务场景，能够高效处理大规模的上下文输入，展现出极高的通用性与应用潜力。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/gemma-4-31B-it",
+      "cardSummary": "google/gemma-4-31B-it Image-Text-to-Text • 33B • Updated 3 days ago • 287k • • 868"
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/02-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled.png",
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "modelDescription": "该模型基于 Qwen3.5-27B 架构，专门针对编码智能体进行了微调优化。通过改进 Jinja 模板兼容性，解决了与 Claude Code 等工具的交互冲突，并增强了持续推理的稳定性。它保留了推理模式，非常适合需要深度思维过程的自动化编程及复杂逻辑分析任务。",
+      "sourceDescription": "Build Environment Upgrades: - Fine-tuning Framework : Unsloth 2026.3.3 - Core Dependencies : Transformers 5.2.0 - This model fixes the crash in the official model caused by the Jinja template not supporting the \"developer\" role. (commonly sent by modern coding agents like Claude Code and OpenCode) - It does not disable thinking mode by default , and allowing the agent to run continuously for over 9 minutes without interruption . - Compared to the original model, autonomy and stability are significantly improved .",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled Image-Text-to-Text • 28B • Updated 12 days ago • 524k • 2.3k"
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/03-baidu-qianfan-ocr.png",
+      "modelName": "baidu/Qianfan-OCR",
+      "modelDescription": "百度推出的 Qianfan-OCR 是一款专注于文档智能处理的端到端大模型。该模型参数量为 5B，擅长提取和识别图像中的文档信息，能够实现高效的文字识别与结构化数据处理，是企业级办公自动化、文档数字化及多模态数据提取场景的理想选择。",
+      "sourceDescription": "<h3>A Unified End-to-End Model for Document Intelligence</h3>",
+      "modelUrl": "https://huggingface.co/baidu/Qianfan-OCR",
+      "cardSummary": "baidu/Qianfan-OCR Image-Text-to-Text • 5B • Updated 10 days ago • 36.6k • 959"
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/04-coherelabs-cohere-transcribe-03-2026.png",
+      "modelName": "CohereLabs/cohere-transcribe-03-2026",
+      "modelDescription": "Cohere Transcribe 是一款开源的自动语音识别（ASR）模型，参数量为 2B。该模型专注于音频到文本的转化，支持多达 14 种语言。其小巧的架构设计使其在处理语音转写任务时具备较高的推理效率，非常适合应用于实时语音转录、会议记录及各类语音交互产品中。",
+      "sourceDescription": "Cohere Transcribe is an open source release of a 2B parameter dedicated audio-in, text-out automatic speech recognition (ASR) model. The model supports 14 languages.",
+      "modelUrl": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+      "cardSummary": "CohereLabs/cohere-transcribe-03-2026 Automatic Speech Recognition • Updated 3 days ago • 96.6k • 791"
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/05-prism-ml-bonsai-8b-gguf.png",
+      "modelName": "prism-ml/Bonsai-8B-gguf",
+      "modelDescription": "Bonsai-8B-gguf 是一款采用 GGUF 格式封装的 8B 参数量文本生成模型。通过量化处理，该模型在保持较好性能的同时降低了显存占用，方便在消费级硬件或边缘端设备上部署。主要适用于各类文本创作、逻辑问答及轻量级的自动化语言处理任务。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
+      "modelUrl": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
+      "cardSummary": "prism-ml/Bonsai-8B-gguf Text Generation • 8B • Updated 5 days ago • 32.9k • 388"
+    },
+    {
+      "rank": 6,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/06-google-gemma-4-26b-a4b-it.png",
+      "modelName": "google/gemma-4-26B-A4B-it",
+      "modelDescription": "Google Gemma 4-26B-A4B-it 是谷歌新一代多模态指令微调模型，参数规模约 27B。该模型针对图像与文本的综合处理进行了深度优化，能够提供精确的理解与生成效果，适用于多模态分析、图像问答及复杂的交互式指令执行场景，展现了强大的模型处理效能。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/gemma-4-26B-A4B-it",
+      "cardSummary": "google/gemma-4-26B-A4B-it Image-Text-to-Text • 27B • Updated 3 days ago • 133k • • 360"
+    },
+    {
+      "rank": 7,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/07-netflix-void-model.png",
+      "modelName": "netflix/void-model",
+      "modelDescription": "Netflix 开发的 void-model 是一款视频到视频（Video-to-Video）生成模型。该模型专注于处理视频序列信息，能够对现有视频进行风格化迁移、内容增强或编辑处理。这一前沿模型为视频后期制作与内容创作提供了自动化的技术解决方案，展现了极强的视频视觉理解能力。",
+      "sourceDescription": "<video src=\"https://github.com/user-attachments/assets/ad174ca0-2feb-45f9-9405-83167037d9be\" width=\"100%\" controls autoplay loop muted></video>",
+      "modelUrl": "https://huggingface.co/netflix/void-model",
+      "cardSummary": "netflix/void-model Video-to-Video • Updated 2 days ago • 319"
+    },
+    {
+      "rank": 8,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/08-google-gemma-4-e4b-it.png",
+      "modelName": "google/gemma-4-E4B-it",
+      "modelDescription": "Gemma 4-E4B-it 是谷歌推出的 Any-to-Any 跨模态大模型，参数规模 8B。该模型具备极强的模态转换能力，支持跨格式输入输出，能灵活处理多种类型的数据映射。其轻量化设计使其在保持多模态处理灵活性的同时，具备出色的计算效率，适用于多种跨模态生成与转换任务。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/gemma-4-E4B-it",
+      "cardSummary": "google/gemma-4-E4B-it Any-to-Any • 8B • Updated 3 days ago • 108k • 312"
+    },
+    {
+      "rank": 9,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/09-hauhaucs-qwen3-5-9b-uncensored-hauhaucs-aggressive.png",
+      "modelName": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "modelDescription": "这是Qwen3.5-9B模型的去审核（Uncensored）版本，完整保留了原模型的参数与功能，主要去除了内容审查机制。该模型适用于不受限制的对话交互和特定创作场景，用户可获得未经模型内部安全过滤器过滤的原始响应。",
+      "sourceDescription": "No changes to datasets or capabilities. Fully functional, 100% of what the original authors intended - just without the refusals.",
+      "modelUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "cardSummary": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive 9B • Updated Mar 4 • 716k • 971"
+    },
+    {
+      "rank": 10,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/10-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf.png",
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "modelDescription": "该模型是基于Qwen3.5-27B的推理蒸馏版本。v2版本优化了思维链长度，提高了每Token的逻辑计算效率。尽管在代码任务上保持了高准确率，但在MMLU-Pro等通用知识测评中表现略有下降。该模型适合对编程逻辑推理有高频需求且关注运行效率的用户。",
+      "sourceDescription": "v2 Update: - Accuracy preserved: Matches base model on HumanEval ( 96.91% pass@1 ) - Shorter reasoning: 24% reduction in chain-of-thought length - Higher efficiency: +31.6% more correct solutions per token - ⚠️ Trade-off: −1.24% on HumanEval+ −7.2% on MMLU-Pro (Indicating reduced general knowledge reasoning performance) ⚠️Note: Due to the scope of SFT data and training focus, the model may underperform the base model on certain tasks requiring long-context understanding or more complex multi-step reasoning. The efficiency and accuracy results reported here are based solely on the HumanEval and HumanEval+ benchmarks. Thank you for your understanding.",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "cardSummary": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF Image-Text-to-Text • 27B • Updated 11 days ago • 241k • 502"
+    },
+    {
+      "rank": 11,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/11-mistralai-voxtral-4b-tts-2603.png",
+      "modelName": "mistralai/Voxtral-4B-TTS-2603",
+      "modelDescription": "Voxtral-4B-TTS是Mistral发布的一款高性能、开放权重的文本转语音模型。该模型具备极佳的响应速度与即时适应性，能够生成自然逼真的语音，非常适合构建各类需要实时交互的语音代理系统。采用CC BY-NC 4.0授权许可。",
+      "sourceDescription": "Voxtral TTS is a frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents. The model is released with BF16 weights and a set of reference voices. These voices are licensed under CC BY-NC 4, which is the license that the model inherits.",
+      "modelUrl": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+      "cardSummary": "mistralai/Voxtral-4B-TTS-2603 Text-to-Speech • Updated 5 days ago • 5.1k • 661"
+    },
+    {
+      "rank": 12,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/12-google-gemma-4-e2b-it.png",
+      "modelName": "google/gemma-4-E2B-it",
+      "modelDescription": "Google推出的Gemma-4-E2B-it是一款5B参数规模的多模态模型。作为Gemma-4系列的一员，它支持Any-to-Any任务，具备处理图文输入的能力。该模型定位轻量级多模态交互，适用于移动端设备或对资源消耗敏感的边缘计算应用场景。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/gemma-4-E2B-it",
+      "cardSummary": "google/gemma-4-E2B-it Any-to-Any • 5B • Updated 3 days ago • 90k • 231"
+    },
+    {
+      "rank": 13,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/13-liquidai-lfm2-5-350m.png",
+      "modelName": "LiquidAI/LFM2.5-350M",
+      "modelDescription": "LiquidAI推出的LFM2.5-350M是一款超轻量级文本生成模型。其仅拥有3.5亿参数，旨在提供极高的运行速度与极低的硬件门槛。该模型适合嵌入式系统、简单的自动化任务或作为轻量化推理引擎的原型进行开发与集成。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.5em;\" /> <div style=\"display: flex; justify-content: center; gap: 0.5em; margin-bottom: 1em;\"> <a href=\"https://playground.liquid.ai/\"><strong>Try LFM</strong></a> • <a href=\"https://docs.liquid.ai/lfm/getting-started/welcome\"><strong>Docs</strong></a> • <a href=\"https://leap.liquid.ai/\"><strong>LEAP</strong></a> • <a href=\"https://discord.com/invite/liquid-ai\"><strong>Discord</strong></a> </div> </div>",
+      "modelUrl": "https://huggingface.co/LiquidAI/LFM2.5-350M",
+      "cardSummary": "LiquidAI/LFM2.5-350M Text Generation • 0.4B • Updated 3 days ago • 12.5k • 225"
+    },
+    {
+      "rank": 14,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/14-unsloth-gemma-4-26b-a4b-it-gguf.png",
+      "modelName": "unsloth/gemma-4-26B-A4B-it-GGUF",
+      "modelDescription": "unsloth/gemma-4-26B-A4B-it-GGUF是经过Unsloth框架优化并量化的Gemma-4模型版本。该版本特别针对推理性能进行了优化，通过GGUF格式提升了在消费级硬件上的加载速度与运行兼容性，适合需要高性能推理但硬件资源有限的研究人员使用。",
+      "sourceDescription": "Read our How to Run Gemma 4 Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em>See <a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0 GGUFs</a> for our quantization benchmarks.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/gemma-4\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+      "cardSummary": "unsloth/gemma-4-26B-A4B-it-GGUF Image-Text-to-Text • 25B • Updated about 23 hours ago • 301k • 218"
+    },
+    {
+      "rank": 15,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/15-hcompany-holo3-35b-a3b.png",
+      "modelName": "Hcompany/Holo3-35B-A3B",
+      "modelDescription": "Holo3-35B-A3B是一款定位于导航与计算机操作（Computer Use）的基础模型。该模型专注于理解图形界面操作与空间导航任务，是开发智能代理与自动化桌面交互工具的重要底层技术，能够辅助实现更复杂的自动化工作流。",
+      "sourceDescription": "Holo3: Foundational Models for Navigation and Computer Use Agents",
+      "modelUrl": "https://huggingface.co/Hcompany/Holo3-35B-A3B",
+      "cardSummary": "Hcompany/Holo3-35B-A3B Image-Text-to-Text • 35B • Updated 3 days ago • 1.3k • 215"
+    },
+    {
+      "rank": 16,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/16-google-gemma-4-31b.png",
+      "modelName": "google/gemma-4-31B",
+      "modelDescription": "Google发布的Gemma-4-31B是一款中大规模参数的视觉与语言多模态模型。其具备较强的通用推理能力，能够理解复杂的多模态输入并生成高质量文本。该模型适用于需要较高理解深度与多模态解析能力的行业应用及研究开发。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/gemma-4-31B",
+      "cardSummary": "google/gemma-4-31B Image-Text-to-Text • 33B • Updated 3 days ago • 17.9k • 192"
+    },
+    {
+      "rank": 17,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/17-k2-fsa-omnivoice.png",
+      "modelName": "k2-fsa/OmniVoice",
+      "modelDescription": "k2-fsa/OmniVoice 是一款专注于文本转语音（TTS）的开源模型。该模型由 k2-fsa 团队开发，旨在提供高质量的语音合成能力。它适用于各类语音交互场景，如自动播报系统、数字人语音驱动及辅助阅读等应用，能够有效将文字内容转化为自然流畅的音频输出。",
+      "sourceDescription": "<p align=\"center\"> <img width=\"200\" height=\"200\" alt=\"OmniVoice\" src=\"https://zhu-han.github.io/omnivoice/pics/omnivoice.jpg\" /> </p>",
+      "modelUrl": "https://huggingface.co/k2-fsa/OmniVoice",
+      "cardSummary": "k2-fsa/OmniVoice Text-to-Speech • Updated about 13 hours ago • 20.3k • 180"
+    },
+    {
+      "rank": 18,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/18-facebook-tribev2.png",
+      "modelName": "facebook/tribev2",
+      "modelDescription": "facebook/tribev2 是一款融合视觉、听觉与语言的多模态基础模型，专门用于计算神经科学研究。该模型能够模拟神经处理机制，将多传感器数据整合到统一的表征空间中。它主要应用于生物医学仿真、神经科学数据分析以及跨模态感知任务，为理解人类认知过程提供技术支持。",
+      "sourceDescription": "A Foundation Model of Vision, Audition, and Language for In-Silico Neuroscience",
+      "modelUrl": "https://huggingface.co/facebook/tribev2",
+      "cardSummary": "facebook/tribev2 Updated 9 days ago • 39.7k • 293"
+    },
+    {
+      "rank": 19,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/19-jackrong-qwopus3-5-9b-v3-gguf.png",
+      "modelName": "Jackrong/Qwopus3.5-9B-v3-GGUF",
+      "modelDescription": "Qwopus3.5-9B-v3-GGUF 是基于 Qwen3.5-9B 微调的增强型推理模型。该版本通过优化算法提升了推理的稳定性和准确性，并特别针对编程任务进行了泛化能力强化。其 GGUF 格式便于在消费级硬件上高效部署，适合开发者进行代码生成、复杂逻辑分析及日常辅助办公任务。",
+      "sourceDescription": "💡 Model Introduction Qwopus3.5-9B-v3 is a reasoning-enhanced model based on Qwen3.5-9B. Its core objective is to simultaneously improve reasoning stability and correctness while optimizing inference efficiency, ultimately achieving stronger cross-task generalization capabilities—particularly in programming.",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF",
+      "cardSummary": "Jackrong/Qwopus3.5-9B-v3-GGUF Image-Text-to-Text • 9B • Updated 5 days ago • 30.6k • 171"
+    },
+    {
+      "rank": 20,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/20-nvidia-gemma-4-31b-it-nvfp4.png",
+      "modelName": "nvidia/Gemma-4-31B-IT-NVFP4",
+      "modelDescription": "NVIDIA Gemma-4-31B-IT-NVFP4 是谷歌 DeepMind 开发的 Gemma 4 多模态模型量化版。它支持文本与图像输入及视频序列处理，具备 256K 超长上下文窗口和多语言支持。该模型在推理、智能代理工作流及复杂编程任务中表现出色，专为在消费级 GPU 上实现高性能部署而优化。",
+      "sourceDescription": "Description: Gemma 4 31B IT is an open multimodal model built by Google DeepMind that handles text and image inputs, can process video as sequences of frames, and generates text output. It is designed to deliver frontier-level performance for reasoning, agentic workflows, coding, and multimodal understanding on consumer GPUs and workstations, with a 256K-token context window and support for over 140 languages. The model uses a hybrid attention mechanism that interleaves local sliding-window and full global attention, with unified Keys and Values in global layers and Proportional RoPE (p-RoPE) to support long-context performance. The NVIDIA Gemma 4 31B IT NVFP4 model is quantized with NVIDIA Model Optimizer.",
+      "modelUrl": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+      "cardSummary": "nvidia/Gemma-4-31B-IT-NVFP4 Text Generation • 21B • Updated 2 days ago • 44.2k • 171"
+    },
+    {
+      "rank": 21,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/21-unsloth-gemma-4-31b-it-gguf.png",
+      "modelName": "unsloth/gemma-4-31B-it-GGUF",
+      "modelDescription": "unsloth/gemma-4-31B-it-GGUF 是基于 Gemma 4 31B 的高性能量化模型版本，利用 Unsloth 技术进行优化。该模型具备处理图像与文本输入的能力，能够满足长上下文需求。其 GGUF 格式降低了显存占用，适合在本地或中小型 GPU 集群上运行，适用于需要高性能多模态理解与文本生成的场景。",
+      "sourceDescription": "Read our How to Run Gemma 4 Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em>See <a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0 GGUFs</a> for our quantization benchmarks.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/gemma-4\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+      "cardSummary": "unsloth/gemma-4-31B-it-GGUF Image-Text-to-Text • 31B • Updated about 22 hours ago • 274k • 166"
+    },
+    {
+      "rank": 22,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/22-jackrong-qwopus3-5-27b-v3-gguf.png",
+      "modelName": "Jackrong/Qwopus3.5-27B-v3-GGUF",
+      "modelDescription": "Qwopus3.5-27B-v3-GGUF 是一款专注于强化推理能力的开源语言模型。该模型借鉴了思维链（CoT）和自我反思机制，通过迭代修正逻辑路径来提升决策准确性，特别适用于需要多步推理的复杂代理任务。其 GGUF 格式提供了灵活的量化选择，有助于在资源有限的环境下实现深度逻辑处理。",
+      "sourceDescription": "Recent advances in language agents — including systems such as OpenClaw — have predominantly focused on improving reasoning accuracy through Chain-of-Thought (CoT) and self-reflection mechanisms, encouraging models to iteratively refine their reasoning before taking actions.",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF",
+      "cardSummary": "Jackrong/Qwopus3.5-27B-v3-GGUF Image-Text-to-Text • 27B • Updated 3 days ago • 26k • 160"
+    },
+    {
+      "rank": 23,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/23-chromadb-context-1.png",
+      "modelName": "chromadb/context-1",
+      "modelDescription": "Context-1 是由 ChromaDB 开发的一款 20B 参数智能代理搜索模型。它专为解决复杂的多跳查询问题而设计，能够自动将问题拆解为多个子查询并检索相关文档。该模型主要作为前端检索子代理，与推理模型配合使用，通过动态调整上下文来提高信息检索的效率与准确性。",
+      "sourceDescription": "Context-1 is a 20B parameter agentic search model trained to retrieve supporting documents for complex, multi-hop queries. It is designed to be used as a retrieval subagent alongside a frontier reasoning model: given a query, Context-1 decomposes it into subqueries, iteratively searches a corpus, and selectively edits its own context to free capacity for further exploration.",
+      "modelUrl": "https://huggingface.co/chromadb/context-1",
+      "cardSummary": "chromadb/context-1 Text Generation • 21B • Updated 6 days ago • 3.42k • 368"
+    },
+    {
+      "rank": 24,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/24-microsoft-harrier-oss-v1-0-6b.png",
+      "modelName": "microsoft/harrier-oss-v1-0.6b",
+      "modelDescription": "harrier-oss-v1-0.6b 是微软推出的多语言文本嵌入模型系列。该模型采用解码器架构，通过最后 token 池化和 L2 归一化生成稠密向量。它在多语言 MTEB 测试中表现优异，适用于语义搜索、文本聚类、相似度计算、文本分类及重排序等多种自然语言处理任务，是一款轻量高效的特征提取工具。",
+      "sourceDescription": "harrier-oss-v1 is a family of multilingual text embedding models developed by Microsoft. The models use decoder-only architectures with last-token pooling and L2 normalization to produce dense text embeddings. They can be applied to a wide range of tasks, including but not limited to retrieval , clustering , semantic similarity , classification , bitext mining , and reranking . The models achieve state-of-the-art results on the Multilingual MTEB v2 benchmark as of the release date.",
+      "modelUrl": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+      "cardSummary": "microsoft/harrier-oss-v1-0.6b Feature Extraction • 0.6B • Updated 6 days ago • 9.36k • • 155"
+    },
+    {
+      "rank": 25,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/25-prism-ml-bonsai-8b-mlx-1bit.png",
+      "modelName": "prism-ml/Bonsai-8B-mlx-1bit",
+      "modelDescription": "Bonsai-8B-mlx-1bit 是由 Prism-ML 开发的一款针对 Apple Silicon 平台优化的超低精度量化模型。该模型采用 1-bit 量化技术，显著降低了运行内存需求，旨在提升在 Mac 设备上本地部署大语言模型的推理效率，适合对显存资源极度敏感的边缘计算或个人开发者使用。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
+      "modelUrl": "https://huggingface.co/prism-ml/Bonsai-8B-mlx-1bit",
+      "cardSummary": "prism-ml/Bonsai-8B-mlx-1bit Text Generation • 0.4B • Updated 5 days ago • 16.9k • 137"
+    },
+    {
+      "rank": 26,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/26-tencent-hy-omniweaving.png",
+      "modelName": "tencent/HY-OmniWeaving",
+      "modelDescription": "腾讯发布的 HY-OmniWeaving 是一个多模态模型，旨在处理复杂的跨模态交互任务。尽管具体架构细节尚未完全公开，但该模型定位于整合视觉与语言理解，能够支持多种综合性输入输出，适用于视觉辅助对话、图像解析等需要深度跨模态融合的智能化场景。",
+      "sourceDescription": "<img src=\"./assets/logo.png\" alt=\"OmniWeaving Logo\" width=\"80%\">",
+      "modelUrl": "https://huggingface.co/tencent/HY-OmniWeaving",
+      "cardSummary": "tencent/HY-OmniWeaving Updated about 17 hours ago • 134"
+    },
+    {
+      "rank": 27,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/27-hauhaucs-qwen3-5-35b-a3b-uncensored-hauhaucs-aggressive.png",
+      "modelName": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "modelDescription": "该模型是基于 Qwen3.5-35B 的去限制版本，移除了原始模型中包含的拒答机制和合规性过滤器。它保持了原版模型的架构与功能，旨在为需要不受限制输出的研究人员或开发者提供更直接的生成体验，适用于各种复杂内容生成和创意任务。",
+      "sourceDescription": "No changes to datasets or capabilities. Fully functional, 100% of what the original authors intended - just without the refusals.",
+      "modelUrl": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "cardSummary": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive Image-Text-to-Text • 35B • Updated 25 days ago • 676k • 1.17k"
+    },
+    {
+      "rank": 28,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/28-google-gemma-4-26b-a4b.png",
+      "modelName": "google/gemma-4-26B-A4B",
+      "modelDescription": "Google 发布的 gemma-4-26B-A4B 是一款大规模多模态模型，具备处理图像和文本信息的能力。该模型定位为高性能开放模型，旨在为各种复杂任务提供强大的上下文理解与推理能力，支持广泛的跨模态分析与生成需求，适用于深度信息处理及科研开发。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/gemma-4-26B-A4B",
+      "cardSummary": "google/gemma-4-26B-A4B Image-Text-to-Text • 27B • Updated 3 days ago • 13.3k • 128"
+    },
+    {
+      "rank": 29,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/29-unsloth-gemma-4-e4b-it-gguf.png",
+      "modelName": "unsloth/gemma-4-E4B-it-GGUF",
+      "modelDescription": "Unsloth 团队提供的 gemma-4-E4B-it-GGUF 是专门针对 Gemma-4 模型架构优化的 GGUF 格式版本。它通过 Unsloth 的高效技术实现了量化加速，旨在让开发者能在消费级硬件上更流畅地部署运行该多模态模型，主要用于降低本地推理的算力门槛。",
+      "sourceDescription": "Read our How to Run Gemma 4 Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em>See <a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0 GGUFs</a> for our quantization benchmarks.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/gemma-4\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF",
+      "cardSummary": "unsloth/gemma-4-E4B-it-GGUF Image-Text-to-Text • 8B • Updated 1 day ago • 204k • 124"
+    },
+    {
+      "rank": 30,
+      "recordDate": "2026-04-05",
+      "modelCard": "assets/huggingface_model_cards/2026-04-05/30-microsoft-harrier-oss-v1-270m.png",
+      "modelName": "microsoft/harrier-oss-v1-270m",
+      "modelDescription": "微软推出的 Harrier-oss-v1-270m 是一系列多语言文本嵌入模型，采用 decoder-only 架构。该模型通过最后的 token 池化和 L2 归一化生成稠密向量，擅长检索、聚类、语义相似度计算及重排序等任务。作为轻量级模型，它在多语言 MTEB 基准测试中表现卓越，适用于各类文本分析与信息检索系统。",
+      "sourceDescription": "harrier-oss-v1 is a family of multilingual text embedding models developed by Microsoft. The models use decoder-only architectures with last-token pooling and L2 normalization to produce dense text embeddings. They can be applied to a wide range of tasks, including but not limited to retrieval , clustering , semantic similarity , classification , bitext mining , and reranking . The models achieve state-of-the-art results on the Multilingual MTEB v2 benchmark as of the release date.",
+      "modelUrl": "https://huggingface.co/microsoft/harrier-oss-v1-270m",
+      "cardSummary": "microsoft/harrier-oss-v1-270m Feature Extraction • 0.3B • Updated 6 days ago • 9k • • 122"
+    }
+  ]
+}
