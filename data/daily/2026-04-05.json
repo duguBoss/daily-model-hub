@@ -8,7 +8,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/01-google-gemma-4-31b-it.png",
       "modelName": "google/gemma-4-31B-it",
-      "modelDescription": "Gemma-4-31B-it 是谷歌推出的中量级开源指令微调模型。该模型在保持高效能的同时，具备较强的逻辑推理、文本生成与指令遵循能力，适用于需要平衡性能与资源消耗的各类通用自然语言处理任务，如智能对话助手开发、复杂文本处理与内容生成等应用场景。",
+      "modelDescription": "Gemma-4-31B-it 是谷歌推出的中等规模开源指令微调模型。该模型在保持高效计算性能的同时，显著提升了逻辑推理、代码生成与多轮对话的准确性。其规模适中，适合开发者在消费级硬件或中等计算资源上进行部署，广泛应用于辅助编程、复杂文档处理及各类高质量的交互式人工智能应用场景中。",
       "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
       "modelUrl": "https://huggingface.co/google/gemma-4-31B-it",
       "cardSummary": ""
@@ -18,7 +18,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/02-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled.png",
       "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "modelDescription": "该模型基于 Qwen3.5-27B 进行微调，旨在通过蒸馏技术模拟 Claude-3.5-Opus 的推理能力。项目提供了完整的训练代码与指南，适合研究人员与开发者学习如何进行复杂模型蒸馏与微调。其核心定位是提升开源模型在深度逻辑推理与复杂指令执行方面的表现。",
+      "modelDescription": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled 是一款由社区开发者基于 Qwen3.5 架构进行微调的蒸馏模型。该模型旨在模拟 Claude 3.5 Opus 的复杂逻辑推理能力。通过蒸馏技术，它在保证推理性能的基础上优化了计算效率，适用于需要深度思考、复杂逻辑分析及高性能任务处理的学术研究与开发场景。",
       "sourceDescription": "🔥 Update (April 5): To help beginners and enthusiasts better understand and reproduce the fine-tuning process of this model, I have prepared the complete training notebook, codebase, and a comprehensive companion PDF guide! Please check the resource links below.",
       "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
       "cardSummary": ""
@@ -28,7 +28,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/03-coherelabs-cohere-transcribe-03-2026.png",
       "modelName": "CohereLabs/cohere-transcribe-03-2026",
-      "modelDescription": "Cohere Transcribe 是一款开源的自动语音识别（ASR）模型，参数量为 2B。该模型采用音频输入转文本输出的架构，原生支持 14 种语言。其定位为高效的语音转录工具，旨在为语音识别任务提供轻量化且跨语言的解决方案，适用于会议记录、字幕生成等场景。",
+      "modelDescription": "Cohere-Transcribe-03-2026 是 Cohere Labs 发布的一款开源自动语音识别（ASR）模型。该模型拥有 20 亿参数，专注于音频转文本任务，原生支持 14 种主流语言。凭借其轻量化架构，该模型在保持高精度转录的同时，能够高效运行于多种端侧或服务器端环境，是构建多语言语音识别系统的理想选择。",
       "sourceDescription": "Cohere Transcribe is an open source release of a 2B parameter dedicated audio-in, text-out automatic speech recognition (ASR) model. The model supports 14 languages.",
       "modelUrl": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
       "cardSummary": ""
@@ -38,7 +38,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/04-baidu-qianfan-ocr.png",
       "modelName": "baidu/Qianfan-OCR",
-      "modelDescription": "百度推出的 Qianfan-OCR 是一款端到端文档智能处理模型。该模型致力于实现文字识别、版面分析与结构化理解的统一，能够高效处理复杂文档内容。其定位为企业级文档数字化解决方案，适用于财务票据识别、证件信息提取以及自动化文档归档等各类工业级应用场景。",
+      "modelDescription": "百度 Qianfan-OCR 是一款专门针对文档智能任务设计的统一端到端多模态模型。该模型集成了强大的文本检测与识别能力，能够精准处理各类复杂排版的文档图像。其主要应用场景包括自动化票据录入、大规模文档数字化、复杂表格解析以及行业文档的知识图谱构建，旨在提供稳定且高效的工业级文档识别解决方案。",
       "sourceDescription": "<h3>A Unified End-to-End Model for Document Intelligence</h3>",
       "modelUrl": "https://huggingface.co/baidu/Qianfan-OCR",
       "cardSummary": ""
@@ -48,7 +48,7 @@
       "recordDate": "2026-04-05",
       "modelCard": "assets/huggingface_model_cards/2026-04-05/05-prism-ml-bonsai-8b-gguf.png",
       "modelName": "prism-ml/Bonsai-8B-gguf",
-      "modelDescription": "Bonsai-8B-gguf 是一款采用 GGUF 格式封装的 8B 参数规模语言模型。通过 GGUF 格式，该模型在资源受限的终端设备或消费级硬件上具有良好的推理性能。其设计初衷是为轻量化 AI 应用提供支持，适合本地运行的各种对话式交互、辅助编写及轻量级数据处理任务。",
+      "modelDescription": "Bonsai-8B-gguf 是一款采用 GGUF 格式量化的轻量级大语言模型。由于其 8B 的参数规模和经过优化的量化存储方案，该模型能够流畅运行于主流 CPU 及低功耗设备上。其设计初衷是为资源受限环境提供快速、稳定的文本处理能力，适用于简单的自然语言交互、文本摘要生成及本地化智能助手的构建与部署。",
       "sourceDescription": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
       "modelUrl": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
       "cardSummary": ""
