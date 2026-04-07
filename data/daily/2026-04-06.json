@@ -1,0 +1,126 @@
+{
+  "recordDate": "2026-04-06",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-04-06",
+      "modelCard": "assets/huggingface_model_cards/2026-04-06/01-google-gemma-4-31b-it.png",
+      "modelName": "google/gemma-4-31B-it",
+      "modelDescription": "Gemma-4-31B-it 是谷歌推出的中大型指令微调模型，基于先进的架构设计，具备强大的逻辑推理、内容生成及多轮对话能力。该模型旨在平衡性能与推理效率，适合在计算资源受限但对生成质量有较高要求的场景下，处理复杂的NLP任务及辅助程序编写。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/gemma-4-31B-it",
+      "cardSummary": "",
+      "author": "google",
+      "downloads": 678740,
+      "likes": 1144,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-02T10:52:51.000Z",
+      "numParameters": 32682372656,
+      "availableInferenceProviders": [
+        {
+          "provider": "novita",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "google/gemma-4-31b-it",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": false
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 3.5673548914810977,
+          "pricingOutput": 0.4
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-04-06",
+      "modelCard": "assets/huggingface_model_cards/2026-04-06/02-jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled.png",
+      "modelName": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "modelDescription": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled 是由社区开发者基于 Qwen3.5 微调而成的蒸馏模型。该模型汲取了高性能推理模型的能力，专注于逻辑分析与复杂指令遵循。发布者提供了完整的训练代码与指南，适合研究人员进行模型复现及深入探索推理性能的优化。",
+      "sourceDescription": "🔥 Update (April 5): I’ve released the complete training notebook, codebase, and a comprehensive PDF guide to help beginners and enthusiasts understand and reproduce this model's fine-tuning process.",
+      "modelUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "cardSummary": "",
+      "author": "Jackrong",
+      "downloads": 548344,
+      "likes": 2394,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-06T02:20:53.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-04-06",
+      "modelCard": "assets/huggingface_model_cards/2026-04-06/03-dealignai-gemma-4-31b-jang-4m-crack.png",
+      "modelName": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "modelDescription": "Gemma-4-31B-JANG_4M-CRACK 是基于谷歌 Gemma-4-31B 架构的衍生模型，由 dealign.ai 提供支持。该模型专注于特定领域的数据增强与微调，旨在通过优化后的权重提升特定任务的执行表现，适用于寻求高性能基础模型定制化方案的开发者与企业用户进行评估与部署。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"dealign logo.png\" alt=\"dealign.ai\" width=\"200\"/> </p>",
+      "modelUrl": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "cardSummary": "",
+      "author": "dealignai",
+      "downloads": 13727,
+      "likes": 482,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-04-04T11:24:34.000Z",
+      "numParameters": 6433044332,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-04-06",
+      "modelCard": "assets/huggingface_model_cards/2026-04-06/04-prism-ml-bonsai-8b-gguf.png",
+      "modelName": "prism-ml/Bonsai-8B-gguf",
+      "modelDescription": "Bonsai-8B-gguf 是专为本地化部署优化的小型语言模型，提供了 GGUF 格式版本，极大地降低了运行时的内存需求。凭借 8B 的参数规模，该模型在保持较快推理速度的同时具备良好的指令理解与创作能力，非常适合在个人电脑、边缘设备或离线环境中进行快速部署与应用。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
+      "modelUrl": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
+      "cardSummary": "",
+      "author": "prism-ml",
+      "downloads": 45185,
+      "likes": 467,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-04-06T07:15:09.000Z",
+      "numParameters": 8188548096,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-04-06",
+      "modelCard": "assets/huggingface_model_cards/2026-04-06/05-google-gemma-4-26b-a4b-it.png",
+      "modelName": "google/gemma-4-26B-A4B-it",
+      "modelDescription": "Gemma-4-26B-A4B-it 是谷歌 Gemma-4 系列模型之一，通过对参数规模的精简与架构优化，实现了在资源占用与模型性能之间的更佳平衡。该指令微调版本在保持高效响应的同时，提供了均衡的知识覆盖面，特别适合在需要高并发处理或中等规模硬件支持的生产环境中应用。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/gemma-4-26B-A4B-it",
+      "cardSummary": "",
+      "author": "google",
+      "downloads": 476612,
+      "likes": 452,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-02T10:52:44.000Z",
+      "numParameters": 26544131376,
+      "availableInferenceProviders": [
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "google/gemma-4-26b-a4b-it",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 40.12748219009595,
+          "pricingOutput": 0.4
+        }
+      ]
+    }
+  ]
+}
