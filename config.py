@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 
@@ -10,7 +10,9 @@ DAILY_DIR = DATA_DIR / "daily"
 WEEK_DIR = DATA_DIR / "week"
 IMAGE_ROOT_DIR = ROOT_DIR / "assets" / "huggingface_model_cards"
 
-RUN_DATE = datetime.now().date()
+# 使用北京时间（UTC+8）
+BEIJING_NOW = datetime.utcnow() + timedelta(hours=8)
+RUN_DATE = BEIJING_NOW.date()
 RUN_STAMP = RUN_DATE.strftime("%Y-%m-%d")
 DAILY_OUTPUT_FILE = DAILY_DIR / f"{RUN_STAMP}.json"
 RUN_IMAGE_DIR = IMAGE_ROOT_DIR / RUN_STAMP
