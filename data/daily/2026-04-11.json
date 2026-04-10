@@ -1,0 +1,172 @@
+{
+  "recordDate": "2026-04-11",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-04-11",
+      "modelCard": "assets/huggingface_model_cards/2026-04-11/01-google-gemma-4-31b-it.png",
+      "modelName": "google/gemma-4-31B-it",
+      "modelDescription": "Gemma-4-31B-it 是谷歌推出的中等规模指令微调大语言模型。该模型在保持较好计算效率的同时，具备强大的逻辑推理、复杂指令理解及多任务处理能力，适用于学术研究、开发者构建对话系统、内容创作辅助以及各类需要高性能本地推理的商业应用场景。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/gemma-4-31B-it",
+      "cardSummary": "",
+      "author": "google",
+      "downloads": 1589761,
+      "likes": 1667,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-10T16:35:21.000Z",
+      "numParameters": 32682372656,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "google/gemma-4-31B-it",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 13.865227154711993,
+          "pricingOutput": 0.5
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "google/gemma-4-31b-it",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 20.929399241568106,
+          "pricingOutput": 0.4
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-04-11",
+      "modelCard": "assets/huggingface_model_cards/2026-04-11/02-zai-org-glm-5-1.png",
+      "modelName": "zai-org/GLM-5.1",
+      "modelDescription": "GLM-5.1 是由 ZAI 组织研发的新一代通用大语言模型，强调在多语言交互与复杂任务中的表现。该模型支持广泛的 API 服务接入，旨在通过高效的架构设计提升模型推理速度与准确性，适用于企业级智能客服、多语言文档处理及各类需要深度语义理解的任务。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.1 <a href=\"https://z.ai/blog/glm-5.1\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.1 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.1\">Z.ai API Platform. </a> <br> 🔜 <a href=\"https://chat.z.ai\">GLM-5.1</a> will be available on chat.z.ai in the coming days. </p>",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-5.1",
+      "cardSummary": "",
+      "author": "zai-org",
+      "downloads": 15930,
+      "likes": 923,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-04-08T12:54:03.000Z",
+      "numParameters": 753864139008,
+      "availableInferenceProviders": [
+        {
+          "provider": "zai-org",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "glm-5.1",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": false
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": true,
+          "tokensPerSecond": 35.719315554411345
+        },
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "zai-org/GLM-5.1",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 36.603707744125515,
+          "pricingOutput": 4.4
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/glm-5p1",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 13.205651864933458
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-04-11",
+      "modelCard": "assets/huggingface_model_cards/2026-04-11/03-dealignai-gemma-4-31b-jang-4m-crack.png",
+      "modelName": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "modelDescription": "Gemma-4-31B-JANG_4M-CRACK 是基于谷歌 Gemma-4-31B 架构的衍生模型，经过特殊数据集优化处理。该模型定位于特定场景下的深度推理与模式匹配，利用其 31B 的参数规模在复杂逻辑任务中提供稳定的性能支持，适合用于自动化数据分析、高级代码生成及特定语境下的生成式任务。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"vmlx-banner.png\" alt=\"vMLX\" width=\"600\"/> </p>",
+      "modelUrl": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "cardSummary": "",
+      "author": "dealignai",
+      "downloads": 75426,
+      "likes": 899,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-10T07:26:15.000Z",
+      "numParameters": 6433044332,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-04-11",
+      "modelCard": "assets/huggingface_model_cards/2026-04-11/04-openbmb-voxcpm2.png",
+      "modelName": "openbmb/VoxCPM2",
+      "modelDescription": "VoxCPM2 是一款去分词器的扩散自回归语音合成（TTS）模型，拥有 20 亿参数，支持 30 种语言。该模型通过超过 200 万小时的多语言语音数据训练，能够生成高质量的 48kHz 音频，适用于多语言有声读物制作、智能语音助手开发以及高保真的人机语音交互应用。",
+      "sourceDescription": "VoxCPM2 is a tokenizer-free, diffusion autoregressive Text-to-Speech model — 2B parameters , 30 languages , 48kHz audio output, trained on over 2 million hours of multilingual speech data.",
+      "modelUrl": "https://huggingface.co/openbmb/VoxCPM2",
+      "cardSummary": "",
+      "author": "openbmb",
+      "downloads": 3765,
+      "likes": 663,
+      "pipelineTag": "text-to-speech",
+      "lastModified": "2026-04-08T07:06:59.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-04-11",
+      "modelCard": "assets/huggingface_model_cards/2026-04-11/05-netflix-void-model.png",
+      "modelName": "netflix/void-model",
+      "modelDescription": "Netflix 开发的 void-model 是一款专注于视觉或多媒体处理的智能模型。虽然具体技术细节有限，但从其发布内容来看，该模型定位于复杂媒体流分析或内容生成，旨在提升影视制作与流媒体服务中的内容呈现效率，适用于自动化视频处理、创意内容辅助生成及相关多媒体技术研发。",
+      "sourceDescription": "<video src=\"https://github.com/user-attachments/assets/ad174ca0-2feb-45f9-9405-83167037d9be\" width=\"100%\" controls autoplay loop muted></video>",
+      "modelUrl": "https://huggingface.co/netflix/void-model",
+      "cardSummary": "",
+      "author": "netflix",
+      "downloads": 0,
+      "likes": 733,
+      "pipelineTag": "video-to-video",
+      "lastModified": "2026-04-06T17:28:28.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    }
+  ]
+}
