@@ -1,0 +1,70 @@
+{
+  "weekRange": {
+    "start": "2026-04-07",
+    "end": "2026-04-13"
+  },
+  "weekTitle": "Hugging Face 每周模型精选：前沿大模型与多模态生成技术盘点",
+  "summary": "本周模型领域动态频频，重点关注了大语言模型在逻辑推理与性能优化方面的突破，以及多模态生成技术（特别是去分词化TTS）的显著进展。从GLM-5.1的强大推理能力到VoxCPM2的音频合成表现，这些模型正持续推动AI在复杂生产环境中的应用落地。",
+  "items": [
+    {
+      "modelName": "zai-org/GLM-5.1",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-5.1",
+      "modelCard": "assets/huggingface_model_cards/2026-04-13/01-zai-org-glm-5-1.png",
+      "modelDescription": "GLM-5.1 是由 ZAI 开发的先进大语言模型。该模型在技术报告中展示了其在复杂逻辑推理和多轮对话方面的能力。用户可通过 Z.ai 官方 API 平台接入该模型进行开发，或在未来通过 chat.z.ai 平台进行交互体验，适用于广泛的自然语言处理任务。",
+      "pickReason": "作为本周排名前列的明星模型，GLM-5.1 在复杂逻辑推理和长文本多轮对话领域表现卓越。其完善的官方 API 平台和技术报告支撑，使其成为企业级复杂任务处理的有力竞争者，适合需要高精度语义理解的开发者优先接入。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-04-13"
+      ]
+    },
+    {
+      "modelName": "google/gemma-4-31B-it",
+      "modelUrl": "https://huggingface.co/google/gemma-4-31B-it",
+      "modelCard": "assets/huggingface_model_cards/2026-04-13/02-google-gemma-4-31b-it.png",
+      "modelDescription": "Gemma-4-31B-it 是 Google 推出的轻量级高性能开源模型，采用 310 亿参数架构。该模型针对对话交互进行了深度优化，具备强大的指令遵循与文本生成能力，适合作为开发者在本地或云端部署的基座，用于构建高质量的问答、创意写作及辅助编程等应用场景。",
+      "pickReason": "Google 最新发布的轻量级高性能模型，310 亿参数架构在性能与部署成本间取得了出色平衡。其针对对话交互的深度优化，使其在构建本地问答系统或辅助编程工具时具备极高的响应速度与指令遵循能力，是开发者部署的首选基座。",
+      "appearances": 1,
+      "bestRank": 2,
+      "dates": [
+        "2026-04-13"
+      ]
+    },
+    {
+      "modelName": "openbmb/VoxCPM2",
+      "modelUrl": "https://huggingface.co/openbmb/VoxCPM2",
+      "modelCard": "assets/huggingface_model_cards/2026-04-13/04-openbmb-voxcpm2.png",
+      "modelDescription": "VoxCPM2 是一款先进的去分词化扩散自回归文本转语音 (TTS) 模型。它拥有 20 亿参数，支持 30 种语言，并能生成 48kHz 的高保真音频。该模型基于海量多语言语音数据训练，适用于多语言语音合成、虚拟形象驱动及各类需要高质量、自然语音生成的音频应用开发。",
+      "pickReason": "VoxCPM2 展现了音频领域的创新潜力，其采用去分词化扩散自回归技术，支持 30 种语言并输出 48kHz 高保真音频。这种在多语言与音质上的双重领先，为虚拟人驱动及复杂音频应用提供了卓越的解决方案，是多模态领域的必看模型。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-04-13"
+      ]
+    },
+    {
+      "modelName": "MiniMaxAI/MiniMax-M2.7",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+      "modelCard": "assets/huggingface_model_cards/2026-04-13/05-minimaxai-minimax-m2-7.png",
+      "modelDescription": "MiniMax-M2.7 是 MiniMax AI 推出的高性能语言模型。作为该系列的迭代版本，它在自然语言理解、逻辑分析及长文本处理方面表现出色。该模型定位为多模态智能的核心引擎，广泛适用于企业级自动化工作流、复杂内容创作及大规模问答系统，为开发者提供稳定且高效的推理支持。",
+      "pickReason": "MiniMax-M2.7 凭借其在自然语言理解和长文本分析方面的稳健表现，再次证明了其作为多模态智能核心引擎的实力。该模型非常适合需要大规模工作流自动化的企业场景，为复杂内容创作提供了强有力的底层逻辑计算支撑。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-04-13"
+      ]
+    },
+    {
+      "modelName": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "modelUrl": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "modelCard": "assets/huggingface_model_cards/2026-04-13/03-dealignai-gemma-4-31b-jang-4m-crack.png",
+      "modelDescription": "Gemma-4-31B-JANG_4M-CRACK 是基于 Google Gemma-4-31B 架构的衍生模型，由 DealignAI 开发。该模型通过特定数据微调，旨在提供特定的任务处理能力。其主要定位是为研究人员和开发者提供针对特定领域的预训练或微调方案，支持复杂文本生成及逻辑推理任务，需配合相关推理框架使用。",
+      "pickReason": "基于 Gemma-4-31B 进行特定领域微调的衍生模型，展示了模型在垂直场景下的定制化潜力。该模型为研究人员提供了一个很好的范例，说明了如何通过高效微调挖掘大模型的深层任务处理能力，适合特定行业场景的研究与探索。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-04-13"
+      ]
+    }
+  ]
+}
