@@ -1,0 +1,70 @@
+{
+  "weekRange": {
+    "start": "2026-04-14",
+    "end": "2026-04-20"
+  },
+  "weekTitle": "Hugging Face 每周模型趋势精选 (2026-04-20)",
+  "summary": "本周模型社区表现亮眼，以 Qwen3.6 系列为核心的大语言模型在逻辑推理与本地化部署方面取得显著进展。同时，腾讯的具身智能模型与百度的多模态视觉模型展示了人工智能在物理世界感知及复杂视觉任务中的强大潜力。这些模型在兼顾性能与效率的同时，进一步拓宽了边缘计算与行业应用的边界。",
+  "items": [
+    {
+      "modelName": "Qwen/Qwen3.6-35B-A3B",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "modelCard": "assets/huggingface_model_cards/2026-04-20/01-qwen-qwen3-6-35b-a3b.png",
+      "modelDescription": "Qwen3.6-35B-A3B 是通义千问系列的大语言模型，采用创新的混合架构设计。该模型平衡了参数规模与推理性能，具备较强的逻辑推理、文本生成及编程辅助能力，适用于需要高效率与高质量文本处理的开发与企业级应用场景。",
+      "pickReason": "作为本周领跑者，Qwen3.6-35B-A3B 凭借创新的混合架构在参数规模与推理性能间实现了极佳平衡。其卓越的逻辑推理、编程辅助能力以及在企业级任务中的高效表现，使其成为当前最值得关注的开源大模型之一，展示了通义千问系列在技术架构上的持续演进。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-04-20"
+      ]
+    },
+    {
+      "modelName": "tencent/HY-Embodied-0.5",
+      "modelUrl": "https://huggingface.co/tencent/HY-Embodied-0.5",
+      "modelCard": "assets/huggingface_model_cards/2026-04-20/02-tencent-hy-embodied-0-5.png",
+      "modelDescription": "HY-Embodied-0.5 是由腾讯 Robotics X 与 HY 视觉团队联合推出的具身智能基础模型。该模型专注于机器人感知与决策，通过深度融合多模态视觉信息，能够理解并执行复杂的物理环境任务，主要面向机器人控制、智能体自主行为研究及工业自动化应用。",
+      "pickReason": "腾讯推出的具身智能基础模型，标志着AI向物理世界交互迈出坚实一步。该模型深度融合多模态视觉信息，能够理解并执行复杂物理任务，对于机器人控制及自主行为研究具有重要意义，是具身智能领域在工业自动化应用中的一个极具潜力的前沿成果。",
+      "appearances": 1,
+      "bestRank": 2,
+      "dates": [
+        "2026-04-20"
+      ]
+    },
+    {
+      "modelName": "MiniMaxAI/MiniMax-M2.7",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+      "modelCard": "assets/huggingface_model_cards/2026-04-20/03-minimaxai-minimax-m2-7.png",
+      "modelDescription": "MiniMax-M2.7 是 MiniMax 公司开发的高性能大语言模型，展现了在自然语言处理任务中卓越的理解与生成能力。该模型定位为多功能通用智能辅助，支持长文本处理、多轮对话及复杂的逻辑分析，广泛应用于智能助手、内容创作及企业知识库问答等领域。",
+      "pickReason": "MiniMax-M2.7 以其在自然语言处理任务中卓越的理解与生成能力脱颖而出。该模型在长文本处理、多轮对话及复杂逻辑分析方面展现出极强的通用性，非常适合构建智能助手与企业级知识库问答系统，体现了国产大模型在多样化应用场景中的强大生命力。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-04-20"
+      ]
+    },
+    {
+      "modelName": "unsloth/Qwen3.6-35B-A3B-GGUF",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+      "modelCard": "assets/huggingface_model_cards/2026-04-20/04-unsloth-qwen3-6-35b-a3b-gguf.png",
+      "modelDescription": "Qwen3.6-35B-A3B-GGUF 是基于 Qwen3.6 架构的量化版本，专门优化了在消费级硬件上的运行效率。该版本由 Unsloth 提供支持，显著提升了工具调用和嵌套对象解析能力，非常适合开发者在本地或边缘设备上进行高效推理、微调及集成部署。",
+      "pickReason": "该版本为 Qwen3.6 提供了极佳的本地部署与微调体验。由 Unsloth 优化后，其在消费级硬件上的运行效率大幅提升，并特别强化了工具调用能力与嵌套对象解析能力。对于希望在本地边缘设备上部署高性能模型的开发者而言，这是一个不可或缺的工具库。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-04-20"
+      ]
+    },
+    {
+      "modelName": "baidu/ERNIE-Image",
+      "modelUrl": "https://huggingface.co/baidu/ERNIE-Image",
+      "modelCard": "assets/huggingface_model_cards/2026-04-20/05-baidu-ernie-image.png",
+      "modelDescription": "ERNIE-Image 是百度推出的视觉理解与处理模型，具备强大的图像识别与分析能力。该模型能够精准处理多模态视觉任务，支持图像描述、目标检测及视觉问答。主要应用于智能内容审核、图像搜索、辅助驾驶及自动化视觉检测等需要高性能视觉理解的场景。",
+      "pickReason": "百度推出的视觉理解与处理模型，在多模态视觉任务中表现出色。ERNIE-Image 不仅支持精准的图像描述与目标检测，还在视觉问答领域展现了高性能表现，能够有效赋能智能内容审核、自动驾驶及自动化视觉检测等关键行业场景。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-04-20"
+      ]
+    }
+  ]
+}
