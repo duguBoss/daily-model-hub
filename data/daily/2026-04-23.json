@@ -1,0 +1,124 @@
+{
+  "recordDate": "2026-04-23",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-04-23",
+      "modelCard": "assets/huggingface_model_cards/2026-04-23/01-qwen-qwen3-6-35b-a3b.png",
+      "modelName": "Qwen/Qwen3.6-35B-A3B",
+      "modelDescription": "Qwen3.6-35B-A3B 是通义千问系列的一款大规模语言模型，采用先进的稀疏化架构设计。该模型具备高性能的语言理解与生成能力，平衡了计算效率与模型性能，适用于需要复杂逻辑推理、多轮对话以及中大规模知识处理的各类应用场景。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/logo.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 582961,
+      "likes": 1235,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-22T09:50:54.000Z",
+      "numParameters": 35951822704,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-04-23",
+      "modelCard": "assets/huggingface_model_cards/2026-04-23/02-moonshotai-kimi-k2-6.png",
+      "modelName": "moonshotai/Kimi-K2.6",
+      "modelDescription": "Kimi-K2.6 是月之暗面推出的高性能人工智能模型。该模型核心定位在于强大的长文本处理能力与深度逻辑理解，能够高效支撑复杂语境下的信息检索、文档分析与创作辅助。它广泛应用于专业办公助手、深度内容生产及复杂业务任务的自动化处理。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"figures/kimi-logo.png\" width=\"30%\" alt=\"Kimi K2.6\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K2.6-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 54456,
+      "likes": 808,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-21T01:26:21.000Z",
+      "numParameters": 1058589420528,
+      "availableInferenceProviders": [
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/kimi-k2.6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 35.648767211308346,
+          "pricingOutput": 4
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/kimi-k2p6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 50.6018070115616
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-04-23",
+      "modelCard": "assets/huggingface_model_cards/2026-04-23/03-unsloth-qwen3-6-35b-a3b-gguf.png",
+      "modelName": "unsloth/Qwen3.6-35B-A3B-GGUF",
+      "modelDescription": "Qwen3.6-35B-A3B-GGUF 是经由 Unsloth 优化的量化版本模型。通过高效的 GGUF 格式封装，该模型显著降低了运行硬件的门槛，支持开发者在轻量级环境下部署与微调。它不仅提升了工具调用的准确率，还强化了在代码编程及复杂任务交互中的实际性能表现。",
+      "sourceDescription": "Read our How to Run Qwen3.6 Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em>See <a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0 GGUFs</a> for our quantization benchmarks.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.6\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>NEW: Developer Role Support so Qwen3.6 can work in Codex, OpenCode and more!</li> <li>Qwen3.6 can now be run and fine-tuned in <a href=\"https://unsloth.ai/docs/new/studio\">Unsloth Studio</a>. <a href=\"https://unsloth.ai/docs/models/qwen3.6\">Read our guide</a>.</li> <li>Tool calling improvements: Makes parsing nested objects to make tool calling succeed more.</li> <li>Example of Qwen3.6 (4-bit GGUF) running in Unsloth Studio with tool-calling:</li> </ul> </div> <img width=\"600\" alt=\"qwen3.6 in unsloth studio\" src=\"https://cdn-uploads.huggingface.co/production/uploads/62ecdc18b72a69615d6bd857/wRyC xcMidEnz4INKA1b-.gif\" />",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+      "cardSummary": "",
+      "author": "unsloth",
+      "downloads": 1112454,
+      "likes": 667,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-20T12:42:25.000Z",
+      "numParameters": 34660610688,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-04-23",
+      "modelCard": "assets/huggingface_model_cards/2026-04-23/04-tencent-hy-world-2-0.png",
+      "modelName": "tencent/HY-World-2.0",
+      "modelDescription": "HY-World 2.0 是腾讯研发的多模态世界模型，专注于三维世界的重构、生成与仿真任务。该模型通过整合多维感知数据，能够实现高精度的虚拟场景建模，广泛应用于影视制作、游戏开发、地理信息系统及工业仿真等需要沉浸式三维环境支持的尖端领域。",
+      "sourceDescription": "<h1>HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds</h1>",
+      "modelUrl": "https://huggingface.co/tencent/HY-World-2.0",
+      "cardSummary": "",
+      "author": "tencent",
+      "downloads": 0,
+      "likes": 548,
+      "pipelineTag": "image-to-3d",
+      "lastModified": "2026-04-22T08:43:02.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-04-23",
+      "modelCard": "assets/huggingface_model_cards/2026-04-23/05-qwen-qwen3-6-27b.png",
+      "modelName": "Qwen/Qwen3.6-27B",
+      "modelDescription": "Qwen3.6-27B 是通义千问系列中的中等规模高性能语言模型。它在模型参数量与运行效率之间达到了良好的平衡，具备出色的多语言处理及复杂的文本生成能力，能够高效应对各类通用语言任务，是企业级应用及个人开发者进行自然语言处理开发的理想选择。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/logo.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 0,
+      "likes": 391,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-22T12:18:46.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": []
+    }
+  ]
+}
