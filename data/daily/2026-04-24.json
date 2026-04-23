@@ -1,0 +1,140 @@
+{
+  "recordDate": "2026-04-24",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-04-24",
+      "modelCard": "assets/huggingface_model_cards/2026-04-24/01-qwen-qwen3-6-35b-a3b.png",
+      "modelName": "Qwen/Qwen3.6-35B-A3B",
+      "modelDescription": "Qwen3.6-35B-A3B 是通义千问系列的一款稀疏架构模型，采用 MoE 设计以平衡性能与推理效率。该模型专注于保持大规模语言模型的处理能力，同时通过稀疏化技术显著降低计算成本，适用于对响应速度和资源开销有一定要求的复杂任务处理与文本生成场景。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/logo.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 717811,
+      "likes": 1329,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-22T09:50:54.000Z",
+      "numParameters": 35951822704,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-04-24",
+      "modelCard": "assets/huggingface_model_cards/2026-04-24/02-moonshotai-kimi-k2-6.png",
+      "modelName": "moonshotai/Kimi-K2.6",
+      "modelDescription": "Kimi-K2.6 是月之暗面推出的高性能大语言模型，延续了 Kimi 在长文本处理和交互体验上的技术优势。该模型旨在通过更精准的理解与生成能力，提供高效的对话辅助，适用于文档分析、深度内容创作及跨领域的复杂逻辑推理任务，是构建智能助手及知识管理系统的核心选择。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"figures/kimi-logo.png\" width=\"30%\" alt=\"Kimi K2.6\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K2.6-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 125825,
+      "likes": 879,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-23T05:37:54.000Z",
+      "numParameters": 1058589420528,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K2.6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 59.79692957827577,
+          "pricingOutput": 4.5
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/kimi-k2.6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 28.073185939520897,
+          "pricingOutput": 4
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/kimi-k2p6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 83.32953885110075
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-04-24",
+      "modelCard": "assets/huggingface_model_cards/2026-04-24/03-qwen-qwen3-6-27b.png",
+      "modelName": "Qwen/Qwen3.6-27B",
+      "modelDescription": "Qwen3.6-27B 是通义千问 3.6 版本的中等规模模型，在参数量与模型性能之间达到了良好平衡。其具备强大的通用文本处理与编程辅助能力，支持复杂指令遵循，适合需要高性能推理但算力资源有限的工业级应用，如企业级聊天机器人、自动化文档撰写及编程辅助工具。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/logo.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 23964,
+      "likes": 639,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-22T12:18:46.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-04-24",
+      "modelCard": "assets/huggingface_model_cards/2026-04-24/04-openai-privacy-filter.png",
+      "modelName": "openai/privacy-filter",
+      "modelDescription": "OpenAI Privacy Filter 是一款专门用于文本隐私数据识别与脱敏的 Token 分类模型。它支持本地化部署，具备高吞吐量的数据清洗能力，能够识别并屏蔽个人身份信息（PII）。该模型针对需要数据合规与隐私保护的企业级工作流设计，通过上下文感知实现高效、可调控的敏感数据治理。",
+      "sourceDescription": "OpenAI Privacy Filter is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text. It is intended for high-throughput data sanitization workflows where teams need a model that they can run on-premises that is fast, context-aware, and tunable.",
+      "modelUrl": "https://huggingface.co/openai/privacy-filter",
+      "cardSummary": "",
+      "author": "openai",
+      "downloads": 1888,
+      "likes": 545,
+      "pipelineTag": "token-classification",
+      "lastModified": "2026-04-22T16:50:17.000Z",
+      "numParameters": 1399486865,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-04-24",
+      "modelCard": "assets/huggingface_model_cards/2026-04-24/05-unsloth-qwen3-6-35b-a3b-gguf.png",
+      "modelName": "unsloth/Qwen3.6-35B-A3B-GGUF",
+      "modelDescription": "Qwen3.6-35B-A3B-GGUF 是经由 Unsloth 优化的量化版本，适配 GGUF 格式以支持更广泛的本地部署环境。该版本特别针对工具调用进行了改进，支持开发者角色设置，并可在 Unsloth Studio 中进行微调。其核心优势在于降低显存门槛，适合个人开发者和小型团队在消费级硬件上运行和部署智能应用。",
+      "sourceDescription": "Read our How to Run Qwen3.6 Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em>See <a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0 GGUFs</a> for our quantization benchmarks.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.6\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>NEW: Developer Role Support so Qwen3.6 can work in Codex, OpenCode and more!</li> <li>Qwen3.6 can now be run and fine-tuned in <a href=\"https://unsloth.ai/docs/new/studio\">Unsloth Studio</a>. <a href=\"https://unsloth.ai/docs/models/qwen3.6\">Read our guide</a>.</li> <li>Tool calling improvements: Makes parsing nested objects to make tool calling succeed more.</li> <li>Example of Qwen3.6 (4-bit GGUF) running in Unsloth Studio with tool-calling:</li> </ul> </div> <img width=\"600\" alt=\"qwen3.6 in unsloth studio\" src=\"https://cdn-uploads.huggingface.co/production/uploads/62ecdc18b72a69615d6bd857/wRyC xcMidEnz4INKA1b-.gif\" />",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+      "cardSummary": "",
+      "author": "unsloth",
+      "downloads": 1283534,
+      "likes": 706,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-20T12:42:25.000Z",
+      "numParameters": 34660610688,
+      "availableInferenceProviders": []
+    }
+  ]
+}
