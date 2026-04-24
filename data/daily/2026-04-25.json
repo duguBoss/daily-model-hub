@@ -1,0 +1,157 @@
+{
+  "recordDate": "2026-04-25",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-04-25",
+      "modelCard": "assets/huggingface_model_cards/2026-04-25/01-deepseek-ai-deepseek-v4-pro.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Pro",
+      "modelDescription": "DeepSeek-V4是由深度求索开发的大语言模型，专注于提升超长上下文处理效率。该模型旨在实现百万级Token级别的智能理解，通过架构优化解决长文本分析中的计算瓶颈，适用于需要深度分析长篇文档、复杂代码库或大规模数据挖掘的专业应用场景。",
+      "sourceDescription": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 30,
+      "likes": 2396,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-04-24T10:00:14.000Z",
+      "numParameters": 861608274846,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 79.1247640571656,
+          "pricingOutput": 4.4
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-04-25",
+      "modelCard": "assets/huggingface_model_cards/2026-04-25/02-moonshotai-kimi-k2-6.png",
+      "modelName": "moonshotai/Kimi-K2.6",
+      "modelDescription": "Kimi-K2.6是月之暗面推出的进阶版语言模型。作为Kimi智能助手系列的核心引擎，该模型在长上下文理解、信息提取与多轮对话逻辑上进行了深度优化。其主要定位在于辅助用户进行复杂文档分析、创意写作以及专业领域的知识检索任务，提供高效、长效的AI交互体验。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"figures/kimi-logo.png\" width=\"30%\" alt=\"Kimi K2.6\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K2.6-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 208251,
+      "likes": 973,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-23T05:37:54.000Z",
+      "numParameters": 1058589420528,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K2.6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 15.544381728429812,
+          "pricingOutput": 4.5
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/kimi-k2.6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 28.705018421437934,
+          "pricingOutput": 4
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/kimi-k2p6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 71.25405830688587
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-04-25",
+      "modelCard": "assets/huggingface_model_cards/2026-04-25/03-qwen-qwen3-6-27b.png",
+      "modelName": "Qwen/Qwen3.6-27B",
+      "modelDescription": "Qwen3.6-27B是阿里云推出的Qwen系列开源大模型，拥有270亿参数量级。该模型在保持高效能的同时，兼顾了推理能力与资源开销，在各类基准测试中展现出均衡的表现。适用于企业私有化部署，可处理多语言文本生成、逻辑推理以及编程辅助等多样化任务。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/logo.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 162349,
+      "likes": 751,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-24T02:39:16.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-04-25",
+      "modelCard": "assets/huggingface_model_cards/2026-04-25/04-openai-privacy-filter.png",
+      "modelName": "openai/privacy-filter",
+      "modelDescription": "OpenAI Privacy Filter是一款专门用于识别和屏蔽文本中个人身份信息（PII）的双向Token分类模型。该工具旨在满足企业对数据合规和安全性的严苛要求，支持在本地高性能运行，能够快速、精准地对大规模敏感数据进行自动化清洗与脱敏处理。",
+      "sourceDescription": "OpenAI Privacy Filter is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text. It is intended for high-throughput data sanitization workflows where teams need a model that they can run on-premises that is fast, context-aware, and tunable.",
+      "modelUrl": "https://huggingface.co/openai/privacy-filter",
+      "cardSummary": "",
+      "author": "openai",
+      "downloads": 12664,
+      "likes": 679,
+      "pipelineTag": "token-classification",
+      "lastModified": "2026-04-22T16:50:17.000Z",
+      "numParameters": 1399486865,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-04-25",
+      "modelCard": "assets/huggingface_model_cards/2026-04-25/05-qwen-qwen3-6-35b-a3b.png",
+      "modelName": "Qwen/Qwen3.6-35B-A3B",
+      "modelDescription": "Qwen3.6-35B-A3B是Qwen系列的新成员，采用特殊的A3B架构设计，旨在平衡模型性能与推理速度。该模型在350亿参数量级的基础上，通过结构优化降低了计算负载，旨在为开发者提供高性能的开源选择，适用于复杂自然语言处理任务及对响应速度有要求的在线生产环境。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/logo.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 861178,
+      "likes": 1382,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-24T02:53:42.000Z",
+      "numParameters": 35951822704,
+      "availableInferenceProviders": []
+    }
+  ]
+}
