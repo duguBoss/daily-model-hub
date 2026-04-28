@@ -1,0 +1,172 @@
+{
+  "recordDate": "2026-04-29",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-04-29",
+      "modelCard": "assets/huggingface_model_cards/2026-04-29/01-deepseek-ai-deepseek-v4-pro.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Pro",
+      "modelDescription": "DeepSeek-V4-Pro 是一款专注于超长上下文处理能力的智能模型，核心目标是实现高效的百万级 Token 上下文感知与理解。该模型旨在解决大规模长文本处理中的性能瓶颈，适用于科研分析、法律文书研读及大型代码库自动化维护等对上下文深度依赖的高级推理场景。",
+      "sourceDescription": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 174402,
+      "likes": 3129,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-04-27T06:51:04.000Z",
+      "numParameters": 861608274846,
+      "availableInferenceProviders": [
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 29.101681409239543,
+          "pricingOutput": 4.4
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 30.671702989802082,
+          "pricingOutput": 3.48
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/deepseek-v4-pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": false
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 43.68351429447878
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-04-29",
+      "modelCard": "assets/huggingface_model_cards/2026-04-29/02-openai-privacy-filter.png",
+      "modelName": "openai/privacy-filter",
+      "modelDescription": "OpenAI Privacy Filter 是一款专门用于识别和屏蔽文本中个人身份信息（PII）的双向 Token 分类模型。它支持本地化部署，具备高吞吐量的数据清洗能力，且支持参数调节。该模型是企业和开发者在数据处理流程中，实现合规性数据去隐私化及提升安全防护等级的理想工具。",
+      "sourceDescription": "OpenAI Privacy Filter is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text. It is intended for high-throughput data sanitization workflows where teams need a model that they can run on-premises that is fast, context-aware, and tunable.",
+      "modelUrl": "https://huggingface.co/openai/privacy-filter",
+      "cardSummary": "",
+      "author": "openai",
+      "downloads": 57743,
+      "likes": 1019,
+      "pipelineTag": "token-classification",
+      "lastModified": "2026-04-22T16:50:17.000Z",
+      "numParameters": 1399486865,
+      "availableInferenceProviders": [
+        {
+          "provider": "hf-inference",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "openai/privacy-filter",
+          "task": "token-classification",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-04-29",
+      "modelCard": "assets/huggingface_model_cards/2026-04-29/03-qwen-qwen3-6-27b.png",
+      "modelName": "Qwen/Qwen3.6-27B",
+      "modelDescription": "Qwen3.6-27B 是通义千问系列的大型参数模型，具备强大的多模态处理与语义理解能力。作为一款中等规模的高性能模型，它在复杂逻辑推理、多语言交互及知识储备方面表现平衡，能够高效支撑各类企业级应用、学术研究及复杂的生成式人工智能开发任务，提供稳定且高质量的输出结果。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/logo.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 508728,
+      "likes": 960,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-24T02:39:16.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-04-29",
+      "modelCard": "assets/huggingface_model_cards/2026-04-29/04-deepseek-ai-deepseek-v4-flash.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Flash",
+      "modelDescription": "DeepSeek-V4-Flash 是 DeepSeek-V4 系列中针对处理效率进行优化的轻量化版本，旨在实现高效的百万级 Token 上下文智能处理。该模型通过精简算力需求，在保证长文本分析准确度的同时显著提升了推理速度，适用于实时性要求较高的数据检索、长文档快速摘要及自动化信息提取工作。",
+      "sourceDescription": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 96948,
+      "likes": 819,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-04-27T06:52:01.000Z",
+      "numParameters": 158069433298,
+      "availableInferenceProviders": [
+        {
+          "provider": "novita",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-flash",
+          "task": "text-generation",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-04-29",
+      "modelCard": "assets/huggingface_model_cards/2026-04-29/05-unsloth-qwen3-6-27b-gguf.png",
+      "modelName": "unsloth/Qwen3.6-27B-GGUF",
+      "modelDescription": "Unsloth 提供的 Qwen3.6-27B-GGUF 版本经过了专门的量化处理，旨在提升模型在本地硬件上的运行与微调效率。该版本深度集成了 Unsloth 的优化技术，增强了对开发者角色的支持及工具调用能力，尤其适用于代码编写、自动化代理开发以及需要高效本地化部署与定制化微调的各类人工智能应用场景。",
+      "sourceDescription": "Read our How to Run Qwen3.6 Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em>See <a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0 GGUFs</a> for our quantization benchmarks.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.6\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>Developer Role Support so Qwen3.6 can work in Codex, OpenCode and more!</li> <li>Qwen3.6 can now be run and fine-tuned in <a href=\"https://unsloth.ai/docs/new/studio\">Unsloth Studio</a>. <a href=\"https://unsloth.ai/docs/models/qwen3.6\">Read our guide</a>.</li> <li>Tool calling improvements: Makes parsing nested objects to make tool calling succeed more.</li> <li>Example of Qwen3.6 35B-A3B (4-bit GGUF) running in Unsloth Studio with tool-calling:</li> </ul> </div> <img width=\"600\" alt=\"qwen3.6 in unsloth studio\" src=\"https://cdn-uploads.huggingface.co/production/uploads/62ecdc18b72a69615d6bd857/wRyC xcMidEnz4INKA1b-.gif\" />",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+      "cardSummary": "",
+      "author": "unsloth",
+      "downloads": 702161,
+      "likes": 479,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-22T16:01:39.000Z",
+      "numParameters": 26895998464,
+      "availableInferenceProviders": []
+    }
+  ]
+}
