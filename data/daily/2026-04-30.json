@@ -1,0 +1,245 @@
+{
+  "recordDate": "2026-04-30",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-04-30",
+      "modelCard": "assets/huggingface_model_cards/2026-04-30/01-deepseek-ai-deepseek-v4-pro.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Pro",
+      "modelDescription": "DeepSeek-V4-Pro 是 DeepSeek 推出的高性能智能模型，核心亮点在于支持百万级 Token 的超长上下文处理能力。该模型定位为高效能智能引擎，旨在解决复杂场景下的长文档理解、深度逻辑推理及大规模数据分析任务，为科研、法律及金融等需要处理海量信息的领域提供强大的智能化支持。",
+      "sourceDescription": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 174402,
+      "likes": 3235,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-04-27T06:51:04.000Z",
+      "numParameters": 861608274846,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 41.21686095049788,
+          "pricingOutput": 4.4
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 31.198279795368897,
+          "pricingOutput": 3.48
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 24.057928713253403
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-04-30",
+      "modelCard": "assets/huggingface_model_cards/2026-04-30/02-deepseek-ai-deepseek-v4-flash.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Flash",
+      "modelDescription": "DeepSeek-V4-Flash 是 DeepSeek 系列中专注于高吞吐与极速响应的版本，同样具备百万 Token 级的上下文窗口。该模型在保持高效长文本处理能力的同时，优化了推理速度与计算开销，适用于对实时性要求较高的长文本摘要、检索增强生成（RAG）及大规模智能客服等高并发业务场景。",
+      "sourceDescription": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 96948,
+      "likes": 853,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-04-27T06:52:01.000Z",
+      "numParameters": 158069433298,
+      "availableInferenceProviders": [
+        {
+          "provider": "novita",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-flash",
+          "task": "text-generation",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-04-30",
+      "modelCard": "assets/huggingface_model_cards/2026-04-30/03-openai-privacy-filter.png",
+      "modelName": "openai/privacy-filter",
+      "modelDescription": "OpenAI Privacy Filter 是一款专为文本中个人身份信息（PII）检测与脱敏设计的双向 Token 分类模型。该模型支持本地化部署，具备快速、上下文感知的识别能力，并允许针对性微调，旨在为高吞吐的数据清洗工作流提供安全保障，有效防止敏感隐私数据泄露。",
+      "sourceDescription": "OpenAI Privacy Filter is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text. It is intended for high-throughput data sanitization workflows where teams need a model that they can run on-premises that is fast, context-aware, and tunable.",
+      "modelUrl": "https://huggingface.co/openai/privacy-filter",
+      "cardSummary": "",
+      "author": "openai",
+      "downloads": 57743,
+      "likes": 1090,
+      "pipelineTag": "token-classification",
+      "lastModified": "2026-04-22T16:50:17.000Z",
+      "numParameters": 1399486865,
+      "availableInferenceProviders": [
+        {
+          "provider": "hf-inference",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "openai/privacy-filter",
+          "task": "token-classification",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-04-30",
+      "modelCard": "assets/huggingface_model_cards/2026-04-30/04-qwen-qwen3-6-27b.png",
+      "modelName": "Qwen/Qwen3.6-27B",
+      "modelDescription": "Qwen3.6-27B 是通义千问系列的大参数量通用基座模型。该模型在多语言处理、逻辑推理及代码生成等方面表现均衡，具备较强的指令遵循与知识整合能力。得益于 27B 的参数规模，该模型在性能与资源占用之间取得了良好平衡，适合作为各类复杂应用开发及私有化部署的中大型智能基座。",
+      "sourceDescription": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/logo.png\">",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 508728,
+      "likes": 998,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-24T02:39:16.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-04-30",
+      "modelCard": "assets/huggingface_model_cards/2026-04-30/05-moonshotai-kimi-k2-6.png",
+      "modelName": "moonshotai/Kimi-K2.6",
+      "modelDescription": "Kimi-K2.6 是月之暗面推出的新一代通用大模型。该模型进一步优化了长文本处理与复杂指令理解能力，强化了自然语言的交互体验。K2.6 旨在为用户提供更精准、流畅的对话服务与文档分析工具，适用于个人知识管理、深度阅读分析以及自动化办公等高频场景，是提升生产力的智能化工具。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"figures/kimi-logo.png\" width=\"30%\" alt=\"Kimi K2.6\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K2.6-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 489001,
+      "likes": 1149,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-04-29T04:35:56.000Z",
+      "numParameters": 1058589420528,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K2.6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 39.47514648652708,
+          "pricingOutput": 4.5
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/kimi-k2.6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 93.68620464679073,
+          "pricingOutput": 4
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/kimi-k2p6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 65.10647694253444
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K2.6",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K2.6",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 20.04361494597769
+        }
+      ]
+    }
+  ]
+}
