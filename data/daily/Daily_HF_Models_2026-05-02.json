@@ -1,0 +1,115 @@
+{
+  "date": "2026-05-02",
+  "title": "🔥Deepseek重磅发布是开发的一款能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/01-deepseek-ai-deepseek-v4-pro.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/02-openai-privacy-filter.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/03-xiaomimimo-mimo-v2-5-pro.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/04-deepseek-ai-deepseek-v4-flash.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/05-qwen-qwen3-6-27b.png"
+  ],
+  "songs": [
+    {
+      "name": "DeepSeek-V4-Pro",
+      "artist": "deepseek-ai"
+    },
+    {
+      "name": "privacy-filter",
+      "artist": "openai"
+    },
+    {
+      "name": "MiMo-V2.5-Pro",
+      "artist": "XiaomiMiMo"
+    },
+    {
+      "name": "DeepSeek-V4-Flash",
+      "artist": "deepseek-ai"
+    },
+    {
+      "name": "Qwen3.6-27B",
+      "artist": "Qwen"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-05-02 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/01-deepseek-ai-deepseek-v4-pro.png\" alt=\"deepseek-ai/DeepSeek-V4-Pro\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepseek-ai/DeepSeek-V4-Pro</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">DeepSeek-V4-Pro 是 DeepSeek 开发的一款高性能大语言模型，其核心定位在于实现高效率的百万级 Token 上下文处理能力。该模型旨在通过先进的架构优化，处理长文本数据，适用于需要大规模上下文窗口的复杂任务，如长文档分析、代码库检索及深度内容生成，展现了在长序列处理领域的智能化技术进展。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/02-openai-privacy-filter.png\" alt=\"openai/privacy-filter\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">openai/privacy-filter</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">OpenAI Privacy Filter 是一款双向 Token 分类模型，专为文本中个人身份信息（PII）的检测与脱敏而设计。该模型支持本地化部署，具备快速、上下文感知及高可调性特点，主要用于高吞吐量的数据清洗工作流，帮助团队在保障数据隐私安全的同时，高效处理大规模文本内容，防止敏感信息泄露。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/03-xiaomimimo-mimo-v2-5-pro.png\" alt=\"XiaomiMiMo/MiMo-V2.5-Pro\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">XiaomiMiMo/MiMo-V2.5-Pro</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">XiaomiMiMo/MiMo-V2.5-Pro 是由小米开发的大模型产品。作为该系列的重要迭代版本，该模型承载了小米在人工智能技术方面的积累，旨在提供优化的逻辑推理与多任务处理能力。虽其具体参数细节未完全披露，但作为通用型或特定任务模型，其设计目标是增强人机交互的智能化水平，并支持多种复杂的业务应用场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/04-deepseek-ai-deepseek-v4-flash.png\" alt=\"deepseek-ai/DeepSeek-V4-Flash\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepseek-ai/DeepSeek-V4-Flash</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">DeepSeek-V4-Flash 是 DeepSeek-V4 系列中侧重于高速响应的模型版本，专注于在保持百万 Token 处理能力的同时，提供更出色的推理性能与响应速度。它通过优化计算效率，显著降低了长上下文处理的延迟，特别适用于对实时性要求较高、需要处理大规模数据的分析场景，是兼顾性能与效率的平衡型解决方案。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/05-qwen-qwen3-6-27b.png\" alt=\"Qwen/Qwen3.6-27B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Qwen/Qwen3.6-27B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.6-27B 是阿里巴巴通义千问系列的大语言模型，具备 270 亿参数。作为中等规模的模型，它在计算资源消耗与处理能力之间取得了平衡。该模型继承了 Qwen 系列在多语言处理、逻辑推理及指令遵循方面的优势，适用于多种专业领域应用，如企业知识库构建、内容创作辅助以及各类复杂的自然语言处理任务。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-05-01T22:53:40.268428"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+    "https://huggingface.co/openai/privacy-filter",
+    "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+    "https://huggingface.co/Qwen/Qwen3.6-27B"
+  ],
+  "new_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+    "https://huggingface.co/openai/privacy-filter",
+    "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+    "https://huggingface.co/Qwen/Qwen3.6-27B"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-05-02-01",
+      "rank": 1,
+      "name": "deepseek-ai/DeepSeek-V4-Pro",
+      "description": "DeepSeek-V4-Pro 是 DeepSeek 开发的一款高性能大语言模型，其核心定位在于实现高效率的百万级 Token 上下文处理能力。该模型旨在通过先进的架构优化，处理长文本数据，适用于需要大规模上下文窗口的复杂任务，如长文档分析、代码库检索及深度内容生成，展现了在长序列处理领域的智能化技术进展。",
+      "source_description": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-02/01-deepseek-ai-deepseek-v4-pro.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/01-deepseek-ai-deepseek-v4-pro.png"
+    },
+    {
+      "id": "hf-2026-05-02-02",
+      "rank": 2,
+      "name": "openai/privacy-filter",
+      "description": "OpenAI Privacy Filter 是一款双向 Token 分类模型，专为文本中个人身份信息（PII）的检测与脱敏而设计。该模型支持本地化部署，具备快速、上下文感知及高可调性特点，主要用于高吞吐量的数据清洗工作流，帮助团队在保障数据隐私安全的同时，高效处理大规模文本内容，防止敏感信息泄露。",
+      "source_description": "OpenAI Privacy Filter is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text. It is intended for high-throughput data sanitization workflows where teams need a model that they can run on-premises that is fast, context-aware, and tunable.",
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-02/02-openai-privacy-filter.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/02-openai-privacy-filter.png"
+    },
+    {
+      "id": "hf-2026-05-02-03",
+      "rank": 3,
+      "name": "XiaomiMiMo/MiMo-V2.5-Pro",
+      "description": "XiaomiMiMo/MiMo-V2.5-Pro 是由小米开发的大模型产品。作为该系列的重要迭代版本，该模型承载了小米在人工智能技术方面的积累，旨在提供优化的逻辑推理与多任务处理能力。虽其具体参数细节未完全披露，但作为通用型或特定任务模型，其设计目标是增强人机交互的智能化水平，并支持多种复杂的业务应用场景。",
+      "source_description": "<div align=\"center\"> <picture> <source srcset=\"https://github.com/XiaomiMiMo/MiMo/raw/main/figures/Xiaomi MiMo darkmode.png?raw=true\" media=\"(prefers-color-scheme: dark)\"> <img src=\"https://github.com/XiaomiMiMo/MiMo/raw/main/figures/Xiaomi MiMo.png?raw=true\" width=\"60%\" alt=\"Xiaomi-MiMo\" /> </picture> </div>",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-02/03-xiaomimimo-mimo-v2-5-pro.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/03-xiaomimimo-mimo-v2-5-pro.png"
+    },
+    {
+      "id": "hf-2026-05-02-04",
+      "rank": 4,
+      "name": "deepseek-ai/DeepSeek-V4-Flash",
+      "description": "DeepSeek-V4-Flash 是 DeepSeek-V4 系列中侧重于高速响应的模型版本，专注于在保持百万 Token 处理能力的同时，提供更出色的推理性能与响应速度。它通过优化计算效率，显著降低了长上下文处理的延迟，特别适用于对实时性要求较高、需要处理大规模数据的分析场景，是兼顾性能与效率的平衡型解决方案。",
+      "source_description": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-02/04-deepseek-ai-deepseek-v4-flash.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/04-deepseek-ai-deepseek-v4-flash.png"
+    },
+    {
+      "id": "hf-2026-05-02-05",
+      "rank": 5,
+      "name": "Qwen/Qwen3.6-27B",
+      "description": "Qwen3.6-27B 是阿里巴巴通义千问系列的大语言模型，具备 270 亿参数。作为中等规模的模型，它在计算资源消耗与处理能力之间取得了平衡。该模型继承了 Qwen 系列在多语言处理、逻辑推理及指令遵循方面的优势，适用于多种专业领域应用，如企业知识库构建、内容创作辅助以及各类复杂的自然语言处理任务。",
+      "source_description": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/logo.png\">",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-02/05-qwen-qwen3-6-27b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-02/05-qwen-qwen3-6-27b.png"
+    }
+  ]
+}
