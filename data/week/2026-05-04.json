@@ -1,0 +1,70 @@
+{
+  "weekRange": {
+    "start": "2026-04-28",
+    "end": "2026-05-04"
+  },
+  "weekTitle": "本周 Hugging Face 热门模型精选（2026年5月第一周）",
+  "summary": "本周开源模型领域成果丰硕，DeepSeek 与 Mistral AI 相继发布超长上下文旗舰模型，通义千问系列迎来 27B 中坚力量更新。此外，隐私保护与企业级多模态工具也受到广泛关注，展现了当前大模型在高性能推理与垂直领域应用上的深度融合趋势。",
+  "items": [
+    {
+      "modelName": "deepseek-ai/DeepSeek-V4-Pro",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "modelCard": "assets/huggingface_model_cards/2026-05-04/01-deepseek-ai-deepseek-v4-pro.png",
+      "modelDescription": "DeepSeek-V4-Pro是DeepSeek推出的高性能语言模型，主打超长上下文处理能力。该模型旨在实现百万级Token的高效智能分析，通过优化架构提升长文本的处理效率与准确度，特别适用于大规模文档分析、复杂任务推理及长对话场景，是处理超长上下文任务的理想选择。",
+      "pickReason": "作为本周的领跑模型，DeepSeek-V4-Pro 以卓越的百万级 Token 长上下文处理能力脱颖而出。它通过优化架构解决了长文档分析与复杂任务推理中的效率瓶颈，为大规模数据处理提供了极具竞争力的智能解决方案。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-05-04"
+      ]
+    },
+    {
+      "modelName": "mistralai/Mistral-Medium-3.5-128B",
+      "modelUrl": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+      "modelCard": "assets/huggingface_model_cards/2026-05-04/04-mistralai-mistral-medium-3-5-128b.png",
+      "modelDescription": "Mistral-Medium-3.5-128B是Mistral AI推出的旗舰级稠密模型。它拥有128B参数量和256k长上下文窗口，实现了指令遵循、逻辑推理和代码编写能力的深度集成。作为Mistral系列的重要迭代，该模型在多任务处理上表现更优，旨在为需要高性能推理和复杂编程辅助的专业开发者提供统一的解决方案。",
+      "pickReason": "Mistral AI 推出的全新旗舰级稠密模型，凭借 128B 参数与 256k 长上下文窗口，实现了指令遵循、逻辑推理和代码编写能力的深度统一，是专业开发者应对复杂编程任务与高阶推理需求的理想选择。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-05-04"
+      ]
+    },
+    {
+      "modelName": "Qwen/Qwen3.6-27B",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "modelCard": "assets/huggingface_model_cards/2026-05-04/05-qwen-qwen3-6-27b.png",
+      "modelDescription": "Qwen3.6-27B是通义千问系列的最新迭代模型。该模型具备270亿参数，延续了Qwen系列在多语言处理、逻辑推理和知识储备方面的优势。作为一款中等体量的模型，它在计算资源需求与生成质量之间取得了良好的平衡，适用于构建各类智能助手、代码分析工具及文本生成应用，是企业级和开发者构建AI应用的高效底座。",
+      "pickReason": "通义千问系列再度进化，Qwen3.6-27B 在多语言处理、逻辑推理与知识储备方面保持了行业领先水准。该模型在性能与计算资源消耗之间达成了极佳平衡，非常适合企业级用户构建高效的智能助手与垂直应用。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-05-04"
+      ]
+    },
+    {
+      "modelName": "openai/privacy-filter",
+      "modelUrl": "https://huggingface.co/openai/privacy-filter",
+      "modelCard": "assets/huggingface_model_cards/2026-05-04/03-openai-privacy-filter.png",
+      "modelDescription": "OpenAI Privacy Filter是一款专为个人隐私信息（PII）检测与脱敏设计的双向Token分类模型。它支持在本地高效部署，具备极高的吞吐量和上下文感知能力。该模型主要用于大规模数据预处理工作流，帮助团队在确保隐私合规的前提下，快速过滤与保护敏感数据，防止隐私信息泄露。",
+      "pickReason": "这款模型填补了数据安全领域的重要空白，专为 PII 隐私信息检测与脱敏设计。其支持本地高效部署的特性，使得团队能够在不牺牲数据隐私的前提下，完成大规模数据的安全过滤，是企业合规建设的利器。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-05-04"
+      ]
+    },
+    {
+      "modelName": "XiaomiMiMo/MiMo-V2.5-Pro",
+      "modelUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+      "modelCard": "assets/huggingface_model_cards/2026-05-04/02-xiaomimimo-mimo-v2-5-pro.png",
+      "modelDescription": "XiaomiMiMo-V2.5-Pro是小米推出的迭代版模型。该模型在继承原有技术积累的基础上，进一步优化了多模态处理能力或基础文本生成性能。作为小米生态内的人工智能工具，它旨在提升处理任务的效率与准确性，适用于小米相关技术研发及特定的智能终端应用场景，助力开发者与用户实现更智能的交互体验。",
+      "pickReason": "小米生态下的重要模型迭代，MiMo-V2.5-Pro 进一步深化了多模态交互能力。该模型不仅优化了基础文本生成性能，还精准对接了智能终端应用场景，为开发者实现软硬结合的智能化交互提供了有力支撑。",
+      "appearances": 1,
+      "bestRank": 2,
+      "dates": [
+        "2026-05-04"
+      ]
+    }
+  ]
+}

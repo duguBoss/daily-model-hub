@@ -1,0 +1,115 @@
+{
+  "date": "2026-05-04",
+  "title": "🔥Deepseek重磅发布是推出的高性能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/01-deepseek-ai-deepseek-v4-pro.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/02-xiaomimimo-mimo-v2-5-pro.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/03-openai-privacy-filter.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/04-mistralai-mistral-medium-3-5-128b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/05-qwen-qwen3-6-27b.png"
+  ],
+  "songs": [
+    {
+      "name": "DeepSeek-V4-Pro",
+      "artist": "deepseek-ai"
+    },
+    {
+      "name": "MiMo-V2.5-Pro",
+      "artist": "XiaomiMiMo"
+    },
+    {
+      "name": "privacy-filter",
+      "artist": "openai"
+    },
+    {
+      "name": "Mistral-Medium-3.5-128B",
+      "artist": "mistralai"
+    },
+    {
+      "name": "Qwen3.6-27B",
+      "artist": "Qwen"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-05-04 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/01-deepseek-ai-deepseek-v4-pro.png\" alt=\"deepseek-ai/DeepSeek-V4-Pro\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepseek-ai/DeepSeek-V4-Pro</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">DeepSeek-V4-Pro是DeepSeek推出的高性能语言模型，主打超长上下文处理能力。该模型旨在实现百万级Token的高效智能分析，通过优化架构提升长文本的处理效率与准确度，特别适用于大规模文档分析、复杂任务推理及长对话场景，是处理超长上下文任务的理想选择。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/02-xiaomimimo-mimo-v2-5-pro.png\" alt=\"XiaomiMiMo/MiMo-V2.5-Pro\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">XiaomiMiMo/MiMo-V2.5-Pro</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">XiaomiMiMo-V2.5-Pro是小米推出的迭代版模型。该模型在继承原有技术积累的基础上，进一步优化了多模态处理能力或基础文本生成性能。作为小米生态内的人工智能工具，它旨在提升处理任务的效率与准确性，适用于小米相关技术研发及特定的智能终端应用场景，助力开发者与用户实现更智能的交互体验。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/03-openai-privacy-filter.png\" alt=\"openai/privacy-filter\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">openai/privacy-filter</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">OpenAI Privacy Filter是一款专为个人隐私信息（PII）检测与脱敏设计的双向Token分类模型。它支持在本地高效部署，具备极高的吞吐量和上下文感知能力。该模型主要用于大规模数据预处理工作流，帮助团队在确保隐私合规的前提下，快速过滤与保护敏感数据，防止隐私信息泄露。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/04-mistralai-mistral-medium-3-5-128b.png\" alt=\"mistralai/Mistral-Medium-3.5-128B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">mistralai/Mistral-Medium-3.5-128B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Mistral-Medium-3.5-128B是Mistral AI推出的旗舰级稠密模型。它拥有128B参数量和256k长上下文窗口，实现了指令遵循、逻辑推理和代码编写能力的深度集成。作为Mistral系列的重要迭代，该模型在多任务处理上表现更优，旨在为需要高性能推理和复杂编程辅助的专业开发者提供统一的解决方案。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/05-qwen-qwen3-6-27b.png\" alt=\"Qwen/Qwen3.6-27B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Qwen/Qwen3.6-27B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.6-27B是通义千问系列的最新迭代模型。该模型具备270亿参数，延续了Qwen系列在多语言处理、逻辑推理和知识储备方面的优势。作为一款中等体量的模型，它在计算资源需求与生成质量之间取得了良好的平衡，适用于构建各类智能助手、代码分析工具及文本生成应用，是企业级和开发者构建AI应用的高效底座。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-05-03T22:45:05.948646"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+    "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+    "https://huggingface.co/openai/privacy-filter",
+    "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+    "https://huggingface.co/Qwen/Qwen3.6-27B"
+  ],
+  "new_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+    "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+    "https://huggingface.co/openai/privacy-filter",
+    "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+    "https://huggingface.co/Qwen/Qwen3.6-27B"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-05-04-01",
+      "rank": 1,
+      "name": "deepseek-ai/DeepSeek-V4-Pro",
+      "description": "DeepSeek-V4-Pro是DeepSeek推出的高性能语言模型，主打超长上下文处理能力。该模型旨在实现百万级Token的高效智能分析，通过优化架构提升长文本的处理效率与准确度，特别适用于大规模文档分析、复杂任务推理及长对话场景，是处理超长上下文任务的理想选择。",
+      "source_description": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-04/01-deepseek-ai-deepseek-v4-pro.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/01-deepseek-ai-deepseek-v4-pro.png"
+    },
+    {
+      "id": "hf-2026-05-04-02",
+      "rank": 2,
+      "name": "XiaomiMiMo/MiMo-V2.5-Pro",
+      "description": "XiaomiMiMo-V2.5-Pro是小米推出的迭代版模型。该模型在继承原有技术积累的基础上，进一步优化了多模态处理能力或基础文本生成性能。作为小米生态内的人工智能工具，它旨在提升处理任务的效率与准确性，适用于小米相关技术研发及特定的智能终端应用场景，助力开发者与用户实现更智能的交互体验。",
+      "source_description": "<div align=\"center\"> <picture> <source srcset=\"https://github.com/XiaomiMiMo/MiMo/raw/main/figures/Xiaomi MiMo darkmode.png?raw=true\" media=\"(prefers-color-scheme: dark)\"> <img src=\"https://github.com/XiaomiMiMo/MiMo/raw/main/figures/Xiaomi MiMo.png?raw=true\" width=\"60%\" alt=\"Xiaomi-MiMo\" /> </picture> </div>",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-04/02-xiaomimimo-mimo-v2-5-pro.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/02-xiaomimimo-mimo-v2-5-pro.png"
+    },
+    {
+      "id": "hf-2026-05-04-03",
+      "rank": 3,
+      "name": "openai/privacy-filter",
+      "description": "OpenAI Privacy Filter是一款专为个人隐私信息（PII）检测与脱敏设计的双向Token分类模型。它支持在本地高效部署，具备极高的吞吐量和上下文感知能力。该模型主要用于大规模数据预处理工作流，帮助团队在确保隐私合规的前提下，快速过滤与保护敏感数据，防止隐私信息泄露。",
+      "source_description": "OpenAI Privacy Filter is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text. It is intended for high-throughput data sanitization workflows where teams need a model that they can run on-premises that is fast, context-aware, and tunable.",
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-04/03-openai-privacy-filter.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/03-openai-privacy-filter.png"
+    },
+    {
+      "id": "hf-2026-05-04-04",
+      "rank": 4,
+      "name": "mistralai/Mistral-Medium-3.5-128B",
+      "description": "Mistral-Medium-3.5-128B是Mistral AI推出的旗舰级稠密模型。它拥有128B参数量和256k长上下文窗口，实现了指令遵循、逻辑推理和代码编写能力的深度集成。作为Mistral系列的重要迭代，该模型在多任务处理上表现更优，旨在为需要高性能推理和复杂编程辅助的专业开发者提供统一的解决方案。",
+      "source_description": "Mistral Medium 3.5 is our first flagship merged model. It is a dense 128B model with a 256k context window, handling instruction-following, reasoning, and coding in a single set of weights. Mistral Medium 3.5 replaces its predecessor Mistral Medium 3.1 and Magistral in Le Chat. It also replaces Devstral 2 in our coding agent Vibe. Concretely, expect better performance for instruct, reasoning and coding tasks in a new unified model in comparison with our previous released models.",
+      "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-04/04-mistralai-mistral-medium-3-5-128b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/04-mistralai-mistral-medium-3-5-128b.png"
+    },
+    {
+      "id": "hf-2026-05-04-05",
+      "rank": 5,
+      "name": "Qwen/Qwen3.6-27B",
+      "description": "Qwen3.6-27B是通义千问系列的最新迭代模型。该模型具备270亿参数，延续了Qwen系列在多语言处理、逻辑推理和知识储备方面的优势。作为一款中等体量的模型，它在计算资源需求与生成质量之间取得了良好的平衡，适用于构建各类智能助手、代码分析工具及文本生成应用，是企业级和开发者构建AI应用的高效底座。",
+      "source_description": "<img width=\"400px\" src=\"https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/logo.png\">",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-04/05-qwen-qwen3-6-27b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-04/05-qwen-qwen3-6-27b.png"
+    }
+  ]
+}
