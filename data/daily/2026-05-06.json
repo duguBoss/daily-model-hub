@@ -1,0 +1,166 @@
+{
+  "recordDate": "2026-05-06",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-05-06",
+      "modelCard": "assets/huggingface_model_cards/2026-05-06/01-deepseek-ai-deepseek-v4-pro.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Pro",
+      "modelDescription": "DeepSeek-V4-Pro是一款致力于实现超长上下文智能处理的模型。该模型重点优化了处理百万级Token的能力，旨在提升大容量文本下的逻辑推理与信息检索效率，适用于需要深度分析长文档、复杂技术手册或大规模数据语料的专业场景，为用户提供高效的智能化处理方案。",
+      "sourceDescription": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 631499,
+      "likes": 3575,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-04-27T06:51:04.000Z",
+      "numParameters": 861608274846,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 40.58267111454401,
+          "pricingOutput": 4.4
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 31.99051659558131,
+          "pricingOutput": 3.48
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/deepseek-v4-pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 50.070644496865604
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 29.15305461218686,
+          "pricingOutput": 3.48
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-05-06",
+      "modelCard": "assets/huggingface_model_cards/2026-05-06/02-openai-privacy-filter.png",
+      "modelName": "openai/privacy-filter",
+      "modelDescription": "OpenAI Privacy Filter是一款专注于个人身份信息（PII）检测与遮蔽的双向令牌分类模型。该模型支持本地部署，具备高吞吐量数据处理能力，能够实现快速、准确的文本敏感信息过滤。它主要应用于企业级数据脱敏工作流，确保在处理敏感数据时符合隐私合规要求，且支持根据特定需求进行灵活微调。",
+      "sourceDescription": "OpenAI Privacy Filter is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text. It is intended for high-throughput data sanitization workflows where teams need a model that they can run on-premises that is fast, context-aware, and tunable.",
+      "modelUrl": "https://huggingface.co/openai/privacy-filter",
+      "cardSummary": "",
+      "author": "openai",
+      "downloads": 141317,
+      "likes": 1297,
+      "pipelineTag": "token-classification",
+      "lastModified": "2026-04-22T16:50:17.000Z",
+      "numParameters": 1399486865,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-05-06",
+      "modelCard": "assets/huggingface_model_cards/2026-05-06/03-mistralai-mistral-medium-3-5-128b.png",
+      "modelName": "mistralai/Mistral-Medium-3.5-128B",
+      "modelDescription": "Mistral-Medium-3.5-128B是Mistral AI推出的旗舰级稠密模型，拥有256k的超长上下文窗口。该模型在指令遵循、复杂推理及编程能力方面表现优异，整合了多项任务处理能力，旨在替代旧版模型，为用户提供更卓越的逻辑推理和代码生成表现，适用于各类高性能开发与复杂逻辑分析任务。",
+      "sourceDescription": "Mistral Medium 3.5 is our first flagship merged model. It is a dense 128B model with a 256k context window, handling instruction-following, reasoning, and coding in a single set of weights. Mistral Medium 3.5 replaces its predecessor Mistral Medium 3.1 and Magistral in Le Chat. It also replaces Devstral 2 in our coding agent Vibe. Concretely, expect better performance for instruct, reasoning and coding tasks in a new unified model in comparison with our previous released models.",
+      "modelUrl": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+      "cardSummary": "",
+      "author": "mistralai",
+      "downloads": 15024,
+      "likes": 268,
+      "pipelineTag": "",
+      "lastModified": "2026-05-04T14:16:22.000Z",
+      "numParameters": 127704211408,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-05-06",
+      "modelCard": "assets/huggingface_model_cards/2026-05-06/04-sulphurai-sulphur-2-base.png",
+      "modelName": "SulphurAI/Sulphur-2-base",
+      "modelDescription": "Sulphur-2-base是一款基于LTX 2.3架构的无审查视频生成模型。该模型原生支持文本生成视频（t2v）与图像生成视频（i2v）等多种格式，具备强大的视觉生成扩展性。由于其无审查特性，该模型主要用于探索创意视频内容的生成，为开发者与艺术家提供更自由的创作空间和多种格式兼容性支持。",
+      "sourceDescription": "An uncensored video generation model based on LTX 2.3 supporting both t2v and i2v natively, as well as all of the other ltx 2.3 formats.",
+      "modelUrl": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+      "cardSummary": "",
+      "author": "SulphurAI",
+      "downloads": 37897,
+      "likes": 228,
+      "pipelineTag": "text-to-video",
+      "lastModified": "2026-05-05T16:23:13.000Z",
+      "numParameters": 8953803264,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-05-06",
+      "modelCard": "assets/huggingface_model_cards/2026-05-06/05-xiaomimimo-mimo-v2-5-pro.png",
+      "modelName": "XiaomiMiMo/MiMo-V2.5-Pro",
+      "modelDescription": "Xiaomi MiMo-V2.5-Pro是由小米推出的前沿人工智能模型，定位为多模态智能处理助手。该模型集成了先进的数据建模技术，专注于在移动端及云端提供高性能的交互体验。虽然相关具体参数公开有限，但作为MiMo系列的迭代版本，其核心功能在于优化多场景下的任务处理与响应能力，旨在为终端用户提供更智能的服务。",
+      "sourceDescription": "<div align=\"center\"> <picture> <source srcset=\"https://github.com/XiaomiMiMo/MiMo/raw/main/figures/Xiaomi MiMo darkmode.png?raw=true\" media=\"(prefers-color-scheme: dark)\"> <img src=\"https://github.com/XiaomiMiMo/MiMo/raw/main/figures/Xiaomi MiMo.png?raw=true\" width=\"60%\" alt=\"Xiaomi-MiMo\" /> </picture> </div>",
+      "modelUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+      "cardSummary": "",
+      "author": "XiaomiMiMo",
+      "downloads": 13317,
+      "likes": 437,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-04-28T07:01:37.000Z",
+      "numParameters": 1023244718976,
+      "availableInferenceProviders": []
+    }
+  ]
+}
