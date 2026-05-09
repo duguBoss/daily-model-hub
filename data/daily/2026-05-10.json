@@ -1,0 +1,166 @@
+{
+  "recordDate": "2026-05-10",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-05-10",
+      "modelCard": "assets/huggingface_model_cards/2026-05-10/01-sulphurai-sulphur-2-base.png",
+      "modelName": "SulphurAI/Sulphur-2-base",
+      "modelDescription": "Sulphur-2-base 是一款基于 LTX 2.3 架构的视频生成模型，去除了内容审核限制。该模型原生支持文本转视频（t2v）和图像转视频（i2v）任务，并兼容所有 LTX 2.3 支持的格式，适用于追求创作自由度与多样化视频生成需求的开发者及用户。",
+      "sourceDescription": "An uncensored video generation model based on LTX 2.3 supporting both t2v and i2v natively, as well as all of the other ltx 2.3 formats.",
+      "modelUrl": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+      "cardSummary": "",
+      "author": "SulphurAI",
+      "downloads": 115477,
+      "likes": 487,
+      "pipelineTag": "text-to-video",
+      "lastModified": "2026-05-08T22:57:06.000Z",
+      "numParameters": 8953803264,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-05-10",
+      "modelCard": "assets/huggingface_model_cards/2026-05-10/02-zyphra-zaya1-8b.png",
+      "modelName": "Zyphra/ZAYA1-8B",
+      "modelDescription": "ZAYA1-8B 是由 Zyphra 开发的混合专家（MoE）架构语言模型，总参数量 8.4B，活跃参数量仅 760M。通过创新的架构设计与预训练策略，该模型在保持极高参数效率的同时，实现了卓越的推理性能，适用于资源受限但追求高性能 AI 推理的应用场景。",
+      "sourceDescription": "ZAYA1-8B is a small mixture of experts language model with 760M active parameters and 8.4B total parameters trained end-to-end by Zyphra. ZAYA1-8B sets a new standard of intelligence efficiency for its parameter count through a combination of novel architecture and innovations in pretraining and post-training.",
+      "modelUrl": "https://huggingface.co/Zyphra/ZAYA1-8B",
+      "cardSummary": "",
+      "author": "Zyphra",
+      "downloads": 23620,
+      "likes": 325,
+      "pipelineTag": "",
+      "lastModified": "2026-05-08T21:43:00.000Z",
+      "numParameters": 8840488784,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-05-10",
+      "modelCard": "assets/huggingface_model_cards/2026-05-10/03-deepseek-ai-deepseek-v4-pro.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Pro",
+      "modelDescription": "DeepSeek-V4-Pro 是深度求索（DeepSeek）推出的高性能语言模型，致力于实现高效的百万级 Token 上下文处理能力。该模型旨在通过深度优化长文本理解与处理技术，提升大模型在复杂任务中的智能表现，适用于处理超长文档分析、大规模知识检索等专业场景。",
+      "sourceDescription": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 1167697,
+      "likes": 3783,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-05-06T04:18:44.000Z",
+      "numParameters": 861608274846,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 45.5942692871747,
+          "pricingOutput": 4.4
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 25.34233186571049,
+          "pricingOutput": 3.38
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/deepseek-v4-pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 55.56980010793444
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 26.118433581863343,
+          "pricingOutput": 3.48
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-05-10",
+      "modelCard": "assets/huggingface_model_cards/2026-05-10/04-seesee21-z-anime.png",
+      "modelName": "SeeSee21/Z-Anime",
+      "modelDescription": "Z-Anime 是专注于动画风格生成的图像或视频模型。该模型由 SeeSee21 开发，旨在通过专门的数据训练，为用户提供高质量的动漫风格创作能力。适用于需要生成特定审美偏好、风格化较强的二次元图像或动画片段的内容创作者使用。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"images/cover.png\" width=\"380\" alt=\"Z-Anime\" /> </div>",
+      "modelUrl": "https://huggingface.co/SeeSee21/Z-Anime",
+      "cardSummary": "",
+      "author": "SeeSee21",
+      "downloads": 8433,
+      "likes": 265,
+      "pipelineTag": "text-to-image",
+      "lastModified": "2026-04-27T01:13:30.000Z",
+      "numParameters": 6154908736,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-05-10",
+      "modelCard": "assets/huggingface_model_cards/2026-05-10/05-tenstrip-ltx2-3-10eros.png",
+      "modelName": "TenStrip/LTX2.3-10Eros",
+      "modelDescription": "LTX2.3-10Eros 是基于 Sulphur-2-base 改进的视频生成合并模型，专门优化了图像转视频（I2V）的表现。通过分层加权合并技术，该模型相比 LoRA 加载具有更好的提示词遵循能力。使用时需提供详细的指令来控制动作与演变，适合需要精细控制视觉输出结果的专业用户。",
+      "sourceDescription": "Reliant on https://huggingface.co/SulphurAI/Sulphur-2-base This is a different merge attempt for ideal I2V use. It uses layer scaled merges of different steps, it's not a straight weight merge. It behaves much nicer than lora load and respects prompt. Prompt should be enhanced, LTX has very little self reasoning and input when it is conditioned, first frame and all following motions, evolutions, and audio must be commanded-you will get nothing if you don't ask it.",
+      "modelUrl": "https://huggingface.co/TenStrip/LTX2.3-10Eros",
+      "cardSummary": "",
+      "author": "TenStrip",
+      "downloads": 51779,
+      "likes": 186,
+      "pipelineTag": "image-to-video",
+      "lastModified": "2026-05-07T01:24:09.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    }
+  ]
+}
