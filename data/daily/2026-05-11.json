@@ -1,0 +1,166 @@
+{
+  "recordDate": "2026-05-11",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-05-11",
+      "modelCard": "assets/huggingface_model_cards/2026-05-11/01-sulphurai-sulphur-2-base.png",
+      "modelName": "SulphurAI/Sulphur-2-base",
+      "modelDescription": "Sulphur-2-base 是一款基于 LTX 2.3 开发的无审查视频生成模型，原生支持文生视频（t2v）和图生视频（i2v）任务。该模型兼容 LTX 2.3 的所有格式规范，主要面向有特定生成需求且需绕过传统内容限制的用户，适用于各种视频创作场景。",
+      "sourceDescription": "An uncensored video generation model based on LTX 2.3 supporting both t2v and i2v natively, as well as all of the other ltx 2.3 formats.",
+      "modelUrl": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+      "cardSummary": "",
+      "author": "SulphurAI",
+      "downloads": 144251,
+      "likes": 532,
+      "pipelineTag": "text-to-video",
+      "lastModified": "2026-05-08T22:57:06.000Z",
+      "numParameters": 8953803264,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-05-11",
+      "modelCard": "assets/huggingface_model_cards/2026-05-11/02-zyphra-zaya1-8b.png",
+      "modelName": "Zyphra/ZAYA1-8B",
+      "modelDescription": "ZAYA1-8B 是 Zyphra 开发的一款小型混合专家（MoE）语言模型，拥有 84 亿总参数及 7.6 亿活跃参数。通过创新的架构设计与预训练方法，该模型在保持参数规模紧凑的同时，实现了极高的推理效率与智能表现，非常适合对计算资源有限制且追求高性价比的部署场景。",
+      "sourceDescription": "ZAYA1-8B is a small mixture of experts language model with 760M active parameters and 8.4B total parameters trained end-to-end by Zyphra. ZAYA1-8B sets a new standard of intelligence efficiency for its parameter count through a combination of novel architecture and innovations in pretraining and post-training.",
+      "modelUrl": "https://huggingface.co/Zyphra/ZAYA1-8B",
+      "cardSummary": "",
+      "author": "Zyphra",
+      "downloads": 44834,
+      "likes": 367,
+      "pipelineTag": "",
+      "lastModified": "2026-05-08T21:43:00.000Z",
+      "numParameters": 8840488784,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-05-11",
+      "modelCard": "assets/huggingface_model_cards/2026-05-11/03-deepseek-ai-deepseek-v4-pro.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Pro",
+      "modelDescription": "DeepSeek-V4-Pro 是 DeepSeek 推出的新一代大语言模型，重点优化了长文本处理能力，旨在实现百万级 Token 上下文的高效智能理解。该模型适用于需要分析海量文档、进行深度学术调研或处理复杂长篇任务的专业工作流，显著提升了大规模数据下的信息处理与逻辑推理效率。",
+      "sourceDescription": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 1339144,
+      "likes": 3817,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-05-06T04:18:44.000Z",
+      "numParameters": 861608274846,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 52.0171373960824,
+          "pricingOutput": 4.4
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 27.839435232036067,
+          "pricingOutput": 3.38
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/deepseek-v4-pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 42.086589621066
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 49.366388265496724,
+          "pricingOutput": 3.48
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-05-11",
+      "modelCard": "assets/huggingface_model_cards/2026-05-11/04-google-gemma-4-31b-it-assistant.png",
+      "modelName": "google/gemma-4-31B-it-assistant",
+      "modelDescription": "Gemma-4-31B-it-assistant 是谷歌推出的轻量化高性能大模型系列的新成员，定位为面向开发者的智能助手。该模型拥有 310 亿参数，经过指令微调（IT），在自然语言交互、代码编写及复杂逻辑推理任务中具备较强的实用性，可满足本地化部署或定制化 AI 应用的开发需求。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/gemma-4-31B-it-assistant",
+      "cardSummary": "",
+      "author": "google",
+      "downloads": 56628,
+      "likes": 192,
+      "pipelineTag": "any-to-any",
+      "lastModified": "2026-05-05T15:39:43.000Z",
+      "numParameters": 469518596,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-05-11",
+      "modelCard": "assets/huggingface_model_cards/2026-05-11/05-hidream-ai-hidream-o1-image.png",
+      "modelName": "HiDream-ai/HiDream-O1-Image",
+      "modelDescription": "HiDream-O1-Image 是一款基于像素级统一 Transformer（UiT）架构的图像生成模型。它摒弃了外部 VAE 及独立文本编码器，将像素与文本统一在同一空间处理。支持文生图、图像编辑及主体驱动个性化生成，最高可生成 2048x2048 高清图像，适用于各种图像创意与编辑应用。",
+      "sourceDescription": "HiDream-O1-Image is a natively unified image generative foundation model built on a Pixel-level Unified Transformer (UiT) without external VAEs or disjoint text encoders, which natively encodes raw pixels, text, and task-specific conditions in a single shared token space — supporting text-to-image, image editing, and subject-driven personalization at up to 2,048 × 2,048.",
+      "modelUrl": "https://huggingface.co/HiDream-ai/HiDream-O1-Image",
+      "cardSummary": "",
+      "author": "HiDream-ai",
+      "downloads": 692,
+      "likes": 177,
+      "pipelineTag": "image-text-to-image",
+      "lastModified": "2026-05-09T19:06:25.000Z",
+      "numParameters": 8804887792,
+      "availableInferenceProviders": []
+    }
+  ]
+}
