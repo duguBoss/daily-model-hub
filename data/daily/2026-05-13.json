@@ -1,0 +1,166 @@
+{
+  "recordDate": "2026-05-13",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-05-13",
+      "modelCard": "assets/huggingface_model_cards/2026-05-13/01-sulphurai-sulphur-2-base.png",
+      "modelName": "SulphurAI/Sulphur-2-base",
+      "modelDescription": "Sulphur-2-base 是一款基于 LTX 2.3 架构的视频生成模型，具备原生的文本转视频（t2v）和图像转视频（i2v）能力。该模型以无审查特性为核心卖点，完整保留并兼容 LTX 2.3 系列的所有格式支持，适用于对内容生成限制较少、追求高灵活性的视频创作与多媒体内容开发场景。",
+      "sourceDescription": "An uncensored video generation model based on LTX 2.3 supporting both t2v and i2v natively, as well as all of the other ltx 2.3 formats.",
+      "modelUrl": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+      "cardSummary": "",
+      "author": "SulphurAI",
+      "downloads": 157648,
+      "likes": 724,
+      "pipelineTag": "text-to-video",
+      "lastModified": "2026-05-08T22:57:06.000Z",
+      "numParameters": 8953803264,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-05-13",
+      "modelCard": "assets/huggingface_model_cards/2026-05-13/02-zyphra-zaya1-8b.png",
+      "modelName": "Zyphra/ZAYA1-8B",
+      "modelDescription": "ZAYA1-8B 是由 Zyphra 开发的小型专家混合模型（MoE），拥有 84 亿总参数及 7.6 亿活跃参数。该模型通过全新的架构设计及优化后的预训练与后训练技术，在保持极高推理效率的同时，实现了同规模模型中领先的智能水平，非常适合资源受限环境下对高性能推理有明确需求的各种应用。",
+      "sourceDescription": "ZAYA1-8B is a small mixture of experts language model with 760M active parameters and 8.4B total parameters trained end-to-end by Zyphra. ZAYA1-8B sets a new standard of intelligence efficiency for its parameter count through a combination of novel architecture and innovations in pretraining and post-training.",
+      "modelUrl": "https://huggingface.co/Zyphra/ZAYA1-8B",
+      "cardSummary": "",
+      "author": "Zyphra",
+      "downloads": 66119,
+      "likes": 449,
+      "pipelineTag": "",
+      "lastModified": "2026-05-11T22:43:52.000Z",
+      "numParameters": 8840488784,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-05-13",
+      "modelCard": "assets/huggingface_model_cards/2026-05-13/03-openbmb-minicpm-v-4-6.png",
+      "modelName": "openbmb/MiniCPM-V-4.6",
+      "modelDescription": "MiniCPM-V-4.6 是一款专为移动设备设计的轻量级多模态大语言模型（MLLM）。该模型在保持极小体积的前提下，实现了高效的图像与视频理解能力，能够在端侧设备上完成复杂的视觉分析任务，是智能手机及嵌入式设备部署多模态 AI 交互功能的理想选择。",
+      "sourceDescription": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "modelUrl": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+      "cardSummary": "",
+      "author": "openbmb",
+      "downloads": 0,
+      "likes": 390,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-05-12T06:37:58.000Z",
+      "numParameters": 1300428016,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-05-13",
+      "modelCard": "assets/huggingface_model_cards/2026-05-13/04-hidream-ai-hidream-o1-image.png",
+      "modelName": "HiDream-ai/HiDream-O1-Image",
+      "modelDescription": "HiDream-O1-Image 采用像素级统一 Transformer（UiT）架构，无需外部 VAE 或独立文本编码器，将图像、文本与任务条件整合在统一空间。该模型支持最高 2048x2048 分辨率，能够高效执行文本生成图像、图像编辑及主体驱动定制化任务，适用于专业图像创作与视觉生成领域。",
+      "sourceDescription": "HiDream-O1-Image is a natively unified image generative foundation model built on a Pixel-level Unified Transformer (UiT) without external VAEs or disjoint text encoders, which natively encodes raw pixels, text, and task-specific conditions in a single shared token space — supporting text-to-image, image editing, and subject-driven personalization at up to 2,048 × 2,048.",
+      "modelUrl": "https://huggingface.co/HiDream-ai/HiDream-O1-Image",
+      "cardSummary": "",
+      "author": "HiDream-ai",
+      "downloads": 3418,
+      "likes": 270,
+      "pipelineTag": "image-text-to-image",
+      "lastModified": "2026-05-09T19:06:25.000Z",
+      "numParameters": 8804887792,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-05-13",
+      "modelCard": "assets/huggingface_model_cards/2026-05-13/05-deepseek-ai-deepseek-v4-pro.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Pro",
+      "modelDescription": "DeepSeek-V4-Pro 是 DeepSeek 推出的新一代高效能大语言模型，其核心亮点在于对百万级上下文（Million-Token Context）的高效处理能力。该模型旨在解决长文本环境下的信息检索与深度推理难题，能够胜任超长文档分析、代码库理解及复杂语境下的逻辑决策等高难度任务。",
+      "sourceDescription": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 2017835,
+      "likes": 3887,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-05-06T04:18:44.000Z",
+      "numParameters": 861608274846,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 37.253408060150875,
+          "pricingOutput": 4.4
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 33.12032943975108,
+          "pricingOutput": 3.38
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/deepseek-v4-pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 47.58851832802043
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 15.42385949916322,
+          "pricingOutput": 3.48
+        }
+      ]
+    }
+  ]
+}
