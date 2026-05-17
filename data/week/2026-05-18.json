@@ -1,0 +1,58 @@
+{
+  "weekRange": {
+    "start": "2026-05-12",
+    "end": "2026-05-18"
+  },
+  "weekTitle": "Hugging Face 每周模型热榜回顾 (2026.05.18)",
+  "summary": "本周开源界多模态与推理优化成为焦点。MiniCPM-V-4.6 凭借轻量化视觉理解能力领跑，Unsloth 团队推出的 Qwen3.6 量化模型通过 MTP 技术大幅提升了推理效率，Sulphur-2-base 则为视频生成领域带来了无审查的新选择，音频处理模型 Supertonic-3 也展现了极佳的易用性。",
+  "items": [
+    {
+      "modelName": "openbmb/MiniCPM-V-4.6",
+      "modelUrl": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+      "modelCard": "assets/huggingface_model_cards/2026-05-18/01-openbmb-minicpm-v-4-6.png",
+      "modelDescription": "MiniCPM-V-4.6 是一款轻量级多模态大模型，专门针对移动端设备优化。该模型具备高效的图像与视频理解能力，能够精准处理视觉任务。凭借其紧凑的模型体积和出色的性能，它非常适合部署在手机等边缘计算设备上，为移动应用提供强大的本地多模态感知能力，适用于各类视觉理解与问答场景。",
+      "pickReason": "这款专为移动端优化的轻量级多模态大模型表现惊人。它在保持紧凑体积的同时，实现了高效的图像与视频理解能力，完美适配手机等边缘计算设备，极大降低了本地化部署视觉智能应用的门槛，是移动端AI落地的标杆级选择。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-05-18"
+      ]
+    },
+    {
+      "modelName": "unsloth/Qwen3.6-27B-MTP-GGUF",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
+      "modelCard": "assets/huggingface_model_cards/2026-05-18/04-unsloth-qwen3-6-27b-mtp-gguf.png",
+      "modelDescription": "Qwen3.6-27B-MTP-GGUF 是一款基于 Qwen3.6 架构并结合多步预测（MTP）技术的量化模型。通过 Unsloth 的优化方案，该模型在维持高精度的前提下，推理速度可提升 1.5 至 2 倍。采用 GGUF 格式使其更易于在消费级硬件上部署，非常适合需要高性能、低延迟响应的复杂文本处理及大规模推理任务。",
+      "pickReason": "Unsloth 团队再次展现了极致的推理优化功底。该模型通过引入多步预测（MTP）技术，在不损失精度的前提下实现了推理速度 1.5 到 2 倍的提升，配合 GGUF 格式，让高性能的大参数量模型也能在消费级硬件上流畅运行。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-05-18"
+      ]
+    },
+    {
+      "modelName": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
+      "modelCard": "assets/huggingface_model_cards/2026-05-18/05-unsloth-qwen3-6-35b-a3b-mtp-gguf.png",
+      "modelDescription": "Qwen3.6-35B-A3B-MTP-GGUF 是一款结合了高效架构与多步预测（MTP）技术的量化大语言模型。该模型在 Unsloth 框架优化下，显著提升了推理吞吐量与执行速度，同时保持了原生模型的性能表现。GGUF 格式支持使其具备良好的设备兼容性，适用于对模型参数量有要求且追求极致推理效率的各类高性能计算应用场景。",
+      "pickReason": "这款 35B 参数规模的优化版本在推理吞吐量上表现卓越。通过 Unsloth 框架的加持，它在保持原生强大性能的同时优化了执行效率。对于需要处理复杂逻辑但受限于计算资源的开发者而言，该模型的性能平衡点掌握得极为出色。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-05-18"
+      ]
+    },
+    {
+      "modelName": "Supertone/supertonic-3",
+      "modelUrl": "https://huggingface.co/Supertone/supertonic-3",
+      "modelCard": "assets/huggingface_model_cards/2026-05-18/03-supertone-supertonic-3.png",
+      "modelDescription": "Supertonic-3 是一款高性能的语音与音频处理模型，旨在为开发者提供优质的语音合成及处理解决方案。该模型通过 Hugging Face 空间提供在线演示，并配套 Python SDK 支持，方便集成至各类应用程序中。它主要用于需要复杂音频转换或语音生成的场景，能够帮助开发者快速构建功能完善的音频交互产品。",
+      "pickReason": "Supertonic-3 极大简化了高端音频处理的开发难度。不仅模型本身具备高性能语音合成能力，官方配套的 Python SDK 以及在线演示空间，让开发者能够快速将复杂的音频转换功能集成到业务中，是音频交互领域的优秀方案。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-05-18"
+      ]
+    }
+  ]
+}
