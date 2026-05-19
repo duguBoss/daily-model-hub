@@ -1,0 +1,115 @@
+{
+  "date": "2026-05-20",
+  "title": "🔥Sulphur重磅发布是一款基于架能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/01-sulphurai-sulphur-2-base.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/02-openbmb-minicpm-v-4-6.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/03-supertone-supertonic-3.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/04-bytedance-research-lance.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/05-unsloth-qwen3-6-27b-mtp-gguf.png"
+  ],
+  "songs": [
+    {
+      "name": "Sulphur-2-base",
+      "artist": "SulphurAI"
+    },
+    {
+      "name": "MiniCPM-V-4.6",
+      "artist": "openbmb"
+    },
+    {
+      "name": "supertonic-3",
+      "artist": "Supertone"
+    },
+    {
+      "name": "Lance",
+      "artist": "bytedance-research"
+    },
+    {
+      "name": "Qwen3.6-27B-MTP-GGUF",
+      "artist": "unsloth"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-05-20 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/01-sulphurai-sulphur-2-base.png\" alt=\"SulphurAI/Sulphur-2-base\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">SulphurAI/Sulphur-2-base</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Sulphur-2-base 是一款基于 LTX 2.3 架构的无审查视频生成模型。它原生支持文本转视频（t2v）和图像转视频（i2v）功能，并完全兼容 LTX 2.3 的其他格式标准，旨在为用户提供更灵活且不受限制的视频创作与生成能力，适合各种视频内容生产场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/02-openbmb-minicpm-v-4-6.png\" alt=\"openbmb/MiniCPM-V-4.6\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">openbmb/MiniCPM-V-4.6</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniCPM-V-4.6 是一款专为移动设备优化的袖珍型多模态大语言模型（MLLM）。该模型在图像和视频理解任务上表现高效，能够在资源受限的手机端实现快速推理，非常适合集成于移动应用中，用于实现各类智能化的视觉分析与交互功能。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/03-supertone-supertonic-3.png\" alt=\"Supertone/supertonic-3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Supertone/supertonic-3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Supertonic-3 是由 Supertone 推出的语音生成与音频处理模型。该项目提供了配套的 Python SDK 及在线演示空间，旨在通过先进的技术实现高质量的语音合成与处理，适用于语音克隆、虚拟形象配音以及各种需要高性能音频生成的交互式多媒体应用开发场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/04-bytedance-research-lance.png\" alt=\"bytedance-research/Lance\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">bytedance-research/Lance</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Lance 是由字节跳动研究团队开发的一款人工智能模型。虽然目前缺乏详细的功能描述，但该模型作为字节跳动技术栈的一部分，展示了在人工智能领域的前沿探索。它通常涉及多模态处理或生成式 AI 研究，可作为开发者在特定前沿研究领域进行实验和应用开发的参考。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/05-unsloth-qwen3-6-27b-mtp-gguf.png\" alt=\"unsloth/Qwen3.6-27B-MTP-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">unsloth/Qwen3.6-27B-MTP-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.6-27B-MTP-GGUF 是基于 Unsloth 优化框架的量化版大语言模型。其核心优势在于引入了 MTP（多步预测）技术，能够在不损失精度的情况下，将推理速度提升 1.5 到 2 倍。该版本通过 GGUF 格式提供，极大地降低了硬件部署门槛，适合对推理性能有较高要求的本地化部署任务。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-05-19T23:04:08.200410"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/SulphurAI/Sulphur-2-base",
+    "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+    "https://huggingface.co/Supertone/supertonic-3",
+    "https://huggingface.co/bytedance-research/Lance",
+    "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF"
+  ],
+  "new_urls": [
+    "https://huggingface.co/SulphurAI/Sulphur-2-base",
+    "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+    "https://huggingface.co/Supertone/supertonic-3",
+    "https://huggingface.co/bytedance-research/Lance",
+    "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-05-20-01",
+      "rank": 1,
+      "name": "SulphurAI/Sulphur-2-base",
+      "description": "Sulphur-2-base 是一款基于 LTX 2.3 架构的无审查视频生成模型。它原生支持文本转视频（t2v）和图像转视频（i2v）功能，并完全兼容 LTX 2.3 的其他格式标准，旨在为用户提供更灵活且不受限制的视频创作与生成能力，适合各种视频内容生产场景。",
+      "source_description": "An uncensored video generation model based on LTX 2.3 supporting both t2v and i2v natively, as well as all of the other ltx 2.3 formats.",
+      "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-20/01-sulphurai-sulphur-2-base.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/01-sulphurai-sulphur-2-base.png"
+    },
+    {
+      "id": "hf-2026-05-20-02",
+      "rank": 2,
+      "name": "openbmb/MiniCPM-V-4.6",
+      "description": "MiniCPM-V-4.6 是一款专为移动设备优化的袖珍型多模态大语言模型（MLLM）。该模型在图像和视频理解任务上表现高效，能够在资源受限的手机端实现快速推理，非常适合集成于移动应用中，用于实现各类智能化的视觉分析与交互功能。",
+      "source_description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-20/02-openbmb-minicpm-v-4-6.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/02-openbmb-minicpm-v-4-6.png"
+    },
+    {
+      "id": "hf-2026-05-20-03",
+      "rank": 3,
+      "name": "Supertone/supertonic-3",
+      "description": "Supertonic-3 是由 Supertone 推出的语音生成与音频处理模型。该项目提供了配套的 Python SDK 及在线演示空间，旨在通过先进的技术实现高质量的语音合成与处理，适用于语音克隆、虚拟形象配音以及各种需要高性能音频生成的交互式多媒体应用开发场景。",
+      "source_description": "<p align=\"center\"> <a href=\"https://huggingface.co/spaces/Supertone/supertonic-3\"><img src=\"https://img.shields.io/badge/Demo-Hugging Face-yellow?style=for-the-badge\" alt=\"Demo\"></a> <a href=\"https://github.com/supertone-inc/supertonic\"><img src=\"https://img.shields.io/badge/Code-GitHub-black?style=for-the-badge&logo=github\" alt=\"Code\"></a> <a href=\"https://pypi.org/project/supertonic/\"><img src=\"https://img.shields.io/badge/Python-SDK-blue?style=for-the-badge&logo=python\" alt=\"Python SDK\"></a> </p>",
+      "url": "https://huggingface.co/Supertone/supertonic-3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-20/03-supertone-supertonic-3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/03-supertone-supertonic-3.png"
+    },
+    {
+      "id": "hf-2026-05-20-04",
+      "rank": 4,
+      "name": "bytedance-research/Lance",
+      "description": "Lance 是由字节跳动研究团队开发的一款人工智能模型。虽然目前缺乏详细的功能描述，但该模型作为字节跳动技术栈的一部分，展示了在人工智能领域的前沿探索。它通常涉及多模态处理或生成式 AI 研究，可作为开发者在特定前沿研究领域进行实验和应用开发的参考。",
+      "source_description": "<div align=\"center\"> <img src=\"assets/logo/lance-logo.webp\" alt=\"Lance logo\" width=\"450\">",
+      "url": "https://huggingface.co/bytedance-research/Lance",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-20/04-bytedance-research-lance.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/04-bytedance-research-lance.png"
+    },
+    {
+      "id": "hf-2026-05-20-05",
+      "rank": 5,
+      "name": "unsloth/Qwen3.6-27B-MTP-GGUF",
+      "description": "Qwen3.6-27B-MTP-GGUF 是基于 Unsloth 优化框架的量化版大语言模型。其核心优势在于引入了 MTP（多步预测）技术，能够在不损失精度的情况下，将推理速度提升 1.5 到 2 倍。该版本通过 GGUF 格式提供，极大地降低了硬件部署门槛，适合对推理性能有较高要求的本地化部署任务。",
+      "source_description": "Read our How to Run Qwen3.6 MTP Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em>See <a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0 GGUFs</a> for our quantization benchmarks.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.6\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li><b>MTP enables 1.5-2x faster inference with no accuracy loss.</b> <li><b>You can now run Qwen3.6 MTP GGUFs in <a href=\"https://unsloth.ai/docs/new/studio\">Unsloth Studio</a>:</b>",
+      "url": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-20/05-unsloth-qwen3-6-27b-mtp-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-20/05-unsloth-qwen3-6-27b-mtp-gguf.png"
+    }
+  ]
+}
