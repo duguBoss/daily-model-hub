@@ -1,0 +1,115 @@
+{
+  "date": "2026-05-24",
+  "title": "🔥Lance重磅发布是由字节跳动能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/01-bytedance-research-lance.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/02-tencent-hy-mt2-1-8b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/03-supertone-supertonic-3.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/04-tencent-hy-mt2-30b-a3b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/05-nemostation-marlin-2b.png"
+  ],
+  "songs": [
+    {
+      "name": "Lance",
+      "artist": "bytedance-research"
+    },
+    {
+      "name": "Hy-MT2-1.8B",
+      "artist": "tencent"
+    },
+    {
+      "name": "supertonic-3",
+      "artist": "Supertone"
+    },
+    {
+      "name": "Hy-MT2-30B-A3B",
+      "artist": "tencent"
+    },
+    {
+      "name": "Marlin-2B",
+      "artist": "NemoStation"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-05-24 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/01-bytedance-research-lance.png\" alt=\"bytedance-research/Lance\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">bytedance-research/Lance</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Lance是由字节跳动研究团队推出的项目。尽管公开信息有限，但该模型旨在探索前沿的算法架构与技术实现，主要服务于学术研究与技术原型开发，在特定领域的自动化流程或生成式任务中展现了应用潜力，是研究机构评估模型性能与扩展性的重要基准工具之一。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/02-tencent-hy-mt2-1-8b.png\" alt=\"tencent/Hy-MT2-1.8B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">tencent/Hy-MT2-1.8B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Hy-MT2-1.8B是腾讯开发的轻量级语言模型，拥有18亿参数。其设计重心在于高效率与低资源占用，特别适合在计算资源受限的边缘设备上部署。该模型在保持基础逻辑处理能力的同时，能够高效执行文本翻译、基础问答及摘要任务，适用于各类移动终端与嵌入式系统。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/03-supertone-supertonic-3.png\" alt=\"Supertone/supertonic-3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Supertone/supertonic-3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Supertonic-3是由Supertone开发的一款专注于音频处理的先进模型。该模型在语音合成、音质增强及声音建模方面表现卓越，通过提供Python SDK与在线演示，广泛应用于虚拟人驱动、创意媒体创作及音频后期处理场景，能够为用户提供高质量且自然流畅的语音交互体验。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/04-tencent-hy-mt2-30b-a3b.png\" alt=\"tencent/Hy-MT2-30B-A3B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">tencent/Hy-MT2-30B-A3B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Hy-MT2-30B-A3B是腾讯推出的高性能大模型，采用A3B架构优化设计。该模型通过更大的参数规模提升了理解深度与任务处理能力，能够胜任复杂的逻辑分析、深度语义理解及大规模数据处理任务。适用于企业级应用场景，如智能客服系统、知识库检索与复杂任务调度。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/05-nemostation-marlin-2b.png\" alt=\"NemoStation/Marlin-2B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">NemoStation/Marlin-2B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Marlin-2B是由NemoStation开发的紧凑型人工智能模型。该模型以20亿参数规模为核心，旨在实现计算性能与响应速度的平衡。通过针对性的架构设计，它在处理轻量级自然语言任务时展现出良好的性价比，主要面向需要快速推理能力的应用，如实时聊天机器人或端侧自动化辅助工具。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-05-23T22:55:31.952286"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/bytedance-research/Lance",
+    "https://huggingface.co/tencent/Hy-MT2-1.8B",
+    "https://huggingface.co/Supertone/supertonic-3",
+    "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+    "https://huggingface.co/NemoStation/Marlin-2B"
+  ],
+  "new_urls": [
+    "https://huggingface.co/bytedance-research/Lance",
+    "https://huggingface.co/tencent/Hy-MT2-1.8B",
+    "https://huggingface.co/Supertone/supertonic-3",
+    "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+    "https://huggingface.co/NemoStation/Marlin-2B"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-05-24-01",
+      "rank": 1,
+      "name": "bytedance-research/Lance",
+      "description": "Lance是由字节跳动研究团队推出的项目。尽管公开信息有限，但该模型旨在探索前沿的算法架构与技术实现，主要服务于学术研究与技术原型开发，在特定领域的自动化流程或生成式任务中展现了应用潜力，是研究机构评估模型性能与扩展性的重要基准工具之一。",
+      "source_description": "<div align=\"center\"> <img src=\"assets/logo/lance-logo.webp\" alt=\"Lance logo\" width=\"450\">",
+      "url": "https://huggingface.co/bytedance-research/Lance",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-24/01-bytedance-research-lance.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/01-bytedance-research-lance.png"
+    },
+    {
+      "id": "hf-2026-05-24-02",
+      "rank": 2,
+      "name": "tencent/Hy-MT2-1.8B",
+      "description": "Hy-MT2-1.8B是腾讯开发的轻量级语言模型，拥有18亿参数。其设计重心在于高效率与低资源占用，特别适合在计算资源受限的边缘设备上部署。该模型在保持基础逻辑处理能力的同时，能够高效执行文本翻译、基础问答及摘要任务，适用于各类移动终端与嵌入式系统。",
+      "source_description": "<p align=\"left\"> English&nbsp;｜&nbsp;<a href=\"README CN.md\">中文</a> </p> <br>",
+      "url": "https://huggingface.co/tencent/Hy-MT2-1.8B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-24/02-tencent-hy-mt2-1-8b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/02-tencent-hy-mt2-1-8b.png"
+    },
+    {
+      "id": "hf-2026-05-24-03",
+      "rank": 3,
+      "name": "Supertone/supertonic-3",
+      "description": "Supertonic-3是由Supertone开发的一款专注于音频处理的先进模型。该模型在语音合成、音质增强及声音建模方面表现卓越，通过提供Python SDK与在线演示，广泛应用于虚拟人驱动、创意媒体创作及音频后期处理场景，能够为用户提供高质量且自然流畅的语音交互体验。",
+      "source_description": "<p align=\"center\"> <a href=\"https://huggingface.co/spaces/Supertone/supertonic-3\"><img src=\"https://img.shields.io/badge/Demo-Hugging Face-yellow?style=for-the-badge\" alt=\"Demo\"></a> <a href=\"https://github.com/supertone-inc/supertonic\"><img src=\"https://img.shields.io/badge/Code-GitHub-black?style=for-the-badge&logo=github\" alt=\"Code\"></a> <a href=\"https://pypi.org/project/supertonic/\"><img src=\"https://img.shields.io/badge/Python-SDK-blue?style=for-the-badge&logo=python\" alt=\"Python SDK\"></a> </p>",
+      "url": "https://huggingface.co/Supertone/supertonic-3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-24/03-supertone-supertonic-3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/03-supertone-supertonic-3.png"
+    },
+    {
+      "id": "hf-2026-05-24-04",
+      "rank": 4,
+      "name": "tencent/Hy-MT2-30B-A3B",
+      "description": "Hy-MT2-30B-A3B是腾讯推出的高性能大模型，采用A3B架构优化设计。该模型通过更大的参数规模提升了理解深度与任务处理能力，能够胜任复杂的逻辑分析、深度语义理解及大规模数据处理任务。适用于企业级应用场景，如智能客服系统、知识库检索与复杂任务调度。",
+      "source_description": "<p align=\"left\"> English&nbsp;｜&nbsp;<a href=\"https://huggingface.co/tencent/Hy-MT2-30B-A3B/blob/main/README CN.md\">中文</a> </p> <br>",
+      "url": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-24/04-tencent-hy-mt2-30b-a3b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/04-tencent-hy-mt2-30b-a3b.png"
+    },
+    {
+      "id": "hf-2026-05-24-05",
+      "rank": 5,
+      "name": "NemoStation/Marlin-2B",
+      "description": "Marlin-2B是由NemoStation开发的紧凑型人工智能模型。该模型以20亿参数规模为核心，旨在实现计算性能与响应速度的平衡。通过针对性的架构设计，它在处理轻量级自然语言任务时展现出良好的性价比，主要面向需要快速推理能力的应用，如实时聊天机器人或端侧自动化辅助工具。",
+      "source_description": "<img src=\"https://huggingface.co/datasets/NemoStation/marlin-assets/resolve/main/marlin.svg\" width=\"40\" align=\"left\" alt=\"Marlin\" />",
+      "url": "https://huggingface.co/NemoStation/Marlin-2B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-05-24/05-nemostation-marlin-2b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-05-24/05-nemostation-marlin-2b.png"
+    }
+  ]
+}
