@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-02",
+  "title": "🔥Locateanything重磅发布是英伟达推出能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/01-nvidia-locateanything-3b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/02-openbmb-minicpm5-1b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/03-liquidai-lfm2-5-8b-a1b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/04-hauhaucs-qwen3-6-35b-a3b-uncensored-hauhaucs-aggressive.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/05-meituan-longcat-longcat-video-avatar-1-5.png"
+  ],
+  "songs": [
+    {
+      "name": "LocateAnything-3B",
+      "artist": "nvidia"
+    },
+    {
+      "name": "MiniCPM5-1B",
+      "artist": "openbmb"
+    },
+    {
+      "name": "LFM2.5-8B-A1B",
+      "artist": "LiquidAI"
+    },
+    {
+      "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "artist": "HauhauCS"
+    },
+    {
+      "name": "LongCat-Video-Avatar-1.5",
+      "artist": "meituan-longcat"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-06-02 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/01-nvidia-locateanything-3b.png\" alt=\"nvidia/LocateAnything-3B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">nvidia/LocateAnything-3B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">LocateAnything-3B 是英伟达推出的视觉语言定位模型，采用并行框解码技术。该模型在保持推理速度的同时，具备出色的多模态目标定位能力，主要适用于图像理解、物体检测及交互式视觉问答等任务，能为复杂的计算机视觉场景提供高效的定位支持。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/02-openbmb-minicpm5-1b.png\" alt=\"openbmb/MiniCPM5-1B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">openbmb/MiniCPM5-1B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniCPM5-1B 是 OpenBMB 开发的轻量级多模态大模型。该模型参数量较小，在端侧部署方面具有明显优势，能够高效执行多模态理解任务。其设计初衷是为资源受限的硬件设备提供高质量的视觉感知与语义理解能力，适用于手机端及物联网领域的应用场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/03-liquidai-lfm2-5-8b-a1b.png\" alt=\"LiquidAI/LFM2.5-8B-A1B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">LiquidAI/LFM2.5-8B-A1B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">LFM2.5-8B-A1B 是 Liquid AI 推出的高性能语言模型，采用了非传统的计算架构以提升模型性能。作为一款中等规模的基座模型，它在逻辑推理与文本生成方面表现均衡，适用于各种需要高处理效率和良好语义理解能力的自然语言处理工作流，可满足多样化的开发需求。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/04-hauhaucs-qwen3-6-35b-a3b-uncensored-hauhaucs-aggressive.png\" alt=\"HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.6-35B-A3B-Uncensored 是基于 Qwen 模型微调的无审查版本。该模型在处理敏感话题或特定指令时不受常规对齐约束，主要针对追求完全响应自由、不受内容过滤器限制的个性化文本生成场景，适用于学术研究、创意写作及特定语境下的复杂对话交互。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/05-meituan-longcat-longcat-video-avatar-1-5.png\" alt=\"meituan-longcat/LongCat-Video-Avatar-1.5\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">meituan-longcat/LongCat-Video-Avatar-1.5</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">LongCat-Video-Avatar-1.5 是美团研发的视频驱动模型，专注于数字人生成与视频内容创作。该模型能够根据输入的参考素材生成高度逼真的数字人形象，并支持复杂的动作驱动与面部表情变换，主要应用于虚拟主播、影视后期制作及交互式视频应用等数字内容生产领域。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-06-01T23:28:29.681146"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/nvidia/LocateAnything-3B",
+    "https://huggingface.co/openbmb/MiniCPM5-1B",
+    "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+    "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5"
+  ],
+  "new_urls": [
+    "https://huggingface.co/nvidia/LocateAnything-3B",
+    "https://huggingface.co/openbmb/MiniCPM5-1B",
+    "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+    "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-06-02-01",
+      "rank": 1,
+      "name": "nvidia/LocateAnything-3B",
+      "description": "LocateAnything-3B 是英伟达推出的视觉语言定位模型，采用并行框解码技术。该模型在保持推理速度的同时，具备出色的多模态目标定位能力，主要适用于图像理解、物体检测及交互式视觉问答等任务，能为复杂的计算机视觉场景提供高效的定位支持。",
+      "source_description": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+      "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-02/01-nvidia-locateanything-3b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/01-nvidia-locateanything-3b.png"
+    },
+    {
+      "id": "hf-2026-06-02-02",
+      "rank": 2,
+      "name": "openbmb/MiniCPM5-1B",
+      "description": "MiniCPM5-1B 是 OpenBMB 开发的轻量级多模态大模型。该模型参数量较小，在端侧部署方面具有明显优势，能够高效执行多模态理解任务。其设计初衷是为资源受限的硬件设备提供高质量的视觉感知与语义理解能力，适用于手机端及物联网领域的应用场景。",
+      "source_description": "<div align=\"center\"> <img src=\"https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/assets/minicpm logo.png\" width=\"500em\" /> </div>",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-02/02-openbmb-minicpm5-1b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/02-openbmb-minicpm5-1b.png"
+    },
+    {
+      "id": "hf-2026-06-02-03",
+      "rank": 3,
+      "name": "LiquidAI/LFM2.5-8B-A1B",
+      "description": "LFM2.5-8B-A1B 是 Liquid AI 推出的高性能语言模型，采用了非传统的计算架构以提升模型性能。作为一款中等规模的基座模型，它在逻辑推理与文本生成方面表现均衡，适用于各种需要高处理效率和良好语义理解能力的自然语言处理工作流，可满足多样化的开发需求。",
+      "source_description": "<div align=\"center\"> <img src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.5em;\" /> <div style=\"display: flex; justify-content: center; gap: 0.5em; margin-bottom: 1em;\"> <a href=\"https://playground.liquid.ai/\"><strong>Try LFM</strong></a> • <a href=\"https://docs.liquid.ai/lfm/getting-started/welcome\"><strong>Docs</strong></a> • <a href=\"https://leap.liquid.ai/\"><strong>LEAP</strong></a> • <a href=\"https://discord.com/invite/liquid-ai\"><strong>Discord</strong></a> </div> </div>",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-02/03-liquidai-lfm2-5-8b-a1b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/03-liquidai-lfm2-5-8b-a1b.png"
+    },
+    {
+      "id": "hf-2026-06-02-04",
+      "rank": 4,
+      "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "description": "Qwen3.6-35B-A3B-Uncensored 是基于 Qwen 模型微调的无审查版本。该模型在处理敏感话题或特定指令时不受常规对齐约束，主要针对追求完全响应自由、不受内容过滤器限制的个性化文本生成场景，适用于学术研究、创意写作及特定语境下的复杂对话交互。",
+      "source_description": "Join the Discord for updates, roadmaps, projects, or just to chat.",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-02/04-hauhaucs-qwen3-6-35b-a3b-uncensored-hauhaucs-aggressive.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/04-hauhaucs-qwen3-6-35b-a3b-uncensored-hauhaucs-aggressive.png"
+    },
+    {
+      "id": "hf-2026-06-02-05",
+      "rank": 5,
+      "name": "meituan-longcat/LongCat-Video-Avatar-1.5",
+      "description": "LongCat-Video-Avatar-1.5 是美团研发的视频驱动模型，专注于数字人生成与视频内容创作。该模型能够根据输入的参考素材生成高度逼真的数字人形象，并支持复杂的动作驱动与面部表情变换，主要应用于虚拟主播、影视后期制作及交互式视频应用等数字内容生产领域。",
+      "source_description": "<div align=\"center\"> <img src=\"assets/logo.png\" width=\"50%\" alt=\"LongCat-Video\" /> </div> <hr>",
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-02/05-meituan-longcat-longcat-video-avatar-1-5.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-02/05-meituan-longcat-longcat-video-avatar-1-5.png"
+    }
+  ]
+}
