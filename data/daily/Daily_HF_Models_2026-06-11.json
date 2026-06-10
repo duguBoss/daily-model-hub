@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-11",
+  "title": "🔥Gemma4重磅发布是谷歌推出的能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/01-google-gemma-4-12b-it.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/02-nvidia-locateanything-3b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/03-unsloth-gemma-4-12b-it-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/04-google-gemma-4-12b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/05-ideogram-ai-ideogram-4-fp8.png"
+  ],
+  "songs": [
+    {
+      "name": "gemma-4-12B-it",
+      "artist": "google"
+    },
+    {
+      "name": "LocateAnything-3B",
+      "artist": "nvidia"
+    },
+    {
+      "name": "gemma-4-12b-it-GGUF",
+      "artist": "unsloth"
+    },
+    {
+      "name": "gemma-4-12B",
+      "artist": "google"
+    },
+    {
+      "name": "ideogram-4-fp8",
+      "artist": "ideogram-ai"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-06-11 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/01-google-gemma-4-12b-it.png\" alt=\"google/gemma-4-12B-it\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">google/gemma-4-12B-it</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Gemma-4-12B-it 是谷歌推出的轻量级指令微调模型，参数规模为 120 亿。该模型侧重于在资源受限的环境中提供高性能的对话与逻辑推理能力，适合个人开发者和研究人员在消费级硬件上部署，以处理自然语言处理任务、代码生成以及复杂的问答场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/02-nvidia-locateanything-3b.png\" alt=\"nvidia/LocateAnything-3B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">nvidia/LocateAnything-3B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">NVIDIA 的 LocateAnything-3B 是一款专注于视觉语言定位任务的模型。该模型通过并行框解码技术实现高效率与高质量的目标定位，主要应用于自动驾驶、机器人感知、图像解析等领域，旨在快速识别并标注图像中的具体区域，满足对实时性要求极高的视觉计算需求。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/03-unsloth-gemma-4-12b-it-gguf.png\" alt=\"unsloth/gemma-4-12b-it-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">unsloth/gemma-4-12b-it-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">该模型是 Unsloth 针对 Gemma-4-12B 指令微调版进行的 GGUF 格式量化版本。通过 Unsloth 的优化技术，该版本显著降低了显存占用并提升了推理速度，特别适合在本地计算机或低算力环境下高效运行，使用户能够以较低的硬件门槛使用该模型进行开发测试。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/04-google-gemma-4-12b.png\" alt=\"google/gemma-4-12B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">google/gemma-4-12B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Gemma-4-12B 是谷歌发布的 120 亿参数基础语言模型。作为预训练版本，该模型具备扎实的通用语言理解与生成基础，适用于下游任务的深度微调。它在保持高性能的同时优化了模型尺寸，能够胜任多样化的自然语言建模任务，是构建行业专用模型的基座。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/05-ideogram-ai-ideogram-4-fp8.png\" alt=\"ideogram-ai/ideogram-4-fp8\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">ideogram-ai/ideogram-4-fp8</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Ideogram-4-fp8 是一款采用 FP8 低精度量化的图像生成模型。该模型专注于提供高质量、高精度的视觉内容创作，优化了生成流程中的显存占用，旨在支持更广泛的生产环境。它适用于艺术创作、广告设计及需要高视觉表现力的图像生成与图像修复任务。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-06-10T23:26:59.157153"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/google/gemma-4-12B-it",
+    "https://huggingface.co/nvidia/LocateAnything-3B",
+    "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+    "https://huggingface.co/google/gemma-4-12B",
+    "https://huggingface.co/ideogram-ai/ideogram-4-fp8"
+  ],
+  "new_urls": [
+    "https://huggingface.co/google/gemma-4-12B-it",
+    "https://huggingface.co/nvidia/LocateAnything-3B",
+    "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+    "https://huggingface.co/google/gemma-4-12B",
+    "https://huggingface.co/ideogram-ai/ideogram-4-fp8"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-06-11-01",
+      "rank": 1,
+      "name": "google/gemma-4-12B-it",
+      "description": "Gemma-4-12B-it 是谷歌推出的轻量级指令微调模型，参数规模为 120 亿。该模型侧重于在资源受限的环境中提供高性能的对话与逻辑推理能力，适合个人开发者和研究人员在消费级硬件上部署，以处理自然语言处理任务、代码生成以及复杂的问答场景。",
+      "source_description": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "url": "https://huggingface.co/google/gemma-4-12B-it",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-11/01-google-gemma-4-12b-it.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/01-google-gemma-4-12b-it.png"
+    },
+    {
+      "id": "hf-2026-06-11-02",
+      "rank": 2,
+      "name": "nvidia/LocateAnything-3B",
+      "description": "NVIDIA 的 LocateAnything-3B 是一款专注于视觉语言定位任务的模型。该模型通过并行框解码技术实现高效率与高质量的目标定位，主要应用于自动驾驶、机器人感知、图像解析等领域，旨在快速识别并标注图像中的具体区域，满足对实时性要求极高的视觉计算需求。",
+      "source_description": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+      "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-11/02-nvidia-locateanything-3b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/02-nvidia-locateanything-3b.png"
+    },
+    {
+      "id": "hf-2026-06-11-03",
+      "rank": 3,
+      "name": "unsloth/gemma-4-12b-it-GGUF",
+      "description": "该模型是 Unsloth 针对 Gemma-4-12B 指令微调版进行的 GGUF 格式量化版本。通过 Unsloth 的优化技术，该版本显著降低了显存占用并提升了推理速度，特别适合在本地计算机或低算力环境下高效运行，使用户能够以较低的硬件门槛使用该模型进行开发测试。",
+      "source_description": "Read our How to Run Gemma 4 12B Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em>See <a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0 GGUFs</a> for our quantization benchmarks.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/gemma-4\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div>",
+      "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-11/03-unsloth-gemma-4-12b-it-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/03-unsloth-gemma-4-12b-it-gguf.png"
+    },
+    {
+      "id": "hf-2026-06-11-04",
+      "rank": 4,
+      "name": "google/gemma-4-12B",
+      "description": "Gemma-4-12B 是谷歌发布的 120 亿参数基础语言模型。作为预训练版本，该模型具备扎实的通用语言理解与生成基础，适用于下游任务的深度微调。它在保持高性能的同时优化了模型尺寸，能够胜任多样化的自然语言建模任务，是构建行业专用模型的基座。",
+      "source_description": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/gemma4 banner.png> </div>",
+      "url": "https://huggingface.co/google/gemma-4-12B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-11/04-google-gemma-4-12b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/04-google-gemma-4-12b.png"
+    },
+    {
+      "id": "hf-2026-06-11-05",
+      "rank": 5,
+      "name": "ideogram-ai/ideogram-4-fp8",
+      "description": "Ideogram-4-fp8 是一款采用 FP8 低精度量化的图像生成模型。该模型专注于提供高质量、高精度的视觉内容创作，优化了生成流程中的显存占用，旨在支持更广泛的生产环境。它适用于艺术创作、广告设计及需要高视觉表现力的图像生成与图像修复任务。",
+      "source_description": "<p align=\"center\"><a href=\"https://ideogram.ai/\" target=\" blank\" rel=\"noopener noreferrer\"><img src=\"https://raw.githubusercontent.com/ideogram-oss/ideogram4/main/assets/ideogram logo.svg\" alt=\"Ideogram\" width=\"500\"></a></p>",
+      "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-11/05-ideogram-ai-ideogram-4-fp8.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-11/05-ideogram-ai-ideogram-4-fp8.png"
+    }
+  ]
+}
