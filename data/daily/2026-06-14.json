@@ -1,0 +1,170 @@
+{
+  "recordDate": "2026-06-14",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-06-14",
+      "modelCard": "assets/huggingface_model_cards/2026-06-14/01-google-diffusiongemma-26b-a4b-it.png",
+      "modelName": "google/diffusiongemma-26B-A4B-it",
+      "modelDescription": "DiffusionGemma 是 Google 基于 Gemma 架构推出的扩散模型，主要定位为文本到图像的生成任务。该模型结合了轻量化权重与高效推理能力，旨在提供高质量的视觉生成效果，适用于艺术创作、设计辅助及各类多模态生成应用场景，是 Google 在开放权重视觉模型领域的重要补充。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/diffusiongemma banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+      "cardSummary": "",
+      "author": "google",
+      "downloads": 92080,
+      "likes": 701,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-10T13:45:13.000Z",
+      "numParameters": 25823778864,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-06-14",
+      "modelCard": "assets/huggingface_model_cards/2026-06-14/02-moonshotai-kimi-k2-7-code.png",
+      "modelName": "moonshotai/Kimi-K2.7-Code",
+      "modelDescription": "Kimi-K2.7-Code 是月之暗面推出的代码专用大语言模型，针对编程任务进行了深度优化。该模型具备出色的代码理解、生成及逻辑推理能力，能够高效处理复杂的算法逻辑、代码补全及Debug任务，是专门为软件工程、自动化脚本编写及开发者辅助场景设计的工具。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"figures/kimi-logo.png\" width=\"30%\" alt=\"Kimi K2.7 Code\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com/code\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖-Kimi--Code-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 1689,
+      "likes": 513,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-12T10:05:55.000Z",
+      "numParameters": 1058589420528,
+      "availableInferenceProviders": [
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/kimi-k2p7-code",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 122.10799102594505
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/kimi-k2.7-code",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 43.47450665506209
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-06-14",
+      "modelCard": "assets/huggingface_model_cards/2026-06-14/03-nvidia-locateanything-3b.png",
+      "modelName": "nvidia/LocateAnything-3B",
+      "modelDescription": "LocateAnything-3B 是 NVIDIA 开发的视觉语言接地模型，采用并行框解码技术。该模型专注于实现快速且高精度的图像目标检测与定位，能够精准识别并标注图像中的物体位置，适用于自动驾驶、机器人视觉感知及图像理解等对实时性和准确性要求较高的多模态领域。",
+      "sourceDescription": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+      "modelUrl": "https://huggingface.co/nvidia/LocateAnything-3B",
+      "cardSummary": "",
+      "author": "nvidia",
+      "downloads": 69443,
+      "likes": 1958,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-12T10:51:04.000Z",
+      "numParameters": 3830665968,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-06-14",
+      "modelCard": "assets/huggingface_model_cards/2026-06-14/04-minimaxai-minimax-m3.png",
+      "modelName": "MiniMaxAI/MiniMax-M3",
+      "modelDescription": "MiniMax-M3 是由 MiniMax 研发的大型多模态模型，具备强大的跨模态理解与生成能力。该模型能够处理文本、音频及视觉等多种信息流，在复杂指令执行与多媒体创作任务中表现出色，定位为通用型智能助手，广泛应用于多模态交互、内容创作及复杂逻辑决策等场景。",
+      "sourceDescription": "<div align=\"center\"> <img width=\"60%\" src=\"figures/logo.svg\" alt=\"MiniMax\"> </div> <hr>",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "cardSummary": "",
+      "author": "MiniMaxAI",
+      "downloads": 1031,
+      "likes": 411,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-13T01:37:02.000Z",
+      "numParameters": 427040140160,
+      "availableInferenceProviders": [
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/minimax-m3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 131.3834719714496
+        },
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "MiniMaxAI/MiniMax-M3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 110.25557957217575,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "minimax/minimax-m3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 35.84672725598621
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-06-14",
+      "modelCard": "assets/huggingface_model_cards/2026-06-14/05-coherelabs-north-mini-code-1-0.png",
+      "modelName": "CohereLabs/North-Mini-Code-1.0",
+      "modelDescription": "North-Mini-Code-1.0 是 CohereLabs 发布的一款拥有 30B 参数（激活 3B）的研究型模型。该模型专为代码生成、代理式软件工程及终端任务优化，在保持高效推理的同时，提供了强大的编程辅助与自动化工程能力，非常适合开发者用于构建智能编码辅助工具及复杂的自动化任务流。",
+      "sourceDescription": "North Mini Code is an open weights research release of a 30B-A3B parameter model optimized for code generation, agentic software engineering, and terminal tasks.",
+      "modelUrl": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
+      "cardSummary": "",
+      "author": "CohereLabs",
+      "downloads": 6533,
+      "likes": 354,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-06-11T10:01:06.000Z",
+      "numParameters": 30484303872,
+      "availableInferenceProviders": []
+    }
+  ]
+}
