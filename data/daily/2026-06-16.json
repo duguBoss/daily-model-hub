@@ -1,0 +1,206 @@
+{
+  "recordDate": "2026-06-16",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-06-16",
+      "modelCard": "assets/huggingface_model_cards/2026-06-16/01-google-diffusiongemma-26b-a4b-it.png",
+      "modelName": "google/diffusiongemma-26B-A4B-it",
+      "modelDescription": "DiffusionGemma 是谷歌基于 Gemma 架构开发的模型系列。该模型旨在结合文本生成与扩散生成能力，通过特定的参数规模优化，支持在资源受限的环境下进行图像生成或相关多模态任务的推理，适用于需要高灵活性与特定领域生成能力的开发者。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/diffusiongemma banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+      "cardSummary": "",
+      "author": "google",
+      "downloads": 311788,
+      "likes": 874,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-10T13:45:13.000Z",
+      "numParameters": 25823778864,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-06-16",
+      "modelCard": "assets/huggingface_model_cards/2026-06-16/02-minimaxai-minimax-m3.png",
+      "modelName": "MiniMaxAI/MiniMax-M3",
+      "modelDescription": "MiniMax-M3 是由 MiniMax 推出的多模态大语言模型。该模型具备强大的跨模态理解与生成能力，能够高效处理文本、音频和视觉信息，适用于复杂的长文本分析、实时语音交互及多模态内容创作等多种应用场景，展现了卓越的综合交互性能。",
+      "sourceDescription": "<div align=\"center\"> <img width=\"60%\" src=\"figures/logo.svg\" alt=\"MiniMax\"> </div> <hr>",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "cardSummary": "",
+      "author": "MiniMaxAI",
+      "downloads": 14312,
+      "likes": 796,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-15T07:22:41.000Z",
+      "numParameters": 427040140160,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "MiniMaxAI/MiniMax-M3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 95.11352488153857,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "minimax/minimax-m3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 38.77475764061232
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/minimax-m3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 113.52980564498034
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "MiniMaxAI/MiniMax-M3",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-06-16",
+      "modelCard": "assets/huggingface_model_cards/2026-06-16/03-moonshotai-kimi-k2-7-code.png",
+      "modelName": "moonshotai/Kimi-K2.7-Code",
+      "modelDescription": "Kimi-K2.7-Code 是月之暗面（Moonshot AI）推出的专业编程模型。该模型针对代码生成、逻辑推理和软件开发任务进行了深层优化，能够高效处理长上下文编码任务，是程序员辅助编程、代码补全及复杂程序逻辑分析的有力工具。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"figures/kimi-logo.png\" width=\"30%\" alt=\"Kimi K2.7 Code\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com/code\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖-Kimi--Code-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 56750,
+      "likes": 736,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-15T07:49:29.000Z",
+      "numParameters": 1058589420528,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K2.7-Code",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 55.75319583598275,
+          "pricingOutput": 4
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/kimi-k2.7-code",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 36.989039373310774
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/kimi-k2p7-code",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": false
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 117.83180570795739
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K2.7-Code",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-06-16",
+      "modelCard": "assets/huggingface_model_cards/2026-06-16/04-yuxinlu1-gemma-4-12b-coder-fable5-composer2-5-v1-gguf.png",
+      "modelName": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "modelDescription": "该模型是基于 Gemma-4-12B 架构的量化版本，集成了 Fable 5 和 Composer 2.5 技术。它采用 GGUF 格式，旨在实现轻量化部署与高效能表现，专门优化了代码生成能力，方便个人开发者在本地硬件环境下运行并进行编程辅助开发。",
+      "sourceDescription": "💻 Gemma4-12B-Coder (GGUF) — Composer 2.5 × Fable 5 ✨ 🐣 Tiny footprint, big brain — a local coding model for everyone",
+      "modelUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "cardSummary": "",
+      "author": "yuxinlu1",
+      "downloads": 20207,
+      "likes": 558,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-06-14T22:40:43.000Z",
+      "numParameters": 11907350576,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-06-16",
+      "modelCard": "assets/huggingface_model_cards/2026-06-16/05-nvidia-locateanything-3b.png",
+      "modelName": "nvidia/LocateAnything-3B",
+      "modelDescription": "LocateAnything-3B 是英伟达开发的一款视觉-语言模型，核心在于实现快速且高质量的目标定位与视觉接地。通过并行边界框解码技术，该模型能够精准识别图像中的物体并输出空间坐标，非常适合自动驾驶、机器人视觉及各种需要实时物体检测的任务。",
+      "sourceDescription": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+      "modelUrl": "https://huggingface.co/nvidia/LocateAnything-3B",
+      "cardSummary": "",
+      "author": "nvidia",
+      "downloads": 86968,
+      "likes": 2053,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-12T10:51:04.000Z",
+      "numParameters": 3830665968,
+      "availableInferenceProviders": []
+    }
+  ]
+}
