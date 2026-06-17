@@ -1,0 +1,262 @@
+{
+  "recordDate": "2026-06-18",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-06-18",
+      "modelCard": "assets/huggingface_model_cards/2026-06-18/01-yuxinlu1-gemma-4-12b-coder-fable5-composer2-5-v1-gguf.png",
+      "modelName": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "modelDescription": "该模型是基于Gemma-4-12B架构的本地代码生成模型，集成了Fable 5与Composer 2.5版本优化。它采用GGUF量化格式，旨在提供轻量化的部署体验，同时保持较强的逻辑编码能力，适合个人开发者在本地环境中进行代码补全、脚本编写及程序逻辑调试等开发辅助任务。",
+      "sourceDescription": "💻 Gemma4-12B-Coder (GGUF) — Composer 2.5 × Fable 5 ✨ 🐣 Tiny footprint, big brain — a local coding model for everyone",
+      "modelUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "cardSummary": "",
+      "author": "yuxinlu1",
+      "downloads": 146784,
+      "likes": 1456,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-06-16T23:10:36.000Z",
+      "numParameters": 11907350576,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-06-18",
+      "modelCard": "assets/huggingface_model_cards/2026-06-18/02-zai-org-glm-5-2.png",
+      "modelName": "zai-org/GLM-5.2",
+      "modelDescription": "GLM-5.2是Zai团队发布的大语言模型，延续了GLM架构的性能优势。该模型配套有详尽的技术文档与API支持，旨在为各类人工智能应用场景提供通用的语言处理能力。用户可通过其官方平台进行模型调用或在线体验，适用于多语言文本生成、复杂逻辑推理及对话类交互任务。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-5.2",
+      "cardSummary": "",
+      "author": "zai-org",
+      "downloads": 666,
+      "likes": 994,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-06-17T09:31:36.000Z",
+      "numParameters": 753329940480,
+      "availableInferenceProviders": [
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/glm-5p2",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 53.397552794898296
+        },
+        {
+          "provider": "zai-org",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "glm-5.2",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": false
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": true,
+          "tokensPerSecond": 39.87382068880403
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "zai-org/glm-5.2",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": false
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 43.33246877098391
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "zai-org/GLM-5.2",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-06-18",
+      "modelCard": "assets/huggingface_model_cards/2026-06-18/03-minimaxai-minimax-m3.png",
+      "modelName": "MiniMaxAI/MiniMax-M3",
+      "modelDescription": "MiniMax-M3是由MiniMax AI开发的大规模多模态模型，具备强大的语言理解与处理能力。该模型定位为高性能的通用模型，旨在处理复杂多样的AI交互任务，支持广泛的语义理解与推理需求。其在垂直领域的应用中表现稳健，是构建高水平人工智能助手和企业级智能服务的理想基座。",
+      "sourceDescription": "<div align=\"center\"> <img width=\"60%\" src=\"figures/logo.svg\" alt=\"MiniMax\"> </div> <hr>",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "cardSummary": "",
+      "author": "MiniMaxAI",
+      "downloads": 42198,
+      "likes": 1060,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-16T05:18:24.000Z",
+      "numParameters": 427040140160,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "MiniMaxAI/MiniMax-M3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 85.57121081554055,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "minimax/minimax-m3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 39.57211826257203
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/minimax-m3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 150.4663668461162
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "MiniMaxAI/MiniMax-M3",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-06-18",
+      "modelCard": "assets/huggingface_model_cards/2026-06-18/04-moonshotai-kimi-k2-7-code.png",
+      "modelName": "moonshotai/Kimi-K2.7-Code",
+      "modelDescription": "Kimi-K2.7-Code是月之暗面（Moonshot AI）推出的专精代码类任务模型。它针对编程场景进行了深层优化，能够高效处理复杂代码逻辑、程序重构及技术文档编写等任务。该模型旨在通过高质量的代码理解与生成，为开发者提供精准的辅助编程支持，提升研发工作流效率。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"figures/kimi-logo.png\" width=\"30%\" alt=\"Kimi K2.7 Code\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com/code\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖-Kimi--Code-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 172727,
+      "likes": 844,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-15T07:49:29.000Z",
+      "numParameters": 1058589420528,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K2.7-Code",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 63.0171332139764,
+          "pricingOutput": 4
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/kimi-k2.7-code",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 53.52004486444275
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/kimi-k2p7-code",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 129.08038887576782
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K2.7-Code",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-06-18",
+      "modelCard": "assets/huggingface_model_cards/2026-06-18/05-google-diffusiongemma-26b-a4b-it.png",
+      "modelName": "google/diffusiongemma-26B-A4B-it",
+      "modelDescription": "DiffusionGemma-26B-A4B-it是Google基于Gemma架构打造的实验性多模态模型。该版本采用了260亿参数规模及特定的量化与推理优化，旨在探索扩散模型与语言模型结合的可能性。其主要侧重于高性能生成任务及指令微调，适用于对模型参数规模要求较高、且有特定推理性能需求的场景。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/diffusiongemma banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+      "cardSummary": "",
+      "author": "google",
+      "downloads": 460173,
+      "likes": 974,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-10T13:45:13.000Z",
+      "numParameters": 25823778864,
+      "availableInferenceProviders": []
+    }
+  ]
+}
