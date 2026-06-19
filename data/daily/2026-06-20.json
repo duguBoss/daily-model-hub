@@ -1,39 +1,39 @@
 {
-  "recordDate": "2026-06-19",
+  "recordDate": "2026-06-20",
   "source": "https://huggingface.co/models?sort=trending",
   "limit": 5,
   "models": [
     {
       "rank": 1,
-      "recordDate": "2026-06-19",
-      "modelCard": "assets/huggingface_model_cards/2026-06-19/01-yuxinlu1-gemma-4-12b-coder-fable5-composer2-5-v1-gguf.png",
+      "recordDate": "2026-06-20",
+      "modelCard": "assets/huggingface_model_cards/2026-06-20/01-yuxinlu1-gemma-4-12b-coder-fable5-composer2-5-v1-gguf.png",
       "modelName": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-      "modelDescription": "该模型基于Gemma-4-12B架构，融合了Fable 5与Composer 2.5技术栈的优化版本。采用GGUF量化格式，专为本地化代码编写与开发辅助任务设计。其显著特点在于通过精简的模型规模实现了较强的逻辑推理能力，适合个人开发者在本地硬件环境下进行代码生成、重构及调试工作，平衡了计算资源消耗与性能表现。",
+      "modelDescription": "gemma-4-12B-coder-fable5-composer2.5-v1是一款基于Gemma-4架构的轻量级编程模型，采用GGUF格式发布，旨在本地运行。该模型融合了Fable 5与Composer 2.5的技术特性，在保持较小部署足迹的同时，具备高效的代码生成与逻辑推理能力，非常适合开发者在硬件资源有限的环境下进行代码辅助编写、算法实现及程序调试任务。",
       "sourceDescription": "💻 Gemma4-12B-Coder (GGUF) — Composer 2.5 × Fable 5 ✨ 🐣 Tiny footprint, big brain — a local coding model for everyone",
       "modelUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
       "cardSummary": "",
       "author": "yuxinlu1",
-      "downloads": 211424,
-      "likes": 1697,
+      "downloads": 268102,
+      "likes": 1837,
       "pipelineTag": "text-generation",
-      "lastModified": "2026-06-18T10:16:46.000Z",
+      "lastModified": "2026-06-19T03:52:11.000Z",
       "numParameters": 11907350576,
       "availableInferenceProviders": []
     },
     {
       "rank": 2,
-      "recordDate": "2026-06-19",
-      "modelCard": "assets/huggingface_model_cards/2026-06-19/02-zai-org-glm-5-2.png",
+      "recordDate": "2026-06-20",
+      "modelCard": "assets/huggingface_model_cards/2026-06-20/02-zai-org-glm-5-2.png",
       "modelName": "zai-org/GLM-5.2",
-      "modelDescription": "GLM-5.2是Zai组织发布的系列语言模型，旨在提供通用的文本理解与生成能力。该模型支持多语言交互，并提供了配套的API接口供开发者集成至各类应用程序。其定位为通用大语言模型，适用于知识问答、文本创作、智能客服及自动化任务处理等广泛场景，用户可通过官方平台或API调用体验其推理性能。",
+      "modelDescription": "GLM-5.2是由Z.ai推出的高性能大语言模型，作为GLM系列的重要迭代版本，该模型在逻辑推理与语言理解方面进行了优化。用户可通过Z.ai API平台调用该模型，或在官方平台进行在线体验。其具备广泛的通用文本处理能力，适用于对话系统、知识问答以及各类需要深度语义理解的企业级自然语言处理应用场景。",
       "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
       "modelUrl": "https://huggingface.co/zai-org/GLM-5.2",
       "cardSummary": "",
       "author": "zai-org",
-      "downloads": 4307,
-      "likes": 1335,
+      "downloads": 11871,
+      "likes": 1529,
       "pipelineTag": "text-generation",
-      "lastModified": "2026-06-17T09:31:36.000Z",
+      "lastModified": "2026-06-19T09:14:51.000Z",
       "numParameters": 753329940480,
       "availableInferenceProviders": [
         {
@@ -44,12 +44,12 @@
           "task": "conversational",
           "features": {
             "structuredOutput": false,
-            "toolCalling": true
+            "toolCalling": false
           },
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": true,
-          "tokensPerSecond": 36.2055069053075
+          "tokensPerSecond": 39.217536812885115
         },
         {
           "provider": "together",
@@ -64,7 +64,7 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 119.07811254741304,
+          "tokensPerSecond": 126.82069239589069,
           "pricingOutput": 4.4
         },
         {
@@ -80,7 +80,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 34.97461879409091
+          "tokensPerSecond": 32.17208740188888
         },
         {
           "provider": "fireworks-ai",
@@ -95,7 +95,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 29.14687026300853
+          "tokensPerSecond": 48.244050027583775
         },
         {
           "provider": "featherless-ai",
@@ -120,22 +120,22 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 30.39060419216719
+          "tokensPerSecond": 36.15724623712249
         }
       ]
     },
     {
       "rank": 3,
-      "recordDate": "2026-06-19",
-      "modelCard": "assets/huggingface_model_cards/2026-06-19/03-minimaxai-minimax-m3.png",
+      "recordDate": "2026-06-20",
+      "modelCard": "assets/huggingface_model_cards/2026-06-20/03-minimaxai-minimax-m3.png",
       "modelName": "MiniMaxAI/MiniMax-M3",
-      "modelDescription": "MiniMax-M3是由MiniMax团队研发的一款多模态大语言模型。作为该品牌的技术结晶，它具备处理复杂多模态数据的能力，支持对文本、图像等信息的综合分析与理解。该模型主要面向企业级应用与高频交互场景，旨在为用户提供包括自然语言交互、多内容创作与智能决策在内的全面AI解决方案。",
+      "modelDescription": "MiniMax-M3是MiniMax公司开发的多模态大语言模型。该模型定位为面向复杂任务的通用智能引擎，具备强大的多模态处理能力，能够处理文本、图像等多种输入形式。它不仅支持高质量的文本生成与指令遵循，还适用于复杂的多模态内容理解与创作，为开发者及企业提供处理多样化数字内容的底层AI支持。",
       "sourceDescription": "<div align=\"center\"> <img width=\"60%\" src=\"figures/logo.svg\" alt=\"MiniMax\"> </div> <hr>",
       "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
       "cardSummary": "",
       "author": "MiniMaxAI",
-      "downloads": 56162,
-      "likes": 1098,
+      "downloads": 67836,
+      "likes": 1132,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-06-16T05:18:24.000Z",
       "numParameters": 427040140160,
@@ -153,7 +153,7 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 23.760795746796635,
+          "tokensPerSecond": 71.96173206390276,
           "pricingOutput": 1.2
         },
         {
@@ -169,7 +169,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 38.785047803513876
+          "tokensPerSecond": 37.06793711275601
         },
         {
           "provider": "fireworks-ai",
@@ -184,7 +184,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 125.83247868130175
+          "tokensPerSecond": 99.76883846254313
         },
         {
           "provider": "featherless-ai",
@@ -200,16 +200,16 @@
     },
     {
       "rank": 4,
-      "recordDate": "2026-06-19",
-      "modelCard": "assets/huggingface_model_cards/2026-06-19/04-moonshotai-kimi-k2-7-code.png",
+      "recordDate": "2026-06-20",
+      "modelCard": "assets/huggingface_model_cards/2026-06-20/04-moonshotai-kimi-k2-7-code.png",
       "modelName": "moonshotai/Kimi-K2.7-Code",
-      "modelDescription": "Kimi-K2.7-Code是月之暗面（Moonshot AI）推出的针对编程领域优化的专业模型。该模型深入理解代码逻辑与语法结构，能够高效处理代码补全、生成、错误排查及复杂编程任务。得益于其出色的上下文处理能力，它是开发者进行工程实践、算法实现及技术原型开发的强大辅助工具。",
+      "modelDescription": "Kimi-K2.7-Code是月之暗面（Moonshot AI）推出的专门针对编程领域优化的大语言模型。该模型深度集成于Kimi生态系统，专注于代码补全、逻辑分析与程序开发支持。通过对编程语法及算法逻辑的深度训练，它能够辅助开发者完成复杂的编码任务，并提升开发效率，适用于各类软件工程实践及算法竞赛题解场景。",
       "sourceDescription": "<div align=\"center\"> <picture> <img src=\"figures/kimi-logo.png\" width=\"30%\" alt=\"Kimi K2.7 Code\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com/code\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖-Kimi--Code-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
       "modelUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
       "cardSummary": "",
       "author": "moonshotai",
-      "downloads": 229156,
-      "likes": 882,
+      "downloads": 274865,
+      "likes": 907,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-06-15T07:49:29.000Z",
       "numParameters": 1058589420528,
@@ -227,7 +227,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 34.20810923882019
+          "tokensPerSecond": 16.53122362645717
         },
         {
           "provider": "together",
@@ -242,7 +242,7 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 50.50174400172081,
+          "tokensPerSecond": 107.73340228424203,
           "pricingOutput": 4
         },
         {
@@ -258,7 +258,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 44.683020781315086
+          "tokensPerSecond": 61.04873340001277
         },
         {
           "provider": "fireworks-ai",
@@ -273,7 +273,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 133.88836526106448
+          "tokensPerSecond": 132.82340059731195
         },
         {
           "provider": "featherless-ai",
@@ -289,20 +289,31 @@
     },
     {
       "rank": 5,
-      "recordDate": "2026-06-19",
-      "modelCard": "assets/huggingface_model_cards/2026-06-19/05-google-diffusiongemma-26b-a4b-it.png",
-      "modelName": "google/diffusiongemma-26B-A4B-it",
-      "modelDescription": "DiffusionGemma-26B-A4B-it是谷歌基于Gemma系列架构推出的融合扩散技术的指令微调模型。该模型参数规模为260亿，通过集成扩散机制，增强了其在生成式任务中的表现力。定位为高性能对话与生成模型，旨在处理需要精细化控制的文本与图像生成场景，适合科研人员及追求高模型表现的开发者使用。",
-      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/diffusiongemma banner.png> </div>",
-      "modelUrl": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+      "recordDate": "2026-06-20",
+      "modelCard": "assets/huggingface_model_cards/2026-06-20/05-weiboai-vibethinker-3b.png",
+      "modelName": "WeiboAI/VibeThinker-3B",
+      "modelDescription": "VibeThinker-3B是一款专注于逻辑与算法思维的轻量级模型。开发者明确指出该模型未针对工具调用或代理任务进行训练，因此不建议用于API编排或自动化Agent开发。其核心优势在于纯粹的逻辑推理，特别适合处理LeetCode风格的算法竞赛题及逻辑分析任务，是追求极简架构下算法解决能力的研究人员的选择。",
+      "sourceDescription": "<blockquote style=\"border-left: 4px solid #ff6b6b; background-color: #fff5f5; padding: 10px 15px; margin: 10px 0; color: #cc3333;\"> <span style=\"font-weight: bold;\">🚨 </span> 1.This model was not trained on tool-calling or agent-based programming data. We therefore do not recommend using it for tasks that involve function calling, API orchestration, or autonomous coding agents. For programming tasks, we recommend using this model on competitive programming problems (e.g., <a href=\"https://leetcode.com/problemset/algorithms/\">LeetCode-style</a>).",
+      "modelUrl": "https://huggingface.co/WeiboAI/VibeThinker-3B",
       "cardSummary": "",
-      "author": "google",
-      "downloads": 527080,
-      "likes": 1001,
-      "pipelineTag": "image-text-to-text",
-      "lastModified": "2026-06-10T13:45:13.000Z",
-      "numParameters": 25823778864,
-      "availableInferenceProviders": []
+      "author": "WeiboAI",
+      "downloads": 12148,
+      "likes": 457,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-06-19T18:28:29.000Z",
+      "numParameters": 3085938688,
+      "availableInferenceProviders": [
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "WeiboAI/VibeThinker-3B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
     }
   ]
 }
