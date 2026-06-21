@@ -1,0 +1,70 @@
+{
+  "weekRange": {
+    "start": "2026-06-16",
+    "end": "2026-06-22"
+  },
+  "weekTitle": "Hugging Face 每周模型趋势盘点：代码增强与多模态模型引领浪潮",
+  "summary": "本周模型社区呈现出显著的编程辅助与多模态应用趋势。从针对本地部署优化的高效代码生成模型，到各家厂商推出的垂直领域高性能模型，开发者在选择时有了更多针对轻量化逻辑推理与复杂多模态交互的方案。",
+  "items": [
+    {
+      "modelName": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "modelUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "modelCard": "assets/huggingface_model_cards/2026-06-22/01-yuxinlu1-gemma-4-12b-coder-fable5-composer2-5-v1-gguf.png",
+      "modelDescription": "该模型基于Gemma-4-12B架构，融合了Composer 2.5与Fable 5技术。作为一款针对代码生成优化的模型，其提供GGUF量化格式，旨在支持开发者在本地环境中部署，以较低的算力资源实现高效的代码编写辅助与程序开发任务。",
+      "pickReason": "该模型巧妙融合了Gemma-4架构与Fable 5、Composer 2.5先进技术，并提供GGUF格式支持，极大降低了本地化部署的门槛，是个人开发者进行高效代码编写与开发辅助的理想轻量化选择。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-06-22"
+      ]
+    },
+    {
+      "modelName": "zai-org/GLM-5.2",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-5.2",
+      "modelCard": "assets/huggingface_model_cards/2026-06-22/02-zai-org-glm-5-2.png",
+      "modelDescription": "GLM-5.2是由Zai组织开发的大型语言模型。该模型在技术报告中详细阐述了其架构与性能指标，并配套提供了相应的API接口及在线交互平台。用户可通过其官方平台获取模型服务，适用于多种通用语言处理任务及复杂的智能化场景。",
+      "pickReason": "GLM-5.2作为Zai组织的最新成果，不仅有完善的API接口支持，还伴随详尽的技术报告与在线交互平台，展示了其在通用语言处理与智能化场景中的强大适应能力，是本周值得关注的重量级通用模型。",
+      "appearances": 1,
+      "bestRank": 2,
+      "dates": [
+        "2026-06-22"
+      ]
+    },
+    {
+      "modelName": "WeiboAI/VibeThinker-3B",
+      "modelUrl": "https://huggingface.co/WeiboAI/VibeThinker-3B",
+      "modelCard": "assets/huggingface_model_cards/2026-06-22/03-weiboai-vibethinker-3b.png",
+      "modelDescription": "VibeThinker-3B是一款参数量为30亿的轻量化模型。开发者明确指出该模型未针对工具调用或智能体编排进行训练，因此不建议用于函数调用等场景。该模型主要适用于特定领域的逻辑推理任务，特别是类似于LeetCode竞赛题的算法编程挑战。",
+      "pickReason": "这是一款非常垂直且极具特色的3B轻量化模型，明确专注于算法逻辑推理而非复杂的智能体编排，特别适合LeetCode风格的竞赛题训练，为追求纯粹推理能力的开发者提供了独特选择。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-06-22"
+      ]
+    },
+    {
+      "modelName": "MiniMaxAI/MiniMax-M3",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "modelCard": "assets/huggingface_model_cards/2026-06-22/04-minimaxai-minimax-m3.png",
+      "modelDescription": "MiniMax-M3是MiniMax AI推出的多模态大语言模型。该模型延续了其在大模型技术栈的积累，具备处理复杂多模态数据的能力。它定位为一款通用的高性能模型，旨在满足大规模业务场景下的多样化智能化需求，支持多种交互与内容生成任务。",
+      "pickReason": "MiniMax-M3作为多模态大模型的代表，延续了品牌在高算力与高性能业务场景中的技术积累，能够处理复杂的跨模态数据，为大规模商业化落地提供了成熟且可靠的智能化底座。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-06-22"
+      ]
+    },
+    {
+      "modelName": "moonshotai/Kimi-K2.7-Code",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "modelCard": "assets/huggingface_model_cards/2026-06-22/05-moonshotai-kimi-k2-7-code.png",
+      "modelDescription": "Kimi-K2.7-Code是月之暗面（Moonshot AI）推出的专门面向编程任务的大语言模型。该模型针对代码理解、生成及调试进行了深入优化，旨在提升软件开发效率。用户可结合Kimi相关服务，在代码开发、算法实现等垂直领域获得高质量的辅助支持。",
+      "pickReason": "月之暗面推出的这款编程专项模型，深度优化了代码理解与生成能力，依托Kimi生态系统的支持，能够显著提升软件开发中的代码调试与算法实现效率，是专业开发者的有力协作工具。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-06-22"
+      ]
+    }
+  ]
+}
