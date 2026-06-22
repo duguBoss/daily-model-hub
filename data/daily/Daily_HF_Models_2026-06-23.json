@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-23",
+  "title": "🔥Glm5.2重磅发布是推出的新一能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/01-zai-org-glm-5-2.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/02-yuxinlu1-gemma-4-12b-coder-fable5-composer2-5-v1-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/03-weiboai-vibethinker-3b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/04-yuxinlu1-gemma-4-12b-agentic-fable5-composer2-5-v2-3-5x-tau2-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/05-minimaxai-minimax-m3.png"
+  ],
+  "songs": [
+    {
+      "name": "GLM-5.2",
+      "artist": "zai-org"
+    },
+    {
+      "name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "artist": "yuxinlu1"
+    },
+    {
+      "name": "VibeThinker-3B",
+      "artist": "WeiboAI"
+    },
+    {
+      "name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "artist": "yuxinlu1"
+    },
+    {
+      "name": "MiniMax-M3",
+      "artist": "MiniMaxAI"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-06-23 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/01-zai-org-glm-5-2.png\" alt=\"zai-org/GLM-5.2\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">zai-org/GLM-5.2</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">GLM-5.2 是 Z.ai 推出的新一代大语言模型，具备先进的推理与生成能力。该模型通过官方 API 平台或网页端提供服务，主要定位于通用自然语言处理任务，能够处理复杂的文本生成与问答需求。用户可通过 Z.ai 官方技术报告了解其模型架构与性能表现，并获取开发者接入支持。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/02-yuxinlu1-gemma-4-12b-coder-fable5-composer2-5-v1-gguf.png\" alt=\"yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Gemma-4-12B-Coder 是基于 Gemma 架构的轻量级编程优化模型，结合了 Fable 5 与 Composer 2.5 技术栈。该模型以 GGUF 格式发布，针对本地推理进行了优化，旨在为个人开发者提供高效的辅助编程能力。尽管体积精简，但其在代码补全与逻辑编写任务中表现出色，适合在资源受限的环境下进行本地部署。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/03-weiboai-vibethinker-3b.png\" alt=\"WeiboAI/VibeThinker-3B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">WeiboAI/VibeThinker-3B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">VibeThinker-3B 是一款专注于逻辑推理与计算能力的轻量级模型。该模型未经过工具调用或智能体相关的专项训练，因此不建议用于 API 编排或自主代理任务。其核心优势在于算法竞赛类问题的处理，特别适用于解决 LeetCode 风格的编程与逻辑难题，能够为开发者提供精准的算法思路与代码实现。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/04-yuxinlu1-gemma-4-12b-agentic-fable5-composer2-5-v2-3-5x-tau2-gguf.png\" alt=\"yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Gemma-4-12B-Agentic 是面向复杂任务的增强型智能体模型，整合了 Fable 5 与 Composer 2.5 优化方案。该版本在基础代码能力之上，大幅提升了对工具使用与智能体协作的支持。作为一款本地可运行的轻量化模型，它不仅能胜任编程辅助工作，还能有效处理需要调用外部工具的任务，适合构建高效的本地智能代理应用。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/05-minimaxai-minimax-m3.png\" alt=\"MiniMaxAI/MiniMax-M3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">MiniMaxAI/MiniMax-M3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniMax-M3 是由 MiniMax 推出的高性能多模态大模型。该模型定位为新一代基座模型，旨在处理多样化的智能任务。作为 MiniMax AI 技术栈的核心产品，M3 具备强大的多任务处理能力，能够广泛应用于自然语言交互、复杂推理及多模态数据分析等场景，是企业级与科研级人工智能应用的重要底层算力支撑。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-06-22T23:21:29.888597"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/zai-org/GLM-5.2",
+    "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "https://huggingface.co/WeiboAI/VibeThinker-3B",
+    "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+    "https://huggingface.co/MiniMaxAI/MiniMax-M3"
+  ],
+  "new_urls": [
+    "https://huggingface.co/zai-org/GLM-5.2",
+    "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "https://huggingface.co/WeiboAI/VibeThinker-3B",
+    "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+    "https://huggingface.co/MiniMaxAI/MiniMax-M3"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-06-23-01",
+      "rank": 1,
+      "name": "zai-org/GLM-5.2",
+      "description": "GLM-5.2 是 Z.ai 推出的新一代大语言模型，具备先进的推理与生成能力。该模型通过官方 API 平台或网页端提供服务，主要定位于通用自然语言处理任务，能够处理复杂的文本生成与问答需求。用户可通过 Z.ai 官方技术报告了解其模型架构与性能表现，并获取开发者接入支持。",
+      "source_description": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-23/01-zai-org-glm-5-2.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/01-zai-org-glm-5-2.png"
+    },
+    {
+      "id": "hf-2026-06-23-02",
+      "rank": 2,
+      "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "description": "Gemma-4-12B-Coder 是基于 Gemma 架构的轻量级编程优化模型，结合了 Fable 5 与 Composer 2.5 技术栈。该模型以 GGUF 格式发布，针对本地推理进行了优化，旨在为个人开发者提供高效的辅助编程能力。尽管体积精简，但其在代码补全与逻辑编写任务中表现出色，适合在资源受限的环境下进行本地部署。",
+      "source_description": "💻 Gemma4-12B-Coder (GGUF) — Composer 2.5 × Fable 5 ✨ 🐣 Tiny footprint, big brain — a local coding model for everyone",
+      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-23/02-yuxinlu1-gemma-4-12b-coder-fable5-composer2-5-v1-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/02-yuxinlu1-gemma-4-12b-coder-fable5-composer2-5-v1-gguf.png"
+    },
+    {
+      "id": "hf-2026-06-23-03",
+      "rank": 3,
+      "name": "WeiboAI/VibeThinker-3B",
+      "description": "VibeThinker-3B 是一款专注于逻辑推理与计算能力的轻量级模型。该模型未经过工具调用或智能体相关的专项训练，因此不建议用于 API 编排或自主代理任务。其核心优势在于算法竞赛类问题的处理，特别适用于解决 LeetCode 风格的编程与逻辑难题，能够为开发者提供精准的算法思路与代码实现。",
+      "source_description": "<blockquote style=\"border-left: 4px solid #ff6b6b; background-color: #fff5f5; padding: 10px 15px; margin: 10px 0; color: #cc3333;\"> <span style=\"font-weight: bold;\">🚨 </span> 1.This model was not trained on tool-calling or agent-based programming data. We therefore do not recommend using it for tasks that involve function calling, API orchestration, or autonomous coding agents. For programming tasks, we recommend using this model on competitive programming problems (e.g., <a href=\"https://leetcode.com/problemset/algorithms/\">LeetCode-style</a>).",
+      "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-23/03-weiboai-vibethinker-3b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/03-weiboai-vibethinker-3b.png"
+    },
+    {
+      "id": "hf-2026-06-23-04",
+      "rank": 4,
+      "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "description": "Gemma-4-12B-Agentic 是面向复杂任务的增强型智能体模型，整合了 Fable 5 与 Composer 2.5 优化方案。该版本在基础代码能力之上，大幅提升了对工具使用与智能体协作的支持。作为一款本地可运行的轻量化模型，它不仅能胜任编程辅助工作，还能有效处理需要调用外部工具的任务，适合构建高效的本地智能代理应用。",
+      "source_description": "💻🤖 Gemma4-12B v2 — Coding + Agentic Edition ✨ 🐣 Tiny footprint, big brain — a local coding & tool-using agent for everyone",
+      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-23/04-yuxinlu1-gemma-4-12b-agentic-fable5-composer2-5-v2-3-5x-tau2-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/04-yuxinlu1-gemma-4-12b-agentic-fable5-composer2-5-v2-3-5x-tau2-gguf.png"
+    },
+    {
+      "id": "hf-2026-06-23-05",
+      "rank": 5,
+      "name": "MiniMaxAI/MiniMax-M3",
+      "description": "MiniMax-M3 是由 MiniMax 推出的高性能多模态大模型。该模型定位为新一代基座模型，旨在处理多样化的智能任务。作为 MiniMax AI 技术栈的核心产品，M3 具备强大的多任务处理能力，能够广泛应用于自然语言交互、复杂推理及多模态数据分析等场景，是企业级与科研级人工智能应用的重要底层算力支撑。",
+      "source_description": "<div align=\"center\"> <img width=\"60%\" src=\"figures/logo.svg\" alt=\"MiniMax\"> </div> <hr>",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-06-23/05-minimaxai-minimax-m3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-06-23/05-minimaxai-minimax-m3.png"
+    }
+  ]
+}
