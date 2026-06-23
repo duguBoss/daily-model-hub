@@ -1,22 +1,22 @@
 {
-  "recordDate": "2026-06-23",
+  "recordDate": "2026-06-24",
   "source": "https://huggingface.co/models?sort=trending",
   "limit": 5,
   "models": [
     {
       "rank": 1,
-      "recordDate": "2026-06-23",
-      "modelCard": "assets/huggingface_model_cards/2026-06-23/01-zai-org-glm-5-2.png",
+      "recordDate": "2026-06-24",
+      "modelCard": "assets/huggingface_model_cards/2026-06-24/01-zai-org-glm-5-2.png",
       "modelName": "zai-org/GLM-5.2",
-      "modelDescription": "GLM-5.2 是 Z.ai 推出的新一代大语言模型，具备先进的推理与生成能力。该模型通过官方 API 平台或网页端提供服务，主要定位于通用自然语言处理任务，能够处理复杂的文本生成与问答需求。用户可通过 Z.ai 官方技术报告了解其模型架构与性能表现，并获取开发者接入支持。",
+      "modelDescription": "GLM-5.2是由Z.ai推出的高性能大语言模型，具备强大的通用处理能力。该模型通过技术报告和API服务支持多场景应用，适用于自然语言理解、生成及复杂任务处理，用户可通过Z.ai官方平台获取API访问权限或在网页端直接体验，是目前企业级与个人开发者的重要人工智能工具选择。",
       "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
       "modelUrl": "https://huggingface.co/zai-org/GLM-5.2",
       "cardSummary": "",
       "author": "zai-org",
-      "downloads": 33589,
-      "likes": 2019,
+      "downloads": 40127,
+      "likes": 2190,
       "pipelineTag": "text-generation",
-      "lastModified": "2026-06-22T08:02:03.000Z",
+      "lastModified": "2026-06-23T03:56:16.000Z",
       "numParameters": 753329940480,
       "availableInferenceProviders": [
         {
@@ -32,7 +32,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": true,
-          "tokensPerSecond": 42.41642378547258
+          "tokensPerSecond": 43.4330750584752
         },
         {
           "provider": "together",
@@ -45,9 +45,9 @@
             "toolCalling": true
           },
           "isCheapestPricingOutput": true,
-          "isFastestThroughput": false,
+          "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 101.71861892200431,
+          "tokensPerSecond": 85.43704492826211,
           "pricingOutput": 4.4
         },
         {
@@ -57,13 +57,13 @@
           "providerId": "zai-org/glm-5.2",
           "task": "conversational",
           "features": {
-            "structuredOutput": false,
+            "structuredOutput": true,
             "toolCalling": false
           },
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 34.071291079471735
+          "tokensPerSecond": 40.43535246980474
         },
         {
           "provider": "fireworks-ai",
@@ -78,7 +78,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 46.10616472452672
+          "tokensPerSecond": 36.524743375751875
         },
         {
           "provider": "featherless-ai",
@@ -101,24 +101,24 @@
             "toolCalling": true
           },
           "isCheapestPricingOutput": false,
-          "isFastestThroughput": true,
+          "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 108.32123420813534
+          "tokensPerSecond": 22.9102697723197
         }
       ]
     },
     {
       "rank": 2,
-      "recordDate": "2026-06-23",
-      "modelCard": "assets/huggingface_model_cards/2026-06-23/02-yuxinlu1-gemma-4-12b-coder-fable5-composer2-5-v1-gguf.png",
+      "recordDate": "2026-06-24",
+      "modelCard": "assets/huggingface_model_cards/2026-06-24/02-yuxinlu1-gemma-4-12b-coder-fable5-composer2-5-v1-gguf.png",
       "modelName": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-      "modelDescription": "Gemma-4-12B-Coder 是基于 Gemma 架构的轻量级编程优化模型，结合了 Fable 5 与 Composer 2.5 技术栈。该模型以 GGUF 格式发布，针对本地推理进行了优化，旨在为个人开发者提供高效的辅助编程能力。尽管体积精简，但其在代码补全与逻辑编写任务中表现出色，适合在资源受限的环境下进行本地部署。",
+      "modelDescription": "Gemma4-12B-Coder是一款轻量级的本地化编程辅助模型，采用GGUF格式封装以适应不同计算环境。该模型整合了Composer 2.5与Fable 5架构，专门针对代码生成与开发任务进行优化。其小巧的体积使其能在资源受限的设备上运行，适合个人开发者进行高效的本地编程与逻辑代码编写。",
       "sourceDescription": "💻 Gemma4-12B-Coder (GGUF) — Composer 2.5 × Fable 5 ✨ 🐣 Tiny footprint, big brain — a local coding model for everyone",
       "modelUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
       "cardSummary": "",
       "author": "yuxinlu1",
-      "downloads": 414734,
-      "likes": 2168,
+      "downloads": 456117,
+      "likes": 2235,
       "pipelineTag": "text-generation",
       "lastModified": "2026-06-19T03:52:11.000Z",
       "numParameters": 11907350576,
@@ -126,16 +126,16 @@
     },
     {
       "rank": 3,
-      "recordDate": "2026-06-23",
-      "modelCard": "assets/huggingface_model_cards/2026-06-23/03-weiboai-vibethinker-3b.png",
+      "recordDate": "2026-06-24",
+      "modelCard": "assets/huggingface_model_cards/2026-06-24/03-weiboai-vibethinker-3b.png",
       "modelName": "WeiboAI/VibeThinker-3B",
-      "modelDescription": "VibeThinker-3B 是一款专注于逻辑推理与计算能力的轻量级模型。该模型未经过工具调用或智能体相关的专项训练，因此不建议用于 API 编排或自主代理任务。其核心优势在于算法竞赛类问题的处理，特别适用于解决 LeetCode 风格的编程与逻辑难题，能够为开发者提供精准的算法思路与代码实现。",
+      "modelDescription": "VibeThinker-3B是一款轻量级模型，主要侧重于算法逻辑与竞争性编程问题（如LeetCode风格题目）的解答。需要注意的是，该模型未经过工具调用或代理框架的专门训练，因此不建议将其应用于函数调用、API编排或自主智能体任务中。它是专为特定算法推理场景设计的纯文本处理工具。",
       "sourceDescription": "<blockquote style=\"border-left: 4px solid #ff6b6b; background-color: #fff5f5; padding: 10px 15px; margin: 10px 0; color: #cc3333;\"> <span style=\"font-weight: bold;\">🚨 </span> 1.This model was not trained on tool-calling or agent-based programming data. We therefore do not recommend using it for tasks that involve function calling, API orchestration, or autonomous coding agents. For programming tasks, we recommend using this model on competitive programming problems (e.g., <a href=\"https://leetcode.com/problemset/algorithms/\">LeetCode-style</a>).",
       "modelUrl": "https://huggingface.co/WeiboAI/VibeThinker-3B",
       "cardSummary": "",
       "author": "WeiboAI",
-      "downloads": 32385,
-      "likes": 610,
+      "downloads": 41170,
+      "likes": 662,
       "pipelineTag": "text-generation",
       "lastModified": "2026-06-19T18:28:29.000Z",
       "numParameters": 3085938688,
@@ -154,94 +154,37 @@
     },
     {
       "rank": 4,
-      "recordDate": "2026-06-23",
-      "modelCard": "assets/huggingface_model_cards/2026-06-23/04-yuxinlu1-gemma-4-12b-agentic-fable5-composer2-5-v2-3-5x-tau2-gguf.png",
-      "modelName": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-      "modelDescription": "Gemma-4-12B-Agentic 是面向复杂任务的增强型智能体模型，整合了 Fable 5 与 Composer 2.5 优化方案。该版本在基础代码能力之上，大幅提升了对工具使用与智能体协作的支持。作为一款本地可运行的轻量化模型，它不仅能胜任编程辅助工作，还能有效处理需要调用外部工具的任务，适合构建高效的本地智能代理应用。",
-      "sourceDescription": "💻🤖 Gemma4-12B v2 — Coding + Agentic Edition ✨ 🐣 Tiny footprint, big brain — a local coding & tool-using agent for everyone",
-      "modelUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "recordDate": "2026-06-24",
+      "modelCard": "assets/huggingface_model_cards/2026-06-24/04-baidu-unlimited-ocr.png",
+      "modelName": "baidu/Unlimited-OCR",
+      "modelDescription": "Unlimited-OCR是百度推出的高性能光学字符识别模型。该模型专注于图像中的文字检测与提取，具备处理多种文档布局及复杂场景字符的能力。其定位为企业级视觉文档解析解决方案，适用于扫描件电子化、数据录入、以及自动化文档处理流程等场景，旨在为开发者提供高效、准确的OCR识别服务。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "modelUrl": "https://huggingface.co/baidu/Unlimited-OCR",
       "cardSummary": "",
-      "author": "yuxinlu1",
-      "downloads": 50314,
-      "likes": 379,
-      "pipelineTag": "text-generation",
-      "lastModified": "2026-06-19T09:31:48.000Z",
-      "numParameters": 11907350576,
+      "author": "baidu",
+      "downloads": 8396,
+      "likes": 462,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-23T06:59:06.000Z",
+      "numParameters": 3336106240,
       "availableInferenceProviders": []
     },
     {
       "rank": 5,
-      "recordDate": "2026-06-23",
-      "modelCard": "assets/huggingface_model_cards/2026-06-23/05-minimaxai-minimax-m3.png",
-      "modelName": "MiniMaxAI/MiniMax-M3",
-      "modelDescription": "MiniMax-M3 是由 MiniMax 推出的高性能多模态大模型。该模型定位为新一代基座模型，旨在处理多样化的智能任务。作为 MiniMax AI 技术栈的核心产品，M3 具备强大的多任务处理能力，能够广泛应用于自然语言交互、复杂推理及多模态数据分析等场景，是企业级与科研级人工智能应用的重要底层算力支撑。",
-      "sourceDescription": "<div align=\"center\"> <img width=\"60%\" src=\"figures/logo.svg\" alt=\"MiniMax\"> </div> <hr>",
-      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "recordDate": "2026-06-24",
+      "modelCard": "assets/huggingface_model_cards/2026-06-24/05-yuxinlu1-gemma-4-12b-agentic-fable5-composer2-5-v2-3-5x-tau2-gguf.png",
+      "modelName": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "modelDescription": "Gemma4-12B-Agentic v2是一款深度结合编程与智能体能力的本地模型。基于Composer 2.5与Fable 5技术，该版本特别强化了工具使用与自动化任务执行功能。模型体积小巧，支持在个人电脑本地部署，非常适合需要代码编写与自动化代理交互的开发需求，是构建本地化智能开发辅助环境的理想选择。",
+      "sourceDescription": "💻🤖 Gemma4-12B v2 — Coding + Agentic Edition ✨ 🐣 Tiny footprint, big brain — a local coding & tool-using agent for everyone",
+      "modelUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
       "cardSummary": "",
-      "author": "MiniMaxAI",
-      "downloads": 119967,
-      "likes": 1208,
-      "pipelineTag": "image-text-to-text",
-      "lastModified": "2026-06-22T06:35:16.000Z",
-      "numParameters": 427040140160,
-      "availableInferenceProviders": [
-        {
-          "provider": "together",
-          "modelStatus": "live",
-          "providerStatus": "live",
-          "providerId": "MiniMaxAI/MiniMax-M3",
-          "task": "conversational",
-          "features": {
-            "structuredOutput": true,
-            "toolCalling": true
-          },
-          "isCheapestPricingOutput": true,
-          "isFastestThroughput": false,
-          "isModelAuthor": false,
-          "tokensPerSecond": 34.88547313920297,
-          "pricingOutput": 1.2
-        },
-        {
-          "provider": "novita",
-          "modelStatus": "live",
-          "providerStatus": "live",
-          "providerId": "minimax/minimax-m3",
-          "task": "conversational",
-          "features": {
-            "structuredOutput": false,
-            "toolCalling": true
-          },
-          "isCheapestPricingOutput": false,
-          "isFastestThroughput": false,
-          "isModelAuthor": false,
-          "tokensPerSecond": 47.01621652938546
-        },
-        {
-          "provider": "fireworks-ai",
-          "modelStatus": "live",
-          "providerStatus": "live",
-          "providerId": "accounts/fireworks/models/minimax-m3",
-          "task": "conversational",
-          "features": {
-            "structuredOutput": false,
-            "toolCalling": true
-          },
-          "isCheapestPricingOutput": false,
-          "isFastestThroughput": true,
-          "isModelAuthor": false,
-          "tokensPerSecond": 55.716541960465804
-        },
-        {
-          "provider": "featherless-ai",
-          "modelStatus": "live",
-          "providerStatus": "live",
-          "providerId": "MiniMaxAI/MiniMax-M3",
-          "task": "conversational",
-          "isCheapestPricingOutput": false,
-          "isFastestThroughput": false,
-          "isModelAuthor": false
-        }
-      ]
+      "author": "yuxinlu1",
+      "downloads": 96459,
+      "likes": 444,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-06-19T09:31:48.000Z",
+      "numParameters": 11907350576,
+      "availableInferenceProviders": []
     }
   ]
 }
