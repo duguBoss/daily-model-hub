@@ -1,20 +1,20 @@
 {
-  "recordDate": "2026-06-29",
+  "recordDate": "2026-06-30",
   "source": "https://huggingface.co/models?sort=trending",
   "limit": 5,
   "models": [
     {
       "rank": 1,
-      "recordDate": "2026-06-29",
-      "modelCard": "assets/huggingface_model_cards/2026-06-29/01-baidu-unlimited-ocr.png",
+      "recordDate": "2026-06-30",
+      "modelCard": "assets/huggingface_model_cards/2026-06-30/01-baidu-unlimited-ocr.png",
       "modelName": "baidu/Unlimited-OCR",
-      "modelDescription": "百度Unlimited-OCR模型专注于提供高精度的文字识别能力。该模型旨在处理复杂场景下的文档和图像识别任务，具备广泛的适应性，适用于办公自动化、票据处理及各类数字化文档提取场景，通过先进的深度学习技术实现对多语种及复杂版面文字的准确捕获与高效转录。",
+      "modelDescription": "百度推出的Unlimited-OCR是一款专注于光学字符识别的模型。该模型旨在高效提取各类图像中的文本信息，支持多场景下的文字检测与识别任务。其核心定位是提供高精度的OCR解决方案，适用于文档数字化、自动化办公以及图像内容审核等多种实际应用场景，能够显著提升文字处理效率与准确度。",
       "sourceDescription": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
       "modelUrl": "https://huggingface.co/baidu/Unlimited-OCR",
       "cardSummary": "",
       "author": "baidu",
-      "downloads": 295064,
-      "likes": 1226,
+      "downloads": 362945,
+      "likes": 1362,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-06-28T06:20:01.000Z",
       "numParameters": 3336106240,
@@ -22,16 +22,16 @@
     },
     {
       "rank": 2,
-      "recordDate": "2026-06-29",
-      "modelCard": "assets/huggingface_model_cards/2026-06-29/02-zai-org-glm-5-2.png",
+      "recordDate": "2026-06-30",
+      "modelCard": "assets/huggingface_model_cards/2026-06-30/02-zai-org-glm-5-2.png",
       "modelName": "zai-org/GLM-5.2",
-      "modelDescription": "GLM-5.2是由Zai-org开发的一款大语言模型，具备出色的自然语言理解与生成能力。该模型在技术报告中展示了其在复杂逻辑推理和多任务处理上的表现，主要面向开发者提供API接口支持，适用于企业级智能助手、自动化工作流及各类需要高稳健性语言处理能力的生产环境。",
+      "modelDescription": "GLM-5.2是由Zai组织开发的一款大语言模型，继承了GLM系列架构的特点。该模型在处理复杂指令理解、多轮对话及长文本生成方面表现出色。通过提供完善的API接口与开发者支持，它被定位为企业级与科研级人工智能应用的基础模型，适用于构建智能对话系统、内容创作工具以及各类复杂任务的自动化辅助。",
       "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
       "modelUrl": "https://huggingface.co/zai-org/GLM-5.2",
       "cardSummary": "",
       "author": "zai-org",
-      "downloads": 118651,
-      "likes": 2807,
+      "downloads": 133350,
+      "likes": 2928,
       "pipelineTag": "text-generation",
       "lastModified": "2026-06-23T03:56:16.000Z",
       "numParameters": 753329940480,
@@ -44,12 +44,12 @@
           "task": "conversational",
           "features": {
             "structuredOutput": false,
-            "toolCalling": true
+            "toolCalling": false
           },
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": true,
-          "tokensPerSecond": 43.84868983118815
+          "tokensPerSecond": 40.27084203414246
         },
         {
           "provider": "together",
@@ -64,7 +64,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 94.93830890644277,
+          "tokensPerSecond": 91.97682361252933,
           "pricingOutput": 4.4
         },
         {
@@ -80,7 +80,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 46.78241127073234,
+          "tokensPerSecond": 34.03197999910195,
           "pricingOutput": 4.4
         },
         {
@@ -96,7 +96,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 63.61846661170299,
+          "tokensPerSecond": 38.873931419507855,
           "pricingOutput": 4.4
         },
         {
@@ -116,29 +116,29 @@
           "providerId": "zai-org/GLM-5.2",
           "task": "conversational",
           "features": {
-            "structuredOutput": true,
+            "structuredOutput": false,
             "toolCalling": true
           },
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 34.730606777117536,
+          "tokensPerSecond": 18.901371715673488,
           "pricingOutput": 2.9999999999999996
         }
       ]
     },
     {
       "rank": 3,
-      "recordDate": "2026-06-29",
-      "modelCard": "assets/huggingface_model_cards/2026-06-29/03-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+      "recordDate": "2026-06-30",
+      "modelCard": "assets/huggingface_model_cards/2026-06-30/03-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
       "modelName": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "modelDescription": "Qwythos-9B-Claude-Mythos-5-1M-GGUF是一款经过量化处理的轻量化语言模型。该模型基于9B参数架构，针对本地硬件优化，特别支持超长上下文（1M）处理能力。其设计旨在平衡性能与资源占用，适合个人用户在本地环境下进行长文本分析、创意写作或复杂文档处理。",
+      "modelDescription": "Qwythos-9B-Claude-Mythos-5-1M是以GGUF格式发布的轻量化模型，具备100万上下文窗口处理能力。该模型基于Mythos架构进行微调，重点优化了长文本理解与逻辑推理能力。因其参数规模适中且兼容性好，非常适合在个人电脑或边缘计算设备上运行，可用于长篇内容分析、创意写作支持及特定领域知识库的问答系统。",
       "sourceDescription": "<p align=\"center\"> <img src=\"https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M/resolve/main/assets/qwythos.png\" alt=\"Qwythos-9B\" width=\"640\"/> </p>",
       "modelUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
       "cardSummary": "",
       "author": "empero-ai",
-      "downloads": 831529,
-      "likes": 783,
+      "downloads": 907682,
+      "likes": 937,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-06-28T17:05:20.000Z",
       "numParameters": 8953803264,
@@ -146,48 +146,37 @@
     },
     {
       "rank": 4,
-      "recordDate": "2026-06-29",
-      "modelCard": "assets/huggingface_model_cards/2026-06-29/04-yuxinlu1-gemma-4-12b-agentic-fable5-composer2-5-v2-3-5x-tau2-gguf.png",
-      "modelName": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-      "modelDescription": "Gemma-4-12B Agentic Fable版本是一款专注于编程与智能体任务的优化模型。该模型基于12B架构，在保持轻量化的同时，显著增强了代码生成与工具调用能力。其定位为个人开发者的本地生产力工具，适用于自动化编程、任务调度及构建轻量级智能化应用场景。",
-      "sourceDescription": "💻🤖 Gemma4-12B v2 — Coding + Agentic Edition ✨ 🐣 Tiny footprint, big brain — a local coding & tool-using agent for everyone",
-      "modelUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "recordDate": "2026-06-30",
+      "modelCard": "assets/huggingface_model_cards/2026-06-30/04-deepreinforce-ai-ornith-1-0-35b-gguf.png",
+      "modelName": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
+      "modelDescription": "Ornith-1.0-35B是一款专注于代码生成与软件工程任务的开源模型，具备自我迭代改进的能力。该模型采用GGUF格式，重点支持代理（Agentic）工作流，能够辅助开发者完成复杂的编程任务。其设计初衷是提升开发效率，适用于自动化代码编写、软件架构辅助设计及工程领域的问题分析与代码调试任务。",
+      "sourceDescription": "Aloha! 🌺 Today, we are releasing Ornith-1.0, a self-improving family of open-source models for agentic coding.",
+      "modelUrl": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
       "cardSummary": "",
-      "author": "yuxinlu1",
-      "downloads": 225822,
-      "likes": 790,
+      "author": "deepreinforce-ai",
+      "downloads": 123598,
+      "likes": 479,
       "pipelineTag": "text-generation",
-      "lastModified": "2026-06-19T09:31:48.000Z",
-      "numParameters": 11907350576,
+      "lastModified": "2026-06-25T14:31:04.000Z",
+      "numParameters": 34660610688,
       "availableInferenceProviders": []
     },
     {
       "rank": 5,
-      "recordDate": "2026-06-29",
-      "modelCard": "assets/huggingface_model_cards/2026-06-29/05-empero-ai-qwythos-9b-claude-mythos-5-1m.png",
-      "modelName": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-      "modelDescription": "Qwythos-9B-Claude-Mythos-5-1M是一款具备长文本处理能力的语言模型。通过支持高达100万token的超长上下文窗口，该模型能够有效分析大规模数据集及冗长文档。其定位在于提供高精度的长序列信息提取与语义理解，适用于科研检索、法律合规审核及长篇小说分析等专业领域。",
-      "sourceDescription": "<p align=\"center\"> <img src=\"assets/qwythos.png\" alt=\"Qwythos-9B\" width=\"640\"/> </p>",
-      "modelUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+      "recordDate": "2026-06-30",
+      "modelCard": "assets/huggingface_model_cards/2026-06-30/05-qwen-qwen-agentworld-35b-a3b.png",
+      "modelName": "Qwen/Qwen-AgentWorld-35B-A3B",
+      "modelDescription": "Qwen-AgentWorld-35B-A3B是通义千问团队推出的专注于代理（Agent）场景的大语言模型。该模型经过优化，具备极强的复杂任务规划、多步推理及环境交互能力。作为Qwen系列的重要成员，它特别适用于构建智能体系统，能够胜任复杂的自动化工作流、跨工具协作及需要高精度决策的任务环境。",
+      "sourceDescription": "<div style=\"text-align: center\"> <img width=\"400px\" src=\"https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen-AgentWorld/logo.png\"> <p> <a href=\"http://arxiv.org/abs/2606.24597\">📑 Technical Report</a> | <a href=\"https://qwen.ai/blog?id=qwen-agentworld\">📖 Blog</a> | <a href=\"https://huggingface.co/collections/Qwen/qwen-agentworld\">🤗 Hugging Face</a> | <a href=\"https://modelscope.cn/collections/Qwen/Qwen-AgentWorld\">🤖 ModelScope</a> | <a href=\"https://github.com/QwenLM/Qwen-AgentWorld\">💻 GitHub</a> | <a href=\"https://qwen.ai/blog?id=qwen-agentworld#interactive-demo-interactive-demo\">🖥️ Demo</a> </p> </div>",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
       "cardSummary": "",
-      "author": "empero-ai",
-      "downloads": 52492,
-      "likes": 523,
+      "author": "Qwen",
+      "downloads": 26223,
+      "likes": 434,
       "pipelineTag": "text-generation",
-      "lastModified": "2026-06-28T16:36:08.000Z",
-      "numParameters": 9409813744,
-      "availableInferenceProviders": [
-        {
-          "provider": "featherless-ai",
-          "modelStatus": "live",
-          "providerStatus": "live",
-          "providerId": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-          "task": "conversational",
-          "isCheapestPricingOutput": false,
-          "isFastestThroughput": false,
-          "isModelAuthor": false
-        }
-      ]
+      "lastModified": "2026-06-25T07:24:16.000Z",
+      "numParameters": 34660610688,
+      "availableInferenceProviders": []
     }
   ]
 }
