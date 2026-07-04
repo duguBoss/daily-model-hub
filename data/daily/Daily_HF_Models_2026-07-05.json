@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-05",
+  "title": "🔥Qwythos5重磅发布是一款基于参能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/01-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/02-zai-org-glm-5-2.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/03-baidu-unlimited-ocr.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/04-deepreinforce-ai-ornith-1-0-35b-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/05-yuxinlu1-gemma-4-12b-agentic-fable5-composer2-5-v2-3-5x-tau2-gguf.png"
+  ],
+  "songs": [
+    {
+      "name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "artist": "empero-ai"
+    },
+    {
+      "name": "GLM-5.2",
+      "artist": "zai-org"
+    },
+    {
+      "name": "Unlimited-OCR",
+      "artist": "baidu"
+    },
+    {
+      "name": "Ornith-1.0-35B-GGUF",
+      "artist": "deepreinforce-ai"
+    },
+    {
+      "name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "artist": "yuxinlu1"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-07-05 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/01-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png\" alt=\"empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwythos-9B-Claude-Mythos-5-1M 是一款基于 9B 参数规模的微调模型，提供 GGUF 格式版本以支持高效的本地推理。该模型专注于叙事生成与创意写作，通过扩展上下文处理能力，能够满足用户在长文本创作和角色扮演场景中的需求，适用于对显存占用有一定要求且需处理较长对话历史的个人开发者和创作者。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/02-zai-org-glm-5-2.png\" alt=\"zai-org/GLM-5.2\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">zai-org/GLM-5.2</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">GLM-5.2 是由 zai-org 开发的大型语言模型，作为 GLM-5 系列的最新迭代，具备更强的逻辑推理与任务处理能力。该模型提供官方 API 服务及网页端试用，支持多轮对话与复杂指令执行。它定位于通用的智能化辅助工具，广泛适用于企业级自动化流程、知识库检索以及各类需要高准确度和稳定输出的专业应用场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/03-baidu-unlimited-ocr.png\" alt=\"baidu/Unlimited-OCR\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">baidu/Unlimited-OCR</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">百度推出的 Unlimited-OCR 是一款专门针对光学字符识别（OCR）任务优化的模型。该模型能够高效解析各类文档、图像中的文字内容，具备高识别精度与鲁棒性。其主要应用于文档数字化管理、自动化办公流程、金融票据录入及车牌识别等场景，帮助企业快速实现非结构化数据向结构化数据的转化，显著提升数据处理效率。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/04-deepreinforce-ai-ornith-1-0-35b-gguf.png\" alt=\"deepreinforce-ai/Ornith-1.0-35B-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepreinforce-ai/Ornith-1.0-35B-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Ornith-1.0-35B-GGUF 是一款专注于代理智能（Agentic）编程的开源大模型，具备自我迭代与优化的能力。模型采用 GGUF 格式封装，便于本地部署与资源受限环境下的运行。其核心功能在于辅助开发者编写代码、解决程序逻辑问题，适合追求自主代码生成能力及构建自动化编程辅助工具的开发者使用。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/05-yuxinlu1-gemma-4-12b-agentic-fable5-composer2-5-v2-3-5x-tau2-gguf.png\" alt=\"yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">基于 Gemma 4-12B 架构的 Agentic 版本模型，专为本地代码编写与代理执行任务而优化。该模型在保持较小体积的同时，强化了工具调用与复杂编程任务的处理能力。它旨在为开发者提供一个轻量级、高效且易于集成的本地智能助手，特别适用于自动化脚本编写、工程辅助及需要离线运行的轻量化 Agent 应用场景。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-07-04T22:59:27.070509"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+    "https://huggingface.co/zai-org/GLM-5.2",
+    "https://huggingface.co/baidu/Unlimited-OCR",
+    "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+    "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF"
+  ],
+  "new_urls": [
+    "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+    "https://huggingface.co/zai-org/GLM-5.2",
+    "https://huggingface.co/baidu/Unlimited-OCR",
+    "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+    "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-07-05-01",
+      "rank": 1,
+      "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "description": "Qwythos-9B-Claude-Mythos-5-1M 是一款基于 9B 参数规模的微调模型，提供 GGUF 格式版本以支持高效的本地推理。该模型专注于叙事生成与创意写作，通过扩展上下文处理能力，能够满足用户在长文本创作和角色扮演场景中的需求，适用于对显存占用有一定要求且需处理较长对话历史的个人开发者和创作者。",
+      "source_description": "<p align=\"center\"> <img src=\"https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M/resolve/main/assets/qwythos.png\" alt=\"Qwythos-9B\" width=\"640\"/> </p>",
+      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-05/01-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/01-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png"
+    },
+    {
+      "id": "hf-2026-07-05-02",
+      "rank": 2,
+      "name": "zai-org/GLM-5.2",
+      "description": "GLM-5.2 是由 zai-org 开发的大型语言模型，作为 GLM-5 系列的最新迭代，具备更强的逻辑推理与任务处理能力。该模型提供官方 API 服务及网页端试用，支持多轮对话与复杂指令执行。它定位于通用的智能化辅助工具，广泛适用于企业级自动化流程、知识库检索以及各类需要高准确度和稳定输出的专业应用场景。",
+      "source_description": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-05/02-zai-org-glm-5-2.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/02-zai-org-glm-5-2.png"
+    },
+    {
+      "id": "hf-2026-07-05-03",
+      "rank": 3,
+      "name": "baidu/Unlimited-OCR",
+      "description": "百度推出的 Unlimited-OCR 是一款专门针对光学字符识别（OCR）任务优化的模型。该模型能够高效解析各类文档、图像中的文字内容，具备高识别精度与鲁棒性。其主要应用于文档数字化管理、自动化办公流程、金融票据录入及车牌识别等场景，帮助企业快速实现非结构化数据向结构化数据的转化，显著提升数据处理效率。",
+      "source_description": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-05/03-baidu-unlimited-ocr.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/03-baidu-unlimited-ocr.png"
+    },
+    {
+      "id": "hf-2026-07-05-04",
+      "rank": 4,
+      "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
+      "description": "Ornith-1.0-35B-GGUF 是一款专注于代理智能（Agentic）编程的开源大模型，具备自我迭代与优化的能力。模型采用 GGUF 格式封装，便于本地部署与资源受限环境下的运行。其核心功能在于辅助开发者编写代码、解决程序逻辑问题，适合追求自主代码生成能力及构建自动化编程辅助工具的开发者使用。",
+      "source_description": "Aloha! 🌺 Today, we are releasing Ornith-1.0, a self-improving family of open-source models for agentic coding.",
+      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-05/04-deepreinforce-ai-ornith-1-0-35b-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/04-deepreinforce-ai-ornith-1-0-35b-gguf.png"
+    },
+    {
+      "id": "hf-2026-07-05-05",
+      "rank": 5,
+      "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "description": "基于 Gemma 4-12B 架构的 Agentic 版本模型，专为本地代码编写与代理执行任务而优化。该模型在保持较小体积的同时，强化了工具调用与复杂编程任务的处理能力。它旨在为开发者提供一个轻量级、高效且易于集成的本地智能助手，特别适用于自动化脚本编写、工程辅助及需要离线运行的轻量化 Agent 应用场景。",
+      "source_description": "💻🤖 Gemma4-12B v2 — Coding + Agentic Edition ✨ 🐣 Tiny footprint, big brain — a local coding & tool-using agent for everyone",
+      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-05/05-yuxinlu1-gemma-4-12b-agentic-fable5-composer2-5-v2-3-5x-tau2-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-05/05-yuxinlu1-gemma-4-12b-agentic-fable5-composer2-5-v2-3-5x-tau2-gguf.png"
+    }
+  ]
+}
