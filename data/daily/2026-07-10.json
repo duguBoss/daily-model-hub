@@ -1,0 +1,182 @@
+{
+  "recordDate": "2026-07-10",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-07-10",
+      "modelCard": "assets/huggingface_model_cards/2026-07-10/01-tencent-hy3.png",
+      "modelName": "tencent/Hy3",
+      "modelDescription": "Hy3是由腾讯推出的模型，旨在提供高效的序列处理能力。该模型主要面向特定领域的任务，通过优化的架构设计，在处理长文本或复杂序列任务时展现出良好的性能。开发者和研究人员可将其应用于各种自然语言处理场景，利用其提供的中文和英文双语支持，提升文本理解与生成的效率。",
+      "sourceDescription": "<p align=\"left\"> <a href=\"https://huggingface.co/tencent/Hy3/blob/main/README CN.md\">中文</a>&nbsp;｜&nbsp;English </p> <br>",
+      "modelUrl": "https://huggingface.co/tencent/Hy3",
+      "cardSummary": "",
+      "author": "tencent",
+      "downloads": 5572,
+      "likes": 606,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-06T14:09:24.000Z",
+      "numParameters": 298786155776,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-07-10",
+      "modelCard": "assets/huggingface_model_cards/2026-07-10/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+      "modelName": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "modelDescription": "Qwythos-9B-Claude-Mythos-5-1M是一款基于9B参数规模的预训练语言模型，经过特定微调以提升叙事和逻辑推理能力。该模型支持长上下文窗口，能够处理大规模的输入数据，适用于角色扮演、创意写作以及需要长篇幅记忆的复杂交互任务，通过GGUF量化格式，方便用户在资源受限的环境下本地部署并高效运行。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M/resolve/main/assets/qwythos.png\" alt=\"Qwythos-9B\" width=\"640\"/> </p>",
+      "modelUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "cardSummary": "",
+      "author": "empero-ai",
+      "downloads": 1875602,
+      "likes": 1924,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-06-28T17:05:20.000Z",
+      "numParameters": 8953803264,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-07-10",
+      "modelCard": "assets/huggingface_model_cards/2026-07-10/03-zai-org-glm-5-2.png",
+      "modelName": "zai-org/GLM-5.2",
+      "modelDescription": "GLM-5.2是Z.ai组织开发的最新一代大规模预训练语言模型。该模型在GLM架构基础上进行了改进，具备更强的逻辑推理、复杂指令理解及多任务处理能力。用户可以通过官方API平台调用服务，或直接使用在线聊天界面。该模型适用于各类企业级应用、智能助手构建以及需要高标准自然语言处理性能的复杂业务场景。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-5.2",
+      "cardSummary": "",
+      "author": "zai-org",
+      "downloads": 362300,
+      "likes": 3722,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-02T08:08:14.000Z",
+      "numParameters": 753329940480,
+      "availableInferenceProviders": [
+        {
+          "provider": "zai-org",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "glm-5.2",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": false
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": true,
+          "tokensPerSecond": 42.615698927070895
+        },
+        {
+          "provider": "together",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "zai-org/GLM-5.2",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 117.93310647743917,
+          "pricingOutput": 4.4
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "zai-org/glm-5.2",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 40.8548426299493,
+          "pricingOutput": 4.4
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/glm-5p2",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 41.58233613006116,
+          "pricingOutput": 4.4
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "zai-org/GLM-5.2",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "zai-org/GLM-5.2",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 13.94066566359939,
+          "pricingOutput": 2.9999999999999996
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-07-10",
+      "modelCard": "assets/huggingface_model_cards/2026-07-10/04-internscience-agents-a1.png",
+      "modelName": "InternScience/Agents-A1",
+      "modelDescription": "Agents-A1是由InternScience推出的智能体模型，参数规模为35B。该模型通过创新的算法路径，实现了媲美万亿级参数模型的性能表现。其核心定位在于提升智能体在动态环境中的规划、决策与执行能力，适用于需要复杂自主代理协作的科研与工程应用，是追求高效能、轻量化大型模型部署的理想选择。",
+      "sourceDescription": "Agents-A1: Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+      "modelUrl": "https://huggingface.co/InternScience/Agents-A1",
+      "cardSummary": "",
+      "author": "InternScience",
+      "downloads": 23112,
+      "likes": 429,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-09T01:14:45.000Z",
+      "numParameters": 35107181936,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-07-10",
+      "modelCard": "assets/huggingface_model_cards/2026-07-10/05-baidu-unlimited-ocr.png",
+      "modelName": "baidu/Unlimited-OCR",
+      "modelDescription": "Unlimited-OCR是百度推出的一款专注于光学字符识别技术的模型。该模型具备极高的文字识别精度和场景泛化能力，能够高效处理复杂文档、手写体以及各类复杂场景下的文字信息。作为OCR领域的技术工具，它主要用于文档数字化、信息提取及自动化办公场景，旨在解决多语言、多形态文字在复杂背景下的精准还原问题。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "modelUrl": "https://huggingface.co/baidu/Unlimited-OCR",
+      "cardSummary": "",
+      "author": "baidu",
+      "downloads": 1246042,
+      "likes": 1901,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-03T05:15:09.000Z",
+      "numParameters": 3336106240,
+      "availableInferenceProviders": []
+    }
+  ]
+}
