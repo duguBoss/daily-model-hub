@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-11",
+  "title": "🔥Hy3重磅发布腾讯发布的模能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/01-tencent-hy3.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/03-zai-org-glm-5-2.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/04-internscience-agents-a1.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/05-baidu-unlimited-ocr.png"
+  ],
+  "songs": [
+    {
+      "name": "Hy3",
+      "artist": "tencent"
+    },
+    {
+      "name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "artist": "empero-ai"
+    },
+    {
+      "name": "GLM-5.2",
+      "artist": "zai-org"
+    },
+    {
+      "name": "Agents-A1",
+      "artist": "InternScience"
+    },
+    {
+      "name": "Unlimited-OCR",
+      "artist": "baidu"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-07-11 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/01-tencent-hy3.png\" alt=\"tencent/Hy3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">tencent/Hy3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">腾讯发布的Hy3模型。该模型主要关注模型在特定任务上的表现与部署效率。作为腾讯AI技术栈的一部分，它旨在为开发者提供高效的底层语言理解与生成支持，适用于构建各类企业级AI应用及自动化处理工具，通过优化的架构提升实际推理场景的响应速度。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png\" alt=\"empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwythos-9B-Claude-Mythos-5-1M 是一款基于 9B 参数规模的微调模型，支持超长上下文（1M）处理能力。该模型采用 GGUF 格式封装，便于在消费级显卡或本地设备上进行推理。它在创意写作、角色扮演及长文本分析任务中表现出色，适合需要处理海量信息的个人开发者与爱好者使用。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/03-zai-org-glm-5-2.png\" alt=\"zai-org/GLM-5.2\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">zai-org/GLM-5.2</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">GLM-5.2 是由 zai-org 开发的新一代大语言模型，延续了 GLM 系列的高性能架构设计。该模型具备强大的语义理解与指令遵循能力，广泛应用于各类复杂的交互任务。用户可通过 z.ai 提供的 API 接口直接调用，支持多种生产环境下的文本生成、信息抽取与多轮对话场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/04-internscience-agents-a1.png\" alt=\"InternScience/Agents-A1\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">InternScience/Agents-A1</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Agents-A1 是 InternScience 推出的一款轻量化高性能模型。该模型仅拥有 35B 参数，却通过先进的训练策略达到了通常仅见于万亿参数模型的性能水平。它专注于智能体应用领域，擅长处理复杂的任务规划与执行，是追求高性能与算力成本平衡的理想选择。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/05-baidu-unlimited-ocr.png\" alt=\"baidu/Unlimited-OCR\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">baidu/Unlimited-OCR</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Unlimited-OCR 是百度推出的高精度光学字符识别模型。该模型专门优化了对复杂文档、手写体以及多语种场景的识别能力，能够快速将图像内容转化为结构化文本数据。适用于财务票据识别、文档数字化归档以及各类自动化信息提取工作，是企业处理海量图形化业务数据的高效工具。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-07-10T23:00:09.109158"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/tencent/Hy3",
+    "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+    "https://huggingface.co/zai-org/GLM-5.2",
+    "https://huggingface.co/InternScience/Agents-A1",
+    "https://huggingface.co/baidu/Unlimited-OCR"
+  ],
+  "new_urls": [
+    "https://huggingface.co/tencent/Hy3",
+    "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+    "https://huggingface.co/zai-org/GLM-5.2",
+    "https://huggingface.co/InternScience/Agents-A1",
+    "https://huggingface.co/baidu/Unlimited-OCR"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-07-11-01",
+      "rank": 1,
+      "name": "tencent/Hy3",
+      "description": "腾讯发布的Hy3模型。该模型主要关注模型在特定任务上的表现与部署效率。作为腾讯AI技术栈的一部分，它旨在为开发者提供高效的底层语言理解与生成支持，适用于构建各类企业级AI应用及自动化处理工具，通过优化的架构提升实际推理场景的响应速度。",
+      "source_description": "<p align=\"left\"> <a href=\"https://huggingface.co/tencent/Hy3/blob/main/README CN.md\">中文</a>&nbsp;｜&nbsp;English </p> <br>",
+      "url": "https://huggingface.co/tencent/Hy3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-11/01-tencent-hy3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/01-tencent-hy3.png"
+    },
+    {
+      "id": "hf-2026-07-11-02",
+      "rank": 2,
+      "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "description": "Qwythos-9B-Claude-Mythos-5-1M 是一款基于 9B 参数规模的微调模型，支持超长上下文（1M）处理能力。该模型采用 GGUF 格式封装，便于在消费级显卡或本地设备上进行推理。它在创意写作、角色扮演及长文本分析任务中表现出色，适合需要处理海量信息的个人开发者与爱好者使用。",
+      "source_description": "<p align=\"center\"> <img src=\"https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M/resolve/main/assets/qwythos.png\" alt=\"Qwythos-9B\" width=\"640\"/> </p>",
+      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-11/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png"
+    },
+    {
+      "id": "hf-2026-07-11-03",
+      "rank": 3,
+      "name": "zai-org/GLM-5.2",
+      "description": "GLM-5.2 是由 zai-org 开发的新一代大语言模型，延续了 GLM 系列的高性能架构设计。该模型具备强大的语义理解与指令遵循能力，广泛应用于各类复杂的交互任务。用户可通过 z.ai 提供的 API 接口直接调用，支持多种生产环境下的文本生成、信息抽取与多轮对话场景。",
+      "source_description": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-11/03-zai-org-glm-5-2.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/03-zai-org-glm-5-2.png"
+    },
+    {
+      "id": "hf-2026-07-11-04",
+      "rank": 4,
+      "name": "InternScience/Agents-A1",
+      "description": "Agents-A1 是 InternScience 推出的一款轻量化高性能模型。该模型仅拥有 35B 参数，却通过先进的训练策略达到了通常仅见于万亿参数模型的性能水平。它专注于智能体应用领域，擅长处理复杂的任务规划与执行，是追求高性能与算力成本平衡的理想选择。",
+      "source_description": "Agents-A1: Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+      "url": "https://huggingface.co/InternScience/Agents-A1",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-11/04-internscience-agents-a1.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/04-internscience-agents-a1.png"
+    },
+    {
+      "id": "hf-2026-07-11-05",
+      "rank": 5,
+      "name": "baidu/Unlimited-OCR",
+      "description": "Unlimited-OCR 是百度推出的高精度光学字符识别模型。该模型专门优化了对复杂文档、手写体以及多语种场景的识别能力，能够快速将图像内容转化为结构化文本数据。适用于财务票据识别、文档数字化归档以及各类自动化信息提取工作，是企业处理海量图形化业务数据的高效工具。",
+      "source_description": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-11/05-baidu-unlimited-ocr.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-11/05-baidu-unlimited-ocr.png"
+    }
+  ]
+}
