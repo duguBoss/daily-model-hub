@@ -1,20 +1,20 @@
 {
-  "recordDate": "2026-07-11",
+  "recordDate": "2026-07-12",
   "source": "https://huggingface.co/models?sort=trending",
   "limit": 5,
   "models": [
     {
       "rank": 1,
-      "recordDate": "2026-07-11",
-      "modelCard": "assets/huggingface_model_cards/2026-07-11/01-tencent-hy3.png",
+      "recordDate": "2026-07-12",
+      "modelCard": "assets/huggingface_model_cards/2026-07-12/01-tencent-hy3.png",
       "modelName": "tencent/Hy3",
-      "modelDescription": "腾讯发布的Hy3模型。该模型主要关注模型在特定任务上的表现与部署效率。作为腾讯AI技术栈的一部分，它旨在为开发者提供高效的底层语言理解与生成支持，适用于构建各类企业级AI应用及自动化处理工具，通过优化的架构提升实际推理场景的响应速度。",
+      "modelDescription": "Hy3是由腾讯推出的模型，旨在提供高效的生成式能力。该模型支持中文与英文双语处理，能够执行多种复杂的文本生成与理解任务。其设计定位为通用型基座模型，适用于多种自然语言处理场景，通过优化算法提升了模型在不同应用环境下的推理性能与响应速度，是构建智能化对话系统或内容创作工具的重要技术底座。",
       "sourceDescription": "<p align=\"left\"> <a href=\"https://huggingface.co/tencent/Hy3/blob/main/README CN.md\">中文</a>&nbsp;｜&nbsp;English </p> <br>",
       "modelUrl": "https://huggingface.co/tencent/Hy3",
       "cardSummary": "",
       "author": "tencent",
-      "downloads": 6923,
-      "likes": 663,
+      "downloads": 8210,
+      "likes": 697,
       "pipelineTag": "text-generation",
       "lastModified": "2026-07-06T14:09:24.000Z",
       "numParameters": 298786155776,
@@ -22,16 +22,16 @@
     },
     {
       "rank": 2,
-      "recordDate": "2026-07-11",
-      "modelCard": "assets/huggingface_model_cards/2026-07-11/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+      "recordDate": "2026-07-12",
+      "modelCard": "assets/huggingface_model_cards/2026-07-12/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
       "modelName": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "modelDescription": "Qwythos-9B-Claude-Mythos-5-1M 是一款基于 9B 参数规模的微调模型，支持超长上下文（1M）处理能力。该模型采用 GGUF 格式封装，便于在消费级显卡或本地设备上进行推理。它在创意写作、角色扮演及长文本分析任务中表现出色，适合需要处理海量信息的个人开发者与爱好者使用。",
+      "modelDescription": "Qwythos-9B-Claude-Mythos-5-1M是以9B参数为基础的轻量化模型，采用GGUF格式发布，旨在提升模型在本地端部署时的内存效率。该模型通过特定的微调策略，针对特定逻辑与创意叙事任务进行了优化，适合在个人计算机或受限算力环境下运行，主要用于提供流畅的对话交互、文本辅助创作及逻辑推理等相关辅助工作。",
       "sourceDescription": "<p align=\"center\"> <img src=\"https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M/resolve/main/assets/qwythos.png\" alt=\"Qwythos-9B\" width=\"640\"/> </p>",
       "modelUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
       "cardSummary": "",
       "author": "empero-ai",
-      "downloads": 1909705,
-      "likes": 1973,
+      "downloads": 1944961,
+      "likes": 2008,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-06-28T17:05:20.000Z",
       "numParameters": 8953803264,
@@ -39,16 +39,16 @@
     },
     {
       "rank": 3,
-      "recordDate": "2026-07-11",
-      "modelCard": "assets/huggingface_model_cards/2026-07-11/03-zai-org-glm-5-2.png",
+      "recordDate": "2026-07-12",
+      "modelCard": "assets/huggingface_model_cards/2026-07-12/03-zai-org-glm-5-2.png",
       "modelName": "zai-org/GLM-5.2",
-      "modelDescription": "GLM-5.2 是由 zai-org 开发的新一代大语言模型，延续了 GLM 系列的高性能架构设计。该模型具备强大的语义理解与指令遵循能力，广泛应用于各类复杂的交互任务。用户可通过 z.ai 提供的 API 接口直接调用，支持多种生产环境下的文本生成、信息抽取与多轮对话场景。",
+      "modelDescription": "GLM-5.2是由Zai组织研发的新一代大语言模型，具备更强的逻辑推理与长文本理解能力。该模型作为GLM-5系列的升级版本，优化了语义解析的准确性与跨任务迁移能力，提供完善的API调用接口。适用于企业级知识库管理、自动化办公助手以及需要深度语义理解的复杂交互应用场景，用户可通过官方平台或API快速集成。",
       "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
       "modelUrl": "https://huggingface.co/zai-org/GLM-5.2",
       "cardSummary": "",
       "author": "zai-org",
-      "downloads": 392655,
-      "likes": 3781,
+      "downloads": 421270,
+      "likes": 3829,
       "pipelineTag": "text-generation",
       "lastModified": "2026-07-02T08:08:14.000Z",
       "numParameters": 753329940480,
@@ -64,9 +64,9 @@
             "toolCalling": true
           },
           "isCheapestPricingOutput": false,
-          "isFastestThroughput": true,
+          "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 78.59989456305682
+          "tokensPerSecond": 52.58839947597048
         },
         {
           "provider": "zai-org",
@@ -81,11 +81,11 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": true,
-          "tokensPerSecond": 43.26488061447736
+          "tokensPerSecond": 45.238121164058704
         },
         {
           "provider": "together",
-          "modelStatus": "error",
+          "modelStatus": "live",
           "providerStatus": "live",
           "providerId": "zai-org/GLM-5.2",
           "task": "conversational",
@@ -94,9 +94,9 @@
             "toolCalling": true
           },
           "isCheapestPricingOutput": false,
-          "isFastestThroughput": false,
+          "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 88.69328876400016,
+          "tokensPerSecond": 69.91399853603897,
           "pricingOutput": 4.4
         },
         {
@@ -112,7 +112,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 35.40907227542581,
+          "tokensPerSecond": 38.64087726884775,
           "pricingOutput": 4.4
         },
         {
@@ -128,7 +128,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 45.498954909567,
+          "tokensPerSecond": 58.03415563188214,
           "pricingOutput": 4.4
         },
         {
@@ -154,23 +154,23 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 24.970726339648323,
+          "tokensPerSecond": 30.080705715481553,
           "pricingOutput": 2.9999999999999996
         }
       ]
     },
     {
       "rank": 4,
-      "recordDate": "2026-07-11",
-      "modelCard": "assets/huggingface_model_cards/2026-07-11/04-internscience-agents-a1.png",
+      "recordDate": "2026-07-12",
+      "modelCard": "assets/huggingface_model_cards/2026-07-12/04-internscience-agents-a1.png",
       "modelName": "InternScience/Agents-A1",
-      "modelDescription": "Agents-A1 是 InternScience 推出的一款轻量化高性能模型。该模型仅拥有 35B 参数，却通过先进的训练策略达到了通常仅见于万亿参数模型的性能水平。它专注于智能体应用领域，擅长处理复杂的任务规划与执行，是追求高性能与算力成本平衡的理想选择。",
+      "modelDescription": "Agents-A1是一款参数量为35B的智能体模型，通过特殊的架构优化策略，宣称实现了等同于万亿参数模型的性能表现。该模型聚焦于复杂任务的自主执行与长程规划能力，旨在降低计算资源需求的同时，保持顶级的逻辑决策与多步推理效率，非常适合需要高算力协作与自主智能代理的研发与科研领域。",
       "sourceDescription": "Agents-A1: Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
       "modelUrl": "https://huggingface.co/InternScience/Agents-A1",
       "cardSummary": "",
       "author": "InternScience",
-      "downloads": 25772,
-      "likes": 467,
+      "downloads": 28141,
+      "likes": 491,
       "pipelineTag": "text-generation",
       "lastModified": "2026-07-09T01:14:45.000Z",
       "numParameters": 35107181936,
@@ -178,20 +178,31 @@
     },
     {
       "rank": 5,
-      "recordDate": "2026-07-11",
-      "modelCard": "assets/huggingface_model_cards/2026-07-11/05-baidu-unlimited-ocr.png",
-      "modelName": "baidu/Unlimited-OCR",
-      "modelDescription": "Unlimited-OCR 是百度推出的高精度光学字符识别模型。该模型专门优化了对复杂文档、手写体以及多语种场景的识别能力，能够快速将图像内容转化为结构化文本数据。适用于财务票据识别、文档数字化归档以及各类自动化信息提取工作，是企业处理海量图形化业务数据的高效工具。",
-      "sourceDescription": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
-      "modelUrl": "https://huggingface.co/baidu/Unlimited-OCR",
+      "recordDate": "2026-07-12",
+      "modelCard": "assets/huggingface_model_cards/2026-07-12/05-bottlecapai-thinkingcap-qwen3-6-27b.png",
+      "modelName": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+      "modelDescription": "ThinkingCap-Qwen3.6-27B是基于Qwen系列架构构建的27B参数模型，强调强化模型的逻辑思维与深度分析能力。该模型通过优化训练流程，显著增强了解决数学、代码及复杂推理问题的准确性。适合对逻辑严谨性有较高要求的专业工作流，如技术方案设计、数据分析及深度决策辅助，是平衡模型大小与推理表现的优选。",
+      "sourceDescription": "<a href=\"https://www.bottlecapai.com/\"><img src=\"cap header.png\" alt=\"ThinkingCap — BottleCap AI\" width=\"100%\"></a>",
+      "modelUrl": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
       "cardSummary": "",
-      "author": "baidu",
-      "downloads": 1319683,
-      "likes": 1921,
+      "author": "bottlecapai",
+      "downloads": 4128,
+      "likes": 234,
       "pipelineTag": "image-text-to-text",
-      "lastModified": "2026-07-03T05:15:09.000Z",
-      "numParameters": 3336106240,
-      "availableInferenceProviders": []
+      "lastModified": "2026-07-10T13:15:25.000Z",
+      "numParameters": 27356728560,
+      "availableInferenceProviders": [
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
     }
   ]
 }
