@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-13",
+  "title": "🔥Hy3重磅发布腾讯发布的模能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/01-tencent-hy3.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/03-zai-org-glm-5-2.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/04-bottlecapai-thinkingcap-qwen3-6-27b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/05-internscience-agents-a1.png"
+  ],
+  "songs": [
+    {
+      "name": "Hy3",
+      "artist": "tencent"
+    },
+    {
+      "name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "artist": "empero-ai"
+    },
+    {
+      "name": "GLM-5.2",
+      "artist": "zai-org"
+    },
+    {
+      "name": "ThinkingCap-Qwen3.6-27B",
+      "artist": "bottlecapai"
+    },
+    {
+      "name": "Agents-A1",
+      "artist": "InternScience"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-07-13 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/01-tencent-hy3.png\" alt=\"tencent/Hy3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">tencent/Hy3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">腾讯发布的Hy3模型。该模型致力于提供高效的计算与推理能力，支持多种自然语言处理任务。其设计旨在平衡模型规模与性能，适用于需要高性能语言理解和生成的生产环境，开发者可通过Hugging Face平台获取详细的中文技术文档与模型资源，以支持相关领域的应用开发。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png\" alt=\"empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwythos-9B-Claude-Mythos-5-1M是由empero-ai开发的一款9B参数量模型，提供GGUF格式以支持本地化部署。该模型主要用于文本生成与对话任务，具备较长的上下文处理能力。目前该系列已更新至v2版本，建议开发者根据具体需求选择最新版本以获得更优的逻辑连贯性与表现。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/03-zai-org-glm-5-2.png\" alt=\"zai-org/GLM-5.2\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">zai-org/GLM-5.2</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">GLM-5.2是zai-org推出的GLM系列高性能语言模型。该模型在技术报告中展示了优化的架构设计，具备强大的逻辑推演与长文本处理能力。开发者可通过Z.ai平台调用API服务或直接进行线上体验。该模型定位于企业级AI解决方案，适用于复杂知识库问答及多轮对话场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/04-bottlecapai-thinkingcap-qwen3-6-27b.png\" alt=\"bottlecapai/ThinkingCap-Qwen3.6-27B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">bottlecapai/ThinkingCap-Qwen3.6-27B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">ThinkingCap-Qwen3.6-27B是基于Qwen3.6系列微调而成的27B参数模型，由BottleCap AI维护。该模型通过特殊的策略优化，旨在增强推理与思维链引导能力，能够胜任复杂的逻辑分析与编程任务，适用于对响应质量和推理深度有较高要求的开发与研究场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/05-internscience-agents-a1.png\" alt=\"InternScience/Agents-A1\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">InternScience/Agents-A1</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Agents-A1是由InternScience开发的一款35B参数智能代理模型。该模型主打以有限的参数规模实现对标万亿参数模型的性能表现，通过优化代理架构提升任务执行效率。其核心定位是智能体协作与复杂规划，旨在通过高效的参数利用率解决长程任务推理的难题。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-07-12T22:51:35.839316"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/tencent/Hy3",
+    "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+    "https://huggingface.co/zai-org/GLM-5.2",
+    "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+    "https://huggingface.co/InternScience/Agents-A1"
+  ],
+  "new_urls": [
+    "https://huggingface.co/tencent/Hy3",
+    "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+    "https://huggingface.co/zai-org/GLM-5.2",
+    "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+    "https://huggingface.co/InternScience/Agents-A1"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-07-13-01",
+      "rank": 1,
+      "name": "tencent/Hy3",
+      "description": "腾讯发布的Hy3模型。该模型致力于提供高效的计算与推理能力，支持多种自然语言处理任务。其设计旨在平衡模型规模与性能，适用于需要高性能语言理解和生成的生产环境，开发者可通过Hugging Face平台获取详细的中文技术文档与模型资源，以支持相关领域的应用开发。",
+      "source_description": "<p align=\"left\"> <a href=\"https://huggingface.co/tencent/Hy3/blob/main/README CN.md\">中文</a>&nbsp;｜&nbsp;English </p> <br>",
+      "url": "https://huggingface.co/tencent/Hy3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-13/01-tencent-hy3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/01-tencent-hy3.png"
+    },
+    {
+      "id": "hf-2026-07-13-02",
+      "rank": 2,
+      "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "description": "Qwythos-9B-Claude-Mythos-5-1M是由empero-ai开发的一款9B参数量模型，提供GGUF格式以支持本地化部署。该模型主要用于文本生成与对话任务，具备较长的上下文处理能力。目前该系列已更新至v2版本，建议开发者根据具体需求选择最新版本以获得更优的逻辑连贯性与表现。",
+      "source_description": "We have release a version 2 of Qwythos here: empero-ai/Qwythos-9B-v2 or empero-ai/Qwythos-9B-v2-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-13/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png"
+    },
+    {
+      "id": "hf-2026-07-13-03",
+      "rank": 3,
+      "name": "zai-org/GLM-5.2",
+      "description": "GLM-5.2是zai-org推出的GLM系列高性能语言模型。该模型在技术报告中展示了优化的架构设计，具备强大的逻辑推演与长文本处理能力。开发者可通过Z.ai平台调用API服务或直接进行线上体验。该模型定位于企业级AI解决方案，适用于复杂知识库问答及多轮对话场景。",
+      "source_description": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-13/03-zai-org-glm-5-2.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/03-zai-org-glm-5-2.png"
+    },
+    {
+      "id": "hf-2026-07-13-04",
+      "rank": 4,
+      "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+      "description": "ThinkingCap-Qwen3.6-27B是基于Qwen3.6系列微调而成的27B参数模型，由BottleCap AI维护。该模型通过特殊的策略优化，旨在增强推理与思维链引导能力，能够胜任复杂的逻辑分析与编程任务，适用于对响应质量和推理深度有较高要求的开发与研究场景。",
+      "source_description": "<a href=\"https://www.bottlecapai.com/\"><img src=\"cap header.png\" alt=\"ThinkingCap — BottleCap AI\" width=\"100%\"></a>",
+      "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-13/04-bottlecapai-thinkingcap-qwen3-6-27b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/04-bottlecapai-thinkingcap-qwen3-6-27b.png"
+    },
+    {
+      "id": "hf-2026-07-13-05",
+      "rank": 5,
+      "name": "InternScience/Agents-A1",
+      "description": "Agents-A1是由InternScience开发的一款35B参数智能代理模型。该模型主打以有限的参数规模实现对标万亿参数模型的性能表现，通过优化代理架构提升任务执行效率。其核心定位是智能体协作与复杂规划，旨在通过高效的参数利用率解决长程任务推理的难题。",
+      "source_description": "Agents-A1: Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+      "url": "https://huggingface.co/InternScience/Agents-A1",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-13/05-internscience-agents-a1.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-13/05-internscience-agents-a1.png"
+    }
+  ]
+}
