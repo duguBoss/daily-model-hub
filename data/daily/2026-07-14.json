@@ -1,20 +1,20 @@
 {
-  "recordDate": "2026-07-13",
+  "recordDate": "2026-07-14",
   "source": "https://huggingface.co/models?sort=trending",
   "limit": 5,
   "models": [
     {
       "rank": 1,
-      "recordDate": "2026-07-13",
-      "modelCard": "assets/huggingface_model_cards/2026-07-13/01-tencent-hy3.png",
+      "recordDate": "2026-07-14",
+      "modelCard": "assets/huggingface_model_cards/2026-07-14/01-tencent-hy3.png",
       "modelName": "tencent/Hy3",
-      "modelDescription": "腾讯发布的Hy3模型。该模型致力于提供高效的计算与推理能力，支持多种自然语言处理任务。其设计旨在平衡模型规模与性能，适用于需要高性能语言理解和生成的生产环境，开发者可通过Hugging Face平台获取详细的中文技术文档与模型资源，以支持相关领域的应用开发。",
+      "modelDescription": "腾讯发布的Hy3模型，旨在为各类人工智能应用提供基础支持。该模型专注于中文语境下的自然语言处理能力，通过腾讯的技术积累，优化了语义理解与生成质量，适用于智能对话、文本分析及内容创作等多种场景，旨在提升大模型的中文处理效率与交互体验。",
       "sourceDescription": "<p align=\"left\"> <a href=\"https://huggingface.co/tencent/Hy3/blob/main/README CN.md\">中文</a>&nbsp;｜&nbsp;English </p> <br>",
       "modelUrl": "https://huggingface.co/tencent/Hy3",
       "cardSummary": "",
       "author": "tencent",
-      "downloads": 8655,
-      "likes": 717,
+      "downloads": 9157,
+      "likes": 754,
       "pipelineTag": "text-generation",
       "lastModified": "2026-07-06T14:09:24.000Z",
       "numParameters": 298786155776,
@@ -22,16 +22,16 @@
     },
     {
       "rank": 2,
-      "recordDate": "2026-07-13",
-      "modelCard": "assets/huggingface_model_cards/2026-07-13/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+      "recordDate": "2026-07-14",
+      "modelCard": "assets/huggingface_model_cards/2026-07-14/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
       "modelName": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "modelDescription": "Qwythos-9B-Claude-Mythos-5-1M是由empero-ai开发的一款9B参数量模型，提供GGUF格式以支持本地化部署。该模型主要用于文本生成与对话任务，具备较长的上下文处理能力。目前该系列已更新至v2版本，建议开发者根据具体需求选择最新版本以获得更优的逻辑连贯性与表现。",
+      "modelDescription": "Qwythos-9B-Claude-Mythos-5-1M-GGUF是基于特定量化格式封装的模型，专为低资源环境及边缘端推理设计。该模型通过Mythos相关优化，支持长上下文处理，主要用于各类创意写作、角色扮演以及文本生成任务。用户可利用GGUF格式在消费级硬件上快速部署并运行，以获取灵活的推理体验。",
       "sourceDescription": "We have release a version 2 of Qwythos here: empero-ai/Qwythos-9B-v2 or empero-ai/Qwythos-9B-v2-GGUF",
       "modelUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
       "cardSummary": "",
       "author": "empero-ai",
-      "downloads": 1967677,
-      "likes": 2043,
+      "downloads": 1985221,
+      "likes": 2080,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-07-12T00:57:41.000Z",
       "numParameters": 8953803264,
@@ -39,35 +39,20 @@
     },
     {
       "rank": 3,
-      "recordDate": "2026-07-13",
-      "modelCard": "assets/huggingface_model_cards/2026-07-13/03-zai-org-glm-5-2.png",
+      "recordDate": "2026-07-14",
+      "modelCard": "assets/huggingface_model_cards/2026-07-14/03-zai-org-glm-5-2.png",
       "modelName": "zai-org/GLM-5.2",
-      "modelDescription": "GLM-5.2是zai-org推出的GLM系列高性能语言模型。该模型在技术报告中展示了优化的架构设计，具备强大的逻辑推演与长文本处理能力。开发者可通过Z.ai平台调用API服务或直接进行线上体验。该模型定位于企业级AI解决方案，适用于复杂知识库问答及多轮对话场景。",
+      "modelDescription": "GLM-5.2是由zai-org开发的一款高性能通用大语言模型。作为GLM系列的重要迭代，该模型在逻辑推理、知识储备及指令遵循方面进行了显著增强。它提供API服务及在线测试平台，广泛适用于企业级自动化办公、复杂任务处理及智能助手开发，体现了在多模态理解与生成方面的技术进步。",
       "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
       "modelUrl": "https://huggingface.co/zai-org/GLM-5.2",
       "cardSummary": "",
       "author": "zai-org",
-      "downloads": 441413,
-      "likes": 3854,
+      "downloads": 464914,
+      "likes": 3896,
       "pipelineTag": "text-generation",
       "lastModified": "2026-07-02T08:08:14.000Z",
       "numParameters": 753329940480,
       "availableInferenceProviders": [
-        {
-          "provider": "scaleway",
-          "modelStatus": "live",
-          "providerStatus": "live",
-          "providerId": "glm-5.2",
-          "task": "conversational",
-          "features": {
-            "structuredOutput": false,
-            "toolCalling": true
-          },
-          "isCheapestPricingOutput": false,
-          "isFastestThroughput": false,
-          "isModelAuthor": false,
-          "tokensPerSecond": 96.78730143836673
-        },
         {
           "provider": "zai-org",
           "modelStatus": "live",
@@ -81,7 +66,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": true,
-          "tokensPerSecond": 45.04044602375568
+          "tokensPerSecond": 40.939612647865886
         },
         {
           "provider": "together",
@@ -96,8 +81,23 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 99.4910620915737,
+          "tokensPerSecond": 96.51374807504021,
           "pricingOutput": 4.4
+        },
+        {
+          "provider": "scaleway",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "glm-5.2",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 86.85097895061672
         },
         {
           "provider": "novita",
@@ -112,7 +112,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 40.38935911928831,
+          "tokensPerSecond": 31.52798937102272,
           "pricingOutput": 4.4
         },
         {
@@ -128,7 +128,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 68.11683200033036,
+          "tokensPerSecond": 48.760008536591215,
           "pricingOutput": 4.4
         },
         {
@@ -154,23 +154,23 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 42.28261175353473,
+          "tokensPerSecond": 32.05833946420223,
           "pricingOutput": 2.9999999999999996
         }
       ]
     },
     {
       "rank": 4,
-      "recordDate": "2026-07-13",
-      "modelCard": "assets/huggingface_model_cards/2026-07-13/04-bottlecapai-thinkingcap-qwen3-6-27b.png",
+      "recordDate": "2026-07-14",
+      "modelCard": "assets/huggingface_model_cards/2026-07-14/04-bottlecapai-thinkingcap-qwen3-6-27b.png",
       "modelName": "bottlecapai/ThinkingCap-Qwen3.6-27B",
-      "modelDescription": "ThinkingCap-Qwen3.6-27B是基于Qwen3.6系列微调而成的27B参数模型，由BottleCap AI维护。该模型通过特殊的策略优化，旨在增强推理与思维链引导能力，能够胜任复杂的逻辑分析与编程任务，适用于对响应质量和推理深度有较高要求的开发与研究场景。",
+      "modelDescription": "ThinkingCap-Qwen3.6-27B是一款基于Qwen架构深度定制的模型，由BottleCap AI优化。该模型参数量为27B，强调思维链（CoT）推理能力，旨在解决复杂的逻辑任务、编码及深层分析工作。适合需要高精度推理和复杂问题求解的专业用户，能够在科研探索、高级代码编写及复杂决策场景中发挥重要作用。",
       "sourceDescription": "<a href=\"https://www.bottlecapai.com/\"><img src=\"cap header.png\" alt=\"ThinkingCap — BottleCap AI\" width=\"100%\"></a>",
       "modelUrl": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
       "cardSummary": "",
       "author": "bottlecapai",
-      "downloads": 4463,
-      "likes": 260,
+      "downloads": 4909,
+      "likes": 304,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-07-10T13:15:25.000Z",
       "numParameters": 27356728560,
@@ -189,19 +189,19 @@
     },
     {
       "rank": 5,
-      "recordDate": "2026-07-13",
-      "modelCard": "assets/huggingface_model_cards/2026-07-13/05-internscience-agents-a1.png",
-      "modelName": "InternScience/Agents-A1",
-      "modelDescription": "Agents-A1是由InternScience开发的一款35B参数智能代理模型。该模型主打以有限的参数规模实现对标万亿参数模型的性能表现，通过优化代理架构提升任务执行效率。其核心定位是智能体协作与复杂规划，旨在通过高效的参数利用率解决长程任务推理的难题。",
-      "sourceDescription": "Agents-A1: Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
-      "modelUrl": "https://huggingface.co/InternScience/Agents-A1",
+      "recordDate": "2026-07-14",
+      "modelCard": "assets/huggingface_model_cards/2026-07-14/05-conradlocke-krea2-identity-edit.png",
+      "modelName": "conradlocke/krea2-identity-edit",
+      "modelDescription": "Krea2-identity-edit是一款专注于图像编辑的专业工具，旨在实现精准的身份保留与局部修改。版本v1.1改进了人脸相似度与编辑区域约束，在保持构图稳定性方面表现出色，特别适用于双人图像处理及精细的对象替换任务。开发者推荐在1-1.5MP分辨率下使用，并提供不同秩的量化版本以适配低显存需求。",
+      "sourceDescription": "v1.1 (recommended): krea2 identity edit v1 1.safetensors — substantially improved face likeness and image fidelity, much stronger edit locality (camera, pose, and untouched elements stay fixed far more reliably), better two-person identity separation, more reliable object remove/replace, better compound outfit-change compliance, corrected reference geometry handling. One honest regression: person -replacement (\"replace the woman with an orangutan\") is currently weaker than v1 — keep v1 for that use case until v1.2. No high-resolution adaptation pass yet: at high resolutions (especially two-person edits) identities can bleed together — prefer 1–1.5MP and upscale. v1 remains available for workflow reproducibility. Low-VRAM variants: ... v1 1 r128.safetensors (0.91GB) and ... v1 1 r64.safetensors (0.46GB) — SVD rank-reduced from v1.1, near-identical quality.",
+      "modelUrl": "https://huggingface.co/conradlocke/krea2-identity-edit",
       "cardSummary": "",
-      "author": "InternScience",
-      "downloads": 29038,
-      "likes": 507,
-      "pipelineTag": "text-generation",
-      "lastModified": "2026-07-09T01:14:45.000Z",
-      "numParameters": 35107181936,
+      "author": "conradlocke",
+      "downloads": 0,
+      "likes": 251,
+      "pipelineTag": "",
+      "lastModified": "2026-07-09T13:51:08.000Z",
+      "numParameters": null,
       "availableInferenceProviders": []
     }
   ]
