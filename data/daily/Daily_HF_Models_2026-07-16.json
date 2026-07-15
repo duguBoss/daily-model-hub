@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-16",
+  "title": "🔥Ternary重磅发布是一款采用三能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/01-prism-ml-ternary-bonsai-27b-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/03-thinkingmachines-inkling.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/04-zai-org-glm-5-2.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/05-prism-ml-bonsai-27b-gguf.png"
+  ],
+  "songs": [
+    {
+      "name": "Ternary-Bonsai-27B-gguf",
+      "artist": "prism-ml"
+    },
+    {
+      "name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "artist": "empero-ai"
+    },
+    {
+      "name": "Inkling",
+      "artist": "thinkingmachines"
+    },
+    {
+      "name": "GLM-5.2",
+      "artist": "zai-org"
+    },
+    {
+      "name": "Bonsai-27B-gguf",
+      "artist": "prism-ml"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-07-16 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/01-prism-ml-ternary-bonsai-27b-gguf.png\" alt=\"prism-ml/Ternary-Bonsai-27B-gguf\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">prism-ml/Ternary-Bonsai-27B-gguf</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Ternary-Bonsai-27B-gguf 是一款采用三元权重量化技术的 27B 参数规模模型。通过 GGUF 格式封装，该模型旨在降低推理时的内存需求，同时平衡性能表现，适合在资源受限的环境下进行本地大语言模型部署，主要用于各类复杂的逻辑推理与自然语言生成任务。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png\" alt=\"empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwythos-9B-Claude-Mythos-5-1M 是一款基于 9B 参数规模构建的微调模型，支持高达 1M token 的长上下文处理能力。该模型采用 GGUF 量化格式，能够高效适配多种硬件平台，旨在提供流畅的文本生成与长文本分析体验，适用于需要大容量上下文记忆的创意写作或资料整理场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/03-thinkingmachines-inkling.png\" alt=\"thinkingmachines/Inkling\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">thinkingmachines/Inkling</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Inkling 是由 Thinking Machines 开发的大语言模型。该模型定位于提供高质量的通用文本处理能力，旨在为用户提供准确、高效的对话交互体验。其设计初衷是助力开发者与研究人员处理各类自然语言任务，通过简洁高效的架构适配多种下游应用，以支持自动化办公与内容生产需求。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/04-zai-org-glm-5-2.png\" alt=\"zai-org/GLM-5.2\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">zai-org/GLM-5.2</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">GLM-5.2 是 zai-org 推出的新一代大语言模型，具备出色的通用智力与逻辑推理能力。该模型已配套完善的技术报告，并提供 API 与在线对话平台，支持广泛的开发者集成。它在处理复杂指令、多模态任务及跨语言理解方面表现稳健，适用于企业级知识库、智能助手及各类自动化应用场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/05-prism-ml-bonsai-27b-gguf.png\" alt=\"prism-ml/Bonsai-27B-gguf\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">prism-ml/Bonsai-27B-gguf</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Bonsai-27B-gguf 是一款拥有 270 亿参数的中型大语言模型，并以 GGUF 格式进行发布。该模型在保持较高模型容量的同时，通过量化手段优化了推理效率，使其能够在个人高性能设备上运行。其定位为通用任务助手，适用于长篇内容撰写、复杂代码编写及深度语义理解等对性能有一定要求的任务。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-07-15T22:59:01.031776"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+    "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+    "https://huggingface.co/thinkingmachines/Inkling",
+    "https://huggingface.co/zai-org/GLM-5.2",
+    "https://huggingface.co/prism-ml/Bonsai-27B-gguf"
+  ],
+  "new_urls": [
+    "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+    "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+    "https://huggingface.co/thinkingmachines/Inkling",
+    "https://huggingface.co/zai-org/GLM-5.2",
+    "https://huggingface.co/prism-ml/Bonsai-27B-gguf"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-07-16-01",
+      "rank": 1,
+      "name": "prism-ml/Ternary-Bonsai-27B-gguf",
+      "description": "Ternary-Bonsai-27B-gguf 是一款采用三元权重量化技术的 27B 参数规模模型。通过 GGUF 格式封装，该模型旨在降低推理时的内存需求，同时平衡性能表现，适合在资源受限的环境下进行本地大语言模型部署，主要用于各类复杂的逻辑推理与自然语言生成任务。",
+      "source_description": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-16/01-prism-ml-ternary-bonsai-27b-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/01-prism-ml-ternary-bonsai-27b-gguf.png"
+    },
+    {
+      "id": "hf-2026-07-16-02",
+      "rank": 2,
+      "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "description": "Qwythos-9B-Claude-Mythos-5-1M 是一款基于 9B 参数规模构建的微调模型，支持高达 1M token 的长上下文处理能力。该模型采用 GGUF 量化格式，能够高效适配多种硬件平台，旨在提供流畅的文本生成与长文本分析体验，适用于需要大容量上下文记忆的创意写作或资料整理场景。",
+      "source_description": "<p align=\"center\"> <img src=\"https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M/resolve/main/assets/qwythos.png\" alt=\"Qwythos-9B\" width=\"640\"/> </p>",
+      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-16/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/02-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png"
+    },
+    {
+      "id": "hf-2026-07-16-03",
+      "rank": 3,
+      "name": "thinkingmachines/Inkling",
+      "description": "Inkling 是由 Thinking Machines 开发的大语言模型。该模型定位于提供高质量的通用文本处理能力，旨在为用户提供准确、高效的对话交互体验。其设计初衷是助力开发者与研究人员处理各类自然语言任务，通过简洁高效的架构适配多种下游应用，以支持自动化办公与内容生产需求。",
+      "source_description": "<img src=\"https://cdn-uploads.huggingface.co/production/uploads/630e8f0bf6f6d700f50ebd2e/AvmDwmrWRMnKjOWvmLieg.png\" style=\"display: block;margin-left: auto;margin-right: auto;width: 30%;\">",
+      "url": "https://huggingface.co/thinkingmachines/Inkling",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-16/03-thinkingmachines-inkling.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/03-thinkingmachines-inkling.png"
+    },
+    {
+      "id": "hf-2026-07-16-04",
+      "rank": 4,
+      "name": "zai-org/GLM-5.2",
+      "description": "GLM-5.2 是 zai-org 推出的新一代大语言模型，具备出色的通用智力与逻辑推理能力。该模型已配套完善的技术报告，并提供 API 与在线对话平台，支持广泛的开发者集成。它在处理复杂指令、多模态任务及跨语言理解方面表现稳健，适用于企业级知识库、智能助手及各类自动化应用场景。",
+      "source_description": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-16/04-zai-org-glm-5-2.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/04-zai-org-glm-5-2.png"
+    },
+    {
+      "id": "hf-2026-07-16-05",
+      "rank": 5,
+      "name": "prism-ml/Bonsai-27B-gguf",
+      "description": "Bonsai-27B-gguf 是一款拥有 270 亿参数的中型大语言模型，并以 GGUF 格式进行发布。该模型在保持较高模型容量的同时，通过量化手段优化了推理效率，使其能够在个人高性能设备上运行。其定位为通用任务助手，适用于长篇内容撰写、复杂代码编写及深度语义理解等对性能有一定要求的任务。",
+      "source_description": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
+      "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-16/05-prism-ml-bonsai-27b-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-16/05-prism-ml-bonsai-27b-gguf.png"
+    }
+  ]
+}
