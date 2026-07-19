@@ -1,22 +1,22 @@
 {
-  "recordDate": "2026-07-19",
+  "recordDate": "2026-07-20",
   "source": "https://huggingface.co/models?sort=trending",
   "limit": 5,
   "models": [
     {
       "rank": 1,
-      "recordDate": "2026-07-19",
-      "modelCard": "assets/huggingface_model_cards/2026-07-19/01-thinkingmachines-inkling.png",
+      "recordDate": "2026-07-20",
+      "modelCard": "assets/huggingface_model_cards/2026-07-20/01-thinkingmachines-inkling.png",
       "modelName": "thinkingmachines/Inkling",
-      "modelDescription": "Thinking Machines推出的Inkling模型。目前该模型缺乏详细的技术文档和公开的性能基准信息，用户应密切关注Hugging Face页面更新，以便了解其实际的能力边界、架构设计以及具体的适用场景，建议在评估后谨慎开展部署应用。",
+      "modelDescription": "Thinking Machines 开发的 Inkling 模型。该模型旨在为特定任务提供支持，作为 Thinking Machines 模型系列的一部分，其主要应用方向为自然语言处理与逻辑推理任务，用户可通过 Hugging Face 获取详细技术规范及相关部署信息。",
       "sourceDescription": "<img src=\"https://cdn-uploads.huggingface.co/production/uploads/630e8f0bf6f6d700f50ebd2e/AvmDwmrWRMnKjOWvmLieg.png\" style=\"display: block;margin-left: auto;margin-right: auto;width: 30%;\">",
       "modelUrl": "https://huggingface.co/thinkingmachines/Inkling",
       "cardSummary": "",
       "author": "thinkingmachines",
-      "downloads": 12456,
-      "likes": 1058,
+      "downloads": 13462,
+      "likes": 1143,
       "pipelineTag": "image-text-to-text",
-      "lastModified": "2026-07-16T15:39:18.000Z",
+      "lastModified": "2026-07-19T17:08:38.000Z",
       "numParameters": 952377623626,
       "availableInferenceProviders": [
         {
@@ -32,23 +32,23 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 62.589856623915935,
+          "tokensPerSecond": 88.74045040937884,
           "pricingOutput": 4.05
         }
       ]
     },
     {
       "rank": 2,
-      "recordDate": "2026-07-19",
-      "modelCard": "assets/huggingface_model_cards/2026-07-19/02-prism-ml-ternary-bonsai-27b-gguf.png",
+      "recordDate": "2026-07-20",
+      "modelCard": "assets/huggingface_model_cards/2026-07-20/02-prism-ml-ternary-bonsai-27b-gguf.png",
       "modelName": "prism-ml/Ternary-Bonsai-27B-gguf",
-      "modelDescription": "Prism-ml提供的Ternary-Bonsai-27B-gguf模型。该版本采用三进制（Ternary）量化技术，旨在优化模型在资源受限环境下的推理表现。GGUF格式使其能够适配llama.cpp等主流推理框架，适用于对显存敏感且追求高效本地部署的任务场景。",
+      "modelDescription": "Prism-ML 推出的 Ternary-Bonsai-27B 模型，以 GGUF 格式发布。该模型利用三进制量化技术，在保持 27B 参数规模模型性能的基础上，显著降低了内存需求和硬件计算门槛，适用于本地化部署及边缘计算场景。",
       "sourceDescription": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
       "modelUrl": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
       "cardSummary": "",
       "author": "prism-ml",
-      "downloads": 301893,
-      "likes": 730,
+      "downloads": 338945,
+      "likes": 790,
       "pipelineTag": "text-generation",
       "lastModified": "2026-07-18T06:05:31.000Z",
       "numParameters": 3645856513,
@@ -66,23 +66,23 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 94.58597430678367,
+          "tokensPerSecond": 82.13815302208448,
           "pricingOutput": 0
         }
       ]
     },
     {
       "rank": 3,
-      "recordDate": "2026-07-19",
-      "modelCard": "assets/huggingface_model_cards/2026-07-19/03-prism-ml-bonsai-27b-gguf.png",
+      "recordDate": "2026-07-20",
+      "modelCard": "assets/huggingface_model_cards/2026-07-20/03-prism-ml-bonsai-27b-gguf.png",
       "modelName": "prism-ml/Bonsai-27B-gguf",
-      "modelDescription": "Prism-ml发布的Bonsai-27B-gguf，是一个基于GGUF格式封装的大型语言模型。得益于其27B参数规模，该模型在逻辑推理和语义理解之间取得了较好的平衡。其GGUF格式极大地方便了在桌面端或消费级显卡上的离线部署，适合开发本地知识库或对话助手。",
+      "modelDescription": "Prism-ML 开发的 Bonsai-27B 模型，提供 GGUF 格式下载。作为一款中等规模的高性能大语言模型，它通过优化架构设计，旨在平衡推理速度与输出质量，非常适合在消费级显卡或本地设备上进行高效运行与交互。",
       "sourceDescription": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
       "modelUrl": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
       "cardSummary": "",
       "author": "prism-ml",
-      "downloads": 1218815,
-      "likes": 441,
+      "downloads": 1262894,
+      "likes": 488,
       "pipelineTag": "text-generation",
       "lastModified": "2026-07-17T16:05:42.000Z",
       "numParameters": 3645856513,
@@ -90,33 +90,16 @@
     },
     {
       "rank": 4,
-      "recordDate": "2026-07-19",
-      "modelCard": "assets/huggingface_model_cards/2026-07-19/04-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
-      "modelName": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "modelDescription": "Qwythos-9B-Claude-Mythos-5-1M-GGUF是一款针对长文本处理优化的轻量级模型。其主要亮点在于支持极长的上下文窗口，通过GGUF格式实现高效推理。该模型适合需要处理长文档分析、复杂叙事生成等需要大容量上下文的任务，在保障推理性能的同时降低了算力开销。",
-      "sourceDescription": "<p align=\"center\"> <img src=\"https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M/resolve/main/assets/qwythos.png\" alt=\"Qwythos-9B\" width=\"640\"/> </p>",
-      "modelUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "cardSummary": "",
-      "author": "empero-ai",
-      "downloads": 2112869,
-      "likes": 2314,
-      "pipelineTag": "image-text-to-text",
-      "lastModified": "2026-07-14T13:12:53.000Z",
-      "numParameters": 8953803264,
-      "availableInferenceProviders": []
-    },
-    {
-      "rank": 5,
-      "recordDate": "2026-07-19",
-      "modelCard": "assets/huggingface_model_cards/2026-07-19/05-zai-org-glm-5-2.png",
+      "recordDate": "2026-07-20",
+      "modelCard": "assets/huggingface_model_cards/2026-07-20/04-zai-org-glm-5-2.png",
       "modelName": "zai-org/GLM-5.2",
-      "modelDescription": "Zai-org发布的GLM-5.2是GLM系列的高性能迭代版本。该模型在对话理解、逻辑推演及多任务处理方面有显著提升，并提供配套的API平台支持。适合企业级应用集成、复杂指令遵循以及需要稳定推理能力的生成式AI应用开发，用户可通过官方平台或社区获取进一步的技术指导。",
+      "modelDescription": "ZAI 组织发布的 GLM-5.2 模型。该模型是 GLM 系列的最新迭代，具备更强的通用语言理解与生成能力，广泛支持多种复杂场景。用户可通过 Z.ai API 平台调用其服务，或查阅技术报告获取深度性能指标与使用建议。",
       "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a> <br> 🔜 Try GLM-5.2 <a href=\"https://chat.z.ai\">here</a>. </p>",
       "modelUrl": "https://huggingface.co/zai-org/GLM-5.2",
       "cardSummary": "",
       "author": "zai-org",
-      "downloads": 541662,
-      "likes": 4125,
+      "downloads": 536177,
+      "likes": 4165,
       "pipelineTag": "text-generation",
       "lastModified": "2026-07-02T08:08:14.000Z",
       "numParameters": 753329940480,
@@ -134,7 +117,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": true,
-          "tokensPerSecond": 50.39620104498634
+          "tokensPerSecond": 48.66310451005627
         },
         {
           "provider": "together",
@@ -147,9 +130,9 @@
             "toolCalling": true
           },
           "isCheapestPricingOutput": false,
-          "isFastestThroughput": true,
+          "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 99.08447699603,
+          "tokensPerSecond": 57.62253727773852,
           "pricingOutput": 4.4
         },
         {
@@ -165,7 +148,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 82.71029186443207,
+          "tokensPerSecond": 76.82960466525348,
           "pricingOutput": 6.27
         },
         {
@@ -181,7 +164,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 34.746737489801276,
+          "tokensPerSecond": 35.973284963527206,
           "pricingOutput": 4.4
         },
         {
@@ -197,7 +180,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 25.963862239892013,
+          "tokensPerSecond": 37.98929642203774,
           "pricingOutput": 4.4
         },
         {
@@ -221,12 +204,29 @@
             "toolCalling": true
           },
           "isCheapestPricingOutput": true,
-          "isFastestThroughput": false,
+          "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 30.322664573591208,
+          "tokensPerSecond": 85.60764452741776,
           "pricingOutput": 2.9999999999999996
         }
       ]
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-07-20",
+      "modelCard": "assets/huggingface_model_cards/2026-07-20/05-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+      "modelName": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "modelDescription": "Empero-AI 发布的 Qwythos-9B-Claude-Mythos 模型（GGUF版本）。该模型基于 9B 参数规模，针对长文本处理和特定叙事逻辑进行了专项训练，支持 1M 上下文窗口，特别适用于创意写作及复杂长文本分析任务。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M/resolve/main/assets/qwythos.png\" alt=\"Qwythos-9B\" width=\"640\"/> </p>",
+      "modelUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "cardSummary": "",
+      "author": "empero-ai",
+      "downloads": 2118995,
+      "likes": 2340,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-14T13:12:53.000Z",
+      "numParameters": 8953803264,
+      "availableInferenceProviders": []
     }
   ]
 }

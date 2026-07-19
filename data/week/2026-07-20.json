@@ -1,0 +1,70 @@
+{
+  "weekRange": {
+    "start": "2026-07-14",
+    "end": "2026-07-20"
+  },
+  "weekTitle": "Hugging Face 每周热点模型精选 (2026-07-20)",
+  "summary": "本周开源社区表现活跃，重点在于量化技术的突破与长文本处理能力的优化。模型在保持高性能的同时，正通过GGUF等格式持续降低本地部署门槛，为开发者提供更轻量且高效的工具，涵盖逻辑推理、创意写作及通用语言模型等多元领域。",
+  "items": [
+    {
+      "modelName": "thinkingmachines/Inkling",
+      "modelUrl": "https://huggingface.co/thinkingmachines/Inkling",
+      "modelCard": "assets/huggingface_model_cards/2026-07-20/01-thinkingmachines-inkling.png",
+      "modelDescription": "Thinking Machines 开发的 Inkling 模型。该模型旨在为特定任务提供支持，作为 Thinking Machines 模型系列的一部分，其主要应用方向为自然语言处理与逻辑推理任务，用户可通过 Hugging Face 获取详细技术规范及相关部署信息。",
+      "pickReason": "本周排名第一的重量级选手。Inkling 在自然语言处理和复杂逻辑推理任务中展现了卓越的性能。作为 Thinking Machines 的核心模型，它通过精细的架构设计，为处理高难度推理场景提供了强有力的支持，是当前社区关注的焦点。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-07-20"
+      ]
+    },
+    {
+      "modelName": "prism-ml/Ternary-Bonsai-27B-gguf",
+      "modelUrl": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+      "modelCard": "assets/huggingface_model_cards/2026-07-20/02-prism-ml-ternary-bonsai-27b-gguf.png",
+      "modelDescription": "Prism-ML 推出的 Ternary-Bonsai-27B 模型，以 GGUF 格式发布。该模型利用三进制量化技术，在保持 27B 参数规模模型性能的基础上，显著降低了内存需求和硬件计算门槛，适用于本地化部署及边缘计算场景。",
+      "pickReason": "该模型通过三进制量化技术实现了内存需求的大幅缩减，在保持 27B 参数性能的前提下，极大地降低了硬件门槛。它为边缘计算和本地化的高性能部署提供了一个极具吸引力的解决方案，是本周量化领域的代表作。",
+      "appearances": 1,
+      "bestRank": 2,
+      "dates": [
+        "2026-07-20"
+      ]
+    },
+    {
+      "modelName": "prism-ml/Bonsai-27B-gguf",
+      "modelUrl": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+      "modelCard": "assets/huggingface_model_cards/2026-07-20/03-prism-ml-bonsai-27b-gguf.png",
+      "modelDescription": "Prism-ML 开发的 Bonsai-27B 模型，提供 GGUF 格式下载。作为一款中等规模的高性能大语言模型，它通过优化架构设计，旨在平衡推理速度与输出质量，非常适合在消费级显卡或本地设备上进行高效运行与交互。",
+      "pickReason": "作为 Bonsai 系列的重要补充，这款 GGUF 格式模型在推理速度与输出质量之间取得了极佳的平衡。其优秀的适配性使得消费级显卡用户也能运行中等规模的高性能模型，极大地拓宽了模型的应用场景与用户群体。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-07-20"
+      ]
+    },
+    {
+      "modelName": "zai-org/GLM-5.2",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-5.2",
+      "modelCard": "assets/huggingface_model_cards/2026-07-20/04-zai-org-glm-5-2.png",
+      "modelDescription": "ZAI 组织发布的 GLM-5.2 模型。该模型是 GLM 系列的最新迭代，具备更强的通用语言理解与生成能力，广泛支持多种复杂场景。用户可通过 Z.ai API 平台调用其服务，或查阅技术报告获取深度性能指标与使用建议。",
+      "pickReason": "GLM 系列的最新迭代产品。GLM-5.2 进一步强化了通用语言理解与生成能力，其配套的技术报告和完备的 API 平台支持，使其成为企业级应用和复杂对话场景中的可靠选择，展现了该组织在该技术路线上的持续深耕。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-07-20"
+      ]
+    },
+    {
+      "modelName": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "modelUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "modelCard": "assets/huggingface_model_cards/2026-07-20/05-empero-ai-qwythos-9b-claude-mythos-5-1m-gguf.png",
+      "modelDescription": "Empero-AI 发布的 Qwythos-9B-Claude-Mythos 模型（GGUF版本）。该模型基于 9B 参数规模，针对长文本处理和特定叙事逻辑进行了专项训练，支持 1M 上下文窗口，特别适用于创意写作及复杂长文本分析任务。",
+      "pickReason": "针对长文本处理任务的利器。该模型支持 1M 超长上下文窗口，在 9B 参数规模下实现了对复杂叙事逻辑的精妙把控，是文学创作者及需要长篇分析任务用户的理想选择，展示了小参数模型在特定垂直领域的潜力。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-07-20"
+      ]
+    }
+  ]
+}
