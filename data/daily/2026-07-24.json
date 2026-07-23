@@ -1,0 +1,142 @@
+{
+  "recordDate": "2026-07-24",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-07-24",
+      "modelCard": "assets/huggingface_model_cards/2026-07-24/01-baidu-unlimited-ocr.png",
+      "modelName": "baidu/Unlimited-OCR",
+      "modelDescription": "百度推出的Unlimited-OCR模型，专注于高精度的文字识别任务。该模型能够处理各种复杂场景下的文档和图像识别，支持长文本与多语言混合提取，旨在为各类办公自动化、数据处理及数字化转型需求提供高效的视觉识别解决方案，具备较强的通用性和部署适应性。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "modelUrl": "https://huggingface.co/baidu/Unlimited-OCR",
+      "cardSummary": "",
+      "author": "baidu",
+      "downloads": 2414259,
+      "likes": 2875,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-23T09:16:19.000Z",
+      "numParameters": 3336106240,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-07-24",
+      "modelCard": "assets/huggingface_model_cards/2026-07-24/02-thinkingmachines-inkling.png",
+      "modelName": "thinkingmachines/Inkling",
+      "modelDescription": "Thinking Machines开发的Inkling模型，是一款专门设计用于高效处理与分析非结构化文本数据的工具。该模型定位于提升自然语言理解任务的准确性，能够帮助开发者快速从大量文档中提取关键信息或进行文本挖掘，适用于知识管理、自动化报告生成及企业级内容分析等场景。",
+      "sourceDescription": "<img src=\"https://cdn-uploads.huggingface.co/production/uploads/630e8f0bf6f6d700f50ebd2e/AvmDwmrWRMnKjOWvmLieg.png\" style=\"display: block;margin-left: auto;margin-right: auto;width: 30%;\">",
+      "modelUrl": "https://huggingface.co/thinkingmachines/Inkling",
+      "cardSummary": "",
+      "author": "thinkingmachines",
+      "downloads": 24669,
+      "likes": 1503,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-23T17:27:17.000Z",
+      "numParameters": 952377623626,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "thinkingmachines/Inkling",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 124.68469478487859,
+          "pricingOutput": 4.05
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "thinkingmachines/Inkling",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 124.86663048333737,
+          "pricingOutput": 4.05
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-07-24",
+      "modelCard": "assets/huggingface_model_cards/2026-07-24/03-poolside-laguna-s-2-1.png",
+      "modelName": "poolside/Laguna-S-2.1",
+      "modelDescription": "Poolside发布的Laguna-S-2.1模型，定位为一款高性能的生成式人工智能，旨在辅助复杂任务处理与内容创作。该模型通过优化架构提升了推理能力与生成质量，适用于代码生成、多轮对话交互及逻辑推理等应用场景，为追求高效能与高准确性的AI开发和应用提供支持。",
+      "sourceDescription": "<p align=\"center\"> <img alt=\"poolside-banner\" src=\"https://poolside.ai/assets/laguna/laguna-s-2-1-banner.svg\" width=\"800px\"> </p>",
+      "modelUrl": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "cardSummary": "",
+      "author": "poolside",
+      "downloads": 13285,
+      "likes": 510,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-22T17:56:57.000Z",
+      "numParameters": 117561977600,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-07-24",
+      "modelCard": "assets/huggingface_model_cards/2026-07-24/04-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "modelName": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "modelDescription": "该模型基于Qwen3.6架构微调，通过特定数据集训练，在ARC-C评测基准中表现出色，突破了同类模型在推理与逻辑方面的瓶颈。作为一款无审查（Uncensored）版本，它更侧重于开放的文本生成与处理，适用于对模型回答内容有特定自由度要求的高级对话及创意任务。",
+      "sourceDescription": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix quants.</small>",
+      "modelUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "cardSummary": "",
+      "author": "DavidAU",
+      "downloads": 334847,
+      "likes": 392,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-20T09:16:52.000Z",
+      "numParameters": 26895998464,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-07-24",
+      "modelCard": "assets/huggingface_model_cards/2026-07-24/05-prism-ml-ternary-bonsai-27b-gguf.png",
+      "modelName": "prism-ml/Ternary-Bonsai-27B-gguf",
+      "modelDescription": "Ternary-Bonsai-27B是一款采用三元权重架构优化的轻量化大语言模型，并以GGUF格式发布，便于在不同硬件设备上高效部署。该模型在保持较强参数规模优势的同时，通过量化技术显著降低了计算资源需求，适用于对本地化推理速度和内存占用有较高要求的各类生成式AI应用。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
+      "modelUrl": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+      "cardSummary": "",
+      "author": "prism-ml",
+      "downloads": 576083,
+      "likes": 980,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-18T06:05:31.000Z",
+      "numParameters": 3645856513,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Prism-ML/Ternary-Bonsai-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 94.0087239538112,
+          "pricingOutput": 0
+        }
+      ]
+    }
+  ]
+}
