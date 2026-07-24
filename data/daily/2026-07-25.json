@@ -1,0 +1,125 @@
+{
+  "recordDate": "2026-07-25",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-07-25",
+      "modelCard": "assets/huggingface_model_cards/2026-07-25/01-baidu-unlimited-ocr.png",
+      "modelName": "baidu/Unlimited-OCR",
+      "modelDescription": "百度推出的Unlimited-OCR模型是一款专注于文字识别任务的深度学习工具。该模型旨在高效处理各类图像中的文字信息，支持高精度的文本提取与解析。其核心能力在于应对复杂的场景化文字识别需求，适用于文档数字化、自动化办公以及图像内容理解等多种实际应用场景，为用户提供稳定且准确的文字转换服务。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "modelUrl": "https://huggingface.co/baidu/Unlimited-OCR",
+      "cardSummary": "",
+      "author": "baidu",
+      "downloads": 2500391,
+      "likes": 3005,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-23T09:16:19.000Z",
+      "numParameters": 3336106240,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-07-25",
+      "modelCard": "assets/huggingface_model_cards/2026-07-25/02-poolside-laguna-s-2-1.png",
+      "modelName": "poolside/Laguna-S-2.1",
+      "modelDescription": "Poolside开发的Laguna-S-2.1模型是一款针对代码生成与开发任务优化的语言模型。该模型通过在编程领域的专门训练，提升了理解和编写复杂代码片段的能力。它旨在辅助开发者提升软件工程效率，适用于自动化代码补全、编程辅助工具开发及技术文档编写等应用场景，是提升研发效能的重要技术支撑。",
+      "sourceDescription": "<p align=\"center\"> <img alt=\"poolside-banner\" src=\"https://poolside.ai/assets/laguna/laguna-s-2-1-banner.svg\" width=\"800px\"> </p>",
+      "modelUrl": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "cardSummary": "",
+      "author": "poolside",
+      "downloads": 28992,
+      "likes": 602,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-24T10:38:47.000Z",
+      "numParameters": 117561977600,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-07-25",
+      "modelCard": "assets/huggingface_model_cards/2026-07-25/03-thinkingmachines-inkling.png",
+      "modelName": "thinkingmachines/Inkling",
+      "modelDescription": "Thinking Machines推出的Inkling模型是一款专注于特定领域任务的智能化工具。该模型的设计初衷在于处理复杂的逻辑推理与信息处理任务，通过先进的架构实现对多模态或文本数据的有效整合。其主要应用于知识管理、决策支持系统以及自然语言分析等领域，致力于为用户提供精准、可靠的智能化解决方案。",
+      "sourceDescription": "<img src=\"https://cdn-uploads.huggingface.co/production/uploads/630e8f0bf6f6d700f50ebd2e/AvmDwmrWRMnKjOWvmLieg.png\" style=\"display: block;margin-left: auto;margin-right: auto;width: 30%;\">",
+      "modelUrl": "https://huggingface.co/thinkingmachines/Inkling",
+      "cardSummary": "",
+      "author": "thinkingmachines",
+      "downloads": 27883,
+      "likes": 1545,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-23T17:27:17.000Z",
+      "numParameters": 952377623626,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "thinkingmachines/Inkling",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 82.78271886573225,
+          "pricingOutput": 4.05
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "thinkingmachines/Inkling",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 111.81045424609563,
+          "pricingOutput": 4.05
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-07-25",
+      "modelCard": "assets/huggingface_model_cards/2026-07-25/04-upstage-solar-open2-250b.png",
+      "modelName": "upstage/Solar-Open2-250B",
+      "modelDescription": "Upstage发布的Solar-Open2-250B是一款拥有2500亿参数的开放权重语言模型，采用混合注意力机制与专家混合架构。该模型专注于代理类任务，在办公自动化、文档处理及复杂代码编写方面表现出色。通过高效的线性注意力机制，它能在长文本场景下保持推理性能，适用于大规模企业级AI助手及复杂业务流程自动化。",
+      "sourceDescription": "Solar Open 2 is Upstage’s 250B-A15B open-weight large language model, built for agentic use cases such as office productivity, document-intensive work, and coding. Its Hybrid-Attention Mixture-of-Experts (MoE) architecture with linear attention delivers highly efficient inference even in long-context settings.",
+      "modelUrl": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "cardSummary": "",
+      "author": "upstage",
+      "downloads": 1106,
+      "likes": 539,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-24T06:02:09.000Z",
+      "numParameters": 250287810304,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-07-25",
+      "modelCard": "assets/huggingface_model_cards/2026-07-25/05-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "modelName": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "modelDescription": "此模型为Qwen3.6-27B的微调版本，集成了多种优化技术并针对无审查与创意写作场景进行强化。开发者通过特定数据训练使其在ARC-C评测指标上取得高分。该模型提供GGUF格式的量化版本，支持多种位宽推理，适用于追求高度个性化、无内容限制的创意文本生成及深度逻辑推理任务，满足极客与研究者的特定需求。",
+      "sourceDescription": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix quants.</small>",
+      "modelUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "cardSummary": "",
+      "author": "DavidAU",
+      "downloads": 407421,
+      "likes": 477,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-20T09:16:52.000Z",
+      "numParameters": 26895998464,
+      "availableInferenceProviders": []
+    }
+  ]
+}
