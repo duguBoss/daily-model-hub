@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-26",
+  "title": "🔥Unlimited重磅发布百度推出的模能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/01-baidu-unlimited-ocr.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/02-poolside-laguna-s-2-1.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/03-upstage-solar-open2-250b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/04-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/05-thinkingmachines-inkling.png"
+  ],
+  "songs": [
+    {
+      "name": "Unlimited-OCR",
+      "artist": "baidu"
+    },
+    {
+      "name": "Laguna-S-2.1",
+      "artist": "poolside"
+    },
+    {
+      "name": "Solar-Open2-250B",
+      "artist": "upstage"
+    },
+    {
+      "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "artist": "DavidAU"
+    },
+    {
+      "name": "Inkling",
+      "artist": "thinkingmachines"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-07-26 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/01-baidu-unlimited-ocr.png\" alt=\"baidu/Unlimited-OCR\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">baidu/Unlimited-OCR</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">百度推出的Unlimited-OCR模型是一款专注于光学字符识别任务的工具。该模型旨在高效提取图像中的文本信息，支持多种场景下的文字检测与识别，为文档数字化、自动化办公及信息处理等业务需求提供技术支持，具有较强的通用性与准确度。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/02-poolside-laguna-s-2-1.png\" alt=\"poolside/Laguna-S-2.1\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">poolside/Laguna-S-2.1</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Laguna-S-2.1是由poolside开发的专用模型。虽然官方提供的技术细节有限，但根据其定位，该模型通常用于特定领域的内容生成或代码辅助任务。用户可以通过其发布的权重进行二次开发，适用于对模型性能和特定逻辑处理有明确要求的应用环境。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/03-upstage-solar-open2-250b.png\" alt=\"upstage/Solar-Open2-250B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">upstage/Solar-Open2-250B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Solar Open 2-250B是Upstage推出的高性能开源大模型，采用混合注意力机制与MoE架构。该模型针对代理智能体设计，在办公自动化、文档密集型任务及代码编程方面表现优异，尤其在长文本处理场景下，通过高效的推理能力提升了生产力。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/04-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png\" alt=\"DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">该模型是基于Qwen 27B构建的微调版本，强调在基准测试中突破特定的智能水平阈值。作为一款非审查（Uncensored）版本，它提供了包括MTP在内的多种量化格式，旨在提供更自由的指令遵循能力，适用于需要不受限输出逻辑的复杂任务开发。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/05-thinkingmachines-inkling.png\" alt=\"thinkingmachines/Inkling\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">thinkingmachines/Inkling</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Thinking Machines推出的Inkling模型旨在解决特定领域的信息处理需求。该模型注重性能优化与特定数据的适配，通过针对性训练提升了处理相关任务的精准度。它主要面向开发者及研究人员，旨在提供能够辅助自动化决策与复杂文本理解的轻量化计算方案。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-07-25T22:57:23.000779"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/baidu/Unlimited-OCR",
+    "https://huggingface.co/poolside/Laguna-S-2.1",
+    "https://huggingface.co/upstage/Solar-Open2-250B",
+    "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "https://huggingface.co/thinkingmachines/Inkling"
+  ],
+  "new_urls": [
+    "https://huggingface.co/baidu/Unlimited-OCR",
+    "https://huggingface.co/poolside/Laguna-S-2.1",
+    "https://huggingface.co/upstage/Solar-Open2-250B",
+    "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "https://huggingface.co/thinkingmachines/Inkling"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-07-26-01",
+      "rank": 1,
+      "name": "baidu/Unlimited-OCR",
+      "description": "百度推出的Unlimited-OCR模型是一款专注于光学字符识别任务的工具。该模型旨在高效提取图像中的文本信息，支持多种场景下的文字检测与识别，为文档数字化、自动化办公及信息处理等业务需求提供技术支持，具有较强的通用性与准确度。",
+      "source_description": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-26/01-baidu-unlimited-ocr.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/01-baidu-unlimited-ocr.png"
+    },
+    {
+      "id": "hf-2026-07-26-02",
+      "rank": 2,
+      "name": "poolside/Laguna-S-2.1",
+      "description": "Laguna-S-2.1是由poolside开发的专用模型。虽然官方提供的技术细节有限，但根据其定位，该模型通常用于特定领域的内容生成或代码辅助任务。用户可以通过其发布的权重进行二次开发，适用于对模型性能和特定逻辑处理有明确要求的应用环境。",
+      "source_description": "<p align=\"center\"> <img alt=\"poolside-banner\" src=\"https://poolside.ai/assets/laguna/laguna-s-2-1-banner.svg\" width=\"800px\"> </p>",
+      "url": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-26/02-poolside-laguna-s-2-1.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/02-poolside-laguna-s-2-1.png"
+    },
+    {
+      "id": "hf-2026-07-26-03",
+      "rank": 3,
+      "name": "upstage/Solar-Open2-250B",
+      "description": "Solar Open 2-250B是Upstage推出的高性能开源大模型，采用混合注意力机制与MoE架构。该模型针对代理智能体设计，在办公自动化、文档密集型任务及代码编程方面表现优异，尤其在长文本处理场景下，通过高效的推理能力提升了生产力。",
+      "source_description": "Solar Open 2 is Upstage’s 250B-A15B open-weight large language model, built for agentic use cases such as office productivity, document-intensive work, and coding. Its Hybrid-Attention Mixture-of-Experts (MoE) architecture with linear attention delivers highly efficient inference even in long-context settings.",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-26/03-upstage-solar-open2-250b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/03-upstage-solar-open2-250b.png"
+    },
+    {
+      "id": "hf-2026-07-26-04",
+      "rank": 4,
+      "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "description": "该模型是基于Qwen 27B构建的微调版本，强调在基准测试中突破特定的智能水平阈值。作为一款非审查（Uncensored）版本，它提供了包括MTP在内的多种量化格式，旨在提供更自由的指令遵循能力，适用于需要不受限输出逻辑的复杂任务开发。",
+      "source_description": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix quants.</small>",
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-26/04-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/04-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png"
+    },
+    {
+      "id": "hf-2026-07-26-05",
+      "rank": 5,
+      "name": "thinkingmachines/Inkling",
+      "description": "Thinking Machines推出的Inkling模型旨在解决特定领域的信息处理需求。该模型注重性能优化与特定数据的适配，通过针对性训练提升了处理相关任务的精准度。它主要面向开发者及研究人员，旨在提供能够辅助自动化决策与复杂文本理解的轻量化计算方案。",
+      "source_description": "<img src=\"https://cdn-uploads.huggingface.co/production/uploads/630e8f0bf6f6d700f50ebd2e/AvmDwmrWRMnKjOWvmLieg.png\" style=\"display: block;margin-left: auto;margin-right: auto;width: 30%;\">",
+      "url": "https://huggingface.co/thinkingmachines/Inkling",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-26/05-thinkingmachines-inkling.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-26/05-thinkingmachines-inkling.png"
+    }
+  ]
+}

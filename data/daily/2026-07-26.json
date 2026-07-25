@@ -1,0 +1,125 @@
+{
+  "recordDate": "2026-07-26",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-07-26",
+      "modelCard": "assets/huggingface_model_cards/2026-07-26/01-baidu-unlimited-ocr.png",
+      "modelName": "baidu/Unlimited-OCR",
+      "modelDescription": "百度推出的Unlimited-OCR模型是一款专注于光学字符识别任务的工具。该模型旨在高效提取图像中的文本信息，支持多种场景下的文字检测与识别，为文档数字化、自动化办公及信息处理等业务需求提供技术支持，具有较强的通用性与准确度。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "modelUrl": "https://huggingface.co/baidu/Unlimited-OCR",
+      "cardSummary": "",
+      "author": "baidu",
+      "downloads": 2564264,
+      "likes": 3099,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-23T09:16:19.000Z",
+      "numParameters": 3336106240,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-07-26",
+      "modelCard": "assets/huggingface_model_cards/2026-07-26/02-poolside-laguna-s-2-1.png",
+      "modelName": "poolside/Laguna-S-2.1",
+      "modelDescription": "Laguna-S-2.1是由poolside开发的专用模型。虽然官方提供的技术细节有限，但根据其定位，该模型通常用于特定领域的内容生成或代码辅助任务。用户可以通过其发布的权重进行二次开发，适用于对模型性能和特定逻辑处理有明确要求的应用环境。",
+      "sourceDescription": "<p align=\"center\"> <img alt=\"poolside-banner\" src=\"https://poolside.ai/assets/laguna/laguna-s-2-1-banner.svg\" width=\"800px\"> </p>",
+      "modelUrl": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "cardSummary": "",
+      "author": "poolside",
+      "downloads": 45260,
+      "likes": 657,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-24T10:38:47.000Z",
+      "numParameters": 117561977600,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-07-26",
+      "modelCard": "assets/huggingface_model_cards/2026-07-26/03-upstage-solar-open2-250b.png",
+      "modelName": "upstage/Solar-Open2-250B",
+      "modelDescription": "Solar Open 2-250B是Upstage推出的高性能开源大模型，采用混合注意力机制与MoE架构。该模型针对代理智能体设计，在办公自动化、文档密集型任务及代码编程方面表现优异，尤其在长文本处理场景下，通过高效的推理能力提升了生产力。",
+      "sourceDescription": "Solar Open 2 is Upstage’s 250B-A15B open-weight large language model, built for agentic use cases such as office productivity, document-intensive work, and coding. Its Hybrid-Attention Mixture-of-Experts (MoE) architecture with linear attention delivers highly efficient inference even in long-context settings.",
+      "modelUrl": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "cardSummary": "",
+      "author": "upstage",
+      "downloads": 2784,
+      "likes": 559,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-24T06:02:09.000Z",
+      "numParameters": 250287810304,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-07-26",
+      "modelCard": "assets/huggingface_model_cards/2026-07-26/04-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "modelName": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "modelDescription": "该模型是基于Qwen 27B构建的微调版本，强调在基准测试中突破特定的智能水平阈值。作为一款非审查（Uncensored）版本，它提供了包括MTP在内的多种量化格式，旨在提供更自由的指令遵循能力，适用于需要不受限输出逻辑的复杂任务开发。",
+      "sourceDescription": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix quants.</small>",
+      "modelUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "cardSummary": "",
+      "author": "DavidAU",
+      "downloads": 483845,
+      "likes": 538,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-20T09:16:52.000Z",
+      "numParameters": 26895998464,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-07-26",
+      "modelCard": "assets/huggingface_model_cards/2026-07-26/05-thinkingmachines-inkling.png",
+      "modelName": "thinkingmachines/Inkling",
+      "modelDescription": "Thinking Machines推出的Inkling模型旨在解决特定领域的信息处理需求。该模型注重性能优化与特定数据的适配，通过针对性训练提升了处理相关任务的精准度。它主要面向开发者及研究人员，旨在提供能够辅助自动化决策与复杂文本理解的轻量化计算方案。",
+      "sourceDescription": "<img src=\"https://cdn-uploads.huggingface.co/production/uploads/630e8f0bf6f6d700f50ebd2e/AvmDwmrWRMnKjOWvmLieg.png\" style=\"display: block;margin-left: auto;margin-right: auto;width: 30%;\">",
+      "modelUrl": "https://huggingface.co/thinkingmachines/Inkling",
+      "cardSummary": "",
+      "author": "thinkingmachines",
+      "downloads": 31575,
+      "likes": 1566,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-23T17:27:17.000Z",
+      "numParameters": 952377623626,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "thinkingmachines/Inkling",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 110.2800518729415,
+          "pricingOutput": 4.05
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "thinkingmachines/Inkling",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 114.62200745748476,
+          "pricingOutput": 4.05
+        }
+      ]
+    }
+  ]
+}
