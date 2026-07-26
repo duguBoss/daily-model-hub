@@ -1,0 +1,70 @@
+{
+  "weekRange": {
+    "start": "2026-07-21",
+    "end": "2026-07-27"
+  },
+  "weekTitle": "Hugging Face 热门模型周刊（2026-07-27）",
+  "summary": "本周Hugging Face社区发布了一系列高性能模型，涵盖了从超大规模MoE架构到轻量级端侧模型，以及针对文档处理和逻辑推理的专业化微调版本，充分体现了模型在多场景下的应用深度。",
+  "items": [
+    {
+      "modelName": "baidu/Unlimited-OCR",
+      "modelUrl": "https://huggingface.co/baidu/Unlimited-OCR",
+      "modelCard": "assets/huggingface_model_cards/2026-07-27/01-baidu-unlimited-ocr.png",
+      "modelDescription": "百度推出的Unlimited-OCR模型专注于各类文档与图像中的文字识别任务。该模型旨在通过深度学习技术提供高效、精准的文字提取能力，适用于办公文档数字化、证照识别以及复杂场景下的文本检测与识别，以满足企业级用户在自动化数据处理及信息化建设中的核心业务需求。",
+      "pickReason": "百度推出的这款OCR模型在文档数字化与复杂场景文字识别领域展现了极高的精准度。对于有企业级自动化数据处理需求的用户而言，该模型凭借深度学习技术，能高效解决证照识别及办公文档提取的业务痛点，是提升工作流信息提取能力的核心工具。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-07-27"
+      ]
+    },
+    {
+      "modelName": "upstage/Solar-Open2-250B",
+      "modelUrl": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "modelCard": "assets/huggingface_model_cards/2026-07-27/03-upstage-solar-open2-250b.png",
+      "modelDescription": "Solar-Open2-250B是Upstage推出的2500亿参数混合专家模型。该模型采用Hybrid-Attention与MoE架构，具备线性注意力机制，支持长文本高效推理。其定位于智能代理应用，特别擅长处理办公生产力提升、密集型文档分析及编程开发等复杂任务，在保证性能的同时显著优化了推理效率。",
+      "pickReason": "作为一款2500亿参数的MoE架构模型，Solar-Open2-250B通过引入线性注意力机制，在处理长文本和密集型文档分析任务时表现卓越。其专为智能代理场景打造，实现了高性能与推理效率的良好平衡，非常适合需要复杂推理能力的生产力开发应用。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-07-27"
+      ]
+    },
+    {
+      "modelName": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "modelUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "modelCard": "assets/huggingface_model_cards/2026-07-27/04-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "modelDescription": "该模型基于Qwen3.6架构进行微调，是一个侧重于无审查与高逻辑表现的特定版本。其特点在于通过多维度的融合训练，在多个公开评估基准（如arc-c）中表现出极高的智能水准。该模型主要面向追求高度定制化、无内容限制及高逻辑推理能力的进阶用户，并支持多种量化版本的部署。",
+      "pickReason": "该模型基于Qwen3.6进行深度融合微调，在ARC-C基准测试中突破了700分大关。作为无审查版本，它为追求极致逻辑推理能力的进阶开发者提供了高度定制化的体验，并支持多种量化部署，是目前社区中逻辑表现力最强的微调模型之一。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-07-27"
+      ]
+    },
+    {
+      "modelName": "poolside/Laguna-S-2.1",
+      "modelUrl": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "modelCard": "assets/huggingface_model_cards/2026-07-27/02-poolside-laguna-s-2-1.png",
+      "modelDescription": "Poolside开发的Laguna-S-2.1是一款面向特定计算需求设计的模型。该模型由Poolside团队构建，旨在通过精简的架构优化性能与响应效率。其主要适用于对计算资源有明确要求、需在特定任务中保持高稳定性和执行速度的开发场景，是提升生产力工作流效率的有力工具。",
+      "pickReason": "Poolside带来的Laguna-S-2.1是一款追求极致运行效率的专用模型。其架构设计聚焦于资源可控性与执行速度，能够在特定任务中保持极高的响应稳定性，是那些受限于计算资源但仍需高性能模型支持的开发场景下的理想选择。",
+      "appearances": 1,
+      "bestRank": 2,
+      "dates": [
+        "2026-07-27"
+      ]
+    },
+    {
+      "modelName": "Nanbeige/Nanbeige4.2-3B",
+      "modelUrl": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+      "modelCard": "assets/huggingface_model_cards/2026-07-27/05-nanbeige-nanbeige4-2-3b.png",
+      "modelDescription": "Nanbeige4.2-3B是由Nanbeige团队研发的轻量化大语言模型。该模型在保持较小参数规模的前提下，平衡了推理速度与任务处理能力。凭借其高效的计算表现和易于部署的特性，适用于对资源受限环境有要求的端侧应用场景，如智能助手、本地文本处理以及基础的交互式对话服务。",
+      "pickReason": "在轻量化模型赛道，Nanbeige4.2-3B表现出了极佳的参数与性能比例。它不仅易于在端侧环境部署，还能够满足基础的对话与文本处理需求，为资源受限的硬件设备提供了高效、灵敏的本地化交互能力，是轻量化应用开发的优选。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-07-27"
+      ]
+    }
+  ]
+}
