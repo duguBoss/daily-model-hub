@@ -1,0 +1,120 @@
+{
+  "recordDate": "2026-07-28",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-07-28",
+      "modelCard": "assets/huggingface_model_cards/2026-07-28/01-moonshotai-kimi-k3.png",
+      "modelName": "moonshotai/Kimi-K3",
+      "modelDescription": "Kimi-K3 是由月之暗面开发的一款人工智能模型。该模型主要面向日常对话与交互场景，致力于提供流畅的自然语言处理能力。作为 Kimi 系列的重要组成部分，它通过对大语言模型的持续优化，旨在辅助用户处理各类文本信息，适用于智能问答、创意写作以及信息检索等多种典型的用户应用场景。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K3-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K3",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 2850,
+      "likes": 5951,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-27T16:29:18.000Z",
+      "numParameters": 2779931837184,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 53.97458183258769,
+          "pricingOutput": 15
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-07-28",
+      "modelCard": "assets/huggingface_model_cards/2026-07-28/02-baidu-unlimited-ocr.png",
+      "modelName": "baidu/Unlimited-OCR",
+      "modelDescription": "Unlimited-OCR 是百度推出的光学字符识别模型。该模型专注于图像中的文字识别与提取任务，旨在提升处理文档、表格及复杂场景下文本识别的准确度与效率。它广泛应用于办公自动化、文档数字化处理、自动化数据采集等业务场景，能够帮助用户高效解析各类视觉文档信息，降低人工录入成本。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "modelUrl": "https://huggingface.co/baidu/Unlimited-OCR",
+      "cardSummary": "",
+      "author": "baidu",
+      "downloads": 2645773,
+      "likes": 3325,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-23T09:16:19.000Z",
+      "numParameters": 3336106240,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-07-28",
+      "modelCard": "assets/huggingface_model_cards/2026-07-28/03-poolside-laguna-s-2-1.png",
+      "modelName": "poolside/Laguna-S-2.1",
+      "modelDescription": "Laguna-S-2.1 是 Poolside 开发的一款专业级大模型。该模型定位明确，专注于代码生成、软件开发辅助及编程任务的自动化处理。通过对编程语言和开发逻辑的深入优化，它能够协助开发者完成代码编写、重构与调试，是提升软件工程效率和代码质量的理想工具，特别适合在复杂的编程环境中提供技术支持。",
+      "sourceDescription": "<p align=\"center\"> <img alt=\"poolside-banner\" src=\"https://poolside.ai/assets/laguna/laguna-s-2-1-banner.svg\" width=\"800px\"> </p>",
+      "modelUrl": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "cardSummary": "",
+      "author": "poolside",
+      "downloads": 63605,
+      "likes": 753,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-27T11:25:04.000Z",
+      "numParameters": 117561977600,
+      "availableInferenceProviders": [
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "poolside/Laguna-S-2.1",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-07-28",
+      "modelCard": "assets/huggingface_model_cards/2026-07-28/04-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "modelName": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "modelDescription": "Qwen3.6-27B-Fable-Fusion 是基于 Qwen 模型进行的深度微调版本。该模型采用了无审查机制，并通过多种技术优化在基准测试中表现突出。它支持多种量化格式，旨在提供更灵活的本地部署选择。该模型主要服务于对模型推理能力有较高要求、且需要绕过特定内容限制的开发与科研用户，适用于各种高度定制化的文本生成任务。",
+      "sourceDescription": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix quants.</small>",
+      "modelUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "cardSummary": "",
+      "author": "DavidAU",
+      "downloads": 634146,
+      "likes": 741,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-27T07:46:59.000Z",
+      "numParameters": 26895998464,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-07-28",
+      "modelCard": "assets/huggingface_model_cards/2026-07-28/05-upstage-solar-open2-250b.png",
+      "modelName": "upstage/Solar-Open2-250B",
+      "modelDescription": "Solar-Open2-250B 是 Upstage 开发的超大规模开放权重模型。它采用混合注意力专家架构（MoE），在保持高效推理的同时具备处理超长上下文的能力。该模型专为代理智能（Agentic）设计，在办公室自动化、文档密集型任务及代码开发领域表现优异，能够为企业级应用提供强大的逻辑推理与大规模数据处理支持。",
+      "sourceDescription": "Solar Open 2 is Upstage’s 250B-A15B open-weight large language model, built for agentic use cases such as office productivity, document-intensive work, and coding. Its Hybrid-Attention Mixture-of-Experts (MoE) architecture with linear attention delivers highly efficient inference even in long-context settings.",
+      "modelUrl": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "cardSummary": "",
+      "author": "upstage",
+      "downloads": 3761,
+      "likes": 628,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-27T10:30:02.000Z",
+      "numParameters": 250287810304,
+      "availableInferenceProviders": []
+    }
+  ]
+}
