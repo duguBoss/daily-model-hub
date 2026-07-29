@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-30",
+  "title": "🔥Kimi重磅发布是由月之暗面能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/01-moonshotai-kimi-k3.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/02-baidu-unlimited-ocr.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/04-poolside-laguna-s-2-1.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/05-upstage-solar-open2-250b.png"
+  ],
+  "songs": [
+    {
+      "name": "Kimi-K3",
+      "artist": "moonshotai"
+    },
+    {
+      "name": "Unlimited-OCR",
+      "artist": "baidu"
+    },
+    {
+      "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "artist": "DavidAU"
+    },
+    {
+      "name": "Laguna-S-2.1",
+      "artist": "poolside"
+    },
+    {
+      "name": "Solar-Open2-250B",
+      "artist": "upstage"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-07-30 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/01-moonshotai-kimi-k3.png\" alt=\"moonshotai/Kimi-K3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">moonshotai/Kimi-K3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Kimi-K3是由月之暗面（Moonshot AI）推出的智能对话模型。该模型定位于提供高效、精准的自然语言交互体验，具备较强的逻辑推理与文本处理能力，旨在辅助用户处理各类办公与知识型任务，是该系列中重要的对话类大模型产品。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/02-baidu-unlimited-ocr.png\" alt=\"baidu/Unlimited-OCR\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">baidu/Unlimited-OCR</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">百度Unlimited-OCR是一款专注于光学字符识别（OCR）任务的深度学习模型。该模型旨在高效处理各类文档图像，实现对复杂排版、不同字体及手写文字的高精度提取与转换，适用于自动化文档数字化、办公流程信息化及多场景下的文字数据采集需求。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png\" alt=\"DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.6-27B-Fable-Fusion是一款基于Qwen架构的社区微调模型。该版本移除了内容审查限制，并在ARC-c基准测试中展现出极高的推理表现。该模型主要面向追求极致模型性能、探索非限制性交互体验及有复杂逻辑处理需求的开发者与研究人员使用。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/04-poolside-laguna-s-2-1.png\" alt=\"poolside/Laguna-S-2.1\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">poolside/Laguna-S-2.1</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Laguna-S-2.1是由Poolside研发的专业级语言模型。该模型致力于提供高质量的文本生成与逻辑分析能力，专注于提升生产力与复杂任务的解决效率，适用于需要深度语义理解与长文生成的专业创作场景，是Poolside在人工智能领域的重要技术布局。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/05-upstage-solar-open2-250b.png\" alt=\"upstage/Solar-Open2-250B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">upstage/Solar-Open2-250B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Solar-Open2-250B是由Upstage开发的一款具备250B参数的MoE架构大模型。通过混合注意力机制，该模型在长上下文处理、编程辅助及文档密集型任务中表现出色。它专为智能体代理场景设计，旨在实现高效率推理，是提升企业办公效率的有力工具。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-07-29T23:00:05.020662"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/moonshotai/Kimi-K3",
+    "https://huggingface.co/baidu/Unlimited-OCR",
+    "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "https://huggingface.co/poolside/Laguna-S-2.1",
+    "https://huggingface.co/upstage/Solar-Open2-250B"
+  ],
+  "new_urls": [
+    "https://huggingface.co/moonshotai/Kimi-K3",
+    "https://huggingface.co/baidu/Unlimited-OCR",
+    "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "https://huggingface.co/poolside/Laguna-S-2.1",
+    "https://huggingface.co/upstage/Solar-Open2-250B"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-07-30-01",
+      "rank": 1,
+      "name": "moonshotai/Kimi-K3",
+      "description": "Kimi-K3是由月之暗面（Moonshot AI）推出的智能对话模型。该模型定位于提供高效、精准的自然语言交互体验，具备较强的逻辑推理与文本处理能力，旨在辅助用户处理各类办公与知识型任务，是该系列中重要的对话类大模型产品。",
+      "source_description": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K3-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-30/01-moonshotai-kimi-k3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/01-moonshotai-kimi-k3.png"
+    },
+    {
+      "id": "hf-2026-07-30-02",
+      "rank": 2,
+      "name": "baidu/Unlimited-OCR",
+      "description": "百度Unlimited-OCR是一款专注于光学字符识别（OCR）任务的深度学习模型。该模型旨在高效处理各类文档图像，实现对复杂排版、不同字体及手写文字的高精度提取与转换，适用于自动化文档数字化、办公流程信息化及多场景下的文字数据采集需求。",
+      "source_description": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-30/02-baidu-unlimited-ocr.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/02-baidu-unlimited-ocr.png"
+    },
+    {
+      "id": "hf-2026-07-30-03",
+      "rank": 3,
+      "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "description": "Qwen3.6-27B-Fable-Fusion是一款基于Qwen架构的社区微调模型。该版本移除了内容审查限制，并在ARC-c基准测试中展现出极高的推理表现。该模型主要面向追求极致模型性能、探索非限制性交互体验及有复杂逻辑处理需求的开发者与研究人员使用。",
+      "source_description": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix quants.</small>",
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-30/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png"
+    },
+    {
+      "id": "hf-2026-07-30-04",
+      "rank": 4,
+      "name": "poolside/Laguna-S-2.1",
+      "description": "Laguna-S-2.1是由Poolside研发的专业级语言模型。该模型致力于提供高质量的文本生成与逻辑分析能力，专注于提升生产力与复杂任务的解决效率，适用于需要深度语义理解与长文生成的专业创作场景，是Poolside在人工智能领域的重要技术布局。",
+      "source_description": "<p align=\"center\"> <img alt=\"poolside-banner\" src=\"https://poolside.ai/assets/laguna/laguna-s-2-1-banner.svg\" width=\"800px\"> </p>",
+      "url": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-30/04-poolside-laguna-s-2-1.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/04-poolside-laguna-s-2-1.png"
+    },
+    {
+      "id": "hf-2026-07-30-05",
+      "rank": 5,
+      "name": "upstage/Solar-Open2-250B",
+      "description": "Solar-Open2-250B是由Upstage开发的一款具备250B参数的MoE架构大模型。通过混合注意力机制，该模型在长上下文处理、编程辅助及文档密集型任务中表现出色。它专为智能体代理场景设计，旨在实现高效率推理，是提升企业办公效率的有力工具。",
+      "source_description": "Solar Open 2 is Upstage’s 250B-A15B open-weight large language model, built for agentic use cases such as office productivity, document-intensive work, and coding. Its Hybrid-Attention Mixture-of-Experts (MoE) architecture with linear attention delivers highly efficient inference even in long-context settings.",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-07-30/05-upstage-solar-open2-250b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-07-30/05-upstage-solar-open2-250b.png"
+    }
+  ]
+}

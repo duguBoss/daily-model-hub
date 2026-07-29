@@ -1,0 +1,146 @@
+{
+  "recordDate": "2026-07-30",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-07-30",
+      "modelCard": "assets/huggingface_model_cards/2026-07-30/01-moonshotai-kimi-k3.png",
+      "modelName": "moonshotai/Kimi-K3",
+      "modelDescription": "Kimi-K3是由月之暗面（Moonshot AI）推出的智能对话模型。该模型定位于提供高效、精准的自然语言交互体验，具备较强的逻辑推理与文本处理能力，旨在辅助用户处理各类办公与知识型任务，是该系列中重要的对话类大模型产品。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K3-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K3",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 99214,
+      "likes": 8617,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-27T16:29:18.000Z",
+      "numParameters": 2779931837184,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 24.7328028173037,
+          "pricingOutput": 15
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/kimi-k3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 37.78028393866807,
+          "pricingOutput": 15
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-07-30",
+      "modelCard": "assets/huggingface_model_cards/2026-07-30/02-baidu-unlimited-ocr.png",
+      "modelName": "baidu/Unlimited-OCR",
+      "modelDescription": "百度Unlimited-OCR是一款专注于光学字符识别（OCR）任务的深度学习模型。该模型旨在高效处理各类文档图像，实现对复杂排版、不同字体及手写文字的高精度提取与转换，适用于自动化文档数字化、办公流程信息化及多场景下的文字数据采集需求。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "modelUrl": "https://huggingface.co/baidu/Unlimited-OCR",
+      "cardSummary": "",
+      "author": "baidu",
+      "downloads": 2694935,
+      "likes": 3511,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-29T04:34:16.000Z",
+      "numParameters": 3336106240,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-07-30",
+      "modelCard": "assets/huggingface_model_cards/2026-07-30/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "modelName": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "modelDescription": "Qwen3.6-27B-Fable-Fusion是一款基于Qwen架构的社区微调模型。该版本移除了内容审查限制，并在ARC-c基准测试中展现出极高的推理表现。该模型主要面向追求极致模型性能、探索非限制性交互体验及有复杂逻辑处理需求的开发者与研究人员使用。",
+      "sourceDescription": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix quants.</small>",
+      "modelUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "cardSummary": "",
+      "author": "DavidAU",
+      "downloads": 736692,
+      "likes": 932,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-29T07:43:02.000Z",
+      "numParameters": 26895998464,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-07-30",
+      "modelCard": "assets/huggingface_model_cards/2026-07-30/04-poolside-laguna-s-2-1.png",
+      "modelName": "poolside/Laguna-S-2.1",
+      "modelDescription": "Laguna-S-2.1是由Poolside研发的专业级语言模型。该模型致力于提供高质量的文本生成与逻辑分析能力，专注于提升生产力与复杂任务的解决效率，适用于需要深度语义理解与长文生成的专业创作场景，是Poolside在人工智能领域的重要技术布局。",
+      "sourceDescription": "<p align=\"center\"> <img alt=\"poolside-banner\" src=\"https://poolside.ai/assets/laguna/laguna-s-2-1-banner.svg\" width=\"800px\"> </p>",
+      "modelUrl": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "cardSummary": "",
+      "author": "poolside",
+      "downloads": 67286,
+      "likes": 825,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-27T11:25:04.000Z",
+      "numParameters": 117561977600,
+      "availableInferenceProviders": [
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "poolside/Laguna-S-2.1",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-07-30",
+      "modelCard": "assets/huggingface_model_cards/2026-07-30/05-upstage-solar-open2-250b.png",
+      "modelName": "upstage/Solar-Open2-250B",
+      "modelDescription": "Solar-Open2-250B是由Upstage开发的一款具备250B参数的MoE架构大模型。通过混合注意力机制，该模型在长上下文处理、编程辅助及文档密集型任务中表现出色。它专为智能体代理场景设计，旨在实现高效率推理，是提升企业办公效率的有力工具。",
+      "sourceDescription": "Solar Open 2 is Upstage’s 250B-A15B open-weight large language model, built for agentic use cases such as office productivity, document-intensive work, and coding. Its Hybrid-Attention Mixture-of-Experts (MoE) architecture with linear attention delivers highly efficient inference even in long-context settings.",
+      "modelUrl": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "cardSummary": "",
+      "author": "upstage",
+      "downloads": 4804,
+      "likes": 693,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-07-27T10:30:02.000Z",
+      "numParameters": 250287810304,
+      "availableInferenceProviders": []
+    }
+  ]
+}
