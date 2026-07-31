@@ -1,0 +1,115 @@
+{
+  "date": "2026-08-01",
+  "title": "🔥Kimi重磅发布是月之暗面推能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/01-moonshotai-kimi-k3.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/02-deepseek-ai-deepseek-v4-flash-0731.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/04-baidu-unlimited-ocr.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/05-owensong-inflect-micro-v2.png"
+  ],
+  "songs": [
+    {
+      "name": "Kimi-K3",
+      "artist": "moonshotai"
+    },
+    {
+      "name": "DeepSeek-V4-Flash-0731",
+      "artist": "deepseek-ai"
+    },
+    {
+      "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "artist": "DavidAU"
+    },
+    {
+      "name": "Unlimited-OCR",
+      "artist": "baidu"
+    },
+    {
+      "name": "Inflect-Micro-v2",
+      "artist": "owensong"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-08-01 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/01-moonshotai-kimi-k3.png\" alt=\"moonshotai/Kimi-K3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">moonshotai/Kimi-K3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Kimi-K3 是月之暗面（Moonshot AI）推出的智能对话模型。该模型定位为通用人工智能助手，具备处理长文本和复杂对话的能力，主要应用于知识问答、文档分析及文本创作等场景，为用户提供高效的自然语言交互体验。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/02-deepseek-ai-deepseek-v4-flash-0731.png\" alt=\"deepseek-ai/DeepSeek-V4-Flash-0731\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepseek-ai/DeepSeek-V4-Flash-0731</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">DeepSeek-V4-Flash-0731 是深度求索（DeepSeek）开发的轻量化大语言模型，强调高吞吐量与低延迟的推理性能。该模型适用于对响应速度有较高要求的业务系统，如即时对话回复、自动化代码辅助及高频并发的数据处理场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png\" alt=\"DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">该模型基于 Qwen3.6-27B 进行深度微调，是一个未经内容过滤的融合版本。其设计目标是突破模型在复杂推理任务中的性能上限。该项目提供多种量化版本的 GGUF 格式，适合开发者进行本地部署并测试其在特定知识领域内的逻辑表现。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/04-baidu-unlimited-ocr.png\" alt=\"baidu/Unlimited-OCR\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">baidu/Unlimited-OCR</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">百度推出的 Unlimited-OCR 模型专注于光学字符识别领域。该模型利用大规模预训练技术，旨在实现高精度的文档图像解析与文字提取，适用于各类复杂场景下的自动化办公、票据识别及数字化档案归档工作。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/05-owensong-inflect-micro-v2.png\" alt=\"owensong/Inflect-Micro-v2\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">owensong/Inflect-Micro-v2</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Inflect-Micro-v2 是一款参数量小于 10M 的超轻量级文本转语音（TTS）模型。该模型支持本地运行，具备处理长文本的能力，在 CPU 或 CUDA 环境下均可进行确定性的语音合成，特别适用于资源受限的边缘设备。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-07-31T23:02:19.747351"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/moonshotai/Kimi-K3",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+    "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "https://huggingface.co/baidu/Unlimited-OCR",
+    "https://huggingface.co/owensong/Inflect-Micro-v2"
+  ],
+  "new_urls": [
+    "https://huggingface.co/moonshotai/Kimi-K3",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+    "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "https://huggingface.co/baidu/Unlimited-OCR",
+    "https://huggingface.co/owensong/Inflect-Micro-v2"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-08-01-01",
+      "rank": 1,
+      "name": "moonshotai/Kimi-K3",
+      "description": "Kimi-K3 是月之暗面（Moonshot AI）推出的智能对话模型。该模型定位为通用人工智能助手，具备处理长文本和复杂对话的能力，主要应用于知识问答、文档分析及文本创作等场景，为用户提供高效的自然语言交互体验。",
+      "source_description": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K3-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-01/01-moonshotai-kimi-k3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/01-moonshotai-kimi-k3.png"
+    },
+    {
+      "id": "hf-2026-08-01-02",
+      "rank": 2,
+      "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "description": "DeepSeek-V4-Flash-0731 是深度求索（DeepSeek）开发的轻量化大语言模型，强调高吞吐量与低延迟的推理性能。该模型适用于对响应速度有较高要求的业务系统，如即时对话回复、自动化代码辅助及高频并发的数据处理场景。",
+      "source_description": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-01/02-deepseek-ai-deepseek-v4-flash-0731.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/02-deepseek-ai-deepseek-v4-flash-0731.png"
+    },
+    {
+      "id": "hf-2026-08-01-03",
+      "rank": 3,
+      "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "description": "该模型基于 Qwen3.6-27B 进行深度微调，是一个未经内容过滤的融合版本。其设计目标是突破模型在复杂推理任务中的性能上限。该项目提供多种量化版本的 GGUF 格式，适合开发者进行本地部署并测试其在特定知识领域内的逻辑表现。",
+      "source_description": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix GGUF quants. Many other additional quant types avail too. 3rd parties confirm this model's performance in the \"community tab\".</small>",
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-01/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png"
+    },
+    {
+      "id": "hf-2026-08-01-04",
+      "rank": 4,
+      "name": "baidu/Unlimited-OCR",
+      "description": "百度推出的 Unlimited-OCR 模型专注于光学字符识别领域。该模型利用大规模预训练技术，旨在实现高精度的文档图像解析与文字提取，适用于各类复杂场景下的自动化办公、票据识别及数字化档案归档工作。",
+      "source_description": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-01/04-baidu-unlimited-ocr.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/04-baidu-unlimited-ocr.png"
+    },
+    {
+      "id": "hf-2026-08-01-05",
+      "rank": 5,
+      "name": "owensong/Inflect-Micro-v2",
+      "description": "Inflect-Micro-v2 是一款参数量小于 10M 的超轻量级文本转语音（TTS）模型。该模型支持本地运行，具备处理长文本的能力，在 CPU 或 CUDA 环境下均可进行确定性的语音合成，特别适用于资源受限的边缘设备。",
+      "source_description": "<h1 align=\"center\">Inflect-Micro-v2</h1> <p align=\"center\"><strong>Complete local text-to-waveform speech synthesis under 10M parameters.</strong><br> Fixed-voice English TTS with deterministic seeds, long-text handling, and CPU or CUDA inference.</p>",
+      "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-01/05-owensong-inflect-micro-v2.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-01/05-owensong-inflect-micro-v2.png"
+    }
+  ]
+}
