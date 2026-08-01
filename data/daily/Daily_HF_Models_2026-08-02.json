@@ -1,0 +1,115 @@
+{
+  "date": "2026-08-02",
+  "title": "🔥Kimi重磅发布月之暗面推出能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/01-moonshotai-kimi-k3.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/02-deepseek-ai-deepseek-v4-flash-0731.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/04-baidu-unlimited-ocr.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/05-unsloth-deepseek-v4-flash-0731-gguf.png"
+  ],
+  "songs": [
+    {
+      "name": "Kimi-K3",
+      "artist": "moonshotai"
+    },
+    {
+      "name": "DeepSeek-V4-Flash-0731",
+      "artist": "deepseek-ai"
+    },
+    {
+      "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "artist": "DavidAU"
+    },
+    {
+      "name": "Unlimited-OCR",
+      "artist": "baidu"
+    },
+    {
+      "name": "DeepSeek-V4-Flash-0731-GGUF",
+      "artist": "unsloth"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-08-02 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/01-moonshotai-kimi-k3.png\" alt=\"moonshotai/Kimi-K3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">moonshotai/Kimi-K3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">月之暗面推出的 Kimi-K3 是面向通用场景的大语言模型，专注于提升长文本处理与多模态交互能力。该模型旨在通过深度优化实现高效的信息检索与知识整合，适用于文档分析、专业内容创作以及复杂任务辅助等多种实际应用场景，旨在为用户提供更流畅、智能化的交互体验。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/02-deepseek-ai-deepseek-v4-flash-0731.png\" alt=\"deepseek-ai/DeepSeek-V4-Flash-0731\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepseek-ai/DeepSeek-V4-Flash-0731</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">DeepSeek-V4-Flash-0731 是深度求索（DeepSeek）发布的优化版大语言模型，强调高吞吐量与快速响应能力。该模型通过精简架构设计，在保持模型推理性能的前提下降低了计算开销，特别适用于需要极速反馈的实时对话系统、自动化代码辅助及高频并发的任务处理场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png\" alt=\"DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">该模型是由社区用户基于 Qwen3.6-27B 进行微调的非限制版版本，通过融合多种技术优化，显著提升了模型在逻辑推理与复杂指令执行方面的表现。该版本提供了多种量化格式，主要面向开发者与研究人员，适用于需要高度定制化逻辑输出及无审查创作的特定实验与应用环境。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/04-baidu-unlimited-ocr.png\" alt=\"baidu/Unlimited-OCR\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">baidu/Unlimited-OCR</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Unlimited-OCR 是百度推出的一款专注于光学字符识别（OCR）任务的深度学习模型。该模型致力于解决复杂文档、手写字迹及多语言场景下的高精度识别问题。其技术定位在于提升图像转文本的提取质量，适用于办公文档自动化、扫描件数字化以及图像信息智能化处理等领域。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/05-unsloth-deepseek-v4-flash-0731-gguf.png\" alt=\"unsloth/DeepSeek-V4-Flash-0731-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">unsloth/DeepSeek-V4-Flash-0731-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">此仓库提供了基于 Unsloth 动态量化技术优化的 DeepSeek-V4-Flash-0731 GGUF 格式版本。该方案通过高效的量化与压缩算法，在保证模型推理精度的同时大幅降低了内存占用，支持用户在本地消费级硬件上流畅部署和运行该模型，特别适合需要轻量化部署及性能平衡的开发者群体。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-08-01T22:56:54.761039"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/moonshotai/Kimi-K3",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+    "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "https://huggingface.co/baidu/Unlimited-OCR",
+    "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF"
+  ],
+  "new_urls": [
+    "https://huggingface.co/moonshotai/Kimi-K3",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+    "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "https://huggingface.co/baidu/Unlimited-OCR",
+    "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-08-02-01",
+      "rank": 1,
+      "name": "moonshotai/Kimi-K3",
+      "description": "月之暗面推出的 Kimi-K3 是面向通用场景的大语言模型，专注于提升长文本处理与多模态交互能力。该模型旨在通过深度优化实现高效的信息检索与知识整合，适用于文档分析、专业内容创作以及复杂任务辅助等多种实际应用场景，旨在为用户提供更流畅、智能化的交互体验。",
+      "source_description": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K3-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-02/01-moonshotai-kimi-k3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/01-moonshotai-kimi-k3.png"
+    },
+    {
+      "id": "hf-2026-08-02-02",
+      "rank": 2,
+      "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "description": "DeepSeek-V4-Flash-0731 是深度求索（DeepSeek）发布的优化版大语言模型，强调高吞吐量与快速响应能力。该模型通过精简架构设计，在保持模型推理性能的前提下降低了计算开销，特别适用于需要极速反馈的实时对话系统、自动化代码辅助及高频并发的任务处理场景。",
+      "source_description": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-02/02-deepseek-ai-deepseek-v4-flash-0731.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/02-deepseek-ai-deepseek-v4-flash-0731.png"
+    },
+    {
+      "id": "hf-2026-08-02-03",
+      "rank": 3,
+      "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "description": "该模型是由社区用户基于 Qwen3.6-27B 进行微调的非限制版版本，通过融合多种技术优化，显著提升了模型在逻辑推理与复杂指令执行方面的表现。该版本提供了多种量化格式，主要面向开发者与研究人员，适用于需要高度定制化逻辑输出及无审查创作的特定实验与应用环境。",
+      "source_description": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix GGUF quants. Many other additional quant types avail too. 3rd parties confirm this model's performance in the \"community tab\".</small>",
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-02/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png"
+    },
+    {
+      "id": "hf-2026-08-02-04",
+      "rank": 4,
+      "name": "baidu/Unlimited-OCR",
+      "description": "Unlimited-OCR 是百度推出的一款专注于光学字符识别（OCR）任务的深度学习模型。该模型致力于解决复杂文档、手写字迹及多语言场景下的高精度识别问题。其技术定位在于提升图像转文本的提取质量，适用于办公文档自动化、扫描件数字化以及图像信息智能化处理等领域。",
+      "source_description": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-02/04-baidu-unlimited-ocr.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/04-baidu-unlimited-ocr.png"
+    },
+    {
+      "id": "hf-2026-08-02-05",
+      "rank": 5,
+      "name": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
+      "description": "此仓库提供了基于 Unsloth 动态量化技术优化的 DeepSeek-V4-Flash-0731 GGUF 格式版本。该方案通过高效的量化与压缩算法，在保证模型推理精度的同时大幅降低了内存占用，支持用户在本地消费级硬件上流畅部署和运行该模型，特别适合需要轻量化部署及性能平衡的开发者群体。",
+      "source_description": "Read our How to Run DeepSeek-V4-0731 Guide! <p style=\"margin-top: 0;margin-bottom: 0;\"> <em><a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; \"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/deepseek-v4\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> </div> <ul style=\"margin: 0;\"> <li>To run DeepSeek-V4-Flash-0731 in full precision lossless, run Q8 (UD-Q8 K XL), which is 162GB and only 7GB bigger than Q4 (UD-Q4 K XL).</li> <li>See our <a href=\"https://unsloth.ai/docs/models/deepseek-v4\">DeepSeek-V4 guide</a> for quantization analysis and instructions.</li> <li>You can now run DeepSeek-V4-Flash-0731 in <a href=\"https://github.com/unslothai/unsloth/\">Unsloth Studio</a> with toggles for High and Max thinking.</li> </ul> </div> <img width=\"600\" alt=\"deepseek-v4-flash-0731 in unsloth studio\" src=\"https://3215535692-files.gitbook.io/ /files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FxhOjnexMCB3dmuQFQ2Zq%2Fuploads%2FlvJqDRKlWdAVkn3HXJZA%2F1000024247.png?alt=media&token=e84fd31d-7720-40d5-aba1-ba65ac34ce97\" />",
+      "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-02/05-unsloth-deepseek-v4-flash-0731-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-02/05-unsloth-deepseek-v4-flash-0731-gguf.png"
+    }
+  ]
+}

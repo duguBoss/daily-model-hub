@@ -1,0 +1,162 @@
+{
+  "recordDate": "2026-08-02",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-08-02",
+      "modelCard": "assets/huggingface_model_cards/2026-08-02/01-moonshotai-kimi-k3.png",
+      "modelName": "moonshotai/Kimi-K3",
+      "modelDescription": "月之暗面推出的 Kimi-K3 是面向通用场景的大语言模型，专注于提升长文本处理与多模态交互能力。该模型旨在通过深度优化实现高效的信息检索与知识整合，适用于文档分析、专业内容创作以及复杂任务辅助等多种实际应用场景，旨在为用户提供更流畅、智能化的交互体验。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K3-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K3",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 559924,
+      "likes": 9467,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-27T16:29:18.000Z",
+      "numParameters": 2779931837184,
+      "availableInferenceProviders": [
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 97.21553528241836,
+          "pricingOutput": 15
+        },
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": false
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 53.864095177627654,
+          "pricingOutput": 15
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/kimi-k3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 49.31310199029703,
+          "pricingOutput": 15
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-08-02",
+      "modelCard": "assets/huggingface_model_cards/2026-08-02/02-deepseek-ai-deepseek-v4-flash-0731.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "modelDescription": "DeepSeek-V4-Flash-0731 是深度求索（DeepSeek）发布的优化版大语言模型，强调高吞吐量与快速响应能力。该模型通过精简架构设计，在保持模型推理性能的前提下降低了计算开销，特别适用于需要极速反馈的实时对话系统、自动化代码辅助及高频并发的任务处理场景。",
+      "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 15366,
+      "likes": 1408,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-08-01T03:07:41.000Z",
+      "numParameters": 304180418494,
+      "availableInferenceProviders": [
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-flash-0731",
+          "task": "text-generation",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-08-02",
+      "modelCard": "assets/huggingface_model_cards/2026-08-02/03-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "modelName": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "modelDescription": "该模型是由社区用户基于 Qwen3.6-27B 进行微调的非限制版版本，通过融合多种技术优化，显著提升了模型在逻辑推理与复杂指令执行方面的表现。该版本提供了多种量化格式，主要面向开发者与研究人员，适用于需要高度定制化逻辑输出及无审查创作的特定实验与应用环境。",
+      "sourceDescription": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix GGUF quants. Many other additional quant types avail too. 3rd parties confirm this model's performance in the \"community tab\".</small>",
+      "modelUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "cardSummary": "",
+      "author": "DavidAU",
+      "downloads": 1173001,
+      "likes": 1232,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-31T07:53:38.000Z",
+      "numParameters": 26895998464,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-08-02",
+      "modelCard": "assets/huggingface_model_cards/2026-08-02/04-baidu-unlimited-ocr.png",
+      "modelName": "baidu/Unlimited-OCR",
+      "modelDescription": "Unlimited-OCR 是百度推出的一款专注于光学字符识别（OCR）任务的深度学习模型。该模型致力于解决复杂文档、手写字迹及多语言场景下的高精度识别问题。其技术定位在于提升图像转文本的提取质量，适用于办公文档自动化、扫描件数字化以及图像信息智能化处理等领域。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/baidu.png\" width=\"55%\" alt=\"Baidu Inc.\" /> </p>",
+      "modelUrl": "https://huggingface.co/baidu/Unlimited-OCR",
+      "cardSummary": "",
+      "author": "baidu",
+      "downloads": 2457387,
+      "likes": 3712,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-29T04:34:16.000Z",
+      "numParameters": 3336106240,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-08-02",
+      "modelCard": "assets/huggingface_model_cards/2026-08-02/05-unsloth-deepseek-v4-flash-0731-gguf.png",
+      "modelName": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
+      "modelDescription": "此仓库提供了基于 Unsloth 动态量化技术优化的 DeepSeek-V4-Flash-0731 GGUF 格式版本。该方案通过高效的量化与压缩算法，在保证模型推理精度的同时大幅降低了内存占用，支持用户在本地消费级硬件上流畅部署和运行该模型，特别适合需要轻量化部署及性能平衡的开发者群体。",
+      "sourceDescription": "Read our How to Run DeepSeek-V4-0731 Guide! <p style=\"margin-top: 0;margin-bottom: 0;\"> <em><a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; \"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/deepseek-v4\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> </div> <ul style=\"margin: 0;\"> <li>To run DeepSeek-V4-Flash-0731 in full precision lossless, run Q8 (UD-Q8 K XL), which is 162GB and only 7GB bigger than Q4 (UD-Q4 K XL).</li> <li>See our <a href=\"https://unsloth.ai/docs/models/deepseek-v4\">DeepSeek-V4 guide</a> for quantization analysis and instructions.</li> <li>You can now run DeepSeek-V4-Flash-0731 in <a href=\"https://github.com/unslothai/unsloth/\">Unsloth Studio</a> with toggles for High and Max thinking.</li> </ul> </div> <img width=\"600\" alt=\"deepseek-v4-flash-0731 in unsloth studio\" src=\"https://3215535692-files.gitbook.io/ /files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FxhOjnexMCB3dmuQFQ2Zq%2Fuploads%2FlvJqDRKlWdAVkn3HXJZA%2F1000024247.png?alt=media&token=e84fd31d-7720-40d5-aba1-ba65ac34ce97\" />",
+      "modelUrl": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
+      "cardSummary": "",
+      "author": "unsloth",
+      "downloads": 4048,
+      "likes": 281,
+      "pipelineTag": "",
+      "lastModified": "2026-08-01T06:03:17.000Z",
+      "numParameters": 284334567511,
+      "availableInferenceProviders": []
+    }
+  ]
+}
