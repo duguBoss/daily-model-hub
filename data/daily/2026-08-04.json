@@ -1,0 +1,200 @@
+{
+  "recordDate": "2026-08-04",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-08-04",
+      "modelCard": "assets/huggingface_model_cards/2026-08-04/01-moonshotai-kimi-k3.png",
+      "modelName": "moonshotai/Kimi-K3",
+      "modelDescription": "Kimi-K3 是月之暗面（Moonshot AI）推出的智能对话模型。该模型专注于长文本处理与多轮交互能力，旨在为用户提供准确、连贯的自然语言理解与生成服务，适用于文档分析、内容创作、信息检索及日常办公助手等多种应用场景。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K3-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K3",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 967622,
+      "likes": 9838,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-27T16:29:18.000Z",
+      "numParameters": 2779931837184,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 49.13892328848922,
+          "pricingOutput": 15
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/kimi-k3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 61.4834828042975,
+          "pricingOutput": 15
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 72.67248549120309,
+          "pricingOutput": 15
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-08-04",
+      "modelCard": "assets/huggingface_model_cards/2026-08-04/02-deepseek-ai-deepseek-v4-flash-0731.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "modelDescription": "DeepSeek-V4-Flash-0731 是深度求索（DeepSeek）开发的轻量化高性能大模型。该版本强调推理效率与响应速度的平衡，旨在降低计算开销的同时保持高质量的输出，适用于对实时性要求较高或计算资源受限的各类生成式人工智能应用。",
+      "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 236076,
+      "likes": 2043,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-08-01T03:07:41.000Z",
+      "numParameters": 304180418494,
+      "availableInferenceProviders": [
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 76.5239202432234,
+          "pricingOutput": 0.26
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-flash-0731",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 68.55269597595581,
+          "pricingOutput": 0.28
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 45.253877595479885,
+          "pricingOutput": 0.18
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-08-04",
+      "modelCard": "assets/huggingface_model_cards/2026-08-04/03-minimaxai-minimax-h3.png",
+      "modelName": "MiniMaxAI/MiniMax-H3",
+      "modelDescription": "MiniMax-H3 是由 MiniMax 研发的大语言模型。该模型定位于通用人工智能助手，具备较强的逻辑推理、语义理解及复杂任务处理能力，致力于在多模态交互、编程辅助、创意写作及专业咨询等领域提供高效的智能化解决方案。",
+      "sourceDescription": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3.png\" alt=\"MiniMax\"> </div>",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "cardSummary": "",
+      "author": "MiniMaxAI",
+      "downloads": 0,
+      "likes": 1411,
+      "pipelineTag": "image-text-to-video",
+      "lastModified": "2026-08-03T16:05:34.000Z",
+      "numParameters": 33122992896,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-08-04",
+      "modelCard": "assets/huggingface_model_cards/2026-08-04/04-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "modelName": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "modelDescription": "Qwen3.6-27B-Fable-Fusion-711 是基于 Qwen 模型深度微调的社区版本。该模型侧重于去限制化处理，通过特定数据集增强了推理逻辑，支持 GGUF 等量化格式，适用于本地化部署、复杂推理验证及需要绕过常规内容审查的特定技术实验。",
+      "sourceDescription": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix GGUF quants. Many other additional quant types avail too. 3rd parties confirm this model's performance in the \"community tab\".</small>",
+      "modelUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "cardSummary": "",
+      "author": "DavidAU",
+      "downloads": 1550034,
+      "likes": 1424,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-07-31T07:53:38.000Z",
+      "numParameters": 26895998464,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-08-04",
+      "modelCard": "assets/huggingface_model_cards/2026-08-04/05-comfy-org-minimax-h3.png",
+      "modelName": "Comfy-Org/MiniMax-H3",
+      "modelDescription": "Comfy-Org 发行的 MiniMax-H3 版本。该模型源自 MiniMax 原版架构，旨在提供高性能的基础对话与任务处理能力。通过适配主流推理框架，该模型可广泛应用于构建聊天机器人、自动化工作流及内容生成平台，具备良好的通用性与部署灵活性。",
+      "sourceDescription": "Original model repository: https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "modelUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "cardSummary": "",
+      "author": "Comfy-Org",
+      "downloads": 2,
+      "likes": 432,
+      "pipelineTag": "",
+      "lastModified": "2026-08-03T12:20:03.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    }
+  ]
+}
