@@ -1,20 +1,48 @@
 {
-  "recordDate": "2026-08-05",
+  "recordDate": "2026-08-06",
   "source": "https://huggingface.co/models?sort=trending",
   "limit": 5,
   "models": [
     {
       "rank": 1,
-      "recordDate": "2026-08-05",
-      "modelCard": "assets/huggingface_model_cards/2026-08-05/01-deepseek-ai-deepseek-v4-flash-0731.png",
+      "recordDate": "2026-08-06",
+      "modelCard": "assets/huggingface_model_cards/2026-08-06/01-minimaxai-minimax-h3.png",
+      "modelName": "MiniMaxAI/MiniMax-H3",
+      "modelDescription": "MiniMax-H3是由MiniMax公司研发的大语言模型。该模型定位于高性能的通用人工智能交互，具备优秀的自然语言理解与生成能力，旨在通过提供高效的语义处理，辅助用户完成多种文本创作、逻辑推理及对话类任务，适用于开发对话机器人及智能助手等应用。",
+      "sourceDescription": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3.png\" alt=\"MiniMax\"> </div>",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "cardSummary": "",
+      "author": "MiniMaxAI",
+      "downloads": 10841,
+      "likes": 2480,
+      "pipelineTag": "image-text-to-video",
+      "lastModified": "2026-08-05T15:58:41.000Z",
+      "numParameters": 33122992896,
+      "availableInferenceProviders": [
+        {
+          "provider": "fal-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "minimax/h3/image-to-video",
+          "task": "image-text-to-video",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-08-06",
+      "modelCard": "assets/huggingface_model_cards/2026-08-06/02-deepseek-ai-deepseek-v4-flash-0731.png",
       "modelName": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "modelDescription": "DeepSeek-V4-Flash-0731 是由深度求索开发的轻量化高性能大语言模型。该模型专注于提高推理效率与响应速度，旨在通过优化架构在保持模型能力的同时降低计算开销，适用于对延迟敏感的实时对话、辅助编程及复杂文本处理任务，是追求高性能与高效能平衡的理想选择。",
+      "modelDescription": "DeepSeek-V4-Flash-0731是由深度求索开发的高效大语言模型版本。该模型侧重于推理速度与计算效率的平衡，旨在满足对低延迟响应有较高要求的场景。其具备较强的语言处理与逻辑建模能力，适用于需要快速生成、实时翻译或高并发对话处理的各类开发场景。",
       "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
       "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
       "cardSummary": "",
       "author": "deepseek-ai",
       "downloads": 433284,
-      "likes": 2288,
+      "likes": 2482,
       "pipelineTag": "text-generation",
       "lastModified": "2026-08-01T03:07:41.000Z",
       "numParameters": 304180418494,
@@ -27,12 +55,12 @@
           "task": "conversational",
           "features": {
             "structuredOutput": true,
-            "toolCalling": true
+            "toolCalling": false
           },
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 54.70347096500291,
+          "tokensPerSecond": 95.4590678064565,
           "pricingOutput": 0.27999999999999997
         },
         {
@@ -48,7 +76,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 58.115652634101835,
+          "tokensPerSecond": 64.23018860463637,
           "pricingOutput": 0.28
         },
         {
@@ -59,12 +87,12 @@
           "task": "conversational",
           "features": {
             "structuredOutput": false,
-            "toolCalling": false
+            "toolCalling": true
           },
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 57.611710888882044
+          "tokensPerSecond": 62.82204894437903
         },
         {
           "provider": "deepinfra",
@@ -79,7 +107,7 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 67.60832959707116,
+          "tokensPerSecond": 36.602230779579536,
           "pricingOutput": 0.18
         },
         {
@@ -95,47 +123,30 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 198.97891036537104,
+          "tokensPerSecond": 136.57154283142762,
           "pricingOutput": 0.26
         }
       ]
     },
     {
-      "rank": 2,
-      "recordDate": "2026-08-05",
-      "modelCard": "assets/huggingface_model_cards/2026-08-05/02-minimaxai-minimax-h3.png",
-      "modelName": "MiniMaxAI/MiniMax-H3",
-      "modelDescription": "MiniMax-H3 是由 MiniMax 推出的高性能多模态大语言模型，具备出色的逻辑推理与内容生成能力。该模型定位为通用智能助手，能够处理复杂的跨领域知识任务。其核心优势在于深度优化的上下文理解能力，适用于企业级文档分析、长文本生成以及各类需要高准确度的智能化业务应用场景。",
-      "sourceDescription": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3.png\" alt=\"MiniMax\"> </div>",
-      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-      "cardSummary": "",
-      "author": "MiniMaxAI",
-      "downloads": 0,
-      "likes": 1984,
-      "pipelineTag": "image-text-to-video",
-      "lastModified": "2026-08-04T13:14:16.000Z",
-      "numParameters": 33122992896,
-      "availableInferenceProviders": []
-    },
-    {
       "rank": 3,
-      "recordDate": "2026-08-05",
-      "modelCard": "assets/huggingface_model_cards/2026-08-05/03-moonshotai-kimi-k3.png",
+      "recordDate": "2026-08-06",
+      "modelCard": "assets/huggingface_model_cards/2026-08-06/03-moonshotai-kimi-k3.png",
       "modelName": "moonshotai/Kimi-K3",
-      "modelDescription": "Kimi-K3 是月之暗面科技推出的新一代大语言模型。该模型延续了 Kimi 在长上下文处理上的显著优势，支持极长文本的输入与理解，并在逻辑深度和响应准确性上进行了全面优化。其主要定位于长文档研报分析、复杂知识检索以及深度的内容创作任务，能够为用户提供更为连贯、专业的交互体验。",
+      "modelDescription": "Kimi-K3是月之暗面（Moonshot AI）推出的高性能大模型。该模型以长文本处理能力为显著优势，能高效整合大规模信息并提供连贯的逻辑输出。它广泛应用于复杂的文档分析、跨文档阅读、长内容生成以及深度知识问答，旨在成为用户高效处理各类长文本任务的核心智能工具。",
       "sourceDescription": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K3-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
       "modelUrl": "https://huggingface.co/moonshotai/Kimi-K3",
       "cardSummary": "",
       "author": "moonshotai",
       "downloads": 1125935,
-      "likes": 10005,
+      "likes": 10118,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-07-27T16:29:18.000Z",
       "numParameters": 2779931837184,
       "availableInferenceProviders": [
         {
           "provider": "together",
-          "modelStatus": "live",
+          "modelStatus": "error",
           "providerStatus": "live",
           "providerId": "moonshotai/Kimi-K3",
           "task": "conversational",
@@ -143,10 +154,10 @@
             "structuredOutput": true,
             "toolCalling": true
           },
-          "isCheapestPricingOutput": true,
+          "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 73.81877075397622,
+          "tokensPerSecond": 27.705240945843478,
           "pricingOutput": 15
         },
         {
@@ -159,10 +170,10 @@
             "structuredOutput": false,
             "toolCalling": true
           },
-          "isCheapestPricingOutput": false,
+          "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 41.3875027894546,
+          "tokensPerSecond": 59.99495454408376,
           "pricingOutput": 15
         },
         {
@@ -183,47 +194,47 @@
           "task": "conversational",
           "features": {
             "structuredOutput": true,
-            "toolCalling": false
+            "toolCalling": true
           },
           "isCheapestPricingOutput": false,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 74.83259727379603,
+          "tokensPerSecond": 80.04924521961442,
           "pricingOutput": 15
         }
       ]
     },
     {
       "rank": 4,
-      "recordDate": "2026-08-05",
-      "modelCard": "assets/huggingface_model_cards/2026-08-05/04-comfy-org-minimax-h3.png",
+      "recordDate": "2026-08-06",
+      "modelCard": "assets/huggingface_model_cards/2026-08-06/04-comfy-org-minimax-h3.png",
       "modelName": "Comfy-Org/MiniMax-H3",
-      "modelDescription": "该模型为 MiniMax-H3 的复刻或分发版本，由 Comfy-Org 维护。作为 MiniMax 自研架构的衍生实现，它继承了原版模型在高并发场景下的推理表现与逻辑能力。该版本旨在为开发者提供灵活的部署环境，适用于需要集成高性能 MiniMax 技术能力，且对特定推理框架或开发生态有定制需求的应用场景。",
+      "modelDescription": "Comfy-Org版MiniMax-H3是基于MiniMax官方原版模型进行适配与托管的版本。该版本旨在为开发者提供更易于在特定框架中集成的环境，保留了原版模型的高效文本生成与对话交互能力，适用于需要轻量化部署与深度接入复杂应用逻辑的开发流程。",
       "sourceDescription": "Original model repository: https://huggingface.co/MiniMaxAI/MiniMax-H3",
       "modelUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "cardSummary": "",
       "author": "Comfy-Org",
       "downloads": 2,
-      "likes": 592,
+      "likes": 748,
       "pipelineTag": "",
-      "lastModified": "2026-08-04T20:18:54.000Z",
+      "lastModified": "2026-08-05T04:53:58.000Z",
       "numParameters": null,
       "availableInferenceProviders": []
     },
     {
       "rank": 5,
-      "recordDate": "2026-08-05",
-      "modelCard": "assets/huggingface_model_cards/2026-08-05/05-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "recordDate": "2026-08-06",
+      "modelCard": "assets/huggingface_model_cards/2026-08-06/05-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
       "modelName": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-      "modelDescription": "Qwen3.6-27B-Fable-Fusion 是基于 Qwen 系列架构的社区微调模型，主打不受限制的生成体验。该版本整合了多项量化技术（GGUF），强调在特定智力评估基准测试中的表现。它适用于追求高逻辑性能、需要进行深度模型探索或个性化创作的开发者，在处理不设限的开放性任务时具有独特的社区应用价值。",
-      "sourceDescription": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix GGUF quants. Many other additional quant types avail too. 3rd parties confirm this model's performance in the \"community tab\".</small>",
+      "modelDescription": "Qwen3.6-27B-Fable-Fusion-711是一个基于Qwen系列微调的非审查（Uncensored）模型。该模型针对逻辑基准测试进行了深度优化，旨在提供高智力的推理表现。它支持多种量化格式，主要面向追求深度内容生成、不受预置约束限制的研究人员及极客开发者使用。",
+      "sourceDescription": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix GGUF quants. Many other additional quant types avail too. 3rd parties confirm this model's performance in the \"community tab\". (40B version has entered Beta)</small>",
       "modelUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "cardSummary": "",
       "author": "DavidAU",
       "downloads": 1633405,
-      "likes": 1510,
+      "likes": 1584,
       "pipelineTag": "image-text-to-text",
-      "lastModified": "2026-07-31T07:53:38.000Z",
+      "lastModified": "2026-08-05T02:10:38.000Z",
       "numParameters": 26895998464,
       "availableInferenceProviders": []
     }
