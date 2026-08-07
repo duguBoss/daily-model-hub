@@ -1,20 +1,20 @@
 {
-  "recordDate": "2026-08-07",
+  "recordDate": "2026-08-08",
   "source": "https://huggingface.co/models?sort=trending",
   "limit": 5,
   "models": [
     {
       "rank": 1,
-      "recordDate": "2026-08-07",
-      "modelCard": "assets/huggingface_model_cards/2026-08-07/01-minimaxai-minimax-h3.png",
+      "recordDate": "2026-08-08",
+      "modelCard": "assets/huggingface_model_cards/2026-08-08/01-minimaxai-minimax-h3.png",
       "modelName": "MiniMaxAI/MiniMax-H3",
-      "modelDescription": "MiniMax-H3是由MiniMax推出的高性能大语言模型，具备出色的多模态理解与生成能力。该模型旨在通过深度优化提升交互质量，适用于复杂的自然语言处理任务，如智能对话辅助、创意写作及多语种文本处理。其设计核心在于平衡计算效率与响应精度，以满足企业级应用对高质量模型输出的需求。",
+      "modelDescription": "MiniMax-H3是由MiniMax推出的基础大语言模型。该模型专注于提供高效的自然语言处理能力，支持多语言交互与复杂任务执行，适用于需要高质量文本生成、逻辑推理及对话服务的商业场景与科研应用，是MiniMax技术栈中的重要组成部分。",
       "sourceDescription": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3.png\" alt=\"MiniMax\"> </div>",
       "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
       "cardSummary": "",
       "author": "MiniMaxAI",
-      "downloads": 12102,
-      "likes": 2751,
+      "downloads": 18112,
+      "likes": 2939,
       "pipelineTag": "image-text-to-video",
       "lastModified": "2026-08-06T16:07:09.000Z",
       "numParameters": 33122992896,
@@ -33,16 +33,16 @@
     },
     {
       "rank": 2,
-      "recordDate": "2026-08-07",
-      "modelCard": "assets/huggingface_model_cards/2026-08-07/02-deepseek-ai-deepseek-v4-flash-0731.png",
+      "recordDate": "2026-08-08",
+      "modelCard": "assets/huggingface_model_cards/2026-08-08/02-deepseek-ai-deepseek-v4-flash-0731.png",
       "modelName": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "modelDescription": "DeepSeek-V4-Flash-0731是一款针对高效推理场景优化的模型，旨在提供极高的响应速度与推理吞吐量。该模型适合对实时交互性能有严格要求的应用领域，如高频问答系统、自动化智能客服以及大规模文本数据流处理。通过针对性的架构精简，它在保证基础语义理解能力的前提下，有效降低了系统的算力消耗与延迟。",
+      "modelDescription": "DeepSeek-V4-Flash-0731是深度求索公司研发的轻量化高性能语言模型。其设计初衷是在保证推理精度的前提下，显著提升响应速度与处理吞吐量，特别适用于对实时性要求极高的应用场景，如智能客服、实时数据分析与高效辅助编程工具。",
       "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
       "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
       "cardSummary": "",
       "author": "deepseek-ai",
-      "downloads": 617900,
-      "likes": 2643,
+      "downloads": 702709,
+      "likes": 2737,
       "pipelineTag": "text-generation",
       "lastModified": "2026-08-01T03:07:41.000Z",
       "numParameters": 304180418494,
@@ -54,13 +54,13 @@
           "providerId": "deepseek-ai/DeepSeek-V4-Flash-0731",
           "task": "conversational",
           "features": {
-            "structuredOutput": true,
+            "structuredOutput": false,
             "toolCalling": true
           },
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 65.35868200922671,
+          "tokensPerSecond": 18.246946743525914,
           "pricingOutput": 0.27999999999999997
         },
         {
@@ -76,7 +76,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 58.070672114179025,
+          "tokensPerSecond": 72.39300991786887,
           "pricingOutput": 0.28
         },
         {
@@ -92,7 +92,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 75.8008073384761
+          "tokensPerSecond": 94.12027782242993
         },
         {
           "provider": "deepinfra",
@@ -107,7 +107,7 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 45.6271977171598,
+          "tokensPerSecond": 34.99436704812869,
           "pricingOutput": 0.18
         },
         {
@@ -123,23 +123,40 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 163.86538863332754,
+          "tokensPerSecond": 128.562700247465,
           "pricingOutput": 0.26
         }
       ]
     },
     {
       "rank": 3,
-      "recordDate": "2026-08-07",
-      "modelCard": "assets/huggingface_model_cards/2026-08-07/03-moonshotai-kimi-k3.png",
+      "recordDate": "2026-08-08",
+      "modelCard": "assets/huggingface_model_cards/2026-08-08/03-comfy-org-minimax-h3.png",
+      "modelName": "Comfy-Org/MiniMax-H3",
+      "modelDescription": "该模型是由Comfy-Org基于MiniMax-H3原版进行封装与适配的版本。旨在优化在ComfyUI等特定开源生态中的兼容性与部署流程，使用户能够更便捷地调用MiniMax的基础模型能力进行多模态创作或特定任务开发。",
+      "sourceDescription": "Original model repository: https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "modelUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "cardSummary": "",
+      "author": "Comfy-Org",
+      "downloads": 3139920,
+      "likes": 931,
+      "pipelineTag": "",
+      "lastModified": "2026-08-06T01:44:50.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-08-08",
+      "modelCard": "assets/huggingface_model_cards/2026-08-08/04-moonshotai-kimi-k3.png",
       "modelName": "moonshotai/Kimi-K3",
-      "modelDescription": "Kimi-K3是月之暗面（Moonshot AI）推出的高性能语言模型，以超长上下文处理能力与深度的语义理解见长。该模型定位为智能协作工具，能够高效处理长文档阅读、复杂信息检索及跨领域逻辑推理任务，特别适合学术研究、法律文档审查及商业数据分析等对知识密度与逻辑广度有较高要求的专业工作场景。",
+      "modelDescription": "Kimi-K3是月之暗面（Moonshot AI）推出的先进大语言模型。该模型在长文本处理与复杂上下文理解方面表现卓越，通过更优的架构设计提升了逻辑连贯性，广泛适用于长文档分析、深度阅读理解、创作辅助及跨领域复杂信息检索任务。",
       "sourceDescription": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3\"> </picture> </div> <hr> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.com\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/🤖%20Chat-Kimi%20K3-ff6b6b?color=1783ff&logoColor=white\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div>",
       "modelUrl": "https://huggingface.co/moonshotai/Kimi-K3",
       "cardSummary": "",
       "author": "moonshotai",
-      "downloads": 1258043,
-      "likes": 10197,
+      "downloads": 1308186,
+      "likes": 10274,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-07-27T16:29:18.000Z",
       "numParameters": 2779931837184,
@@ -157,7 +174,7 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 65.74937376410801,
+          "tokensPerSecond": 74.66139899785352,
           "pricingOutput": 15
         },
         {
@@ -173,7 +190,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 46.278151251629126,
+          "tokensPerSecond": 51.705841264912635,
           "pricingOutput": 15
         },
         {
@@ -199,43 +216,26 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 98.93056963080573,
+          "tokensPerSecond": 88.82731392775986,
           "pricingOutput": 15
         }
       ]
     },
     {
-      "rank": 4,
-      "recordDate": "2026-08-07",
-      "modelCard": "assets/huggingface_model_cards/2026-08-07/04-comfy-org-minimax-h3.png",
-      "modelName": "Comfy-Org/MiniMax-H3",
-      "modelDescription": "该模型为MiniMax-H3的移植或部署适配版本，由Comfy-Org进行分发。其核心能力延续了原版MiniMax-H3的语言处理基础，但在部署兼容性上进行了优化，方便开发者在不同框架和基础设施上快速集成。该版本主要面向需要使用MiniMax技术架构，且寻求特定环境部署灵活性的开发者，支持多样化的下游推理任务。",
-      "sourceDescription": "Original model repository: https://huggingface.co/MiniMaxAI/MiniMax-H3",
-      "modelUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3",
-      "cardSummary": "",
-      "author": "Comfy-Org",
-      "downloads": 2295377,
-      "likes": 846,
-      "pipelineTag": "",
-      "lastModified": "2026-08-06T01:44:50.000Z",
-      "numParameters": null,
-      "availableInferenceProviders": []
-    },
-    {
       "rank": 5,
-      "recordDate": "2026-08-07",
-      "modelCard": "assets/huggingface_model_cards/2026-08-07/05-unsloth-deepseek-v4-flash-0731-gguf.png",
-      "modelName": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
-      "modelDescription": "这是DeepSeek-V4-Flash-0731的量化版本，通过Unsloth技术栈提供GGUF格式支持。该版本利用动态量化技术在降低显存占用与提升推理速度方面表现优异，支持DSpark加速。适用于本地化部署或资源有限的环境，让用户在保持高效推理性能的同时，能够更灵活地运行该模型，是进行模型微调或本地模型实验的理想选择。",
-      "sourceDescription": "Read our How to Run DeepSeek-V4-0731 Guide! <p style=\"margin-top: 0;margin-bottom: 0;\"> <em><a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-v2.0-gguf\">Unsloth Dynamic 2.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; \"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/deepseek-v4\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> </div> <ul style=\"margin: 0;\"> <li>To run DeepSeek-V4-Flash-0731 in full precision lossless, run Q8 (UD-Q8 K XL), which is 162GB and only 7GB bigger than Q4 (UD-Q4 K XL).</li> <li>See our <a href=\"https://unsloth.ai/docs/models/deepseek-v4\">DeepSeek-V4 guide</a> for quantization analysis and instructions.</li> <li>You can now run DeepSeek-V4-Flash-0731 in <a href=\"https://github.com/unslothai/unsloth/\">Unsloth Studio</a> with toggles for High and Max thinking.</li> <li><b>New DSpark support allowing up to 2x faster decoding!</b><a href=\"https://unsloth.ai/docs/models/deepseek-v4#dspark-speculative-decoding\"> Docs for DSpark</a></li> </ul> </div> <img width=\"600\" alt=\"deepseek-v4-flash-0731 in unsloth studio\" src=\"https://3215535692-files.gitbook.io/ /files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FxhOjnexMCB3dmuQFQ2Zq%2Fuploads%2FlvJqDRKlWdAVkn3HXJZA%2F1000024247.png?alt=media&token=e84fd31d-7720-40d5-aba1-ba65ac34ce97\" />",
-      "modelUrl": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
+      "recordDate": "2026-08-08",
+      "modelCard": "assets/huggingface_model_cards/2026-08-08/05-davidau-qwen3-6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf.png",
+      "modelName": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "modelDescription": "Qwen3.6-27B-Fable-Fusion是一款基于Qwen架构深度调优的非受限开源模型。该版本经过特殊微调，在基准测试中展现出强悍的智力指标，支持多种位宽量化版本，适用于追求高性能、无内容过滤限制的本地部署与专业科研分析场景。",
+      "sourceDescription": "<small><b><font color=\"red\">Important:</font></b> This is the first fine tune to exceed 700 \"arc-c\" (The OpenAI, Claude and Gemini \"zone of intelligence\") in both 8 bit and 4 bit. This repo contains both \"regular\" and \"MTP\" Neo MAX Imatrix GGUF quants. Many other additional quant types avail too. 3rd parties confirm this model's performance in the \"community tab\". (40B version has entered Beta)</small>",
+      "modelUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "cardSummary": "",
-      "author": "unsloth",
-      "downloads": 145105,
-      "likes": 544,
-      "pipelineTag": "",
-      "lastModified": "2026-08-06T14:54:45.000Z",
-      "numParameters": 284334567511,
+      "author": "DavidAU",
+      "downloads": 2217339,
+      "likes": 1704,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-05T02:10:38.000Z",
+      "numParameters": 26895998464,
       "availableInferenceProviders": []
     }
   ]
