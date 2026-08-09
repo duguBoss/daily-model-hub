@@ -1,0 +1,70 @@
+{
+  "weekRange": {
+    "start": "2026-08-04",
+    "end": "2026-08-10"
+  },
+  "weekTitle": "Hugging Face 每周模型趋势精选 (2026-08-10)",
+  "summary": "本周模型社区焦点集中在多模态生成与高效推理领域。MiniMax-H3 系列凭借其出色的多模态能力占据榜首，配合 ComfyUI 生态集成与 LoRA 提速方案，极大提升了视频创作效率。同时，DeepSeek 和 Moonshot 等国产顶尖大模型在长文本处理与实时推理性能上表现抢眼，进一步巩固了高性能 AI 模型的应用边界。",
+  "items": [
+    {
+      "modelName": "MiniMaxAI/MiniMax-H3",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "modelCard": "assets/huggingface_model_cards/2026-08-10/01-minimaxai-minimax-h3.png",
+      "modelDescription": "MiniMax-H3 是由 MiniMax 开发的生成式人工智能模型。该模型主要用于多模态内容生成任务，具备处理复杂指令和生成高质量多媒体内容的能力，适用于视频创作、多媒体交互及创意辅助等多种应用场景，是该公司在生成式 AI 领域的核心技术模型。",
+      "pickReason": "作为本周榜首，MiniMax-H3 展示了顶尖的多模态生成水准。该模型不仅处理复杂指令的能力卓越，在生成高质量多媒体内容方面也表现出色，是目前视频创作与交互辅助领域的核心技术支撑，极具探索价值。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-08-10"
+      ]
+    },
+    {
+      "modelName": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "modelCard": "assets/huggingface_model_cards/2026-08-10/02-deepseek-ai-deepseek-v4-flash-0731.png",
+      "modelDescription": "DeepSeek-V4-Flash-0731 是深度求索推出的一款高性能大型语言模型，针对推理效率进行了深度优化。该模型旨在通过精简计算路径实现更快的响应速度，主要面向需要高并发处理和快速实时交互的自然语言处理任务，如智能助手、自动化数据处理及复杂对话系统。",
+      "pickReason": "DeepSeek-V4-Flash 针对推理效率进行了深度优化，通过精简计算路径实现了极快的响应速度。对于追求高并发和实时交互的开发者来说，这款模型在保持高性能的同时显著提升了实用性，非常适合复杂的对话系统。",
+      "appearances": 1,
+      "bestRank": 2,
+      "dates": [
+        "2026-08-10"
+      ]
+    },
+    {
+      "modelName": "Comfy-Org/MiniMax-H3",
+      "modelUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "modelCard": "assets/huggingface_model_cards/2026-08-10/03-comfy-org-minimax-h3.png",
+      "modelDescription": "该模型由 Comfy-Org 托管，源自 MiniMax-H3 基础架构。它是一个针对特定工作流优化的版本，主要用于兼容 ComfyUI 等多媒体生成框架，方便创作者在本地或云端工作流中调用 MiniMax-H3 的生成能力，以实现更高效的视频和视觉内容创作。",
+      "pickReason": "该版本针对 ComfyUI 工作流进行了深度适配，极大降低了用户在本地或云端调用 MiniMax-H3 强悍生成能力的门槛。这种生态化的集成使得复杂的视频视觉创作变得更加丝滑，是多模态创作者的福音。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-08-10"
+      ]
+    },
+    {
+      "modelName": "moonshotai/Kimi-K3",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K3",
+      "modelCard": "assets/huggingface_model_cards/2026-08-10/04-moonshotai-kimi-k3.png",
+      "modelDescription": "Kimi-K3 是月之暗面（Moonshot AI）推出的前沿大模型。该模型擅长处理超长文本上下文，具备极强的逻辑推理与信息整合能力。适用于长文档阅读分析、复杂任务规划及知识问答等场景，能够为用户提供深度且连贯的内容创作与辅助支持。",
+      "pickReason": "Kimi-K3 继续在长文本处理领域树立标杆。凭借强大的上下文信息整合与深度的逻辑推理能力，它能轻松应对超长文档的分析与复杂任务规划，是处理大规模知识库问答及内容创作任务的不二之选。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-08-10"
+      ]
+    },
+    {
+      "modelName": "larryvrh/MiniMax-H3-Turbo-Lora",
+      "modelUrl": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+      "modelCard": "assets/huggingface_model_cards/2026-08-10/05-larryvrh-minimax-h3-turbo-lora.png",
+      "modelDescription": "MiniMax-H3-Turbo-Lora 是针对 MiniMax-H3 的 LoRA 微调插件。其核心功能是优化视频与同步音频的生成流程，将采样步骤从 20 步压缩至 4 步，显著提升了推理速度。该方案旨在显著降低多模态生成的计算延迟，适合追求高性能和高效输出的视频生成应用。",
+      "pickReason": "这款 LoRA 插件堪称效率神器，通过将采样步数从 20 步压缩至 4 步，实现了 5 倍的推理速度提升，同时还能同步生成音频。它有效解决了多模态生成中常见的计算延迟问题，极大地优化了创作体验。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-08-10"
+      ]
+    }
+  ]
+}
