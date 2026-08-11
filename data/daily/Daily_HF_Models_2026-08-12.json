@@ -1,0 +1,115 @@
+{
+  "date": "2026-08-12",
+  "title": "🔥Minimax重磅发布是由开发的大能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/01-minimaxai-minimax-h3.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/02-meta-models-muse-glimmer-30b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/03-deepseek-ai-deepseek-v4-flash-0731.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/04-larryvrh-minimax-h3-turbo-lora.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/05-comfy-org-minimax-h3.png"
+  ],
+  "songs": [
+    {
+      "name": "MiniMax-H3",
+      "artist": "MiniMaxAI"
+    },
+    {
+      "name": "Muse-Glimmer-30B",
+      "artist": "meta-models"
+    },
+    {
+      "name": "DeepSeek-V4-Flash-0731",
+      "artist": "deepseek-ai"
+    },
+    {
+      "name": "MiniMax-H3-Turbo-Lora",
+      "artist": "larryvrh"
+    },
+    {
+      "name": "MiniMax-H3",
+      "artist": "Comfy-Org"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-08-12 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/01-minimaxai-minimax-h3.png\" alt=\"MiniMaxAI/MiniMax-H3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">MiniMaxAI/MiniMax-H3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniMax-H3是由MiniMaxAI开发的大型人工智能模型。该模型主要面向高阶生成式任务，具备强大的理解与生成能力，旨在通过先进的算法架构为开发者提供高性能的底座支持，适用于多种复杂的自然语言处理及多模态应用场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/02-meta-models-muse-glimmer-30b.png\" alt=\"meta-models/Muse-Glimmer-30B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">meta-models/Muse-Glimmer-30B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Muse-Glimmer-30B由Meta超级智能实验室于2026年8月发布，采用Apache 2.0许可协议。该模型拥有300亿参数规模，定位于高性能通用人工智能，旨在通过优化的模型结构提升推理效率，适用于多种学术研究及商业化应用任务。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/03-deepseek-ai-deepseek-v4-flash-0731.png\" alt=\"deepseek-ai/DeepSeek-V4-Flash-0731\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepseek-ai/DeepSeek-V4-Flash-0731</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">DeepSeek-V4-Flash-0731是深度求索推出的轻量化版本模型。该版本侧重于推理速度与响应效率的优化，在保持核心生成能力的同时降低了延迟。非常适合对实时响应要求较高、需要快速迭代的开发环境及生产级应用场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/04-larryvrh-minimax-h3-turbo-lora.png\" alt=\"larryvrh/MiniMax-H3-Turbo-Lora\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">larryvrh/MiniMax-H3-Turbo-Lora</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniMax-H3-Turbo-Lora是针对MiniMax-H3模型的LoRA适配器。该插件主要用于提升视频与同步立体声的渲染效率，将采样步数从传统的20步缩减至4步，实现了约5倍的采样加速，显著优化了多模态内容的生成效率。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/05-comfy-org-minimax-h3.png\" alt=\"Comfy-Org/MiniMax-H3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Comfy-Org/MiniMax-H3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">该模型版本由Comfy-Org托管，旨在为用户提供对MiniMax-H3的便捷访问与部署支持。作为原生MiniMax-H3的延伸，该存储库主要服务于ComfyUI生态系统，便于开发者在本地工作流中集成该模型以进行多模态创作与处理。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-08-11T22:43:29.371011"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+    "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+    "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+    "https://huggingface.co/Comfy-Org/MiniMax-H3"
+  ],
+  "new_urls": [
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+    "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+    "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+    "https://huggingface.co/Comfy-Org/MiniMax-H3"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-08-12-01",
+      "rank": 1,
+      "name": "MiniMaxAI/MiniMax-H3",
+      "description": "MiniMax-H3是由MiniMaxAI开发的大型人工智能模型。该模型主要面向高阶生成式任务，具备强大的理解与生成能力，旨在通过先进的算法架构为开发者提供高性能的底座支持，适用于多种复杂的自然语言处理及多模态应用场景。",
+      "source_description": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3.png\" alt=\"MiniMax\"> </div>",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-12/01-minimaxai-minimax-h3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/01-minimaxai-minimax-h3.png"
+    },
+    {
+      "id": "hf-2026-08-12-02",
+      "rank": 2,
+      "name": "meta-models/Muse-Glimmer-30B",
+      "description": "Muse-Glimmer-30B由Meta超级智能实验室于2026年8月发布，采用Apache 2.0许可协议。该模型拥有300亿参数规模，定位于高性能通用人工智能，旨在通过优化的模型结构提升推理效率，适用于多种学术研究及商业化应用任务。",
+      "source_description": "Authors: Meta Superintelligence Lab Model Release Date: August 2026 License: Apache 2.0",
+      "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-12/02-meta-models-muse-glimmer-30b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/02-meta-models-muse-glimmer-30b.png"
+    },
+    {
+      "id": "hf-2026-08-12-03",
+      "rank": 3,
+      "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "description": "DeepSeek-V4-Flash-0731是深度求索推出的轻量化版本模型。该版本侧重于推理速度与响应效率的优化，在保持核心生成能力的同时降低了延迟。非常适合对实时响应要求较高、需要快速迭代的开发环境及生产级应用场景。",
+      "source_description": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-12/03-deepseek-ai-deepseek-v4-flash-0731.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/03-deepseek-ai-deepseek-v4-flash-0731.png"
+    },
+    {
+      "id": "hf-2026-08-12-04",
+      "rank": 4,
+      "name": "larryvrh/MiniMax-H3-Turbo-Lora",
+      "description": "MiniMax-H3-Turbo-Lora是针对MiniMax-H3模型的LoRA适配器。该插件主要用于提升视频与同步立体声的渲染效率，将采样步数从传统的20步缩减至4步，实现了约5倍的采样加速，显著优化了多模态内容的生成效率。",
+      "source_description": "A LoRA for MiniMax-H3 that renders joint video + synchronized stereo audio in as few as 4 sampling steps instead of the usual 20 — a 5× sampling speedup — and keeps getting better as you add steps.",
+      "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-12/04-larryvrh-minimax-h3-turbo-lora.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/04-larryvrh-minimax-h3-turbo-lora.png"
+    },
+    {
+      "id": "hf-2026-08-12-05",
+      "rank": 5,
+      "name": "Comfy-Org/MiniMax-H3",
+      "description": "该模型版本由Comfy-Org托管，旨在为用户提供对MiniMax-H3的便捷访问与部署支持。作为原生MiniMax-H3的延伸，该存储库主要服务于ComfyUI生态系统，便于开发者在本地工作流中集成该模型以进行多模态创作与处理。",
+      "source_description": "Original model repository: https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-12/05-comfy-org-minimax-h3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-12/05-comfy-org-minimax-h3.png"
+    }
+  ]
+}
