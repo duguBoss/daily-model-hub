@@ -1,0 +1,215 @@
+{
+  "recordDate": "2026-08-13",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-08-13",
+      "modelCard": "assets/huggingface_model_cards/2026-08-13/01-meta-models-muse-glimmer-30b.png",
+      "modelName": "meta-models/Muse-Glimmer-30B",
+      "modelDescription": "Meta超级智能实验室于2026年8月推出的30B参数量模型，采用Apache 2.0开源协议。作为一款中等规模的大型语言模型，它定位在平衡模型性能与计算资源需求，适用于多种自然语言理解及生成任务，旨在为开发者提供高效且灵活的开源基座选择。",
+      "sourceDescription": "Authors: Meta Superintelligence Lab Model Release Date: August 2026 License: Apache 2.0",
+      "modelUrl": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "cardSummary": "",
+      "author": "meta-models",
+      "downloads": 0,
+      "likes": 1279,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-11T19:23:35.000Z",
+      "numParameters": 29776626688,
+      "availableInferenceProviders": [
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/muse-glimmer-30b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 60.89837015518488
+        },
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "meta-models/Muse-Glimmer-30B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 79.31483742321831,
+          "pricingOutput": 1.5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-08-13",
+      "modelCard": "assets/huggingface_model_cards/2026-08-13/02-minimaxai-minimax-h3.png",
+      "modelName": "MiniMaxAI/MiniMax-H3",
+      "modelDescription": "MiniMax-H3是由MiniMax AI开发的一款多模态模型。该模型专注于处理复杂的生成任务，具备较强的多模态交互能力，主要面向视频内容创作、高保真视听生成等场景，能够为用户提供高质量的视听内容生产支持，是当前多模态技术领域的重要工具。",
+      "sourceDescription": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3.png\" alt=\"MiniMax\"> </div>",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "cardSummary": "",
+      "author": "MiniMaxAI",
+      "downloads": 83484,
+      "likes": 3705,
+      "pipelineTag": "image-text-to-video",
+      "lastModified": "2026-08-11T09:06:41.000Z",
+      "numParameters": 33122992896,
+      "availableInferenceProviders": [
+        {
+          "provider": "fal-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "minimax/h3/image-to-video",
+          "task": "image-text-to-video",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-08-13",
+      "modelCard": "assets/huggingface_model_cards/2026-08-13/03-larryvrh-minimax-h3-turbo-lora.png",
+      "modelName": "larryvrh/MiniMax-H3-Turbo-Lora",
+      "modelDescription": "这是一款针对MiniMax-H3模型开发的LoRA微调组件。其核心功能是优化视听生成效率，通过将采样步数从20步缩减至4步，实现了5倍的生成速度提升，同时保持良好的内容质量。该组件主要适用于对推理延迟要求较高的实时视频与音频生成场景。",
+      "sourceDescription": "A LoRA for MiniMax-H3 that renders joint video + synchronized stereo audio in as few as 4 sampling steps instead of the usual 20 — a 5× sampling speedup — and keeps getting better as you add steps.",
+      "modelUrl": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+      "cardSummary": "",
+      "author": "larryvrh",
+      "downloads": 0,
+      "likes": 694,
+      "pipelineTag": "text-to-video",
+      "lastModified": "2026-08-08T20:07:30.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-08-13",
+      "modelCard": "assets/huggingface_model_cards/2026-08-13/04-deepseek-ai-deepseek-v4-flash-0731.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "modelDescription": "DeepSeek-V4-Flash-0731是DeepSeek团队推出的高性能变体模型。该模型专注于优化推理吞吐量与响应速度，通过轻量化架构设计，显著提升了处理大规模复杂任务的效率，主要应用于需要极低延迟的大规模推理环境及高并发的对话类应用。",
+      "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 1048685,
+      "likes": 3229,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-08-01T03:07:41.000Z",
+      "numParameters": 304180418494,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 48.60054030353829,
+          "pricingOutput": 0.27999999999999997
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-flash-0731",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 64.59593907825817,
+          "pricingOutput": 0.28
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/deepseek-v4-flash-0731",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 83.4473779328752
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 31.665283018998785,
+          "pricingOutput": 0.18
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 157.46814886202156,
+          "pricingOutput": 0.26
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-08-13",
+      "modelCard": "assets/huggingface_model_cards/2026-08-13/05-lightricks-ltx-2-5.png",
+      "modelName": "Lightricks/LTX-2.5",
+      "modelDescription": "LTX-2.5是Lightricks发布的最新迭代版本模型。该模型延续了前作在生成领域的积累，重点优化了生成效果的稳定性和多模态协作性能。作为一款专业级生成工具，它主要应用于创意设计、短视频自动化生产及复杂视觉内容编辑等工作流中。",
+      "sourceDescription": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.5",
+      "cardSummary": "",
+      "author": "Lightricks",
+      "downloads": 39,
+      "likes": 553,
+      "pipelineTag": "image-to-video",
+      "lastModified": "2026-08-12T14:20:43.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    }
+  ]
+}
