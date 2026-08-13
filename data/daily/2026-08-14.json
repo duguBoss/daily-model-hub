@@ -1,20 +1,20 @@
 {
-  "recordDate": "2026-08-13",
+  "recordDate": "2026-08-14",
   "source": "https://huggingface.co/models?sort=trending",
   "limit": 5,
   "models": [
     {
       "rank": 1,
-      "recordDate": "2026-08-13",
-      "modelCard": "assets/huggingface_model_cards/2026-08-13/01-meta-models-muse-glimmer-30b.png",
+      "recordDate": "2026-08-14",
+      "modelCard": "assets/huggingface_model_cards/2026-08-14/01-meta-models-muse-glimmer-30b.png",
       "modelName": "meta-models/Muse-Glimmer-30B",
-      "modelDescription": "Meta超级智能实验室于2026年8月推出的30B参数量模型，采用Apache 2.0开源协议。作为一款中等规模的大型语言模型，它定位在平衡模型性能与计算资源需求，适用于多种自然语言理解及生成任务，旨在为开发者提供高效且灵活的开源基座选择。",
+      "modelDescription": "Muse-Glimmer-30B 由 Meta 超智能实验室于 2026 年 8 月发布，采用 Apache 2.0 开源许可。作为一款 300 亿参数规模的模型，它定位于通用基础模型，具备高效的推理与生成能力，旨在为开发者提供高性能且灵活的基础底座，适用于各种复杂的自然语言处理及逻辑推理任务。",
       "sourceDescription": "Authors: Meta Superintelligence Lab Model Release Date: August 2026 License: Apache 2.0",
       "modelUrl": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
       "cardSummary": "",
       "author": "meta-models",
-      "downloads": 0,
-      "likes": 1279,
+      "downloads": 121042,
+      "likes": 1411,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-08-11T19:23:35.000Z",
       "numParameters": 29776626688,
@@ -32,7 +32,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 60.89837015518488
+          "tokensPerSecond": 62.414998389506536
         },
         {
           "provider": "together",
@@ -47,25 +47,25 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 79.31483742321831,
+          "tokensPerSecond": 96.08718763639129,
           "pricingOutput": 1.5
         }
       ]
     },
     {
       "rank": 2,
-      "recordDate": "2026-08-13",
-      "modelCard": "assets/huggingface_model_cards/2026-08-13/02-minimaxai-minimax-h3.png",
+      "recordDate": "2026-08-14",
+      "modelCard": "assets/huggingface_model_cards/2026-08-14/02-minimaxai-minimax-h3.png",
       "modelName": "MiniMaxAI/MiniMax-H3",
-      "modelDescription": "MiniMax-H3是由MiniMax AI开发的一款多模态模型。该模型专注于处理复杂的生成任务，具备较强的多模态交互能力，主要面向视频内容创作、高保真视听生成等场景，能够为用户提供高质量的视听内容生产支持，是当前多模态技术领域的重要工具。",
+      "modelDescription": "MiniMax-H3 是由 MiniMaxAI 开发的一款模型。该模型专注于提供高效的交互式体验，具备出色的多模态理解与生成能力。其设计旨在适应复杂的应用场景，为用户提供准确、连贯的回复，常用于智能对话系统、内容创作辅助以及各类深度定制的智能化交互任务。",
       "sourceDescription": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3.png\" alt=\"MiniMax\"> </div>",
       "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
       "cardSummary": "",
       "author": "MiniMaxAI",
-      "downloads": 83484,
-      "likes": 3705,
+      "downloads": 1605940,
+      "likes": 3817,
       "pipelineTag": "image-text-to-video",
-      "lastModified": "2026-08-11T09:06:41.000Z",
+      "lastModified": "2026-08-13T01:46:29.000Z",
       "numParameters": 33122992896,
       "availableInferenceProviders": [
         {
@@ -82,33 +82,82 @@
     },
     {
       "rank": 3,
-      "recordDate": "2026-08-13",
-      "modelCard": "assets/huggingface_model_cards/2026-08-13/03-larryvrh-minimax-h3-turbo-lora.png",
-      "modelName": "larryvrh/MiniMax-H3-Turbo-Lora",
-      "modelDescription": "这是一款针对MiniMax-H3模型开发的LoRA微调组件。其核心功能是优化视听生成效率，通过将采样步数从20步缩减至4步，实现了5倍的生成速度提升，同时保持良好的内容质量。该组件主要适用于对推理延迟要求较高的实时视频与音频生成场景。",
-      "sourceDescription": "A LoRA for MiniMax-H3 that renders joint video + synchronized stereo audio in as few as 4 sampling steps instead of the usual 20 — a 5× sampling speedup — and keeps getting better as you add steps.",
-      "modelUrl": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+      "recordDate": "2026-08-14",
+      "modelCard": "assets/huggingface_model_cards/2026-08-14/03-qwen-qwen3-8-2-4t-a95b.png",
+      "modelName": "Qwen/Qwen3.8-2.4T-A95B",
+      "modelDescription": "Qwen3.8-2.4T-A95B 是通义千问系列的大规模语言模型，拥有 2.4 万亿训练 Token。该模型提供标准化的 Hugging Face 权重及配置文件，全面兼容 vLLM、SGLang 等主流加速推理框架。其在大规模知识处理与复杂指令遵循方面表现优异，适用于高性能计算环境中的各类复杂任务。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
       "cardSummary": "",
-      "author": "larryvrh",
-      "downloads": 0,
-      "likes": 694,
-      "pipelineTag": "text-to-video",
-      "lastModified": "2026-08-08T20:07:30.000Z",
+      "author": "Qwen",
+      "downloads": 1012,
+      "likes": 772,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-08-12T10:24:04.000Z",
+      "numParameters": 2446182725504,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-2.4T-A95B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 146.2356099044826,
+          "pricingOutput": 6.25
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/qwen3p8-2p4t-a95b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 76.75376191247585
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-08-14",
+      "modelCard": "assets/huggingface_model_cards/2026-08-14/04-lightricks-ltx-2-5.png",
+      "modelName": "Lightricks/LTX-2.5",
+      "modelDescription": "LTX-2.5 是由 Lightricks 开发的模型，近期进行了以许可证为中心的重构与更新。该模型定位于高质量的多媒体内容生成或处理任务，强调开源协作与合规性。凭借其优化后的架构，它能够为视频或图像处理工作流提供可靠的支持，是专业视觉创作领域的重要工具。",
+      "sourceDescription": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.5",
+      "cardSummary": "",
+      "author": "Lightricks",
+      "downloads": 57287,
+      "likes": 712,
+      "pipelineTag": "image-to-video",
+      "lastModified": "2026-08-12T14:20:43.000Z",
       "numParameters": null,
       "availableInferenceProviders": []
     },
     {
-      "rank": 4,
-      "recordDate": "2026-08-13",
-      "modelCard": "assets/huggingface_model_cards/2026-08-13/04-deepseek-ai-deepseek-v4-flash-0731.png",
+      "rank": 5,
+      "recordDate": "2026-08-14",
+      "modelCard": "assets/huggingface_model_cards/2026-08-14/05-deepseek-ai-deepseek-v4-flash-0731.png",
       "modelName": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "modelDescription": "DeepSeek-V4-Flash-0731是DeepSeek团队推出的高性能变体模型。该模型专注于优化推理吞吐量与响应速度，通过轻量化架构设计，显著提升了处理大规模复杂任务的效率，主要应用于需要极低延迟的大规模推理环境及高并发的对话类应用。",
+      "modelDescription": "DeepSeek-V4-Flash-0731 是深度求索（DeepSeek）推出的高性能 Flash 版本模型。该版本经过精细化性能调优，旨在实现更快的推理速度与更低的延迟表现，同时保持高精度的输出质量。它特别适合对响应时间敏感的应用场景，如实时对话系统、高并发数据分析及其他自动化处理流程。",
       "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
       "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
       "cardSummary": "",
       "author": "deepseek-ai",
-      "downloads": 1048685,
-      "likes": 3229,
+      "downloads": 1431587,
+      "likes": 3313,
       "pipelineTag": "text-generation",
       "lastModified": "2026-08-01T03:07:41.000Z",
       "numParameters": 304180418494,
@@ -126,7 +175,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 48.60054030353829,
+          "tokensPerSecond": 51.17481432558658,
           "pricingOutput": 0.27999999999999997
         },
         {
@@ -142,7 +191,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 64.59593907825817,
+          "tokensPerSecond": 62.92861469457176,
           "pricingOutput": 0.28
         },
         {
@@ -158,7 +207,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 83.4473779328752
+          "tokensPerSecond": 70.49953729868044
         },
         {
           "provider": "deepinfra",
@@ -173,7 +222,7 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 31.665283018998785,
+          "tokensPerSecond": 29.21589539056251,
           "pricingOutput": 0.18
         },
         {
@@ -189,27 +238,10 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 157.46814886202156,
+          "tokensPerSecond": 101.68883004764719,
           "pricingOutput": 0.26
         }
       ]
-    },
-    {
-      "rank": 5,
-      "recordDate": "2026-08-13",
-      "modelCard": "assets/huggingface_model_cards/2026-08-13/05-lightricks-ltx-2-5.png",
-      "modelName": "Lightricks/LTX-2.5",
-      "modelDescription": "LTX-2.5是Lightricks发布的最新迭代版本模型。该模型延续了前作在生成领域的积累，重点优化了生成效果的稳定性和多模态协作性能。作为一款专业级生成工具，它主要应用于创意设计、短视频自动化生产及复杂视觉内容编辑等工作流中。",
-      "sourceDescription": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
-      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.5",
-      "cardSummary": "",
-      "author": "Lightricks",
-      "downloads": 39,
-      "likes": 553,
-      "pipelineTag": "image-to-video",
-      "lastModified": "2026-08-12T14:20:43.000Z",
-      "numParameters": null,
-      "availableInferenceProviders": []
     }
   ]
 }
