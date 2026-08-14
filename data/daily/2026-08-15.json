@@ -1,0 +1,178 @@
+{
+  "recordDate": "2026-08-15",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-08-15",
+      "modelCard": "assets/huggingface_model_cards/2026-08-15/01-qwen-qwen3-8-27b.png",
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelDescription": "Qwen3.8-27B是Qwen系列的一款中等规模预训练模型，采用Hugging Face标准格式发布。该模型在性能与计算资源需求之间取得了良好平衡，支持vLLM及SGLang等主流推理框架，适用于各类需要高性能语言处理能力的自然语言理解与生成任务。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 2,
+      "likes": 8866,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-14T15:00:01.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": [
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-08-15",
+      "modelCard": "assets/huggingface_model_cards/2026-08-15/02-meta-models-muse-glimmer-30b.png",
+      "modelName": "meta-models/Muse-Glimmer-30B",
+      "modelDescription": "Muse-Glimmer-30B是由Meta超级智能实验室于2026年8月推出的开源大语言模型，基于Apache 2.0协议授权。作为一款30B参数量的模型，其定位在于提供高通用性的文本生成与分析能力，适合开发者构建各类智能化应用与研究项目，平衡了性能与部署成本。",
+      "sourceDescription": "Authors: Meta Superintelligence Lab Model Release Date: August 2026 License: Apache 2.0",
+      "modelUrl": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "cardSummary": "",
+      "author": "meta-models",
+      "downloads": 165300,
+      "likes": 1507,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-11T19:23:35.000Z",
+      "numParameters": 29776626688,
+      "availableInferenceProviders": [
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/muse-glimmer-30b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 63.83495862248866
+        },
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "meta-models/Muse-Glimmer-30B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 97.56177997733911,
+          "pricingOutput": 1.5
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-08-15",
+      "modelCard": "assets/huggingface_model_cards/2026-08-15/03-qwen-qwen3-8-2-4t-a95b.png",
+      "modelName": "Qwen/Qwen3.8-2.4T-A95B",
+      "modelDescription": "Qwen3.8-2.4T-A95B是一款参数规模庞大的高性能模型，经过大规模数据训练优化。该模型支持包括vLLM和SGLang在内的多种高效推理工具，适合在需要高并发、高准确率的复杂生产环境中运行，能够胜任深度逻辑推理与大规模文本生成任务。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 3832,
+      "likes": 909,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-08-12T10:24:04.000Z",
+      "numParameters": 2446182725504,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-2.4T-A95B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 116.44566032778332,
+          "pricingOutput": 6.25
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/qwen3p8-2p4t-a95b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 113.92406744410968
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-08-15",
+      "modelCard": "assets/huggingface_model_cards/2026-08-15/04-minimaxai-minimax-h3.png",
+      "modelName": "MiniMaxAI/MiniMax-H3",
+      "modelDescription": "MiniMax-H3是由MiniMax团队推出的高性能语言模型。作为该系列的重要产品，它继承了团队在处理复杂语义和长文本生成方面的核心技术优势。该模型旨在为开发者提供高效、稳定的API调用支持，广泛应用于各类智能对话、内容创作与辅助决策系统等应用场景。",
+      "sourceDescription": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3.png\" alt=\"MiniMax\"> </div>",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "cardSummary": "",
+      "author": "MiniMaxAI",
+      "downloads": 1997541,
+      "likes": 3916,
+      "pipelineTag": "image-text-to-video",
+      "lastModified": "2026-08-13T01:46:29.000Z",
+      "numParameters": 33122992896,
+      "availableInferenceProviders": [
+        {
+          "provider": "fal-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "minimax/h3/image-to-video",
+          "task": "image-text-to-video",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-08-15",
+      "modelCard": "assets/huggingface_model_cards/2026-08-15/05-unsloth-qwen3-8-27b-gguf.png",
+      "modelName": "unsloth/Qwen3.8-27B-GGUF",
+      "modelDescription": "该版本是基于Qwen3.8-27B优化的GGUF格式模型，采用Unsloth动态量化技术，显著降低了显存需求。该模型增强了对工具调用的支持，改善了嵌套对象的解析能力，并支持MTP加速推理，非常适合在个人电脑或边缘计算设备上进行本地部署、微调及各类智能代理任务开发。",
+      "sourceDescription": "Read our How to Run Qwen3.8-27B Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em>This GGUF uses Unsloth Dynamic V3.0 (preview) for SOTA quantization performance.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.8\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>Developer Role Support so Qwen3.8 can work in agentic tools like Codex and more!</li> <li>MTP for fast inference is available.</li> <li>Qwen3.8 can now be run and fine-tuned in <a href=\"https://unsloth.ai/docs/new/desktop\">Unsloth Desktop</a>. <a href=\"https://unsloth.ai/docs/models/qwen3.8\">Read our guide</a>.</li> <li>Tool calling improvements: Makes parsing nested objects to make tool calling succeed more.</li> <li>See below for 4-bit Qwen3.8-27B run inside of Unsloth Desktop:</li> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "cardSummary": "",
+      "author": "unsloth",
+      "downloads": 0,
+      "likes": 731,
+      "pipelineTag": "",
+      "lastModified": "2026-08-14T19:45:48.000Z",
+      "numParameters": 27320697856,
+      "availableInferenceProviders": []
+    }
+  ]
+}
