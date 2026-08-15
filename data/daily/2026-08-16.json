@@ -1,0 +1,167 @@
+{
+  "recordDate": "2026-08-16",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-08-16",
+      "modelCard": "assets/huggingface_model_cards/2026-08-16/01-qwen-qwen3-8-27b.png",
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelDescription": "Qwen3.8-27B是一款经过后训练的大型语言模型，以Hugging Face Transformers格式发布。该模型兼容vLLM、SGLang等主流推理框架，具备较强的通用语言处理能力，适合开发者进行各种高性能自然语言处理任务的部署与集成。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 91917,
+      "likes": 9751,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-14T15:00:01.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": [
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-08-16",
+      "modelCard": "assets/huggingface_model_cards/2026-08-16/02-meta-models-muse-glimmer-30b.png",
+      "modelName": "meta-models/Muse-Glimmer-30B",
+      "modelDescription": "Muse-Glimmer-30B由Meta超级智能实验室于2026年8月发布。该模型采用Apache 2.0许可协议，参数规模为300亿，定位于高性能通用人工智能任务，能够支持多种复杂场景下的智能化应用开发，是开源社区中重要的模型资源。",
+      "sourceDescription": "Authors: Meta Superintelligence Lab Model Release Date: August 2026 License: Apache 2.0",
+      "modelUrl": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "cardSummary": "",
+      "author": "meta-models",
+      "downloads": 246454,
+      "likes": 1572,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-11T19:23:35.000Z",
+      "numParameters": 29776626688,
+      "availableInferenceProviders": [
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/muse-glimmer-30b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 61.43490031366798
+        },
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "meta-models/Muse-Glimmer-30B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 95.95194530968794,
+          "pricingOutput": 1.5
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-08-16",
+      "modelCard": "assets/huggingface_model_cards/2026-08-16/03-unsloth-qwen3-8-27b-gguf.png",
+      "modelName": "unsloth/Qwen3.8-27B-GGUF",
+      "modelDescription": "该模型是Qwen3.8-27B的GGUF版本，集成了Unsloth的动态量化技术。它不仅支持快速推理和微调，还强化了开发者角色与工具调用能力，支持嵌套对象解析，特别适合在本地化环境（如Unsloth Desktop）中运行以构建Agent智能体。",
+      "sourceDescription": "Read our How to Run Qwen3.8-27B Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em>This GGUF uses Unsloth Dynamic V3.0 (preview) for SOTA quantization performance.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.8\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>Developer Role Support so Qwen3.8 can work in agentic tools like Codex and more!</li> <li>MTP for fast inference is available.</li> <li>Qwen3.8 can now be run and fine-tuned in <a href=\"https://unsloth.ai/docs/new/desktop\">Unsloth Desktop</a> with <strong>Thinking toggles</strong>. <a href=\"https://unsloth.ai\">Download</a> for Mac, Windows and Linux.</a>.</li> <li>Tool calling improvements: Makes parsing nested objects to make tool calling succeed more.</li> <li>See below for 4-bit Qwen3.8-27B run inside of Unsloth Desktop:</li> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "cardSummary": "",
+      "author": "unsloth",
+      "downloads": 867963,
+      "likes": 1199,
+      "pipelineTag": "",
+      "lastModified": "2026-08-15T05:48:44.000Z",
+      "numParameters": 27320697856,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-08-16",
+      "modelCard": "assets/huggingface_model_cards/2026-08-16/04-qwen-qwen3-8-2-4t-a95b.png",
+      "modelName": "Qwen/Qwen3.8-2.4T-A95B",
+      "modelDescription": "Qwen3.8-2.4T-A95B是一款大规模参数的后训练模型，以Transformers格式提供权重文件。该模型针对高性能推理进行了优化，完全兼容vLLM、SGLang及TokenSpeed等主流推理后端，适用于需要处理超大规模计算任务的工业级应用场景。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 6381,
+      "likes": 965,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-08-12T10:24:04.000Z",
+      "numParameters": 2446182725504,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-2.4T-A95B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 122.3395199139668,
+          "pricingOutput": 6.25
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/qwen3p8-2p4t-a95b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 89.29868774235256
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-08-16",
+      "modelCard": "assets/huggingface_model_cards/2026-08-16/05-lightricks-ltx-2-5.png",
+      "modelName": "Lightricks/LTX-2.5",
+      "modelDescription": "LTX-2.5是由Lightricks开发的一款模型，该模型采用了以许可为先的设计原则，旨在提供高效的生成能力。其具体的架构与应用场景围绕内容创作和多媒体处理展开，用户可通过相关文档进一步了解其在行业中的具体功能定位。",
+      "sourceDescription": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.5",
+      "cardSummary": "",
+      "author": "Lightricks",
+      "downloads": 378439,
+      "likes": 936,
+      "pipelineTag": "image-to-video",
+      "lastModified": "2026-08-12T14:20:43.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    }
+  ]
+}
