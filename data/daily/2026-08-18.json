@@ -1,0 +1,167 @@
+{
+  "recordDate": "2026-08-18",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-08-18",
+      "modelCard": "assets/huggingface_model_cards/2026-08-18/01-qwen-qwen3-8-27b.png",
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelDescription": "Qwen3.8-27B是一款经过后训练的通用大语言模型，采用Hugging Face Transformers标准格式。该模型支持vLLM、SGLang及TokenSpeed等主流推理框架，适用于各种需要高效自然语言处理任务的工业级部署场景，旨在提供稳定的多任务执行能力和良好的兼容性。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 415039,
+      "likes": 10691,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-14T15:00:01.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": [
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-08-18",
+      "modelCard": "assets/huggingface_model_cards/2026-08-18/02-unsloth-qwen3-8-27b-gguf.png",
+      "modelName": "unsloth/Qwen3.8-27B-GGUF",
+      "modelDescription": "该版本为Qwen3.8-27B的GGUF量化格式，由Unsloth团队提供。它集成了Dynamic V3.0量化技术，显著提升了推理性能。该版本支持开发者角色配置、工具调用与嵌套对象解析，并适配Unsloth Desktop环境，特别适合需要在消费级硬件上进行推理与微调的开发者。",
+      "sourceDescription": "Read our How to Run Qwen3.8-27B Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em>This GGUF uses Unsloth Dynamic V3.0 (preview) for SOTA quantization performance.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.8\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>Developer Role Support so Qwen3.8 can work in agentic tools like Codex and more!</li> <li>MTP for fast inference is available.</li> <li>Qwen3.8 can now be run and fine-tuned in <a href=\"https://unsloth.ai/docs/new/desktop\">Unsloth Desktop</a> with <strong>Thinking toggles</strong>. <a href=\"https://unsloth.ai\">Download</a> for Mac, Windows and Linux.</a>.</li> <li>Tool calling improvements: Makes parsing nested objects to make tool calling succeed more.</li> <li>See below for 4-bit Qwen3.8-27B run inside of Unsloth Desktop:</li> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "cardSummary": "",
+      "author": "unsloth",
+      "downloads": 2727609,
+      "likes": 1622,
+      "pipelineTag": "",
+      "lastModified": "2026-08-15T05:48:44.000Z",
+      "numParameters": 27320697856,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-08-18",
+      "modelCard": "assets/huggingface_model_cards/2026-08-18/03-qwen-qwen3-8-2-4t-a95b.png",
+      "modelName": "Qwen/Qwen3.8-2.4T-A95B",
+      "modelDescription": "Qwen3.8-2.4T-A95B是一款基于大规模参数规模训练的后训练模型，以Hugging Face Transformers格式发布。该模型针对高性能推理进行了适配，兼容vLLM、SGLang等加速引擎，能够满足高并发、大规模数据处理的需求，是追求高性能复杂推理任务的理想选择。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 9465,
+      "likes": 1040,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-08-12T10:24:04.000Z",
+      "numParameters": 2446182725504,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-2.4T-A95B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 56.9596044090131,
+          "pricingOutput": 6.25
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/qwen3p8-2p4t-a95b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 53.59988187428532
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-08-18",
+      "modelCard": "assets/huggingface_model_cards/2026-08-18/04-lightricks-ltx-2-5.png",
+      "modelName": "Lightricks/LTX-2.5",
+      "modelDescription": "LTX-2.5是由Lightricks开发的多模态生成模型，遵循开放许可模式。该模型专注于图像或视频生成领域的视觉处理能力，旨在提供高质量的视觉内容创作支持。其架构设计注重扩展性与生成质量，适用于多种媒体制作、视觉效果优化以及相关创意生成类应用场景。",
+      "sourceDescription": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.5",
+      "cardSummary": "",
+      "author": "Lightricks",
+      "downloads": 465529,
+      "likes": 1101,
+      "pipelineTag": "image-to-video",
+      "lastModified": "2026-08-17T13:54:21.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-08-18",
+      "modelCard": "assets/huggingface_model_cards/2026-08-18/05-meta-models-muse-glimmer-30b.png",
+      "modelName": "meta-models/Muse-Glimmer-30B",
+      "modelDescription": "Muse-Glimmer-30B是由Meta Superintelligence Lab于2026年8月发布的参数规模为300亿的智能模型。该模型采用Apache 2.0协议开源，定位为高性能的通用基础模型。其设计初衷是提供强大的逻辑推理与内容生成能力，适用于需要深度语义理解及复杂任务处理的研究与工程应用。",
+      "sourceDescription": "Authors: Meta Superintelligence Lab Model Release Date: August 2026 License: Apache 2.0",
+      "modelUrl": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "cardSummary": "",
+      "author": "meta-models",
+      "downloads": 334099,
+      "likes": 1660,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-11T19:23:35.000Z",
+      "numParameters": 29776626688,
+      "availableInferenceProviders": [
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/muse-glimmer-30b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 62.27119201539848
+        },
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "meta-models/Muse-Glimmer-30B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 58.37400229342684,
+          "pricingOutput": 1.5
+        }
+      ]
+    }
+  ]
+}
