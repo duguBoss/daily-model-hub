@@ -1,0 +1,115 @@
+{
+  "date": "2026-08-21",
+  "title": "🔥Qwen3.8重磅发布是通义千问系能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/01-qwen-qwen3-8-27b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/02-unsloth-qwen3-8-27b-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/03-minimaxai-minimax-music3.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/04-qwen-qwen3-8-27b-fp8.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/05-orcarouter-qwen3-8-27b-uncensored-mlx.png"
+  ],
+  "songs": [
+    {
+      "name": "Qwen3.8-27B",
+      "artist": "Qwen"
+    },
+    {
+      "name": "Qwen3.8-27B-GGUF",
+      "artist": "unsloth"
+    },
+    {
+      "name": "MiniMax-Music3",
+      "artist": "MiniMaxAI"
+    },
+    {
+      "name": "Qwen3.8-27B-FP8",
+      "artist": "Qwen"
+    },
+    {
+      "name": "Qwen3.8-27B-Uncensored-MLX",
+      "artist": "orcarouter"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-08-21 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/01-qwen-qwen3-8-27b.png\" alt=\"Qwen/Qwen3.8-27B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Qwen/Qwen3.8-27B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.8-27B 是通义千问系列的大语言模型，提供标准的 Transformers 格式权重。该模型参数规模适中，性能均衡，支持 vLLM、SGLang 等主流推理框架，适用于各类需要高性能文本生成、逻辑推理和复杂指令遵循的任务，是构建企业级 AI 应用的基石。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/02-unsloth-qwen3-8-27b-gguf.png\" alt=\"unsloth/Qwen3.8-27B-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">unsloth/Qwen3.8-27B-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">此版本提供基于 Unsloth Dynamic 3.0 技术优化的 GGUF 量化格式模型。它针对低功耗计算设备进行了深度适配，不仅在保持高精度的同时降低了运行开销，还增强了工具调用能力和开发者角色支持，特别适合本地化部署及个人开发者进行高效的微调和推理。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/03-minimaxai-minimax-music3.png\" alt=\"MiniMaxAI/MiniMax-Music3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">MiniMaxAI/MiniMax-Music3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniMax-Music3 是 MiniMax 推出的音频生成模型，专注于音乐创作领域。该模型通过先进的架构设计，能够根据用户指令生成高质量的音乐作品。它主要面向音乐制作人、内容创作者以及需要集成智能音频生成功能的开发者，提供完善的 API 和开发文档支持。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/04-qwen-qwen3-8-27b-fp8.png\" alt=\"Qwen/Qwen3.8-27B-FP8\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Qwen/Qwen3.8-27B-FP8</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.8-27B-FP8 是该系列模型的 FP8 量化版本，采用 128 分组大小的细粒度量化技术。在显著降低显存占用并提升推理速度的前提下，几乎保持了原始模型的性能指标。该模型完美适配 vLLM 等高性能推理后端，适合大规模生产环境中的资源优化部署。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/05-orcarouter-qwen3-8-27b-uncensored-mlx.png\" alt=\"orcarouter/Qwen3.8-27B-Uncensored-MLX\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">orcarouter/Qwen3.8-27B-Uncensored-MLX</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.8-27B-Uncensored-MLX 是基于 Apple MLX 框架转换的无审查版大语言模型。它去除了原版模型的强制性内容过滤限制，专注于提供更直接的输出。该版本特别针对 Apple Silicon 芯片进行优化，适合在 Mac 设备上运行，满足科研、实验或不受限的文本创作需求。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-08-20T22:29:19.503955"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+    "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+    "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+    "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX"
+  ],
+  "new_urls": [
+    "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+    "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+    "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+    "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-08-21-01",
+      "rank": 1,
+      "name": "Qwen/Qwen3.8-27B",
+      "description": "Qwen3.8-27B 是通义千问系列的大语言模型，提供标准的 Transformers 格式权重。该模型参数规模适中，性能均衡，支持 vLLM、SGLang 等主流推理框架，适用于各类需要高性能文本生成、逻辑推理和复杂指令遵循的任务，是构建企业级 AI 应用的基石。",
+      "source_description": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-21/01-qwen-qwen3-8-27b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/01-qwen-qwen3-8-27b.png"
+    },
+    {
+      "id": "hf-2026-08-21-02",
+      "rank": 2,
+      "name": "unsloth/Qwen3.8-27B-GGUF",
+      "description": "此版本提供基于 Unsloth Dynamic 3.0 技术优化的 GGUF 量化格式模型。它针对低功耗计算设备进行了深度适配，不仅在保持高精度的同时降低了运行开销，还增强了工具调用能力和开发者角色支持，特别适合本地化部署及个人开发者进行高效的微调和推理。",
+      "source_description": "Read our How to Run Qwen3.8-27B Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em><a href=\"https://unsloth.ai/docs/basics/dynamic-3.0-ggufs\">Unsloth Dynamic 3.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.8\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>Introducing <a href=\"https://unsloth.ai/docs/basics/dynamic-3.0-ggufs\">Dynamic V3.0</a> GGUFs for SOTA accuracy and quantization performance</li> <li>Run and fine-tune Qwen3.8 in <a href=\"https://unsloth.ai/docs/new/desktop\">Unsloth Desktop</a> with <strong>Thinking toggles</strong>. <a href=\"https://unsloth.ai\">Download</a> for Mac, Windows and Linux.</a> <a href=\"github.com/unslothai/unsloth\">GitHub repo</a></li> <li>Developer Role Support so Qwen3.8 can work in agentic tools like Codex and more!</li> <li>Tool calling improvements: Makes parsing nested objects to make tool calling succeed more.</li> <li>See below for 4-bit Qwen3.8-27B run inside of Unsloth Desktop:</li> </div>",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-21/02-unsloth-qwen3-8-27b-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/02-unsloth-qwen3-8-27b-gguf.png"
+    },
+    {
+      "id": "hf-2026-08-21-03",
+      "rank": 3,
+      "name": "MiniMaxAI/MiniMax-Music3",
+      "description": "MiniMax-Music3 是 MiniMax 推出的音频生成模型，专注于音乐创作领域。该模型通过先进的架构设计，能够根据用户指令生成高质量的音乐作品。它主要面向音乐制作人、内容创作者以及需要集成智能音频生成功能的开发者，提供完善的 API 和开发文档支持。",
+      "source_description": "<div align=\"center\"> <img width=\"100%\" src=\"figures/Music3.png\" alt=\"MiniMax\"> </div> <p align=\"center\"> <a href=\"https://agent.minimax.io/\" target=\" blank\"><img src=\"https://img.shields.io/badge/MiniMax%20Agent-FF6C37?logo=minimax&logoColor=white\" alt=\"MiniMax Agent\"></a> <a href=\"https://platform.minimax.io/docs/guides/text-generation\" target=\" blank\"><img src=\"https://img.shields.io/badge/API-FF6C37?logo=minimax&logoColor=white\" alt=\"API\"></a> <a href=\"https://www.minimax.io\" target=\" blank\"><img src=\"https://img.shields.io/badge/MiniMax%20Website-FF6C37?logo=minimax&logoColor=white\" alt=\"MiniMax Website\"></a> <br> <a href=\"https://modelscope.cn/organization/minimax\" target=\" blank\" rel=\"noopener noreferrer\"><img alt=\"ModelScope MiniMax AI\" src=\"https://img.shields.io/badge/ModelScope-MiniMax%20AI-white?labelColor=%23EF3D5D\"></a> <a href=\"https://platform.minimaxi.com/docs/faq/contact-us\" target=\" blank\"><img src=\"https://img.shields.io/badge/WeChat-07C160?logo=wechat&logoColor=white\" alt=\"WeChat\"></a> <a href=\"https://discord.com/invite/DPC4AHFCBw\" target=\" blank\"><img src=\"https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white\" alt=\"Discord\"></a> <a href=\"https://huggingface.co/MiniMaxAI\" target=\" blank\"><img src=\"https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black\" alt=\"Hugging Face\"></a> <a href=\"https://github.com/MiniMax-AI/MiniMax-Music3\" target=\" blank\"><img src=\"https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white\" alt=\"GitHub\"></a> <a href=\"https://huggingface.co/MiniMaxAI/MiniMax-Music3/blob/main/LICENSE\" target=\" blank\"><img src=\"https://img.shields.io/badge/LICENSE-4CAF50?logo=creativecommons&logoColor=white\" alt=\"LICENSE\"></a> </p>",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-21/03-minimaxai-minimax-music3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/03-minimaxai-minimax-music3.png"
+    },
+    {
+      "id": "hf-2026-08-21-04",
+      "rank": 4,
+      "name": "Qwen/Qwen3.8-27B-FP8",
+      "description": "Qwen3.8-27B-FP8 是该系列模型的 FP8 量化版本，采用 128 分组大小的细粒度量化技术。在显著降低显存占用并提升推理速度的前提下，几乎保持了原始模型的性能指标。该模型完美适配 vLLM 等高性能推理后端，适合大规模生产环境中的资源优化部署。",
+      "source_description": "[!Note] This repository contains FP8-quantized model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc. The quantization method is fine-grained fp8 quantization with block size of 128, and its performance metrics are nearly identical to those of the original model.",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-21/04-qwen-qwen3-8-27b-fp8.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/04-qwen-qwen3-8-27b-fp8.png"
+    },
+    {
+      "id": "hf-2026-08-21-05",
+      "rank": 5,
+      "name": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "description": "Qwen3.8-27B-Uncensored-MLX 是基于 Apple MLX 框架转换的无审查版大语言模型。它去除了原版模型的强制性内容过滤限制，专注于提供更直接的输出。该版本特别针对 Apple Silicon 芯片进行优化，适合在 Mac 设备上运行，满足科研、实验或不受限的文本创作需求。",
+      "source_description": "<a href=\"https://www.orcarouter.ai\" target=\" blank\"> <img src=\"https://www.orcarouter.ai/orca-logo-classic.png\" alt=\"OrcaRouter\" width=\"110\"> </a>",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-21/05-orcarouter-qwen3-8-27b-uncensored-mlx.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-21/05-orcarouter-qwen3-8-27b-uncensored-mlx.png"
+    }
+  ]
+}
