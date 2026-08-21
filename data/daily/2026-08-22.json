@@ -1,0 +1,103 @@
+{
+  "recordDate": "2026-08-22",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-08-22",
+      "modelCard": "assets/huggingface_model_cards/2026-08-22/01-qwen-qwen3-8-27b.png",
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelDescription": "Qwen3.8-27B 是通义千问系列的后训练模型，该仓库提供了标准的 Hugging Face Transformers 格式权重及配置文件。它具备良好的通用兼容性，支持 vLLM、SGLang 及 TokenSpeed 等多种推理框架，适合需要高性能推理的开发者进行部署和应用开发。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 1726651,
+      "likes": 11942,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-14T15:00:01.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": [
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-08-22",
+      "modelCard": "assets/huggingface_model_cards/2026-08-22/02-unsloth-qwen3-8-27b-gguf.png",
+      "modelName": "unsloth/Qwen3.8-27B-GGUF",
+      "modelDescription": "该模型提供了基于 Unsloth Dynamic 3.0 技术的 GGUF 量化版本，旨在提升量化精度和性能。它支持 Unsloth Desktop 推理与微调，强化了工具调用能力与嵌套对象解析，适用于需要本地化运行、代理工具集成及高效资源管理的开发场景。",
+      "sourceDescription": "Read our How to Run Qwen3.8-27B Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em><a href=\"https://unsloth.ai/docs/basics/dynamic-3.0-ggufs\">Unsloth Dynamic 3.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.8\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>Introducing <a href=\"https://unsloth.ai/docs/basics/dynamic-3.0-ggufs\">Dynamic V3.0</a> GGUFs for SOTA accuracy and quantization performance</li> <li>Run and fine-tune Qwen3.8 in <a href=\"https://unsloth.ai/docs/new/desktop\">Unsloth Desktop</a> with <strong>Thinking toggles</strong>. <a href=\"https://unsloth.ai\">Download</a> for Mac, Windows and Linux.</a> <a href=\"github.com/unslothai/unsloth\">GitHub repo</a></li> <li>Developer Role Support so Qwen3.8 can work in agentic tools like Codex and more!</li> <li>Tool calling improvements: Makes parsing nested objects to make tool calling succeed more.</li> <li>See below for 4-bit Qwen3.8-27B run inside of Unsloth Desktop:</li> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "cardSummary": "",
+      "author": "unsloth",
+      "downloads": 5804917,
+      "likes": 2492,
+      "pipelineTag": "",
+      "lastModified": "2026-08-20T12:04:25.000Z",
+      "numParameters": 27320697856,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-08-22",
+      "modelCard": "assets/huggingface_model_cards/2026-08-22/03-orcarouter-qwen3-8-27b-uncensored-mlx.png",
+      "modelName": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "modelDescription": "此版本是 Qwen3.8-27B 的非受限版，针对 Apple Silicon 芯片优化，采用了 MLX 框架格式。它移除了模型内置的部分审查机制，允许输出更广泛的内容，专门面向 Mac 等采用苹果架构的硬件平台，提供高效的本地推理体验。",
+      "sourceDescription": "<a href=\"https://www.orcarouter.ai\" target=\" blank\"> <img src=\"https://www.orcarouter.ai/orca-logo-classic.png\" alt=\"OrcaRouter\" width=\"110\"> </a>",
+      "modelUrl": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "cardSummary": "",
+      "author": "orcarouter",
+      "downloads": 18193,
+      "likes": 813,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-21T08:40:15.000Z",
+      "numParameters": 4665462000,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-08-22",
+      "modelCard": "assets/huggingface_model_cards/2026-08-22/04-orcarouter-qwen3-8-27b-uncensored-fp8.png",
+      "modelName": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "modelDescription": "该版本为 Qwen3.8-27B 的非受限模型，采用了 FP8 低精度格式进行量化。通过降低权重存储精度，它在维持模型推理性能的同时显著减少了显存占用，适合在资源受限的环境下运行该非受限模型，以处理复杂的内容生成需求。",
+      "sourceDescription": "<a href=\"https://www.orcarouter.ai\" target=\" blank\"> <img src=\"https://www.orcarouter.ai/orca-logo-classic.png\" alt=\"OrcaRouter\" width=\"110\"> </a>",
+      "modelUrl": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "cardSummary": "",
+      "author": "orcarouter",
+      "downloads": 107520,
+      "likes": 774,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-20T08:41:29.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-08-22",
+      "modelCard": "assets/huggingface_model_cards/2026-08-22/05-jonathancoletti-qwen3-8-27b-uncensored-gguf.png",
+      "modelName": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "modelDescription": "这是一个经过非受限处理的 Qwen3.8-27B 模型，以 GGUF 格式发布。该版本特别保留并验证了多token预测（MTP）头，确保模型在处理生成任务时的预测性能，适合希望使用量化版本进行本地实验并解除部分输出限制的用户。",
+      "sourceDescription": "Uncensored Qwen3.8-27B, published as GGUF quantizations with the multi-token prediction (MTP) head retained and verified.",
+      "modelUrl": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "cardSummary": "",
+      "author": "JonathanColetti",
+      "downloads": 1126222,
+      "likes": 559,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-08-16T03:48:32.000Z",
+      "numParameters": 27320697856,
+      "availableInferenceProviders": []
+    }
+  ]
+}
