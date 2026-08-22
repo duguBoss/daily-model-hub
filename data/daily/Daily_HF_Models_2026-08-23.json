@@ -1,0 +1,115 @@
+{
+  "date": "2026-08-23",
+  "title": "🔥Qwen3.8重磅发布是一款经过后能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/01-qwen-qwen3-8-27b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/02-unsloth-qwen3-8-27b-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/03-orcarouter-qwen3-8-27b-uncensored-mlx.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/04-orcarouter-qwen3-8-27b-uncensored-fp8.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/05-obliteratus-qwen3-8-27b-obliterated.png"
+  ],
+  "songs": [
+    {
+      "name": "Qwen3.8-27B",
+      "artist": "Qwen"
+    },
+    {
+      "name": "Qwen3.8-27B-GGUF",
+      "artist": "unsloth"
+    },
+    {
+      "name": "Qwen3.8-27B-Uncensored-MLX",
+      "artist": "orcarouter"
+    },
+    {
+      "name": "Qwen3.8-27B-Uncensored-FP8",
+      "artist": "orcarouter"
+    },
+    {
+      "name": "Qwen3.8-27B-OBLITERATED",
+      "artist": "OBLITERATUS"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-08-23 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/01-qwen-qwen3-8-27b.png\" alt=\"Qwen/Qwen3.8-27B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Qwen/Qwen3.8-27B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.8-27B 是一款经过后训练的语言模型，提供 Hugging Face Transformers 原生权重与配置。该模型具备较强的通用语言处理能力，兼容 vLLM、SGLang 及 TokenSpeed 等多种推理框架，适用于需要在大规模计算环境下进行模型部署、推理及进一步开发的各类应用场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/02-unsloth-qwen3-8-27b-gguf.png\" alt=\"unsloth/Qwen3.8-27B-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">unsloth/Qwen3.8-27B-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">此版本提供基于 Unsloth Dynamic 3.0 技术优化的 GGUF 量化格式模型。它针对本地设备运行进行了专门适配，支持在 Unsloth Desktop 中进行微调与推理，并强化了工具调用功能与开发角色支持，特别适合需要在本地计算机或消费级硬件上运行智能代理及复杂工具任务的开发者。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/03-orcarouter-qwen3-8-27b-uncensored-mlx.png\" alt=\"orcarouter/Qwen3.8-27B-Uncensored-MLX\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">orcarouter/Qwen3.8-27B-Uncensored-MLX</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">该版本是 Qwen3.8-27B 的非审查（Uncensored）变体，采用了 MLX 格式进行封装。MLX 是专为 Apple Silicon 芯片优化的机器学习框架，该模型移除了部分内置的安全限制与回复倾向，旨在提供更为原始、不受干预的响应，适合在 Mac 环境下进行探索性研究及特定任务开发。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/04-orcarouter-qwen3-8-27b-uncensored-fp8.png\" alt=\"orcarouter/Qwen3.8-27B-Uncensored-FP8\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">orcarouter/Qwen3.8-27B-Uncensored-FP8</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">此版本为 Qwen3.8-27B 的非审查（Uncensored）版本，并采用 FP8 低精度格式进行量化。FP8 格式在保持模型高性能推理的同时，有效降低了内存占用并提高了运行效率。该模型移除了原版的合规性回复限制，适用于需要高性能、低显存消耗且无需模型进行拒绝响应的特定垂直领域应用。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/05-obliteratus-qwen3-8-27b-obliterated.png\" alt=\"OBLITERATUS/Qwen3.8-27B-OBLITERATED\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">OBLITERATUS/Qwen3.8-27B-OBLITERATED</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.8-27B-OBLITERATED 是针对原版模型安全拒绝机制进行移除的特殊版本。该模型在保留原始语言能力与逻辑推理表现的基础上，强制禁用了所有思维模式下的拒绝回复行为。其主要定位于追求全开放式交互、无审查约束的生成任务，适用于对回答内容没有任何合规性过滤要求的特殊科研或个人开发场景。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-08-22T22:23:11.818676"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+    "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+    "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+    "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED"
+  ],
+  "new_urls": [
+    "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+    "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+    "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+    "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-08-23-01",
+      "rank": 1,
+      "name": "Qwen/Qwen3.8-27B",
+      "description": "Qwen3.8-27B 是一款经过后训练的语言模型，提供 Hugging Face Transformers 原生权重与配置。该模型具备较强的通用语言处理能力，兼容 vLLM、SGLang 及 TokenSpeed 等多种推理框架，适用于需要在大规模计算环境下进行模型部署、推理及进一步开发的各类应用场景。",
+      "source_description": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-23/01-qwen-qwen3-8-27b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/01-qwen-qwen3-8-27b.png"
+    },
+    {
+      "id": "hf-2026-08-23-02",
+      "rank": 2,
+      "name": "unsloth/Qwen3.8-27B-GGUF",
+      "description": "此版本提供基于 Unsloth Dynamic 3.0 技术优化的 GGUF 量化格式模型。它针对本地设备运行进行了专门适配，支持在 Unsloth Desktop 中进行微调与推理，并强化了工具调用功能与开发角色支持，特别适合需要在本地计算机或消费级硬件上运行智能代理及复杂工具任务的开发者。",
+      "source_description": "Read our How to Run Qwen3.8-27B Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em><a href=\"https://unsloth.ai/docs/basics/dynamic-3.0-ggufs\">Unsloth Dynamic 3.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.8\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>Introducing <a href=\"https://unsloth.ai/docs/basics/dynamic-3.0-ggufs\">Dynamic V3.0</a> GGUFs for SOTA accuracy and quantization performance</li> <li>Run and fine-tune Qwen3.8 in <a href=\"https://unsloth.ai/docs/new/desktop\">Unsloth Desktop</a> with <strong>Thinking toggles</strong>. <a href=\"https://unsloth.ai\">Download</a> for Mac, Windows and Linux.</a> <a href=\"github.com/unslothai/unsloth\">GitHub repo</a></li> <li>Developer Role Support so Qwen3.8 can work in agentic tools like Codex and more!</li> <li>Tool calling improvements: Makes parsing nested objects to make tool calling succeed more.</li> <li>See below for 4-bit Qwen3.8-27B run inside of Unsloth Desktop:</li> </div>",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-23/02-unsloth-qwen3-8-27b-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/02-unsloth-qwen3-8-27b-gguf.png"
+    },
+    {
+      "id": "hf-2026-08-23-03",
+      "rank": 3,
+      "name": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "description": "该版本是 Qwen3.8-27B 的非审查（Uncensored）变体，采用了 MLX 格式进行封装。MLX 是专为 Apple Silicon 芯片优化的机器学习框架，该模型移除了部分内置的安全限制与回复倾向，旨在提供更为原始、不受干预的响应，适合在 Mac 环境下进行探索性研究及特定任务开发。",
+      "source_description": "<a href=\"https://www.orcarouter.ai\" target=\" blank\"> <img src=\"https://www.orcarouter.ai/orca-logo-classic.png\" alt=\"OrcaRouter\" width=\"110\"> </a>",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-23/03-orcarouter-qwen3-8-27b-uncensored-mlx.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/03-orcarouter-qwen3-8-27b-uncensored-mlx.png"
+    },
+    {
+      "id": "hf-2026-08-23-04",
+      "rank": 4,
+      "name": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "description": "此版本为 Qwen3.8-27B 的非审查（Uncensored）版本，并采用 FP8 低精度格式进行量化。FP8 格式在保持模型高性能推理的同时，有效降低了内存占用并提高了运行效率。该模型移除了原版的合规性回复限制，适用于需要高性能、低显存消耗且无需模型进行拒绝响应的特定垂直领域应用。",
+      "source_description": "<a href=\"https://www.orcarouter.ai\" target=\" blank\"> <img src=\"https://www.orcarouter.ai/orca-logo-classic.png\" alt=\"OrcaRouter\" width=\"110\"> </a>",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-23/04-orcarouter-qwen3-8-27b-uncensored-fp8.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/04-orcarouter-qwen3-8-27b-uncensored-fp8.png"
+    },
+    {
+      "id": "hf-2026-08-23-05",
+      "rank": 5,
+      "name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "description": "Qwen3.8-27B-OBLITERATED 是针对原版模型安全拒绝机制进行移除的特殊版本。该模型在保留原始语言能力与逻辑推理表现的基础上，强制禁用了所有思维模式下的拒绝回复行为。其主要定位于追求全开放式交互、无审查约束的生成任务，适用于对回答内容没有任何合规性过滤要求的特殊科研或个人开发场景。",
+      "source_description": "Zero refusals on both thinking modes. Near-stock capability.",
+      "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-23/05-obliteratus-qwen3-8-27b-obliterated.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-23/05-obliteratus-qwen3-8-27b-obliterated.png"
+    }
+  ]
+}
