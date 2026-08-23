@@ -1,0 +1,70 @@
+{
+  "weekRange": {
+    "start": "2026-08-18",
+    "end": "2026-08-24"
+  },
+  "weekTitle": "Hugging Face 每周模型趋势精选：Qwen3.8 生态爆发",
+  "summary": "本周 Hugging Face 社区被 Qwen3.8-27B 及其衍生版本占据。从官方原版到针对 Apple Silicon 优化的 MLX 版，再到各类去安全限制的“无审查”版本，开发者们通过不同的量化手段与技术封装，极大地拓宽了该模型在桌面端、移动端及高性能推理场景中的应用边界。",
+  "items": [
+    {
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "modelCard": "assets/huggingface_model_cards/2026-08-24/01-qwen-qwen3-8-27b.png",
+      "modelDescription": "Qwen3.8-27B 是一款经过精调的通用大语言模型，采用 Hugging Face Transformers 标准格式发布。该模型在 27B 参数规模下表现均衡，具备良好的语言处理能力，广泛支持 vLLM、SGLang 及 TokenSpeed 等主流推理框架，非常适合开发者将其部署在各类生产环境及高性能计算场景中。",
+      "pickReason": "作为本周最核心的基座模型，Qwen3.8-27B 在参数规模与性能之间取得了优秀平衡。它不仅提供了标准的 Transformers 格式，还全面兼容 vLLM 和 SGLang 等主流推理框架，是构建生产级应用和高性能计算任务的首选基石，展现了阿里开源模型在当前业界的顶尖竞争力。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-08-24"
+      ]
+    },
+    {
+      "modelName": "unsloth/Qwen3.8-27B-GGUF",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "modelCard": "assets/huggingface_model_cards/2026-08-24/02-unsloth-qwen3-8-27b-gguf.png",
+      "modelDescription": "此版本为 Qwen3.8-27B 的 GGUF 量化格式，针对本地推理和部署进行了优化。集成了 Unsloth Dynamic V3.0 技术，在保持极高准确性的同时提升了推理效率。该模型增强了工具调用与嵌套对象解析能力，支持开发者角色设置，特别适用于桌面端的模型推理、Agent 开发及轻量化微调需求。",
+      "pickReason": "该版本集成了 Unsloth 的 Dynamic V3.0 量化技术，在显著降低显存占用的同时保持了极高的准确性。其针对工具调用与嵌套对象解析的深度优化，使其非常适合用于 Agent 开发。对于希望在桌面端通过简单方式体验高性能推理的开发者，这是目前最推荐的版本。",
+      "appearances": 1,
+      "bestRank": 2,
+      "dates": [
+        "2026-08-24"
+      ]
+    },
+    {
+      "modelName": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "modelUrl": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "modelCard": "assets/huggingface_model_cards/2026-08-24/03-orcarouter-qwen3-8-27b-uncensored-mlx.png",
+      "modelDescription": "该模型是 Qwen3.8-27B 的无审查（Uncensored）版本，并采用 MLX 格式进行了封装，专为苹果芯片（Apple Silicon）设备的本地高效运行而设计。它去除了原版模型中预设的内容限制，为用户提供更广泛的生成灵活性，适用于需要在 macOS 系统上进行本地化部署与自主研究的开发者。",
+      "pickReason": "这款专门为 Apple Silicon 打造的 MLX 版本，充分利用了苹果芯片的硬件加速能力。通过去除原版模型的内容限制，它为 macOS 用户提供了一个灵活的本地运行环境，非常适合在个人设备上进行无约束的模型研究、本地化部署及创意探索。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-08-24"
+      ]
+    },
+    {
+      "modelName": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "modelUrl": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "modelCard": "assets/huggingface_model_cards/2026-08-24/04-obliteratus-qwen3-8-27b-obliterated.png",
+      "modelDescription": "OBLITERATED 版本旨在提供完全无审查的模型交互体验。通过去除原版模型中的安全约束与说教式回复，该版本致力于呈现直接、真实的结果，同时尽可能保留了 Qwen3.8-27B 原始的逻辑推理与语言能力。适用于对生成内容有特殊要求或希望进行无限制创作和研究的用户。",
+      "pickReason": "对于追求极致回答纯粹性、反感模型“说教式”安全提示的用户来说，该版本是极佳选择。它通过特殊的处理去除了模型内嵌的安全约束，在确保不丢失原始逻辑推理能力的前提下，为用户提供了最直接、真实的回复体验，适合特殊创作场景。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-08-24"
+      ]
+    },
+    {
+      "modelName": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "modelUrl": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "modelCard": "assets/huggingface_model_cards/2026-08-24/05-orcarouter-qwen3-8-27b-uncensored-fp8.png",
+      "modelDescription": "此版本提供 Qwen3.8-27B 无审查版的 FP8 量化格式。FP8 精度在保持模型计算性能的同时，通过降低显存占用显著提升了推理速度与兼容性。该模型保留了无约束的生成特性，适合需要高性能推理能力且对模型回答内容没有任何安全过滤机制的特定应用场景。",
+      "pickReason": "FP8 量化在保持计算精度的同时，极大提升了推理效率并降低了显存压力。该版本结合了无审查特性与高性能推理优势，特别适合需要部署在显存受限但又追求极致响应速度的特定生产环境中，是性能与灵活性平衡的优秀实践案例。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-08-24"
+      ]
+    }
+  ]
+}
