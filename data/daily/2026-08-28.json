@@ -1,0 +1,183 @@
+{
+  "recordDate": "2026-08-28",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-08-28",
+      "modelCard": "assets/huggingface_model_cards/2026-08-28/01-qwen-qwen3-8-flash-next.png",
+      "modelName": "Qwen/Qwen3.8-Flash-Next",
+      "modelDescription": "Qwen3.8-Flash-Next 是 Qwen 系列的高性能模型，提供 Hugging Face Transformers 格式的权重与配置。该模型针对推理效率进行了优化，兼容 vLLM、SGLang 等主流加速框架，旨在满足对生成速度与效率有较高要求的应用场景，适合快速部署及实时交互任务。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 4810,
+      "likes": 4001,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-27T05:03:36.000Z",
+      "numParameters": 179999981459,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-08-28",
+      "modelCard": "assets/huggingface_model_cards/2026-08-28/02-zai-org-glm-5-3-flash.png",
+      "modelName": "zai-org/GLM-5.3-Flash",
+      "modelDescription": "GLM-5.3-Flash 是由 zai-org 开发的一款轻量级高效模型。该模型作为 GLM-5 系列的变体，重点优化了推理速度与计算成本，支持通过 Z.ai API 平台进行调用，适用于需要高性能且快速响应的各类自然语言处理任务与人工智能开发需求。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.3-Flash <a href=\"https://z.ai/blog/glm-5.3-flash\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.3-Flash API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.3-flash\">Z.ai API Platform. </a> </p>",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "cardSummary": "",
+      "author": "zai-org",
+      "downloads": 34,
+      "likes": 1369,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-08-27T10:33:43.000Z",
+      "numParameters": 321323031390,
+      "availableInferenceProviders": [
+        {
+          "provider": "zai-org",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "glm-5.3-flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": true,
+          "tokensPerSecond": 30.725979727063937
+        },
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "zai-org/GLM-5.3-Flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 49.21807060100904,
+          "pricingOutput": 0.5
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "zai-org/glm-5.3-flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 35.322956148408295,
+          "pricingOutput": 0.25
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "zai-org/GLM-5.3-Flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 122.34205771087497,
+          "pricingOutput": 0.5
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-08-28",
+      "modelCard": "assets/huggingface_model_cards/2026-08-28/03-qwen-qwen3-8-27b.png",
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelDescription": "Qwen3.8-27B 是一款具有 270 亿参数规模的中型通用语言模型，提供标准化的 Hugging Face 权重格式。该模型在保持高效兼容性的同时，具备较强的逻辑推理与语言处理能力，支持 vLLM 等框架，适用于复杂内容生成、任务处理及科研探索等场景。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 3457687,
+      "likes": 13064,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-14T15:00:01.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": [
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 58.932428519893755,
+          "pricingOutput": 2.9999999999999996
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-08-28",
+      "modelCard": "assets/huggingface_model_cards/2026-08-28/04-unsloth-qwen3-8-27b-gguf.png",
+      "modelName": "unsloth/Qwen3.8-27B-GGUF",
+      "modelDescription": "Qwen3.8-27B-GGUF 是经由 Unsloth 优化的量化版本模型，采用 Dynamic 3.0 GGUF 技术以实现更优的量化精度。该模型支持在 Unsloth Desktop 上运行，增强了工具调用与多代理任务协作能力，适合需要在本地硬件上高效运行复杂逻辑与代理程序的开发者。",
+      "sourceDescription": "Read our How to Run Qwen3.8-27B Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em><a href=\"https://unsloth.ai/docs/basics/dynamic-3.0-ggufs\">Unsloth Dynamic 3.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.8\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>Introducing <a href=\"https://unsloth.ai/docs/basics/dynamic-3.0-ggufs\">Dynamic V3.0</a> GGUFs for SOTA accuracy and quantization performance</li> <li>Run and fine-tune Qwen3.8 in <a href=\"https://unsloth.ai/docs/new/desktop\">Unsloth Desktop</a> with <strong>Thinking toggles</strong>. <a href=\"https://unsloth.ai\">Download</a> for Mac, Windows and Linux.</a> <a href=\"github.com/unslothai/unsloth\">GitHub repo</a></li> <li>Developer Role Support so Qwen3.8 can work in agentic tools like Codex and more!</li> <li>Tool calling improvements: Makes parsing nested objects to make tool calling succeed more.</li> <li>See below for 4-bit Qwen3.8-27B run inside of Unsloth Desktop:</li> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "cardSummary": "",
+      "author": "unsloth",
+      "downloads": 7758790,
+      "likes": 3088,
+      "pipelineTag": "",
+      "lastModified": "2026-08-20T12:04:25.000Z",
+      "numParameters": 27320697856,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-08-28",
+      "modelCard": "assets/huggingface_model_cards/2026-08-28/05-unsloth-qwen3-8-flash-next-gguf.png",
+      "modelName": "unsloth/Qwen3.8-Flash-Next-GGUF",
+      "modelDescription": "Qwen3.8-Flash-Next-GGUF 是 Flash-Next 模型的 GGUF 量化版本，通过 Unsloth 的 Dynamic 3.0 技术实现了高精度的模型压缩。该版本适配 llama.cpp 及 Unsloth Desktop 环境，支持深度思考控制，方便用户在本地设备上便捷地部署与体验该模型的高效推理性能。",
+      "sourceDescription": "Read our How to Run Qwen3.8-Flash-Next Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em><a href=\"https://unsloth.ai/docs/basics/dynamic-3.0-ggufs\">Unsloth Dynamic 3.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.8-next\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>To run, please use llama.cpp or use our <a href=\"https://unsloth.ai/docs/desktop\">Unsloth Desktop</a> app.</li> <li>You can now run Qwen3.8-Flash-Next in our Unsloth Desktop UI!</li> <li>See below for Qwen3.8-Flash-Next run in Unsloth Desktop with thinking controls:</li> </div>",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
+      "cardSummary": "",
+      "author": "unsloth",
+      "downloads": 4354,
+      "likes": 470,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-28T02:51:45.000Z",
+      "numParameters": 176943899520,
+      "availableInferenceProviders": []
+    }
+  ]
+}
