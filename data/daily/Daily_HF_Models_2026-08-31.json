@@ -1,0 +1,115 @@
+{
+  "date": "2026-08-31",
+  "title": "🔥Qwen3.8重磅发布是一款经过后能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/01-qwen-qwen3-8-flash-next.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/02-zai-org-glm-5-3-flash.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/03-zai-org-glm-5-3.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/04-qwen-qwen3-8-27b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/05-unsloth-qwen3-8-flash-next-gguf.png"
+  ],
+  "songs": [
+    {
+      "name": "Qwen3.8-Flash-Next",
+      "artist": "Qwen"
+    },
+    {
+      "name": "GLM-5.3-Flash",
+      "artist": "zai-org"
+    },
+    {
+      "name": "GLM-5.3",
+      "artist": "zai-org"
+    },
+    {
+      "name": "Qwen3.8-27B",
+      "artist": "Qwen"
+    },
+    {
+      "name": "Qwen3.8-Flash-Next-GGUF",
+      "artist": "unsloth"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-08-31 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/01-qwen-qwen3-8-flash-next.png\" alt=\"Qwen/Qwen3.8-Flash-Next\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Qwen/Qwen3.8-Flash-Next</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.8-Flash-Next 是一款经过后训练的语言模型，提供 Hugging Face Transformers 标准权重与配置文件。该模型支持 vLLM、SGLang 及 TokenSpeed 等主流推理框架，适用于对部署兼容性有要求的开发者，便于集成至现有的机器学习开发与生产工作流中。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/02-zai-org-glm-5-3-flash.png\" alt=\"zai-org/GLM-5.3-Flash\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">zai-org/GLM-5.3-Flash</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">GLM-5.3-Flash 是由 zai-org 开发的高效语言模型，旨在提供高性能推理体验。用户可通过 z.ai API 平台调用该模型服务，或加入社区获取更多技术支持。该模型定位于对响应速度与模型性能有平衡要求的应用场景，适合快速构建各类智能对话与文本处理应用。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/03-zai-org-glm-5-3.png\" alt=\"zai-org/GLM-5.3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">zai-org/GLM-5.3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">GLM-5.3 基于 GLM-5.2 基础架构，通过深度的后训练优化在复杂编码与长链路任务中表现出显著的性能提升。该模型专注于增强逻辑推理与处理长上下文的能力，适用于复杂代码生成、长文档分析以及多步骤任务编排等对模型性能要求极高的专业技术场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/04-qwen-qwen3-8-27b.png\" alt=\"Qwen/Qwen3.8-27B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Qwen/Qwen3.8-27B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.8-27B 是一款经过后训练的通用大型语言模型，以 Hugging Face Transformers 格式发布。该模型兼容 vLLM、SGLang 等多种推理加速库，在提供强大处理能力的同时，确保了部署的灵活性，广泛适用于自然语言理解、生成与复杂逻辑处理等各类通用人工智能任务。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/05-unsloth-qwen3-8-flash-next-gguf.png\" alt=\"unsloth/Qwen3.8-Flash-Next-GGUF\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">unsloth/Qwen3.8-Flash-Next-GGUF</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.8-Flash-Next-GGUF 版本由 Unsloth 优化，采用其 Dynamic 3.0 量化技术，在保持高精度的同时提升了推理效率。该模型适配 llama.cpp 及 Unsloth Desktop 等工具，支持思考模式控制，特别适合在本地或端侧硬件上运行，满足对计算资源受限环境下的高性能部署需求。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-08-31T00:15:30.021162"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+    "https://huggingface.co/zai-org/GLM-5.3-Flash",
+    "https://huggingface.co/zai-org/GLM-5.3",
+    "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF"
+  ],
+  "new_urls": [
+    "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+    "https://huggingface.co/zai-org/GLM-5.3-Flash",
+    "https://huggingface.co/zai-org/GLM-5.3",
+    "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-08-31-01",
+      "rank": 1,
+      "name": "Qwen/Qwen3.8-Flash-Next",
+      "description": "Qwen3.8-Flash-Next 是一款经过后训练的语言模型，提供 Hugging Face Transformers 标准权重与配置文件。该模型支持 vLLM、SGLang 及 TokenSpeed 等主流推理框架，适用于对部署兼容性有要求的开发者，便于集成至现有的机器学习开发与生产工作流中。",
+      "source_description": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-31/01-qwen-qwen3-8-flash-next.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/01-qwen-qwen3-8-flash-next.png"
+    },
+    {
+      "id": "hf-2026-08-31-02",
+      "rank": 2,
+      "name": "zai-org/GLM-5.3-Flash",
+      "description": "GLM-5.3-Flash 是由 zai-org 开发的高效语言模型，旨在提供高性能推理体验。用户可通过 z.ai API 平台调用该模型服务，或加入社区获取更多技术支持。该模型定位于对响应速度与模型性能有平衡要求的应用场景，适合快速构建各类智能对话与文本处理应用。",
+      "source_description": "<div align=\"center\"> <img src=https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/logo.svg width=\"15%\"/> </div> <p align=\"center\"> 👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\" blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\" blank\">Discord</a> community. <br> 📖 Check out the GLM-5.3-Flash <a href=\"https://z.ai/blog/glm-5.3-flash\" target=\" blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\" blank\">Technical report</a>. <br> 📍 Use GLM-5.3-Flash API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.3-flash\">Z.ai API Platform. </a> </p>",
+      "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-31/02-zai-org-glm-5-3-flash.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/02-zai-org-glm-5-3-flash.png"
+    },
+    {
+      "id": "hf-2026-08-31-03",
+      "rank": 3,
+      "name": "zai-org/GLM-5.3",
+      "description": "GLM-5.3 基于 GLM-5.2 基础架构，通过深度的后训练优化在复杂编码与长链路任务中表现出显著的性能提升。该模型专注于增强逻辑推理与处理长上下文的能力，适用于复杂代码生成、长文档分析以及多步骤任务编排等对模型性能要求极高的专业技术场景。",
+      "source_description": "GLM-5.3 uses the same base model as GLM-5.2 — every gain comes from post-training. Compared with GLM-5.2, it is much better at complex coding and long-horizon tasks:",
+      "url": "https://huggingface.co/zai-org/GLM-5.3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-31/03-zai-org-glm-5-3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/03-zai-org-glm-5-3.png"
+    },
+    {
+      "id": "hf-2026-08-31-04",
+      "rank": 4,
+      "name": "Qwen/Qwen3.8-27B",
+      "description": "Qwen3.8-27B 是一款经过后训练的通用大型语言模型，以 Hugging Face Transformers 格式发布。该模型兼容 vLLM、SGLang 等多种推理加速库，在提供强大处理能力的同时，确保了部署的灵活性，广泛适用于自然语言理解、生成与复杂逻辑处理等各类通用人工智能任务。",
+      "source_description": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-31/04-qwen-qwen3-8-27b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/04-qwen-qwen3-8-27b.png"
+    },
+    {
+      "id": "hf-2026-08-31-05",
+      "rank": 5,
+      "name": "unsloth/Qwen3.8-Flash-Next-GGUF",
+      "description": "Qwen3.8-Flash-Next-GGUF 版本由 Unsloth 优化，采用其 Dynamic 3.0 量化技术，在保持高精度的同时提升了推理效率。该模型适配 llama.cpp 及 Unsloth Desktop 等工具，支持思考模式控制，特别适合在本地或端侧硬件上运行，满足对计算资源受限环境下的高性能部署需求。",
+      "source_description": "Read our How to Run Qwen3.8-Flash-Next Guide! <div> <p style=\"margin: 0 0 0px 0; margin-top: 0px;\"> <em><a href=\"https://unsloth.ai/docs/basics/dynamic-3.0-ggufs\">Unsloth Dynamic 3.0</a> achieves superior accuracy & outperforms other leading quants.</em> </p> <div style=\"display: flex; gap: 5px; align-items: center; margin-bottom: 0px;\"> <a href=\"https://github.com/unslothai/unsloth/\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png\" width=\"133\"> </a> <a href=\"https://discord.gg/unsloth\"> <img src=\"https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png\" width=\"173\"> </a> <a href=\"https://unsloth.ai/docs/models/qwen3.8-next\"> <img src=\"https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png\" width=\"143\"> </a> </div> <ul style=\"margin: 0;\"> <li>To run, please use llama.cpp or use our <a href=\"https://unsloth.ai/docs/desktop\">Unsloth Desktop</a> app.</li> <li>You can now run Qwen3.8-Flash-Next in our Unsloth Desktop UI!</li> <li>See below for Qwen3.8-Flash-Next run in Unsloth Desktop with thinking controls:</li> </div>",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-08-31/05-unsloth-qwen3-8-flash-next-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-08-31/05-unsloth-qwen3-8-flash-next-gguf.png"
+    }
+  ]
+}

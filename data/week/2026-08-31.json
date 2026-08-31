@@ -1,0 +1,70 @@
+{
+  "weekRange": {
+    "start": "2026-08-25",
+    "end": "2026-08-31"
+  },
+  "weekTitle": "本周 Hugging Face 模型热榜：Qwen3.8 与 GLM-5.3 引领性能新风向",
+  "summary": "本周开源模型界迎来重磅更新，Qwen3.8 系列以其卓越的推理能力与全生态适配性占据核心地位，同时 zai-org 推出的 GLM-5.3 系列也在逻辑推理与长文本处理上实现突破。此外，Unsloth 对量化版本的深度优化，进一步降低了高性能模型的部署门槛。",
+  "items": [
+    {
+      "modelName": "Qwen/Qwen3.8-Flash-Next",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "modelCard": "assets/huggingface_model_cards/2026-08-31/01-qwen-qwen3-8-flash-next.png",
+      "modelDescription": "Qwen3.8-Flash-Next 是一款经过后训练的语言模型，提供 Hugging Face Transformers 标准权重与配置文件。该模型支持 vLLM、SGLang 及 TokenSpeed 等主流推理框架，适用于对部署兼容性有要求的开发者，便于集成至现有的机器学习开发与生产工作流中。",
+      "pickReason": "作为本周榜首，Qwen3.8-Flash-Next 展现了极强的生态兼容性。它不仅支持 vLLM、SGLang 等主流推理框架，还提供了 Transformers 标准权重，为开发者在生产环境集成高性能模型提供了极其便捷的路径，是当前最值得关注的轻量级高效模型。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "modelName": "zai-org/GLM-5.3-Flash",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "modelCard": "assets/huggingface_model_cards/2026-08-31/02-zai-org-glm-5-3-flash.png",
+      "modelDescription": "GLM-5.3-Flash 是由 zai-org 开发的高效语言模型，旨在提供高性能推理体验。用户可通过 z.ai API 平台调用该模型服务，或加入社区获取更多技术支持。该模型定位于对响应速度与模型性能有平衡要求的应用场景，适合快速构建各类智能对话与文本处理应用。",
+      "pickReason": "GLM-5.3-Flash 是 zai-org 针对响应速度与性能平衡所做的深度优化版本。其最大的价值在于通过 z.ai API 平台即可快速调用，极大地降低了开发者在构建实时智能对话应用时的技术门槛，非常适合需要快速落地部署的商业场景。",
+      "appearances": 1,
+      "bestRank": 2,
+      "dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "modelName": "zai-org/GLM-5.3",
+      "modelUrl": "https://huggingface.co/zai-org/GLM-5.3",
+      "modelCard": "assets/huggingface_model_cards/2026-08-31/03-zai-org-glm-5-3.png",
+      "modelDescription": "GLM-5.3 基于 GLM-5.2 基础架构，通过深度的后训练优化在复杂编码与长链路任务中表现出显著的性能提升。该模型专注于增强逻辑推理与处理长上下文的能力，适用于复杂代码生成、长文档分析以及多步骤任务编排等对模型性能要求极高的专业技术场景。",
+      "pickReason": "该模型通过深度的后训练技术优化了复杂逻辑与长上下文处理能力。相比前代，它在代码生成与长任务编排上的表现有质的飞跃，是处理复杂技术任务的理想选择，体现了在基础架构之上的模型调优潜力。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "modelCard": "assets/huggingface_model_cards/2026-08-31/04-qwen-qwen3-8-27b.png",
+      "modelDescription": "Qwen3.8-27B 是一款经过后训练的通用大型语言模型，以 Hugging Face Transformers 格式发布。该模型兼容 vLLM、SGLang 等多种推理加速库，在提供强大处理能力的同时，确保了部署的灵活性，广泛适用于自然语言理解、生成与复杂逻辑处理等各类通用人工智能任务。",
+      "pickReason": "作为 Qwen3.8 系列中的高性能版本，27B 参数规模提供了在自然语言理解与复杂推理任务上的优异表现。它在保持通用性的同时，通过优秀的架构设计保证了推理加速库的广泛支持，是中大规模模型中的标杆之作。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "modelName": "unsloth/Qwen3.8-Flash-Next-GGUF",
+      "modelUrl": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
+      "modelCard": "assets/huggingface_model_cards/2026-08-31/05-unsloth-qwen3-8-flash-next-gguf.png",
+      "modelDescription": "Qwen3.8-Flash-Next-GGUF 版本由 Unsloth 优化，采用其 Dynamic 3.0 量化技术，在保持高精度的同时提升了推理效率。该模型适配 llama.cpp 及 Unsloth Desktop 等工具，支持思考模式控制，特别适合在本地或端侧硬件上运行，满足对计算资源受限环境下的高性能部署需求。",
+      "pickReason": "Unsloth 通过其独家的 Dynamic 3.0 量化技术，将 Qwen3.8-Flash-Next 的性能在本地运行环境中发挥到了极致。该版本特别适配 llama.cpp，并支持思考模式控制，为个人用户在消费级硬件上体验顶级模型能力提供了可能。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-08-31"
+      ]
+    }
+  ]
+}
