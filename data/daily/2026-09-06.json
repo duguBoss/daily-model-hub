@@ -1,0 +1,183 @@
+{
+  "recordDate": "2026-09-06",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-09-06",
+      "modelCard": "assets/huggingface_model_cards/2026-09-06/01-deepseek-ai-deepseek-v4-flash-vision-exp.png",
+      "modelName": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "modelDescription": "DeepSeek-V4-Flash-Vision-Exp 是深度求索推出的一款多模态实验模型，具备强大的视觉理解与处理能力。该模型旨在通过轻量化架构实现高效的图像解析与多模态交互，适用于需要快速响应的视觉分析任务、图像描述生成以及多模态辅助应用场景，是探索高性能视觉大模型的实验性技术方案。",
+      "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 184542,
+      "likes": 675,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-09-01T09:22:10.000Z",
+      "numParameters": 304646824126,
+      "availableInferenceProviders": [
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 62.72169968109182,
+          "pricingOutput": 1.32
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/deepseek-v4-flash-vision-exp",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 142.59785961605158
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4-flash-vision-exp",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 110.75738072613933,
+          "pricingOutput": 1.32
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-09-06",
+      "modelCard": "assets/huggingface_model_cards/2026-09-06/02-qwen-qwen3-8-27b.png",
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelDescription": "Qwen3.8-27B 是通义千问系列的 270 亿参数版本模型，采用 Transformer 架构并经过深度后训练。该模型在逻辑推理、代码生成与自然语言理解方面表现均衡，兼容主流的 Hugging Face 生态工具链，适用于构建复杂对话系统、专业领域知识库及中大型规模的任务处理需求。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 6024467,
+      "likes": 14036,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-14T15:00:01.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": [
+        {
+          "provider": "ovhcloud",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 60.32414113383642,
+          "pricingOutput": 0
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 34.800975356021866,
+          "pricingOutput": 2.9999999999999996
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-09-06",
+      "modelCard": "assets/huggingface_model_cards/2026-09-06/03-qwen-qwen3-8-flash-next.png",
+      "modelName": "Qwen/Qwen3.8-Flash-Next",
+      "modelDescription": "Qwen3.8-Flash-Next 是通义千问系列中主打高性能与高吞吐的迭代模型。该模型经过专门优化，旨在提升推理速度与处理效率，支持 vLLM 等高效推理框架。适用于实时性要求高、大规模并发的生产环境，如长文本处理、实时问答系统及需要低延迟部署的智能交互场景。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 401327,
+      "likes": 4913,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-27T05:03:36.000Z",
+      "numParameters": 179999981459,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-09-06",
+      "modelCard": "assets/huggingface_model_cards/2026-09-06/04-xhtoken-spark-x2-5-4b.png",
+      "modelName": "XHToken/Spark-X2.5-4B",
+      "modelDescription": "Spark-X2.5-4B 是一款紧凑型的 40 亿参数通用语言模型，由 XHToken 团队发布。该模型在兼顾模型尺寸与参数效率的前提下，提供了扎实的文本生成与理解能力。凭借其较低的资源占用，该模型非常适合在边缘计算设备、移动终端或资源受限的硬件环境中部署，用于基础的文本任务。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format.",
+      "modelUrl": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+      "cardSummary": "",
+      "author": "XHToken",
+      "downloads": 4755,
+      "likes": 536,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-09-03T05:45:12.000Z",
+      "numParameters": 4112079360,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-09-06",
+      "modelCard": "assets/huggingface_model_cards/2026-09-06/05-google-timesfm-3-0-pytorch.png",
+      "modelName": "google/timesfm-3.0-pytorch",
+      "modelDescription": "TimesFM-3.0-pytorch 是 Google Research 开发的时间序列基础模型，专门用于处理各类时间序列预测任务。该模型通过预训练掌握了数据中的复杂模式，无需针对特定领域重新训练即可实现高精度的预测，适用于金融、能源、零售等行业中的趋势分析、需求预测及异常检测等应用场景。",
+      "sourceDescription": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "modelUrl": "https://huggingface.co/google/timesfm-3.0-pytorch",
+      "cardSummary": "",
+      "author": "google",
+      "downloads": 123025,
+      "likes": 456,
+      "pipelineTag": "time-series-forecasting",
+      "lastModified": "2026-09-02T15:44:59.000Z",
+      "numParameters": 330710976,
+      "availableInferenceProviders": []
+    }
+  ]
+}
