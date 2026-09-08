@@ -1,0 +1,151 @@
+{
+  "recordDate": "2026-09-09",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-09-09",
+      "modelCard": "assets/huggingface_model_cards/2026-09-09/01-xhtoken-spark-x2-5-4b.png",
+      "modelName": "XHToken/Spark-X2.5-4B",
+      "modelDescription": "Spark-X2.5-4B 是由 XHToken 开发的一款轻量级预训练模型，以 Hugging Face Transformers 格式发布。该模型参数规模较小，具备高效的推理性能，适合在资源受限的终端设备或边缘计算场景中进行快速部署与应用，主要用于处理各类文本生成与自然语言理解任务。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format.",
+      "modelUrl": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+      "cardSummary": "",
+      "author": "XHToken",
+      "downloads": 10661,
+      "likes": 846,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-09-03T05:45:12.000Z",
+      "numParameters": 4112079360,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-09-09",
+      "modelCard": "assets/huggingface_model_cards/2026-09-09/02-openbmb-minicpm5-2b.png",
+      "modelName": "openbmb/MiniCPM5-2B",
+      "modelDescription": "MiniCPM5-2B 是由 OpenBMB 推出的高性能轻量化语言模型。该模型专注于在保持较低参数量的同时，通过优化的架构提升生成质量与逻辑推理能力。它主要面向移动端及嵌入式系统，能够满足用户在资源有限环境下对高效人工智能助手的实际应用需求。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/assets/minicpm logo.png\" width=\"500em\" /> </div>",
+      "modelUrl": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "cardSummary": "",
+      "author": "openbmb",
+      "downloads": 2879,
+      "likes": 659,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-09-08T09:08:22.000Z",
+      "numParameters": 2516756480,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-09-09",
+      "modelCard": "assets/huggingface_model_cards/2026-09-09/03-qwen-qwen3-8-27b.png",
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelDescription": "Qwen3.8-27B 是阿里通义千问系列的一款中大规模参数模型，采用标准 Hugging Face 格式并兼容 vLLM、SGLang 等主流加速推理框架。该模型在处理复杂指令、多领域知识理解及长文本生成方面表现均衡，适用于企业级高负载的智能客服、数据分析及内容创作等应用场景。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 6712160,
+      "likes": 14389,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-14T15:00:01.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": [
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "qwen/qwen3.8-27b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 40.8917580919952,
+          "pricingOutput": 3
+        },
+        {
+          "provider": "ovhcloud",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 50.32450247387801,
+          "pricingOutput": 0
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 17.56291421491469,
+          "pricingOutput": 2.9999999999999996
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-09-09",
+      "modelCard": "assets/huggingface_model_cards/2026-09-09/04-ista-daslab-qwen3-8-27b-gsq-rco-gguf.png",
+      "modelName": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+      "modelDescription": "ISTA-DASLab 发布的 Qwen3.8-27B-GSQ-RCO-GGUF 是基于 Qwen3.8-27B 进行量化处理后的 GGUF 版本。该模型通过特殊的压缩技术显著降低了显存需求，使得在大规模参数模型推理时能够在消费级硬件上运行，特别适用于需要本地化部署或离线推理的个人开发者及研究人员。",
+      "sourceDescription": "<!-- GSQ-RCO GGUF release card, TEMPLATE (filled with Qwen3.8-27B as the example). To publish a new model, copy this folder and change only: 1. the YAML frontmatter above (base model, license) 2. every field marked [swap] (model name, filenames, one-line summaries) 3. the results: drop tools/results/<model>.json, run python tools/make plots.py tools/results/<model>.json then paste the printed Markdown table into \"Results\". The header (banner + badges) is shared across all releases. NB: the YAML block must remain the very first bytes of the file (HF requirement). -->",
+      "modelUrl": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+      "cardSummary": "",
+      "author": "ISTA-DASLab",
+      "downloads": 479597,
+      "likes": 650,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-09-02T09:11:34.000Z",
+      "numParameters": 26895998464,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-09-09",
+      "modelCard": "assets/huggingface_model_cards/2026-09-09/05-google-timesfm-3-0-pytorch.png",
+      "modelName": "google/timesfm-3.0-pytorch",
+      "modelDescription": "TimesFM-3.0-pytorch 是 Google Research 开发的时间序列基础模型。与传统文本模型不同，该模型专门针对时间序列数据进行预测训练，具备强大的跨领域时间序列分析与预测能力。它能够广泛应用于金融预测、库存管理及各类传感器数据的趋势分析等工业与科研领域。",
+      "sourceDescription": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "modelUrl": "https://huggingface.co/google/timesfm-3.0-pytorch",
+      "cardSummary": "",
+      "author": "google",
+      "downloads": 444052,
+      "likes": 632,
+      "pipelineTag": "time-series-forecasting",
+      "lastModified": "2026-09-02T15:44:59.000Z",
+      "numParameters": 330710976,
+      "availableInferenceProviders": []
+    }
+  ]
+}
