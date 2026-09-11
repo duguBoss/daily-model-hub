@@ -1,24 +1,55 @@
 {
-  "recordDate": "2026-09-11",
+  "recordDate": "2026-09-12",
   "source": "https://huggingface.co/models?sort=trending",
   "limit": 5,
   "models": [
     {
       "rank": 1,
-      "recordDate": "2026-09-11",
-      "modelCard": "assets/huggingface_model_cards/2026-09-11/01-deepseek-ai-deepseek-v4-1-flash.png",
+      "recordDate": "2026-09-12",
+      "modelCard": "assets/huggingface_model_cards/2026-09-12/01-deepseek-ai-deepseek-v4-1-flash.png",
       "modelName": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "modelDescription": "DeepSeek-V4.1-Flash 是深度求索推出的一款高性能大语言模型，其核心亮点在于对 KV Cache 压缩技术的极致优化。该模型通过创新的架构设计显著降低了推理过程中的显存占用，提高了处理长文本序列时的效率，非常适合高并发场景及对推理延迟敏感的应用开发需求。",
+      "modelDescription": "DeepSeek-V4.1-Flash 是深度求索推出的一款高性能模型，核心优势在于极大地突破了KV缓存压缩技术的极限。该模型通过优化计算资源利用率，旨在显著降低长文本处理中的内存占用，提升推理响应速度。适用于对高并发、长上下文及低延迟有严苛要求的生产环境，特别是在实时问答和大规模文本分析场景中表现出色。",
       "sourceDescription": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
       "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
       "cardSummary": "",
       "author": "deepseek-ai",
-      "downloads": 6,
-      "likes": 1329,
+      "downloads": 75774,
+      "likes": 1783,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-09-10T08:18:10.000Z",
       "numParameters": 763205315794,
       "availableInferenceProviders": [
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 189.1637538673336,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/deepseek-v4p1-flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 82.11905328850375
+        },
         {
           "provider": "novita",
           "modelStatus": "live",
@@ -29,26 +60,26 @@
             "structuredOutput": false,
             "toolCalling": true
           },
-          "isCheapestPricingOutput": true,
-          "isFastestThroughput": true,
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 131.00219444101737,
+          "tokensPerSecond": 131.015128822754,
           "pricingOutput": 1.2
         }
       ]
     },
     {
       "rank": 2,
-      "recordDate": "2026-09-11",
-      "modelCard": "assets/huggingface_model_cards/2026-09-11/02-openbmb-minicpm5-2b.png",
+      "recordDate": "2026-09-12",
+      "modelCard": "assets/huggingface_model_cards/2026-09-12/02-openbmb-minicpm5-2b.png",
       "modelName": "openbmb/MiniCPM5-2B",
-      "modelDescription": "MiniCPM5-2B 是 OpenBMB 团队开发的高效轻量级大语言模型。该模型参数规模适中，旨在平衡端侧部署的灵活性与模型表现力。凭借其高效的计算特性，它不仅适用于资源受限的硬件环境，还能在自然语言处理任务中提供稳定的推理能力，是移动端与边缘设备部署的理想选择。",
+      "modelDescription": "MiniCPM5-2B 是由 OpenBMB 开发的轻量级大语言模型。尽管参数规模仅为 20 亿级别，但其在多种基准测试中展现了出色的逻辑推理与语言理解能力。得益于高效的架构设计，该模型非常适合部署在资源受限的边缘设备、移动终端或嵌入式系统中，能够为本地化 AI 应用提供快速且高效的文本处理及任务执行能力。",
       "sourceDescription": "<div align=\"center\"> <img src=\"https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/assets/minicpm logo.png\" width=\"500em\" /> </div>",
       "modelUrl": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "cardSummary": "",
       "author": "openbmb",
-      "downloads": 42289,
-      "likes": 1106,
+      "downloads": 67550,
+      "likes": 1192,
       "pipelineTag": "text-generation",
       "lastModified": "2026-09-10T09:36:33.000Z",
       "numParameters": 2516756480,
@@ -56,16 +87,16 @@
     },
     {
       "rank": 3,
-      "recordDate": "2026-09-11",
-      "modelCard": "assets/huggingface_model_cards/2026-09-11/03-xhtoken-spark-x2-5-4b.png",
+      "recordDate": "2026-09-12",
+      "modelCard": "assets/huggingface_model_cards/2026-09-12/03-xhtoken-spark-x2-5-4b.png",
       "modelName": "XHToken/Spark-X2.5-4B",
-      "modelDescription": "Spark-X2.5-4B 是一款经过后训练的轻量化语言模型，提供了标准化的模型权重与配置文件，完美兼容 Hugging Face Transformers 生态体系。该模型定位为高效的基础模型，适用于多种文本生成与理解任务，特别适合开发者在资源有限的平台快速集成并部署 AI 服务。",
+      "modelDescription": "Spark-X2.5-4B 是一款经过精细后训练的 40 亿参数规模模型。该模型提供完整的权重与配置文件，兼容 Hugging Face Transformers 等主流开发框架。其定位在于提供高性价比的推理性能，平衡了计算资源消耗与输出质量，适用于各类需要中等规模模型支撑的定制化自然语言处理任务及轻量级 AI 应用开发。",
       "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format.",
       "modelUrl": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "cardSummary": "",
       "author": "XHToken",
-      "downloads": 15930,
-      "likes": 1062,
+      "downloads": 17712,
+      "likes": 1102,
       "pipelineTag": "text-generation",
       "lastModified": "2026-09-03T05:45:12.000Z",
       "numParameters": 4112079360,
@@ -73,16 +104,16 @@
     },
     {
       "rank": 4,
-      "recordDate": "2026-09-11",
-      "modelCard": "assets/huggingface_model_cards/2026-09-11/04-qwen-qwen3-8-27b.png",
+      "recordDate": "2026-09-12",
+      "modelCard": "assets/huggingface_model_cards/2026-09-12/04-qwen-qwen3-8-27b.png",
       "modelName": "Qwen/Qwen3.8-27B",
-      "modelDescription": "Qwen3.8-27B 是通义千问系列的中等规模大语言模型，具备均衡的推理能力与广泛的生态兼容性。该模型原生支持 Hugging Face、vLLM、SGLang 等主流推理框架，适用于需要较高上下文理解与生成能力的复杂业务场景，是开发者进行模型微调或高性能推理部署的优质基座。",
+      "modelDescription": "Qwen3.8-27B 是通义千问系列的大参数模型，拥有 270 亿参数量。该模型经过全面训练，具备强大的知识储备、多语言理解与复杂任务处理能力。它与 vLLM、SGLang 等主流加速推理框架高度兼容，能够提供企业级的高质量推理表现，适用于学术研究、复杂的商业分析、智能客服及内容生产等深度计算任务。",
       "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
       "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "cardSummary": "",
       "author": "Qwen",
-      "downloads": 7322476,
-      "likes": 14641,
+      "downloads": 7563763,
+      "likes": 14757,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-08-14T15:00:01.000Z",
       "numParameters": 27781427952,
@@ -100,7 +131,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 678.7089673386814,
+          "tokensPerSecond": 852.3938648339345,
           "pricingOutput": 1.49
         },
         {
@@ -116,7 +147,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 36.95374610304066,
+          "tokensPerSecond": 40.83801315326371,
           "pricingOutput": 3
         },
         {
@@ -132,7 +163,7 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 44.46579296716227,
+          "tokensPerSecond": 64.4867612555615,
           "pricingOutput": 0
         },
         {
@@ -158,26 +189,26 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 22.743135126164116,
+          "tokensPerSecond": 23.913376206688984,
           "pricingOutput": 2.9999999999999996
         }
       ]
     },
     {
       "rank": 5,
-      "recordDate": "2026-09-11",
-      "modelCard": "assets/huggingface_model_cards/2026-09-11/05-ista-daslab-qwen3-8-27b-gsq-rco-gguf.png",
-      "modelName": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "modelDescription": "ISTA-DASLab 发布的 Qwen3.8-27B-GSQ-RCO-GGUF 版本，是对 Qwen3.8-27B 基础模型进行的量化处理版本。通过采用 GSQ-RCO 技术与 GGUF 格式封装，该模型显著降低了推理的硬件门槛，能够以更低的显存需求在个人电脑或消费级 GPU 上实现高性能的本地化大模型推理与运行。",
-      "sourceDescription": "<!-- GSQ-RCO GGUF release card, TEMPLATE (filled with Qwen3.8-27B as the example). To publish a new model, copy this folder and change only: 1. the YAML frontmatter above (base model, license) 2. every field marked [swap] (model name, filenames, one-line summaries) 3. the results: drop tools/results/<model>.json, run python tools/make plots.py tools/results/<model>.json then paste the printed Markdown table into \"Results\". The header (banner + badges) is shared across all releases. NB: the YAML block must remain the very first bytes of the file (HF requirement). -->",
-      "modelUrl": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+      "recordDate": "2026-09-12",
+      "modelCard": "assets/huggingface_model_cards/2026-09-12/05-nex-agi-nex-n2-5-mini.png",
+      "modelName": "nex-agi/Nex-N2.5-mini",
+      "modelDescription": "Nex-N2.5-mini 是 Nex-AGI 开发的一款微型化语言模型，专注于在极小参数规模下提供灵活的交互体验。该模型设计简洁、部署便捷，旨在通过高效算法实现对特定领域语义的精确捕捉。它非常适合集成至网页端助手、轻量级插件或对实时性要求较高的交互式工具中，为开发者提供快速响应的智能化语义处理支持。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"./figures/NEX logo.svg\" width=\"20%\"/> </div>",
+      "modelUrl": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
       "cardSummary": "",
-      "author": "ISTA-DASLab",
-      "downloads": 614850,
-      "likes": 793,
-      "pipelineTag": "image-text-to-text",
-      "lastModified": "2026-09-02T09:11:34.000Z",
-      "numParameters": 26895998464,
+      "author": "nex-agi",
+      "downloads": 3121,
+      "likes": 690,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-09-08T16:17:10.000Z",
+      "numParameters": 35107181936,
       "availableInferenceProviders": []
     }
   ]
