@@ -1,20 +1,20 @@
 {
-  "recordDate": "2026-09-15",
+  "recordDate": "2026-09-16",
   "source": "https://huggingface.co/models?sort=trending",
   "limit": 5,
   "models": [
     {
       "rank": 1,
-      "recordDate": "2026-09-15",
-      "modelCard": "assets/huggingface_model_cards/2026-09-15/01-deepseek-ai-deepseek-v4-1-flash.png",
+      "recordDate": "2026-09-16",
+      "modelCard": "assets/huggingface_model_cards/2026-09-16/01-deepseek-ai-deepseek-v4-1-flash.png",
       "modelName": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "modelDescription": "DeepSeek-V4.1-Flash 是深度求索推出的一款专注于 KV Cache 压缩技术的大模型。通过优化推理过程中的内存占用，该模型显著提升了长文本场景下的处理效率与响应速度，主要面向对高吞吐量及大上下文处理有严格需求的开发者与企业级生产环境。",
+      "modelDescription": "DeepSeek-V4.1-Flash 是 DeepSeek 推出的高性能大语言模型，其核心技术优势在于深度优化了 KV Cache 压缩算法。该模型旨在显著降低长文本处理时的显存占用，提升推理效率与吞吐量，特别适用于需要处理大规模上下文信息的复杂场景，能够为开发者提供更高性价比的推理方案。",
       "sourceDescription": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
       "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
       "cardSummary": "",
       "author": "deepseek-ai",
-      "downloads": 288414,
-      "likes": 2450,
+      "downloads": 325712,
+      "likes": 2684,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-09-10T08:18:10.000Z",
       "numParameters": 763205315794,
@@ -30,9 +30,9 @@
             "toolCalling": true
           },
           "isCheapestPricingOutput": false,
-          "isFastestThroughput": false,
+          "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 123.34643598457153,
+          "tokensPerSecond": 115.846131879659,
           "pricingOutput": 1.2
         },
         {
@@ -48,7 +48,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 58.78706866416106
+          "tokensPerSecond": 77.77447757061807
         },
         {
           "provider": "deepinfra",
@@ -63,12 +63,12 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 8.69948045550041,
+          "tokensPerSecond": 14.269224747142923,
           "pricingOutput": 0.6
         },
         {
           "provider": "baseten",
-          "modelStatus": "live",
+          "modelStatus": "error",
           "providerStatus": "live",
           "providerId": "deepseek-ai/DeepSeek-V4.1-Flash",
           "task": "conversational",
@@ -77,25 +77,25 @@
             "toolCalling": true
           },
           "isCheapestPricingOutput": false,
-          "isFastestThroughput": true,
+          "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 214.61412393571314,
+          "tokensPerSecond": 187.52362731445277,
           "pricingOutput": 1.2
         }
       ]
     },
     {
       "rank": 2,
-      "recordDate": "2026-09-15",
-      "modelCard": "assets/huggingface_model_cards/2026-09-15/02-edge0-edge0-35b-a3b-preview.png",
+      "recordDate": "2026-09-16",
+      "modelCard": "assets/huggingface_model_cards/2026-09-16/02-edge0-edge0-35b-a3b-preview.png",
       "modelName": "Edge0/Edge0-35B-A3B-preview",
-      "modelDescription": "Edge0-35B-A3B 是一款 350 亿参数的混合专家（MoE）架构模型。该模型结合 Edge0 推理框架，支持在不到 3GB 的激活内存环境下高效运行。其出色的计算效率使其成为在边缘计算设备或资源受限环境下部署大模型推理的理想选择。",
+      "modelDescription": "Edge0-35B-A3B-preview 是一款参数量为 35B 的混合专家架构（MoE）模型。该模型配合 Edge0 流式推理框架，实现了在 3GB 以下活动内存中运行，极大地优化了轻量级设备上的部署压力。它在保持高性能的同时具备极高的推理效率，非常适合边缘计算和端侧设备部署。",
       "sourceDescription": "Edge0-35b-a3b — a 35B MoE LLM that runs at viable speed in under 3 GiB of active memory , via the edge0 streaming inference framework.",
       "modelUrl": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
       "cardSummary": "",
       "author": "Edge0",
-      "downloads": 8109,
-      "likes": 1986,
+      "downloads": 17853,
+      "likes": 2728,
       "pipelineTag": "text-generation",
       "lastModified": "2026-09-14T04:08:09.000Z",
       "numParameters": 34660610688,
@@ -103,16 +103,16 @@
     },
     {
       "rank": 3,
-      "recordDate": "2026-09-15",
-      "modelCard": "assets/huggingface_model_cards/2026-09-15/03-openbmb-minicpm5-2b.png",
+      "recordDate": "2026-09-16",
+      "modelCard": "assets/huggingface_model_cards/2026-09-16/03-openbmb-minicpm5-2b.png",
       "modelName": "openbmb/MiniCPM5-2B",
-      "modelDescription": "MiniCPM5-2B 是 OpenBMB 研发的一款高效能轻量级大模型。尽管参数量仅为 20 亿，但它具备极强的多任务处理能力与端侧部署潜质。该模型旨在通过较小的算力代价实现接近大型模型的性能，特别适合在手机、笔记本电脑等本地终端设备上运行。",
+      "modelDescription": "MiniCPM5-2B 是 OpenBMB 团队推出的轻量化大语言模型，属于 MiniCPM 系列的最新成员。该模型定位为端侧高性能智能助手，在仅 20 亿参数规模下实现了卓越的逻辑推理和语义理解能力。由于其体积小、资源占用低，非常适合集成在移动设备或嵌入式系统中，提供实时的离线 AI 服务。",
       "sourceDescription": "<div align=\"center\"> <img src=\"https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/assets/minicpm logo.png\" width=\"500em\" /> </div>",
       "modelUrl": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "cardSummary": "",
       "author": "openbmb",
-      "downloads": 206774,
-      "likes": 1394,
+      "downloads": 271754,
+      "likes": 1451,
       "pipelineTag": "text-generation",
       "lastModified": "2026-09-12T07:20:14.000Z",
       "numParameters": 2516756480,
@@ -120,16 +120,16 @@
     },
     {
       "rank": 4,
-      "recordDate": "2026-09-15",
-      "modelCard": "assets/huggingface_model_cards/2026-09-15/04-nex-agi-nex-n2-5-mini.png",
+      "recordDate": "2026-09-16",
+      "modelCard": "assets/huggingface_model_cards/2026-09-16/04-nex-agi-nex-n2-5-mini.png",
       "modelName": "nex-agi/Nex-N2.5-mini",
-      "modelDescription": "Nex-N2.5-mini 是一款由 Nex-AGI 团队开发的微型化大语言模型，强调模型在特定场景下的轻量、快速响应能力。该模型旨在通过精简架构提升推理速度与资源兼容性，能够便捷地集成到各类小型应用程序中，适用于处理日常指令遵循与基础对话任务。",
+      "modelDescription": "Nex-N2.5-mini 是由 Nex-AGI 开发的小型化大语言模型，旨在提供兼顾速度与精度的智能交互能力。该模型定位为高效能推理工具，针对各类日常自然语言任务进行了专门优化。凭借其紧凑的架构设计，该模型不仅易于部署在受限算力环境下，还能在各类应用场景中实现快速响应，适合轻量级任务开发。",
       "sourceDescription": "<div align=\"center\"> <img src=\"./figures/NEX logo.svg\" width=\"20%\"/> </div>",
       "modelUrl": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
       "cardSummary": "",
       "author": "nex-agi",
-      "downloads": 4543,
-      "likes": 781,
+      "downloads": 5202,
+      "likes": 804,
       "pipelineTag": "text-generation",
       "lastModified": "2026-09-08T16:17:10.000Z",
       "numParameters": 35107181936,
@@ -137,16 +137,16 @@
     },
     {
       "rank": 5,
-      "recordDate": "2026-09-15",
-      "modelCard": "assets/huggingface_model_cards/2026-09-15/05-qwen-qwen3-8-27b.png",
+      "recordDate": "2026-09-16",
+      "modelCard": "assets/huggingface_model_cards/2026-09-16/05-qwen-qwen3-8-27b.png",
       "modelName": "Qwen/Qwen3.8-27B",
-      "modelDescription": "Qwen3.8-27B 是通义千问系列的大参数模型，提供完善的权重与配置文件。该模型完全兼容 Hugging Face、vLLM 及 SGLang 等主流框架，具备强大的语义理解、逻辑推理与生成能力，广泛适用于复杂任务处理、企业知识库构建及高性能推理服务部署。",
+      "modelDescription": "Qwen3.8-27B 是通义千问系列的大参数量模型，支持多种主流深度学习框架（如 Transformers、vLLM、SGLang 等）。该模型在多领域任务中表现稳健，不仅具备强大的语言建模和逻辑处理能力，还拥有极高的模型兼容性与工程部署灵活性，广泛适用于构建复杂的企业级智能应用及深度定制化系统。",
       "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
       "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "cardSummary": "",
       "author": "Qwen",
-      "downloads": 7703400,
-      "likes": 15139,
+      "downloads": 7702543,
+      "likes": 15264,
       "pipelineTag": "image-text-to-text",
       "lastModified": "2026-08-14T15:00:01.000Z",
       "numParameters": 27781427952,
@@ -164,7 +164,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": true,
           "isModelAuthor": false,
-          "tokensPerSecond": 770.7677047163168,
+          "tokensPerSecond": 670.3845435615739,
           "pricingOutput": 1.49
         },
         {
@@ -180,7 +180,7 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 40.1307781192228,
+          "tokensPerSecond": 35.92420559285648,
           "pricingOutput": 3
         },
         {
@@ -196,7 +196,7 @@
           "isCheapestPricingOutput": true,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 56.67782070793203,
+          "tokensPerSecond": 57.05446130179126,
           "pricingOutput": 0
         },
         {
@@ -222,8 +222,8 @@
           "isCheapestPricingOutput": false,
           "isFastestThroughput": false,
           "isModelAuthor": false,
-          "tokensPerSecond": 43.36337583748957,
-          "pricingOutput": 2.9999999999999996
+          "tokensPerSecond": 66.58264380894374,
+          "pricingOutput": 2.5
         }
       ]
     }

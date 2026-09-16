@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-16",
+  "title": "🔥Deepseek重磅发布是推出的高性能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/01-deepseek-ai-deepseek-v4-1-flash.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/02-edge0-edge0-35b-a3b-preview.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/03-openbmb-minicpm5-2b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/04-nex-agi-nex-n2-5-mini.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/05-qwen-qwen3-8-27b.png"
+  ],
+  "songs": [
+    {
+      "name": "DeepSeek-V4.1-Flash",
+      "artist": "deepseek-ai"
+    },
+    {
+      "name": "Edge0-35B-A3B-preview",
+      "artist": "Edge0"
+    },
+    {
+      "name": "MiniCPM5-2B",
+      "artist": "openbmb"
+    },
+    {
+      "name": "Nex-N2.5-mini",
+      "artist": "nex-agi"
+    },
+    {
+      "name": "Qwen3.8-27B",
+      "artist": "Qwen"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-09-16 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/01-deepseek-ai-deepseek-v4-1-flash.png\" alt=\"deepseek-ai/DeepSeek-V4.1-Flash\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepseek-ai/DeepSeek-V4.1-Flash</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">DeepSeek-V4.1-Flash 是 DeepSeek 推出的高性能大语言模型，其核心技术优势在于深度优化了 KV Cache 压缩算法。该模型旨在显著降低长文本处理时的显存占用，提升推理效率与吞吐量，特别适用于需要处理大规模上下文信息的复杂场景，能够为开发者提供更高性价比的推理方案。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/02-edge0-edge0-35b-a3b-preview.png\" alt=\"Edge0/Edge0-35B-A3B-preview\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Edge0/Edge0-35B-A3B-preview</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Edge0-35B-A3B-preview 是一款参数量为 35B 的混合专家架构（MoE）模型。该模型配合 Edge0 流式推理框架，实现了在 3GB 以下活动内存中运行，极大地优化了轻量级设备上的部署压力。它在保持高性能的同时具备极高的推理效率，非常适合边缘计算和端侧设备部署。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/03-openbmb-minicpm5-2b.png\" alt=\"openbmb/MiniCPM5-2B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">openbmb/MiniCPM5-2B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniCPM5-2B 是 OpenBMB 团队推出的轻量化大语言模型，属于 MiniCPM 系列的最新成员。该模型定位为端侧高性能智能助手，在仅 20 亿参数规模下实现了卓越的逻辑推理和语义理解能力。由于其体积小、资源占用低，非常适合集成在移动设备或嵌入式系统中，提供实时的离线 AI 服务。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/04-nex-agi-nex-n2-5-mini.png\" alt=\"nex-agi/Nex-N2.5-mini\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">nex-agi/Nex-N2.5-mini</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Nex-N2.5-mini 是由 Nex-AGI 开发的小型化大语言模型，旨在提供兼顾速度与精度的智能交互能力。该模型定位为高效能推理工具，针对各类日常自然语言任务进行了专门优化。凭借其紧凑的架构设计，该模型不仅易于部署在受限算力环境下，还能在各类应用场景中实现快速响应，适合轻量级任务开发。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/05-qwen-qwen3-8-27b.png\" alt=\"Qwen/Qwen3.8-27B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Qwen/Qwen3.8-27B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.8-27B 是通义千问系列的大参数量模型，支持多种主流深度学习框架（如 Transformers、vLLM、SGLang 等）。该模型在多领域任务中表现稳健，不仅具备强大的语言建模和逻辑处理能力，还拥有极高的模型兼容性与工程部署灵活性，广泛适用于构建复杂的企业级智能应用及深度定制化系统。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-09-16T00:01:22.526388"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+    "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+    "https://huggingface.co/openbmb/MiniCPM5-2B",
+    "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+    "https://huggingface.co/Qwen/Qwen3.8-27B"
+  ],
+  "new_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+    "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+    "https://huggingface.co/openbmb/MiniCPM5-2B",
+    "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+    "https://huggingface.co/Qwen/Qwen3.8-27B"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-09-16-01",
+      "rank": 1,
+      "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "description": "DeepSeek-V4.1-Flash 是 DeepSeek 推出的高性能大语言模型，其核心技术优势在于深度优化了 KV Cache 压缩算法。该模型旨在显著降低长文本处理时的显存占用，提升推理效率与吞吐量，特别适用于需要处理大规模上下文信息的复杂场景，能够为开发者提供更高性价比的推理方案。",
+      "source_description": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-09-16/01-deepseek-ai-deepseek-v4-1-flash.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/01-deepseek-ai-deepseek-v4-1-flash.png"
+    },
+    {
+      "id": "hf-2026-09-16-02",
+      "rank": 2,
+      "name": "Edge0/Edge0-35B-A3B-preview",
+      "description": "Edge0-35B-A3B-preview 是一款参数量为 35B 的混合专家架构（MoE）模型。该模型配合 Edge0 流式推理框架，实现了在 3GB 以下活动内存中运行，极大地优化了轻量级设备上的部署压力。它在保持高性能的同时具备极高的推理效率，非常适合边缘计算和端侧设备部署。",
+      "source_description": "Edge0-35b-a3b — a 35B MoE LLM that runs at viable speed in under 3 GiB of active memory , via the edge0 streaming inference framework.",
+      "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-09-16/02-edge0-edge0-35b-a3b-preview.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/02-edge0-edge0-35b-a3b-preview.png"
+    },
+    {
+      "id": "hf-2026-09-16-03",
+      "rank": 3,
+      "name": "openbmb/MiniCPM5-2B",
+      "description": "MiniCPM5-2B 是 OpenBMB 团队推出的轻量化大语言模型，属于 MiniCPM 系列的最新成员。该模型定位为端侧高性能智能助手，在仅 20 亿参数规模下实现了卓越的逻辑推理和语义理解能力。由于其体积小、资源占用低，非常适合集成在移动设备或嵌入式系统中，提供实时的离线 AI 服务。",
+      "source_description": "<div align=\"center\"> <img src=\"https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/assets/minicpm logo.png\" width=\"500em\" /> </div>",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-09-16/03-openbmb-minicpm5-2b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/03-openbmb-minicpm5-2b.png"
+    },
+    {
+      "id": "hf-2026-09-16-04",
+      "rank": 4,
+      "name": "nex-agi/Nex-N2.5-mini",
+      "description": "Nex-N2.5-mini 是由 Nex-AGI 开发的小型化大语言模型，旨在提供兼顾速度与精度的智能交互能力。该模型定位为高效能推理工具，针对各类日常自然语言任务进行了专门优化。凭借其紧凑的架构设计，该模型不仅易于部署在受限算力环境下，还能在各类应用场景中实现快速响应，适合轻量级任务开发。",
+      "source_description": "<div align=\"center\"> <img src=\"./figures/NEX logo.svg\" width=\"20%\"/> </div>",
+      "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-09-16/04-nex-agi-nex-n2-5-mini.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/04-nex-agi-nex-n2-5-mini.png"
+    },
+    {
+      "id": "hf-2026-09-16-05",
+      "rank": 5,
+      "name": "Qwen/Qwen3.8-27B",
+      "description": "Qwen3.8-27B 是通义千问系列的大参数量模型，支持多种主流深度学习框架（如 Transformers、vLLM、SGLang 等）。该模型在多领域任务中表现稳健，不仅具备强大的语言建模和逻辑处理能力，还拥有极高的模型兼容性与工程部署灵活性，广泛适用于构建复杂的企业级智能应用及深度定制化系统。",
+      "source_description": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-09-16/05-qwen-qwen3-8-27b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-16/05-qwen-qwen3-8-27b.png"
+    }
+  ]
+}
