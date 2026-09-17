@@ -1,0 +1,231 @@
+{
+  "recordDate": "2026-09-17",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-09-17",
+      "modelCard": "assets/huggingface_model_cards/2026-09-17/01-deepseek-ai-deepseek-v4-1-flash.png",
+      "modelName": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "modelDescription": "DeepSeek-V4.1-Flash 是 DeepSeek 推出的高性能大语言模型，主要优化点在于对 KV Cache 压缩技术的极致探索。该模型通过创新的缓存管理机制，旨在显著降低长文本生成场景下的内存占用，提升推理吞吐量与响应速度，非常适合资源受限或对大规模长上下文处理有严格性能要求的各类生成式 AI 应用场景。",
+      "sourceDescription": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 366459,
+      "likes": 2855,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-09-10T08:18:10.000Z",
+      "numParameters": 763205315794,
+      "availableInferenceProviders": [
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4.1-flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 89.24433010069721,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/deepseek-v4p1-flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 59.8481315285531
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 12.294378278677467,
+          "pricingOutput": 0.6
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 166.7852041527006,
+          "pricingOutput": 1.2
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-09-17",
+      "modelCard": "assets/huggingface_model_cards/2026-09-17/02-edge0-edge0-35b-a3b-preview.png",
+      "modelName": "Edge0/Edge0-35B-A3B-preview",
+      "modelDescription": "Edge0-35B-A3B-preview 是一款参数量为 35B 的混合专家模型（MoE），结合了 Edge0 流式推理框架。其核心优势在于极高的显存效率，仅需不到 3GB 的活动内存即可实现可用速度的推理。该模型专为边缘计算场景设计，能够在资源极其受限的硬件环境中运行大模型，适用于本地化推理与轻量化应用。",
+      "sourceDescription": "Edge0-35b-a3b — a 35B MoE LLM that runs at viable speed in under 3 GiB of active memory , via the edge0 streaming inference framework.",
+      "modelUrl": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+      "cardSummary": "",
+      "author": "Edge0",
+      "downloads": 27759,
+      "likes": 3048,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-09-14T04:08:09.000Z",
+      "numParameters": 34660610688,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-09-17",
+      "modelCard": "assets/huggingface_model_cards/2026-09-17/03-m-a-p-yue2-3b.png",
+      "modelName": "m-a-p/YuE2-3B",
+      "modelDescription": "YuE2-3B 是 m-a-p 推出的前沿音乐生成模型，参数规模为 30 亿。该模型不仅具备出色的音乐创作能力，还支持对生成的音乐乐谱进行可编辑处理。它能够根据用户需求精准生成音频内容，并允许用户在生成后对细节进行调整，适用于音乐创作辅助、背景音乐定制以及交互式数字音频生成等领域。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/logo.png\" alt=\"YuE logo\" width=\"144\" /> </p> <h1 align=\"center\">🤗 YuE2-3B</h1> <p align=\"center\"><strong>Frontier music generation with editable scores</strong></p>",
+      "modelUrl": "https://huggingface.co/m-a-p/YuE2-3B",
+      "cardSummary": "",
+      "author": "m-a-p",
+      "downloads": 9391,
+      "likes": 636,
+      "pipelineTag": "text-to-audio",
+      "lastModified": "2026-09-16T08:38:56.000Z",
+      "numParameters": 3630684224,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-09-17",
+      "modelCard": "assets/huggingface_model_cards/2026-09-17/04-qwen-qwen3-8-27b.png",
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelDescription": "Qwen3.8-27B 是 Qwen 系列的 270 亿参数后训练模型。该版本提供了完整的模型权重与配置文件，深度适配 Hugging Face Transformers、vLLM、SGLang 及 TokenSpeed 等主流深度学习生态与推理框架。其定位为通用高性能底座模型，旨在为各类 NLP 任务提供强大的逻辑推理与多任务处理能力。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 7667556,
+      "likes": 15398,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-08-14T15:00:01.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": [
+        {
+          "provider": "ovhcloud",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 66.38071189345197,
+          "pricingOutput": 0
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "qwen/qwen3.8-27b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 40.41074543196667,
+          "pricingOutput": 3
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 41.55092588736932,
+          "pricingOutput": 2.5
+        },
+        {
+          "provider": "cerebras",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "qwen-3.8-27b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 725.6087442850408,
+          "pricingOutput": 1.49
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-09-17",
+      "modelCard": "assets/huggingface_model_cards/2026-09-17/05-openbmb-minicpm5-2b.png",
+      "modelName": "openbmb/MiniCPM5-2B",
+      "modelDescription": "MiniCPM5-2B 是 OpenBMB 推出的轻量级高性能模型，拥有 20 亿参数。作为 MiniCPM 系列的最新成员，该模型延续了极小参数下卓越的性能表现，致力于在移动端与端侧设备上提供高质量的文本理解与生成能力。其凭借极高的能效比，特别适合部署在手机、嵌入式设备等内存和算力极其有限的终端环境中。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/assets/minicpm logo.png\" width=\"500em\" /> </div>",
+      "modelUrl": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "cardSummary": "",
+      "author": "openbmb",
+      "downloads": 324322,
+      "likes": 1504,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-09-12T07:20:14.000Z",
+      "numParameters": 2516756480,
+      "availableInferenceProviders": []
+    }
+  ]
+}
