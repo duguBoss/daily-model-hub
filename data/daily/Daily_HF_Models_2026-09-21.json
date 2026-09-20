@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-21",
+  "title": "🔥Ternary2重磅发布是一款基于格能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/01-prism-ml-ternary-bonsai-2-27b-gguf.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/02-convaiinnovations-laya.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/03-deepseek-ai-deepseek-v4-1-flash.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/04-xingchen-agi-xing4-0-29b-a4b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/05-qwen-qwen-image-2-1.png"
+  ],
+  "songs": [
+    {
+      "name": "Ternary-Bonsai-2-27B-gguf",
+      "artist": "prism-ml"
+    },
+    {
+      "name": "laya",
+      "artist": "convaiinnovations"
+    },
+    {
+      "name": "DeepSeek-V4.1-Flash",
+      "artist": "deepseek-ai"
+    },
+    {
+      "name": "Xing4.0-29B-A4B",
+      "artist": "XingChen-AGI"
+    },
+    {
+      "name": "Qwen-Image-2.1",
+      "artist": "Qwen"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-09-21 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/01-prism-ml-ternary-bonsai-2-27b-gguf.png\" alt=\"prism-ml/Ternary-Bonsai-2-27B-gguf\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">prism-ml/Ternary-Bonsai-2-27B-gguf</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Ternary-Bonsai-2-27B-gguf 是一款基于 GGUF 格式的三进制模型。该模型通过特殊的压缩技术，旨在平衡模型性能与推理资源消耗。由于其采用了三进制架构，它在兼容性与部署效率上具有独特优势，适合在资源受限的环境中运行高性能语言模型任务，是开发者进行本地化部署与轻量化测试的重要选择。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/02-convaiinnovations-laya.png\" alt=\"convaiinnovations/laya\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">convaiinnovations/laya</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Laya 是一款多语言非自回归 System 1 决策模型。它通过单次前向传播即可在 33 毫秒内提供带有概率校准的回答，支持 100 多种语言。该模型不生成文本，仅输出结构化答案，利用强化学习确保概率报告的真实性。其定位为高实时性的决策辅助系统，适用于需要高精准度、低延迟且严禁幻觉的自动化业务场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/03-deepseek-ai-deepseek-v4-1-flash.png\" alt=\"deepseek-ai/DeepSeek-V4.1-Flash\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepseek-ai/DeepSeek-V4.1-Flash</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">DeepSeek-V4.1-Flash 是 DeepSeek 系列的高性能模型，核心亮点在于突破了 KV Cache 压缩的技术限制。该模型旨在通过优化推理过程中的内存占用与显存效率，大幅提升长上下文处理能力与实时推理吞吐量。它适用于对计算资源敏感且需要处理大规模上下文信息的复杂应用场景，能有效降低部署成本并提升用户响应速度。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/04-xingchen-agi-xing4-0-29b-a4b.png\" alt=\"XingChen-AGI/Xing4.0-29B-A4B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">XingChen-AGI/Xing4.0-29B-A4B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Xing4.0-29B-A4B 是一款高性能大语言模型，提供了标准化的模型权重与配置文件。该模型与主流推理框架如 Transformers、vLLM、SGLang 及 KTransformers 完全兼容，极大地简化了部署流程。其定位为通用型高质量语言处理底座，旨在为开发者提供高效、灵活的推理方案，广泛适用于多种自然语言处理与逻辑推理任务。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/05-qwen-qwen-image-2-1.png\" alt=\"Qwen/Qwen-Image-2.1\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Qwen/Qwen-Image-2.1</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen-Image-2.1 是通义千问系列推出的最新图像处理模型。作为多模态大模型的延伸，它在图像理解与生成方面具备更强的视觉感知能力与指令遵循能力。该模型旨在为开发者和研究人员提供卓越的视觉处理性能，适用于图像描述、视觉问答、辅助创作等多种多模态交互场景，并在开源社区提供完整的工具链支持。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-09-20T23:55:47.226747"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "https://huggingface.co/convaiinnovations/laya",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+    "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+    "https://huggingface.co/Qwen/Qwen-Image-2.1"
+  ],
+  "new_urls": [
+    "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "https://huggingface.co/convaiinnovations/laya",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+    "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+    "https://huggingface.co/Qwen/Qwen-Image-2.1"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-09-21-01",
+      "rank": 1,
+      "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "description": "Ternary-Bonsai-2-27B-gguf 是一款基于 GGUF 格式的三进制模型。该模型通过特殊的压缩技术，旨在平衡模型性能与推理资源消耗。由于其采用了三进制架构，它在兼容性与部署效率上具有独特优势，适合在资源受限的环境中运行高性能语言模型任务，是开发者进行本地化部署与轻量化测试的重要选择。",
+      "source_description": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-09-21/01-prism-ml-ternary-bonsai-2-27b-gguf.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/01-prism-ml-ternary-bonsai-2-27b-gguf.png"
+    },
+    {
+      "id": "hf-2026-09-21-02",
+      "rank": 2,
+      "name": "convaiinnovations/laya",
+      "description": "Laya 是一款多语言非自回归 System 1 决策模型。它通过单次前向传播即可在 33 毫秒内提供带有概率校准的回答，支持 100 多种语言。该模型不生成文本，仅输出结构化答案，利用强化学习确保概率报告的真实性。其定位为高实时性的决策辅助系统，适用于需要高精准度、低延迟且严禁幻觉的自动化业务场景。",
+      "source_description": "Multilingual, non-autoregressive System 1 decision model. Give it a state (text, email, ticket, or JSON) and typed questions ; it returns typed answers with mathematically calibrated probabilities in a single forward pass ( 33 ms) across 100+ languages. Trained with reinforcement learning against strictly proper scoring rules ( RLCD ), so reporting honest probabilities is the only way to maximise reward. It never generates text, so there is nothing to parse and nothing to hallucinate.",
+      "url": "https://huggingface.co/convaiinnovations/laya",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-09-21/02-convaiinnovations-laya.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/02-convaiinnovations-laya.png"
+    },
+    {
+      "id": "hf-2026-09-21-03",
+      "rank": 3,
+      "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "description": "DeepSeek-V4.1-Flash 是 DeepSeek 系列的高性能模型，核心亮点在于突破了 KV Cache 压缩的技术限制。该模型旨在通过优化推理过程中的内存占用与显存效率，大幅提升长上下文处理能力与实时推理吞吐量。它适用于对计算资源敏感且需要处理大规模上下文信息的复杂应用场景，能有效降低部署成本并提升用户响应速度。",
+      "source_description": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-09-21/03-deepseek-ai-deepseek-v4-1-flash.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/03-deepseek-ai-deepseek-v4-1-flash.png"
+    },
+    {
+      "id": "hf-2026-09-21-04",
+      "rank": 4,
+      "name": "XingChen-AGI/Xing4.0-29B-A4B",
+      "description": "Xing4.0-29B-A4B 是一款高性能大语言模型，提供了标准化的模型权重与配置文件。该模型与主流推理框架如 Transformers、vLLM、SGLang 及 KTransformers 完全兼容，极大地简化了部署流程。其定位为通用型高质量语言处理底座，旨在为开发者提供高效、灵活的推理方案，广泛适用于多种自然语言处理与逻辑推理任务。",
+      "source_description": "[!Note] This repository provides the model weights and configuration files for Xing4.0-29B-A4B in Hugging Face Transformers format, compatible with Transformers, vLLM, SGLang, KTransformers, and other mainstream inference frameworks.",
+      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-09-21/04-xingchen-agi-xing4-0-29b-a4b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/04-xingchen-agi-xing4-0-29b-a4b.png"
+    },
+    {
+      "id": "hf-2026-09-21-05",
+      "rank": 5,
+      "name": "Qwen/Qwen-Image-2.1",
+      "description": "Qwen-Image-2.1 是通义千问系列推出的最新图像处理模型。作为多模态大模型的延伸，它在图像理解与生成方面具备更强的视觉感知能力与指令遵循能力。该模型旨在为开发者和研究人员提供卓越的视觉处理性能，适用于图像描述、视觉问答、辅助创作等多种多模态交互场景，并在开源社区提供完整的工具链支持。",
+      "source_description": "<p align=\"center\"> <img src=\"https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/image2.1/logo.png\" width=\"400\"/> </p> <p align=\"center\"> 🤖 <a href=\"https://modelscope.cn/models/Qwen/Qwen-Image-2.1\">ModelScope</a>&nbsp;&nbsp;| &nbsp;&nbsp;🤗 <a href=\"https://huggingface.co/Qwen/Qwen-Image-2.1\">HuggingFace</a>&nbsp;&nbsp;| &nbsp;&nbsp;📑 <a href=\"https://qwen.ai/blog?id=qwen-image-2.1\">Blog</a>&nbsp;&nbsp;| &nbsp;&nbsp;🖥️ <a href=\"https://huggingface.co/spaces/Qwen/Qwen-Image-2.1\">Demo</a>&nbsp;&nbsp;| &nbsp;&nbsp;🫨 <a href=\"https://discord.gg/CV4E9rpNSD\">Discord</a> </p>",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-09-21/05-qwen-qwen-image-2-1.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-09-21/05-qwen-qwen-image-2-1.png"
+    }
+  ]
+}

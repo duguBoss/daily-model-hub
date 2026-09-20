@@ -1,0 +1,166 @@
+{
+  "recordDate": "2026-09-21",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-09-21",
+      "modelCard": "assets/huggingface_model_cards/2026-09-21/01-prism-ml-ternary-bonsai-2-27b-gguf.png",
+      "modelName": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "modelDescription": "Ternary-Bonsai-2-27B-gguf 是一款基于 GGUF 格式的三进制模型。该模型通过特殊的压缩技术，旨在平衡模型性能与推理资源消耗。由于其采用了三进制架构，它在兼容性与部署效率上具有独特优势，适合在资源受限的环境中运行高性能语言模型任务，是开发者进行本地化部署与轻量化测试的重要选择。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\"> </p>",
+      "modelUrl": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "cardSummary": "",
+      "author": "prism-ml",
+      "downloads": 1908396,
+      "likes": 1491,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-09-17T18:44:01.000Z",
+      "numParameters": 26895998464,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-09-21",
+      "modelCard": "assets/huggingface_model_cards/2026-09-21/02-convaiinnovations-laya.png",
+      "modelName": "convaiinnovations/laya",
+      "modelDescription": "Laya 是一款多语言非自回归 System 1 决策模型。它通过单次前向传播即可在 33 毫秒内提供带有概率校准的回答，支持 100 多种语言。该模型不生成文本，仅输出结构化答案，利用强化学习确保概率报告的真实性。其定位为高实时性的决策辅助系统，适用于需要高精准度、低延迟且严禁幻觉的自动化业务场景。",
+      "sourceDescription": "Multilingual, non-autoregressive System 1 decision model. Give it a state (text, email, ticket, or JSON) and typed questions ; it returns typed answers with mathematically calibrated probabilities in a single forward pass ( 33 ms) across 100+ languages. Trained with reinforcement learning against strictly proper scoring rules ( RLCD ), so reporting honest probabilities is the only way to maximise reward. It never generates text, so there is nothing to parse and nothing to hallucinate.",
+      "modelUrl": "https://huggingface.co/convaiinnovations/laya",
+      "cardSummary": "",
+      "author": "convaiinnovations",
+      "downloads": 0,
+      "likes": 1079,
+      "pipelineTag": "text-classification",
+      "lastModified": "2026-09-20T01:43:36.000Z",
+      "numParameters": 421293830,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-09-21",
+      "modelCard": "assets/huggingface_model_cards/2026-09-21/03-deepseek-ai-deepseek-v4-1-flash.png",
+      "modelName": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "modelDescription": "DeepSeek-V4.1-Flash 是 DeepSeek 系列的高性能模型，核心亮点在于突破了 KV Cache 压缩的技术限制。该模型旨在通过优化推理过程中的内存占用与显存效率，大幅提升长上下文处理能力与实时推理吞吐量。它适用于对计算资源敏感且需要处理大规模上下文信息的复杂应用场景，能有效降低部署成本并提升用户响应速度。",
+      "sourceDescription": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 496684,
+      "likes": 3426,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-09-10T08:18:10.000Z",
+      "numParameters": 763205315794,
+      "availableInferenceProviders": [
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4.1-flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 116.98219827639764,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "fireworks-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "accounts/fireworks/models/deepseek-v4p1-flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 58.38195626984928
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 29.907483694045407,
+          "pricingOutput": 0.6
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 172.9295325806106,
+          "pricingOutput": 1.2
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-09-21",
+      "modelCard": "assets/huggingface_model_cards/2026-09-21/04-xingchen-agi-xing4-0-29b-a4b.png",
+      "modelName": "XingChen-AGI/Xing4.0-29B-A4B",
+      "modelDescription": "Xing4.0-29B-A4B 是一款高性能大语言模型，提供了标准化的模型权重与配置文件。该模型与主流推理框架如 Transformers、vLLM、SGLang 及 KTransformers 完全兼容，极大地简化了部署流程。其定位为通用型高质量语言处理底座，旨在为开发者提供高效、灵活的推理方案，广泛适用于多种自然语言处理与逻辑推理任务。",
+      "sourceDescription": "[!Note] This repository provides the model weights and configuration files for Xing4.0-29B-A4B in Hugging Face Transformers format, compatible with Transformers, vLLM, SGLang, KTransformers, and other mainstream inference frameworks.",
+      "modelUrl": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+      "cardSummary": "",
+      "author": "XingChen-AGI",
+      "downloads": 12617,
+      "likes": 879,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-09-18T09:49:55.000Z",
+      "numParameters": 31215031088,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-09-21",
+      "modelCard": "assets/huggingface_model_cards/2026-09-21/05-qwen-qwen-image-2-1.png",
+      "modelName": "Qwen/Qwen-Image-2.1",
+      "modelDescription": "Qwen-Image-2.1 是通义千问系列推出的最新图像处理模型。作为多模态大模型的延伸，它在图像理解与生成方面具备更强的视觉感知能力与指令遵循能力。该模型旨在为开发者和研究人员提供卓越的视觉处理性能，适用于图像描述、视觉问答、辅助创作等多种多模态交互场景，并在开源社区提供完整的工具链支持。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/image2.1/logo.png\" width=\"400\"/> </p> <p align=\"center\"> 🤖 <a href=\"https://modelscope.cn/models/Qwen/Qwen-Image-2.1\">ModelScope</a>&nbsp;&nbsp;| &nbsp;&nbsp;🤗 <a href=\"https://huggingface.co/Qwen/Qwen-Image-2.1\">HuggingFace</a>&nbsp;&nbsp;| &nbsp;&nbsp;📑 <a href=\"https://qwen.ai/blog?id=qwen-image-2.1\">Blog</a>&nbsp;&nbsp;| &nbsp;&nbsp;🖥️ <a href=\"https://huggingface.co/spaces/Qwen/Qwen-Image-2.1\">Demo</a>&nbsp;&nbsp;| &nbsp;&nbsp;🫨 <a href=\"https://discord.gg/CV4E9rpNSD\">Discord</a> </p>",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 183,
+      "likes": 720,
+      "pipelineTag": "text-to-image",
+      "lastModified": "2026-09-20T09:41:05.000Z",
+      "numParameters": 7115124736,
+      "availableInferenceProviders": []
+    }
+  ]
+}
