@@ -1,0 +1,70 @@
+{
+  "weekRange": {
+    "start": "2026-10-06",
+    "end": "2026-10-12"
+  },
+  "weekTitle": "Hugging Face 每周模型精选：视觉生成与高效嵌入模型领衔",
+  "summary": "本周 Hugging Face 社区热度集中在高性能视觉模型与轻量级语义处理工具上。通义千问系列视觉模型表现强劲，同时谷歌推出的 EmbeddingGemma-2 和 Cloudflare 的自动化决策模型，为开发者提供了更丰富的企业级应用选择。",
+  "items": [
+    {
+      "modelName": "google/embeddinggemma-2",
+      "modelUrl": "https://huggingface.co/google/embeddinggemma-2",
+      "modelCard": "assets/huggingface_model_cards/2026-10-12/01-google-embeddinggemma-2.png",
+      "modelDescription": "EmbeddingGemma-2 是谷歌推出的轻量级文本嵌入模型。该模型基于 Gemma 架构开发，专为高效处理向量化任务而优化，能够将文本转换为高质量的语义向量表示，适用于检索增强生成（RAG）、文档语义搜索及相似度计算等下游任务，旨在为开发者提供高性能且易于部署的向量处理能力。",
+      "pickReason": "谷歌最新推出的轻量级文本嵌入模型。基于强大的 Gemma 架构，它专为高效处理向量化任务而设计。对于构建 RAG 系统、文档检索及相似度计算的开发者而言，这是一个高性能且极易部署的新选择，能够显著提升语义搜索的质量。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-10-12"
+      ]
+    },
+    {
+      "modelName": "Qwen/Qwen-Image-2.1-Turbo",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+      "modelCard": "assets/huggingface_model_cards/2026-10-12/05-qwen-qwen-image-2-1-turbo.png",
+      "modelDescription": "Qwen-Image-2.1-Turbo 是阿里通义千问推出的高性能图像生成模型。该模型通过优化的架构设计，提升了图像生成的速度与质量，能够应对多种视觉创作需求。作为 Qwen 系列在图像领域的重要升级，它不仅提供了强大的视觉理解与生成基准，还通过完善的生态支持方便开发者进行集成与应用开发。",
+      "pickReason": "阿里通义千问 2.1 版本的视觉模型。该模型在保持高水准图像生成能力的同时，大幅优化了推理速度，是当前视觉创作与多模态应用的热门基准，非常适合需要快速响应和高质量图像产出的集成开发场景。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-10-12"
+      ]
+    },
+    {
+      "modelName": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "modelUrl": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "modelCard": "assets/huggingface_model_cards/2026-10-12/04-abenzerps-qwen-image-2-1-uncensored-gguf.png",
+      "modelDescription": "Qwen-Image-2.1-Uncensored-GGUF 是通义千问图像模型 2.1 版本的 GGUF 量化版本。该版本移除了特定限制，并针对本地推理进行了优化，支持在消费级硬件上流畅运行图像生成任务。用户可以通过该模型在个人设备上体验通义千问的视觉生成能力，适用于对隐私或本地化部署有特定需求的开发者使用。",
+      "pickReason": "基于 Qwen-Image-2.1 的去限制版 GGUF 量化模型。它允许开发者在普通消费级显卡上运行高性能图像生成任务。对于注重隐私、追求本地化部署或需要不受限制生成能力的开发者来说，该模型具备极高的实操价值。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-10-12"
+      ]
+    },
+    {
+      "modelName": "Cloudflare/clef",
+      "modelUrl": "https://huggingface.co/Cloudflare/clef",
+      "modelCard": "assets/huggingface_model_cards/2026-10-12/03-cloudflare-clef.png",
+      "modelDescription": "Clef 是由 Cloudflare 开发的一系列决策模型。该项目致力于通过模型评估来提升自动化决策的准确性，并提供了配套的决策评估榜单。Clef 模型主要用于支持企业级的决策逻辑自动化，帮助开发者在云端应用中实现更智能、更具逻辑性的流程控制，是构建高性能自动化工作流的重要组件。",
+      "pickReason": "Cloudflare 开源的一系列决策模型，旨在通过科学的评估体系提升自动化决策的准确性。它为云端应用提供了更具逻辑性的流程控制工具，对于需要构建复杂、高性能自动化工作流的开发者来说极具参考意义。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-10-12"
+      ]
+    },
+    {
+      "modelName": "jialinyyzz/humanizer",
+      "modelUrl": "https://huggingface.co/jialinyyzz/humanizer",
+      "modelCard": "assets/huggingface_model_cards/2026-10-12/02-jialinyyzz-humanizer.png",
+      "modelDescription": "Humanizer 是一款专门用于文本润色的模型。其核心功能是对 AI 生成的原始草稿进行改写与修饰，旨在提升文本的自然度与流畅性，使其读起来更像人类撰写的作品。该模型适合用于内容创作、营销文案处理以及需要降低机器生成痕迹的各种文本处理场景，是优化 AI 输出质量的有效工具。",
+      "pickReason": "一款极具实用价值的文本润色工具，专注于消除 AI 生成文本的机器痕迹。它通过改写与修饰让输出内容更符合人类表达习惯，非常适合营销文案处理、内容创作者以及任何追求文本自然度的 AI 应用场景。",
+      "appearances": 1,
+      "bestRank": 2,
+      "dates": [
+        "2026-10-12"
+      ]
+    }
+  ]
+}
