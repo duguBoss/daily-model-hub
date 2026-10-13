@@ -1,0 +1,103 @@
+{
+  "recordDate": "2026-10-13",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-10-13",
+      "modelCard": "assets/huggingface_model_cards/2026-10-13/01-google-embeddinggemma-2.png",
+      "modelName": "google/embeddinggemma-2",
+      "modelDescription": "EmbeddingGemma-2 是谷歌推出的轻量级文本嵌入模型。它基于 Gemma-2 架构开发，专注于将文本转换为高质量的向量表示。该模型旨在通过高效的语义理解能力，为检索增强生成（RAG）、文档分类、语义搜索及相似度计算等自然语言处理下游任务提供强有力的底层支持。",
+      "sourceDescription": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/embeddinggemma2 banner.png> </div>",
+      "modelUrl": "https://huggingface.co/google/embeddinggemma-2",
+      "cardSummary": "",
+      "author": "google",
+      "downloads": 115763,
+      "likes": 1948,
+      "pipelineTag": "feature-extraction",
+      "lastModified": "2026-10-06T15:29:23.000Z",
+      "numParameters": 744371512,
+      "availableInferenceProviders": [
+        {
+          "provider": "hf-inference",
+          "modelStatus": "error",
+          "providerStatus": "live",
+          "providerId": "google/embeddinggemma-2",
+          "task": "feature-extraction",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-10-13",
+      "modelCard": "assets/huggingface_model_cards/2026-10-13/02-jialinyyzz-humanizer.png",
+      "modelName": "jialinyyzz/humanizer",
+      "modelDescription": "Humanizer 是一款专门用于文本优化的模型，其核心功能是将 AI 生成的初稿内容进行润色与重写。该模型能够调整语言风格，使其更贴近人类的自然表达方式，有效降低机器感。适用于需要提升文章自然度、提高可读性以及规避自动化检测痕迹的各类内容创作场景。",
+      "sourceDescription": "<img src=\"assets/banner-en.png\" alt=\"humanizer: rewrites AI drafts so they read like a person wrote them\" width=\"100%\">",
+      "modelUrl": "https://huggingface.co/jialinyyzz/humanizer",
+      "cardSummary": "",
+      "author": "jialinyyzz",
+      "downloads": 46070,
+      "likes": 1332,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-08T20:13:31.000Z",
+      "numParameters": 11959730224,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-10-13",
+      "modelCard": "assets/huggingface_model_cards/2026-10-13/03-qwen-qwen-image-2-1-turbo.png",
+      "modelName": "Qwen/Qwen-Image-2.1-Turbo",
+      "modelDescription": "Qwen-Image-2.1-Turbo 是通义千问团队推出的高性能视觉生成模型。它具备强大的图像处理与生成能力，能够根据文本描述快速生成高质量、多风格的视觉内容。该模型在处理复杂指令和图像细节方面表现优异，广泛应用于创意设计、多媒体内容生产及自动化视觉创作领域。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/image2.1/logo.png\" width=\"400\"/> </p> <p align=\"center\"> 🤖 <a href=\"https://modelscope.cn/models/Qwen/Qwen-Image-2.1-Turbo\">ModelScope</a>&nbsp;&nbsp;| &nbsp;&nbsp;🤗 <a href=\"https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo\">HuggingFace</a>&nbsp;&nbsp;| &nbsp;&nbsp;💻 <a href=\"https://github.com/QwenLM/Qwen-Image-2.1\">GitHub</a>&nbsp;&nbsp;| &nbsp;&nbsp;📑 <a href=\"https://qwen.ai/blog?id=qwen-image-2.1\">Qwen-Image-2.1 Blog</a>&nbsp;&nbsp;| &nbsp;&nbsp;🫨 <a href=\"https://discord.gg/BEYSk3pkSu\">Discord</a>&nbsp;&nbsp;| &nbsp;&nbsp;💬 <a href=\"https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/assets/qr.png\">WeChat</a> </p>",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 6787,
+      "likes": 642,
+      "pipelineTag": "text-to-image",
+      "lastModified": "2026-10-12T09:45:49.000Z",
+      "numParameters": 7115124736,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-10-13",
+      "modelCard": "assets/huggingface_model_cards/2026-10-13/04-abenzerps-qwen-image-2-1-uncensored-quantized.png",
+      "modelName": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+      "modelDescription": "Qwen-Image-2.1-Uncensored-Quantized 是基于原版 Qwen-Image-2.1 架构的去审查版本，并提供了 GGUF、Safetensors 和 MLX 等量化格式。这些版本旨在降低显存需求，便于用户在本地设备上部署和运行图像生成任务，同时移除了官方原版模型中的部分内容生成限制。",
+      "sourceDescription": "GGUF, Safetensors, and MLX quantized formats of Qwen/Qwen-Image-2.1 for local image generation using the original upstream base weights.",
+      "modelUrl": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+      "cardSummary": "",
+      "author": "abenzerps",
+      "downloads": 2188658,
+      "likes": 4103,
+      "pipelineTag": "text-to-image",
+      "lastModified": "2026-10-12T07:10:55.000Z",
+      "numParameters": 7115124736,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-10-13",
+      "modelCard": "assets/huggingface_model_cards/2026-10-13/05-cloudflare-clef.png",
+      "modelName": "Cloudflare/clef",
+      "modelDescription": "Clef 是由 Cloudflare 开发的决策模型，旨在为企业提供自动化的逻辑判断与策略支持。该模型专注于处理复杂的决策场景，并通过相关的评估标准和排行榜进行性能监测。其主要应用在于提升系统自动化决策的准确性和可靠性，帮助开发者更高效地解决业务中的逻辑判断问题。",
+      "sourceDescription": "- Announcement: Clef decision models on the Cloudflare blog - Decision Index leaderboard: clef-evals.workers-ai-mle.workers.dev",
+      "modelUrl": "https://huggingface.co/Cloudflare/clef",
+      "cardSummary": "",
+      "author": "Cloudflare",
+      "downloads": 15064,
+      "likes": 2097,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-10-09T18:46:56.000Z",
+      "numParameters": 27356728560,
+      "availableInferenceProviders": []
+    }
+  ]
+}
