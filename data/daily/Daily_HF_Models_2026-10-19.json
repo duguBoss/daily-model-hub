@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-19",
+  "title": "🔥Deepseek1017重磅发布是开发的一款能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/02-openbmb-minicpm-v-4-7-35b-a3b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/03-google-embeddinggemma-2.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/04-jialinyyzz-humanizer.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/05-fishaudio-drama-3.png"
+  ],
+  "songs": [
+    {
+      "name": "DeepSeek-V4.1-Flash-1017",
+      "artist": "deepseek-ai"
+    },
+    {
+      "name": "MiniCPM-V-4.7-35B-A3B",
+      "artist": "openbmb"
+    },
+    {
+      "name": "embeddinggemma-2",
+      "artist": "google"
+    },
+    {
+      "name": "humanizer",
+      "artist": "jialinyyzz"
+    },
+    {
+      "name": "drama-3",
+      "artist": "fishaudio"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-10-19 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/01-deepseek-ai-deepseek-v4-1-flash-1017.png\" alt=\"deepseek-ai/DeepSeek-V4.1-Flash-1017\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepseek-ai/DeepSeek-V4.1-Flash-1017</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">DeepSeek-V4.1-Flash-1017 是 DeepSeek 开发的一款高性能大语言模型。该模型旨在通过优化的推理架构，为用户提供快速且准确的文本生成与逻辑分析能力，适用于需要高吞吐量及实时响应的各类自然语言处理任务，如智能对话系统、自动化写作辅助以及复杂任务的快速处理。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/02-openbmb-minicpm-v-4-7-35b-a3b.png\" alt=\"openbmb/MiniCPM-V-4.7-35B-A3B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">openbmb/MiniCPM-V-4.7-35B-A3B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniCPM-V-4.7-35B-A3B 是 OpenBMB 推出的一款多模态大型模型。该模型采用先进的架构设计，专注于端侧设备的高效运行。它具备强大的视觉理解与跨模态交互能力，适合在手机、边缘计算设备等本地环境下处理复杂的图像分析、多模态指令遵循及各类交互式应用任务。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/03-google-embeddinggemma-2.png\" alt=\"google/embeddinggemma-2\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">google/embeddinggemma-2</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">EmbeddingGemma-2 是谷歌推出的基于 Gemma-2 架构的专用嵌入模型。该模型专注于将文本转化为高维向量表示，通过优化语义检索能力，为信息搜索、语义匹配及知识库问答等场景提供高效的向量化支持，是提升各类检索增强生成系统（RAG）性能的关键基础设施。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/04-jialinyyzz-humanizer.png\" alt=\"jialinyyzz/humanizer\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">jialinyyzz/humanizer</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Humanizer 是一款专门用于文本重写的工具型模型，其核心定位是将人工智能生成的原始文本转化为更具自然感、人情味的表达。该模型旨在消除机器生成内容中的僵硬感，提升文案的可读性与流畅度，适用于需要将 AI 草稿润色为符合人类写作习惯的营销文案或内容创作场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/05-fishaudio-drama-3.png\" alt=\"fishaudio/drama-3\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">fishaudio/drama-3</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Fish Audio Drama 3 是 Fish Audio 推出的新一代文本转语音模型。该模型支持多角色场景模拟与长文本生成，具备高效的语音克隆及自然语言指令控制功能。它能够精准把握语音的情感与语调，广泛适用于有声书制作、多角色广播剧录制以及对语音表现力要求极高的各类创意音频项目。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-10-18T23:57:49.454520"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+    "https://huggingface.co/google/embeddinggemma-2",
+    "https://huggingface.co/jialinyyzz/humanizer",
+    "https://huggingface.co/fishaudio/drama-3"
+  ],
+  "new_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+    "https://huggingface.co/google/embeddinggemma-2",
+    "https://huggingface.co/jialinyyzz/humanizer",
+    "https://huggingface.co/fishaudio/drama-3"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-10-19-01",
+      "rank": 1,
+      "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "description": "DeepSeek-V4.1-Flash-1017 是 DeepSeek 开发的一款高性能大语言模型。该模型旨在通过优化的推理架构，为用户提供快速且准确的文本生成与逻辑分析能力，适用于需要高吞吐量及实时响应的各类自然语言处理任务，如智能对话系统、自动化写作辅助以及复杂任务的快速处理。",
+      "source_description": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-19/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/01-deepseek-ai-deepseek-v4-1-flash-1017.png"
+    },
+    {
+      "id": "hf-2026-10-19-02",
+      "rank": 2,
+      "name": "openbmb/MiniCPM-V-4.7-35B-A3B",
+      "description": "MiniCPM-V-4.7-35B-A3B 是 OpenBMB 推出的一款多模态大型模型。该模型采用先进的架构设计，专注于端侧设备的高效运行。它具备强大的视觉理解与跨模态交互能力，适合在手机、边缘计算设备等本地环境下处理复杂的图像分析、多模态指令遵循及各类交互式应用任务。",
+      "source_description": "GitHub · On-device results · Evaluation · Examples · Usage · Model weights · DSpark",
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-19/02-openbmb-minicpm-v-4-7-35b-a3b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/02-openbmb-minicpm-v-4-7-35b-a3b.png"
+    },
+    {
+      "id": "hf-2026-10-19-03",
+      "rank": 3,
+      "name": "google/embeddinggemma-2",
+      "description": "EmbeddingGemma-2 是谷歌推出的基于 Gemma-2 架构的专用嵌入模型。该模型专注于将文本转化为高维向量表示，通过优化语义检索能力，为信息搜索、语义匹配及知识库问答等场景提供高效的向量化支持，是提升各类检索增强生成系统（RAG）性能的关键基础设施。",
+      "source_description": "<div align=\"center\"> <img src=https://ai.google.dev/gemma/images/embeddinggemma2 banner.png> </div>",
+      "url": "https://huggingface.co/google/embeddinggemma-2",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-19/03-google-embeddinggemma-2.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/03-google-embeddinggemma-2.png"
+    },
+    {
+      "id": "hf-2026-10-19-04",
+      "rank": 4,
+      "name": "jialinyyzz/humanizer",
+      "description": "Humanizer 是一款专门用于文本重写的工具型模型，其核心定位是将人工智能生成的原始文本转化为更具自然感、人情味的表达。该模型旨在消除机器生成内容中的僵硬感，提升文案的可读性与流畅度，适用于需要将 AI 草稿润色为符合人类写作习惯的营销文案或内容创作场景。",
+      "source_description": "<img src=\"assets/banner-en.png\" alt=\"humanizer: rewrites AI drafts so they read like a person wrote them\" width=\"100%\">",
+      "url": "https://huggingface.co/jialinyyzz/humanizer",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-19/04-jialinyyzz-humanizer.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/04-jialinyyzz-humanizer.png"
+    },
+    {
+      "id": "hf-2026-10-19-05",
+      "rank": 5,
+      "name": "fishaudio/drama-3",
+      "description": "Fish Audio Drama 3 是 Fish Audio 推出的新一代文本转语音模型。该模型支持多角色场景模拟与长文本生成，具备高效的语音克隆及自然语言指令控制功能。它能够精准把握语音的情感与语调，广泛适用于有声书制作、多角色广播剧录制以及对语音表现力要求极高的各类创意音频项目。",
+      "source_description": "Fish Audio Drama 3 is Fish Audio's new-generation text-to-speech model, built for multi-character scenes and long-form content. It supports multi-speaker generation, voice cloning and natural-language control.",
+      "url": "https://huggingface.co/fishaudio/drama-3",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-19/05-fishaudio-drama-3.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-19/05-fishaudio-drama-3.png"
+    }
+  ]
+}
