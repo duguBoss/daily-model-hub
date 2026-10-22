@@ -1,0 +1,158 @@
+{
+  "recordDate": "2026-10-22",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-10-22",
+      "modelCard": "assets/huggingface_model_cards/2026-10-22/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+      "modelName": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "modelDescription": "DeepSeek-V4.1-Flash-1017是由DeepSeek开发的深度学习模型。该模型主要面向追求高性能与计算效率的开发场景，通过优化架构以实现在特定任务中的快速推理。目前该模型主要作为技术验证或轻量级推理工具，适用于需要高响应速度的语言模型应用环境，具体的功能表现与技术特性取决于其内部的参数规模与预训练数据集。",
+      "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 42122,
+      "likes": 2163,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-10-17T05:46:55.000Z",
+      "numParameters": 763205315794,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 236.94450551068866,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4.1-flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 104.0328295522017,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 130.95861707700368,
+          "pricingOutput": 1.2
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-10-22",
+      "modelCard": "assets/huggingface_model_cards/2026-10-22/02-black-forest-labs-flux-3-image-klein-comfy.png",
+      "modelName": "black-forest-labs/flux-3-image-klein-comfy",
+      "modelDescription": "FLUX 3 Image Klein是一款包含56亿参数的开源图像生成与编辑模型。该模型采用Qwen3-VL-4B-Instruct作为文本编码器，支持文本生成图像、单参考图编辑以及多参考图合成任务。用户可通过输入提示词及最多10张参考图像进行高质量图像处理，适用于创意设计、图像内容编辑及视觉合成等多种应用场景。",
+      "sourceDescription": "FLUX 3 Image Klein is a 5.6B open weights model for text-to-image generation and image editing. It takes a prompt and up to 10 reference images and returns one image. Text-to-image, single-reference edits and multi-reference compositions run through the same model, with Qwen3-VL-4B-Instruct as the text encoder.",
+      "modelUrl": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "cardSummary": "",
+      "author": "black-forest-labs",
+      "downloads": 490447,
+      "likes": 1187,
+      "pipelineTag": "image-to-image",
+      "lastModified": "2026-10-17T07:10:12.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-10-22",
+      "modelCard": "assets/huggingface_model_cards/2026-10-22/03-meta-models-muse-spark-open-816b-a42b.png",
+      "modelName": "meta-models/Muse-Spark-Open-816B-A42B",
+      "modelDescription": "Muse-Spark-Open-816B-A42B由Meta超级智能实验室于2026年10月发布。作为一款超大规模开源模型，其拥有8160亿参数，采用Muse模型许可协议。该模型旨在代表Meta在通用人工智能领域的研究成果，具备深度的逻辑推理与多任务处理能力，主要面向科研人员与大规模企业级智能化应用的开发与部署。",
+      "sourceDescription": "Authors : Meta Superintelligence Labs Model Release Date: October 2026 License : Muse Model License",
+      "modelUrl": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+      "cardSummary": "",
+      "author": "meta-models",
+      "downloads": 2891,
+      "likes": 636,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-10-15T15:46:43.000Z",
+      "numParameters": 822036529664,
+      "availableInferenceProviders": [
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "meta-models/muse-spark-open",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 102.2369613967822,
+          "pricingOutput": 4.25
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-10-22",
+      "modelCard": "assets/huggingface_model_cards/2026-10-22/04-fishaudio-drama-3.png",
+      "modelName": "fishaudio/drama-3",
+      "modelDescription": "Drama 3是Fish Audio推出的新一代文本转语音（TTS）模型。该模型专为多角色场景与长文本内容设计，支持多说话人语音合成、克隆技术以及基于自然语言的指令控制。其能够处理复杂的情感与交互需求，在有声读物创作、影视配音以及互动式游戏语音内容生成等领域具有广泛的应用潜力。",
+      "sourceDescription": "Fish Audio Drama 3 is Fish Audio's new-generation text-to-speech model, built for multi-character scenes and long-form content. It supports multi-speaker generation, voice cloning and natural-language control.",
+      "modelUrl": "https://huggingface.co/fishaudio/drama-3",
+      "cardSummary": "",
+      "author": "fishaudio",
+      "downloads": 15274,
+      "likes": 888,
+      "pipelineTag": "text-to-speech",
+      "lastModified": "2026-10-17T05:06:07.000Z",
+      "numParameters": 35899643008,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-10-22",
+      "modelCard": "assets/huggingface_model_cards/2026-10-22/05-black-forest-labs-flux-3-image-klein.png",
+      "modelName": "black-forest-labs/flux-3-image-klein",
+      "modelDescription": "FLUX 3 Image Klein是一款具有56亿参数的开源视觉模型，专注于高质量图像生成与多样化编辑。模型集成了Qwen3-VL-4B-Instruct作为文本解析模块，支持通过文字描述结合至多10张参考图像进行创作。该模型在处理图像重绘、风格迁移及复杂视觉构图方面表现出色，是图像处理与AI创作领域的高效工具。",
+      "sourceDescription": "FLUX 3 Image Klein is a 5.6B open weights model for text-to-image generation and image editing. It takes a prompt and up to 10 reference images and returns one image. Text-to-image, single-reference edits and multi-reference compositions run through the same model, with Qwen3-VL-4B-Instruct as the text encoder.",
+      "modelUrl": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+      "cardSummary": "",
+      "author": "black-forest-labs",
+      "downloads": 92604,
+      "likes": 599,
+      "pipelineTag": "image-to-image",
+      "lastModified": "2026-10-16T04:58:03.000Z",
+      "numParameters": 5548681984,
+      "availableInferenceProviders": []
+    }
+  ]
+}
