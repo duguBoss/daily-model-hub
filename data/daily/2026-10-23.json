@@ -1,0 +1,141 @@
+{
+  "recordDate": "2026-10-23",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-10-23",
+      "modelCard": "assets/huggingface_model_cards/2026-10-23/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+      "modelName": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "modelDescription": "DeepSeek-V4.1-Flash-1017 是 DeepSeek 开发的一款高性能大语言模型。该模型定位于提供高效的推理与处理能力，适用于对响应速度和算力成本有较高要求的各类自然语言处理任务，如实时问答、文本总结、代码辅助及大规模数据分析等场景。",
+      "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 51911,
+      "likes": 2355,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-10-17T05:46:55.000Z",
+      "numParameters": 763205315794,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 257.9002638853541,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4.1-flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 97.35428375402833,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 111.50758251561106,
+          "pricingOutput": 1.2
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-10-23",
+      "modelCard": "assets/huggingface_model_cards/2026-10-23/02-black-forest-labs-flux-3-image-klein-comfy.png",
+      "modelName": "black-forest-labs/flux-3-image-klein-comfy",
+      "modelDescription": "FLUX 3 Image Klein 是一款参数规模为 5.6B 的开源图像生成与编辑模型。它集成 Qwen3-VL-4B-Instruct 作为文本编码器，支持从文本到图像生成，并具备处理最多 10 张参考图像的编辑与合成能力，适用于多种视觉创意创作需求。",
+      "sourceDescription": "FLUX 3 Image Klein is a 5.6B open weights model for text-to-image generation and image editing. It takes a prompt and up to 10 reference images and returns one image. Text-to-image, single-reference edits and multi-reference compositions run through the same model, with Qwen3-VL-4B-Instruct as the text encoder.",
+      "modelUrl": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "cardSummary": "",
+      "author": "black-forest-labs",
+      "downloads": 512524,
+      "likes": 1301,
+      "pipelineTag": "image-to-image",
+      "lastModified": "2026-10-17T07:10:12.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-10-23",
+      "modelCard": "assets/huggingface_model_cards/2026-10-23/03-openmoss-team-moss-image-sft.png",
+      "modelName": "OpenMOSS-Team/MOSS-Image-SFT",
+      "modelDescription": "MOSS-Image-SFT 是 MOSS 团队推出的经过监督微调的视觉模型版本。作为 MOSS-Image 项目的核心组件，该模型通过指令微调增强了模型对视觉任务的遵循与执行能力，旨在提供更准确的图像理解与处理功能，支持开发者集成于各类交互式应用中。",
+      "sourceDescription": "<div align=\"center\"> <p> <a href=\"https://github.com/OpenMOSS/MOSS-Image\"> <img class=\"dark:hidden mx-auto\" src=\"assets/lockup-light.svg\" alt=\"MOSS-Image\" width=\"520\"> <img class=\"hidden dark:block mx-auto\" src=\"assets/lockup-dark.svg\" alt=\"MOSS-Image\" width=\"520\"> </a> </p> <p> <a href=\"https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base\"><img alt=\"Hugging Face · MOSS-Image-Base\" src=\"https://img.shields.io/badge/🤗%20Hugging%20Face-MOSS--Image--Base-ffc107?style=flat-square\"></a> &nbsp; <a href=\"https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT\"><img alt=\"Hugging Face · MOSS-Image-SFT\" src=\"https://img.shields.io/badge/🤗%20Hugging%20Face-MOSS--Image--SFT-ffc107?style=flat-square\"></a> &nbsp; <a href=\"https://modelscope.cn/models/openmoss/MOSS-Image-Base\"><img alt=\"ModelScope · MOSS-Image-Base\" src=\"assets/modelscope-base-badge.svg\"></a> &nbsp; <a href=\"https://modelscope.cn/models/openmoss/MOSS-Image-SFT\"><img alt=\"ModelScope · MOSS-Image-SFT\" src=\"assets/modelscope-sft-badge.svg\"></a> &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image\"><img alt=\"GitHub\" src=\"https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&amp;logo=github&amp;logoColor=white\"></a> &nbsp; <a href=\"https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image\"><img alt=\"Hugging Face Spaces · Demo\" src=\"https://img.shields.io/badge/🤗%20Spaces-Demo-4f46e5?style=flat-square\"></a> &nbsp; <a href=\"https://platform.mosi.cn/?utm source=huggingface&amp;utm medium=readme&amp;utm campaign=imageapi\"><img alt=\"MOSI API Platform\" src=\"https://img.shields.io/badge/🔌%20MOSI-API%20Platform-0f766e?style=flat-square\"></a> &nbsp; <a href=\"https://openmoss.github.io/MOSS-Image/\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/🌐%20Project-Homepage-2563eb?style=flat-square\"></a> &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/paper/MOSS Image Technical Report.pdf\"><img alt=\"Technical Report\" src=\"https://img.shields.io/badge/📄%20Paper-Technical Report-b31b1b?style=flat-square\"></a> &nbsp; <a href=\"https://arxiv.org/abs/2610.23374\"><img alt=\"arXiv: 2610.23374\" src=\"https://img.shields.io/badge/arXiv-2610.23374-b31b1b?style=flat-square&amp;logo=arxiv&amp;logoColor=white\"></a> &nbsp; <a href=\"https://x.com/Open MOSS\"><img alt=\"Follow OpenMOSS on X\" src=\"https://img.shields.io/badge/Follow-OpenMOSS-000000?style=flat-square&amp;logo=x&amp;logoColor=white\"></a> &nbsp; <a href=\"https://qm.qq.com/q/hphM7VhaDu\"><img alt=\"MOSS-Image QQ 交流群：755535143\" src=\"https://img.shields.io/badge/QQ-755535143-12B7F5?style=flat-square&amp;logo=qq&amp;logoColor=white\"></a> &nbsp; <a href=\"https://applink.feishu.cn/client/chat/chatter/add by link?link token=7a3m2007-815f-409b-9c3d-a4129f5c058e\"><img alt=\"MOSS-Builders Feishu Community\" src=\"assets/feishu-builders-badge.svg\"></a> &nbsp; <a href=\"https://discord.gg/nXFWEyvbb\"><img alt=\"MOSS-Image Discord Community\" src=\"https://img.shields.io/badge/Discord-Community-5865F2?style=flat-square&amp;logo=discord&amp;logoColor=white\"></a> </p> <p> <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/USERGUIDE.md\">User guide</a> &nbsp; · &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/USERGUIDE ZH.md\">中文用户指南</a> &nbsp; · &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/comfyui/README.md\">ComfyUI</a> </p> </div>",
+      "modelUrl": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "cardSummary": "",
+      "author": "OpenMOSS-Team",
+      "downloads": 6890,
+      "likes": 579,
+      "pipelineTag": "text-to-image",
+      "lastModified": "2026-10-21T01:52:00.000Z",
+      "numParameters": 5082308624,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-10-23",
+      "modelCard": "assets/huggingface_model_cards/2026-10-23/04-recursivesi-flint.png",
+      "modelName": "RecursiveSI/flint",
+      "modelDescription": "Flint 是由 RecursiveSI 开发的开源模型项目。虽然当前提供的相关文档信息有限，但从其技术背景来看，该模型定位于特定的计算或任务处理领域。用户可以通过访问 Hugging Face 页面获取详细的模型架构、推理指南及应用实例，适用于深度学习领域的二次开发与研究。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/flint-logo.png\" width=\"160\" alt=\"Flint logo\"> </p>",
+      "modelUrl": "https://huggingface.co/RecursiveSI/flint",
+      "cardSummary": "",
+      "author": "RecursiveSI",
+      "downloads": 420,
+      "likes": 533,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-21T14:24:03.000Z",
+      "numParameters": 39785287456,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-10-23",
+      "modelCard": "assets/huggingface_model_cards/2026-10-23/05-openmoss-team-moss-image-base.png",
+      "modelName": "OpenMOSS-Team/MOSS-Image-Base",
+      "modelDescription": "MOSS-Image-Base 是 MOSS-Image 项目的基础模型版本。该模型为整个视觉模型系列提供了核心的视觉感知与生成基座，旨在处理各类基础视觉任务。它是 MOSS-Image-SFT 的前置基础，适合需要从零构建或进行深入垂类场景训练的开发者使用。",
+      "sourceDescription": "<div align=\"center\"> <p> <a href=\"https://github.com/OpenMOSS/MOSS-Image\"> <img class=\"dark:hidden mx-auto\" src=\"assets/lockup-light.svg\" alt=\"MOSS-Image\" width=\"520\"> <img class=\"hidden dark:block mx-auto\" src=\"assets/lockup-dark.svg\" alt=\"MOSS-Image\" width=\"520\"> </a> </p> <p> <a href=\"https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base\"><img alt=\"Hugging Face · MOSS-Image-Base\" src=\"https://img.shields.io/badge/🤗%20Hugging%20Face-MOSS--Image--Base-ffc107?style=flat-square\"></a> &nbsp; <a href=\"https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT\"><img alt=\"Hugging Face · MOSS-Image-SFT\" src=\"https://img.shields.io/badge/🤗%20Hugging%20Face-MOSS--Image--SFT-ffc107?style=flat-square\"></a> &nbsp; <a href=\"https://modelscope.cn/models/openmoss/MOSS-Image-Base\"><img alt=\"ModelScope · MOSS-Image-Base\" src=\"assets/modelscope-base-badge.svg\"></a> &nbsp; <a href=\"https://modelscope.cn/models/openmoss/MOSS-Image-SFT\"><img alt=\"ModelScope · MOSS-Image-SFT\" src=\"assets/modelscope-sft-badge.svg\"></a> &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image\"><img alt=\"GitHub\" src=\"https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&amp;logo=github&amp;logoColor=white\"></a> &nbsp; <a href=\"https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image\"><img alt=\"Hugging Face Spaces · Demo\" src=\"https://img.shields.io/badge/🤗%20Spaces-Demo-4f46e5?style=flat-square\"></a> &nbsp; <a href=\"https://platform.mosi.cn/?utm source=huggingface&amp;utm medium=readme&amp;utm campaign=imageapi\"><img alt=\"MOSI API Platform\" src=\"https://img.shields.io/badge/🔌%20MOSI-API%20Platform-0f766e?style=flat-square\"></a> &nbsp; <a href=\"https://openmoss.github.io/MOSS-Image/\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/🌐%20Project-Homepage-2563eb?style=flat-square\"></a> &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/paper/MOSS Image Technical Report.pdf\"><img alt=\"Technical Report\" src=\"https://img.shields.io/badge/📄%20Paper-Technical Report-b31b1b?style=flat-square\"></a> &nbsp; <a href=\"https://arxiv.org/abs/2610.23374\"><img alt=\"arXiv: 2610.23374\" src=\"https://img.shields.io/badge/arXiv-2610.23374-b31b1b?style=flat-square&amp;logo=arxiv&amp;logoColor=white\"></a> &nbsp; <a href=\"https://x.com/Open MOSS\"><img alt=\"Follow OpenMOSS on X\" src=\"https://img.shields.io/badge/Follow-OpenMOSS-000000?style=flat-square&amp;logo=x&amp;logoColor=white\"></a> &nbsp; <a href=\"https://qm.qq.com/q/hphM7VhaDu\"><img alt=\"MOSS-Image QQ 交流群：755535143\" src=\"https://img.shields.io/badge/QQ-755535143-12B7F5?style=flat-square&amp;logo=qq&amp;logoColor=white\"></a> &nbsp; <a href=\"https://applink.feishu.cn/client/chat/chatter/add by link?link token=7a3m2007-815f-409b-9c3d-a4129f5c058e\"><img alt=\"MOSS-Builders Feishu Community\" src=\"assets/feishu-builders-badge.svg\"></a> &nbsp; <a href=\"https://discord.gg/nXFWEyvbb\"><img alt=\"MOSS-Image Discord Community\" src=\"https://img.shields.io/badge/Discord-Community-5865F2?style=flat-square&amp;logo=discord&amp;logoColor=white\"></a> </p> <p> <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/USERGUIDE.md\">User guide</a> &nbsp; · &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/USERGUIDE ZH.md\">中文用户指南</a> &nbsp; · &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/comfyui/README.md\">ComfyUI</a> </p> </div>",
+      "modelUrl": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+      "cardSummary": "",
+      "author": "OpenMOSS-Team",
+      "downloads": 5013,
+      "likes": 486,
+      "pipelineTag": "text-to-image",
+      "lastModified": "2026-10-21T01:51:54.000Z",
+      "numParameters": 5082308624,
+      "availableInferenceProviders": []
+    }
+  ]
+}
