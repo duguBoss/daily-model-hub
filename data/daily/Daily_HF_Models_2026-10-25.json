@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-25",
+  "title": "🔥Deepseek1017重磅发布是推出的高性能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/02-recursivesi-flint.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/03-black-forest-labs-flux-3-image-klein-comfy.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/04-lightricks-ltx-2-5.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/05-openmoss-team-moss-image-sft.png"
+  ],
+  "songs": [
+    {
+      "name": "DeepSeek-V4.1-Flash-1017",
+      "artist": "deepseek-ai"
+    },
+    {
+      "name": "flint",
+      "artist": "RecursiveSI"
+    },
+    {
+      "name": "flux-3-image-klein-comfy",
+      "artist": "black-forest-labs"
+    },
+    {
+      "name": "LTX-2.5",
+      "artist": "Lightricks"
+    },
+    {
+      "name": "MOSS-Image-SFT",
+      "artist": "OpenMOSS-Team"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-10-25 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/01-deepseek-ai-deepseek-v4-1-flash-1017.png\" alt=\"deepseek-ai/DeepSeek-V4.1-Flash-1017\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepseek-ai/DeepSeek-V4.1-Flash-1017</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">DeepSeek-V4.1-Flash-1017是DeepSeek推出的高性能大语言模型版本。该模型专注于推理速度与效率的平衡，旨在处理大规模文本生成与复杂的理解任务。其设计优化了计算资源消耗，适合需要高并发响应和实时交互的应用场景，为开发者提供更具成本效益的部署选择。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/02-recursivesi-flint.png\" alt=\"RecursiveSI/flint\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">RecursiveSI/flint</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">RecursiveSI推出的Flint是一款专注于特定任务的大语言模型。虽然当前公开的技术细节有限，但根据其生态定位，该模型通常用于解决特定的逻辑计算或序列处理问题。其设计初衷是提供一种灵活的轻量级解决方案，适用于自动化脚本、数据分析或其他需要高性能指令处理的边缘计算场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/03-black-forest-labs-flux-3-image-klein-comfy.png\" alt=\"black-forest-labs/flux-3-image-klein-comfy\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">black-forest-labs/flux-3-image-klein-comfy</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">FLUX 3 Image Klein是由Black Forest Labs开发的56亿参数多模态模型，专门用于图像生成与编辑。它整合了Qwen3-VL-4B-Instruct作为文本编码器，支持基于提示词的文本生成图像，以及通过多达10张参考图像进行单图编辑或多图合成。该模型在精细化视觉创作与图像定制化领域表现出色。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/04-lightricks-ltx-2-5.png\" alt=\"Lightricks/LTX-2.5\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Lightricks/LTX-2.5</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">LTX-2.5是由Lightricks开发的生成式模型，延续了前代版本的核心架构优势，旨在提供更流畅、更高质量的视频或图像生成效果。该模型通过精简的训练框架与高效的推理解码，主要应用于创意视频编辑、多媒体内容自动生成及相关视觉特效领域，适合需要快速产出高质量多媒体素材的专业工作流。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/05-openmoss-team-moss-image-sft.png\" alt=\"OpenMOSS-Team/MOSS-Image-SFT\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">OpenMOSS-Team/MOSS-Image-SFT</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MOSS-Image-SFT是由OpenMOSS团队推出的视觉语言模型，经过监督微调（SFT）以增强其对图像内容的理解和交互能力。作为MOSS系列的一部分，该模型支持图像与文本的综合处理，能够执行多轮对话和复杂指令理解。其广泛应用于视觉问答、图像描述、多模态智能助手等多种人工智能研究与产业应用场景。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-10-25T00:03:59.242768"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "https://huggingface.co/RecursiveSI/flint",
+    "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+    "https://huggingface.co/Lightricks/LTX-2.5",
+    "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
+  ],
+  "new_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "https://huggingface.co/RecursiveSI/flint",
+    "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+    "https://huggingface.co/Lightricks/LTX-2.5",
+    "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-10-25-01",
+      "rank": 1,
+      "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "description": "DeepSeek-V4.1-Flash-1017是DeepSeek推出的高性能大语言模型版本。该模型专注于推理速度与效率的平衡，旨在处理大规模文本生成与复杂的理解任务。其设计优化了计算资源消耗，适合需要高并发响应和实时交互的应用场景，为开发者提供更具成本效益的部署选择。",
+      "source_description": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-25/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/01-deepseek-ai-deepseek-v4-1-flash-1017.png"
+    },
+    {
+      "id": "hf-2026-10-25-02",
+      "rank": 2,
+      "name": "RecursiveSI/flint",
+      "description": "RecursiveSI推出的Flint是一款专注于特定任务的大语言模型。虽然当前公开的技术细节有限，但根据其生态定位，该模型通常用于解决特定的逻辑计算或序列处理问题。其设计初衷是提供一种灵活的轻量级解决方案，适用于自动化脚本、数据分析或其他需要高性能指令处理的边缘计算场景。",
+      "source_description": "<p align=\"center\"> <img src=\"assets/flint-logo.png\" width=\"160\" alt=\"Flint logo\"> </p>",
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-25/02-recursivesi-flint.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/02-recursivesi-flint.png"
+    },
+    {
+      "id": "hf-2026-10-25-03",
+      "rank": 3,
+      "name": "black-forest-labs/flux-3-image-klein-comfy",
+      "description": "FLUX 3 Image Klein是由Black Forest Labs开发的56亿参数多模态模型，专门用于图像生成与编辑。它整合了Qwen3-VL-4B-Instruct作为文本编码器，支持基于提示词的文本生成图像，以及通过多达10张参考图像进行单图编辑或多图合成。该模型在精细化视觉创作与图像定制化领域表现出色。",
+      "source_description": "FLUX 3 Image Klein is a 5.6B open weights model for text-to-image generation and image editing. It takes a prompt and up to 10 reference images and returns one image. Text-to-image, single-reference edits and multi-reference compositions run through the same model, with Qwen3-VL-4B-Instruct as the text encoder.",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-25/03-black-forest-labs-flux-3-image-klein-comfy.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/03-black-forest-labs-flux-3-image-klein-comfy.png"
+    },
+    {
+      "id": "hf-2026-10-25-04",
+      "rank": 4,
+      "name": "Lightricks/LTX-2.5",
+      "description": "LTX-2.5是由Lightricks开发的生成式模型，延续了前代版本的核心架构优势，旨在提供更流畅、更高质量的视频或图像生成效果。该模型通过精简的训练框架与高效的推理解码，主要应用于创意视频编辑、多媒体内容自动生成及相关视觉特效领域，适合需要快速产出高质量多媒体素材的专业工作流。",
+      "source_description": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-25/04-lightricks-ltx-2-5.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/04-lightricks-ltx-2-5.png"
+    },
+    {
+      "id": "hf-2026-10-25-05",
+      "rank": 5,
+      "name": "OpenMOSS-Team/MOSS-Image-SFT",
+      "description": "MOSS-Image-SFT是由OpenMOSS团队推出的视觉语言模型，经过监督微调（SFT）以增强其对图像内容的理解和交互能力。作为MOSS系列的一部分，该模型支持图像与文本的综合处理，能够执行多轮对话和复杂指令理解。其广泛应用于视觉问答、图像描述、多模态智能助手等多种人工智能研究与产业应用场景。",
+      "source_description": "<div align=\"center\"> <p> <a href=\"https://github.com/OpenMOSS/MOSS-Image\"> <img class=\"dark:hidden mx-auto\" src=\"assets/lockup-light.svg\" alt=\"MOSS-Image\" width=\"520\"> <img class=\"hidden dark:block mx-auto\" src=\"assets/lockup-dark.svg\" alt=\"MOSS-Image\" width=\"520\"> </a> </p> <p> <a href=\"https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base\"><img alt=\"Hugging Face · MOSS-Image-Base\" src=\"https://img.shields.io/badge/🤗%20Hugging%20Face-MOSS--Image--Base-ffc107?style=flat-square\"></a> &nbsp; <a href=\"https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT\"><img alt=\"Hugging Face · MOSS-Image-SFT\" src=\"https://img.shields.io/badge/🤗%20Hugging%20Face-MOSS--Image--SFT-ffc107?style=flat-square\"></a> &nbsp; <a href=\"https://modelscope.cn/models/openmoss/MOSS-Image-Base\"><img alt=\"ModelScope · MOSS-Image-Base\" src=\"assets/modelscope-base-badge.svg\"></a> &nbsp; <a href=\"https://modelscope.cn/models/openmoss/MOSS-Image-SFT\"><img alt=\"ModelScope · MOSS-Image-SFT\" src=\"assets/modelscope-sft-badge.svg\"></a> &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image\"><img alt=\"GitHub\" src=\"https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&amp;logo=github&amp;logoColor=white\"></a> &nbsp; <a href=\"https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image\"><img alt=\"Hugging Face Spaces · Demo\" src=\"https://img.shields.io/badge/🤗%20Spaces-Demo-4f46e5?style=flat-square\"></a> &nbsp; <a href=\"https://platform.mosi.cn/?utm source=huggingface&amp;utm medium=readme&amp;utm campaign=imageapi\"><img alt=\"MOSI API Platform\" src=\"https://img.shields.io/badge/🔌%20MOSI-API%20Platform-0f766e?style=flat-square\"></a> &nbsp; <a href=\"https://openmoss.github.io/MOSS-Image/\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/🌐%20Project-Homepage-2563eb?style=flat-square\"></a> &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/paper/MOSS Image Technical Report.pdf\"><img alt=\"Technical Report\" src=\"https://img.shields.io/badge/📄%20Paper-Technical Report-b31b1b?style=flat-square\"></a> &nbsp; <a href=\"https://arxiv.org/abs/2610.23374\"><img alt=\"arXiv: 2610.23374\" src=\"https://img.shields.io/badge/arXiv-2610.23374-b31b1b?style=flat-square&amp;logo=arxiv&amp;logoColor=white\"></a> &nbsp; <a href=\"https://x.com/Open MOSS\"><img alt=\"Follow OpenMOSS on X\" src=\"https://img.shields.io/badge/Follow-OpenMOSS-000000?style=flat-square&amp;logo=x&amp;logoColor=white\"></a> &nbsp; <a href=\"https://qm.qq.com/q/hphM7VhaDu\"><img alt=\"MOSS-Image QQ 交流群：755535143\" src=\"https://img.shields.io/badge/QQ-755535143-12B7F5?style=flat-square&amp;logo=qq&amp;logoColor=white\"></a> &nbsp; <a href=\"https://applink.feishu.cn/client/chat/chatter/add by link?link token=7a3m2007-815f-409b-9c3d-a4129f5c058e\"><img alt=\"MOSS-Builders Feishu Community\" src=\"assets/feishu-builders-badge.svg\"></a> &nbsp; <a href=\"https://discord.gg/nXFWEyvbb\"><img alt=\"MOSS-Image Discord Community\" src=\"https://img.shields.io/badge/Discord-Community-5865F2?style=flat-square&amp;logo=discord&amp;logoColor=white\"></a> </p> <p> <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/USERGUIDE.md\">User guide</a> &nbsp; · &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/USERGUIDE ZH.md\">中文用户指南</a> &nbsp; · &nbsp; <a href=\"https://github.com/OpenMOSS/MOSS-Image/blob/main/comfyui/README.md\">ComfyUI</a> </p> </div>",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-25/05-openmoss-team-moss-image-sft.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-25/05-openmoss-team-moss-image-sft.png"
+    }
+  ]
+}
