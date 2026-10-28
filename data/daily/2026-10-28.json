@@ -1,0 +1,141 @@
+{
+  "recordDate": "2026-10-28",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-10-28",
+      "modelCard": "assets/huggingface_model_cards/2026-10-28/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+      "modelName": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "modelDescription": "DeepSeek-V4.1-Flash-1017是深度求索推出的一款高性能轻量级模型。该模型定位为高效、快速的推理与交互助手，旨在通过优化架构在保证任务处理准确性的前提下显著降低延迟。其适用场景涵盖大规模并发的文本生成、智能对话系统及高频的数据分析任务，适合对响应速度有严格要求的生产环境应用。",
+      "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 105667,
+      "likes": 3391,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-10-17T05:46:55.000Z",
+      "numParameters": 763205315794,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 230.06821294465644,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4.1-flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 101.95689317739904,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 104.2535446205171,
+          "pricingOutput": 1.2
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-10-28",
+      "modelCard": "assets/huggingface_model_cards/2026-10-28/02-recursivesi-flint.png",
+      "modelName": "RecursiveSI/flint",
+      "modelDescription": "Flint由RecursiveSI开发，是一款专注于特定领域任务的高效模型。该模型旨在通过精简的参数规模实现精准的指令遵循与逻辑处理能力。它主要面向需要快速迭代的自动化工作流及小型化部署需求，通过其轻量化的特性，为开发者在边缘侧或资源受限的环境中实现智能化任务处理提供了可靠的解决方案。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/flint-logo.png\" width=\"160\" alt=\"Flint logo\"> </p>",
+      "modelUrl": "https://huggingface.co/RecursiveSI/flint",
+      "cardSummary": "",
+      "author": "RecursiveSI",
+      "downloads": 10574,
+      "likes": 982,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-21T14:24:03.000Z",
+      "numParameters": 39785287456,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-10-28",
+      "modelCard": "assets/huggingface_model_cards/2026-10-28/03-nanbeige-nanbeige4-3-33b.png",
+      "modelName": "Nanbeige/Nanbeige4.3-33B",
+      "modelDescription": "Nanbeige4.3-33B是一款具备中等规模参数量的高性能大语言模型。其定位在于平衡逻辑推理能力与知识覆盖广度，能够处理复杂的中文语义理解及长文本生成任务。凭借其33B的参数规模，该模型在对话理解、内容创作及复杂逻辑分析方面表现稳健，非常适合企业级知识库问答及深入的文本分析场景。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"figures/nbg.png\" width=\"200\" alt=\"Nanbeige Logo\"> </div>",
+      "modelUrl": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "cardSummary": "",
+      "author": "Nanbeige",
+      "downloads": 4785,
+      "likes": 676,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-27T16:00:24.000Z",
+      "numParameters": 33118977024,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-10-28",
+      "modelCard": "assets/huggingface_model_cards/2026-10-28/04-xhtoken-spark-x2-6-4b.png",
+      "modelName": "XHToken/Spark-X2.6-4B",
+      "modelDescription": "Spark-X2.6-4B是一款专注于终端侧智能体（On-Device Agents）的轻量级模型。该模型针对实时环境中的复杂任务处理进行了深度优化，具备出色的推理效率与多任务适应性。其紧凑的尺寸使其能够在资源受限的移动设备或嵌入式硬件上稳定运行，是实现离线智能助手及自动化任务执行的理想选择。",
+      "sourceDescription": "Spark-X2.6-4B: Advancing the Frontier of On-Device Agents for Real-World Tasks <div align=\"center\">",
+      "modelUrl": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "cardSummary": "",
+      "author": "XHToken",
+      "downloads": 6191,
+      "likes": 791,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-27T12:55:34.000Z",
+      "numParameters": 4112079360,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-10-28",
+      "modelCard": "assets/huggingface_model_cards/2026-10-28/05-black-forest-labs-flux-3-image-klein-comfy.png",
+      "modelName": "black-forest-labs/flux-3-image-klein-comfy",
+      "modelDescription": "FLUX 3 Image Klein是一款5.6B参数规模的开放权重图像生成模型。它集成Qwen3-VL-4B-Instruct作为文本编码器，支持从文本到图像的创作以及基于单张或多张参考图的图像编辑。该模型具备灵活的多参考图合成能力，适用于图像修复、风格迁移及复杂视觉构图任务，为开发者提供了强大的视觉生成工具。",
+      "sourceDescription": "FLUX 3 Image Klein is a 5.6B open weights model for text-to-image generation and image editing. It takes a prompt and up to 10 reference images and returns one image. Text-to-image, single-reference edits and multi-reference compositions run through the same model, with Qwen3-VL-4B-Instruct as the text encoder.",
+      "modelUrl": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "cardSummary": "",
+      "author": "black-forest-labs",
+      "downloads": 750694,
+      "likes": 1863,
+      "pipelineTag": "image-to-image",
+      "lastModified": "2026-10-17T07:10:12.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    }
+  ]
+}
