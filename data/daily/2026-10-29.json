@@ -1,0 +1,158 @@
+{
+  "recordDate": "2026-10-29",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-10-29",
+      "modelCard": "assets/huggingface_model_cards/2026-10-29/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+      "modelName": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "modelDescription": "DeepSeek-V4.1-Flash-1017是深度求索推出的轻量级高性能大语言模型。该模型定位为高效推理版本，旨在通过优化架构和参数规模，在保持强大文本理解与逻辑推理能力的同时，大幅提升响应速度，适合高并发、低延迟的实时对话及自动化处理任务。",
+      "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 116770,
+      "likes": 3556,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-10-17T05:46:55.000Z",
+      "numParameters": 763205315794,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 316.49300063272705,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4.1-flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 89.13411232592338,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 180.6115353122193,
+          "pricingOutput": 1.2
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-10-29",
+      "modelCard": "assets/huggingface_model_cards/2026-10-29/02-recursivesi-flint.png",
+      "modelName": "RecursiveSI/flint",
+      "modelDescription": "Flint是由RecursiveSI开发的模型，其设计侧重于特定场景下的任务执行效率。作为一款精简高效的模型，它旨在平衡计算成本与输出质量，适用于资源受限的环境下进行文本分析、轻量级指令遵循以及各类垂直领域的自动化处理需求。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/flint-logo.png\" width=\"160\" alt=\"Flint logo\"> </p>",
+      "modelUrl": "https://huggingface.co/RecursiveSI/flint",
+      "cardSummary": "",
+      "author": "RecursiveSI",
+      "downloads": 14047,
+      "likes": 1156,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-21T14:24:03.000Z",
+      "numParameters": 39785287456,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-10-29",
+      "modelCard": "assets/huggingface_model_cards/2026-10-29/03-nanbeige-nanbeige4-3-33b.png",
+      "modelName": "Nanbeige/Nanbeige4.3-33B",
+      "modelDescription": "Nanbeige4.3-33B是一款拥有330亿参数的大规模预训练模型。得益于其较大的参数量，该模型在复杂逻辑推理、深度内容创作及多语言语境理解方面表现出色，能够有效支撑高要求的企业级应用、学术研究以及深度文本分析任务。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"figures/nbg.png\" width=\"200\" alt=\"Nanbeige Logo\"> </div>",
+      "modelUrl": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "cardSummary": "",
+      "author": "Nanbeige",
+      "downloads": 7412,
+      "likes": 723,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-28T01:59:01.000Z",
+      "numParameters": 33118977024,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-10-29",
+      "modelCard": "assets/huggingface_model_cards/2026-10-29/04-xhtoken-spark-x2-6-4b.png",
+      "modelName": "XHToken/Spark-X2.6-4B",
+      "modelDescription": "Spark-X2.6-4B是一款专注于终端侧（On-Device）部署的轻量级模型。该模型通过精简参数规模实现高效能，主要面向移动设备及边缘计算场景，旨在为真实世界的智能体任务提供低功耗、高响应的本地化AI算力支持。",
+      "sourceDescription": "Spark-X2.6-4B: Advancing the Frontier of On-Device Agents for Real-World Tasks <div align=\"center\">",
+      "modelUrl": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "cardSummary": "",
+      "author": "XHToken",
+      "downloads": 8222,
+      "likes": 858,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-27T12:55:34.000Z",
+      "numParameters": 4112079360,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-10-29",
+      "modelCard": "assets/huggingface_model_cards/2026-10-29/05-minimaxai-minimax-m3-1-flash.png",
+      "modelName": "MiniMaxAI/MiniMax-M3.1-Flash",
+      "modelDescription": "MiniMax-M3.1-Flash是MiniMax推出的高速推理版模型。该模型强调响应效率，能够在保证基础认知与交互能力的同时，显著降低系统延迟。其应用定位涵盖智能客服、快速问答助手及其他对响应时效性有严苛要求的应用场景。",
+      "sourceDescription": "<div align=\"center\"> <img width=\"60%\" src=\"figures/logo.svg\" alt=\"MiniMax\"> </div> <hr>",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+      "cardSummary": "",
+      "author": "MiniMaxAI",
+      "downloads": 13247,
+      "likes": 456,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-10-26T07:08:15.000Z",
+      "numParameters": 220490854016,
+      "availableInferenceProviders": [
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "minimax/minimax-m3.1-flash",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 77.48013694350973,
+          "pricingOutput": 0.6
+        }
+      ]
+    }
+  ]
+}
