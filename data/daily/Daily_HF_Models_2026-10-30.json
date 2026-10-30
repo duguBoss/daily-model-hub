@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-30",
+  "title": "🔥Deepseek1017重磅发布是由深度求索能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/02-nanbeige-nanbeige4-3-33b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/03-recursivesi-flint.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/04-liquidai-lfm3-1-7b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/05-xhtoken-spark-x2-6-4b.png"
+  ],
+  "songs": [
+    {
+      "name": "DeepSeek-V4.1-Flash-1017",
+      "artist": "deepseek-ai"
+    },
+    {
+      "name": "Nanbeige4.3-33B",
+      "artist": "Nanbeige"
+    },
+    {
+      "name": "flint",
+      "artist": "RecursiveSI"
+    },
+    {
+      "name": "LFM3-1.7B",
+      "artist": "LiquidAI"
+    },
+    {
+      "name": "Spark-X2.6-4B",
+      "artist": "XHToken"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-10-30 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/01-deepseek-ai-deepseek-v4-1-flash-1017.png\" alt=\"deepseek-ai/DeepSeek-V4.1-Flash-1017\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">deepseek-ai/DeepSeek-V4.1-Flash-1017</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">DeepSeek-V4.1-Flash-1017是由深度求索开发的一款高效能模型。该模型定位为轻量化高性能版本，旨在平衡推理速度与生成质量，适用于对响应时延要求较高的复杂任务处理场景，能够为开发者提供快速的智能化辅助，在各类文本理解与生成任务中表现出良好的应用潜力。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/02-nanbeige-nanbeige4-3-33b.png\" alt=\"Nanbeige/Nanbeige4.3-33B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Nanbeige/Nanbeige4.3-33B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Nanbeige4.3-33B是一款参数量为330亿的大规模语言模型。该模型经过精心训练，具备深度的语言理解与逻辑推理能力，主要面向通用文本生成、复杂任务分析及深度交互场景。得益于其较大的参数规模，该模型在处理专业领域知识与多轮对话时能够展现出较强的稳定性和准确性。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/03-recursivesi-flint.png\" alt=\"RecursiveSI/flint\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">RecursiveSI/flint</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">RecursiveSI/flint是一个专注于特定任务的语言模型项目。该模型旨在通过优化基础架构来提升特定领域内的执行效率与准确度。它适用于需要高度定制化响应或特定行业应用的场景，帮助用户在处理结构化数据与执行逻辑任务时实现更高的性能，是垂直领域模型应用的理想选择。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/04-liquidai-lfm3-1-7b.png\" alt=\"LiquidAI/LFM3-1.7B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">LiquidAI/LFM3-1.7B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">LiquidAI推出的LFM3-1.7B是一款高性能的小参数模型，以极致的计算效率著称。该模型仅拥有17亿参数，设计目标是在资源受限的环境下实现高效的推理能力。它非常适合部署在移动端、边缘计算设备或对能耗有严苛要求的应用场景中，能够为实时任务提供快速的智能化支持。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/05-xhtoken-spark-x2-6-4b.png\" alt=\"XHToken/Spark-X2.6-4B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">XHToken/Spark-X2.6-4B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Spark-X2.6-4B是一款专注于终端设备部署的高效模型。该模型针对端侧代理（On-Device Agents）场景进行了专门优化，旨在处理现实世界中的各类复杂任务。得益于其40亿参数的紧凑架构，该模型在保持高效运行的同时，具备执行实际功能性任务的能力，非常适合集成在各类终端应用中。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-10-30T01:39:16.153444"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+    "https://huggingface.co/RecursiveSI/flint",
+    "https://huggingface.co/LiquidAI/LFM3-1.7B",
+    "https://huggingface.co/XHToken/Spark-X2.6-4B"
+  ],
+  "new_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+    "https://huggingface.co/RecursiveSI/flint",
+    "https://huggingface.co/LiquidAI/LFM3-1.7B",
+    "https://huggingface.co/XHToken/Spark-X2.6-4B"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-10-30-01",
+      "rank": 1,
+      "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "description": "DeepSeek-V4.1-Flash-1017是由深度求索开发的一款高效能模型。该模型定位为轻量化高性能版本，旨在平衡推理速度与生成质量，适用于对响应时延要求较高的复杂任务处理场景，能够为开发者提供快速的智能化辅助，在各类文本理解与生成任务中表现出良好的应用潜力。",
+      "source_description": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-30/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/01-deepseek-ai-deepseek-v4-1-flash-1017.png"
+    },
+    {
+      "id": "hf-2026-10-30-02",
+      "rank": 2,
+      "name": "Nanbeige/Nanbeige4.3-33B",
+      "description": "Nanbeige4.3-33B是一款参数量为330亿的大规模语言模型。该模型经过精心训练，具备深度的语言理解与逻辑推理能力，主要面向通用文本生成、复杂任务分析及深度交互场景。得益于其较大的参数规模，该模型在处理专业领域知识与多轮对话时能够展现出较强的稳定性和准确性。",
+      "source_description": "<div align=\"center\"> <img src=\"figures/nbg.png\" width=\"200\" alt=\"Nanbeige Logo\"> </div>",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-30/02-nanbeige-nanbeige4-3-33b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/02-nanbeige-nanbeige4-3-33b.png"
+    },
+    {
+      "id": "hf-2026-10-30-03",
+      "rank": 3,
+      "name": "RecursiveSI/flint",
+      "description": "RecursiveSI/flint是一个专注于特定任务的语言模型项目。该模型旨在通过优化基础架构来提升特定领域内的执行效率与准确度。它适用于需要高度定制化响应或特定行业应用的场景，帮助用户在处理结构化数据与执行逻辑任务时实现更高的性能，是垂直领域模型应用的理想选择。",
+      "source_description": "<p align=\"center\"> <img src=\"assets/flint-logo.png\" width=\"160\" alt=\"Flint logo\"> </p>",
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-30/03-recursivesi-flint.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/03-recursivesi-flint.png"
+    },
+    {
+      "id": "hf-2026-10-30-04",
+      "rank": 4,
+      "name": "LiquidAI/LFM3-1.7B",
+      "description": "LiquidAI推出的LFM3-1.7B是一款高性能的小参数模型，以极致的计算效率著称。该模型仅拥有17亿参数，设计目标是在资源受限的环境下实现高效的推理能力。它非常适合部署在移动端、边缘计算设备或对能耗有严苛要求的应用场景中，能够为实时任务提供快速的智能化支持。",
+      "source_description": "<div align=\"center\"> <img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" /> <div align=\"center\" style=\"display: flex; justify-content: center; align-items: center; gap: 1.25em; margin: 8px 0 1.7rem; padding: 0; line-height: 1.3;\"> <a href=\"https://console.liquid.ai/dashboard\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/api.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>API</strong></a> <a href=\"https://playground.liquid.ai/\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/try.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Try</strong></a> <a href=\"https://docs.liquid.ai/lfm/getting-started/welcome\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/docs.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Docs</strong></a> <a href=\"https://www.liquid.ai/blog/lfm3\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/blog.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Blog</strong></a> </div> </div>",
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-30/04-liquidai-lfm3-1-7b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/04-liquidai-lfm3-1-7b.png"
+    },
+    {
+      "id": "hf-2026-10-30-05",
+      "rank": 5,
+      "name": "XHToken/Spark-X2.6-4B",
+      "description": "Spark-X2.6-4B是一款专注于终端设备部署的高效模型。该模型针对端侧代理（On-Device Agents）场景进行了专门优化，旨在处理现实世界中的各类复杂任务。得益于其40亿参数的紧凑架构，该模型在保持高效运行的同时，具备执行实际功能性任务的能力，非常适合集成在各类终端应用中。",
+      "source_description": "Spark-X2.6-4B: Advancing the Frontier of On-Device Agents for Real-World Tasks <div align=\"center\">",
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-10-30/05-xhtoken-spark-x2-6-4b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-10-30/05-xhtoken-spark-x2-6-4b.png"
+    }
+  ]
+}

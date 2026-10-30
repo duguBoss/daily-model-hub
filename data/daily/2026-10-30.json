@@ -1,0 +1,156 @@
+{
+  "recordDate": "2026-10-30",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-10-30",
+      "modelCard": "assets/huggingface_model_cards/2026-10-30/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+      "modelName": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "modelDescription": "DeepSeek-V4.1-Flash-1017是由深度求索开发的一款高效能模型。该模型定位为轻量化高性能版本，旨在平衡推理速度与生成质量，适用于对响应时延要求较高的复杂任务处理场景，能够为开发者提供快速的智能化辅助，在各类文本理解与生成任务中表现出良好的应用潜力。",
+      "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 131062,
+      "likes": 3781,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-10-17T05:46:55.000Z",
+      "numParameters": 763205315794,
+      "availableInferenceProviders": [
+        {
+          "provider": "scaleway",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-v4.1-flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 159.30029191911646
+        },
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 256.67949811219427,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4.1-flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 96.73725532042539,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 184.18661063316205,
+          "pricingOutput": 1.2
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-10-30",
+      "modelCard": "assets/huggingface_model_cards/2026-10-30/02-nanbeige-nanbeige4-3-33b.png",
+      "modelName": "Nanbeige/Nanbeige4.3-33B",
+      "modelDescription": "Nanbeige4.3-33B是一款参数量为330亿的大规模语言模型。该模型经过精心训练，具备深度的语言理解与逻辑推理能力，主要面向通用文本生成、复杂任务分析及深度交互场景。得益于其较大的参数规模，该模型在处理专业领域知识与多轮对话时能够展现出较强的稳定性和准确性。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"figures/nbg.png\" width=\"200\" alt=\"Nanbeige Logo\"> </div>",
+      "modelUrl": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "cardSummary": "",
+      "author": "Nanbeige",
+      "downloads": 9655,
+      "likes": 777,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-28T01:59:01.000Z",
+      "numParameters": 33118977024,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-10-30",
+      "modelCard": "assets/huggingface_model_cards/2026-10-30/03-recursivesi-flint.png",
+      "modelName": "RecursiveSI/flint",
+      "modelDescription": "RecursiveSI/flint是一个专注于特定任务的语言模型项目。该模型旨在通过优化基础架构来提升特定领域内的执行效率与准确度。它适用于需要高度定制化响应或特定行业应用的场景，帮助用户在处理结构化数据与执行逻辑任务时实现更高的性能，是垂直领域模型应用的理想选择。",
+      "sourceDescription": "<p align=\"center\"> <img src=\"assets/flint-logo.png\" width=\"160\" alt=\"Flint logo\"> </p>",
+      "modelUrl": "https://huggingface.co/RecursiveSI/flint",
+      "cardSummary": "",
+      "author": "RecursiveSI",
+      "downloads": 16598,
+      "likes": 1244,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-21T14:24:03.000Z",
+      "numParameters": 39785287456,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-10-30",
+      "modelCard": "assets/huggingface_model_cards/2026-10-30/04-liquidai-lfm3-1-7b.png",
+      "modelName": "LiquidAI/LFM3-1.7B",
+      "modelDescription": "LiquidAI推出的LFM3-1.7B是一款高性能的小参数模型，以极致的计算效率著称。该模型仅拥有17亿参数，设计目标是在资源受限的环境下实现高效的推理能力。它非常适合部署在移动端、边缘计算设备或对能耗有严苛要求的应用场景中，能够为实时任务提供快速的智能化支持。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" /> <div align=\"center\" style=\"display: flex; justify-content: center; align-items: center; gap: 1.25em; margin: 8px 0 1.7rem; padding: 0; line-height: 1.3;\"> <a href=\"https://console.liquid.ai/dashboard\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/api.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>API</strong></a> <a href=\"https://playground.liquid.ai/\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/try.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Try</strong></a> <a href=\"https://docs.liquid.ai/lfm/getting-started/welcome\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/docs.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Docs</strong></a> <a href=\"https://www.liquid.ai/blog/lfm3\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/blog.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Blog</strong></a> </div> </div>",
+      "modelUrl": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "cardSummary": "",
+      "author": "LiquidAI",
+      "downloads": 15885,
+      "likes": 484,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-28T17:16:37.000Z",
+      "numParameters": 1728801536,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-10-30",
+      "modelCard": "assets/huggingface_model_cards/2026-10-30/05-xhtoken-spark-x2-6-4b.png",
+      "modelName": "XHToken/Spark-X2.6-4B",
+      "modelDescription": "Spark-X2.6-4B是一款专注于终端设备部署的高效模型。该模型针对端侧代理（On-Device Agents）场景进行了专门优化，旨在处理现实世界中的各类复杂任务。得益于其40亿参数的紧凑架构，该模型在保持高效运行的同时，具备执行实际功能性任务的能力，非常适合集成在各类终端应用中。",
+      "sourceDescription": "Spark-X2.6-4B: Advancing the Frontier of On-Device Agents for Real-World Tasks <div align=\"center\">",
+      "modelUrl": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "cardSummary": "",
+      "author": "XHToken",
+      "downloads": 10163,
+      "likes": 908,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-27T12:55:34.000Z",
+      "numParameters": 4112079360,
+      "availableInferenceProviders": []
+    }
+  ]
+}
