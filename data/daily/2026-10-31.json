@@ -1,0 +1,167 @@
+{
+  "recordDate": "2026-10-31",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-10-31",
+      "modelCard": "assets/huggingface_model_cards/2026-10-31/01-deepseek-ai-deepseek-v4-1-flash-1017.png",
+      "modelName": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "modelDescription": "DeepSeek-V4.1-Flash-1017 是 DeepSeek 开发的一款高性能 AI 模型，旨在通过高效的架构设计平衡推理速度与响应质量。该模型特别适用于需要快速文本生成、代码辅助及复杂逻辑处理的开发与生产环境，为用户提供兼顾深度理解与实时交互能力的智能化解决方案。",
+      "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 145869,
+      "likes": 4008,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-10-17T05:46:55.000Z",
+      "numParameters": 763205315794,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 299.79091674213157,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "scaleway",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-v4.1-flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 153.23612461712688
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4.1-flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 100.98256376780353,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 142.4150723929391,
+          "pricingOutput": 1.2
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-10-31",
+      "modelCard": "assets/huggingface_model_cards/2026-10-31/02-nanbeige-nanbeige4-3-33b.png",
+      "modelName": "Nanbeige/Nanbeige4.3-33B",
+      "modelDescription": "Nanbeige4.3-33B 是一款拥有 330 亿参数的大型语言模型，定位为通用型基础模型。它在广泛的文本语料库上进行了深度预训练，展现出较强的逻辑推理、文本生成及多领域知识覆盖能力。该模型适合部署在对算力资源有一定需求的企业级应用中，用于复杂内容创作、智能问答及特定业务场景的自动化分析。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"figures/nbg.png\" width=\"200\" alt=\"Nanbeige Logo\"> </div>",
+      "modelUrl": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "cardSummary": "",
+      "author": "Nanbeige",
+      "downloads": 12178,
+      "likes": 798,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-28T01:59:01.000Z",
+      "numParameters": 33118977024,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-10-31",
+      "modelCard": "assets/huggingface_model_cards/2026-10-31/03-liquidai-lfm3-1-7b.png",
+      "modelName": "LiquidAI/LFM3-1.7B",
+      "modelDescription": "LFM3-1.7B 是由 Liquid AI 开发的轻量级高性能模型，采用了非传统的神经网络架构。凭借仅 17 亿参数的体量，该模型在保持极高运行效率的同时，在文本理解与处理任务上展现出卓越表现。其紧凑的体积使其非常适合部署在算力受限的边缘计算设备、移动终端或对响应延迟要求极高的实时交互应用场景中。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" /> <div align=\"center\" style=\"display: flex; justify-content: center; align-items: center; gap: 1.25em; margin: 8px 0 1.7rem; padding: 0; line-height: 1.3;\"> <a href=\"https://console.liquid.ai/dashboard\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/api.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>API</strong></a> <a href=\"https://playground.liquid.ai/\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/try.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Try</strong></a> <a href=\"https://docs.liquid.ai/lfm/getting-started/welcome\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/docs.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Docs</strong></a> <a href=\"https://www.liquid.ai/blog/lfm3\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/icons/blog.svg\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Blog</strong></a> </div> </div>",
+      "modelUrl": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "cardSummary": "",
+      "author": "LiquidAI",
+      "downloads": 23694,
+      "likes": 565,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-28T17:16:37.000Z",
+      "numParameters": 1728801536,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-10-31",
+      "modelCard": "assets/huggingface_model_cards/2026-10-31/04-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b.png",
+      "modelName": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "modelDescription": "NVIDIA Nemotron-3.5-Transcribe-30B-A4B 是一款专为语音转录及相关处理任务优化的大型模型。该模型由 NVIDIA 构建，整合了先进的音频识别与转录技术，在处理长音频、复杂口音及多语种语音任务时具有极高的准确性。它广泛适用于自动会议纪要生成、多媒体内容索引与自动实时字幕等专业级语音处理领域。",
+      "sourceDescription": "<div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://developer.nvidia.com/nemotron\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Homepage\" src=\"https://img.shields.io/badge/🏠Nemotron Developer Page-Learn More Here!-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://github.com/NVIDIA-NeMo/Speech\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"NeMo Speech\" src=\"https://img.shields.io/badge/🛠️NeMo Speech-Fine--Tune and Serve-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3.5-Transcribe-Technical-Report.pdf\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Tech Report\" src=\"https://img.shields.io/badge/📝Tech Report-Read Now!-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://huggingface.co/spaces/nvidia/nemotron-transcribe\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Try It\" src=\"https://img.shields.io/badge/🚀Try It-Live Demo-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://sgl-project.github.io/sglang-omni/cookbook/nemotron transcribe.html\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"SGLang-Omni\" src=\"https://img.shields.io/badge/⚡SGLang--Omni-Serve-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://huggingface.co/datasets/nvidia/Granary-v2\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Granary-v2 Dataset\" src=\"https://img.shields.io/badge/🤗Granary--v2-Dataset-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://discord.gg/9xpKQtVvrk\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-NVIDIA%20AI%20Developer-7289da?logo=discord&logoColor=white&color=7289da\" style=\"display: inline-block; vertical-align: middle;\"/> </a> </div>",
+      "modelUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "cardSummary": "",
+      "author": "nvidia",
+      "downloads": 15980,
+      "likes": 501,
+      "pipelineTag": "automatic-speech-recognition",
+      "lastModified": "2026-10-29T23:04:39.000Z",
+      "numParameters": 33697781029,
+      "availableInferenceProviders": [
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+          "task": "automatic-speech-recognition",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-10-31",
+      "modelCard": "assets/huggingface_model_cards/2026-10-31/05-ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-gguf.png",
+      "modelName": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "modelDescription": "ISTA-DASLab 发布的 DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF 模型，采用了 GSQ-RCO 动态非均匀量化技术，并适配 GGUF 格式。该版本显著降低了模型对显存的需求，同时优化了推理性能，使得用户能够在消费级硬件或轻量级推理引擎上高效部署深度学习模型，特别适合资源受限的离线计算环境。",
+      "sourceDescription": "<a href=\"https://github.com/IST-DASLab\"><img src=\"assets/banner.webp\" alt=\"DeepSeek-V4.1-Flash-1017, GSQ-RCO dynamic non-uniform GGUF\" width=\"100%\"/></a>",
+      "modelUrl": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "cardSummary": "",
+      "author": "ISTA-DASLab",
+      "downloads": 1747945,
+      "likes": 507,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-10-28T21:27:34.000Z",
+      "numParameters": 196613849600,
+      "availableInferenceProviders": []
+    }
+  ]
+}
