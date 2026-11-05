@@ -1,0 +1,167 @@
+{
+  "recordDate": "2026-11-05",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-11-05",
+      "modelCard": "assets/huggingface_model_cards/2026-11-05/01-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b.png",
+      "modelName": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "modelDescription": "NVIDIA Nemotron-3.5-Transcribe-30B-A4B 是一款由 NVIDIA 开发的专业音频转录模型。该模型基于 30B 参数规模，专为高效、精确的语音转文字任务设计。用户可通过 NeMo Speech 框架进行微调和部署，适用于各类需要高保真音频转录与语音处理的工业级应用场景，并支持通过 SGLang-Omni 进行加速推理。",
+      "sourceDescription": "<div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://developer.nvidia.com/nemotron\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Homepage\" src=\"https://img.shields.io/badge/🏠Nemotron Developer Page-Learn More Here!-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://github.com/NVIDIA-NeMo/Speech\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"NeMo Speech\" src=\"https://img.shields.io/badge/🛠️NeMo Speech-Fine--Tune and Serve-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3.5-Transcribe-Technical-Report.pdf\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Tech Report\" src=\"https://img.shields.io/badge/📝Tech Report-Read Now!-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://huggingface.co/spaces/nvidia/nemotron-transcribe\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Try It\" src=\"https://img.shields.io/badge/🚀Try It-Live Demo-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://sgl-project.github.io/sglang-omni/cookbook/nemotron transcribe.html\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"SGLang-Omni\" src=\"https://img.shields.io/badge/⚡SGLang--Omni-Serve-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://huggingface.co/datasets/nvidia/Granary-v2\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Granary-v2 Dataset\" src=\"https://img.shields.io/badge/🤗Granary--v2-Dataset-536af5?color=76B900&logoColor=white\" style=\"display: inline-block; vertical-align: middle;\"/> </a> <a href=\"https://discord.gg/9xpKQtVvrk\" target=\" blank\" style=\"margin: 2px;\"> <img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-NVIDIA%20AI%20Developer-7289da?logo=discord&logoColor=white&color=7289da\" style=\"display: inline-block; vertical-align: middle;\"/> </a> </div>",
+      "modelUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "cardSummary": "",
+      "author": "nvidia",
+      "downloads": 44939,
+      "likes": 1524,
+      "pipelineTag": "automatic-speech-recognition",
+      "lastModified": "2026-10-29T23:04:39.000Z",
+      "numParameters": 33697781029,
+      "availableInferenceProviders": [
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+          "task": "automatic-speech-recognition",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-11-05",
+      "modelCard": "assets/huggingface_model_cards/2026-11-05/02-deepseek-ai-deepseek-v4-1-flash-1017.png",
+      "modelName": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "modelDescription": "DeepSeek-V4.1-Flash-1017 是 DeepSeek 系列的大语言模型版本。该模型延续了 DeepSeek 的技术架构，旨在提供高性能的文本处理与推理能力，通过优化计算效率以满足高并发需求。它主要应用于各类自然语言处理任务，如智能对话、文本生成及编程辅助等，是开发者构建高性能 AI 应用的优质基座。",
+      "sourceDescription": "<!-- markdownlint-disable first-line-h1 --> <!-- markdownlint-disable html --> <!-- markdownlint-disable no-duplicate-header -->",
+      "modelUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "cardSummary": "",
+      "author": "deepseek-ai",
+      "downloads": 221621,
+      "likes": 5275,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-10-17T05:46:55.000Z",
+      "numParameters": 763205315794,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 210.75563892794344,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "scaleway",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-v4.1-flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 151.07426383434407
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek/deepseek-v4.1-flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 96.29483477585043,
+          "pricingOutput": 1.2
+        },
+        {
+          "provider": "baseten",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 134.76831369856677,
+          "pricingOutput": 1.2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-11-05",
+      "modelCard": "assets/huggingface_model_cards/2026-11-05/03-speridlabs-idol.png",
+      "modelName": "speridlabs/idol",
+      "modelDescription": "IDOL 是一个先进的 3D 生成模型，能够仅通过单张物体图片即可生成完整的 3D 高斯溅射（Gaussian Splat）模型。它不仅能捕捉图像正面信息，还能推断出原图中不可见的背面细节。该技术为 3D 内容创作提供了极大的便利，特别适用于电商展示、虚拟现实资产构建以及数字孪生等三维建模相关领域。",
+      "sourceDescription": "<p align=\"center\"><b>A single image to a 3D Gaussian splat.</b><br>One picture of an object in, up to a million 3D Gaussians out, including the sides the picture never showed.</p>",
+      "modelUrl": "https://huggingface.co/speridlabs/idol",
+      "cardSummary": "",
+      "author": "speridlabs",
+      "downloads": 14613,
+      "likes": 620,
+      "pipelineTag": "image-to-3d",
+      "lastModified": "2026-10-29T18:17:36.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-11-05",
+      "modelCard": "assets/huggingface_model_cards/2026-11-05/04-liquidai-lfm3-1-7b.png",
+      "modelName": "LiquidAI/LFM3-1.7B",
+      "modelDescription": "LiquidAI LFM3-1.7B 是一款轻量级的通用大语言模型。尽管其参数规模仅为 1.7B，但经过专门优化，具备优秀的资源利用率和推理速度。该模型旨在为资源受限的环境提供高效的 AI 处理能力，适合部署在边缘设备或对响应延迟有严苛要求的应用场景中，为开发者提供灵活的本地化模型调用选择。",
+      "sourceDescription": "<div align=\"center\"> <img src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" /> <div align=\"center\" style=\"display: flex; justify-content: center; align-items: center; gap: 1.25em; margin: 8px 0 1.7rem; padding: 0; line-height: 1.3;\"> <a href=\"https://console.liquid.ai/dashboard\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke-width=%222.2%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cstyle%3Epath%7Bstroke:%23000%7D%40media (prefers-color-scheme:dark)%7Bpath%7Bstroke:%23d1d5dc%7D%7D%3C/style%3E%3Cpath d=%22m8 6-6 6 6 6m8-12 6 6-6 6m-2-14-4 16%22/%3E%3C/svg%3E\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>API</strong></a> <a href=\"https://playground.liquid.ai/\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke-width=%222.2%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cstyle%3Epath%7Bstroke:%23000%7D%40media (prefers-color-scheme:dark)%7Bpath%7Bstroke:%23d1d5dc%7D%7D%3C/style%3E%3Cpath transform=%22translate(3 0)%22 d=%22M8 5.5v13L19 12 8 5.5Z%22/%3E%3C/svg%3E\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Try</strong></a> <a href=\"https://docs.liquid.ai/lfm/getting-started/welcome\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke-width=%222.2%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cstyle%3Epath%7Bstroke:%23000%7D%40media (prefers-color-scheme:dark)%7Bpath%7Bstroke:%23d1d5dc%7D%7D%3C/style%3E%3Cpath d=%22M12 6c-3-2-6-2.5-10-2v15c4-.5 7 0 10 2m0-15c3-2 6-2.5 10-2v15c-4-.5-7 0-10 2V6Z%22/%3E%3C/svg%3E\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Docs</strong></a> <a href=\"https://www.liquid.ai/blog/lfm3\" style=\"display: inline-flex; align-items: center; gap: 6px;\"><img src=\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke-width=%222.2%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cstyle%3Epath%7Bstroke:%23000%7D%40media (prefers-color-scheme:dark)%7Bpath%7Bstroke:%23d1d5dc%7D%7D%3C/style%3E%3Cpath transform=%22translate(1 0)%22 d=%22m16 3 5 5L8 21H3v-5L16 3Zm-3 3 5 5%22/%3E%3C/svg%3E\" width=\"16\" height=\"16\" alt=\"\" aria-hidden=\"true\" style=\"display: block; flex: 0 0 16px; width: 16px; height: 16px; margin: 0;\" /><strong>Blog</strong></a> </div> </div>",
+      "modelUrl": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "cardSummary": "",
+      "author": "LiquidAI",
+      "downloads": 54959,
+      "likes": 1486,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-11-03T18:08:34.000Z",
+      "numParameters": 1728801536,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-11-05",
+      "modelCard": "assets/huggingface_model_cards/2026-11-05/05-mistralai-mistral-large-4-1t-a52b.png",
+      "modelName": "mistralai/Mistral-Large-4-1T-A52B",
+      "modelDescription": "Mistral-Large-4-1T-A52B 是 Mistral AI 目前规模最大、能力最强的旗舰模型。该模型拥有 1 万亿参数，采用原生的多模态混合专家架构（MoE），在处理复杂推理、多模态任务方面表现卓越。它由欧洲数据中心自主训练，主要面向需要顶级计算能力的复杂企业级任务和科研应用，是高性能 AI 领域的标杆模型。",
+      "sourceDescription": "Mistral Large 4 is our largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own datacenters in Europe.",
+      "modelUrl": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "cardSummary": "",
+      "author": "mistralai",
+      "downloads": 8200,
+      "likes": 1591,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-11-02T18:30:59.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    }
+  ]
+}
