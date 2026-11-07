@@ -1,0 +1,109 @@
+{
+  "recordDate": "2026-11-07",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-11-07",
+      "modelCard": "assets/huggingface_model_cards/2026-11-07/01-moonshotai-kimi-k3-1-pro.png",
+      "modelName": "moonshotai/Kimi-K3.1-Pro",
+      "modelDescription": "Kimi-K3.1-Pro 是由月之暗面（Moonshot AI）推出的高性能大语言模型。该模型具备长上下文处理能力，能够高效处理大规模文本与复杂指令任务，适用于深度文档分析、长文创作、复杂的逻辑推理及专业领域的问答场景，是 Kimi 智能助手背后的核心技术支持。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3.1 Pro\"> </picture> </div> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.ai\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/Chat-Kimi%20K3.1%20Pro-1783ff\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://huggingface.co/moonshotai\" target=\" blank\"><img alt=\"Hugging Face\" src=\"https://img.shields.io/badge/Hugging%20Face-Moonshot%20AI-ffc107\"/></a> <a href=\"https://twitter.com/kimi moonshot\" target=\" blank\"><img alt=\"X\" src=\"https://img.shields.io/badge/X-Kimi.ai-white?logo=x&logoColor=white\"/></a> <a href=\"https://discord.gg/TYU2fdJykW\" target=\" blank\"><img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-Kimi.ai-white?logo=discord&logoColor=white\"/></a> <a href=\"https://modelscope.cn/organization/moonshotai\" target=\" blank\"><img alt=\"ModelScope\" src=\"https://img.shields.io/badge/ModelScope-Moonshot%20AI-white?labelColor=rgb(99%2C%2074%2C%255)\"/></a> </div> <div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://huggingface.co/moonshotai/Kimi-K3.1-Pro/blob/main/LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/badge/License-Kimi K3.1 Pro-f5de53?&color=f5de53\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 18432,
+      "likes": 1501,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-11-05T07:11:43.000Z",
+      "numParameters": 2780110363392,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3.1-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 39.96989009759686,
+          "pricingOutput": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-11-07",
+      "modelCard": "assets/huggingface_model_cards/2026-11-07/02-speridlabs-idol.png",
+      "modelName": "speridlabs/idol",
+      "modelDescription": "IDOL 是一个专注于 3D 重建的视觉模型，能够从单张图像中快速生成 3D 高斯泼溅（Gaussian Splatting）表示。该模型具备推断物体不可见侧面的能力，可输出包含多达百万个高斯点的 3D 模型，主要应用于数字资产创建、虚拟现实场景建模以及快速 3D 内容生产等领域。",
+      "sourceDescription": "<p align=\"center\"><b>A single image to a 3D Gaussian splat.</b><br>One picture of an object in, up to a million 3D Gaussians out, including the sides the picture never showed.</p>",
+      "modelUrl": "https://huggingface.co/speridlabs/idol",
+      "cardSummary": "",
+      "author": "speridlabs",
+      "downloads": 19139,
+      "likes": 943,
+      "pipelineTag": "image-to-3d",
+      "lastModified": "2026-10-29T18:17:36.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-11-07",
+      "modelCard": "assets/huggingface_model_cards/2026-11-07/03-ccore-qwen3-5-4b-3d-coder.png",
+      "modelName": "ccore/Qwen3.5-4B-3D-Coder",
+      "modelDescription": "Qwen3.5-4B-3D-Coder 是基于 Qwen3.5 架构的轻量化代码辅助模型，参数规模为 4B。该模型专为 3D 开发环境或相关工程任务进行针对性优化，能够辅助编写代码、解析 3D 项目结构及提供相关逻辑支持，适合在资源受限的环境下处理特定的代码生成与重构需求。",
+      "sourceDescription": "<a href=\"#whats-next\"><img src=\"images/important-note.svg\" alt=\"Important note — Next releases\" width=\"380\" /></a>",
+      "modelUrl": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "cardSummary": "",
+      "author": "ccore",
+      "downloads": 190243,
+      "likes": 793,
+      "pipelineTag": "",
+      "lastModified": "2026-11-06T01:12:46.000Z",
+      "numParameters": 4539265536,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-11-07",
+      "modelCard": "assets/huggingface_model_cards/2026-11-07/04-lightricks-ltx-2-5.png",
+      "modelName": "Lightricks/LTX-2.5",
+      "modelDescription": "LTX-2.5 是由 Lightricks 开发的生成式模型，主要面向视觉内容创作领域。该模型优化了生成流程，重点提升了图像与视频创作的质量与一致性，适用于短视频制作、创意影像生成及多媒体艺术创作，能够高效实现复杂视觉效果的自动化与半自动化处理。",
+      "sourceDescription": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.5",
+      "cardSummary": "",
+      "author": "Lightricks",
+      "downloads": 2607491,
+      "likes": 10869,
+      "pipelineTag": "image-to-video",
+      "lastModified": "2026-10-11T07:00:53.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-11-07",
+      "modelCard": "assets/huggingface_model_cards/2026-11-07/05-burner22-numbat.png",
+      "modelName": "burner22/numbat",
+      "modelDescription": "Numbat 是一个处于预训练中期的超大规模混合专家（MoE）模型，拥有 14T 参数和 1,224 个专家网络。该模型采用混合架构，代表了高性能大模型的尖端技术探索，主要用于研究复杂逻辑处理与多任务并行计算，是目前探索超大规模模型架构与推理性能的重要实验性检查点。",
+      "sourceDescription": "14T param, 114 layers, hybrid GDN/MLA, MoE (1,224 experts, top-48 + 1 shared), NVFP4. Internal codename numbat, Anthropic's next Mythos-class training run. numbat is the codename referenced in the Claude Code source leak (Mar 2026). This is a checkpoint from that training run, pulled mid-pretraining.",
+      "modelUrl": "https://huggingface.co/burner22/numbat",
+      "cardSummary": "",
+      "author": "burner22",
+      "downloads": 9066,
+      "likes": 373,
+      "pipelineTag": "",
+      "lastModified": "2026-10-24T19:09:00.000Z",
+      "numParameters": 6849378030158,
+      "availableInferenceProviders": []
+    }
+  ]
+}
