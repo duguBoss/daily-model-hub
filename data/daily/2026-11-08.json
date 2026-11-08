@@ -1,0 +1,109 @@
+{
+  "recordDate": "2026-11-08",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-11-08",
+      "modelCard": "assets/huggingface_model_cards/2026-11-08/01-speridlabs-idol.png",
+      "modelName": "speridlabs/idol",
+      "modelDescription": "IDOL 由 SperidLabs 开发，旨在实现从单张物体图像到 3D 高斯泼溅（Gaussian Splatting）模型的转换。该模型通过单张图片推断物体未展示侧面的几何结构，可生成高达百万级的 3D 高斯点云，适用于 3D 重建、数字资产快速生成及 AR/VR 等交互式视觉应用场景。",
+      "sourceDescription": "<p align=\"center\"><b>A single image to a 3D Gaussian splat.</b><br>One picture of an object in, up to a million 3D Gaussians out, including the sides the picture never showed.</p>",
+      "modelUrl": "https://huggingface.co/speridlabs/idol",
+      "cardSummary": "",
+      "author": "speridlabs",
+      "downloads": 20689,
+      "likes": 1123,
+      "pipelineTag": "image-to-3d",
+      "lastModified": "2026-10-29T18:17:36.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-11-08",
+      "modelCard": "assets/huggingface_model_cards/2026-11-08/02-moonshotai-kimi-k3-1-pro.png",
+      "modelName": "moonshotai/Kimi-K3.1-Pro",
+      "modelDescription": "Kimi-K3.1-Pro 是月之暗面（Moonshot AI）推出的高性能大语言模型，具备出色的上下文处理和长文本理解能力。该模型旨在通过深度优化提升自然语言处理的逻辑推理、多轮对话及复杂任务处理效率，是支撑 Kimi 系列智能助手业务的核心技术底座，适用于各类文本分析与内容创作场景。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3.1 Pro\"> </picture> </div> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.ai\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/Chat-Kimi%20K3.1%20Pro-1783ff\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://huggingface.co/moonshotai\" target=\" blank\"><img alt=\"Hugging Face\" src=\"https://img.shields.io/badge/Hugging%20Face-Moonshot%20AI-ffc107\"/></a> <a href=\"https://twitter.com/kimi moonshot\" target=\" blank\"><img alt=\"X\" src=\"https://img.shields.io/badge/X-Kimi.ai-white?logo=x&logoColor=white\"/></a> <a href=\"https://discord.gg/TYU2fdJykW\" target=\" blank\"><img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-Kimi.ai-white?logo=discord&logoColor=white\"/></a> <a href=\"https://modelscope.cn/organization/moonshotai\" target=\" blank\"><img alt=\"ModelScope\" src=\"https://img.shields.io/badge/ModelScope-Moonshot%20AI-white?labelColor=rgb(99%2C%2074%2C%255)\"/></a> </div> <div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://huggingface.co/moonshotai/Kimi-K3.1-Pro/blob/main/LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/badge/License-Kimi K3.1 Pro-f5de53?&color=f5de53\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 22571,
+      "likes": 1634,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-11-05T07:11:43.000Z",
+      "numParameters": 2780110363392,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3.1-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 38.42222389292567,
+          "pricingOutput": 10
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-11-08",
+      "modelCard": "assets/huggingface_model_cards/2026-11-08/03-ccore-qwen3-5-4b-3d-coder.png",
+      "modelName": "ccore/Qwen3.5-4B-3D-Coder",
+      "modelDescription": "Qwen3.5-4B-3D-Coder 是基于通义千问模型微调而成的轻量化版本，专门针对 3D 开发与编程任务进行了适配。通过 4B 参数的高效结构，该模型在保持推理速度的同时，能够辅助开发者生成 3D 逻辑代码或相关技术文档，适用于对边缘计算有要求、需要快速集成 3D 辅助开发功能的项目。",
+      "sourceDescription": "<a href=\"#whats-next\"><img src=\"images/important-note.svg\" alt=\"Important note — Next releases\" width=\"380\" /></a>",
+      "modelUrl": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "cardSummary": "",
+      "author": "ccore",
+      "downloads": 221506,
+      "likes": 876,
+      "pipelineTag": "",
+      "lastModified": "2026-11-06T01:12:46.000Z",
+      "numParameters": 4539265536,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-11-08",
+      "modelCard": "assets/huggingface_model_cards/2026-11-08/04-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png",
+      "modelName": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "modelDescription": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic 是基于 DeepSeek 和 Qwen3.5 架构的去审查化版本。该模型通过 Heretic 工具移除了原模型的对齐限制与安全过滤机制，旨在提供更广泛的生成范围，适用于特定研究领域及对回答自由度有高度要求的非商业化技术探索场景。",
+      "sourceDescription": "This is a decensored version of Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B, made using Heretic v2.0.0.dev0",
+      "modelUrl": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "cardSummary": "",
+      "author": "xtools-at",
+      "downloads": 1369,
+      "likes": 495,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-11-02T11:00:48.000Z",
+      "numParameters": 9409813744,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-11-08",
+      "modelCard": "assets/huggingface_model_cards/2026-11-08/05-lightricks-ltx-2-5.png",
+      "modelName": "Lightricks/LTX-2.5",
+      "modelDescription": "LTX-2.5 是由 Lightricks 开发的视频生成与编辑模型。该模型专注于高质量、高连贯性的视频内容创作，通过先进的架构提升了图像向视频转换及视频帧生成的性能。它广泛应用于多媒体创意生产、自动化短视频制作以及各类视觉特效开发领域，旨在提供高效且可控的视频处理能力。",
+      "sourceDescription": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.5",
+      "cardSummary": "",
+      "author": "Lightricks",
+      "downloads": 2643778,
+      "likes": 10995,
+      "pipelineTag": "image-to-video",
+      "lastModified": "2026-10-11T07:00:53.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    }
+  ]
+}
