@@ -1,0 +1,70 @@
+{
+  "weekRange": {
+    "start": "2026-11-03",
+    "end": "2026-11-09"
+  },
+  "weekTitle": "Hugging Face 每周模型趋势精选 (2026-11-09)",
+  "summary": "本周社区涌现了多个跨模态生成与高性能语言模型，涵盖了从 3D 高斯泼溅技术到长文本处理的广泛领域。开发者对去审查模型及超大规模参数模型的关注持续升温，反映了行业在创作自由度与模型深度逻辑能力之间的多维探索。",
+  "items": [
+    {
+      "modelName": "speridlabs/idol",
+      "modelUrl": "https://huggingface.co/speridlabs/idol",
+      "modelCard": "assets/huggingface_model_cards/2026-11-09/01-speridlabs-idol.png",
+      "modelDescription": "IDOL 是一款基于 3D 高斯泼溅（Gaussian Splatting）技术的生成模型，支持通过单张图像推断并生成高质量的 3D 模型。该模型能够预测物体背面信息，弥补原始图像视角缺失，适用于需要快速构建 3D 资产、虚拟现实内容创作以及数字建模辅助等场景。",
+      "pickReason": "这款模型展现了 3D 高斯泼溅技术的强大应用潜力，仅需单张照片即可推断并补全物体背面，生成高质量的 3D 模型资产。这对于快速构建 3D 内容、虚拟现实及游戏资产开发具有极高的实用价值，极大降低了建模门槛。",
+      "appearances": 1,
+      "bestRank": 1,
+      "dates": [
+        "2026-11-09"
+      ]
+    },
+    {
+      "modelName": "moonshotai/Kimi-K3.1-Pro",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "modelCard": "assets/huggingface_model_cards/2026-11-09/03-moonshotai-kimi-k3-1-pro.png",
+      "modelDescription": "Kimi-K3.1-Pro 是月之暗面（Moonshot AI）推出的高性能大语言模型，具备出色的长文本理解与处理能力。该模型旨在为用户提供更智能、连贯的对话体验，适用于复杂文档分析、长篇内容创作、深度信息检索以及各类需要大上下文支撑的复杂任务场景。",
+      "pickReason": "月之暗面推出的这款旗舰模型，凭借出色的长文本理解与处理能力，稳居榜单前列。其在复杂文档分析与深度长篇创作任务中的连贯性表现，为国内用户提供了极佳的大上下文交互体验，是目前处理大规模信息的首选工具之一。",
+      "appearances": 1,
+      "bestRank": 3,
+      "dates": [
+        "2026-11-09"
+      ]
+    },
+    {
+      "modelName": "ricursiveAI/Ripple-65B-Preview",
+      "modelUrl": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "modelCard": "assets/huggingface_model_cards/2026-11-09/04-ricursiveai-ripple-65b-preview.png",
+      "modelDescription": "Ripple-65B-Preview 是由 RicursiveAI 开发的一款大规模预训练模型，参数量达 650 亿。作为预览版，该模型展示了在复杂逻辑推理与知识整合方面的架构潜力。其定位主要在于探索高性能模型在多种语义任务中的综合表现，适用于对计算资源有需求的高级研发场景。",
+      "pickReason": "作为一款 650 亿参数的预览模型，Ripple-65B 展示了在复杂逻辑推理与知识深度整合方面的惊人潜力。虽然目前处于预览阶段，但其展示的底层架构表现，已成为许多高级研发人员探索大模型性能极限的焦点所在。",
+      "appearances": 1,
+      "bestRank": 4,
+      "dates": [
+        "2026-11-09"
+      ]
+    },
+    {
+      "modelName": "Lightricks/LTX-2.5",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.5",
+      "modelCard": "assets/huggingface_model_cards/2026-11-09/05-lightricks-ltx-2-5.png",
+      "modelDescription": "LTX-2.5 是 Lightricks 开发的生成式模型，旨在优化多媒体内容的生成质量与效率。该模型在处理图像或视频相关任务时表现出良好的生成可控性与视觉连贯性，适用于视觉创意设计、自动化媒体内容生产以及辅助动画制作等专业多媒体处理领域。",
+      "pickReason": "LTX-2.5 专注于生成式媒体创作，特别是在提升视频与图像生成的视觉连贯性与可控性方面表现优异。对于从事专业多媒体设计、自动化视频制作及创意动画领域的从业者来说，该模型是一个极具生产力的生成辅助工具。",
+      "appearances": 1,
+      "bestRank": 5,
+      "dates": [
+        "2026-11-09"
+      ]
+    },
+    {
+      "modelName": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "modelUrl": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "modelCard": "assets/huggingface_model_cards/2026-11-09/02-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png",
+      "modelDescription": "该模型是 DeepSeek-V4-Pro-Qwen3.5-9B 的去审查版本，通过 Heretic 工具进行处理。其核心定位是移除原模型内置的安全限制与回答防御机制，主要面向对模型输出内容有高度自定义需求的研究者或个人开发者，用于测试模型在不受限状态下的对话能力。",
+      "pickReason": "这是对热门基座模型的去审查版本，通过 Heretic 工具移除了内置的安全限制与防御机制。该模型满足了特定研究者对模型无偏见输出的需求，为探讨大模型在极端测试场景下的原始对话能力提供了重要的实验平台。",
+      "appearances": 1,
+      "bestRank": 2,
+      "dates": [
+        "2026-11-09"
+      ]
+    }
+  ]
+}

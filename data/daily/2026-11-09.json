@@ -1,0 +1,109 @@
+{
+  "recordDate": "2026-11-09",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-11-09",
+      "modelCard": "assets/huggingface_model_cards/2026-11-09/01-speridlabs-idol.png",
+      "modelName": "speridlabs/idol",
+      "modelDescription": "IDOL 是一款基于 3D 高斯泼溅（Gaussian Splatting）技术的生成模型，支持通过单张图像推断并生成高质量的 3D 模型。该模型能够预测物体背面信息，弥补原始图像视角缺失，适用于需要快速构建 3D 资产、虚拟现实内容创作以及数字建模辅助等场景。",
+      "sourceDescription": "<p align=\"center\"><b>A single image to a 3D Gaussian splat.</b><br>One picture of an object in, up to a million 3D Gaussians out, including the sides the picture never showed.</p>",
+      "modelUrl": "https://huggingface.co/speridlabs/idol",
+      "cardSummary": "",
+      "author": "speridlabs",
+      "downloads": 22854,
+      "likes": 1388,
+      "pipelineTag": "image-to-3d",
+      "lastModified": "2026-10-29T18:17:36.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-11-09",
+      "modelCard": "assets/huggingface_model_cards/2026-11-09/02-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png",
+      "modelName": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "modelDescription": "该模型是 DeepSeek-V4-Pro-Qwen3.5-9B 的去审查版本，通过 Heretic 工具进行处理。其核心定位是移除原模型内置的安全限制与回答防御机制，主要面向对模型输出内容有高度自定义需求的研究者或个人开发者，用于测试模型在不受限状态下的对话能力。",
+      "sourceDescription": "This is a decensored version of Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B, made using Heretic v2.0.0.dev0",
+      "modelUrl": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "cardSummary": "",
+      "author": "xtools-at",
+      "downloads": 7088,
+      "likes": 845,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-11-08T03:48:02.000Z",
+      "numParameters": 9409813744,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-11-09",
+      "modelCard": "assets/huggingface_model_cards/2026-11-09/03-moonshotai-kimi-k3-1-pro.png",
+      "modelName": "moonshotai/Kimi-K3.1-Pro",
+      "modelDescription": "Kimi-K3.1-Pro 是月之暗面（Moonshot AI）推出的高性能大语言模型，具备出色的长文本理解与处理能力。该模型旨在为用户提供更智能、连贯的对话体验，适用于复杂文档分析、长篇内容创作、深度信息检索以及各类需要大上下文支撑的复杂任务场景。",
+      "sourceDescription": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3.1 Pro\"> </picture> </div> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.ai\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/Chat-Kimi%20K3.1%20Pro-1783ff\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://huggingface.co/moonshotai\" target=\" blank\"><img alt=\"Hugging Face\" src=\"https://img.shields.io/badge/Hugging%20Face-Moonshot%20AI-ffc107\"/></a> <a href=\"https://twitter.com/kimi moonshot\" target=\" blank\"><img alt=\"X\" src=\"https://img.shields.io/badge/X-Kimi.ai-white?logo=x&logoColor=white\"/></a> <a href=\"https://discord.gg/TYU2fdJykW\" target=\" blank\"><img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-Kimi.ai-white?logo=discord&logoColor=white\"/></a> <a href=\"https://modelscope.cn/organization/moonshotai\" target=\" blank\"><img alt=\"ModelScope\" src=\"https://img.shields.io/badge/ModelScope-Moonshot%20AI-white?labelColor=rgb(99%2C%2074%2C%255)\"/></a> </div> <div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://huggingface.co/moonshotai/Kimi-K3.1-Pro/blob/main/LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/badge/License-Kimi K3.1 Pro-f5de53?&color=f5de53\"/></a> </div>",
+      "modelUrl": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "cardSummary": "",
+      "author": "moonshotai",
+      "downloads": 25569,
+      "likes": 1729,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-11-05T07:11:43.000Z",
+      "numParameters": 2780110363392,
+      "availableInferenceProviders": [
+        {
+          "provider": "together",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "moonshotai/Kimi-K3.1-Pro",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 70.28583706901767,
+          "pricingOutput": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-11-09",
+      "modelCard": "assets/huggingface_model_cards/2026-11-09/04-ricursiveai-ripple-65b-preview.png",
+      "modelName": "ricursiveAI/Ripple-65B-Preview",
+      "modelDescription": "Ripple-65B-Preview 是由 RicursiveAI 开发的一款大规模预训练模型，参数量达 650 亿。作为预览版，该模型展示了在复杂逻辑推理与知识整合方面的架构潜力。其定位主要在于探索高性能模型在多种语义任务中的综合表现，适用于对计算资源有需求的高级研发场景。",
+      "sourceDescription": "<div align=\"center\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://framerusercontent.com/images/rSaJGoPP1Saln5kpScZNGCw.png\" width=\"30%\"> <source media=\"(prefers-color-scheme: light)\" srcset=\"https://framerusercontent.com/images/3rFANSmoZuSBhjRwxZolyEU5guo.png\" width=\"30%\"> <img alt=\"Ricursive Logo\" src=\"https://framerusercontent.com/images/3rFANSmoZuSBhjRwxZolyEU5guo.png\" width=\"30%\"> </picture> </div>",
+      "modelUrl": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "cardSummary": "",
+      "author": "ricursiveAI",
+      "downloads": 5087,
+      "likes": 403,
+      "pipelineTag": "",
+      "lastModified": "2026-11-06T19:26:32.000Z",
+      "numParameters": 64782689360,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-11-09",
+      "modelCard": "assets/huggingface_model_cards/2026-11-09/05-lightricks-ltx-2-5.png",
+      "modelName": "Lightricks/LTX-2.5",
+      "modelDescription": "LTX-2.5 是 Lightricks 开发的生成式模型，旨在优化多媒体内容的生成质量与效率。该模型在处理图像或视频相关任务时表现出良好的生成可控性与视觉连贯性，适用于视觉创意设计、自动化媒体内容生产以及辅助动画制作等专业多媒体处理领域。",
+      "sourceDescription": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.5",
+      "cardSummary": "",
+      "author": "Lightricks",
+      "downloads": 2661026,
+      "likes": 11136,
+      "pipelineTag": "image-to-video",
+      "lastModified": "2026-10-11T07:00:53.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    }
+  ]
+}
