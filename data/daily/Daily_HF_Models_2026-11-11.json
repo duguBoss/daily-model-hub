@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-11",
+  "title": "🔥Deepseek重磅发布该模型是基于能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/02-speridlabs-idol.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/03-moonshotai-kimi-k3-1-pro.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/04-ricursiveai-ripple-65b-preview.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/05-minimaxai-minimax-h3-image.png"
+  ],
+  "songs": [
+    {
+      "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "artist": "xtools-at"
+    },
+    {
+      "name": "idol",
+      "artist": "speridlabs"
+    },
+    {
+      "name": "Kimi-K3.1-Pro",
+      "artist": "moonshotai"
+    },
+    {
+      "name": "Ripple-65B-Preview",
+      "artist": "ricursiveAI"
+    },
+    {
+      "name": "MiniMax-H3-Image",
+      "artist": "MiniMaxAI"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-11-11 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png\" alt=\"xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">该模型是基于 Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B 进行去审查处理的变体，使用 Heretic v2.0.0.dev0 工具构建。其核心特点在于移除了原始模型中的内容安全过滤机制，旨在为开发者提供更具灵活性的推理体验，适用于对内容生成无限制要求的特定研究或本地化应用开发场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/02-speridlabs-idol.png\" alt=\"speridlabs/idol\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">speridlabs/idol</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">IDOL 是一款专注于三维视觉任务的生成式模型，其核心能力是将单张二维物体图像转换为三维高斯点云（Gaussian Splat）。该模型能够自动推断并补全原始图像未呈现的侧面及细节信息，主要用于计算机视觉、游戏资产生成及数字孪生等领域，极大简化了从图片创建高精度三维模型的工作流程。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/03-moonshotai-kimi-k3-1-pro.png\" alt=\"moonshotai/Kimi-K3.1-Pro\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">moonshotai/Kimi-K3.1-Pro</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Kimi-K3.1-Pro 是由月之暗面（Moonshot AI）推出的高性能大语言模型。作为 Kimi 系列的进阶版本，该模型在长文本理解、复杂逻辑推理及多轮对话任务上表现出色。其定位是处理大规模复杂信息的智能助手，适用于办公自动化、深度研报分析及各类需要高准确度输出的生产力场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/04-ricursiveai-ripple-65b-preview.png\" alt=\"ricursiveAI/Ripple-65B-Preview\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">ricursiveAI/Ripple-65B-Preview</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Ripple-65B-Preview 是 RicursiveAI 发布的一款大规模参数量语言模型预览版。该模型具备较强的通用语言建模与逻辑处理能力，旨在为复杂任务提供稳健的支持。其定位偏向于科研探索与高性能算力环境下的应用开发，适用于需要深度语义理解、自动化决策与复杂内容生成的专业任务领域。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/05-minimaxai-minimax-h3-image.png\" alt=\"MiniMaxAI/MiniMax-H3-Image\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">MiniMaxAI/MiniMax-H3-Image</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniMax-H3-Image 是 MiniMax AI 推出的多模态图像生成模型。该模型支持开放权重访问，具备高质量的图像生成能力，能够根据文本描述精确绘制视觉内容。其主要应用场景涵盖艺术创作、设计辅助及多模态交互系统，为用户在构建视觉化应用和生成创意资产时提供了高效的技术底座。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-11-11T01:44:52.863231"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "https://huggingface.co/speridlabs/idol",
+    "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+  ],
+  "new_urls": [
+    "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "https://huggingface.co/speridlabs/idol",
+    "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-11-11-01",
+      "rank": 1,
+      "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "description": "该模型是基于 Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B 进行去审查处理的变体，使用 Heretic v2.0.0.dev0 工具构建。其核心特点在于移除了原始模型中的内容安全过滤机制，旨在为开发者提供更具灵活性的推理体验，适用于对内容生成无限制要求的特定研究或本地化应用开发场景。",
+      "source_description": "This is a decensored version of Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B, made using Heretic v2.0.0.dev0",
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-11/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png"
+    },
+    {
+      "id": "hf-2026-11-11-02",
+      "rank": 2,
+      "name": "speridlabs/idol",
+      "description": "IDOL 是一款专注于三维视觉任务的生成式模型，其核心能力是将单张二维物体图像转换为三维高斯点云（Gaussian Splat）。该模型能够自动推断并补全原始图像未呈现的侧面及细节信息，主要用于计算机视觉、游戏资产生成及数字孪生等领域，极大简化了从图片创建高精度三维模型的工作流程。",
+      "source_description": "<p align=\"center\"><b>A single image to a 3D Gaussian splat.</b><br>One picture of an object in, up to a million 3D Gaussians out, including the sides the picture never showed.</p>",
+      "url": "https://huggingface.co/speridlabs/idol",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-11/02-speridlabs-idol.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/02-speridlabs-idol.png"
+    },
+    {
+      "id": "hf-2026-11-11-03",
+      "rank": 3,
+      "name": "moonshotai/Kimi-K3.1-Pro",
+      "description": "Kimi-K3.1-Pro 是由月之暗面（Moonshot AI）推出的高性能大语言模型。作为 Kimi 系列的进阶版本，该模型在长文本理解、复杂逻辑推理及多轮对话任务上表现出色。其定位是处理大规模复杂信息的智能助手，适用于办公自动化、深度研报分析及各类需要高准确度输出的生产力场景。",
+      "source_description": "<div align=\"center\"> <picture> <img src=\"assets/kimi-logo.png\" width=\"30%\" alt=\"Kimi K3.1 Pro\"> </picture> </div> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://www.kimi.ai\" target=\" blank\"><img alt=\"Chat\" src=\"https://img.shields.io/badge/Chat-Kimi%20K3.1%20Pro-1783ff\"/></a> <a href=\"https://www.moonshot.ai\" target=\" blank\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Moonshot%20AI-white?logo=Kimi&logoColor=white\"/></a> </div> <div align=\"center\" style=\"line-height:1\"> <a href=\"https://huggingface.co/moonshotai\" target=\" blank\"><img alt=\"Hugging Face\" src=\"https://img.shields.io/badge/Hugging%20Face-Moonshot%20AI-ffc107\"/></a> <a href=\"https://twitter.com/kimi moonshot\" target=\" blank\"><img alt=\"X\" src=\"https://img.shields.io/badge/X-Kimi.ai-white?logo=x&logoColor=white\"/></a> <a href=\"https://discord.gg/TYU2fdJykW\" target=\" blank\"><img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-Kimi.ai-white?logo=discord&logoColor=white\"/></a> <a href=\"https://modelscope.cn/organization/moonshotai\" target=\" blank\"><img alt=\"ModelScope\" src=\"https://img.shields.io/badge/ModelScope-Moonshot%20AI-white?labelColor=rgb(99%2C%2074%2C%255)\"/></a> </div> <div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://huggingface.co/moonshotai/Kimi-K3.1-Pro/blob/main/LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/badge/License-Kimi K3.1 Pro-f5de53?&color=f5de53\"/></a> </div>",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-11/03-moonshotai-kimi-k3-1-pro.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/03-moonshotai-kimi-k3-1-pro.png"
+    },
+    {
+      "id": "hf-2026-11-11-04",
+      "rank": 4,
+      "name": "ricursiveAI/Ripple-65B-Preview",
+      "description": "Ripple-65B-Preview 是 RicursiveAI 发布的一款大规模参数量语言模型预览版。该模型具备较强的通用语言建模与逻辑处理能力，旨在为复杂任务提供稳健的支持。其定位偏向于科研探索与高性能算力环境下的应用开发，适用于需要深度语义理解、自动化决策与复杂内容生成的专业任务领域。",
+      "source_description": "<div align=\"center\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://framerusercontent.com/images/rSaJGoPP1Saln5kpScZNGCw.png\" width=\"30%\"> <source media=\"(prefers-color-scheme: light)\" srcset=\"https://framerusercontent.com/images/3rFANSmoZuSBhjRwxZolyEU5guo.png\" width=\"30%\"> <img alt=\"Ricursive Logo\" src=\"https://framerusercontent.com/images/3rFANSmoZuSBhjRwxZolyEU5guo.png\" width=\"30%\"> </picture> </div>",
+      "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-11/04-ricursiveai-ripple-65b-preview.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/04-ricursiveai-ripple-65b-preview.png"
+    },
+    {
+      "id": "hf-2026-11-11-05",
+      "rank": 5,
+      "name": "MiniMaxAI/MiniMax-H3-Image",
+      "description": "MiniMax-H3-Image 是 MiniMax AI 推出的多模态图像生成模型。该模型支持开放权重访问，具备高质量的图像生成能力，能够根据文本描述精确绘制视觉内容。其主要应用场景涵盖艺术创作、设计辅助及多模态交互系统，为用户在构建视觉化应用和生成创意资产时提供了高效的技术底座。",
+      "source_description": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3-image.jpg\" alt=\"MiniMax H3 image, Open Weights\"> </div>",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-11/05-minimaxai-minimax-h3-image.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-11/05-minimaxai-minimax-h3-image.png"
+    }
+  ]
+}
