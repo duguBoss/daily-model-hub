@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-14",
+  "title": "🔥Deepseek重磅发布该模型是基于能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/02-minimaxai-minimax-h3-image.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/03-nousresearch-arete-27b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/04-lightricks-ltx-2-5.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/05-qwen-qwen3-8-27b.png"
+  ],
+  "songs": [
+    {
+      "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "artist": "xtools-at"
+    },
+    {
+      "name": "MiniMax-H3-Image",
+      "artist": "MiniMaxAI"
+    },
+    {
+      "name": "Arete-27B",
+      "artist": "NousResearch"
+    },
+    {
+      "name": "LTX-2.5",
+      "artist": "Lightricks"
+    },
+    {
+      "name": "Qwen3.8-27B",
+      "artist": "Qwen"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-11-14 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png\" alt=\"xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">该模型是基于DeepSeek-V4-Pro-Qwen3.5-9B开发的去审查版本，利用Heretic v2.0.0.dev0工具移除内置的安全限制。其核心定位是为用户提供不受内容过滤约束的对话体验，适用于特定领域的创作或研究场景，但使用时需自行承担因去审查特性带来的潜在内容风险。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/02-minimaxai-minimax-h3-image.png\" alt=\"MiniMaxAI/MiniMax-H3-Image\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">MiniMaxAI/MiniMax-H3-Image</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniMax-H3-Image是MiniMax推出的开源权重多模态模型。该模型具备优秀的图像处理与视觉理解能力，能够执行多种视觉相关任务。作为开放权重的模型，它为开发者提供了更灵活的部署选择，适用于图像分析、视觉识别及多模态交互等相关技术场景的应用开发。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/03-nousresearch-arete-27b.png\" alt=\"NousResearch/Arete-27B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">NousResearch/Arete-27B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Arete-27B是基于阿里巴巴Qwen3.8-27B模型进行后训练的衍生版本。其主要研发目的是通过强化学习，将西方价值观融入该模型中。这一调整使得模型在处理特定文化背景下的对话与逻辑推理时，呈现出不同的价值观偏向，适用于需要特定文化准则约束的对话应用。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/04-lightricks-ltx-2-5.png\" alt=\"Lightricks/LTX-2.5\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Lightricks/LTX-2.5</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">LTX-2.5是由Lightricks开发的视频生成模型，在模型架构与许可协议上进行了重构。该模型专注于高质量的视频内容合成，展现了出色的图像序列生成能力。其定位是为创作者提供强大的多媒体生成工具，适用于自动化视频制作、动态图像生成及各类视觉内容创作场景。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/05-qwen-qwen3-8-27b.png\" alt=\"Qwen/Qwen3.8-27B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Qwen/Qwen3.8-27B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.8-27B是阿里云推出的高性能通用语言模型，已在Hugging Face Transformers框架下发布。该模型具有优秀的逻辑推理与语言处理能力，并全面兼容vLLM、SGLang等主流部署工具。它定位为工业级应用的基础底座，适用于各类大规模自然语言处理任务及复杂的应用构建。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-11-14T02:00:13.846340"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+    "https://huggingface.co/NousResearch/Arete-27B",
+    "https://huggingface.co/Lightricks/LTX-2.5",
+    "https://huggingface.co/Qwen/Qwen3.8-27B"
+  ],
+  "new_urls": [
+    "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+    "https://huggingface.co/NousResearch/Arete-27B",
+    "https://huggingface.co/Lightricks/LTX-2.5",
+    "https://huggingface.co/Qwen/Qwen3.8-27B"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-11-14-01",
+      "rank": 1,
+      "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "description": "该模型是基于DeepSeek-V4-Pro-Qwen3.5-9B开发的去审查版本，利用Heretic v2.0.0.dev0工具移除内置的安全限制。其核心定位是为用户提供不受内容过滤约束的对话体验，适用于特定领域的创作或研究场景，但使用时需自行承担因去审查特性带来的潜在内容风险。",
+      "source_description": "This is a decensored version of Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B, made using Heretic v2.0.0.dev0",
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-14/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png"
+    },
+    {
+      "id": "hf-2026-11-14-02",
+      "rank": 2,
+      "name": "MiniMaxAI/MiniMax-H3-Image",
+      "description": "MiniMax-H3-Image是MiniMax推出的开源权重多模态模型。该模型具备优秀的图像处理与视觉理解能力，能够执行多种视觉相关任务。作为开放权重的模型，它为开发者提供了更灵活的部署选择，适用于图像分析、视觉识别及多模态交互等相关技术场景的应用开发。",
+      "source_description": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3-image.jpg\" alt=\"MiniMax H3 image, Open Weights\"> </div>",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-14/02-minimaxai-minimax-h3-image.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/02-minimaxai-minimax-h3-image.png"
+    },
+    {
+      "id": "hf-2026-11-14-03",
+      "rank": 3,
+      "name": "NousResearch/Arete-27B",
+      "description": "Arete-27B是基于阿里巴巴Qwen3.8-27B模型进行后训练的衍生版本。其主要研发目的是通过强化学习，将西方价值观融入该模型中。这一调整使得模型在处理特定文化背景下的对话与逻辑推理时，呈现出不同的价值观偏向，适用于需要特定文化准则约束的对话应用。",
+      "source_description": "We post-trained over Alibaba's Qwen3.8-27B to reinforce western values on a Chinese-trained model. We call this new model Arete-27B.",
+      "url": "https://huggingface.co/NousResearch/Arete-27B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-14/03-nousresearch-arete-27b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/03-nousresearch-arete-27b.png"
+    },
+    {
+      "id": "hf-2026-11-14-04",
+      "rank": 4,
+      "name": "Lightricks/LTX-2.5",
+      "description": "LTX-2.5是由Lightricks开发的视频生成模型，在模型架构与许可协议上进行了重构。该模型专注于高质量的视频内容合成，展现了出色的图像序列生成能力。其定位是为创作者提供强大的多媒体生成工具，适用于自动化视频制作、动态图像生成及各类视觉内容创作场景。",
+      "source_description": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-14/04-lightricks-ltx-2-5.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/04-lightricks-ltx-2-5.png"
+    },
+    {
+      "id": "hf-2026-11-14-05",
+      "rank": 5,
+      "name": "Qwen/Qwen3.8-27B",
+      "description": "Qwen3.8-27B是阿里云推出的高性能通用语言模型，已在Hugging Face Transformers框架下发布。该模型具有优秀的逻辑推理与语言处理能力，并全面兼容vLLM、SGLang等主流部署工具。它定位为工业级应用的基础底座，适用于各类大规模自然语言处理任务及复杂的应用构建。",
+      "source_description": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-14/05-qwen-qwen3-8-27b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-14/05-qwen-qwen3-8-27b.png"
+    }
+  ]
+}

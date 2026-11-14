@@ -1,0 +1,198 @@
+{
+  "recordDate": "2026-11-14",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-11-14",
+      "modelCard": "assets/huggingface_model_cards/2026-11-14/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png",
+      "modelName": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "modelDescription": "该模型是基于DeepSeek-V4-Pro-Qwen3.5-9B开发的去审查版本，利用Heretic v2.0.0.dev0工具移除内置的安全限制。其核心定位是为用户提供不受内容过滤约束的对话体验，适用于特定领域的创作或研究场景，但使用时需自行承担因去审查特性带来的潜在内容风险。",
+      "sourceDescription": "This is a decensored version of Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B, made using Heretic v2.0.0.dev0",
+      "modelUrl": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "cardSummary": "",
+      "author": "xtools-at",
+      "downloads": 21586,
+      "likes": 6071,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-11-12T20:59:57.000Z",
+      "numParameters": 9409813744,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-11-14",
+      "modelCard": "assets/huggingface_model_cards/2026-11-14/02-minimaxai-minimax-h3-image.png",
+      "modelName": "MiniMaxAI/MiniMax-H3-Image",
+      "modelDescription": "MiniMax-H3-Image是MiniMax推出的开源权重多模态模型。该模型具备优秀的图像处理与视觉理解能力，能够执行多种视觉相关任务。作为开放权重的模型，它为开发者提供了更灵活的部署选择，适用于图像分析、视觉识别及多模态交互等相关技术场景的应用开发。",
+      "sourceDescription": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3-image.jpg\" alt=\"MiniMax H3 image, Open Weights\"> </div>",
+      "modelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "cardSummary": "",
+      "author": "MiniMaxAI",
+      "downloads": 437039,
+      "likes": 1020,
+      "pipelineTag": "text-to-image",
+      "lastModified": "2026-11-12T01:52:59.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-11-14",
+      "modelCard": "assets/huggingface_model_cards/2026-11-14/03-nousresearch-arete-27b.png",
+      "modelName": "NousResearch/Arete-27B",
+      "modelDescription": "Arete-27B是基于阿里巴巴Qwen3.8-27B模型进行后训练的衍生版本。其主要研发目的是通过强化学习，将西方价值观融入该模型中。这一调整使得模型在处理特定文化背景下的对话与逻辑推理时，呈现出不同的价值观偏向，适用于需要特定文化准则约束的对话应用。",
+      "sourceDescription": "We post-trained over Alibaba's Qwen3.8-27B to reinforce western values on a Chinese-trained model. We call this new model Arete-27B.",
+      "modelUrl": "https://huggingface.co/NousResearch/Arete-27B",
+      "cardSummary": "",
+      "author": "NousResearch",
+      "downloads": 5545,
+      "likes": 555,
+      "pipelineTag": "text-generation",
+      "lastModified": "2026-11-06T21:04:27.000Z",
+      "numParameters": 27356728560,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-11-14",
+      "modelCard": "assets/huggingface_model_cards/2026-11-14/04-lightricks-ltx-2-5.png",
+      "modelName": "Lightricks/LTX-2.5",
+      "modelDescription": "LTX-2.5是由Lightricks开发的视频生成模型，在模型架构与许可协议上进行了重构。该模型专注于高质量的视频内容合成，展现了出色的图像序列生成能力。其定位是为创作者提供强大的多媒体生成工具，适用于自动化视频制作、动态图像生成及各类视觉内容创作场景。",
+      "sourceDescription": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-2.5",
+      "cardSummary": "",
+      "author": "Lightricks",
+      "downloads": 2778909,
+      "likes": 11786,
+      "pipelineTag": "image-to-video",
+      "lastModified": "2026-10-11T07:00:53.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-11-14",
+      "modelCard": "assets/huggingface_model_cards/2026-11-14/05-qwen-qwen3-8-27b.png",
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelDescription": "Qwen3.8-27B是阿里云推出的高性能通用语言模型，已在Hugging Face Transformers框架下发布。该模型具有优秀的逻辑推理与语言处理能力，并全面兼容vLLM、SGLang等主流部署工具。它定位为工业级应用的基础底座，适用于各类大规模自然语言处理任务及复杂的应用构建。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 6960395,
+      "likes": 19881,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-11-07T04:42:17.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": [
+        {
+          "provider": "scaleway",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "qwen3.8-27b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 105.21192357029595
+        },
+        {
+          "provider": "ovhcloud",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 92.00607424689207,
+          "pricingOutput": 3.19
+        },
+        {
+          "provider": "nscale",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 72.57316179314944,
+          "pricingOutput": 2.5
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "qwen/qwen3.8-27b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 39.36742790030634,
+          "pricingOutput": 3
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 57.351833914953126,
+          "pricingOutput": 2.5
+        },
+        {
+          "provider": "cerebras",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "qwen-3.8-27b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 745.7968425810457,
+          "pricingOutput": 1.49
+        }
+      ]
+    }
+  ]
+}
