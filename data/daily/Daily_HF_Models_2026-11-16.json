@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-16",
+  "title": "🔥Deepseek重磅发布该模型是基于能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/02-minimaxai-minimax-h3-image.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/03-qwen-qwen3-8-27b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/04-lightricks-ltx-2-5.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/05-comfy-org-minimax-h3-image.png"
+  ],
+  "songs": [
+    {
+      "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "artist": "xtools-at"
+    },
+    {
+      "name": "MiniMax-H3-Image",
+      "artist": "MiniMaxAI"
+    },
+    {
+      "name": "Qwen3.8-27B",
+      "artist": "Qwen"
+    },
+    {
+      "name": "LTX-2.5",
+      "artist": "Lightricks"
+    },
+    {
+      "name": "MiniMax-H3-Image",
+      "artist": "Comfy-Org"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-11-16 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png\" alt=\"xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">该模型是基于DeepSeek-V4-Pro-Qwen3.5-9B进行去审查处理的版本，使用Heretic v2.0.0.dev0工具构建。其主要移除了原模型的内置安全限制，适用于需要不受限内容生成的特定研究与开发场景。用户需注意，该版本缺乏安全对齐，输出内容可能包含未经处理的信息。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/02-minimaxai-minimax-h3-image.png\" alt=\"MiniMaxAI/MiniMax-H3-Image\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">MiniMaxAI/MiniMax-H3-Image</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniMax-H3-Image是由MiniMax推出的图像生成模型。该模型权重已开源，旨在提供高性能的图像合成能力。其技术架构针对视觉生成进行了优化，支持多种复杂的图像生成任务，适用于开发者将其集成到各类视觉创作工具或应用生态中，以实现高质量的图像内容生产。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/03-qwen-qwen3-8-27b.png\" alt=\"Qwen/Qwen3.8-27B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Qwen/Qwen3.8-27B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Qwen3.8-27B是一款高性能的参数规模为27B的预训练语言模型。该模型提供适配Hugging Face Transformers格式的权重文件，完美兼容vLLM、SGLang等主流推理框架，具备卓越的自然语言理解与生成能力，适合处理大规模文本分析、复杂指令遵循以及各类高并发生产环境下的任务需求。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/04-lightricks-ltx-2-5.png\" alt=\"Lightricks/LTX-2.5\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Lightricks/LTX-2.5</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">LTX-2.5是由Lightricks开发的一款专注于视觉生成的AI模型。该版本在模型卡设计上突出了许可协议的优先级，旨在规范模型的使用范围。其主要应用领域在于生成高质量的视觉图像，具备较强的灵活性，能够适应不同艺术风格和生成任务的要求，为多媒体创作提供技术支撑。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/05-comfy-org-minimax-h3-image.png\" alt=\"Comfy-Org/MiniMax-H3-Image\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Comfy-Org/MiniMax-H3-Image</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Comfy-Org提供的MiniMax-H3-Image是针对MiniMax官方模型构建的适配版本。该模型保持了原版图像生成的核心能力，并专门针对ComfyUI等工作流平台进行了兼容性适配，旨在帮助用户更便捷地在模块化创作流程中调用此视觉模型，以实现定制化的图像生成工作流。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-11-16T01:37:00.852041"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+    "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "https://huggingface.co/Lightricks/LTX-2.5",
+    "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+  ],
+  "new_urls": [
+    "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+    "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "https://huggingface.co/Lightricks/LTX-2.5",
+    "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-11-16-01",
+      "rank": 1,
+      "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "description": "该模型是基于DeepSeek-V4-Pro-Qwen3.5-9B进行去审查处理的版本，使用Heretic v2.0.0.dev0工具构建。其主要移除了原模型的内置安全限制，适用于需要不受限内容生成的特定研究与开发场景。用户需注意，该版本缺乏安全对齐，输出内容可能包含未经处理的信息。",
+      "source_description": "This is a decensored version of Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B, made using Heretic v2.0.0.dev0",
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-16/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/01-xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic.png"
+    },
+    {
+      "id": "hf-2026-11-16-02",
+      "rank": 2,
+      "name": "MiniMaxAI/MiniMax-H3-Image",
+      "description": "MiniMax-H3-Image是由MiniMax推出的图像生成模型。该模型权重已开源，旨在提供高性能的图像合成能力。其技术架构针对视觉生成进行了优化，支持多种复杂的图像生成任务，适用于开发者将其集成到各类视觉创作工具或应用生态中，以实现高质量的图像内容生产。",
+      "source_description": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3-image.jpg\" alt=\"MiniMax H3 image, Open Weights\"> </div>",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-16/02-minimaxai-minimax-h3-image.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/02-minimaxai-minimax-h3-image.png"
+    },
+    {
+      "id": "hf-2026-11-16-03",
+      "rank": 3,
+      "name": "Qwen/Qwen3.8-27B",
+      "description": "Qwen3.8-27B是一款高性能的参数规模为27B的预训练语言模型。该模型提供适配Hugging Face Transformers格式的权重文件，完美兼容vLLM、SGLang等主流推理框架，具备卓越的自然语言理解与生成能力，适合处理大规模文本分析、复杂指令遵循以及各类高并发生产环境下的任务需求。",
+      "source_description": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-16/03-qwen-qwen3-8-27b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/03-qwen-qwen3-8-27b.png"
+    },
+    {
+      "id": "hf-2026-11-16-04",
+      "rank": 4,
+      "name": "Lightricks/LTX-2.5",
+      "description": "LTX-2.5是由Lightricks开发的一款专注于视觉生成的AI模型。该版本在模型卡设计上突出了许可协议的优先级，旨在规范模型的使用范围。其主要应用领域在于生成高质量的视觉图像，具备较强的灵活性，能够适应不同艺术风格和生成任务的要求，为多媒体创作提供技术支撑。",
+      "source_description": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-16/04-lightricks-ltx-2-5.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/04-lightricks-ltx-2-5.png"
+    },
+    {
+      "id": "hf-2026-11-16-05",
+      "rank": 5,
+      "name": "Comfy-Org/MiniMax-H3-Image",
+      "description": "Comfy-Org提供的MiniMax-H3-Image是针对MiniMax官方模型构建的适配版本。该模型保持了原版图像生成的核心能力，并专门针对ComfyUI等工作流平台进行了兼容性适配，旨在帮助用户更便捷地在模块化创作流程中调用此视觉模型，以实现定制化的图像生成工作流。",
+      "source_description": "Original model repository: https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-16/05-comfy-org-minimax-h3-image.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-16/05-comfy-org-minimax-h3-image.png"
+    }
+  ]
+}
