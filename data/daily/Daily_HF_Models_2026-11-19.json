@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-19",
+  "title": "🔥Haru重磅发布是一款专注于能力再升级",
+  "covers": [
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/01-higurashi-ai-haru-4b.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/02-harness-hub-qwen3-8-27b-pi-adapted.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/03-lightricks-ltx-2-5.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/04-thinkingmachines-inkling-2-small.png",
+    "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/05-minimaxai-minimax-h3-image.png"
+  ],
+  "songs": [
+    {
+      "name": "Haru-4B",
+      "artist": "higurashi-ai"
+    },
+    {
+      "name": "Qwen3.8-27B-pi-adapted",
+      "artist": "harness-hub"
+    },
+    {
+      "name": "LTX-2.5",
+      "artist": "Lightricks"
+    },
+    {
+      "name": "Inkling-2-Small",
+      "artist": "thinkingmachines"
+    },
+    {
+      "name": "MiniMax-H3-Image",
+      "artist": "MiniMaxAI"
+    }
+  ],
+  "weixin_html": "<section data-side-margin=\"0\" style=\"margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;font-size:15px;line-height:1.75;color:#1f2937;overflow:hidden;\"><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/xm1dT1jCe8lIO3P2oFVtd1x040PKGCRPN033gUTrHQQz0Licdqug5X1QgUPQBRCicoTqdYMrpgk7etibXLkK9rwcg/0?wx_fmt=gif&amp;from=appmsg\" alt=\"关注提示\" style=\"display:block;width:100%;height:auto;border:0;\" /></section><section style=\"margin:0;padding:24px 0 8px;background:linear-gradient(180deg,#fff8f1 0%,#ffffff 100%);\"><section style=\"margin:0;padding:0 16px 20px;\"><p style=\"margin:0 0 10px;font-size:12px;line-height:1.4;color:#f97316;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;\">Daily Model Hub</p><h1 style=\"margin:0;font-size:22px;line-height:1.4;color:#111827;font-weight:800;\">每日精选HuggingFace热门模型</h1><p style=\"margin:12px 0 0;font-size:13px;line-height:1.6;color:#6b7280;\">2026-11-19 · Hugging Face 热门模型速览</p></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#1 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/01-higurashi-ai-haru-4b.png\" alt=\"higurashi-ai/Haru-4B\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">higurashi-ai/Haru-4B</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Haru-4B是一款专注于低延迟的多语言全双工连续语音对话基座模型。它支持类似人类电话交流的实时监听与语音输出，具备高效的交互响应能力。该模型主要面向科研领域发布，旨在探索语音交互技术的实时性与自然流畅度，适用于需要即时响应的语音助手或对话系统研发。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#2 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/02-harness-hub-qwen3-8-27b-pi-adapted.png\" alt=\"harness-hub/Qwen3.8-27B-pi-adapted\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">harness-hub/Qwen3.8-27B-pi-adapted</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">该模型是基于Qwen2-27B架构训练的LoRA适配器，专门针对pi编程智能体进行了强化学习优化。它能够有效提升模型在软件工程与终端任务中的处理能力，特别适用于复杂的代码生成、调试以及终端指令执行场景，旨在增强开发者在自动化编程任务中的工作效率。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#3 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/03-lightricks-ltx-2-5.png\" alt=\"Lightricks/LTX-2.5\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">Lightricks/LTX-2.5</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">LTX-2.5是由Lightricks开发的一款专注于视频或图像生成能力的预训练模型。该模型在设计上遵循许可优先原则，通过对模型卡片的重构提升了技术信息的透明度。作为高性能视觉生成工具，它主要应用于创意内容生产、多媒体合成等视觉艺术创作领域。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#4 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/04-thinkingmachines-inkling-2-small.png\" alt=\"thinkingmachines/Inkling-2-Small\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">thinkingmachines/Inkling-2-Small</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">Inkling-2-Small是Thinking Machines推出的一款紧凑型模型，侧重于轻量化部署与高效能表现。虽然具体技术细节有限，但该系列模型通常针对资源受限的环境进行优化，适用于终端侧任务处理、简单自然语言理解及分类任务，在保证运行速度的同时提供稳定的模型推断支持。</p></section></section><section style=\"margin:0 0 24px;padding:0;width:100%;background-color:#ffffff;border-top:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;\"><section style=\"display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(135deg,#ea580c 0%,#fb923c 100%);\"><span style=\"font-size:14px;line-height:1.4;color:#ffffff;font-weight:700;\">#5 Trending Model</span><span style=\"font-size:12px;line-height:1.4;color:rgba(255,255,255,0.88);\">Hugging Face</span></section><section style=\"margin:0;padding:0;width:100%;line-height:0;\"><img src=\"https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/05-minimaxai-minimax-h3-image.png\" alt=\"MiniMaxAI/MiniMax-H3-Image\" style=\"display:block;width:100%;height:auto;border:0;margin:0;padding:0;\" /></section><section style=\"margin:0;padding:16px 16px 18px;background-color:#ffffff;\"><h2 style=\"margin:0 0 10px;font-size:19px;line-height:1.45;color:#111827;font-weight:700;word-break:break-word;\">MiniMaxAI/MiniMax-H3-Image</h2><p style=\"margin:0 0 14px;font-size:14px;line-height:1.85;color:#374151;text-align:left;word-break:break-word;\">MiniMax-H3-Image是MiniMax推出的图像生成模型，现已开放模型权重。该模型专注于高品质的视觉内容生成，具备较强的图像理解与创作能力。它不仅丰富了开源视觉模型生态，还可广泛应用于各类艺术创作、图像编辑及多模态交互应用场景中，为开发者提供高精度的图像输出支持。</p></section></section></section><section style=\"margin:0;padding:0;width:100%;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/qHfXxy1pes1eXWicJWxHTLGxL323Gh029A2JkOLQP3EibEUYlkLeB2vgvuhnUoyqoPg1etjxySFodeOgR45dHqS2s2kZ8KyjA65MCPMPbBBGo/0?wx_fmt=gif\" alt=\"底部引导\" style=\"display:block;width:100%;height:auto;border:0;\" /></section></section>",
+  "generation": {
+    "ai_enabled": true,
+    "ai_success": true,
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite-preview",
+    "error": "",
+    "fallback_used": false,
+    "model_count": 5,
+    "generated_at": "2026-11-19T02:57:35.520050"
+  },
+  "source_top_urls": [
+    "https://huggingface.co/higurashi-ai/Haru-4B",
+    "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+    "https://huggingface.co/Lightricks/LTX-2.5",
+    "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+  ],
+  "new_urls": [
+    "https://huggingface.co/higurashi-ai/Haru-4B",
+    "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+    "https://huggingface.co/Lightricks/LTX-2.5",
+    "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+  ],
+  "models": [
+    {
+      "id": "hf-2026-11-19-01",
+      "rank": 1,
+      "name": "higurashi-ai/Haru-4B",
+      "description": "Haru-4B是一款专注于低延迟的多语言全双工连续语音对话基座模型。它支持类似人类电话交流的实时监听与语音输出，具备高效的交互响应能力。该模型主要面向科研领域发布，旨在探索语音交互技术的实时性与自然流畅度，适用于需要即时响应的语音助手或对话系统研发。",
+      "source_description": "Haru-4B is a low-latency and multilingual full-duplex continuous spoken dialogue foundation model: it listens and speaks at the same time, the way people do on a phone call. It is a pretrained base model, released for research.",
+      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-19/01-higurashi-ai-haru-4b.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/01-higurashi-ai-haru-4b.png"
+    },
+    {
+      "id": "hf-2026-11-19-02",
+      "rank": 2,
+      "name": "harness-hub/Qwen3.8-27B-pi-adapted",
+      "description": "该模型是基于Qwen2-27B架构训练的LoRA适配器，专门针对pi编程智能体进行了强化学习优化。它能够有效提升模型在软件工程与终端任务中的处理能力，特别适用于复杂的代码生成、调试以及终端指令执行场景，旨在增强开发者在自动化编程任务中的工作效率。",
+      "source_description": "A LoRA adapter for Qwen/Qwen3.8-27B, trained with reinforcement learning to work as the model behind the pi coding agent on software-engineering and terminal tasks.",
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-19/02-harness-hub-qwen3-8-27b-pi-adapted.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/02-harness-hub-qwen3-8-27b-pi-adapted.png"
+    },
+    {
+      "id": "hf-2026-11-19-03",
+      "rank": 3,
+      "name": "Lightricks/LTX-2.5",
+      "description": "LTX-2.5是由Lightricks开发的一款专注于视频或图像生成能力的预训练模型。该模型在设计上遵循许可优先原则，通过对模型卡片的重构提升了技术信息的透明度。作为高性能视觉生成工具，它主要应用于创意内容生产、多媒体合成等视觉艺术创作领域。",
+      "source_description": "<!-- LTX-2.5 model card — license-first redesign. YAML frontmatter above kept intact. -->",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-19/03-lightricks-ltx-2-5.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/03-lightricks-ltx-2-5.png"
+    },
+    {
+      "id": "hf-2026-11-19-04",
+      "rank": 4,
+      "name": "thinkingmachines/Inkling-2-Small",
+      "description": "Inkling-2-Small是Thinking Machines推出的一款紧凑型模型，侧重于轻量化部署与高效能表现。虽然具体技术细节有限，但该系列模型通常针对资源受限的环境进行优化，适用于终端侧任务处理、简单自然语言理解及分类任务，在保证运行速度的同时提供稳定的模型推断支持。",
+      "source_description": "<img src=\"https://cdn-uploads.huggingface.co/production/uploads/630e8f0bf6f6d700f50ebd2e/AvmDwmrWRMnKjOWvmLieg.png\" style=\"display: block;margin-left: auto;margin-right: auto;width: 30%;\">",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-19/04-thinkingmachines-inkling-2-small.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/04-thinkingmachines-inkling-2-small.png"
+    },
+    {
+      "id": "hf-2026-11-19-05",
+      "rank": 5,
+      "name": "MiniMaxAI/MiniMax-H3-Image",
+      "description": "MiniMax-H3-Image是MiniMax推出的图像生成模型，现已开放模型权重。该模型专注于高品质的视觉内容生成，具备较强的图像理解与创作能力。它不仅丰富了开源视觉模型生态，还可广泛应用于各类艺术创作、图像编辑及多模态交互应用场景中，为开发者提供高精度的图像输出支持。",
+      "source_description": "<div align=\"center\"> <img width=\"100%\" src=\"assets/minimax-h3-image.jpg\" alt=\"MiniMax H3 image, Open Weights\"> </div>",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "card_summary": "",
+      "image_path": "assets/huggingface_model_cards/2026-11-19/05-minimaxai-minimax-h3-image.png",
+      "cover_url": "https://raw.githubusercontent.com/duguBoss/daily-model-hub/main/assets/huggingface_model_cards/2026-11-19/05-minimaxai-minimax-h3-image.png"
+    }
+  ]
+}
