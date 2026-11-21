@@ -1,0 +1,214 @@
+{
+  "recordDate": "2026-11-21",
+  "source": "https://huggingface.co/models?sort=trending",
+  "limit": 5,
+  "models": [
+    {
+      "rank": 1,
+      "recordDate": "2026-11-21",
+      "modelCard": "assets/huggingface_model_cards/2026-11-21/01-higurashi-ai-haru-4b.png",
+      "modelName": "higurashi-ai/Haru-4B",
+      "modelDescription": "Haru-4B 是一款针对低延迟多语言交互设计的全双工连续口语对话基础模型。该模型支持人类通话般的同步听说功能，旨在通过预训练基础模型的能力，为语音交互领域的学术研究提供支持，主要适用于实时语音对话系统的开发与探索。",
+      "sourceDescription": "Haru-4B is a low-latency and multilingual full-duplex continuous spoken dialogue foundation model: it listens and speaks at the same time, the way people do on a phone call. It is a pretrained base model, released for research.",
+      "modelUrl": "https://huggingface.co/higurashi-ai/Haru-4B",
+      "cardSummary": "",
+      "author": "higurashi-ai",
+      "downloads": 7323,
+      "likes": 5696,
+      "pipelineTag": "audio-to-audio",
+      "lastModified": "2026-11-13T01:22:38.000Z",
+      "numParameters": 5270000897,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 2,
+      "recordDate": "2026-11-21",
+      "modelCard": "assets/huggingface_model_cards/2026-11-21/02-harness-hub-qwen3-8-27b-pi-adapted.png",
+      "modelName": "harness-hub/Qwen3.8-27B-pi-adapted",
+      "modelDescription": "该模型是基于 Qwen3.8-27B 开发的 LoRA 适配器，通过强化学习进行专项训练。其核心定位是作为 pi 编程智能体的后台引擎，能够高效处理复杂的软件工程任务及终端指令，主要适用于自动化代码编写、调试及软件开发辅助场景。",
+      "sourceDescription": "A LoRA adapter for Qwen/Qwen3.8-27B, trained with reinforcement learning to work as the model behind the pi coding agent on software-engineering and terminal tasks.",
+      "modelUrl": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "cardSummary": "",
+      "author": "harness-hub",
+      "downloads": 1874,
+      "likes": 866,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-11-20T13:55:42.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 3,
+      "recordDate": "2026-11-21",
+      "modelCard": "assets/huggingface_model_cards/2026-11-21/03-thinkingmachines-inkling-2-mini.png",
+      "modelName": "thinkingmachines/Inkling-2-Mini",
+      "modelDescription": "Inkling-2-Mini 是由 Thinking Machines 开发的轻量级人工智能模型。该模型旨在平衡计算资源消耗与执行效率，适用于需要快速响应的文本处理或特定任务场景，其具体能力与适用领域取决于该系列的架构与后续的微调应用。",
+      "sourceDescription": "<img src=\"https://cdn-uploads.huggingface.co/production/uploads/630e8f0bf6f6d700f50ebd2e/AvmDwmrWRMnKjOWvmLieg.png\" style=\"display: block;margin-left: auto;margin-right: auto;width: 30%;\">",
+      "modelUrl": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "cardSummary": "",
+      "author": "thinkingmachines",
+      "downloads": 136,
+      "likes": 744,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-11-20T22:55:20.000Z",
+      "numParameters": 26388646440,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 4,
+      "recordDate": "2026-11-21",
+      "modelCard": "assets/huggingface_model_cards/2026-11-21/04-sentinel7-h3.png",
+      "modelName": "Sentinel7/h3",
+      "modelDescription": "Sentinel7/h3 是一个基于机器学习架构的模型，现已在 Hugging Face 平台上开源。该模型主要面向开发者和研究人员提供，支持用户下载并进行本地化部署与测试，其具体功能特征与应用范畴需参考配套的开发文件。",
+      "sourceDescription": "Machine learning model. Download, explore files and run it on Hugging Face.",
+      "modelUrl": "https://huggingface.co/Sentinel7/h3",
+      "cardSummary": "",
+      "author": "Sentinel7",
+      "downloads": 0,
+      "likes": 311,
+      "pipelineTag": "",
+      "lastModified": "2026-11-19T00:03:59.000Z",
+      "numParameters": null,
+      "availableInferenceProviders": []
+    },
+    {
+      "rank": 5,
+      "recordDate": "2026-11-21",
+      "modelCard": "assets/huggingface_model_cards/2026-11-21/05-qwen-qwen3-8-27b.png",
+      "modelName": "Qwen/Qwen3.8-27B",
+      "modelDescription": "Qwen3.8-27B 是一系列经过后训练的通用大语言模型，包含完整的模型权重与配置文件。该模型与 Transformers、vLLM 及 SGLang 等主流深度学习框架高度兼容，适用于各类自然语言处理任务，如文本生成、逻辑推理及复杂的工业级 AI 应用部署。",
+      "sourceDescription": "[!Note] This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "cardSummary": "",
+      "author": "Qwen",
+      "downloads": 6454419,
+      "likes": 20813,
+      "pipelineTag": "image-text-to-text",
+      "lastModified": "2026-11-07T04:42:17.000Z",
+      "numParameters": 27781427952,
+      "availableInferenceProviders": [
+        {
+          "provider": "scaleway",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "qwen3.8-27b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 118.59362590027429
+        },
+        {
+          "provider": "ovhcloud",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 156.93815307474296,
+          "pricingOutput": 3.19
+        },
+        {
+          "provider": "openrouter",
+          "modelStatus": "live",
+          "providerStatus": "staging",
+          "providerId": "qwen/qwen3.8-27b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 138.558740136136,
+          "pricingOutput": 1.96
+        },
+        {
+          "provider": "nscale",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 123.14932435294445,
+          "pricingOutput": 2.5
+        },
+        {
+          "provider": "novita",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "qwen/qwen3.8-27b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": false,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 52.376692942440755,
+          "pricingOutput": 3
+        },
+        {
+          "provider": "featherless-ai",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false
+        },
+        {
+          "provider": "deepinfra",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "Qwen/Qwen3.8-27B",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": false,
+          "isFastestThroughput": false,
+          "isModelAuthor": false,
+          "tokensPerSecond": 50.6340932609903,
+          "pricingOutput": 2.5
+        },
+        {
+          "provider": "cerebras",
+          "modelStatus": "live",
+          "providerStatus": "live",
+          "providerId": "qwen-3.8-27b",
+          "task": "conversational",
+          "features": {
+            "structuredOutput": true,
+            "toolCalling": true
+          },
+          "isCheapestPricingOutput": true,
+          "isFastestThroughput": true,
+          "isModelAuthor": false,
+          "tokensPerSecond": 853.4312028648692,
+          "pricingOutput": 1.49
+        }
+      ]
+    }
+  ]
+}
